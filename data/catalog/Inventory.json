@@ -1,0 +1,41 @@
+{
+ "page": "Inventory",
+ "cards": [
+  {
+   "card": "Skill",
+   "tab": null,
+   "text": [
+    "Active Skill Support Skill Passive Skill Activation Medium Skill Magnificent Support Skill Noble Support Skill Modularization Skill Tartarus Skill Origin Tartarus Skill"
+   ]
+  },
+  {
+   "card": "Gear",
+   "tab": null,
+   "text": [
+    "One-handed: Claw Dagger One-Handed Sword One-Handed Hammer One-Handed Axe Wand Rod Scepter Cane Pistol",
+    "Two-handed: Two-Handed Sword Two-Handed Hammer Two-Handed Axe Tin Staff Cudgel Bow Crossbow Musket Fire Cannon",
+    "Helmet: STR Helmet DEX Helmet INT Helmet Vorax Limb: Head",
+    "Chest Armor: STR Chest Armor DEX Chest Armor INT Chest Armor Vorax Limb: Chest",
+    "Gloves: STR Gloves DEX Gloves INT Gloves Vorax Limb: Hands",
+    "Boots: STR Boots DEX Boots INT Boots Vorax Limb: Legs Vorax Aberrant Limb: Legs",
+    "Shield: STR Shield DEX Shield INT Shield",
+    "Necklace Vorax Limb: Neck",
+    "Ring Spirit Ring Vorax Limb: Digits Vorax Aberrant Limb: Digits",
+    "Belt Vorax Limb: Waist Vorax Aberrant Limb: Waist",
+    "Hero: Hero Memories",
+    "Talent Divinity Slate Ethereal Prism",
+    "Pactspirit Destiny",
+    "Follower: Lone Wolf Mammoth Witch Rat Lion Queen",
+    "Drop Source",
+    "Precious Legendary Gear Matchless Legendary gear Ultimate Legendary Gear"
+   ]
+  },
+  {
+   "card": "Stash",
+   "tab": null,
+   "text": [
+    "Fluorescent Memory Universal Items Compass Probe Season Compass Astrolabe Ember Fossil Fuel Divinity Emblems Dark Surge Edict Void Sea Invitation Desire Core Queen's Wick Queen's Grace Beacon Primeval Core Proof of the Brave Corrosion Material Memory Scrap Memory Thread Transcendence Wedge Unifying Wedge Divinity Pact Divinity Fragment Divinity Stone The City of Aeterna Aeterna Reverberation Whispering Mist TOWER Token Lunaria God of Might Goddess of Hunting Goddess of Knowledge God of War Goddess of Deception God of Machines Gear Blueprint The Frozen Canvas Destiny Related Inverse Image Echo Undetermined Fate Aromatic Material Mod Normal Organ Flawless Wings - Persistent Flawless Skin - Defensive Flawless Eyes - Debuff Flawless Embryo - Summon Flawless Heart - Buff Flawless Tongue - Blessing Flawless Liver - Damage Conversion Special Organ - Other Core Organ - Helmet Core Organ - Chest Armor Core Organ - Gloves Core Organ - Boots Core Organ - Ring Core Organ - Necklace Core Organ - Belt Cutting Instrument Imprinting Iron Suture Vorax Exchange Material Revival Material Revival Material (Lunar Phase) Nether King's Divinity Divine Remnant Soul Nail Tempering Medal"
+   ]
+  }
+ ]
+}

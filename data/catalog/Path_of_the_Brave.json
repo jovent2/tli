@@ -1,0 +1,559 @@
+{
+ "page": "Path_of_the_Brave",
+ "cards": [
+  {
+   "card": "Path of the Brave exclusive drop",
+   "tab": "PathoftheBraveexclusivedrop",
+   "entries": [
+    {
+     "lines": [
+      "Supports Passive Skill.",
+      "+10% Sealed Mana Compensation for the supported skill",
+      "+10% Sealed Mana Compensation for the supported skill"
+     ],
+     "name": "Restrain",
+     "key": "Restrain"
+    },
+    {
+     "lines": [
+      "Supports Passive Skill.",
+      "Replaces Sealed Mana of the supported skill with Sealed Life",
+      "-50.5% additional Sealed Mana Compensation for the supported skill",
+      "Replaces Sealed Mana of the supported skill with Sealed Life",
+      "-50.5% additional Sealed Mana Compensation for the supported skill"
+     ],
+     "name": "Precise: Seal Conversion",
+     "key": "Precise_Seal_Conversion"
+    },
+    {
+     "lines": [
+      "Supports Aura Skills.",
+      "-90% additional Aura Effect received from the supported skill.",
+      "+26% Aura effect for the supported skill",
+      "-12% Sealed Mana Compensation for the supported skill",
+      "-90% additional Aura Effect received from the supported skill.",
+      "+26% Aura effect for the supported skill",
+      "-12% Sealed Mana Compensation for the supported skill"
+     ],
+     "name": "Precise: Selfless",
+     "key": "Precise_Selfless"
+    },
+    {
+     "lines": [
+      "Supports Aura Skills.",
+      "The supported skill does not take effect on other allies",
+      "+24% Aura effect for the supported skill",
+      "-12% Sealed Mana Compensation for the supported skill",
+      "The supported skill does not take effect on other allies",
+      "+24% Aura effect for the supported skill",
+      "-12% Sealed Mana Compensation for the supported skill"
+     ],
+     "name": "Precise: Selfishness",
+     "key": "Precise_Selfishness"
+    },
+    {
+     "lines": [
+      "Supports Aura Skills.",
+      "The supported skill +6% Aura Effect for each Aura that affects you, stacking up to 5 time(s)",
+      "The supported skill +6% Aura Effect for each Aura that affects you, stacking up to 5 time(s)"
+     ],
+     "name": "Precise: Stand as One",
+     "key": "Precise_Stand_as_One"
+    },
+    {
+     "lines": [
+      "Supports Aura Skills.",
+      "+35% Sealed Mana Compensation for the supported skill",
+      "The supported skill -19% additional Aura Effect",
+      "+35% Sealed Mana Compensation for the supported skill",
+      "The supported skill -19% additional Aura Effect"
+     ],
+     "name": "Precise: Disciplined",
+     "key": "Precise_Disciplined"
+    },
+    {
+     "lines": [
+      "Supports Aura Skills.",
+      "The supported skill +35% Aura Effect when the character is affected by no more than 2 Auras",
+      "The supported skill +35% Aura Effect when the character is affected by no more than 2 Auras"
+     ],
+     "name": "Precise: Concentrated",
+     "key": "Precise_Concentrated"
+    },
+    {
+     "lines": [
+      "Supports Aura Skills.",
+      "The supported skill +30% Aura Effect if there is an Elite within 10 m. Otherwise, -15% additional Aura Effect",
+      "-15% Sealed Mana Compensation for the supported skill",
+      "The supported skill +30% Aura Effect if there is an Elite within 10 m. Otherwise, -15% additional Aura Effect",
+      "-15% Sealed Mana Compensation for the supported skill"
+     ],
+     "name": "Precise: Malleable",
+     "key": "Precise_Malleable"
+    },
+    {
+     "lines": [
+      "Supports Aura Skills.",
+      "+5% Aura Effect for each ally affected by the supported skill, stacking up to 7 time(s)",
+      "-12% Sealed Mana Compensation for the supported skill",
+      "+5% Aura Effect for each ally affected by the supported skill, stacking up to 7 time(s)",
+      "-12% Sealed Mana Compensation for the supported skill"
+     ],
+     "name": "Precise: Safety in Numbers",
+     "key": "Precise_Safety_in_Numbers"
+    },
+    {
+     "lines": [
+      "Supports Focus Skills.",
+      "+55% buff effect for the supported skill",
+      "-18% Sealed Mana Compensation for the supported skill",
+      "+55% buff effect for the supported skill",
+      "-18% Sealed Mana Compensation for the supported skill"
+     ],
+     "name": "Precise: Focus Buff",
+     "key": "Precise_Focus_Buff"
+    },
+    {
+     "lines": [
+      "Supports Spirit Magus Skills.",
+      "+52% Origin of Spirit Magus effect for the supported skill",
+      "-20% Sealed Mana Compensation for the supported skill",
+      "+52% Origin of Spirit Magus effect for the supported skill",
+      "-20% Sealed Mana Compensation for the supported skill"
+     ],
+     "name": "Precise: Superpower",
+     "key": "Precise_Superpower"
+    },
+    {
+     "lines": [
+      "Supports Spirit Magus Skills.",
+      "When having at least 3 type(s) of Spirit Magus at the same time, Origin of Spirit Magus provided by the supported skill +128% Effect",
+      "-30% Sealed Mana Compensation for the supported skill",
+      "When having at least 3 type(s) of Spirit Magus at the same time, Origin of Spirit Magus provided by the supported skill +128% Effect",
+      "-30% Sealed Mana Compensation for the supported skill"
+     ],
+     "name": "Precise: Friend of Spirit Magi",
+     "key": "Precise_Friend_of_Spirit_Magi"
+    },
+    {
+     "lines": [
+      "Supports Spirit Magus Skills.",
+      "Transfers 8.95% of damage taken to the Minions summoned by the supported skill",
+      "-30% Sealed Mana Compensation for the supported skill",
+      "Minions summoned by the supported skill Taunt nearby enemies every 6 s.",
+      "Transfers 8.95% of damage taken to the Minions summoned by the supported skill",
+      "-30% Sealed Mana Compensation for the supported skill",
+      "Minions summoned by the supported skill Taunt nearby enemies every 6 s."
+     ],
+     "name": "Precise: Protection Field",
+     "key": "Precise_Protection_Field"
+    },
+    {
+     "lines": [
+      "Supports Passive Skill.",
+      "+25% Sealed Mana Compensation for the supported skill",
+      "+25% Sealed Mana Compensation for the supported skill"
+     ],
+     "name": "Precise Restrain",
+     "key": "Precise_Restrain"
+    },
+    {
+     "lines": [
+      "Supports Restoration Skills.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "Gains immunity to Elemental Ailment for 4 s after casting the supported skill",
+      "Gains immunity to Elemental Ailment for 4 s after casting the supported skill"
+     ],
+     "name": "Precise: Harmony",
+     "key": "Precise_Harmony"
+    },
+    {
+     "lines": [
+      "Supports Restoration Skills.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "Gains immunity to Wilt and Trauma for 4 s after casting the supported skill",
+      "Gains immunity to Wilt and Trauma for 4 s after casting the supported skill"
+     ],
+     "name": "Precise: Purify",
+     "key": "Precise_Purify"
+    }
+   ]
+  },
+  {
+   "card": "Item",
+   "tab": "Item",
+   "entries": [
+    {
+     "lines": [
+      "Proof of Reaching Level 1 of High Tower",
+      "When people hold this seal in their hands, the light on them will be extinguished, and the door to the Infinity Tower will open... Only the brave who are ready to dive into the darkness will choose this path."
+     ],
+     "name": "Proof of the Brave I",
+     "key": "Proof_of_the_Brave_I"
+    },
+    {
+     "lines": [
+      "Proof of Reaching Level 11 of High Tower",
+      "The miniature of the world flows in the palm of the brave. It is a corner of the great existence projected on this world. After searching through countless worlds, the brave has finally earned the right to meet her."
+     ],
+     "name": "Proof of the Brave II",
+     "key": "Proof_of_the_Brave_II"
+    },
+    {
+     "lines": [
+      "Proof of Reaching Level 21 of High Tower",
+      "This is her fragment. This is her dress. It is a part of her body... The brave is getting closer and closer to the reality of the world, but the light on the hero's body has become dimmer."
+     ],
+     "name": "Proof of the Brave III",
+     "key": "Proof_of_the_Brave_III"
+    },
+    {
+     "lines": [
+      "Proof of Reaching Level 31 of High Tower",
+      "Darkness has been a part of you forever. Even in your sleep, you hear the call of the greatness. She is waiting for you. She knows you will be back again."
+     ],
+     "name": "Proof of the Brave IV",
+     "key": "Proof_of_the_Brave_IV"
+    },
+    {
+     "lines": [
+      "Proof of Reaching Level 41 of High Tower",
+      "The seal is covered in the tears of the greatness. Now the brave can finally reach her untouchable soul... Behind the endless veil of the void, it is not the gods that stand forever. In the strange eternity, even time can be shattered."
+     ],
+     "name": "Proof of the Brave V",
+     "key": "Proof_of_the_Brave_V"
+    }
+   ]
+  },
+  {
+   "card": "Path of the Brave",
+   "tab": "PathoftheBrave",
+   "tables": [
+    {
+     "header": [
+      "tier",
+      "item",
+      "dps_adv"
+     ],
+     "rows": [
+      {
+       "cells": [
+        "1",
+        "",
+        "19,000,000"
+       ]
+      },
+      {
+       "cells": [
+        "2",
+        "",
+        "21,000,000"
+       ]
+      },
+      {
+       "cells": [
+        "3",
+        "",
+        "23,000,000"
+       ]
+      },
+      {
+       "cells": [
+        "4",
+        "",
+        "26,000,000"
+       ]
+      },
+      {
+       "cells": [
+        "5",
+        "",
+        "27,000,000"
+       ]
+      },
+      {
+       "cells": [
+        "6",
+        "",
+        "30,000,000"
+       ]
+      },
+      {
+       "cells": [
+        "7",
+        "",
+        "33,000,000"
+       ]
+      },
+      {
+       "cells": [
+        "8",
+        "",
+        "36,000,000"
+       ]
+      },
+      {
+       "cells": [
+        "9",
+        "",
+        "40,000,000"
+       ]
+      },
+      {
+       "cells": [
+        "10",
+        "",
+        "42,000,000"
+       ]
+      },
+      {
+       "cells": [
+        "11",
+        "",
+        "45,000,000"
+       ]
+      },
+      {
+       "cells": [
+        "12",
+        "",
+        "50,000,000"
+       ]
+      },
+      {
+       "cells": [
+        "13",
+        "",
+        "55,000,000"
+       ]
+      },
+      {
+       "cells": [
+        "14",
+        "",
+        "60,000,000"
+       ]
+      },
+      {
+       "cells": [
+        "15",
+        "",
+        "66,000,000"
+       ]
+      },
+      {
+       "cells": [
+        "16",
+        "",
+        "76,000,000"
+       ]
+      },
+      {
+       "cells": [
+        "17",
+        "",
+        "87,000,000"
+       ]
+      },
+      {
+       "cells": [
+        "18",
+        "",
+        "101,000,000"
+       ]
+      },
+      {
+       "cells": [
+        "19",
+        "",
+        "116,000,000"
+       ]
+      },
+      {
+       "cells": [
+        "20",
+        "",
+        "133,000,000"
+       ]
+      },
+      {
+       "cells": [
+        "21",
+        "",
+        "163,000,000"
+       ]
+      },
+      {
+       "cells": [
+        "22",
+        "",
+        "188,000,000"
+       ]
+      },
+      {
+       "cells": [
+        "23",
+        "",
+        "216,000,000"
+       ]
+      },
+      {
+       "cells": [
+        "24",
+        "",
+        "248,000,000"
+       ]
+      },
+      {
+       "cells": [
+        "25",
+        "",
+        "323,000,000"
+       ]
+      },
+      {
+       "cells": [
+        "26",
+        "",
+        "388,000,000"
+       ]
+      },
+      {
+       "cells": [
+        "27",
+        "",
+        "465,000,000"
+       ]
+      },
+      {
+       "cells": [
+        "28",
+        "",
+        "581,000,000"
+       ]
+      },
+      {
+       "cells": [
+        "29",
+        "",
+        "727,000,000"
+       ]
+      },
+      {
+       "cells": [
+        "30",
+        "",
+        "1,126,000,000"
+       ]
+      },
+      {
+       "cells": [
+        "31",
+        "",
+        "699,000,000"
+       ]
+      },
+      {
+       "cells": [
+        "32",
+        "",
+        "908,000,000"
+       ]
+      },
+      {
+       "cells": [
+        "33",
+        "",
+        "1,181,000,000"
+       ]
+      },
+      {
+       "cells": [
+        "34",
+        "",
+        "1,535,000,000"
+       ]
+      },
+      {
+       "cells": [
+        "35",
+        "",
+        "2,763,000,000"
+       ]
+      },
+      {
+       "cells": [
+        "36",
+        "",
+        "3,592,000,000"
+       ]
+      },
+      {
+       "cells": [
+        "37",
+        "",
+        "4,670,000,000"
+       ]
+      },
+      {
+       "cells": [
+        "38",
+        "",
+        "6,071,000,000"
+       ]
+      },
+      {
+       "cells": [
+        "39",
+        "",
+        "7,892,000,000"
+       ]
+      },
+      {
+       "cells": [
+        "40",
+        "",
+        "14,205,000,000"
+       ]
+      },
+      {
+       "cells": [
+        "41",
+        "",
+        "22,286,000,000"
+       ]
+      },
+      {
+       "cells": [
+        "42",
+        "",
+        "30,085,000,000"
+       ]
+      },
+      {
+       "cells": [
+        "43",
+        "",
+        "40,615,000,000"
+       ]
+      },
+      {
+       "cells": [
+        "44",
+        "",
+        "54,831,000,000"
+       ]
+      },
+      {
+       "cells": [
+        "45",
+        "",
+        "219,323,000,000"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

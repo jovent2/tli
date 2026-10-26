@@ -1,0 +1,1217 @@
+{
+ "page": "Passive_Skill",
+ "cards": [
+  {
+   "card": "Passive Skill Tag",
+   "tab": "PassiveSkillTag",
+   "entries": [
+    {
+     "lines": [
+      "Aura, Area, Melee"
+     ],
+     "name": "Fearless",
+     "key": "Fearless",
+     "icon": "UISkillIconSkillRabidIcon128"
+    },
+    {
+     "lines": [
+      "Aura, Area, Physical"
+     ],
+     "name": "Weapon Amplification",
+     "key": "Weapon_Amplification",
+     "icon": "UISkillIconSkillWeaponIcon128"
+    },
+    {
+     "lines": [
+      "Aura, Area"
+     ],
+     "name": "Rejuvenation",
+     "key": "Rejuvenation",
+     "icon": "UISkillIconSkillRegenIcon128"
+    },
+    {
+     "lines": [
+      "Aura, Area, Lightning"
+     ],
+     "name": "Electric Conversion",
+     "key": "Electric_Conversion",
+     "icon": "UISkillIconSkillLightingAuraIcon128"
+    },
+    {
+     "lines": [
+      "Aura, Area, Cold"
+     ],
+     "name": "Frigid Domain",
+     "key": "Frigid_Domain",
+     "icon": "UISkillIconSkillIceAuraIcon128"
+    },
+    {
+     "lines": [
+      "Aura, Area"
+     ],
+     "name": "Nimbleness",
+     "key": "Nimbleness",
+     "icon": "UISkillIconSkillAgilityIcon128"
+    },
+    {
+     "lines": [
+      "Aura, Area, Spell"
+     ],
+     "name": "Spell Amplification",
+     "key": "Spell_Amplification",
+     "icon": "UISkillIconSkillElementalEnhanceIcon128"
+    },
+    {
+     "lines": [
+      "Aura, Area"
+     ],
+     "name": "Energy Fortress",
+     "key": "Energy_Fortress",
+     "icon": "UISkillIconSkillEnergyFortIcon128"
+    },
+    {
+     "lines": [
+      "Aura, Area"
+     ],
+     "name": "Magical Source",
+     "key": "Magical_Source",
+     "icon": "UISkillIconSkillSourceOfManaIcon128"
+    },
+    {
+     "lines": [
+      "Aura, Area, Projectile"
+     ],
+     "name": "Precise Projectiles",
+     "key": "Precise_Projectiles",
+     "icon": "UISkillIconSkillPreciseProjectileIcon128"
+    },
+    {
+     "lines": [
+      "Aura, Area, Fire, Cold, Lightning"
+     ],
+     "name": "Elemental Resistance",
+     "key": "Elemental_Resistance",
+     "icon": "UISkillIconSkillElementalResistanceIcon128"
+    },
+    {
+     "lines": [
+      "Aura, Area"
+     ],
+     "name": "Swiftness",
+     "key": "Swiftness",
+     "icon": "UISkillIconSkillHasteIcon128"
+    },
+    {
+     "lines": [
+      "Aura, Area"
+     ],
+     "name": "Deep Pain",
+     "key": "Deep_Pain",
+     "icon": "UISkillIconSkillDeepPainIcon128"
+    },
+    {
+     "lines": [
+      "Aura, Area, Erosion"
+     ],
+     "name": "Erosion Amplification",
+     "key": "Erosion_Amplification",
+     "icon": "UISkillIconSkillChaosEnhanceIcon128"
+    },
+    {
+     "lines": [
+      "Aura, Area, Fire"
+     ],
+     "name": "Charged Flames",
+     "key": "Charged_Flames",
+     "icon": "UISkillIconSkillFireAuraIcon128"
+    },
+    {
+     "lines": [
+      "Aura, Area"
+     ],
+     "name": "Steadfast",
+     "key": "Steadfast",
+     "icon": "UISkillIconSkillSolidIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Fire, Spirit Magus, Strength, Intelligence"
+     ],
+     "name": "Summon Fire Magus",
+     "key": "Summon_Fire_Magus",
+     "icon": "UISkillIconSkillSummonFireElementIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Cold, Spirit Magus, Intelligence"
+     ],
+     "name": "Summon Frost Magus",
+     "key": "Summon_Frost_Magus",
+     "icon": "UISkillIconSkillSummonIceIceElementIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Lightning, Spirit Magus, Dexterity, Intelligence"
+     ],
+     "name": "Summon Thunder Magus",
+     "key": "Summon_Thunder_Magus",
+     "icon": "UISkillIconSkillSummonThunderElementIcon128"
+    },
+    {
+     "lines": [
+      "Area, Focus, Physical, Attack, Strength"
+     ],
+     "name": "Acuteness Focus",
+     "key": "Acuteness_Focus",
+     "icon": "IconSkillPhysicalBless128"
+    },
+    {
+     "lines": [
+      "Area, Focus, Erosion, Persistent, Spell, Projectile, Intelligence"
+     ],
+     "name": "Corrosion Focus",
+     "key": "Corrosion_Focus",
+     "icon": "IconSkillChaosBless128"
+    },
+    {
+     "lines": [
+      "Area, Spell, Focus, Cold, Intelligence"
+     ],
+     "name": "Ice Focus",
+     "key": "Ice_Focus",
+     "icon": "IconSkillIceBless128"
+    },
+    {
+     "lines": [
+      "Area, Focus, Lightning, Attack, Dexterity"
+     ],
+     "name": "Thunder Focus",
+     "key": "Thunder_Focus",
+     "icon": "IconSkillThunderBless128"
+    },
+    {
+     "lines": [
+      "Area, Focus, Fire, Spell, Strength, Intelligence"
+     ],
+     "name": "Flame Focus",
+     "key": "Flame_Focus",
+     "icon": "IconSkillFireBless128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Physical, Spirit Magus, Strength, Intelligence"
+     ],
+     "name": "Summon Rock Magus",
+     "key": "Summon_Rock_Magus",
+     "icon": "UISkillSummonRockElementIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Erosion, Spirit Magus, Intelligence"
+     ],
+     "name": "Summon Erosion Magus",
+     "key": "Summon_Erosion_Magus",
+     "icon": "UISkillSummonRotElementIcon128"
+    },
+    {
+     "lines": [
+      "Aura, Area, Summon"
+     ],
+     "name": "Radical Order",
+     "key": "Radical_Order",
+     "icon": "UISkillMinionEnhanceIcon128"
+    },
+    {
+     "lines": [
+      "Aura, Area, Attack"
+     ],
+     "name": "Cruelty",
+     "key": "Cruelty",
+     "icon": "UISkillAttackEnhanceIcon128"
+    },
+    {
+     "lines": [
+      "Aura, Area"
+     ],
+     "name": "Domain Expansion",
+     "key": "Domain_Expansion",
+     "icon": "UISkillAreaEnhanceIcon128"
+    },
+    {
+     "lines": [
+      "Aura, Area"
+     ],
+     "name": "Ailment Amplification",
+     "key": "Ailment_Amplification",
+     "icon": "UISkillAilmentEnhanceIcon128"
+    },
+    {
+     "lines": [
+      "Aura, Area, Melee"
+     ],
+     "name": "Precise: Fearless",
+     "key": "Precise_Fearless",
+     "icon": "UISkillIconSkillRabidSpecialIcon128"
+    },
+    {
+     "lines": [
+      "Aura, Area, Physical"
+     ],
+     "name": "Precise: Weapon Amplification",
+     "key": "Precise_Weapon_Amplification",
+     "icon": "UISkillIconSkillWeaponSpecialIcon128"
+    },
+    {
+     "lines": [
+      "Aura, Area"
+     ],
+     "name": "Precise: Rejuvenation",
+     "key": "Precise_Rejuvenation",
+     "icon": "UISkillIconSkillRegenSpecialIcon128"
+    },
+    {
+     "lines": [
+      "Aura, Area, Lightning"
+     ],
+     "name": "Precise: Electric Conversion",
+     "key": "Precise_Electric_Conversion",
+     "icon": "UISkillIconSkillLightingAuraSpecialIcon128"
+    },
+    {
+     "lines": [
+      "Aura, Area, Cold"
+     ],
+     "name": "Precise: Frigid Domain",
+     "key": "Precise_Frigid_Domain",
+     "icon": "UISkillIconSkillIceAuraSpecialIcon128"
+    },
+    {
+     "lines": [
+      "Aura, Area"
+     ],
+     "name": "Precise: Nimbleness",
+     "key": "Precise_Nimbleness",
+     "icon": "UISkillIconSkillAgilitySpecialIcon128"
+    },
+    {
+     "lines": [
+      "Aura, Area, Spell"
+     ],
+     "name": "Precise: Spell Amplification",
+     "key": "Precise_Spell_Amplification",
+     "icon": "UISkillIconSkillElementalEnhanceSpecialIcon128"
+    },
+    {
+     "lines": [
+      "Aura, Area"
+     ],
+     "name": "Precise: Energy Fortress",
+     "key": "Precise_Energy_Fortress",
+     "icon": "UISkillIconSkillEnergyFortSpecialIcon128"
+    },
+    {
+     "lines": [
+      "Aura, Area"
+     ],
+     "name": "Precise: Magical Source",
+     "key": "Precise_Magical_Source",
+     "icon": "UISkillIconSkillSourceOfManaSpecialIcon128"
+    },
+    {
+     "lines": [
+      "Aura, Area, Projectile"
+     ],
+     "name": "Precise: Precise Projectiles",
+     "key": "Precise_Precise_Projectiles",
+     "icon": "UISkillIconSkillPreciseProjectileSpecialIcon128"
+    },
+    {
+     "lines": [
+      "Aura, Area, Fire, Cold, Lightning"
+     ],
+     "name": "Precise: Elemental Resistance",
+     "key": "Precise_Elemental_Resistance",
+     "icon": "UISkillIconSkillElementalResistanceSpecialIcon128"
+    },
+    {
+     "lines": [
+      "Aura, Area"
+     ],
+     "name": "Precise: Swiftness",
+     "key": "Precise_Swiftness",
+     "icon": "UISkillIconSkillHasteSpecialIcon128"
+    },
+    {
+     "lines": [
+      "Aura, Area"
+     ],
+     "name": "Precise: Deep Pain",
+     "key": "Precise_Deep_Pain",
+     "icon": "UISkillIconSkillDeepPainSpecialIcon128"
+    },
+    {
+     "lines": [
+      "Aura, Area, Erosion"
+     ],
+     "name": "Precise: Erosion Amplification",
+     "key": "Precise_Erosion_Amplification",
+     "icon": "UISkillIconSkillChaosEnhanceSpecialIcon128"
+    },
+    {
+     "lines": [
+      "Aura, Area, Fire"
+     ],
+     "name": "Precise: Charged Flames",
+     "key": "Precise_Charged_Flames",
+     "icon": "UISkillIconSkillFireAuraSpecialIcon128"
+    },
+    {
+     "lines": [
+      "Aura, Area"
+     ],
+     "name": "Precise: Steadfast",
+     "key": "Precise_Steadfast",
+     "icon": "UISkillIconSkillSolidSpecialIcon128"
+    },
+    {
+     "lines": [
+      "Area, Focus, Physical, Attack, Strength"
+     ],
+     "name": "Precise: Acuteness Focus",
+     "key": "Precise_Acuteness_Focus",
+     "icon": "IconSkillPhysicalBlessSpecial128"
+    },
+    {
+     "lines": [
+      "Area, Focus, Erosion, Persistent, Spell, Projectile, Intelligence"
+     ],
+     "name": "Precise: Corrosion Focus",
+     "key": "Precise_Corrosion_Focus",
+     "icon": "IconSkillChaosBlessSpecial128"
+    },
+    {
+     "lines": [
+      "Area, Spell, Focus, Cold, Intelligence"
+     ],
+     "name": "Precise: Ice Focus",
+     "key": "Precise_Ice_Focus",
+     "icon": "IconSkillIceBlessSpecial128"
+    },
+    {
+     "lines": [
+      "Area, Focus, Lightning, Attack, Dexterity"
+     ],
+     "name": "Precise: Thunder Focus",
+     "key": "Precise_Thunder_Focus",
+     "icon": "IconSkillThunderBlessSpecial128"
+    },
+    {
+     "lines": [
+      "Area, Focus, Fire, Spell, Strength, Intelligence"
+     ],
+     "name": "Precise: Flame Focus",
+     "key": "Precise_Flame_Focus",
+     "icon": "IconSkillFireBlessSpecial128"
+    },
+    {
+     "lines": [
+      "Aura, Area, Summon"
+     ],
+     "name": "Precise: Radical Order",
+     "key": "Precise_Radical_Order",
+     "icon": "UISkillMinionEnhanceSpecialIcon128"
+    },
+    {
+     "lines": [
+      "Aura, Area, Attack"
+     ],
+     "name": "Precise: Cruelty",
+     "key": "Precise_Cruelty",
+     "icon": "UISkillAttackEnhanceSpecialIcon128"
+    },
+    {
+     "lines": [
+      "Aura, Area"
+     ],
+     "name": "Precise: Domain Expansion",
+     "key": "Precise_Domain_Expansion",
+     "icon": "UISkillAreaEnhanceSpecialIcon128"
+    },
+    {
+     "lines": [
+      "Aura, Area"
+     ],
+     "name": "Precise: Ailment Amplification",
+     "key": "Precise_Ailment_Amplification",
+     "icon": "UISkillAilmentEnhanceSpecialIcon128"
+    }
+   ]
+  },
+  {
+   "card": "Passive Skill",
+   "tab": "PassiveSkill",
+   "entries": [
+    {
+     "lines": [
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "Melee Skills +80% Critical Strike Rating, and +30% additional damage.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+80% Critical Strike Rating for Melee Skills",
+      "+30% additional Melee Skill Damage"
+     ],
+     "name": "Fearless",
+     "key": "Fearless"
+    },
+    {
+     "lines": [
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+35% additional Physical Damage.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+35% additional Physical Damage"
+     ],
+     "name": "Weapon Amplification",
+     "key": "Weapon_Amplification"
+    },
+    {
+     "lines": [
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+227 Life Regeneration per Second.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+227 Life Regeneration per second"
+     ],
+     "name": "Rejuvenation",
+     "key": "Rejuvenation"
+    },
+    {
+     "lines": [
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+35% additional Lightning Damage.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+35% additional Lightning Damage"
+     ],
+     "name": "Electric Conversion",
+     "key": "Electric_Conversion"
+    },
+    {
+     "lines": [
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+35% additional Cold Damage.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+35% additional Cold Damage"
+     ],
+     "name": "Frigid Domain",
+     "key": "Frigid_Domain"
+    },
+    {
+     "lines": [
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+6000 Evasion. +10% additional Evasion.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+6000 Evasion",
+      "+10% additional Evasion"
+     ],
+     "name": "Nimbleness",
+     "key": "Nimbleness"
+    },
+    {
+     "lines": [
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+35% additional damage for Spell Skills.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+35% additional Spell Damage"
+     ],
+     "name": "Spell Amplification",
+     "key": "Spell_Amplification"
+    },
+    {
+     "lines": [
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+319.7 Max Energy Shield, and +13.36% additional Max Energy Shield.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "319.7 Max Energy Shield",
+      "13.36% additional Max Energy Shield"
+     ],
+     "name": "Energy Fortress",
+     "key": "Energy_Fortress"
+    },
+    {
+     "lines": [
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+140 Mana Regeneration per Second.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+140 Mana regeneration per second"
+     ],
+     "name": "Magical Source",
+     "key": "Magical_Source"
+    },
+    {
+     "lines": [
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+35% additional Projectile Damage, +35% additional Ailment Damage by Projectiles, and +10% Projectile Speed.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+35% additional Projectile Damage",
+      "+35% additional Ailment Damage dealt by Projectiles",
+      "+10% Projectile Speed"
+     ],
+     "name": "Precise Projectiles",
+     "key": "Precise_Projectiles"
+    },
+    {
+     "lines": [
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "-12% additional Elemental Damage taken and +10% Elemental Resistance.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+10% Elemental Resistance",
+      "-12% additional Elemental Damage taken"
+     ],
+     "name": "Elemental Resistance",
+     "key": "Elemental_Resistance"
+    },
+    {
+     "lines": [
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+14.5% Movement Speed.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "14.5% Movement Speed"
+     ],
+     "name": "Swiftness",
+     "key": "Swiftness"
+    },
+    {
+     "lines": [
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+35% additional Damage Over Time.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+35% additional Damage Over Time"
+     ],
+     "name": "Deep Pain",
+     "key": "Deep_Pain"
+    },
+    {
+     "lines": [
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+35% additional Erosion Damage.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+35% additional Erosion Damage"
+     ],
+     "name": "Erosion Amplification",
+     "key": "Erosion_Amplification"
+    },
+    {
+     "lines": [
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+35% additional Fire Damage.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+35% additional Fire Damage"
+     ],
+     "name": "Charged Flames",
+     "key": "Charged_Flames"
+    },
+    {
+     "lines": [
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+6000 Armor and +10% additional Armor.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+6000 Armor",
+      "+10% additional Armor"
+     ],
+     "name": "Steadfast",
+     "key": "Steadfast"
+    },
+    {
+     "lines": [
+      "Minion Skill: Blazing Dance, Blazing Spin, Blazing Incineration, Molten Rising",
+      "Activates the skill and summons 1 Fire Magus.",
+      "Activating the skill grants the character Origin of Spirit Magus: +115 Critical Strike Rating.",
+      "Summon Fire Magus:",
+      "Summons 1 Fire Magus",
+      "This skill summons up to 1 Minions",
+      "Spirit Magi become undefeatable",
+      "When Spirit Magi become undefeatable, they gain Reconjuring",
+      "Origin of Spirit Magus:",
+      "Gains Origin of Fire, giving the summoner +115 Attack and Spell Critical Strike Rating",
+      "Fire Magus:",
+      "Base Skill: Blazing Dance.",
+      "Empower Skill: Blazing Spin.",
+      "Enhanced Skill: Blazing Incineration.",
+      "Ultimate: Rising Molten."
+     ],
+     "name": "Summon Fire Magus",
+     "key": "Summon_Fire_Magus"
+    },
+    {
+     "lines": [
+      "Minion Skill: Glacier Ripples, Frost Release, Permafrost Cast, Ice Earthshaker",
+      "Activates the skill and summons 1 Frost Magus.",
+      "Activating the skill grants the character Origin of Spirit Magus: Restores +3.825% Max Life and Max Energy Shield every second.",
+      "Summon Frost Magus:",
+      "Summons 1 Frost Magus",
+      "This skill summons up to 1 Minions",
+      "+1 Max Frostbite Rating for the Minions summoned by this skill for every +1 Max Frostbite Rating",
+      "Spirit Magi become undefeatable",
+      "When Spirit Magi become undefeatable, they gain Reconjuring",
+      "Origin of Spirit Magus:",
+      "Gains Origin of Ice, restoring 3.825% of Max Life and Max Energy Shield per second to the summoner",
+      "Frost Magus:",
+      "Base Skill: Glacier Ripples.",
+      "Empower Skill: Frost Release.",
+      "Enhanced Skill: Permafrost Cast.",
+      "Ultimate: Ice Earthshaker."
+     ],
+     "name": "Summon Frost Magus",
+     "key": "Summon_Frost_Magus"
+    },
+    {
+     "lines": [
+      "Minion Skill: Lightning Star, Thundercloud Surge, Thunderlight Arrow, Lightning Surge",
+      "Activates the skill and summons 1 Thunder Magus.",
+      "Activating the skill grants the character Origin of Spirit Magus: +6% additional Attack and Cast Speed and +7.25% additional damage.",
+      "Summon Thunder Magus:",
+      "Summons 1 Thunder Magus.",
+      "This skill summons up to 1 Minions",
+      "Spirit Magi become undefeatable",
+      "When Spirit Magi become undefeatable, they gain Reconjuring",
+      "Converts 100% of Spirit Magi's Physical Damage to Lightning Damage.",
+      "Origin of Spirit Magus:",
+      "Gains Origin of Thunder: +6% additional Attack and Cast Speed and 7.25% additional damage to the summoner",
+      "Thunder Magus:",
+      "Base Skill: Lightning Star.",
+      "Empower Skill: Thundercloud Surge.",
+      "Enhanced Skill: Thunderlight Arrow.",
+      "Ultimate: Lightning Surge."
+     ],
+     "name": "Summon Thunder Magus",
+     "key": "Summon_Thunder_Magus"
+    },
+    {
+     "lines": [
+      "Activates Focus and gains a buff:",
+      "13.5% additional Physical Damage",
+      "+10% chance to inflict Trauma",
+      "Adds 5 - 5 Base Trauma Damage",
+      "This skill gains 25 Focus Pts on Melee hits. Interval: 1/5s. Upon reaching 100 Focus Pts, the next Melee hit consumes all Focus Pts and casts Acute Strike on the enemy, dealing 479% Weapon Attack Damage to all enemies within a certain area",
+      "Activates Focus and gains a buff:",
+      "13.5% additional Physical Damage",
+      "+10% chance to inflict Trauma",
+      "Adds 5 - 5 Base Trauma Damage",
+      "This skill gains 25 Focus Pts on Melee hits. Interval: 0.2 s",
+      "After this skill reaches 100 Focus Pts, the next Melee hit consumes 100 Focus Pts and triggers this skill on up to 4 enemies within 5m of the target hit. Generates Spikes within a rectangular area, dealing Physical Attack Damage",
+      "Acute Strike:",
+      "Deals 479% Weapon Attack Damage."
+     ],
+     "name": "Acuteness Focus",
+     "key": "Acuteness_Focus"
+    },
+    {
+     "lines": [
+      "Activates Focus and gains a buff:",
+      "13.5% additional Erosion Damage",
+      "+10% Wilt chance",
+      "Adds 2 - 2 Base Wilt Damage",
+      "Every 1/10s, this skill gains 13/2 Focus Pts. Upon reaching 100 Focus Pts, casting other skills will launch a Corrosion Orb that tracks enemies. When the Corrosion Orb is active, casting other skills will consume 50 Focus Pts and make the orb explode once, dealing 648 - 648 Spell Erosion Damage to enemies. Interval: 3/20s.",
+      "The orb is destroyed when Focus Pts drop to 0, its duration expires (2s), or it is 30m away from the character. Orb Quantity is not affected by Projectile Quantity.",
+      "Activates Focus and gains a buff:",
+      "13.5% additional Erosion Damage",
+      "+10% Wilt chance",
+      "Adds 2 - 2 Base Wilt Damage",
+      "Corrosion Focus:",
+      "Every 0.1 s, the skill gains 6.5 Focus Pts",
+      "After this skill reaches 100 Focus Pts, if the Corrosion Orb no longer exists, using an Active Skill will trigger this skill on an enemy",
+      "When Corrosion Orb is active, casting other skills will consume 50 Focus Pts and make it deal Area Damage once. Interval: 0.15 s",
+      "Corrosion Orb:",
+      "Deals 648-648 Spell Erosion Damage",
+      "Projectile Duration: 2s"
+     ],
+     "name": "Corrosion Focus",
+     "key": "Corrosion_Focus"
+    },
+    {
+     "lines": [
+      "Activates Focus and gains a buff:",
+      "13.5% additional Cold Damage",
+      "Gains 30 Focus Pts when dealing damage to Frostbitten enemies. Interval: 0.4 s.",
+      "Upon reaching 100 Focus Pts, creates an Ice Storm that follows the character. When there are enemies inside the storm, consumes 45 Focus Pts every 0.5 s to generate Glacial Spikes that deal Spell Cold Damage to the enemies",
+      "For every 1% Focus Speed, +1% Focus Pts gained, up to +200%. The Ice Storm ends when Focus Pts drop to 0.",
+      "Activates Focus and gains a buff:",
+      "13.5% additional Cold Damage",
+      "Gains 30 Focus Pts when dealing damage to Frostbitten enemies. Interval: 0.4 s.",
+      "Upon reaching 100 Focus Pts, creates an Ice Storm that follows the character. When there are enemies inside the storm, consumes 45 Focus Pts every 0.5 s to generate Glacial Spikes that deal Spell Cold Damage to the enemies",
+      "For every 1% Focus Speed, +1% Focus Pts gained, up to +200%. The Ice Storm ends when Focus Pts drop to 0.",
+      "Glacial Spike:",
+      "Deals 467-701 Spell Cold Damage.",
+      "Gains 30 Focus Pts when dealing damage to Frostbitten enemies. Interval: 0.4 s.",
+      "Upon reaching 100 Focus Pts, creates an Ice Storm that follows the character. When there are enemies inside the storm, consumes 45 Focus Pts every 0.5 s to generate Glacial Spikes that deal Spell Cold Damage to the enemies\\nFor every 1% Focus Speed, +1% Focus Pts gained, up to +200%. The Ice Storm ends when Focus Pts drop to 0."
+     ],
+     "name": "Ice Focus",
+     "key": "Ice_Focus"
+    },
+    {
+     "lines": [
+      "Activates Focus and gains a buff:",
+      "13.5% additional Lightning Damage",
+      "For every 2m moved, this skill gains 5 Focus Pts. Upon reaching 100 Focus Pts, using a non-Mobility Attack Skill will consume all Focus Pts and trigger this skill, summoning a Thunderstrike that deals 1109% Weapon Attack Damage to all enemies within a certain area.",
+      "When triggered by a Melee Skill, the Thunderstrike attacks a fan-shaped area. When triggered by a Ranged Skill, the Thunderstrike attacks a square-shaped area.",
+      "Activates Focus and gains a buff:",
+      "13.5% additional Lightning Damage",
+      "Thunder Focus:",
+      "Converts 100% of the skill's Physical Damage to Lightning Damage",
+      "For every 2 m moved, the skill gains 5 Focus Pts",
+      "After this skill reaches 100 Focus Pts, using a non-Mobility Attack Skill will consume 100 Focus Pts and trigger this skill in front of you",
+      "Thunderstrike:",
+      "Deals 1109% Weapon Attack Damage."
+     ],
+     "name": "Thunder Focus",
+     "key": "Thunder_Focus"
+    },
+    {
+     "lines": [
+      "Activates Focus and gains a buff:",
+      "+7% additional Fire Damage",
+      "+10% chance to Ignite targets",
+      "Adds 2 - 2 Base Ignite Damage",
+      "This skill gains 15 Focus Pts when inflicting Ignite. Upon defeating an enemy, there is a 100% chance to consume 40 Focus Pts and trigger this skill on the enemy, dealing True Damage equal to 25% of their Max Life to enemies within 3m.",
+      "Additionally increases this skill's area for each time Ignite has been inflicted recently.",
+      "Activates Focus and gains a buff:",
+      "+7% additional Fire Damage",
+      "+10% chance to Ignite targets",
+      "Adds 2 - 2 Base Ignite Damage",
+      "Flame Focus:",
+      "This skill gains 15 Focus Pts when inflicting Ignite. This skill can be triggered up to 3 time(s) every 0.5 s",
+      "Upon defeating an enemy, there is a 100% chance to consume 40 Focus Pts of this skill and trigger this skill at the location of the defeated enemy, dealing True Damage equal to 25% of the defeated enemy's Max Life",
+      "+10% additional Skill Area for this skill for each time you inflict Ignite recently. Stacks up to 6 time(s)"
+     ],
+     "name": "Flame Focus",
+     "key": "Flame_Focus"
+    },
+    {
+     "lines": [
+      "Minion Skill: Shattered Stone, Gold Rush, Rock Blast, Towering Mountains",
+      "Activates the skill and summons 1 Rock Magus.",
+      "Activating the skill grants the character Origin of Spirit Magus: -8.05% additional Hit Damage taken (Up to additional -50%).",
+      "Summon Rock Magus:",
+      "Summons 1 Rock Magus",
+      "This skill summons up to 1 Minions",
+      "Spirit Magi become undefeatable",
+      "When Spirit Magi become undefeatable, they gain Reconjuring",
+      "Origin of Spirit Magus:",
+      "-8.05% additional Hit Damage taken, up to -50% additional damage",
+      "Rock Magus:",
+      "Base Skill: Shattered Stone",
+      "Empower Skill: Gold Rush",
+      "Enhanced Skill: Rock Blast",
+      "Ultimate: Towering Mountains"
+     ],
+     "name": "Summon Rock Magus",
+     "key": "Summon_Rock_Magus"
+    },
+    {
+     "lines": [
+      "Minion Skill: Scattered Mud, Withering Payback, Bleak Grass, World of Thorns",
+      "Activates the skill and summons 1 Erosion Magus.",
+      "Activating the skill grants the character Origin of Spirit Magus: -9.15% additional Damage Over Time taken (Up to additional -50%).",
+      "Summon Erosion Magus:",
+      "Summons 1 Erosion Magus",
+      "This skill summons up to 1 Minions",
+      "Spirit Magi become undefeatable",
+      "When Spirit Magi become undefeatable, they gain Reconjuring",
+      "Converts 100% of Physical Damage to Erosion Damage for Spirit Magi",
+      "Origin of Spirit Magus:",
+      "-9.15% additional Damage Over Time taken, up to -50% additional damage",
+      "Erosion Magus:",
+      "Base Skill: Scattered Mud",
+      "Empower Skill: Withering Payback",
+      "Enhanced Skill: Bleak Grass",
+      "Ultimate: World of Thorns"
+     ],
+     "name": "Summon Erosion Magus",
+     "key": "Summon_Erosion_Magus"
+    },
+    {
+     "lines": [
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+35% additional Minion Damage and +25% Minion Aggressiveness.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+35% additional Minion Damage",
+      "+25% Minion Aggressiveness (Not affected by Aura Effects)"
+     ],
+     "name": "Radical Order",
+     "key": "Radical_Order"
+    },
+    {
+     "lines": [
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+19% additional Attack Damage.",
+      "Gains 1 stack(s) of buffs upon defeating an enemy. +40% chance to gain 5 stack(s) of buffs when hitting an Elite, +5/2% additional Aura Effect per stack of the buff for 4s. Stacks up to 40 time(s) (Not affected by Aura Effects).",
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+19% additional Attack Damage",
+      "Gains 1 stack(s) of buffs upon defeating an enemy. +40% chance to gain 5 stack(s) of buffs when hitting an Elite",
+      "2.5% additional Aura Effect per stack of the buff for 4 s. Stacks up to 40 time(s) (Not affected by Aura Effects)"
+     ],
+     "name": "Cruelty",
+     "key": "Cruelty"
+    },
+    {
+     "lines": [
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+33% additional Area Damage and Ailment Damage dealt by Area Skills. +20% Skill Area when at least 8 enemies are within 10m.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+33% additional Area Damage",
+      "+33% additional Ailment Damage dealt by Area Skills",
+      "+20% Skill Area when there are at least 8 enemies within 10 m"
+     ],
+     "name": "Domain Expansion",
+     "key": "Domain_Expansion"
+    },
+    {
+     "lines": [
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+23.5% additional Ailment Damage. +10% chance to inflict Ailments. +10% Ailment Duration.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "23.5% additional Ailment Damage",
+      "+10% chance to inflict Damaging Ailments",
+      "+10% Ailment Duration"
+     ],
+     "name": "Ailment Amplification",
+     "key": "Ailment_Amplification"
+    },
+    {
+     "lines": [
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "Melee Skills +80% Critical Strike Rating, +30% additional damage, and +8% Attack Speed.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+80% Critical Strike Rating for Melee Skills",
+      "+30% additional Melee Skill Damage",
+      "+8% Melee Attack Speed"
+     ],
+     "name": "Precise: Fearless",
+     "key": "Precise_Fearless"
+    },
+    {
+     "lines": [
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+40% additional Physical Damage.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+40% additional Physical Damage"
+     ],
+     "name": "Precise: Weapon Amplification",
+     "key": "Precise_Weapon_Amplification"
+    },
+    {
+     "lines": [
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "Regenerates 8% of Life per second",
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "Regenerates 8% Life per second"
+     ],
+     "name": "Precise: Rejuvenation",
+     "key": "Precise_Rejuvenation"
+    },
+    {
+     "lines": [
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+40% additional Lightning Damage.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+40% additional Lightning Damage"
+     ],
+     "name": "Precise: Electric Conversion",
+     "key": "Precise_Electric_Conversion"
+    },
+    {
+     "lines": [
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+40% additional Cold Damage.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+40% additional Cold Damage"
+     ],
+     "name": "Precise: Frigid Domain",
+     "key": "Precise_Frigid_Domain"
+    },
+    {
+     "lines": [
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+6000 Evasion. +20% additional Evasion.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+6000 Evasion",
+      "+20% additional Evasion"
+     ],
+     "name": "Precise: Nimbleness",
+     "key": "Precise_Nimbleness"
+    },
+    {
+     "lines": [
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+40% additional damage for Spell Skills.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+40% additional Spell Damage"
+     ],
+     "name": "Precise: Spell Amplification",
+     "key": "Precise_Spell_Amplification"
+    },
+    {
+     "lines": [
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+319.7 Max Energy Shield, and +17.97% additional Max Energy Shield.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "319.7 Max Energy Shield",
+      "17.97% additional Max Energy Shield"
+     ],
+     "name": "Precise: Energy Fortress",
+     "key": "Precise_Energy_Fortress"
+    },
+    {
+     "lines": [
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+140 Mana Regeneration per Second. +15% Mana Regeneration Speed.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+140 Mana regeneration per second",
+      "+15% Mana Regeneration Speed"
+     ],
+     "name": "Precise: Magical Source",
+     "key": "Precise_Magical_Source"
+    },
+    {
+     "lines": [
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+40% additional Projectile Damage, +40% additional Ailment Damage by Projectiles, and +10% Projectile Speed.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+40% additional Projectile Damage",
+      "+40% additional Ailment Damage dealt by Projectiles",
+      "+10% Projectile Speed"
+     ],
+     "name": "Precise: Precise Projectiles",
+     "key": "Precise_Precise_Projectiles"
+    },
+    {
+     "lines": [
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "-14% additional Elemental Damage taken, +10% Elemental Resistance, and +15% chance to avoid Elemental Ailment.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+10% Elemental Resistance",
+      "-14% additional Elemental Damage taken",
+      "+15% chance to avoid Elemental Ailments"
+     ],
+     "name": "Precise: Elemental Resistance",
+     "key": "Precise_Elemental_Resistance"
+    },
+    {
+     "lines": [
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+20.5% Movement Speed.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "20.5% Movement Speed"
+     ],
+     "name": "Precise: Swiftness",
+     "key": "Precise_Swiftness"
+    },
+    {
+     "lines": [
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+40% additional Damage Over Time and +30 Affliction Per Second.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+40% additional Damage Over Time",
+      "+30 Affliction inflicted per second"
+     ],
+     "name": "Precise: Deep Pain",
+     "key": "Precise_Deep_Pain"
+    },
+    {
+     "lines": [
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+40% additional Erosion Damage.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+40% additional Erosion Damage"
+     ],
+     "name": "Precise: Erosion Amplification",
+     "key": "Precise_Erosion_Amplification"
+    },
+    {
+     "lines": [
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+40% additional Fire Damage.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+40% additional Fire Damage"
+     ],
+     "name": "Precise: Charged Flames",
+     "key": "Precise_Charged_Flames"
+    },
+    {
+     "lines": [
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+6000 Armor and +20% additional Armor.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+6000 Armor",
+      "+20% additional Armor"
+     ],
+     "name": "Precise: Steadfast",
+     "key": "Precise_Steadfast"
+    },
+    {
+     "lines": [
+      "Activates Focus and gains a buff:",
+      "15.6% additional Physical Damage",
+      "+15% chance to inflict Trauma",
+      "Adds 5 - 5 Base Trauma Damage",
+      "This skill gains 25 Focus Pts on Melee hits. Interval: 1/5s. Upon reaching 100 Focus Pts, the next Melee hit consumes all Focus Pts and casts Acute Strike on the enemy, dealing 479% Weapon Attack Damage to all enemies within a certain area",
+      "Activates Focus and gains a buff:",
+      "15.6% additional Physical Damage",
+      "+15% chance to inflict Trauma",
+      "Adds 5 - 5 Base Trauma Damage",
+      "This skill gains 25 Focus Pts on Melee hits. Interval: 0.2 s",
+      "After this skill reaches 100 Focus Pts, the next Melee hit consumes 100 Focus Pts and triggers this skill on up to 4 enemies within 5m of the target hit. Generates Spikes within a rectangular area, dealing Physical Attack Damage",
+      "+4% additional damage for this skill",
+      "Acute Strike:",
+      "Deals 479% Weapon Attack Damage."
+     ],
+     "name": "Precise: Acuteness Focus",
+     "key": "Precise_Acuteness_Focus"
+    },
+    {
+     "lines": [
+      "Activates Focus and gains a buff:",
+      "15.6% additional Erosion Damage",
+      "+15% Wilt chance",
+      "Adds 2 - 2 Base Wilt Damage",
+      "Every 1/10s, this skill gains 13/2 Focus Pts. Upon reaching 100 Focus Pts, casting other skills will launch a Corrosion Orb that tracks enemies. When the Corrosion Orb is active, casting other skills will consume 50 Focus Pts and make the orb explode once, dealing 648 - 648 Spell Erosion Damage to enemies. Interval: 3/20s.",
+      "The orb is destroyed when Focus Pts drop to 0, its duration expires (2s), or it is 30m away from the character. Orb Quantity is not affected by Projectile Quantity.",
+      "Activates Focus and gains a buff:",
+      "15.6% additional Erosion Damage",
+      "+15% Wilt chance",
+      "Adds 2 - 2 Base Wilt Damage",
+      "Corrosion Focus:",
+      "Every 0.1 s, the skill gains 6.5 Focus Pts",
+      "After this skill reaches 100 Focus Pts, if the Corrosion Orb no longer exists, using an Active Skill will trigger this skill on an enemy",
+      "When Corrosion Orb is active, casting other skills will consume 50 Focus Pts and make it deal Area Damage once. Interval: 0.15 s",
+      "+4% additional damage for this skill",
+      "Corrosion Orb:",
+      "Deals 648-648 Spell Erosion Damage",
+      "Projectile Duration: 2s"
+     ],
+     "name": "Precise: Corrosion Focus",
+     "key": "Precise_Corrosion_Focus"
+    },
+    {
+     "lines": [
+      "Activates Focus and gains a buff:",
+      "15.6% additional Cold Damage",
+      "Gains 30 Focus Pts when dealing damage to Frostbitten enemies. Interval: 0.4 s.",
+      "Upon reaching 100 Focus Pts, creates an Ice Storm that follows the character. When there are enemies inside the storm, consumes 45 Focus Pts every 0.5 s to generate Glacial Spikes that deal Spell Cold Damage to the enemies",
+      "For every 1% Focus Speed, +1% Focus Pts gained, up to +200%. The Ice Storm ends when Focus Pts drop to 0.",
+      "+4% additional damage for this skill",
+      "Activates Focus and gains a buff:",
+      "15.6% additional Cold Damage",
+      "Gains 30 Focus Pts when dealing damage to Frostbitten enemies. Interval: 0.4 s.",
+      "Upon reaching 100 Focus Pts, creates an Ice Storm that follows the character. When there are enemies inside the storm, consumes 45 Focus Pts every 0.5 s to generate Glacial Spikes that deal Spell Cold Damage to the enemies",
+      "For every 1% Focus Speed, +1% Focus Pts gained, up to +200%. The Ice Storm ends when Focus Pts drop to 0.",
+      "+4% additional damage for this skill",
+      "Glacial Spike:",
+      "Deals 467-701 Spell Cold Damage.",
+      "Gains 30 Focus Pts when dealing damage to Frostbitten enemies. Interval: 0.4 s.",
+      "Upon reaching 100 Focus Pts, creates an Ice Storm that follows the character. When there are enemies inside the storm, consumes 45 Focus Pts every 0.5 s to generate Glacial Spikes that deal Spell Cold Damage to the enemies\\nFor every 1% Focus Speed, +1% Focus Pts gained, up to +200%. The Ice Storm ends when Focus Pts drop to 0.",
+      "+4% additional damage for this skill"
+     ],
+     "name": "Precise: Ice Focus",
+     "key": "Precise_Ice_Focus"
+    },
+    {
+     "lines": [
+      "Activates Focus and gains a buff:",
+      "15.6% additional Lightning Damage",
+      "For every 2m moved, this skill gains 5 Focus Pts. Upon reaching 100 Focus Pts, using a non-Mobility Attack Skill will consume all Focus Pts and trigger this skill, summoning a Thunderstrike that deals 1109% Weapon Attack Damage to all enemies within a certain area.",
+      "When triggered by a Melee Skill, the Thunderstrike attacks a fan-shaped area. When triggered by a Ranged Skill, the Thunderstrike attacks a square-shaped area.",
+      "Activates Focus and gains a buff:",
+      "15.6% additional Lightning Damage",
+      "Thunder Focus:",
+      "Converts 100% of the skill's Physical Damage to Lightning Damage",
+      "For every 2 m moved, the skill gains 5 Focus Pts",
+      "After this skill reaches 100 Focus Pts, using a non-Mobility Attack Skill will consume 100 Focus Pts and trigger this skill in front of you",
+      "+4% additional damage for this skill",
+      "Thunderstrike:",
+      "Deals 1109% Weapon Attack Damage."
+     ],
+     "name": "Precise: Thunder Focus",
+     "key": "Precise_Thunder_Focus"
+    },
+    {
+     "lines": [
+      "Activates Focus and gains a buff:",
+      "+9% additional Fire Damage",
+      "+15% chance to Ignite targets",
+      "Adds 2 - 2 Base Ignite Damage",
+      "This skill gains 15 Focus Pts when inflicting Ignite. Upon defeating an enemy, there is a 100% chance to consume 40 Focus Pts and trigger this skill on the enemy, dealing Secondary Fire Damage equal to 25% of their Max Life to enemies within 3m (not affected by bonuses).",
+      "Additionally increases this skill's area for each time Ignite has been inflicted recently.",
+      "Activates Focus and gains a buff:",
+      "+9% additional Fire Damage",
+      "+15% chance to Ignite targets",
+      "Adds 2 - 2 Base Ignite Damage",
+      "Flame Focus:",
+      "This skill gains 15 Focus Pts when inflicting Ignite. This skill can be triggered up to 3 time(s) every 0.5 s",
+      "Upon defeating an enemy, there is a 100% chance to consume 40 Focus Pts of this skill and trigger this skill at the location of the defeated enemy, dealing True Damage equal to 25% of the defeated enemy's Max Life",
+      "+10% additional Skill Area for this skill for each time you inflict Ignite recently. Stacks up to 6 time(s)",
+      "+4% additional damage for this skill"
+     ],
+     "name": "Precise: Flame Focus",
+     "key": "Precise_Flame_Focus"
+    },
+    {
+     "lines": [
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+40% additional Minion Damage, +50% Minion Aggressiveness and +10% additional Minion Max Life (Not affected by Aura Effects).",
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+40% additional Minion Damage",
+      "+50% Minion Aggressiveness (Not affected by Aura Effects)",
+      "+10% additional Minion Max Life (Not affected by Aura Effects)"
+     ],
+     "name": "Precise: Radical Order",
+     "key": "Precise_Radical_Order"
+    },
+    {
+     "lines": [
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+22% additional Attack Damage.",
+      "Gains 1 stack(s) of buffs upon defeating an enemy. +40% chance to gain 5 stack(s) of buffs when hitting an Elite, +5/2% additional Aura Effect per stack of the buff for 8s. Stacks up to 40 time(s) (Not affected by Aura Effects).",
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+22% additional Attack Damage",
+      "Gains 1 stack(s) of buffs upon defeating an enemy. +40% chance to gain 5 stack(s) of buffs when hitting an Elite",
+      "2.5% additional Aura Effect per stack of the buff for 8 s. Stacks up to 40 time(s) (Not affected by Aura Effects)"
+     ],
+     "name": "Precise: Cruelty",
+     "key": "Precise_Cruelty"
+    },
+    {
+     "lines": [
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+33% additional Area Damage and Ailment Damage dealt by Area Skills. +20% Skill Area and +4% additional Area Damage when at least 5 enemies are within 10m.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+33% additional Area Damage",
+      "+33% additional Ailment Damage dealt by Area Skills",
+      "+20% Skill Area when there are at least 5 enemies within 10 m",
+      "+4% additional Area Damage when there are at least 5 enemies within 10 m",
+      "+4% additional Ailment Damage dealt by Area Skills when there are at least 5 enemies within 10 m"
+     ],
+     "name": "Precise: Domain Expansion",
+     "key": "Precise_Domain_Expansion"
+    },
+    {
+     "lines": [
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+25% additional Ailment Damage. +17% chance to inflict Ailments. +10% Ailment Duration.",
+      "Activates the Aura, you and allies within a certain area gain the following buff:",
+      "+25% additional Ailment Damage",
+      "+17% chance to inflict Damaging Ailments",
+      "+10% Ailment Duration"
+     ],
+     "name": "Precise: Ailment Amplification",
+     "key": "Precise_Ailment_Amplification"
+    }
+   ]
+  },
+  {
+   "card": "Skill - Passive - Help",
+   "tab": "Skill-Passive-Help",
+   "text": [
+    "Skills with the Passive tag need to be equipped at special Passive Skill slots.",
+    "Passive Skills have various powerful effects. Choose Passive Skills that suit you best."
+   ]
+  }
+ ]
+}

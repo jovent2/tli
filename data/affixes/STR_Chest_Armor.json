@@ -1,0 +1,2093 @@
+{
+ "slot": "STR_Chest_Armor",
+ "name": "STR Chest Armor",
+ "prefix": [
+  {
+   "tier": "0+",
+   "modifier": "+(330–372) Max Life",
+   "level": 100,
+   "weight": 0,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "0",
+   "modifier": "+(221–286) Max Life",
+   "level": 100,
+   "weight": 0,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "1",
+   "modifier": "+(154–220) Max Life",
+   "level": 86,
+   "weight": 100,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "2",
+   "modifier": "+(129–154) Max Life",
+   "level": 82,
+   "weight": 200,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "3",
+   "modifier": "+(92–110) Max Life",
+   "level": 76,
+   "weight": 800,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "4",
+   "modifier": "+(74–88) Max Life",
+   "level": 68,
+   "weight": 3200,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "5",
+   "modifier": "+(59–70) Max Life",
+   "level": 58,
+   "weight": 3200,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "6",
+   "modifier": "+(48–57) Max Life",
+   "level": 40,
+   "weight": 6250,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "7",
+   "modifier": "+(37–44) Max Life",
+   "level": 1,
+   "weight": 6250,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "0+",
+   "modifier": "+(5024–5678) Gear Armor",
+   "level": 100,
+   "weight": 0,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "0",
+   "modifier": "+(3361–4368) Gear Armor",
+   "level": 100,
+   "weight": 0,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "1",
+   "modifier": "+(2353–3360) Gear Armor",
+   "level": 86,
+   "weight": 100,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "2",
+   "modifier": "+(1681–2352) Gear Armor",
+   "level": 82,
+   "weight": 200,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "3",
+   "modifier": "+(1345–1680) Gear Armor",
+   "level": 76,
+   "weight": 800,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "4",
+   "modifier": "+(1076–1344) Gear Armor",
+   "level": 68,
+   "weight": 3200,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "5",
+   "modifier": "+(875–1075) Gear Armor",
+   "level": 58,
+   "weight": 3200,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "6",
+   "modifier": "+(673–874) Gear Armor",
+   "level": 40,
+   "weight": 6250,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "7",
+   "modifier": "+(505–672) Gear Armor",
+   "level": 1,
+   "weight": 6250,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "0+",
+   "modifier": "+(90–100)% Critical Strike Damage Mitigation",
+   "level": 100,
+   "weight": 0,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "0",
+   "modifier": "+(61–78)% Critical Strike Damage Mitigation",
+   "level": 100,
+   "weight": 0,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "1",
+   "modifier": "+(43–60)% Critical Strike Damage Mitigation",
+   "level": 86,
+   "weight": 100,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "2",
+   "modifier": "+(31–42)% Critical Strike Damage Mitigation",
+   "level": 82,
+   "weight": 200,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "3",
+   "modifier": "+(25–30)% Critical Strike Damage Mitigation",
+   "level": 76,
+   "weight": 800,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "4",
+   "modifier": "+(19–24)% Critical Strike Damage Mitigation",
+   "level": 68,
+   "weight": 3200,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "0+",
+   "modifier": "+(109–122)% Minion Damage",
+   "level": 100,
+   "weight": 0,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "0",
+   "modifier": "+(73–94)% Minion Damage",
+   "level": 100,
+   "weight": 0,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "1",
+   "modifier": "+(51–72)% Minion Damage",
+   "level": 86,
+   "weight": 100,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "2",
+   "modifier": "+(37–50)% Minion Damage",
+   "level": 82,
+   "weight": 200,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "3",
+   "modifier": "+(30–36)% Minion Damage",
+   "level": 76,
+   "weight": 800,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "4",
+   "modifier": "+(24–29)% Minion Damage",
+   "level": 68,
+   "weight": 3200,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "5",
+   "modifier": "+(20–23)% Minion Damage",
+   "level": 58,
+   "weight": 3200,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "6",
+   "modifier": "+(15–19)% Minion Damage",
+   "level": 40,
+   "weight": 6250,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "7",
+   "modifier": "+(12–14)% Minion Damage",
+   "level": 1,
+   "weight": 6250,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "0+",
+   "modifier": "+(25–27)% Max Life",
+   "level": 100,
+   "weight": 0,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "0",
+   "modifier": "+(17–21)% Max Life",
+   "level": 100,
+   "weight": 0,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "1",
+   "modifier": "+(12–16)% Max Life",
+   "level": 86,
+   "weight": 100,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "2",
+   "modifier": "+(9–11)% Max Life",
+   "level": 82,
+   "weight": 200,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "3",
+   "modifier": "+(7–8)% Max Life",
+   "level": 76,
+   "weight": 800,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "0+",
+   "modifier": "+(109–122)% damage",
+   "level": 100,
+   "weight": 0,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "0",
+   "modifier": "+(73–94)% damage",
+   "level": 100,
+   "weight": 0,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "1",
+   "modifier": "+(51–72)% damage",
+   "level": 86,
+   "weight": 100,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "2",
+   "modifier": "+(37–50)% damage",
+   "level": 82,
+   "weight": 200,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "3",
+   "modifier": "+(30–36)% damage",
+   "level": 76,
+   "weight": 800,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "4",
+   "modifier": "+(24–29)% damage",
+   "level": 68,
+   "weight": 3200,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "5",
+   "modifier": "+(20–23)% damage",
+   "level": 58,
+   "weight": 3200,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "6",
+   "modifier": "+(15–19)% damage",
+   "level": 40,
+   "weight": 6250,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "7",
+   "modifier": "+(12–14)% damage",
+   "level": 1,
+   "weight": 6250,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "0+",
+   "modifier": "+(180–203) Max Mana",
+   "level": 100,
+   "weight": 0,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "0",
+   "modifier": "+(121–156) Max Mana",
+   "level": 100,
+   "weight": 0,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "1",
+   "modifier": "+(85–120) Max Mana",
+   "level": 86,
+   "weight": 100,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "2",
+   "modifier": "+(61–84) Max Mana",
+   "level": 82,
+   "weight": 200,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "3",
+   "modifier": "+(49–60) Max Mana",
+   "level": 76,
+   "weight": 800,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "4",
+   "modifier": "+(39–48) Max Mana",
+   "level": 68,
+   "weight": 3200,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "5",
+   "modifier": "+(32–38) Max Mana",
+   "level": 58,
+   "weight": 3200,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "6",
+   "modifier": "+(25–31) Max Mana",
+   "level": 40,
+   "weight": 6250,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "7",
+   "modifier": "+(19–24) Max Mana",
+   "level": 1,
+   "weight": 6250,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "0+",
+   "modifier": "+(23–25)% Attack and Spell Block Chance",
+   "level": 100,
+   "weight": 0,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "0",
+   "modifier": "+(16–20)% Attack and Spell Block Chance",
+   "level": 100,
+   "weight": 0,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "1",
+   "modifier": "+(12–15)% Attack and Spell Block Chance",
+   "level": 86,
+   "weight": 100,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "2",
+   "modifier": "+(9–11)% Attack and Spell Block Chance",
+   "level": 82,
+   "weight": 200,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "3",
+   "modifier": "+(7–8)% Attack and Spell Block Chance",
+   "level": 76,
+   "weight": 800,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "4",
+   "modifier": "+6% Attack and Spell Block Chance",
+   "level": 68,
+   "weight": 3200,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "5",
+   "modifier": "+5% Attack and Spell Block Chance",
+   "level": 58,
+   "weight": 3200,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "6",
+   "modifier": "+4% Attack and Spell Block Chance",
+   "level": 40,
+   "weight": 6250,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "0+",
+   "modifier": "+(90–101) Strength",
+   "level": 100,
+   "weight": 0,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "0",
+   "modifier": "+(61–78) Strength",
+   "level": 100,
+   "weight": 0,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "1",
+   "modifier": "+(42–60) Strength",
+   "level": 86,
+   "weight": 100,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "2",
+   "modifier": "+(35–42) Strength",
+   "level": 82,
+   "weight": 200,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "3",
+   "modifier": "+(25–30) Strength",
+   "level": 76,
+   "weight": 800,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "4",
+   "modifier": "+(20–24) Strength",
+   "level": 68,
+   "weight": 3200,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "5",
+   "modifier": "+(16–19) Strength",
+   "level": 58,
+   "weight": 3200,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "6",
+   "modifier": "+(13–16) Strength",
+   "level": 40,
+   "weight": 6250,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "7",
+   "modifier": "+(10–12) Strength",
+   "level": 1,
+   "weight": 6250,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "0+",
+   "modifier": "+(90–101) Intelligence",
+   "level": 100,
+   "weight": 0,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "0",
+   "modifier": "+(61–78) Intelligence",
+   "level": 100,
+   "weight": 0,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "1",
+   "modifier": "+(43–60) Intelligence",
+   "level": 86,
+   "weight": 100,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "2",
+   "modifier": "+(31–42) Intelligence",
+   "level": 82,
+   "weight": 200,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "3",
+   "modifier": "+(25–30) Intelligence",
+   "level": 76,
+   "weight": 800,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "4",
+   "modifier": "+(20–24) Intelligence",
+   "level": 68,
+   "weight": 3200,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "5",
+   "modifier": "+(17–19) Intelligence",
+   "level": 58,
+   "weight": 3200,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "6",
+   "modifier": "+(13–16) Intelligence",
+   "level": 40,
+   "weight": 6250,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "7",
+   "modifier": "+(10–12) Intelligence",
+   "level": 1,
+   "weight": 6250,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "0+",
+   "modifier": "+(90–101) Dexterity",
+   "level": 100,
+   "weight": 0,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "0",
+   "modifier": "+(61–78) Dexterity",
+   "level": 100,
+   "weight": 0,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "1",
+   "modifier": "+(43–60) Dexterity",
+   "level": 86,
+   "weight": 100,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "2",
+   "modifier": "+(31–42) Dexterity",
+   "level": 82,
+   "weight": 200,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "3",
+   "modifier": "+(25–30) Dexterity",
+   "level": 76,
+   "weight": 800,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "4",
+   "modifier": "+(20–24) Dexterity",
+   "level": 68,
+   "weight": 3200,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "5",
+   "modifier": "+(17–19) Dexterity",
+   "level": 58,
+   "weight": 3200,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "6",
+   "modifier": "+(13–16) Dexterity",
+   "level": 40,
+   "weight": 6250,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "7",
+   "modifier": "+(10–12) Dexterity",
+   "level": 1,
+   "weight": 6250,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "0+",
+   "modifier": "+(68–76)% Projectile Speed",
+   "level": 100,
+   "weight": 0,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "0",
+   "modifier": "+(46–59)% Projectile Speed",
+   "level": 100,
+   "weight": 0,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "1",
+   "modifier": "+(33–45)% Projectile Speed",
+   "level": 86,
+   "weight": 100,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "2",
+   "modifier": "+(24–32)% Projectile Speed",
+   "level": 82,
+   "weight": 200,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "3",
+   "modifier": "+(17–23)% Projectile Speed",
+   "level": 76,
+   "weight": 800,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "4",
+   "modifier": "+(12–16)% Projectile Speed",
+   "level": 68,
+   "weight": 3200,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "5",
+   "modifier": "+(8–11)% Projectile Speed",
+   "level": 58,
+   "weight": 3200,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "6",
+   "modifier": "+(6–7)% Projectile Speed",
+   "level": 40,
+   "weight": 6250,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "7",
+   "modifier": "+(4–5)% Projectile Speed",
+   "level": 1,
+   "weight": 6250,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "0+",
+   "modifier": "Converts (31–35)% of Physical Damage taken to Fire Damage",
+   "level": 100,
+   "weight": 0,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "0",
+   "modifier": "Converts (21–26)% of Physical Damage taken to Fire Damage",
+   "level": 100,
+   "weight": 0,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "1",
+   "modifier": "Converts (16–20)% of Physical Damage taken to Fire Damage",
+   "level": 100,
+   "weight": 100,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "2",
+   "modifier": "Converts (12–15)% of Physical Damage taken to Fire Damage",
+   "level": 100,
+   "weight": 200,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "0+",
+   "modifier": "+(31–34)% Sealed Mana Compensation",
+   "level": 100,
+   "weight": 0,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "0",
+   "modifier": "+(21–26)% Sealed Mana Compensation",
+   "level": 100,
+   "weight": 0,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "1",
+   "modifier": "+(15–20)% Sealed Mana Compensation",
+   "level": 100,
+   "weight": 100,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "2",
+   "modifier": "+(8–12)% Sealed Mana Compensation",
+   "level": 100,
+   "weight": 200,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "0+",
+   "modifier": "You can cast 1 additional Curses / +(12–23)% Curse Effect",
+   "level": 100,
+   "weight": 0,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "0",
+   "modifier": "You can cast 1 additional Curses / +(8–10)% Curse Effect",
+   "level": 100,
+   "weight": 0,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "1",
+   "modifier": "You can cast 1 additional Curses",
+   "level": 100,
+   "weight": 100,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "0+",
+   "modifier": "Enemies have a (35–40)% chance to explode when defeated by an Attack or Spell, dealing True Damage equal to (250–300)% of their Max Life to enemies within a 6 m radius",
+   "level": 100,
+   "weight": 0,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "0",
+   "modifier": "Enemies have a (20–25)% chance to explode when defeated by an Attack or Spell, dealing True Damage equal to (250–300)% of their Max Life to enemies within a 6 m radius",
+   "level": 100,
+   "weight": 0,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "1",
+   "modifier": "Enemies have a (10–15)% chance to explode when defeated by an Attack or Spell, dealing True Damage equal to (200–250)% of their Max Life to enemies within a 6 m radius",
+   "level": 100,
+   "weight": 100,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "0+",
+   "modifier": "+(38–42)% additional Armor",
+   "level": 100,
+   "weight": 0,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "0",
+   "modifier": "+(21–26)% additional Armor",
+   "level": 100,
+   "weight": 0,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "1",
+   "modifier": "+(15–20)% additional Armor",
+   "level": 100,
+   "weight": 100,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "2",
+   "modifier": "+(11–14)% additional Armor",
+   "level": 100,
+   "weight": 200,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "3",
+   "modifier": "+(8–10)% additional Armor",
+   "level": 100,
+   "weight": 800,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "4",
+   "modifier": "+(6–7)% additional Armor",
+   "level": 100,
+   "weight": 3200,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "5",
+   "modifier": "+(4–5)% additional Armor",
+   "level": 100,
+   "weight": 3200,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "6",
+   "modifier": "+3% additional Armor",
+   "level": 100,
+   "weight": 6250,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "7",
+   "modifier": "+2% additional Armor",
+   "level": 100,
+   "weight": 6250,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "0+",
+   "modifier": "(31–34)% of damage is taken from Mana before life",
+   "level": 100,
+   "weight": 0,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "0",
+   "modifier": "(21–26)% of damage is taken from Mana before life",
+   "level": 100,
+   "weight": 0,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "1",
+   "modifier": "(15–20)% of damage is taken from Mana before life",
+   "level": 100,
+   "weight": 100,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "2",
+   "modifier": "(11–14)% of damage is taken from Mana before life",
+   "level": 100,
+   "weight": 200,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "3",
+   "modifier": "(8–10)% of damage is taken from Mana before life",
+   "level": 100,
+   "weight": 800,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "4",
+   "modifier": "(6–7)% of damage is taken from Mana before life",
+   "level": 100,
+   "weight": 3200,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "5",
+   "modifier": "(4–5)% of damage is taken from Mana before life",
+   "level": 100,
+   "weight": 3200,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "6",
+   "modifier": "3% of damage is taken from Mana before life",
+   "level": 100,
+   "weight": 6250,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "7",
+   "modifier": "2% of damage is taken from Mana before life",
+   "level": 100,
+   "weight": 6250,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "0+",
+   "modifier": "Converts (70–77)% of Erosion Damage taken to Fire Damage",
+   "level": 100,
+   "weight": 0,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "0",
+   "modifier": "Converts (46–60)% of Erosion Damage taken to Fire Damage",
+   "level": 100,
+   "weight": 0,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "1",
+   "modifier": "Converts (36–45)% of Erosion Damage taken to Fire Damage",
+   "level": 100,
+   "weight": 100,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "2",
+   "modifier": "Converts (27–35)% of Erosion Damage taken to Fire Damage",
+   "level": 100,
+   "weight": 200,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "0+",
+   "modifier": "-50% additional Damage Over Time taken when having at least 50000 Armor",
+   "level": 100,
+   "weight": 0,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "0",
+   "modifier": "-45% additional Damage Over Time taken when having at least 50000 Armor",
+   "level": 100,
+   "weight": 0,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "1",
+   "modifier": "-40% additional Damage Over Time taken when having at least 50000 Armor",
+   "level": 100,
+   "weight": 100,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "2",
+   "modifier": "-35% additional Damage Over Time taken when having at least 50000 Armor",
+   "level": 100,
+   "weight": 200,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "3",
+   "modifier": "-30% additional Damage Over Time taken when having at least 50000 Armor",
+   "level": 100,
+   "weight": 800,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "4",
+   "modifier": "-25% additional Damage Over Time taken when having at least 50000 Armor",
+   "level": 100,
+   "weight": 3200,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "5",
+   "modifier": "-20% additional Damage Over Time taken when having at least 50000 Armor",
+   "level": 100,
+   "weight": 3200,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "6",
+   "modifier": "-15% additional Damage Over Time taken when having at least 50000 Armor",
+   "level": 100,
+   "weight": 6250,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "7",
+   "modifier": "-10% additional Damage Over Time taken when having at least 50000 Armor",
+   "level": 100,
+   "weight": 6250,
+   "group": "Ultimate Affix"
+  }
+ ],
+ "suffix": [
+  {
+   "tier": "0+",
+   "modifier": "Regenerates 10% Life per second",
+   "level": 100,
+   "weight": 0,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "0",
+   "modifier": "Regenerates (7–8)% Life per second",
+   "level": 100,
+   "weight": 0,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "1",
+   "modifier": "Regenerates (5–6)% Life per second",
+   "level": 86,
+   "weight": 100,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "2",
+   "modifier": "Regenerates 4% Life per second",
+   "level": 82,
+   "weight": 200,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "0+",
+   "modifier": "+(41–46)% Fire Resistance",
+   "level": 100,
+   "weight": 0,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "0",
+   "modifier": "+(28–35)% Fire Resistance",
+   "level": 100,
+   "weight": 0,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "1",
+   "modifier": "+(19–27)% Fire Resistance",
+   "level": 86,
+   "weight": 100,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "2",
+   "modifier": "+(16–19)% Fire Resistance",
+   "level": 82,
+   "weight": 200,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "3",
+   "modifier": "+(11–14)% Fire Resistance",
+   "level": 76,
+   "weight": 800,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "4",
+   "modifier": "+(9–11)% Fire Resistance",
+   "level": 68,
+   "weight": 3200,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "5",
+   "modifier": "+(7–9)% Fire Resistance",
+   "level": 58,
+   "weight": 3200,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "6",
+   "modifier": "+(6–7)% Fire Resistance",
+   "level": 40,
+   "weight": 6250,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "7",
+   "modifier": "+5% Fire Resistance",
+   "level": 1,
+   "weight": 6250,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "0+",
+   "modifier": "+(41–46)% Cold Resistance",
+   "level": 100,
+   "weight": 0,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "0",
+   "modifier": "+(28–35)% Cold Resistance",
+   "level": 100,
+   "weight": 0,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "1",
+   "modifier": "+(19–27)% Cold Resistance",
+   "level": 86,
+   "weight": 100,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "2",
+   "modifier": "+(16–19)% Cold Resistance",
+   "level": 82,
+   "weight": 200,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "3",
+   "modifier": "+(11–14)% Cold Resistance",
+   "level": 76,
+   "weight": 800,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "4",
+   "modifier": "+(9–11)% Cold Resistance",
+   "level": 68,
+   "weight": 3200,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "5",
+   "modifier": "+(7–9)% Cold Resistance",
+   "level": 58,
+   "weight": 3200,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "6",
+   "modifier": "+(6–7)% Cold Resistance",
+   "level": 40,
+   "weight": 6250,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "7",
+   "modifier": "+5% Cold Resistance",
+   "level": 1,
+   "weight": 6250,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "0+",
+   "modifier": "+(41–46)% Lightning Resistance",
+   "level": 100,
+   "weight": 0,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "0",
+   "modifier": "+(28–35)% Lightning Resistance",
+   "level": 100,
+   "weight": 0,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "1",
+   "modifier": "+(19–27)% Lightning Resistance",
+   "level": 86,
+   "weight": 100,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "2",
+   "modifier": "+(16–19)% Lightning Resistance",
+   "level": 82,
+   "weight": 200,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "3",
+   "modifier": "+(11–14)% Lightning Resistance",
+   "level": 76,
+   "weight": 800,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "4",
+   "modifier": "+(9–11)% Lightning Resistance",
+   "level": 68,
+   "weight": 3200,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "5",
+   "modifier": "+(7–9)% Lightning Resistance",
+   "level": 58,
+   "weight": 3200,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "6",
+   "modifier": "+(6–7)% Lightning Resistance",
+   "level": 40,
+   "weight": 6250,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "7",
+   "modifier": "+5% Lightning Resistance",
+   "level": 1,
+   "weight": 6250,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "0+",
+   "modifier": "+(41–46)% Erosion Resistance",
+   "level": 100,
+   "weight": 0,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "0",
+   "modifier": "+(28–35)% Erosion Resistance",
+   "level": 100,
+   "weight": 0,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "1",
+   "modifier": "+(19–27)% Erosion Resistance",
+   "level": 86,
+   "weight": 100,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "2",
+   "modifier": "+(16–19)% Erosion Resistance",
+   "level": 82,
+   "weight": 200,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "3",
+   "modifier": "+(11–14)% Erosion Resistance",
+   "level": 76,
+   "weight": 800,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "4",
+   "modifier": "+(9–11)% Erosion Resistance",
+   "level": 68,
+   "weight": 3200,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "5",
+   "modifier": "+(7–9)% Erosion Resistance",
+   "level": 58,
+   "weight": 3200,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "6",
+   "modifier": "+(6–7)% Erosion Resistance",
+   "level": 40,
+   "weight": 6250,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "7",
+   "modifier": "+5% Erosion Resistance",
+   "level": 1,
+   "weight": 6250,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "0+",
+   "modifier": "+(180–203)% Critical Strike Rating",
+   "level": 100,
+   "weight": 0,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "0",
+   "modifier": "+(121–156)% Critical Strike Rating",
+   "level": 100,
+   "weight": 0,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "1",
+   "modifier": "+(87–120)% Critical Strike Rating",
+   "level": 86,
+   "weight": 100,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "2",
+   "modifier": "+(62–86)% Critical Strike Rating",
+   "level": 82,
+   "weight": 200,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "3",
+   "modifier": "+(45–61)% Critical Strike Rating",
+   "level": 76,
+   "weight": 800,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "4",
+   "modifier": "+(30–44)% Critical Strike Rating",
+   "level": 68,
+   "weight": 3200,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "5",
+   "modifier": "+(20–29)% Critical Strike Rating",
+   "level": 58,
+   "weight": 3200,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "6",
+   "modifier": "+(14–19)% Critical Strike Rating",
+   "level": 40,
+   "weight": 6250,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "0+",
+   "modifier": "+(76–85)% Affliction Effect",
+   "level": 100,
+   "weight": 0,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "0",
+   "modifier": "+(51–65)% Affliction Effect",
+   "level": 100,
+   "weight": 0,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "1",
+   "modifier": "+(36–50)% Affliction Effect",
+   "level": 86,
+   "weight": 100,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "2",
+   "modifier": "+(26–35)% Affliction Effect",
+   "level": 82,
+   "weight": 200,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "3",
+   "modifier": "+(21–25)% Affliction Effect",
+   "level": 76,
+   "weight": 800,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "4",
+   "modifier": "+(17–20)% Affliction Effect",
+   "level": 68,
+   "weight": 3200,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "5",
+   "modifier": "+(14–16)% Affliction Effect",
+   "level": 58,
+   "weight": 3200,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "6",
+   "modifier": "+(11–13)% Affliction Effect",
+   "level": 40,
+   "weight": 6250,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "7",
+   "modifier": "+(9–10)% Affliction Effect",
+   "level": 1,
+   "weight": 6250,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "0+",
+   "modifier": "+(16–17)% Life Regain and Energy Shield Regain",
+   "level": 100,
+   "weight": 0,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "0",
+   "modifier": "+(11–13)% Life Regain and Energy Shield Regain",
+   "level": 100,
+   "weight": 0,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "1",
+   "modifier": "+(8–10)% Life Regain and Energy Shield Regain",
+   "level": 86,
+   "weight": 100,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "2",
+   "modifier": "+(6–7)% Life Regain and Energy Shield Regain",
+   "level": 82,
+   "weight": 200,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "3",
+   "modifier": "+5% Life Regain and Energy Shield Regain",
+   "level": 76,
+   "weight": 800,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "0+",
+   "modifier": "+(16–17)% Life Regain and Energy Shield Regain",
+   "level": 100,
+   "weight": 0,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "0",
+   "modifier": "+(11–13)% Life Regain and Energy Shield Regain",
+   "level": 100,
+   "weight": 0,
+   "group": "Basic Affix"
+  },
+  {
+   "tier": "0+",
+   "modifier": "+(16–17)% Elemental Resistance",
+   "level": 100,
+   "weight": 0,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "0",
+   "modifier": "+(11–13)% Elemental Resistance",
+   "level": 100,
+   "weight": 0,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "1",
+   "modifier": "+(8–10)% Elemental Resistance",
+   "level": 86,
+   "weight": 100,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "2",
+   "modifier": "+(6–7)% Elemental Resistance",
+   "level": 82,
+   "weight": 200,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "3",
+   "modifier": "+5% Elemental Resistance",
+   "level": 76,
+   "weight": 800,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "0+",
+   "modifier": "+(37–41)% Attack and Cast Speed / +(37–41)% Minion Attack and Cast Speed",
+   "level": 100,
+   "weight": 0,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "0",
+   "modifier": "+(25–31)% Attack and Cast Speed / +(25–31)% Minion Attack and Cast Speed",
+   "level": 100,
+   "weight": 0,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "1",
+   "modifier": "+(18–24)% Attack and Cast Speed / +(18–24)% Minion Attack and Cast Speed",
+   "level": 86,
+   "weight": 100,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "2",
+   "modifier": "+(13–17)% Attack and Cast Speed / +(13–17)% Minion Attack and Cast Speed",
+   "level": 82,
+   "weight": 200,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "3",
+   "modifier": "+(10–12)% Attack and Cast Speed / +(10–12)% Minion Attack and Cast Speed",
+   "level": 76,
+   "weight": 800,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "0+",
+   "modifier": "+(90–101)% Critical Strike Damage",
+   "level": 100,
+   "weight": 0,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "0",
+   "modifier": "+(61–78)% Critical Strike Damage",
+   "level": 100,
+   "weight": 0,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "1",
+   "modifier": "+(44–60)% Critical Strike Damage",
+   "level": 86,
+   "weight": 100,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "2",
+   "modifier": "+(32–43)% Critical Strike Damage",
+   "level": 82,
+   "weight": 200,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "3",
+   "modifier": "+(23–31)% Critical Strike Damage",
+   "level": 76,
+   "weight": 800,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "4",
+   "modifier": "+(16–22)% Critical Strike Damage",
+   "level": 68,
+   "weight": 3200,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "5",
+   "modifier": "+(11–15)% Critical Strike Damage",
+   "level": 58,
+   "weight": 3200,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "6",
+   "modifier": "+(7–10)% Critical Strike Damage",
+   "level": 40,
+   "weight": 6250,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "7",
+   "modifier": "+(5–6)% Critical Strike Damage",
+   "level": 1,
+   "weight": 6250,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "0+",
+   "modifier": "+(76–85)% Reaping Duration",
+   "level": 100,
+   "weight": 0,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "0",
+   "modifier": "+(51–65)% Reaping Duration",
+   "level": 100,
+   "weight": 0,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "1",
+   "modifier": "+(36–50)% Reaping Duration",
+   "level": 86,
+   "weight": 100,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "2",
+   "modifier": "+(26–35)% Reaping Duration",
+   "level": 82,
+   "weight": 200,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "3",
+   "modifier": "+(21–25)% Reaping Duration",
+   "level": 76,
+   "weight": 800,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "4",
+   "modifier": "+(17–20)% Reaping Duration",
+   "level": 68,
+   "weight": 3200,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "5",
+   "modifier": "+(14–16)% Reaping Duration",
+   "level": 58,
+   "weight": 3200,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "6",
+   "modifier": "+(11–13)% Reaping Duration",
+   "level": 40,
+   "weight": 6250,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "7",
+   "modifier": "+(9–10)% Reaping Duration",
+   "level": 1,
+   "weight": 6250,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "0+",
+   "modifier": "+(27–30)% Strength",
+   "level": 100,
+   "weight": 0,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "0",
+   "modifier": "+(19–23)% Strength",
+   "level": 100,
+   "weight": 0,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "1",
+   "modifier": "+(14–18)% Strength",
+   "level": 86,
+   "weight": 100,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "2",
+   "modifier": "+(10–13)% Strength",
+   "level": 82,
+   "weight": 200,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "3",
+   "modifier": "+(8–9)% Strength",
+   "level": 76,
+   "weight": 800,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "4",
+   "modifier": "+7% Strength",
+   "level": 68,
+   "weight": 3200,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "5",
+   "modifier": "+6% Strength",
+   "level": 58,
+   "weight": 3200,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "6",
+   "modifier": "+5% Strength",
+   "level": 40,
+   "weight": 6250,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "7",
+   "modifier": "+4% Strength",
+   "level": 1,
+   "weight": 6250,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "0+",
+   "modifier": "When dealing damage, inflicts Fire Infiltration. Interval for each enemy: 1 s / When Minions deal damage, inflicts Fire Infiltration. Interval for each enemy: 1 s / +(70–100)% Fire Infiltration Effect",
+   "level": 100,
+   "weight": 0,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "0",
+   "modifier": "When dealing damage, inflicts Fire Infiltration. Interval for each enemy: 1 s / When Minions deal damage, inflicts Fire Infiltration. Interval for each enemy: 1 s / +(40–60)% Fire Infiltration Effect",
+   "level": 100,
+   "weight": 0,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "1",
+   "modifier": "When dealing damage, inflicts Fire Infiltration. Interval for each enemy: 1 s / When Minions deal damage, inflicts Fire Infiltration. Interval for each enemy: 1 s / +(10–30)% Fire Infiltration Effect",
+   "level": 86,
+   "weight": 100,
+   "group": "Advanced Affix"
+  },
+  {
+   "tier": "0+",
+   "modifier": "+(31–34)% Aura Effect",
+   "level": 100,
+   "weight": 0,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "0",
+   "modifier": "+(21–26)% Aura Effect",
+   "level": 100,
+   "weight": 0,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "1",
+   "modifier": "+(15–20)% Aura Effect",
+   "level": 100,
+   "weight": 100,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "2",
+   "modifier": "+(11–14)% Aura Effect",
+   "level": 100,
+   "weight": 200,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "3",
+   "modifier": "+(9–10)% Aura Effect",
+   "level": 100,
+   "weight": 400,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "0+",
+   "modifier": "+(203–228) Attack and Spell Critical Strike Rating",
+   "level": 100,
+   "weight": 0,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "0",
+   "modifier": "+(136–176) Attack and Spell Critical Strike Rating",
+   "level": 100,
+   "weight": 0,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "1",
+   "modifier": "+(96–135) Attack and Spell Critical Strike Rating",
+   "level": 100,
+   "weight": 100,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "2",
+   "modifier": "+(69–95) Attack and Spell Critical Strike Rating",
+   "level": 100,
+   "weight": 200,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "3",
+   "modifier": "+(55–68) Attack and Spell Critical Strike Rating",
+   "level": 100,
+   "weight": 400,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "4",
+   "modifier": "+(44–54) Attack and Spell Critical Strike Rating",
+   "level": 100,
+   "weight": 800,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "0+",
+   "modifier": "+(125–140)% Reaping Recovery Speed",
+   "level": 100,
+   "weight": 0,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "0",
+   "modifier": "+(84–108)% Reaping Recovery Speed",
+   "level": 100,
+   "weight": 0,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "1",
+   "modifier": "+(59–83)% Reaping Recovery Speed",
+   "level": 100,
+   "weight": 100,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "2",
+   "modifier": "+(43–58)% Reaping Recovery Speed",
+   "level": 100,
+   "weight": 200,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "3",
+   "modifier": "+(34–42)% Reaping Recovery Speed",
+   "level": 100,
+   "weight": 800,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "0+",
+   "modifier": "Regenerates (12–13)% Life per second when taking Damage Over Time",
+   "level": 100,
+   "weight": 0,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "0",
+   "modifier": "Regenerates (9–10)% Life per second when taking Damage Over Time",
+   "level": 100,
+   "weight": 0,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "1",
+   "modifier": "Regenerates (7–8)% Life per second when taking Damage Over Time",
+   "level": 100,
+   "weight": 100,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "2",
+   "modifier": "Regenerates (5–6)% Life per second when taking Damage Over Time",
+   "level": 100,
+   "weight": 200,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "3",
+   "modifier": "Regenerates 4% Life per second when taking Damage Over Time",
+   "level": 100,
+   "weight": 800,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "0+",
+   "modifier": "+(79–85)% chance to avoid Elemental Ailments",
+   "level": 100,
+   "weight": 0,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "0",
+   "modifier": "+(50–68)% chance to avoid Elemental Ailments",
+   "level": 100,
+   "weight": 0,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "1",
+   "modifier": "+(30–45)% chance to avoid Elemental Ailments",
+   "level": 100,
+   "weight": 100,
+   "group": "Ultimate Affix"
+  },
+  {
+   "tier": "2",
+   "modifier": "+(21–27)% chance to avoid Elemental Ailments",
+   "level": 100,
+   "weight": 200,
+   "group": "Ultimate Affix"
+  }
+ ],
+ "base_affixes": [
+  "+(54–74) Max Life",
+  "+(5–10)% Fire Resistance",
+  "+(5–10)% Cold Resistance",
+  "+(5–10)% Lightning Resistance",
+  "+(5–10)% Erosion Resistance",
+  "+(15–20) Strength",
+  "+(15–20) Dexterity",
+  "+(15–20) Intelligence",
+  "+(20–24)% Skill Area",
+  "+(6–8)% Elemental and Erosion Resistance Penetration",
+  "+(6–8)% Elemental and Erosion Resistance Penetration for Minions",
+  "+(5–7)% Armor DMG Mitigation Penetration",
+  "+(5–7)% Armor DMG Mitigation Penetration for Minions",
+  "+(6–8)% Sealed Mana Compensation",
+  "+(7–8)% Aura Effect",
+  "+(3–5)% Max Elemental Resistance",
+  "Converts (16–20)% of Physical Damage taken to Fire Damage",
+  "+(12–20)% Critical Strike Damage Mitigation",
+  "Takes 10 True Damage every 0.1s",
+  "Converts (36–45)% of Erosion Damage taken to Fire Damage",
+  "+(13–14)% Armor Effective Rate for Non-Physical Damage",
+  "+(2–3) Max Fortitude Stacks"
+ ],
+ "corrosion_base": [
+  "+2 Active Skill Level",
+  "+(3–5)% Max Elemental Resistance",
+  "+(50–70)% damage",
+  "+(15–20)% Max Energy Shield",
+  "+(15–20)% Max Life",
+  "Immune to Elemental Ailments",
+  "+(8–10)% Elemental and Erosion Resistance",
+  "+(30–50)% Gear Armor"
+ ],
+ "base_items": [
+  {
+   "name": "Brute's Chestguard",
+   "key": "Brutes_Chestguard",
+   "lines": [
+    "Require lv 1",
+    "+196 Gear Armor"
+   ]
+  },
+  {
+   "name": "Footman's Chestguard",
+   "key": "Footmans_Chestguard",
+   "lines": [
+    "Require lv 1",
+    "+274 Gear Armor"
+   ]
+  },
+  {
+   "name": "Paladin's Heavy Armor",
+   "key": "Paladins_Heavy_Armor",
+   "lines": [
+    "Require lv 9",
+    "+384 Gear Armor",
+    "Chest"
+   ]
+  },
+  {
+   "name": "Berserker's Chest Armor",
+   "key": "Berserkers_Chest_Armor",
+   "lines": [
+    "Require lv 24",
+    "+538 Gear Armor"
+   ]
+  },
+  {
+   "name": "Iron Sentry's Heavy Armor",
+   "key": "Iron_Sentrys_Heavy_Armor",
+   "lines": [
+    "Require lv 39",
+    "+699 Gear Armor",
+    "Chest"
+   ]
+  },
+  {
+   "name": "Packleader Chest Armor",
+   "key": "Packleader_Chest_Armor",
+   "lines": [
+    "Require lv 52",
+    "+909 Gear Armor"
+   ]
+  },
+  {
+   "name": "Mountain Lord's Chest Armor",
+   "key": "Mountain_Lords_Chest_Armor",
+   "lines": [
+    "Require lv 57",
+    "+1091 Gear Armor"
+   ]
+  },
+  {
+   "name": "Divine Arbiter's Defense",
+   "key": "Divine_Arbiters_Defense",
+   "lines": [
+    "Require lv 61",
+    "Chest"
+   ]
+  },
+  {
+   "name": "Divine Arbiter's Defense",
+   "key": "Divine_Arbiters_Defense",
+   "lines": [
+    "Require lv 62",
+    "+1309 Gear Armor",
+    "Chest"
+   ]
+  },
+  {
+   "name": "Dragon Guardian's Lamellar Armor",
+   "key": "Dragon_Guardians_Lamellar_Armor",
+   "lines": [
+    "Require lv 66",
+    "+1571 Gear Armor",
+    "Chest"
+   ]
+  },
+  {
+   "name": "Fallen Knight's Armor",
+   "key": "Fallen_Knights_Armor",
+   "lines": [
+    "Require lv 70",
+    "+1885 Gear Armor",
+    "Chest"
+   ]
+  },
+  {
+   "name": "Old King's Armor",
+   "key": "Old_Kings_Armor",
+   "lines": [
+    "Require lv 76",
+    "+2073 Gear Armor",
+    "Chest"
+   ]
+  },
+  {
+   "name": "Ranger's Rag",
+   "key": "Rangers_Rag",
+   "lines": [
+    "Require lv 82",
+    "+2240 Gear Armor",
+    "Chest"
+   ]
+  }
+ ],
+ "legendaries": [
+  "Arrival of the Polar Night",
+  "Crimson King",
+  "Devouring Tide",
+  "Dragon Breath Armor",
+  "Friend Nemesis",
+  "Furious Man's Body",
+  "Futile Tradeoff",
+  "Glorious Journey",
+  "Heavyware",
+  "Magnus' Jealousy",
+  "Martyr's Staff",
+  "Mere Eternity",
+  "Silent Avowal",
+  "Unbreakable Armor",
+  "Uros's Bond",
+  "Varagon's Lament",
+  "Vestment of Song",
+  "Void Embankment"
+ ]
+}

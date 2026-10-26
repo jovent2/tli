@@ -1,0 +1,819 @@
+{
+ "page": "TOWER_Sequence",
+ "cards": [
+  {
+   "card": "TOWER Sequence",
+   "tab": "TOWERSequence",
+   "tables": [
+    {
+     "header": [
+      "Affix Effect",
+      "Source",
+      "Type"
+     ],
+     "rows": [
+      {
+       "cells": [
+        "+8% additional damage for Main-Hand Weapons",
+        "Claw, Cane, One-Handed Hammer, One-Handed Sword, One-Handed Axe, Dagger, Pistol",
+        "Intermediate Sequence 1|2|6"
+       ]
+      },
+      {
+       "cells": [
+        "+6% Armor DMG Mitigation Penetration",
+        "Claw, Cane, One-Handed Hammer, One-Handed Sword, One-Handed Axe, Dagger, Pistol, Wand",
+        "Intermediate Sequence 2|3|4"
+       ]
+      },
+      {
+       "cells": [
+        "+8% Fire Penetration",
+        "Claw, Cane, One-Handed Hammer, One-Handed Sword, One-Handed Axe, Dagger, Pistol, Wand",
+        "Intermediate Sequence 3|4|7"
+       ]
+      },
+      {
+       "cells": [
+        "+8% Cold Penetration",
+        "Claw, Cane, One-Handed Hammer, One-Handed Sword, One-Handed Axe, Dagger, Pistol, Wand",
+        "Intermediate Sequence 4|5|6"
+       ]
+      },
+      {
+       "cells": [
+        "+8% Lightning Penetration",
+        "Claw, Cane, One-Handed Hammer, One-Handed Sword, One-Handed Axe, Dagger, Pistol, Wand",
+        "Intermediate Sequence 1|3|5"
+       ]
+      },
+      {
+       "cells": [
+        "+8% Erosion Resistance Penetration",
+        "Claw, Cane, One-Handed Hammer, One-Handed Sword, One-Handed Axe, Dagger, Pistol, Wand",
+        "Intermediate Sequence 5|6|7"
+       ]
+      },
+      {
+       "cells": [
+        "+8% gear Attack Speed",
+        "Claw, Cane, One-Handed Hammer, One-Handed Sword, One-Handed Axe, Dagger, Pistol, Bow, Two-Handed Sword, Two-Handed Hammer, Two-Handed Axe, Cudgel, Musket, Fire Cannon, Crossbow",
+        "Intermediate Sequence 3|6|7"
+       ]
+      },
+      {
+       "cells": [
+        "+20% Attack Critical Strike Rating for this gear",
+        "Claw, Cane, One-Handed Hammer, One-Handed Sword, One-Handed Axe, Dagger, Pistol, Bow, Two-Handed Sword, Two-Handed Hammer, Two-Handed Axe, Cudgel, Musket, Fire Cannon, Crossbow",
+        "Intermediate Sequence 1|4|7"
+       ]
+      },
+      {
+       "cells": [
+        "+10% additional damage on Critical Strike",
+        "Claw, Cane, One-Handed Hammer, One-Handed Sword, One-Handed Axe, Dagger, Pistol, Wand",
+        "Intermediate Sequence 1|2|5"
+       ]
+      },
+      {
+       "cells": [
+        "+10% All Stats",
+        "Claw, Cane, One-Handed Hammer, One-Handed Sword, One-Handed Axe, Dagger, Pistol",
+        "Intermediate Sequence 1|2|3"
+       ]
+      },
+      {
+       "cells": [
+        "+16% additional damage for Main-Hand Weapons",
+        "Bow, Two-Handed Sword, Two-Handed Hammer, Two-Handed Axe, Cudgel, Musket, Fire Cannon, Crossbow",
+        "Intermediate Sequence 1|2|6"
+       ]
+      },
+      {
+       "cells": [
+        "+12% Armor DMG Mitigation Penetration",
+        "Bow, Two-Handed Sword, Two-Handed Hammer, Two-Handed Axe, Cudgel, Musket, Fire Cannon, Crossbow, Tin Staff",
+        "Intermediate Sequence 2|3|4"
+       ]
+      },
+      {
+       "cells": [
+        "+16% Fire Penetration",
+        "Bow, Two-Handed Sword, Two-Handed Hammer, Two-Handed Axe, Cudgel, Musket, Fire Cannon, Crossbow, Tin Staff",
+        "Intermediate Sequence 3|4|7"
+       ]
+      },
+      {
+       "cells": [
+        "+16% Cold Penetration",
+        "Bow, Two-Handed Sword, Two-Handed Hammer, Two-Handed Axe, Cudgel, Musket, Fire Cannon, Crossbow, Tin Staff",
+        "Intermediate Sequence 4|5|6"
+       ]
+      },
+      {
+       "cells": [
+        "+16% Lightning Penetration",
+        "Bow, Two-Handed Sword, Two-Handed Hammer, Two-Handed Axe, Cudgel, Musket, Fire Cannon, Crossbow, Tin Staff",
+        "Intermediate Sequence 1|3|5"
+       ]
+      },
+      {
+       "cells": [
+        "+16% Erosion Resistance Penetration",
+        "Bow, Two-Handed Sword, Two-Handed Hammer, Two-Handed Axe, Cudgel, Musket, Fire Cannon, Crossbow, Tin Staff",
+        "Intermediate Sequence 5|6|7"
+       ]
+      },
+      {
+       "cells": [
+        "+20% additional damage on Critical Strike",
+        "Bow, Two-Handed Sword, Two-Handed Hammer, Two-Handed Axe, Cudgel, Musket, Fire Cannon, Crossbow, Tin Staff",
+        "Intermediate Sequence 1|2|5"
+       ]
+      },
+      {
+       "cells": [
+        "+16% All Stats",
+        "Bow, Two-Handed Sword, Two-Handed Hammer, Two-Handed Axe, Cudgel, Musket, Fire Cannon, Crossbow, Tin Staff",
+        "Intermediate Sequence 1|2|3"
+       ]
+      },
+      {
+       "cells": [
+        "+8% additional Spell Damage",
+        "Wand",
+        "Intermediate Sequence 1|2|6"
+       ]
+      },
+      {
+       "cells": [
+        "+16% Cast Speed",
+        "Wand",
+        "Intermediate Sequence 3|6|7"
+       ]
+      },
+      {
+       "cells": [
+        "+55 Spell Critical Strike Rating",
+        "Wand",
+        "Intermediate Sequence 1|4|7"
+       ]
+      },
+      {
+       "cells": [
+        "+8% All Stats",
+        "Wand, Scepter, Rod, STR Shield, DEX Shield, INT Shield",
+        "Intermediate Sequence 1|2|3"
+       ]
+      },
+      {
+       "cells": [
+        "+16% additional Spell Damage",
+        "Tin Staff",
+        "Intermediate Sequence 1|2|6"
+       ]
+      },
+      {
+       "cells": [
+        "+32% Cast Speed",
+        "Tin Staff",
+        "Intermediate Sequence 3|6|7"
+       ]
+      },
+      {
+       "cells": [
+        "+110 Spell Critical Strike Rating",
+        "Tin Staff",
+        "Intermediate Sequence 1|4|7"
+       ]
+      },
+      {
+       "cells": [
+        "+8% additional Damage Over Time",
+        "Scepter",
+        "Intermediate Sequence 1|2|6"
+       ]
+      },
+      {
+       "cells": [
+        "+16 Affliction inflicted per second / +24% Affliction Effect",
+        "Scepter",
+        "Intermediate Sequence 2|3|4"
+       ]
+      },
+      {
+       "cells": [
+        "+25% Reaping Recovery Speed",
+        "Scepter",
+        "Intermediate Sequence 3|4|7"
+       ]
+      },
+      {
+       "cells": [
+        "+30% Reaping Duration",
+        "Scepter",
+        "Intermediate Sequence 4|5|6"
+       ]
+      },
+      {
+       "cells": [
+        "+10% Movement Speed",
+        "Scepter, STR Shield, DEX Shield, INT Shield",
+        "Intermediate Sequence 1|3|5"
+       ]
+      },
+      {
+       "cells": [
+        "+12% Ailment Duration",
+        "Scepter",
+        "Intermediate Sequence 5|6|7"
+       ]
+      },
+      {
+       "cells": [
+        "Max Terra Charge Stacks +1",
+        "Scepter",
+        "Intermediate Sequence 3|6|7"
+       ]
+      },
+      {
+       "cells": [
+        "+16% Blur Effect",
+        "Scepter",
+        "Intermediate Sequence 1|4|7"
+       ]
+      },
+      {
+       "cells": [
+        "-10% All Resistance when the enemy has max Affliction",
+        "Scepter",
+        "Intermediate Sequence 1|2|5"
+       ]
+      },
+      {
+       "cells": [
+        "+8% additional Minion Damage",
+        "Rod",
+        "Intermediate Sequence 1|2|6"
+       ]
+      },
+      {
+       "cells": [
+        "+6% Armor DMG Mitigation Penetration for Minions",
+        "Rod",
+        "Intermediate Sequence 2|3|4"
+       ]
+      },
+      {
+       "cells": [
+        "+8% Minion Fire Penetration",
+        "Rod",
+        "Intermediate Sequence 3|4|7"
+       ]
+      },
+      {
+       "cells": [
+        "+8% Cold Penetration for Minions",
+        "Rod",
+        "Intermediate Sequence 4|5|6"
+       ]
+      },
+      {
+       "cells": [
+        "+8% Lightning Penetration for Minions",
+        "Rod",
+        "Intermediate Sequence 1|3|5"
+       ]
+      },
+      {
+       "cells": [
+        "+8% Erosion Penetration for Minions",
+        "Rod",
+        "Intermediate Sequence 5|6|7"
+       ]
+      },
+      {
+       "cells": [
+        "+16% Minion Attack and Cast Speed",
+        "Rod",
+        "Intermediate Sequence 3|6|7"
+       ]
+      },
+      {
+       "cells": [
+        "+55 Minion Critical Strike Rating",
+        "Rod",
+        "Intermediate Sequence 1|4|7"
+       ]
+      },
+      {
+       "cells": [
+        "+40% Minion Critical Strike Damage",
+        "Rod",
+        "Intermediate Sequence 1|2|5"
+       ]
+      },
+      {
+       "cells": [
+        "+8% Elemental Resistance",
+        "STR Shield, DEX Shield, INT Shield",
+        "Intermediate Sequence 1|2|6"
+       ]
+      },
+      {
+       "cells": [
+        "+15% Max Life and Max Mana",
+        "STR Shield, DEX Shield, INT Shield",
+        "Intermediate Sequence 2|3|4"
+       ]
+      },
+      {
+       "cells": [
+        "+40% Defense from Shield",
+        "STR Shield, DEX Shield, INT Shield",
+        "Intermediate Sequence 3|4|7"
+       ]
+      },
+      {
+       "cells": [
+        "+10% Attack and Spell Block Chance",
+        "STR Shield, DEX Shield, INT Shield",
+        "Intermediate Sequence 4|5|6"
+       ]
+      },
+      {
+       "cells": [
+        "+80% Critical Strike Rating",
+        "STR Shield, DEX Shield, INT Shield",
+        "Intermediate Sequence 5|6|7"
+       ]
+      },
+      {
+       "cells": [
+        "+40% Critical Strike Damage",
+        "STR Shield, DEX Shield, INT Shield",
+        "Intermediate Sequence 3|6|7"
+       ]
+      },
+      {
+       "cells": [
+        "Restores 3% Life on Block. Interval: 0.3s",
+        "STR Shield, DEX Shield, INT Shield",
+        "Intermediate Sequence 1|4|7"
+       ]
+      },
+      {
+       "cells": [
+        "Restores 3% Energy Shield on Block. Interval: 0.3s",
+        "STR Shield, DEX Shield, INT Shield",
+        "Intermediate Sequence 1|2|5"
+       ]
+      },
+      {
+       "cells": [
+        "Enemies have a 15% chance to explode when defeated by an Attack or Spell, dealing True Damage equal to 250% of their Max Life to enemies within a 6 m radius",
+        "Claw, One-Handed Hammer, One-Handed Sword, One-Handed Axe, Dagger, Cane, Pistol, Wand, Scepter",
+        "Advanced Sequence 1|4|5|7"
+       ]
+      },
+      {
+       "cells": [
+        "Adds 1 - 3 Lightning Damage to Attacks per 10 Dexterity",
+        "Claw, One-Handed Hammer, One-Handed Sword, One-Handed Axe, Dagger, Cane, Pistol",
+        "Advanced Sequence 1|1|1|5"
+       ]
+      },
+      {
+       "cells": [
+        "Adds 2 - 2 Fire Damage to Attacks per 10 Strength",
+        "Claw, One-Handed Hammer, One-Handed Sword, One-Handed Axe, Dagger, Cane, Pistol",
+        "Advanced Sequence 6|6|6|7"
+       ]
+      },
+      {
+       "cells": [
+        "Main Skill is supported by Lv. 25 Steamroll",
+        "Claw, One-Handed Hammer, One-Handed Sword, One-Handed Axe, Dagger",
+        "Advanced Sequence 2|2|2|3"
+       ]
+      },
+      {
+       "cells": [
+        "Adds 1 - 1 Physical Damage to Attacks per 2260 Armor",
+        "Claw, One-Handed Hammer, One-Handed Sword, One-Handed Axe, Dagger, Cane, Pistol",
+        "Advanced Sequence 3|3|6|7"
+       ]
+      },
+      {
+       "cells": [
+        "+120% Fearless Aura / -20% additional Fearless Sealed Mana Compensation",
+        "Claw, One-Handed Hammer, One-Handed Sword, One-Handed Axe, Dagger",
+        "Advanced Sequence 4|4|5|6"
+       ]
+      },
+      {
+       "cells": [
+        "+80% Gear Physical Damage / -20% Attack Critical Strike Rating for this gear",
+        "Claw, One-Handed Hammer, One-Handed Sword, One-Handed Axe, Dagger, Cane, Pistol",
+        "Advanced Sequence 1|3|5|7"
+       ]
+      },
+      {
+       "cells": [
+        "Main Skill is supported by Lv. 20 Attack Focus",
+        "Claw, One-Handed Hammer, One-Handed Sword, One-Handed Axe, Dagger, Cane, Pistol",
+        "Advanced Sequence 4|5|5|7"
+       ]
+      },
+      {
+       "cells": [
+        "+25% Gear Elemental Damage / -25% Gear Physical Damage",
+        "Claw, One-Handed Hammer, One-Handed Sword, One-Handed Axe, Dagger, Cane, Pistol",
+        "Advanced Sequence 1|2|3|4"
+       ]
+      },
+      {
+       "cells": [
+        "Enemies have a 30% chance to explode when defeated by an Attack or Spell, dealing True Damage equal to 250% of their Max Life to enemies within a 6 m radius",
+        "Two-Handed Sword, Two-Handed Hammer, Two-Handed Axe, Cudgel, Bow, Musket, Fire Cannon, Crossbow, Tin Staff",
+        "Advanced Sequence 1|4|5|7"
+       ]
+      },
+      {
+       "cells": [
+        "Adds 1 - 7 Lightning Damage to Attacks per 10 Dexterity",
+        "Two-Handed Sword, Two-Handed Hammer, Two-Handed Axe, Cudgel, Bow, Musket, Fire Cannon, Crossbow",
+        "Advanced Sequence 1|1|1|5"
+       ]
+      },
+      {
+       "cells": [
+        "Adds 3 - 5 Fire Damage to Attacks per 10 Strength",
+        "Two-Handed Sword, Two-Handed Hammer, Two-Handed Axe, Cudgel, Bow, Musket, Fire Cannon, Crossbow",
+        "Advanced Sequence 6|6|6|7"
+       ]
+      },
+      {
+       "cells": [
+        "Main Skill is supported by Lv. 25 Steamroll / +25% additional Melee Damage",
+        "Two-Handed Sword, Two-Handed Hammer, Two-Handed Axe, Cudgel",
+        "Advanced Sequence 2|2|2|3"
+       ]
+      },
+      {
+       "cells": [
+        "Adds 2 - 2 Physical Damage to Attacks per 2260 Armor",
+        "Two-Handed Sword, Two-Handed Hammer, Two-Handed Axe, Cudgel",
+        "Advanced Sequence 3|3|6|7"
+       ]
+      },
+      {
+       "cells": [
+        "+200% Fearless Aura / -30% additional Fearless Sealed Mana Compensation",
+        "Two-Handed Sword, Two-Handed Hammer, Two-Handed Axe, Cudgel",
+        "Advanced Sequence 4|4|5|6"
+       ]
+      },
+      {
+       "cells": [
+        "+60% additional damage for Main-Hand Weapons / -20% Attack Critical Strike Rating for this gear",
+        "Two-Handed Sword, Two-Handed Hammer, Two-Handed Axe, Cudgel, Bow, Musket, Fire Cannon, Crossbow",
+        "Advanced Sequence 1|3|5|7"
+       ]
+      },
+      {
+       "cells": [
+        "Main Skill is supported by Lv. 25 Attack Focus / +25% additional Melee Damage",
+        "Two-Handed Sword, Two-Handed Hammer, Two-Handed Axe, Cudgel",
+        "Advanced Sequence 4|5|5|7"
+       ]
+      },
+      {
+       "cells": [
+        "+50% Gear Elemental Damage / -25% Gear Physical Damage",
+        "Two-Handed Sword, Two-Handed Hammer, Two-Handed Axe, Cudgel, Bow, Musket, Fire Cannon, Crossbow",
+        "Advanced Sequence 1|2|3|4"
+       ]
+      },
+      {
+       "cells": [
+        "Main Skill is supported by Lv. 25 Multiple Projectiles",
+        "Cane, Pistol",
+        "Advanced Sequence 2|2|2|3"
+       ]
+      },
+      {
+       "cells": [
+        "+120% Precise Projectiles Aura effect / -20% additional Precise Projectiles Sealed Mana Compensation",
+        "Cane, Pistol",
+        "Advanced Sequence 4|4|5|6"
+       ]
+      },
+      {
+       "cells": [
+        "Main Skill is supported by Lv. 25 Multiple Projectiles / +25% additional Projectile Damage",
+        "Bow, Musket, Fire Cannon, Crossbow",
+        "Advanced Sequence 2|2|2|3"
+       ]
+      },
+      {
+       "cells": [
+        "After reaching their max range, Projectiles will return and travel an additional 0% of that distance, hitting the enemies on their path again / -20% additional Projectile Damage",
+        "Bow, Musket, Fire Cannon, Crossbow",
+        "Advanced Sequence 3|3|6|7"
+       ]
+      },
+      {
+       "cells": [
+        "+200% Precise Projectiles Aura effect / -30% additional Precise Projectiles Sealed Mana Compensation",
+        "Bow, Musket, Fire Cannon, Crossbow",
+        "Advanced Sequence 4|4|5|6"
+       ]
+      },
+      {
+       "cells": [
+        "Main Skill is supported by Lv. 25 Attack Focus / +25% additional Projectile Damage",
+        "Bow, Musket, Fire Cannon, Crossbow",
+        "Advanced Sequence 4|5|5|7"
+       ]
+      },
+      {
+       "cells": [
+        "+25% additional Hit Damage for skills cast by Spell Burst",
+        "Wand",
+        "Advanced Sequence 1|3|5|7"
+       ]
+      },
+      {
+       "cells": [
+        "Adds 200 - 220 Cold Damage to Spells when having at least 800 Intelligence",
+        "Wand",
+        "Advanced Sequence 1|1|1|5"
+       ]
+      },
+      {
+       "cells": [
+        "The Main Skill is supported by Lv. 25 Control Spell",
+        "Wand",
+        "Advanced Sequence 2|2|2|4"
+       ]
+      },
+      {
+       "cells": [
+        "+120% Spell Amplification Aura / -20% additional Spell Amplification Sealed Mana Compensation",
+        "Wand",
+        "Advanced Sequence 3|3|6|7"
+       ]
+      },
+      {
+       "cells": [
+        "+35% additional damage / -10% additional Cast Speed",
+        "Wand",
+        "Advanced Sequence 4|4|5|6"
+       ]
+      },
+      {
+       "cells": [
+        "Main Skill is supported by Lv. 20 Overload",
+        "Wand",
+        "Advanced Sequence 5|5|6|6"
+       ]
+      },
+      {
+       "cells": [
+        "-1 to Max Tenacity Blessing Stacks / +1 to Max Focus Blessing Stacks / +1 to Max Agility Blessing Stacks",
+        "Wand",
+        "Advanced Sequence 2|3|5|6"
+       ]
+      },
+      {
+       "cells": [
+        "+50% additional Hit Damage for skills cast by Spell Burst",
+        "Tin Staff",
+        "Advanced Sequence 1|3|5|7"
+       ]
+      },
+      {
+       "cells": [
+        "Adds 420 - 440 Cold Damage to Spells when having at least 800 Intelligence",
+        "Tin Staff",
+        "Advanced Sequence 1|1|1|5"
+       ]
+      },
+      {
+       "cells": [
+        "The Main Skill is supported by Lv. 25 Control Spell / +25% additional Spell Damage",
+        "Tin Staff",
+        "Advanced Sequence 2|2|2|4"
+       ]
+      },
+      {
+       "cells": [
+        "+200% Spell Amplification Aura / -30% additional Spell Amplification Sealed Mana Compensation",
+        "Tin Staff",
+        "Advanced Sequence 3|3|6|7"
+       ]
+      },
+      {
+       "cells": [
+        "+70% additional damage / -10% additional Cast Speed",
+        "Tin Staff",
+        "Advanced Sequence 4|4|5|6"
+       ]
+      },
+      {
+       "cells": [
+        "Main Skill is supported by Lv. 25 Spell Concentration / +25% additional Spell Damage",
+        "Tin Staff",
+        "Advanced Sequence 5|5|6|6"
+       ]
+      },
+      {
+       "cells": [
+        "-2 to Max Tenacity Blessing Stacks / +2 to Max Focus Blessing Stacks / +2 to Max Agility Blessing Stacks",
+        "Tin Staff",
+        "Advanced Sequence 2|3|5|6"
+       ]
+      },
+      {
+       "cells": [
+        "Triggers Lv. 30 Black Hole when moving. Interval: 1.5 s",
+        "Scepter",
+        "Advanced Sequence 1|1|1|5"
+       ]
+      },
+      {
+       "cells": [
+        "Main Skill is supported by Lv. 25 Cataclysm",
+        "Scepter",
+        "Advanced Sequence 2|2|2|4"
+       ]
+      },
+      {
+       "cells": [
+        "Upon inflicting damage, +8% additional Ailment Damage (multiplies) for every type of Ailment the enemy has",
+        "Scepter",
+        "Advanced Sequence 3|3|6|7"
+       ]
+      },
+      {
+       "cells": [
+        "+120% Deep Pain Aura / -20% additional Deep Pain Sealed Mana Compensation",
+        "Scepter",
+        "Advanced Sequence 4|4|5|6"
+       ]
+      },
+      {
+       "cells": [
+        "+20% Movement Speed when standing on a Terra Skill. The effect lasts 2s. / +100% Skill Area when standing on a Terra Skill. Lasts for 2 s",
+        "Scepter",
+        "Advanced Sequence 1|3|5|7"
+       ]
+      },
+      {
+       "cells": [
+        "Main Skill is supported by Lv. 20 Shortened Duration",
+        "Scepter",
+        "Advanced Sequence 5|5|6|6"
+       ]
+      },
+      {
+       "cells": [
+        "+1 to Max Tenacity Blessing Stacks / -1 to Max Focus Blessing Stacks / +1 to Max Agility Blessing Stacks",
+        "Scepter",
+        "Advanced Sequence 2|3|5|6"
+       ]
+      },
+      {
+       "cells": [
+        "+80 initial Growth for Spirit Magi",
+        "Rod",
+        "Advanced Sequence 1|4|6|7"
+       ]
+      },
+      {
+       "cells": [
+        "+ 10 Command per second",
+        "Rod",
+        "Advanced Sequence 1|3|5|7"
+       ]
+      },
+      {
+       "cells": [
+        "Triggers Lv. 10 Entangled Pain Curse and Timid Curse when a Minion deals damage. Cooldown: 1 s / Minions can cast 1 additional Curse(s)",
+        "Rod",
+        "Advanced Sequence 2|2|2|4"
+       ]
+      },
+      {
+       "cells": [
+        "The Main Skill is supported by a Lv. 25 Servant Damage",
+        "Rod",
+        "Advanced Sequence 1|1|1|5"
+       ]
+      },
+      {
+       "cells": [
+        "-80 Minion Critical Strike Rating / +200% Minion Critical Strike Damage",
+        "Rod",
+        "Advanced Sequence 4|4|5|6"
+       ]
+      },
+      {
+       "cells": [
+        "+120% Radical Order Aura Effect / -20% additional Radical Order Sealed Mana Compensation",
+        "Rod",
+        "Advanced Sequence 3|3|6|7"
+       ]
+      },
+      {
+       "cells": [
+        "Main Skill is supported by Lv. 20 Elemental Duo",
+        "Rod",
+        "Advanced Sequence 5|5|6|6"
+       ]
+      },
+      {
+       "cells": [
+        "When Minions deal damage, inflicts Fire Infiltration. Interval for each enemy: 1 s / When Minions deal damage, inflicts Lightning Infiltration. Interval for each enemy: 1 s / When Minions deal damage, inflicts Cold Infiltration. Interval for each enemy: 1 s",
+        "Rod",
+        "Advanced Sequence 2|3|5|6"
+       ]
+      },
+      {
+       "cells": [
+        "+8% Block Ratio Upper limit",
+        "STR Shield, DEX Shield, INT Shield",
+        "Advanced Sequence 1|1|1|5"
+       ]
+      },
+      {
+       "cells": [
+        "All Passive Skill slots are supported by Lv. 30 Precise: Restrain",
+        "STR Shield, DEX Shield, INT Shield",
+        "Advanced Sequence 2|2|2|4"
+       ]
+      },
+      {
+       "cells": [
+        "Immune to crowd control effects",
+        "STR Shield, DEX Shield, INT Shield",
+        "Advanced Sequence 3|3|6|7"
+       ]
+      },
+      {
+       "cells": [
+        "Converts 25% of Physical Damage taken to random Elemental Damage / -25% Defense",
+        "STR Shield, DEX Shield, INT Shield",
+        "Advanced Sequence 4|4|5|6"
+       ]
+      },
+      {
+       "cells": [
+        "+15% Armor Effective Rate for Non-Physical Damage / +2400 Gear Armor",
+        "STR Shield, DEX Shield, INT Shield",
+        "Advanced Sequence 1|4|6|7"
+       ]
+      },
+      {
+       "cells": [
+        "Spell Damage will not additionally reduce Evasion by default / +1680 gear Evasion",
+        "STR Shield, DEX Shield, INT Shield",
+        "Advanced Sequence 1|3|5|7"
+       ]
+      },
+      {
+       "cells": [
+        "Energy Shield starts to Charge when Blocking / +40% Energy Shield Charge Speed",
+        "STR Shield, DEX Shield, INT Shield",
+        "Advanced Sequence 2|5|6|7"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "card": "TOWER Sequence",
+   "tab": "TOWERSequence_ManualRule",
+   "text": [
+    "The TOWER Sequence system can be used to research sequences for non-Legendary weapons (including shields). Sequences are special affixes that don't replace existing base affixes.",
+    "After the TOWER Sequence feature is unlocked as you progress through the main story, you can perform R&D on weapons (including shields) at [ROOT].",
+    "To perform R&D, Hunters must spend a set number of Mods.",
+    "Once initiated, each round presents a random selection of colored Chips to choose from. If the selected Chip colors (in any order) match a target sequence, the R&D succeeds, granting the weapon the corresponding effects. If the colors do not match any sequence, the R&D fails.",
+    "There are 2 types of R&D: Basic R&D and In-Depth R&D. Basic R&D only requires Hunters to choose 3 Chips, whereas In-Depth R&D requires Hunters to choose 4. Basic R&D only yields Intermediate sequences. Advanced sequences can only be obtained from In-Depth R&D. Each weapon can only have 1 sequence, but Hunters can perform R&D repeatedly until the desired target sequence is obtained.",
+    "Consumed materials will not be returned if R&D is interrupted."
+   ]
+  },
+  {
+   "card": "TOWER Sequence - Help",
+   "tab": "TOWERSequence-Help",
+   "text": [
+    "R&D can be performed on non-Legendary weapons in the TOWER Sequence system. To perform R&D, Hunters must spend a set number of Mods.",
+    "Once initiated, each round presents a random selection of colored Chips to choose from. If the selected Chip colors (in any order) match a target sequence, the R&D succeeds, granting the weapon the corresponding effects. If the colors do not match any sequence, the R&D fails.",
+    "There are 2 types of R&D: Basic R&D and In-Depth R&D. Basic R&D only requires Hunters to choose 3 Chips, whereas In-Depth R&D requires Hunters to choose 4. Basic R&D only yields Intermediate sequences. Advanced sequences can only be obtained from In-Depth R&D. Each weapon can only have 1 sequence, but Hunters can perform R&D repeatedly until the desired target sequence is obtained.",
+    "Materials consumed by R&D will not be returned if R&D is interrupted."
+   ]
+  }
+ ]
+}

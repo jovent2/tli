@@ -1,0 +1,138 @@
+# Data index
+
+Built by `tools/build_data.py` from the tlidb crawl (`tools/crawl.py`). Search with `tools/find.py`.
+
+- Pages crawled: **2539**
+- Gear slots with craft pools: **48** → `data/affixes/<Slot>.json`
+- Legendaries: **344** → `data/legendaries.json`
+- Talent panels: **32** → `data/talents.json`
+- Skills: **919** → `data/skills.json`
+- Hero traits: **28** → `data/heroes.json`
+- Glossary terms: **1592** → `data/glossary.json`
+- Every list page verbatim → `data/catalog/<Page>.json`
+- Full-text records (pages, list entries, table rows) → `data/search.jsonl`
+
+## Catalog pages
+
+- **Hero** — Hero (28), Hero Trait - Help (0)
+- **Talent** — Profession (32), Core Talent Node (163), Talent (1236), Talent - Help (0), Core Talent Node - Help (0), Talents - Help (0)
+- **Ethereal Prism** — Ethereal Prism Affix (393), Item (31), Calibrate Prism - Help (0)
+- **Pactspirit** — Pactspirit (0), Pactspirit - Help (0)
+- **Destiny** — Destiny (193), Item (2)
+- **Inventory** — Skill (0), Gear (0), Stash (0)
+- **Legendary Gear** — Gear (0), Legendary Gear (0)
+- **Follower** — Item (32)
+- **Active Skill** — Active Skill Tag (214), Active Skill (214), Skill Level (0), Skill - Help (0)
+- **Support Skill** — Support Skill Tag (155), Support Skill (155), Skill - Support Skill - Help (0)
+- **Passive Skill** — Passive Skill Tag (55), Passive Skill (55), Skill - Passive - Help (0)
+- **Activation Medium Skill** — Activation Medium Skill Tag (29), Activation Medium Skill (29)
+- **Magnificent Support Skill** — Exclusive Support Skill Tag (148), Magnificent Support Skill (148)
+- **Noble Support Skill** — Exclusive Support Skill Tag (165), Noble Support Skill (165)
+- **Modularization Skill** — Tag (54), Modularization Skill (54)
+- **Tartarus Skill** — Tartarus Skill Tag (81), Tartarus Skill (0)
+- **Origin Tartarus Skill** — Origin Tartarus Skill Tag (54), Origin Tartarus Skill (54)
+- **Craft** — Gear (0), Affix (9889), Craft (0)
+- **Corrosion** — Corrosion Effect (19), Corrosion Base Affix (188), Corrosion (0)
+- **Blending Rituals** — Blending Rituals (97), Blending Rituals - Help (0)
+- **TOWER Sequence** — TOWER Sequence (0), TOWER Sequence - Help (0)
+- **Graft** — Affix (1061), Item (10), Graft (0), Graft - Help (0)
+- **Memory Revival** — Memory Revival Affix (83), Memory Revival (0), Memory Revival - Help (0)
+- **Nether Kings Divinity** — Nether King (116), Nether King's Divinity (3), Nether Kings Divinity (0)
+- **Netherrealm** — Unlock (8), Drops everywhere in Netherrealm (900), Area (6), Netherrealm - Help (0), Netherrealm - Beacon - Help (0), Netherrealm - Map Affix - Help (0), Netherrealm - Plane Watcher - Help (0), Netherrealm - Exclusive Drop - Help (0), Netherrealm - Plane Difficulty - Help (0), Netherrealm - Unlock Plane - Help (0), Netherrealm - Netherrealm Compass - Help (0), Netherrealm - Chaos Invasion - Help (0), Netherrealm - Trait Card - Help (0), Netherrealm - Confusion Card - Help (0), Netherrealm - Card Inheritance - Help (0), Netherrealm - Card Awakening - Help (0), Netherrealm - Traveler - Help (0), Netherrealm - Path of Achievements (48)
+- **Confusion Card Library** — Confusion Card Library (218)
+- **Void Chart** — Void Chart (0), Nodes (1574)
+- **Compass** — Compass (0), Item (12)
+- **Probe** — Probe (15)
+- **Season Compass** — Season Compass (3)
+- **Path of the Brave** — Path of the Brave exclusive drop (16), Item (5), Path of the Brave (45)
+- **Tip** — Tip (150), Hyperlink (1852)
+- **Path of Progression** — Path of Progression (7), Path of Progression - Help (0)
+- **Help** — Help (72), Help - Help (0)
+- **Divinity Slate** — Legendary Divinity Slate (163), Non-Legendary Divinity Slate (1236), Item (36), Legendary Gear (7), Obtained when recycling a Divinity Slate (2), Divinity Slate (0), Divinity Slate - Path of Progression (36), Brand Divinity Slate (0), Lv1 - 100 (7)
+- **Hero Memories** — Affix (234), Hero Memories (3), Base Stats (15), Fixed Affix (231), Random Affix (432), Hero Memories - Path of Progression (36)
+
+## Gear slots
+
+- `Belt` — 134 prefix rows, 128 suffix rows, 12 bases, 31 legendaries
+- `Bow` — 117 prefix rows, 118 suffix rows, 20 bases, 5 legendaries
+- `Cane` — 109 prefix rows, 98 suffix rows, 20 bases, 1 legendaries
+- `Claw` — 133 prefix rows, 123 suffix rows, 20 bases, 4 legendaries
+- `Crossbow` — 138 prefix rows, 110 suffix rows, 20 bases, 3 legendaries
+- `Cudgel` — 112 prefix rows, 126 suffix rows, 20 bases, 0 legendaries
+- `DEX_Boots` — 138 prefix rows, 130 suffix rows, 12 bases, 15 legendaries
+- `DEX_Chest_Armor` — 149 prefix rows, 127 suffix rows, 12 bases, 9 legendaries
+- `DEX_Gloves` — 134 prefix rows, 109 suffix rows, 12 bases, 15 legendaries
+- `DEX_Helmet` — 147 prefix rows, 138 suffix rows, 12 bases, 10 legendaries
+- `DEX_Shield` — 86 prefix rows, 115 suffix rows, 12 bases, 3 legendaries
+- `Dagger` — 133 prefix rows, 114 suffix rows, 20 bases, 4 legendaries
+- `Fire_Cannon` — 140 prefix rows, 110 suffix rows, 20 bases, 0 legendaries
+- `INT_Boots` — 146 prefix rows, 134 suffix rows, 12 bases, 12 legendaries
+- `INT_Chest_Armor` — 148 prefix rows, 126 suffix rows, 14 bases, 21 legendaries
+- `INT_Gloves` — 141 prefix rows, 99 suffix rows, 12 bases, 13 legendaries
+- `INT_Helmet` — 155 prefix rows, 138 suffix rows, 12 bases, 13 legendaries
+- `INT_Shield` — 90 prefix rows, 124 suffix rows, 12 bases, 3 legendaries
+- `Musket` — 136 prefix rows, 110 suffix rows, 20 bases, 2 legendaries
+- `Necklace` — 180 prefix rows, 110 suffix rows, 19 bases, 46 legendaries
+- `One-Handed_Axe` — 132 prefix rows, 125 suffix rows, 20 bases, 2 legendaries
+- `One-Handed_Hammer` — 109 prefix rows, 129 suffix rows, 20 bases, 5 legendaries
+- `One-Handed_Sword` — 133 prefix rows, 127 suffix rows, 20 bases, 4 legendaries
+- `Pistol` — 138 prefix rows, 119 suffix rows, 20 bases, 4 legendaries
+- `Ring` — 180 prefix rows, 123 suffix rows, 27 bases, 25 legendaries
+- `Rod` — 118 prefix rows, 110 suffix rows, 20 bases, 0 legendaries
+- `STR_Boots` — 138 prefix rows, 130 suffix rows, 12 bases, 9 legendaries
+- `STR_Chest_Armor` — 145 prefix rows, 129 suffix rows, 13 bases, 18 legendaries
+- `STR_Gloves` — 132 prefix rows, 108 suffix rows, 12 bases, 15 legendaries
+- `STR_Helmet` — 147 prefix rows, 138 suffix rows, 12 bases, 16 legendaries
+- `STR_Shield` — 86 prefix rows, 115 suffix rows, 12 bases, 4 legendaries
+- `Scepter` — 112 prefix rows, 114 suffix rows, 20 bases, 2 legendaries
+- `Spirit_Ring` — 165 prefix rows, 117 suffix rows, 6 bases, 2 legendaries
+- `Tin_Staff` — 128 prefix rows, 146 suffix rows, 20 bases, 2 legendaries
+- `Two-Handed_Axe` — 135 prefix rows, 132 suffix rows, 20 bases, 3 legendaries
+- `Two-Handed_Hammer` — 112 prefix rows, 137 suffix rows, 20 bases, 1 legendaries
+- `Two-Handed_Sword` — 136 prefix rows, 140 suffix rows, 20 bases, 6 legendaries
+- `Vorax_Aberrant_Limb_Digits` — 220 prefix rows, 143 suffix rows, 0 bases, 0 legendaries
+- `Vorax_Aberrant_Limb_Legs` — 205 prefix rows, 163 suffix rows, 0 bases, 0 legendaries
+- `Vorax_Aberrant_Limb_Waist` — 196 prefix rows, 167 suffix rows, 0 bases, 0 legendaries
+- `Vorax_Limb_Chest` — 189 prefix rows, 141 suffix rows, 0 bases, 0 legendaries
+- `Vorax_Limb_Digits` — 234 prefix rows, 150 suffix rows, 0 bases, 0 legendaries
+- `Vorax_Limb_Hands` — 230 prefix rows, 107 suffix rows, 0 bases, 0 legendaries
+- `Vorax_Limb_Head` — 211 prefix rows, 155 suffix rows, 0 bases, 0 legendaries
+- `Vorax_Limb_Legs` — 212 prefix rows, 159 suffix rows, 0 bases, 0 legendaries
+- `Vorax_Limb_Neck` — 210 prefix rows, 111 suffix rows, 0 bases, 0 legendaries
+- `Vorax_Limb_Waist` — 206 prefix rows, 163 suffix rows, 0 bases, 0 legendaries
+- `Wand` — 137 prefix rows, 156 suffix rows, 20 bases, 8 legendaries
+
+## Talent panels
+
+- `God_of_Might` — Elimination, Momentum, Tenacity, Great Strength, Hidden Mastery, Judgment
+- `Goddess_of_Hunting` — Perception, Third time's a charm, Impermanence, Rushed, Three Birds with One Stone, Steady Accumulation
+- `Goddess_of_Knowledge` — Beacon, Insight, Peculiar Vibe, Chilly, Burning Touch, Acquaintance
+- `God_of_War` — Cohesion, Blunt, Determined, Ambition, Gravity, Shooting Arrows
+- `Goddess_of_Deception` — Plague, Mixture, Affliction, Subtle Impact, Forbidden Power, Deceiver's Might
+- `God_of_Machines` — Orders, Sentry, Boss, Mighty Guard, Overly Modified, Isomorphic Arms
+- `The_Brave` — Static, Formless, Resolve, Ember Armor
+- `Onslaughter` — Sweep, Focused Strike, Sacrifice, Well Matched
+- `Warlord` — Starfire, Fueling, Rock, True Flame
+- `Warrior` — Arcane, No Loose Ends, Life Path, Survival Will
+- `Marksman` — Gale, Euphoria, Close Range Fire, Master Escapist
+- `Bladerunner` — Waiting Attack, Joined Force, Quick Advancement, Preemptive Strike
+- `Druid` — Cultivation, Full Load, Rebirth, Poisoned Relief
+- `Assassin` — Conductive, Transition, Queer Angle, Thunderclap
+- `Magister` — Bunch, Play Safe, Shell, Barrier of Radiance
+- `Arcanist` — Mana, Mind Focus, Quick Wits, Preparation
+- `Elementalist` — Translucent, Penetrating, Focus, Quick Ritual
+- `Prophet` — Frostbitten, Extreme Coldness, Mind Blade, Frozen Lotus
+- `Shadowdancer` — Brutality, Hair-trigger, Instant Smash, Open Wounds
+- `Ronin` — Falling Leaves, Tradeoff, Centralize, Endless Fervor
+- `Ranger` — Fluke, Keep It Up, Impending, Rapid Shots
+- `Sentinel` — Automatic Upgrade, Defensiveness, Full Defense, Last Stand
+- `Shadowmaster` — Dirt, Stealth Stab, Beyond Cure, Twisted Belief
+- `Psychic` — Windwalk, Holiness, Inexorable Doom, Reap Purification
+- `Warlock` — Verbal Abuse, Vile, Dirty Tricks, Daze
+- `Lich` — Indifference, Ward, Off The Beaten Track, Stab In The Back
+- `Machinist` — Shrink Back, Rally, Burning Aggression, United Stand
+- `Steel_Vanguard` — Reflection, Resistance, Knowledgeable, Tailored Remedy
+- `Alchemist` — Source, Empower, Battle Trumpet, Talons of Abyss
+- `Artisan` — Heat Up, Co-resonance, Kinetic Conversion, Shared Fate
+- `New_God` — 
+- `Nether_King` — 

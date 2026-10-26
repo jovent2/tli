@@ -1,0 +1,1069 @@
+{
+ "page": "Compass",
+ "cards": [
+  {
+   "card": "Compass",
+   "tab": "Compass",
+   "entries": [
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "+40% Drop Quantity",
+      "In Netherrealm stages, monsters take -30% additional damage"
+     ],
+     "name": "Sinful Plunder Compass",
+     "key": "Sinful_Plunder_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "+80% Drop Quantity",
+      "In Netherrealm stages, monsters take -50% additional damage"
+     ],
+     "name": "Sinful Plunder Compass (Artifact)",
+     "key": "Sinful_Plunder_Compass_Artifact"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "When defeating Rare monsters, +3% additional Drop Quantity for Normal monsters and -2% additional damage dealt by you. Stacks up to 30 time(s)"
+     ],
+     "name": "Transgression Plunder Compass",
+     "key": "Transgression_Plunder_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "+30% drop Rarity",
+      "Monsters in the stage +10% additional Max Life"
+     ],
+     "name": "Novel Compass",
+     "key": "Novel_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "+100% drop Rarity",
+      "Monsters in the stage +30% additional Max Life"
+     ],
+     "name": "Lavish Novel Compass",
+     "key": "Lavish_Novel_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "+75% Drop Rarity for every Rare monster defeated recently. Stacks up to 4 time(s)",
+      "Monsters in the stage +70% additional Max Life"
+     ],
+     "name": "Conquering Novel Compass",
+     "key": "Conquering_Novel_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "10 additional groups of Normal monster(s)",
+      "Monsters in the stage +10% additional Max Life"
+     ],
+     "name": "Soldier Compass",
+     "key": "Soldier_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "10 additional groups of Normal monster(s)",
+      "+20% additional Drop Quantity for Normal monsters",
+      "Monsters in the stage +30% additional Max Life"
+     ],
+     "name": "Strength in Numbers Soldier Compass",
+     "key": "Strength_in_Numbers_Soldier_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "5 additional groups of Magic monster(s)",
+      "Monsters in the stage +10% additional Max Life"
+     ],
+     "name": "Veteran Compass",
+     "key": "Veteran_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "5 additional groups of Magic monster(s)",
+      "Magic monsters have a 1% chance to drop 1 additional Beacon(s)",
+      "Monsters in the stage +30% additional Max Life"
+     ],
+     "name": "Unrivaled Veteran Compass",
+     "key": "Unrivaled_Veteran_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "2 additional Rare monsters",
+      "Monsters in the stage +10% additional Max Life"
+     ],
+     "name": "Elite Compass",
+     "key": "Elite_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "+15% additional Drop Quantity from Rare monsters",
+      "Monsters in the stage +30% additional Max Life"
+     ],
+     "name": "Generous Elite Compass",
+     "key": "Generous_Elite_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "Rare monsters have a 30% chance to be enhanced: +200% additional Drop Quantity, and -10% additional damage taken",
+      "Monsters in the stage +70% additional Max Life"
+     ],
+     "name": "Bountiful Elite Compass",
+     "key": "Bountiful_Elite_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "100% chance for 2 additional random boss(es) to appear in the stage",
+      "Bosses have a 100% chance to gain blessings",
+      "Monsters in the stage +30% additional Max Life"
+     ],
+     "name": "Boss Compass",
+     "key": "Boss_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "Beacons dropped have a 10% chance to be replicated once",
+      "Monsters in the stage +10% additional Max Life"
+     ],
+     "name": "Beacon Compass",
+     "key": "Beacon_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "Beacons dropped have a 10% chance to be upgraded",
+      "Monsters in the stage +30% additional Max Life"
+     ],
+     "name": "Progressing Beacon Compass",
+     "key": "Progressing_Beacon_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "The chance for Matchless or above Legendary gear to drop is increased by 30%",
+      "Monsters in the stage +70% additional Max Life"
+     ],
+     "name": "Renown Edge Compass",
+     "key": "Renown_Edge_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "The chance for non-Legendary gear dropped to be Priceless is increased by 50%",
+      "Monsters in the stage +30% additional Max Life"
+     ],
+     "name": "Militant Compass",
+     "key": "Militant_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "The chance for non-Legendary gear dropped to be Priceless is increased by 100%",
+      "Monsters in the stage +70% additional Max Life"
+     ],
+     "name": "Priceless Militant Compass",
+     "key": "Priceless_Militant_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "+30% chance for non-Legendary Trinkets to drop",
+      "In Netherrealm stages, non-Legendary gear dropped has a 20% chance to be replicated once",
+      "Monsters in the stage +70% additional Max Life"
+     ],
+     "name": "Trinket Militant Compass",
+     "key": "Trinket_Militant_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "+30% additional Ember Drop Quantity",
+      "Monsters in the stage +10% additional Max Life"
+     ],
+     "name": "Ember Compass",
+     "key": "Ember_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "+50% additional Ember Drop Quantity",
+      "Monsters in the stage +30% additional Max Life"
+     ],
+     "name": "Bounty Ember Compass",
+     "key": "Bounty_Ember_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "Ultimate Embers dropped have a 100% chance to be replicated once",
+      "Monsters in the stage +70% additional Max Life"
+     ],
+     "name": "Reserve Ember Compass",
+     "key": "Reserve_Ember_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "Fluorescent Memories dropped have a 10% chance to be replicated once",
+      "Monsters in the stage +10% additional Max Life"
+     ],
+     "name": "Fluorescent Compass",
+     "key": "Fluorescent_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "Fluorescent Memories dropped have a 20% chance to be replicated once",
+      "Monsters in the stage +30% additional Max Life"
+     ],
+     "name": "Colorful Fluorescent Compass",
+     "key": "Colorful_Fluorescent_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "Increases the chance for Exclusive Fluorescent Memories to drop by 50%",
+      "Monsters in the stage +70% additional Max Life"
+     ],
+     "name": "Focus Fluorescent Compass",
+     "key": "Focus_Fluorescent_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "Fluorescent Memories dropped have a 50% chance to be replicated once",
+      "Monsters in the stage +70% additional Max Life"
+     ],
+     "name": "Colorful Fluorescent Compass (Artifact)",
+     "key": "Colorful_Fluorescent_Compass_Artifact"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "In Netherrealm stages, spawns 1 additional Gods Chest in the Boss area when Divine Rite reaches 3 stacks",
+      "Gains a stack of Divine Rite when Trial: God of War reaches floor 5",
+      "Gains a stack of Divine Rite when Trial: God of Might reaches level 7",
+      "Gains a stack of Divine Rite when completing Trial: Goddess of Hunting",
+      "Gains a stack of Divine Rite when completing attack round 2 during Trial: God of Machines",
+      "-100% additional Drop Quantity for Gods Gameplay",
+      "Monsters in the stage +30% additional Max Life"
+     ],
+     "name": "Mystery Treasure Gods Compass",
+     "key": "Mystery_Treasure_Gods_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "+25% additional Drop Quantity during Trial of the Gods for each stack of Divine Blessing",
+      "Gains a stack of Divine Blessing when Trial: God of War reaches floor 5",
+      "Gains a stack of Divine Blessing when Trial: God of Might reaches level 10",
+      "Gains a stack of Divine Blessing when completing Trial: Goddess of Hunting",
+      "Gains a stack of Divine Blessing when completing attack round 2 during Trial: God of Machines",
+      "The stage has Trial: God of War",
+      "The stage has Trial: God of Might",
+      "The stage has Trial: Goddess of Hunting",
+      "The stage has Trial: God of Machines",
+      "Monsters in the stage +70% additional Max Life"
+     ],
+     "name": "Flourishing Gods Compass",
+     "key": "Flourishing_Gods_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "The stage has Trial: God of War",
+      "+30% God of War Trial Duration",
+      "Monsters in the stage +10% additional Max Life"
+     ],
+     "name": "War Compass",
+     "key": "War_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "The stage has Trial: God of War",
+      "+2.8% additional Beacon drop chance during the settlement of Trial: God of War (Berserk) for each Trial stack",
+      "The higher the Trial stacks, the stronger the monsters.",
+      "Monsters in the stage +70% additional Max Life"
+     ],
+     "name": "Wild War Compass",
+     "key": "Wild_War_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "The stage has Trial: God of Might",
+      "Monsters in the stage +10% additional Max Life"
+     ],
+     "name": "Might Compass",
+     "key": "Might_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "The stage has Trial: God of Might",
+      "+75% additional Drop Quantity during Trial: God of Might",
+      "Monsters in the stage +70% additional Max Life"
+     ],
+     "name": "Flourishing Might Compass",
+     "key": "Flourishing_Might_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "The stage has Trial: God of Might",
+      "In Trial: God of Might, Statues of Might are replaced by Onslaught Automatons, drastically increasing the trial's rewards",
+      "Monsters in the stage +70% additional Max Life"
+     ],
+     "name": "Onslaught Might Compass",
+     "key": "Onslaught_Might_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "The stage has Trial: God of Might",
+      "There's a 100% chance for monsters spawned by Trial: God of Might to be replaced with Dwarven Automatons",
+      "Monsters in the stage +70% additional Max Life"
+     ],
+     "name": "Mecha Might Compass (Artifact)",
+     "key": "Mecha_Might_Compass_Artifact"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "The stage has Trial: God of Machines",
+      "Monsters in the stage +10% additional Max Life"
+     ],
+     "name": "Mechanical Compass",
+     "key": "Mechanical_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "The stage has Trial: God of Machines",
+      "+100% additional Drop Quantity during Trial: God of Machines",
+      "Monsters in the stage +70% additional Max Life"
+     ],
+     "name": "Brilliant Mechanical Compass",
+     "key": "Brilliant_Mechanical_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "The stage has Trial: God of Machines",
+      "In Trial: God of Machines, Statues of Machines will split into multiple Lesser Statues of Machines",
+      "Monsters in the stage +70% additional Max Life"
+     ],
+     "name": "Divide Mechanical Compass",
+     "key": "Divide_Mechanical_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "The stage has Trial: God of Machines",
+      "In Netherrealm stages, Drones spawned by the Trial: God of Machines are converted into Airship Base Stations",
+      "In Netherrealm stages, +100% additional Drop Quantity for Drones during Trial: God of Machines",
+      "-100% additional Drop Quantity during Trial: God of Machines",
+      "Monsters in the stage +70% additional Max Life"
+     ],
+     "name": "Cruising Mechanical Compass (Artifact)",
+     "key": "Cruising_Mechanical_Compass_Artifact"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "This stage has been completely flooded by the Dark Surge",
+      "In Netherrealm stages, Corrosion Energy granted by monsters Corroded by Dark Surge +10%",
+      "Monsters in the stage +10% additional Max Life"
+     ],
+     "name": "Dark Surge Compass",
+     "key": "Dark_Surge_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "This stage has been completely flooded by the Dark Surge",
+      "The chance of getting boss rewards from Dark Surge Eruption is significantly increased",
+      "Monsters in the stage +30% additional Max Life"
+     ],
+     "name": "Bandit Dark Surge Compass",
+     "key": "Bandit_Dark_Surge_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "This stage has been completely flooded by the Dark Surge",
+      "The chance of getting Legendary gear rewards from Dark Surge Eruption is significantly increased",
+      "-5% additional damage dealt for the player for each Dark Surge Eruption",
+      "Monsters in the stage +70% additional Max Life"
+     ],
+     "name": "Divine Warrior Dark Surge Compass",
+     "key": "Divine_Warrior_Dark_Surge_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "This stage has been marked by a Plane Anchor",
+      "Monsters in the stage +10% additional Max Life"
+     ],
+     "name": "Blacksail Compass",
+     "key": "Blacksail_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "This stage has been marked by a Plane Anchor",
+      "+100% chance for the stage's Plane Anchor to be activated 1 additional time",
+      "Monsters in the stage +30% additional Max Life"
+     ],
+     "name": "Returning Blacksail Compass",
+     "key": "Returning_Blacksail_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "The stage is generating greed",
+      "In Netherrealm stages, +20% additional Drop Quantity for Malice Incarnations",
+      "Monsters in the stage +10% additional Max Life"
+     ],
+     "name": "Cube Compass",
+     "key": "Cube_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "The stage is generating greed",
+      "2 additional Desire Incarnation(s) will appear when Malice is accumulating in a stage",
+      "Monsters in the stage +30% additional Max Life"
+     ],
+     "name": "Cube Compass: Two Extremes",
+     "key": "Cube_Compass_Two_Extremes"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "The stage is generating greed",
+      "Multiple Mini Cubes of Rapacity appear in the stage",
+      "Monsters in the stage +70% additional Max Life",
+      "Cube of Rapacity consumes +20 more Desire Crystal(s) during Coveting",
+      "2x the items in the Cube of Rapacity"
+     ],
+     "name": "Fortuitous Cube Compass",
+     "key": "Fortuitous_Cube_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "Kins of Aeterna are wandering around on this map",
+      "Monsters in the stage +10% additional Max Life"
+     ],
+     "name": "Aeterna Compass",
+     "key": "Aeterna_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "Kins of Aeterna are wandering around on this map",
+      "+100% chance for an additional Blade of Aeternal's Obsession to appear in the stage",
+      "Monsters in the stage +30% additional Max Life"
+     ],
+     "name": "Familial Aeterna Compass",
+     "key": "Familial_Aeterna_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "Dream Lotus grows in this stage",
+      "Monsters in the stage +10% additional Max Life"
+     ],
+     "name": "Nightmare Compass",
+     "key": "Nightmare_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "1 Mistville Resident appears in the stage",
+      "Monsters in the stage +10% additional Max Life"
+     ],
+     "name": "Folklore Compass",
+     "key": "Folklore_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "1 Mistville Resident appears in the stage",
+      "+100% chance for 1 additional Mistville Resident(s) to appear with Mistville Residents in stages",
+      "Monsters in the stage +30% additional Max Life"
+     ],
+     "name": "Uncanny Folklore Compass",
+     "key": "Uncanny_Folklore_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "1 Dyed Snow Monster will appear in the stage",
+      "Monsters in the stage +10% additional Max Life"
+     ],
+     "name": "Frozen Canvas Compass",
+     "key": "Frozen_Canvas_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "1 Dyed Snow Monster will appear in the stage",
+      "1 additional Dyed Snow Monster(s) appear in the stage",
+      "Dyed Snow Monsters drop 5 additional set(s) of Snowpaper Fragments",
+      "Dyed Snow Monsters gain Giantism",
+      "Monsters in the stage +30% additional Max Life"
+     ],
+     "name": "Frozen Canvas Compass: Abundance",
+     "key": "Frozen_Canvas_Compass_Abundance"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "There are tarot cards that can be revealed in this stage",
+      "Monsters in the stage +10% additional Max Life"
+     ],
+     "name": "Arcana Compass",
+     "key": "Arcana_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "There are tarot cards that can be revealed in this stage",
+      "Monsters in the stage +30% additional Max Life",
+      "2 additional Tarot Trial(s) appear in the stage"
+     ],
+     "name": "Trump Card Arcana Compass",
+     "key": "Trump_Card_Arcana_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "There are tarot cards that can be revealed in this stage",
+      "Monsters in the stage +70% additional Max Life",
+      "2 additional Tarot Trial(s) appear in the stage",
+      "When completing a Tarot Trial, +10% Destiny drop chance from Chests of Destiny for every point of Tarot Trial progress gained"
+     ],
+     "name": "The Fated Arcana Compass",
+     "key": "The_Fated_Arcana_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "Sand Pirates appear in the stage",
+      "Monsters in the stage +10% additional Max Life"
+     ],
+     "name": "Sandlord Compass",
+     "key": "Sandlord_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "A TOWER Transport Vehicle is parked in the stage",
+      "Monsters in the stage +10% additional Max Life"
+     ],
+     "name": "Outlaw Compass",
+     "key": "Outlaw_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "A TOWER Transport Vehicle is parked in the stage",
+      "Monsters in the stage +30% additional Max Life",
+      "In Netherrealm stages, Bounty Order Probability +100%"
+     ],
+     "name": "Bounty Outlaw Compass",
+     "key": "Bounty_Outlaw_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "A TOWER Transport Vehicle is parked in the stage",
+      "In Netherrealm stages, 3 TOWER Relay Nexuses will appear during a Carjack",
+      "For each TOWER Relay Nexus destroyed, +150% additional Drop Quantity for all Security personnel",
+      "Monsters in the stage +70% additional Max Life"
+     ],
+     "name": "Alert Outlaw Compass",
+     "key": "Alert_Outlaw_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "A TOWER Transport Vehicle is parked in the stage",
+      "+100% additional Drop Quantity for the Outlaw gameplay",
+      "Monsters in the stage +30% additional Max Life"
+     ],
+     "name": "Full Load Outlaw Compass",
+     "key": "Full_Load_Outlaw_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "Doors that have a chance to lead into the Overrealm appear in the stage",
+      "Monsters in the stage +10% additional Max Life",
+      "+10% additional Max Life for monsters in the Overrealm"
+     ],
+     "name": "Overrealm Compass",
+     "key": "Overrealm_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "Doors that have a chance to lead into the Overrealm appear in the stage",
+      "Monsters in the stage +30% additional Max Life",
+      "+50% chance for an additional monster carrying Bottled Shadows to appear in each level of the Overrealm",
+      "Reverse Clocks no longer appear in the Overrealm",
+      "+30% additional Max Life for monsters in the Overrealm"
+     ],
+     "name": "Shadow Overrealm Compass",
+     "key": "Shadow_Overrealm_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "Doors that have a chance to lead into the Overrealm appear in the stage",
+      "Monsters in the stage +70% additional Max Life",
+      "In the Overrealm, filling the Containment Progress has a chance to grant a certain number of Compulsory Containment Keys",
+      "In the Overrealm, the \"Door\" leading to the next level can be forcibly opened by consuming Compulsory Containment Keys",
+      "+70% additional Max Life for monsters in the Overrealm"
+     ],
+     "name": "Containment Overrealm Compass",
+     "key": "Containment_Overrealm_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "Groups of Vorax-infected monsters will appear in the stage",
+      "Monsters in the stage +10% additional Max Life"
+     ],
+     "name": "Vorax Compass",
+     "key": "Vorax_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "Groups of Vorax-infected monsters will appear in the stage",
+      "Monsters in the stage +30% additional Max Life",
+      "In Netherrealm stages, a Scavenger appears to guard the Antidote Vial in Shelley's Operating Theater for every 1 group(s) of Vorax monsters cleared. Each Scavenger grants +8% additional Drop Quantity for the Antidote Vials",
+      "Monsters are inflicted with Moderate Symptoms in Shelley's Operating Theater"
+     ],
+     "name": "Scavenger Vorax Compass",
+     "key": "Scavenger_Vorax_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "Groups of Vorax-infected monsters will appear in the stage",
+      "Monsters in the stage +70% additional Max Life",
+      "In Netherrealm stages, Surgical Protocols gain an additional effect for each group of Vorax monsters cleared: +1% additional Drop Quantity for Normal Surgical Protocols. +2% additional Drop Quantity for Magic Surgical Protocols. +4% additional Drop Quantity for Rare Surgical Protocols",
+      "Additionally adds 2 Rare Surgical Protocol(s) in Shelley's Operating Theater",
+      "Monsters are inflicted with Severe Symptoms in Shelley's Operating Theater"
+     ],
+     "name": "Consultation Vorax Compass",
+     "key": "Consultation_Vorax_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "The stage has a lot of Lunar Stone Statues",
+      "Monsters in the stage +10% additional Max Life"
+     ],
+     "name": "Lunaria Compass",
+     "key": "Lunaria_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "The stage has a lot of Lunar Stone Statues",
+      "During the Lunaria gameplay, when Combo reaches 11 or above (Deep Space +3), there's a 100% chance to spawn 1 additional Dazzling Moonlight Casket. Can be triggered up to 2 time(s)",
+      "During the Lunaria gameplay, there's a 10% chance to spawn 1 additional statue for every 1 statue activated",
+      "Monsters in the stage +30% additional Max Life"
+     ],
+     "name": "Moonlit Casket Lunaria Compass",
+     "key": "Moonlit_Casket_Lunaria_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "The stage has a lot of Lunar Stone Statues",
+      "Remembrance Moon Steles appear during the Lunaria gameplay",
+      "Monsters in the stage +70% additional Max Life"
+     ],
+     "name": "Lunar Stele Lunaria Compass",
+     "key": "Lunar_Stele_Lunaria_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "The stage has a lot of Lunar Stone Statues",
+      "+100% additional Drop Quantity for Lunari monsters",
+      "Monsters in the stage +30% additional Max Life"
+     ],
+     "name": "Pristine Lunaria Compass",
+     "key": "Pristine_Lunaria_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "Creation Engines will appear in the stage",
+      "Monsters in the stage +10% additional Max Life"
+     ],
+     "name": "Creation Compass",
+     "key": "Creation_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "Creation Engines will appear in the stage",
+      "Monsters in the stage +30% additional Max Life",
+      "2 additional Creation Engine(s) appear in the stage"
+     ],
+     "name": "Derivative Creation Compass",
+     "key": "Derivative_Creation_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "Creation Engines will appear in the stage",
+      "Activated Creation Crystals will be recorded",
+      "Monsters in the stage +70% additional Max Life",
+      "1 additional Record Creation Engine(s) appear in Netherrealm stages",
+      "Significantly increases Creation Engine Quantity"
+     ],
+     "name": "Record Creation Compass",
+     "key": "Record_Creation_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "There are Coffins awaiting escort in this stage",
+      "Monsters in the stage +10% additional Max Life"
+     ],
+     "name": "Afterlight Compass",
+     "key": "Afterlight_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "There are Coffins awaiting escort in this stage",
+      "Phantoms will appear during the Vigil",
+      "Monsters in the stage +30% additional Max Life"
+     ],
+     "name": "Phantom Afterlight Compass",
+     "key": "Phantom_Afterlight_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "There are Coffins awaiting escort in this stage",
+      "When the Vigil begins, a special Wraith monster, Manifestation of All-Evils, will appear on the Vigil Procession's route",
+      "Gains 1 stack of Fright for each Manifestation of All-Evils defeated, up to 3 stack(s)",
+      "+100% additional Drop Quantity in Vigil gameplay for each stack of Fright",
+      "Monsters in the stage +70% additional Max Life"
+     ],
+     "name": "All-Evil Afterlight Compass",
+     "key": "All-Evil_Afterlight_Compass"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "There are Coffins awaiting escort in this stage",
+      "+100% additional Drop Quantity for the Vigil",
+      "Monsters in the stage +30% additional Max Life"
+     ],
+     "name": "Evernight Afterlight Compass",
+     "key": "Evernight_Afterlight_Compass"
+    }
+   ]
+  },
+  {
+   "card": "Item",
+   "tab": "Item",
+   "entries": [
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "+15% additional Compass Drop Quantity",
+      "Monsters in the stage +10% additional Max Life",
+      "Astrolabes are special Compasses.",
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins."
+     ],
+     "name": "Ecliptic Astrolabe",
+     "key": "Ecliptic_Astrolabe"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "+30% additional Compass Drop Quantity",
+      "Monsters in the stage +30% additional Max Life",
+      "Astrolabes are special Compasses.",
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins."
+     ],
+     "name": "Vast Ecliptic Astrolabe",
+     "key": "Vast_Ecliptic_Astrolabe"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "+30% additional Compass Drop Quantity",
+      "Compasses dropped have a 10% chance to become a more valuable type of Compass",
+      "Monsters in the stage +70% additional Max Life",
+      "Astrolabes are special Compasses.",
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins."
+     ],
+     "name": "Ascendant Ecliptic Astrolabe",
+     "key": "Ascendant_Ecliptic_Astrolabe"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "The stage has Trial: Goddess of Hunting",
+      "Monsters in the stage +10% additional Max Life",
+      "Astrolabes are special Compasses.",
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins."
+     ],
+     "name": "Hunting Astrolabe",
+     "key": "Hunting_Astrolabe"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "The stage has Trial: Goddess of Hunting",
+      "2 Safari Boss(es) will appear in the stage after starting Trial: Goddess of Hunting (Safari)",
+      "+80% additional Drop Quantity for the Stage Final Boss's Hunting Rewards",
+      "Monsters in the stage +30% additional Max Life",
+      "Astrolabes are special Compasses.",
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins."
+     ],
+     "name": "Siege Hunting Astrolabe",
+     "key": "Siege_Hunting_Astrolabe"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "The stage has Trial: Goddess of Hunting",
+      "After Trial: Goddess of Hunting begins, there is a 100% chance to replicate the Stage Final Boss",
+      "Monsters in the stage +30% additional Max Life",
+      "Astrolabes are special Compasses.",
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins."
+     ],
+     "name": "General Hunting Astrolabe",
+     "key": "General_Hunting_Astrolabe"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "The stage has Trial: Goddess of Hunting",
+      "4 Safari Boss(es) will appear in the stage after starting Trial: Goddess of Hunting (Safari)",
+      "+6.5% additional Drop Quantity for Stage Final Bosses' Hunting Rewards and +5% additional Max Life for every 1 Safari Boss defeated. Stacks up to 15 stack(s)",
+      "Monsters in the stage +70% additional Max Life",
+      "Astrolabes are special Compasses.",
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins."
+     ],
+     "name": "Revelation Hunting Astrolabe",
+     "key": "Revelation_Hunting_Astrolabe"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "Clockwork Ballet Games will appear in the stage",
+      "Monsters in the stage +10% additional Max Life",
+      "The Gods Gameplay will not appear in Netherrealm stages",
+      "Astrolabes are special Compasses.",
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins."
+     ],
+     "name": "Doll Astrolabe",
+     "key": "Doll_Astrolabe"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "Clockwork Ballet Games will appear in the stage",
+      "Monsters in the stage +70% additional Max Life",
+      "In Netherrealm stages, increases the chance for Compass Cogwheels to drop from Clockwork Ballet Games by 200%",
+      "The Gods Gameplay will not appear in Netherrealm stages",
+      "Astrolabes are special Compasses.",
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins."
+     ],
+     "name": "Collection Doll Astrolabe",
+     "key": "Collection_Doll_Astrolabe"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "Clockwork Ballet Games will appear in the stage",
+      "Monsters in the stage +70% additional Max Life",
+      "In Netherrealm stages, increases the chance for Compass Cogwheels to drop from Clockwork Ballet Games by 600%",
+      "The Gods Gameplay will not appear in Netherrealm stages",
+      "Astrolabes are special Compasses.",
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins."
+     ],
+     "name": "Collection Doll Astrolabe (Artifact)",
+     "key": "Collection_Doll_Astrolabe_Artifact"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "Cages of Original Sin appear in the stage",
+      "Monsters in the stage +10% additional Max Life",
+      "Astrolabes are special Compasses.",
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins."
+     ],
+     "name": "Cage Astrolabe",
+     "key": "Cage_Astrolabe"
+    },
+    {
+     "lines": [
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins.",
+      "Cages of Original Sin appear in the stage",
+      "Cages of Original Sin are enhanced: Each time they release monsters, they summon an additional Cage of Original Sin",
+      "Cages of Original Sin and the monsters they release are significantly enhanced",
+      "The Drop Quantity of Cages of Original Sin and the monsters they release is significantly increased",
+      "Monsters in the stage +70% additional Max Life",
+      "Disable Team Up",
+      "Astrolabes are special Compasses.",
+      "Add it to a Netherrealm Compass slot to increase rewards granted in Netherrealm stages.",
+      "Added Compasses are consumed once the Netherrealm stage begins."
+     ],
+     "name": "Golden Cage Astrolabe",
+     "key": "Golden_Cage_Astrolabe"
+    }
+   ]
+  },
+  {
+   "card": "Compass",
+   "tab": "Compass_Hyperlink",
+   "text": [
+    "A map material that can be used to add additional Compass affixes to maps when starting a Netherrealm stage, once Compass slots are unlocked."
+   ]
+  },
+  {
+   "card": "Compass",
+   "tab": "CompassManualRule",
+   "text": [
+    "Drops everywhere",
+    "Drops everywhere and in large quantities in the Doll, Cage, and Goddess of Hunting (Safari) gameplay.",
+    "Astrolabes are special Compasses that drop in large quantities in the Goddess of Hunting gameplay and Gods Chests.",
+    "Season Compasses are special Compasses that only drop in Season-exclusive gameplay."
+   ]
+  }
+ ]
+}

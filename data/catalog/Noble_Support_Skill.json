@@ -1,0 +1,3396 @@
+{
+ "page": "Noble_Support_Skill",
+ "cards": [
+  {
+   "card": "Exclusive Support Skill Tag",
+   "tab": "ExclusiveSupportSkillTag",
+   "entries": [
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Focused Shot: Building Momentum (Noble)",
+     "key": "Focused_Shot_Building_Momentum_Noble",
+     "icon": "UISkillFocusedShootsupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Focused Shot: Power Bow (Noble)",
+     "key": "Focused_Shot_Power_Bow_Noble",
+     "icon": "UISkillFocusedShootsupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Focused Shot: Snipe (Noble)",
+     "key": "Focused_Shot_Snipe_Noble",
+     "icon": "UISkillFocusedShootsupport05Icon128"
+    },
+    {
+     "lines": [
+      "Support, Fire"
+     ],
+     "name": "Burning Shot: Ignition (Noble)",
+     "key": "Burning_Shot_Ignition_Noble",
+     "icon": "UISkillFireShootsupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Fire"
+     ],
+     "name": "Burning Shot: Through Fire (Noble)",
+     "key": "Burning_Shot_Through_Fire_Noble",
+     "icon": "UISkillFireShootsupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Lightning"
+     ],
+     "name": "Chain Lightning: Lucky (Noble)",
+     "key": "Chain_Lightning_Lucky_Noble",
+     "icon": "UISkillLightningChainsupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Lightning"
+     ],
+     "name": "Chain Lightning: Merge (Noble)",
+     "key": "Chain_Lightning_Merge_Noble",
+     "icon": "UISkillLightningChainsupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Focused Slash: Fervor (Noble)",
+     "key": "Focused_Slash_Fervor_Noble",
+     "icon": "UISkillFocusedStrikesupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Focused Slash: Behead (Noble)",
+     "key": "Focused_Slash_Behead_Noble",
+     "icon": "UISkillFocusedStrikesupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Cold"
+     ],
+     "name": "Icy Blade: Hidden Edge (Noble)",
+     "key": "Icy_Blade_Hidden_Edge_Noble",
+     "icon": "UISkillFrostSlashsupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Fire"
+     ],
+     "name": "Flame Slash: Inverted Blaze (Noble)",
+     "key": "Flame_Slash_Inverted_Blaze_Noble",
+     "icon": "UISkillFlameSlashsupport02Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Double Thrusts: Cutthroat (Noble)",
+     "key": "Double_Thrusts_Cutthroat_Noble",
+     "icon": "UISkillDoubleStabsupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Erosion"
+     ],
+     "name": "Corrosive Throw: Swift Strike (Noble)",
+     "key": "Corrosive_Throw_Swift_Strike_Noble",
+     "icon": "UISkillVenomThrowsupport02Icon128"
+    },
+    {
+     "lines": [
+      "Support, Erosion"
+     ],
+     "name": "Corrosive Throw: Blitz Strike (Noble)",
+     "key": "Corrosive_Throw_Blitz_Strike_Noble",
+     "icon": "UISkillVenomThrowsupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Fire"
+     ],
+     "name": "Blazing Bullet: Ignition Point (Noble)",
+     "key": "Blazing_Bullet_Ignition_Point_Noble",
+     "icon": "UISkillSabotRoundssupport02Icon128"
+    },
+    {
+     "lines": [
+      "Support, Fire"
+     ],
+     "name": "Blazing Bullet: Dual Resonance (Noble)",
+     "key": "Blazing_Bullet_Dual_Resonance_Noble",
+     "icon": "UISkillSabotRoundssupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Erosion"
+     ],
+     "name": "Wilt Spike: Mirage (Noble)",
+     "key": "Wilt_Spike_Mirage_Noble",
+     "icon": "UISkillViperStabsupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Erosion"
+     ],
+     "name": "Wilt Spike: Evanescence (Noble)",
+     "key": "Wilt_Spike_Evanescence_Noble",
+     "icon": "UISkillViperStabsupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Fire"
+     ],
+     "name": "Hammer of Ash: Quickfire (Noble)",
+     "key": "Hammer_of_Ash_Quickfire_Noble",
+     "icon": "UISkillEmberslamsupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Fire"
+     ],
+     "name": "Hammer of Ash: Blast Quake (Noble)",
+     "key": "Hammer_of_Ash_Blast_Quake_Noble",
+     "icon": "UISkillEmberslamsupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Cold"
+     ],
+     "name": "Frost Impact: Chilling Surge (Noble)",
+     "key": "Frost_Impact_Chilling_Surge_Noble",
+     "icon": "UISkillIceCrashsupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Cold"
+     ],
+     "name": "Frost Impact: Chilling Buildup (Noble)",
+     "key": "Frost_Impact_Chilling_Buildup_Noble",
+     "icon": "UISkillIceCrashsupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Whirlwind: Whirling Blade (Noble)",
+     "key": "Whirlwind_Whirling_Blade_Noble",
+     "icon": "UISkillCyclonesupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Lightning"
+     ],
+     "name": "Lightning Shot: Crossed Lightning (Noble)",
+     "key": "Lightning_Shot_Crossed_Lightning_Noble",
+     "icon": "UISkillLightningShootsupport02Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Split Shot: Collaboration (Noble)",
+     "key": "Split_Shot_Collaboration_Noble",
+     "icon": "UISkillSplitArrowsupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Split Shot: Rapid Advance (Noble)",
+     "key": "Split_Shot_Rapid_Advance_Noble",
+     "icon": "UISkillSplitArrowsupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Cold"
+     ],
+     "name": "Ice Shot: Batter (Noble)",
+     "key": "Ice_Shot_Batter_Noble",
+     "icon": "UISkillIceshotsupport02Icon128"
+    },
+    {
+     "lines": [
+      "Support, Fire"
+     ],
+     "name": "Bombard: Fission (Noble)",
+     "key": "Bombard_Fission_Noble",
+     "icon": "UISkillStrafesupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Fire"
+     ],
+     "name": "Bombard: Grenade (Noble)",
+     "key": "Bombard_Grenade_Noble",
+     "icon": "UISkillStrafesupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Fire"
+     ],
+     "name": "Bombard: Smokescreen (Noble)",
+     "key": "Bombard_Smokescreen_Noble",
+     "icon": "UISkillStrafesupport05Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Berserking Blade: Decimate (Noble)",
+     "key": "Berserking_Blade_Decimate_Noble",
+     "icon": "UISkillViolentSweepsupport02Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Berserking Blade: Rampage (Noble)",
+     "key": "Berserking_Blade_Rampage_Noble",
+     "icon": "UISkillViolentSweepsupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Lightning"
+     ],
+     "name": "Charged Pummel: Charge Reduction (Noble)",
+     "key": "Charged_Pummel_Charge_Reduction_Noble",
+     "icon": "UISkillChargedSmashsupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Lightning"
+     ],
+     "name": "Charged Pummel: Electric Charge (Noble)",
+     "key": "Charged_Pummel_Electric_Charge_Noble",
+     "icon": "UISkillChargedSmashsupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Moon Strike: Lunar Eclipse (Noble)",
+     "key": "Moon_Strike_Lunar_Eclipse_Noble",
+     "icon": "UISkillShadowSlashsupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Moon Strike: Wax and Wane (Noble)",
+     "key": "Moon_Strike_Wax_and_Wane_Noble",
+     "icon": "UISkillShadowSlashsupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Savage Charge: Raid (Noble)",
+     "key": "Savage_Charge_Raid_Noble",
+     "icon": "UISkillSavageChargesupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Fire"
+     ],
+     "name": "Marked Rain of Arrows: Hyper Blast (Noble)",
+     "key": "Marked_Rain_of_Arrows_Hyper_Blast_Noble",
+     "icon": "UISkillMarkerArrowsupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Fire"
+     ],
+     "name": "Marked Rain of Arrows: Threads of Arrows (Noble)",
+     "key": "Marked_Rain_of_Arrows_Threads_of_Arrows_Noble",
+     "icon": "UISkillMarkerArrowsupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Erosion"
+     ],
+     "name": "Corrosive Shot: Degeneration (Noble)",
+     "key": "Corrosive_Shot_Degeneration_Noble",
+     "icon": "UISkillPoisonBulletsupport02Icon128"
+    },
+    {
+     "lines": [
+      "Support, Erosion"
+     ],
+     "name": "Corrosive Shot: Burst of Agony (Noble)",
+     "key": "Corrosive_Shot_Burst_of_Agony_Noble",
+     "icon": "UISkillPoisonBulletsupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Inexhaustible Barrage: Fatal Pursuit (Noble)",
+     "key": "Inexhaustible_Barrage_Fatal_Pursuit_Noble",
+     "icon": "UISkillChargedRainOfBulletssupport02Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Inexhaustible Barrage: Landslide (Noble)",
+     "key": "Inexhaustible_Barrage_Landslide_Noble",
+     "icon": "UISkillChargedRainOfBulletssupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Lightning"
+     ],
+     "name": "Thunder Spike: Tremble (Noble)",
+     "key": "Thunder_Spike_Tremble_Noble",
+     "icon": "UISkillLightningStabsupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Lightning"
+     ],
+     "name": "Thunder Spike: Rumbling Thunder (Noble)",
+     "key": "Thunder_Spike_Rumbling_Thunder_Noble",
+     "icon": "UISkillLightningStabsupport02Icon128"
+    },
+    {
+     "lines": [
+      "Support, Lightning"
+     ],
+     "name": "Thunder Slash: Flurry (Noble)",
+     "key": "Thunder_Slash_Flurry_Noble",
+     "icon": "UISkillThunderSlashsupport02Icon128"
+    },
+    {
+     "lines": [
+      "Support, Lightning"
+     ],
+     "name": "Thunder Slash: Big Stride (Noble)",
+     "key": "Thunder_Slash_Big_Stride_Noble",
+     "icon": "UISkillThunderSlashsupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Ring of Blades: Razor Edge (Noble)",
+     "key": "Ring_of_Blades_Razor_Edge_Noble",
+     "icon": "UISkillDiffusionBladesupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Ring of Blades: Strength in Numbers (Noble)",
+     "key": "Ring_of_Blades_Strength_in_Numbers_Noble",
+     "icon": "UISkillDiffusionBladesupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Cold"
+     ],
+     "name": "Frost Spike: Ice Fission (Noble)",
+     "key": "Frost_Spike_Ice_Fission_Noble",
+     "icon": "UISkillFrostStabsupport02Icon128"
+    },
+    {
+     "lines": [
+      "Support, Cold"
+     ],
+     "name": "Frost Spike: Glaciate (Noble)",
+     "key": "Frost_Spike_Glaciate_Noble",
+     "icon": "UISkillFrostStabsupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Rain of Arrows: Payback (Noble)",
+     "key": "Rain_of_Arrows_Payback_Noble",
+     "icon": "UISkillRainOfArrowssupport02Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Rain of Arrows: Tracking (Noble)",
+     "key": "Rain_of_Arrows_Tracking_Noble",
+     "icon": "UISkillRainOfArrowssupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Arrow Einherjar: Advancement (Noble)",
+     "key": "Arrow_Einherjar_Advancement_Noble",
+     "icon": "UISkillArrowSpiritsupport02Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Arrow Einherjar: Fellowship (Noble)",
+     "key": "Arrow_Einherjar_Fellowship_Noble",
+     "icon": "UISkillArrowSpiritsupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Fire"
+     ],
+     "name": "Split Firebolt: Focal Point (Noble)",
+     "key": "Split_Firebolt_Focal_Point_Noble",
+     "icon": "UISkillFireballsupport02Icon128"
+    },
+    {
+     "lines": [
+      "Support, Cold"
+     ],
+     "name": "Ice Lances: Bounce (Noble)",
+     "key": "Ice_Lances_Bounce_Noble",
+     "icon": "UISkillConeOfColdsupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Cold"
+     ],
+     "name": "Ice Lances: Permafrost (Noble)",
+     "key": "Ice_Lances_Permafrost_Noble",
+     "icon": "UISkillConeOfColdsupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Lightning"
+     ],
+     "name": "Sparkle: Strobe (Noble)",
+     "key": "Sparkle_Strobe_Noble",
+     "icon": "UISkillSparkBulletsupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Lightning"
+     ],
+     "name": "Sparkle: Static Electricity (Noble)",
+     "key": "Sparkle_Static_Electricity_Noble",
+     "icon": "UISkillSparkBulletsupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Whirlwind Blade: Sharpen (Noble)",
+     "key": "Whirlwind_Blade_Sharpen_Noble",
+     "icon": "UISkillBladeRoundaboutsupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Whirlwind Blade: Circling (Noble)",
+     "key": "Whirlwind_Blade_Circling_Noble",
+     "icon": "UISkillBladeRoundaboutsupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Cold"
+     ],
+     "name": "Ring of Ice: Cascade (Noble)",
+     "key": "Ring_of_Ice_Cascade_Noble",
+     "icon": "UISkillIceRingsupport02Icon128"
+    },
+    {
+     "lines": [
+      "Support, Cold"
+     ],
+     "name": "Blizzard: Avalanche (Noble)",
+     "key": "Blizzard_Avalanche_Noble",
+     "icon": "UISkillBlizzardsupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Cold"
+     ],
+     "name": "Blizzard: Numbing Cold (Noble)",
+     "key": "Blizzard_Numbing_Cold_Noble",
+     "icon": "UISkillBlizzardsupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Lightning"
+     ],
+     "name": "Lightning Storm: Boundless (Noble)",
+     "key": "Lightning_Storm_Boundless_Noble",
+     "icon": "UISkillThunderStormsupport02Icon128"
+    },
+    {
+     "lines": [
+      "Support, Lightning"
+     ],
+     "name": "Lightning Storm: Raging Storm (Noble)",
+     "key": "Lightning_Storm_Raging_Storm_Noble",
+     "icon": "UISkillThunderStormsupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Fire"
+     ],
+     "name": "Flame Core: Engage (Noble)",
+     "key": "Flame_Core_Engage_Noble",
+     "icon": "UISkillFirePilesupport02Icon128"
+    },
+    {
+     "lines": [
+      "Support, Fire"
+     ],
+     "name": "Flame Jet: Furnace (Noble)",
+     "key": "Flame_Jet_Furnace_Noble",
+     "icon": "UISkillFlameBlastsupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Cold"
+     ],
+     "name": "Frost Terra: Cohesion (Noble)",
+     "key": "Frost_Terra_Cohesion_Noble",
+     "icon": "UISkillIceAreasupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Cold"
+     ],
+     "name": "Frost Terra: Winter's Bite (Noble)",
+     "key": "Frost_Terra_Winters_Bite_Noble",
+     "icon": "UISkillIceAreasupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Erosion"
+     ],
+     "name": "Shadow Swamp: Overlapping Waves (Noble)",
+     "key": "Shadow_Swamp_Overlapping_Waves_Noble",
+     "icon": "UISkillShadowswampsupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Erosion"
+     ],
+     "name": "Shadow Swamp: Still Water (Noble)",
+     "key": "Shadow_Swamp_Still_Water_Noble",
+     "icon": "UISkillShadowswampsupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Lightning"
+     ],
+     "name": "Thunderbolt Overload: Augmentation (Noble)",
+     "key": "Thunderbolt_Overload_Augmentation_Noble",
+     "icon": "UISkillOverloadLightningBallsupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Cold"
+     ],
+     "name": "Frost Core: Puncture (Noble)",
+     "key": "Frost_Core_Puncture_Noble",
+     "icon": "UISkillFrostCoresupport02Icon128"
+    },
+    {
+     "lines": [
+      "Support, Lightning"
+     ],
+     "name": "Summon Thunder Magus: Heavy Arrow (Noble)",
+     "key": "Summon_Thunder_Magus_Heavy_Arrow_Noble",
+     "icon": "UISkillSummonThunderElementsupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Lightning"
+     ],
+     "name": "Summon Thunder Magus: Agility (Noble)",
+     "key": "Summon_Thunder_Magus_Agility_Noble",
+     "icon": "UISkillSummonThunderElementsupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Cold"
+     ],
+     "name": "Summon Frost Magus: Vengeance (Noble)",
+     "key": "Summon_Frost_Magus_Vengeance_Noble",
+     "icon": "UISkillSummonIceIceElementsupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Fire"
+     ],
+     "name": "Summon Fire Magus: Wicked Spirit (Noble)",
+     "key": "Summon_Fire_Magus_Wicked_Spirit_Noble",
+     "icon": "UISkillSummonFireElementsupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Fire"
+     ],
+     "name": "Summon Fire Magus: Engulfing Flames (Noble)",
+     "key": "Summon_Fire_Magus_Engulfing_Flames_Noble",
+     "icon": "UISkillSummonFireElementsupport05Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Summon Machine Guard: Crushing Blow (Noble)",
+     "key": "Summon_Machine_Guard_Crushing_Blow_Noble",
+     "icon": "UISkillSummonMechanicalGuardsupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Summon Machine Guard: Discipline (Noble)",
+     "key": "Summon_Machine_Guard_Discipline_Noble",
+     "icon": "UISkillSummonMechanicalGuardsupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Summon Machine Guard: Dead Silence (Noble)",
+     "key": "Summon_Machine_Guard_Dead_Silence_Noble",
+     "icon": "UISkillSummonMechanicalGuardsupport05Icon128"
+    },
+    {
+     "lines": [
+      "Support, Lightning"
+     ],
+     "name": "Summon Grim Phantom: Shriek (Noble)",
+     "key": "Summon_Grim_Phantom_Shriek_Noble",
+     "icon": "UISkillSummonPhantomsupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Lightning"
+     ],
+     "name": "Summon Grim Phantom: Undercurrent (Noble)",
+     "key": "Summon_Grim_Phantom_Undercurrent_Noble",
+     "icon": "UISkillSummonPhantomsupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Lightning"
+     ],
+     "name": "Summon Grim Phantom: Flicker (Noble)",
+     "key": "Summon_Grim_Phantom_Flicker_Noble",
+     "icon": "UISkillSummonPhantomsupport05Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Summon Spider Tank: Focus Fire (Noble)",
+     "key": "Summon_Spider_Tank_Focus_Fire_Noble",
+     "icon": "UISkillSummonIceSpiderTanksupport02Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Summon Spider Tank: Spider Egg (Noble)",
+     "key": "Summon_Spider_Tank_Spider_Egg_Noble",
+     "icon": "UISkillSummonIceSpiderTanksupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Erosion"
+     ],
+     "name": "Ghost Blade Einherjar: Eruption (Noble)",
+     "key": "Ghost_Blade_Einherjar_Eruption_Noble",
+     "icon": "UISkillGhostBladeSpiritsupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Erosion"
+     ],
+     "name": "Ghost Blade Einherjar: Heroes (Noble)",
+     "key": "Ghost_Blade_Einherjar_Heroes_Noble",
+     "icon": "UISkillGhostBladeSpiritsupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Groundshaker: Collapse (Noble)",
+     "key": "Groundshaker_Collapse_Noble",
+     "icon": "UISkillEarthShocksupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Groundshaker: Cripple (Noble)",
+     "key": "Groundshaker_Cripple_Noble",
+     "icon": "UISkillEarthShocksupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Groundshaker: Wrathful Vault (Noble)",
+     "key": "Groundshaker_Wrathful_Vault_Noble",
+     "icon": "UISkillEarthShocksupport05Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Howling Gale: Furious Sweep (Noble)",
+     "key": "Howling_Gale_Furious_Sweep_Noble",
+     "icon": "UISkillTornadosupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Howling Gale: Eye of the Gale (Noble)",
+     "key": "Howling_Gale_Eye_of_the_Gale_Noble",
+     "icon": "UISkillTornadosupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Erosion"
+     ],
+     "name": "Shackles of Malice: Mutual Destruction (Noble)",
+     "key": "Shackles_of_Malice_Mutual_Destruction_Noble",
+     "icon": "UISkillEvilChainsupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Erosion"
+     ],
+     "name": "Shackles of Malice: Spite (Noble)",
+     "key": "Shackles_of_Malice_Spite_Noble",
+     "icon": "UISkillEvilChainsupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Erosion"
+     ],
+     "name": "Mind Control: Enthrall (Noble)",
+     "key": "Mind_Control_Enthrall_Noble",
+     "icon": "UISkillLifeLeechsupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Erosion"
+     ],
+     "name": "Mind Control: Entice (Noble)",
+     "key": "Mind_Control_Entice_Noble",
+     "icon": "UISkillLifeLeechsupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Fire"
+     ],
+     "name": "Fire Burst: Prairie Fire (Noble)",
+     "key": "Fire_Burst_Prairie_Fire_Noble",
+     "icon": "UISkillFireBlastsupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Fire"
+     ],
+     "name": "Fire Burst: Converge (Noble)",
+     "key": "Fire_Burst_Converge_Noble",
+     "icon": "UISkillFireBlastsupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Cold"
+     ],
+     "name": "Icebound Beam: Chilling Spike (Noble)",
+     "key": "Icebound_Beam_Chilling_Spike_Noble",
+     "icon": "UISkillIceRaysupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Cold"
+     ],
+     "name": "Icebound Beam: Ring Blade (Noble)",
+     "key": "Icebound_Beam_Ring_Blade_Noble",
+     "icon": "UISkillIceRaysupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Fire"
+     ],
+     "name": "Scorching Beam: Disintegrate (Noble)",
+     "key": "Scorching_Beam_Disintegrate_Noble",
+     "icon": "UISkillFireRaysupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Fire"
+     ],
+     "name": "Scorching Beam: Immolate (Noble)",
+     "key": "Scorching_Beam_Immolate_Noble",
+     "icon": "UISkillFireRaysupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Lightning"
+     ],
+     "name": "Thunder Core: Lightning Lasso (Noble)",
+     "key": "Thunder_Core_Lightning_Lasso_Noble",
+     "icon": "UISkillThunderCoresupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Lightning"
+     ],
+     "name": "Thunder Core: Augmentation (Noble)",
+     "key": "Thunder_Core_Augmentation_Noble",
+     "icon": "UISkillThunderCoresupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Fire"
+     ],
+     "name": "Path of Flames: Heat Wave (Noble)",
+     "key": "Path_of_Flames_Heat_Wave_Noble",
+     "icon": "UISkillFlameRoadsupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Fire"
+     ],
+     "name": "Path of Flames: Raging Boil (Noble)",
+     "key": "Path_of_Flames_Raging_Boil_Noble",
+     "icon": "UISkillFlameRoadsupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Lightning"
+     ],
+     "name": "Thundercloud: Heavy Cloud (Noble)",
+     "key": "Thundercloud_Heavy_Cloud_Noble",
+     "icon": "UISkillNimbussupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Lightning"
+     ],
+     "name": "Thundercloud: Thunderous Blow (Noble)",
+     "key": "Thundercloud_Thunderous_Blow_Noble",
+     "icon": "UISkillNimbussupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Summon Rock Magus: Stone Refinement (Noble)",
+     "key": "Summon_Rock_Magus_Stone_Refinement_Noble",
+     "icon": "UISkillSummonRockElementsupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Erosion"
+     ],
+     "name": "Summon Erosion Magus: Malignant (Noble)",
+     "key": "Summon_Erosion_Magus_Malignant_Noble",
+     "icon": "UISkillSummonRotElementsupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Erosion"
+     ],
+     "name": "Summon Erosion Magus: Malady (Noble)",
+     "key": "Summon_Erosion_Magus_Malady_Noble",
+     "icon": "UISkillSummonRotElementsupport05Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Double Thrusts: Recourse (Noble)",
+     "key": "Double_Thrusts_Recourse_Noble",
+     "icon": "UISkillDoubleStabsupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Lightning"
+     ],
+     "name": "Lightning Beam: Reverberation (Noble)",
+     "key": "Lightning_Beam_Reverberation_Noble",
+     "icon": "UISkillThunderstormRaysupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Lightning"
+     ],
+     "name": "Lightning Beam: Salvo (Noble)",
+     "key": "Lightning_Beam_Salvo_Noble",
+     "icon": "UISkillThunderstormRaysupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Erosion"
+     ],
+     "name": "Wilting Beam: Set Course (Noble)",
+     "key": "Wilting_Beam_Set_Course_Noble",
+     "icon": "UISkillChaosRaysupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Erosion"
+     ],
+     "name": "Wilting Beam: Rapid Completion (Noble)",
+     "key": "Wilting_Beam_Rapid_Completion_Noble",
+     "icon": "UISkillChaosRaysupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Lightning"
+     ],
+     "name": "Electrifying Shot: Multishot (Noble)",
+     "key": "Electrifying_Shot_Multishot_Noble",
+     "icon": "UISkillLightningBulletsupport02Icon128"
+    },
+    {
+     "lines": [
+      "Support, Fire"
+     ],
+     "name": "Marked Rain of Arrows: Rainfall (Noble)",
+     "key": "Marked_Rain_of_Arrows_Rainfall_Noble",
+     "icon": "UISkillMarkerArrowsupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Erosion"
+     ],
+     "name": "Haunting Abomination: Misdeeds (Noble)",
+     "key": "Haunting_Abomination_Misdeeds_Noble",
+     "icon": "UISkillDoomsupport01Icon128"
+    },
+    {
+     "lines": [
+      "Support, Erosion"
+     ],
+     "name": "Haunting Abomination: Hail Mary (Noble)",
+     "key": "Haunting_Abomination_Hail_Mary_Noble",
+     "icon": "UISkillDoomsupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Lightning"
+     ],
+     "name": "Thunder Focus: Tremor (Noble)",
+     "key": "Thunder_Focus_Tremor_Noble",
+     "icon": "UISkillThunderBlesssupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Lightning"
+     ],
+     "name": "Thunder Focus: Overflow (Noble)",
+     "key": "Thunder_Focus_Overflow_Noble",
+     "icon": "UISkillThunderBlesssupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Fire"
+     ],
+     "name": "Flame Focus: Blast (Noble)",
+     "key": "Flame_Focus_Blast_Noble",
+     "icon": "UISkillFireBlesssupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Erosion"
+     ],
+     "name": "Corrosion Focus: Splash (Noble)",
+     "key": "Corrosion_Focus_Splash_Noble",
+     "icon": "UISkillChaosBlesssupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Cold"
+     ],
+     "name": "Ice Focus: Frigid Wind (Noble)",
+     "key": "Ice_Focus_Frigid_Wind_Noble",
+     "icon": "UISkillIceBlesssupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Cold"
+     ],
+     "name": "Ice Focus: Solemn Chill (Noble)",
+     "key": "Ice_Focus_Solemn_Chill_Noble",
+     "icon": "UISkillIceBlesssupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Acuteness Focus: Dull Pain (Noble)",
+     "key": "Acuteness_Focus_Dull_Pain_Noble",
+     "icon": "UISkillPhysicalBlesssupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Acuteness Focus: Remaining Strength (Noble)",
+     "key": "Acuteness_Focus_Remaining_Strength_Noble",
+     "icon": "UISkillPhysicalBlesssupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Crescent Slash: Flash (Noble)",
+     "key": "Crescent_Slash_Flash_Noble",
+     "icon": "UISkillArcSlashsupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Crescent Slash: Rising (Noble)",
+     "key": "Crescent_Slash_Rising_Noble",
+     "icon": "UISkillArcSlashsupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Fire"
+     ],
+     "name": "Serpent Beam: Torrent (Noble)",
+     "key": "Serpent_Beam_Torrent_Noble",
+     "icon": "UISkillFlameSerpentsupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Fire"
+     ],
+     "name": "Serpent Beam: Twin Blaze (Noble)",
+     "key": "Serpent_Beam_Twin_Blaze_Noble",
+     "icon": "UISkillFlameSerpentsupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Gale Slash: Soaring (Noble)",
+     "key": "Gale_Slash_Soaring_Noble",
+     "icon": "UISkillWindSlashsupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Gale Slash: Brutality (Noble)",
+     "key": "Gale_Slash_Brutality_Noble",
+     "icon": "UISkillWindSlashsupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Spectral Slash: Legion (Noble)",
+     "key": "Spectral_Slash_Legion_Noble",
+     "icon": "UISkillPhantomSlashsupport02Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Spectral Slash: Synchrony (Noble)",
+     "key": "Spectral_Slash_Synchrony_Noble",
+     "icon": "UISkillPhantomSlashsupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Cold"
+     ],
+     "name": "Frigid Transmission: Thin Ice (Noble)",
+     "key": "Frigid_Transmission_Thin_Ice_Noble",
+     "icon": "UISkillIceBlinksupport01Icon128"
+    },
+    {
+     "lines": [
+      "Support"
+     ],
+     "name": "Modularization: Superconductivity (Noble)",
+     "key": "Modularization_Superconductivity_Noble",
+     "icon": "UISkillModularsupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support"
+     ],
+     "name": "Modularization: Calibrate (Noble)",
+     "key": "Modularization_Calibrate_Noble",
+     "icon": "UISkillModularsupport05Icon128"
+    },
+    {
+     "lines": [
+      "Support"
+     ],
+     "name": "Modularization: Compress (Noble)",
+     "key": "Modularization_Compress_Noble",
+     "icon": "UISkillModularsupport06Icon128"
+    },
+    {
+     "lines": [
+      "Support"
+     ],
+     "name": "Modularization: Sever (Noble)",
+     "key": "Modularization_Sever_Noble",
+     "icon": "UISkillModularsupport07Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Thornfield: Retribution (Noble)",
+     "key": "Thornfield_Retribution_Noble",
+     "icon": "UISkillPhysicalLastGroundsupport02Icon128"
+    },
+    {
+     "lines": [
+      "Support, Cold"
+     ],
+     "name": "Tidewell: Undertow (Noble)",
+     "key": "Tidewell_Undertow_Noble",
+     "icon": "UISkillTorrentsupport02Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Fallen Star: Starfall (Noble)",
+     "key": "Fallen_Star_Starfall_Noble",
+     "icon": "UISkillcometGroundsupport01Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Fallen Star: Gravity (Noble)",
+     "key": "Fallen_Star_Gravity_Noble",
+     "icon": "UISkillcometGroundsupport02Icon128"
+    },
+    {
+     "lines": [
+      "Support, Erosion"
+     ],
+     "name": "Nether Grasp: Extermination (Noble)",
+     "key": "Nether_Grasp_Extermination_Noble",
+     "icon": "UISkillNethergraspsupport02Icon128"
+    },
+    {
+     "lines": [
+      "Support, Lightning"
+     ],
+     "name": "Storm Field: Conduction (Noble)",
+     "key": "Storm_Field_Conduction_Noble",
+     "icon": "UISkillCurrentFieldsupport02Icon128"
+    },
+    {
+     "lines": [
+      "Support, Cold"
+     ],
+     "name": "Chromatic Shot: Condensed Cold (Noble)",
+     "key": "Chromatic_Shot_Condensed_Cold_Noble",
+     "icon": "UISkillPrismaticboltsupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Fire"
+     ],
+     "name": "Chromatic Shot: Condensed Fire (Noble)",
+     "key": "Chromatic_Shot_Condensed_Fire_Noble",
+     "icon": "UISkillPrismaticboltsupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Lightning"
+     ],
+     "name": "Chromatic Shot: Condensed Lightning (Noble)",
+     "key": "Chromatic_Shot_Condensed_Lightning_Noble",
+     "icon": "UISkillPrismaticboltsupport05Icon128"
+    },
+    {
+     "lines": [
+      "Support, Erosion"
+     ],
+     "name": "Chromatic Shot: Condensed Erosion (Noble)",
+     "key": "Chromatic_Shot_Condensed_Erosion_Noble",
+     "icon": "UISkillPrismaticboltsupport06Icon128"
+    },
+    {
+     "lines": [
+      "Support, Lightning"
+     ],
+     "name": "Voltaic Ripple: Turmoil (Noble)",
+     "key": "Voltaic_Ripple_Turmoil_Noble",
+     "icon": "UISkillLightingLastGroundsupport02Icon128"
+    },
+    {
+     "lines": [
+      "Support, Lightning"
+     ],
+     "name": "Voltaic Ripple: Afterwave (Noble)",
+     "key": "Voltaic_Ripple_Afterwave_Noble",
+     "icon": "UISkillLightingLastGroundsupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Psionic Missile: Convergence (Noble)",
+     "key": "Psionic_Missile_Convergence_Noble",
+     "icon": "UISkillInsightMissilesupport02Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Psionic Missile: Emission (Noble)",
+     "key": "Psionic_Missile_Emission_Noble",
+     "icon": "UISkillInsightMissilesupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Cold"
+     ],
+     "name": "Homing Frost Bolt: Deep Chill (Noble)",
+     "key": "Homing_Frost_Bolt_Deep_Chill_Noble",
+     "icon": "UISkillTrackingIceArrowsupport02Icon128"
+    },
+    {
+     "lines": [
+      "Support, Lightning"
+     ],
+     "name": "Forking Thunder: Disintegration (Noble)",
+     "key": "Forking_Thunder_Disintegration_Noble",
+     "icon": "UISkillSplitSpearsupport02Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Moon's Dawn: Illumination (Noble)",
+     "key": "Moons_Dawn_Illumination_Noble",
+     "icon": "UISkillDawnOfMoonsupport02Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Hound's Fangs: Volley (Noble)",
+     "key": "Hounds_Fangs_Volley_Noble",
+     "icon": "UISkillBoneStingsupport03Icon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Hound's Fangs: Pounce (Noble)",
+     "key": "Hounds_Fangs_Pounce_Noble",
+     "icon": "UISkillBoneStingsupport04Icon128"
+    },
+    {
+     "lines": [
+      "Support, Fire"
+     ],
+     "name": "Blazing Meteor: Aftershock (Noble)",
+     "key": "Blazing_Meteor_Aftershock_Noble",
+     "icon": "UISkillStarExplosionsupport02Icon128"
+    },
+    {
+     "lines": [
+      "Support, Fire"
+     ],
+     "name": "Blazing Meteor: Detonation (Noble)",
+     "key": "Blazing_Meteor_Detonation_Noble",
+     "icon": "UISkillStarExplosionsupport03Icon128"
+    }
+   ]
+  },
+  {
+   "card": "Noble Support Skill",
+   "tab": "NobleSupportSkill",
+   "entries": [
+    {
+     "lines": [
+      "Supports Focused Shot.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "If the supported skill is not used within 1 s, lose 10 Fervor Rating every 0.1s",
+      "If the supported skill is not used within 1 s, lose 10 Fervor Rating every 0.1s",
+      "The supported skill +(4.5–5.0)% additional damage every 0.2 s when you have at least 50 Fervor Rating, stacking up to 10 time(s)"
+     ],
+     "name": "Focused Shot: Building Momentum (Noble)",
+     "key": "Focused_Shot_Building_Momentum_Noble"
+    },
+    {
+     "lines": [
+      "Supports Focused Shot.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "While having Fervor, +20% Knockback Chance and +(8.5–9.0)% additional damage on Critical Strike for the supported skill. This effect is affected by Fervor Effect"
+     ],
+     "name": "Focused Shot: Power Bow (Noble)",
+     "key": "Focused_Shot_Power_Bow_Noble"
+    },
+    {
+     "lines": [
+      "Supports Focused Shot.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "While an Aiming Skill is active, increases the Critical Strike Rating of the supported skill based on the distance between the character and the enemy, up to +(370–390)% Critical Strike Rating against distant enemies"
+     ],
+     "name": "Focused Shot: Snipe (Noble)",
+     "key": "Focused_Shot_Snipe_Noble"
+    },
+    {
+     "lines": [
+      "Supports Burning Shot.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "When the supported skill's Projectiles cause an explosion, spreads 1 stack of Ignite inflicted by the Projectiles this time to nearby targets",
+      "When the supported skill's Projectiles cause an explosion, spreads 1 stack of Ignite inflicted by the Projectiles this time to nearby targets",
+      "When the supported skill's explosions deal damage, +(33–35)% additional Ignite Damage taken by enemies for 4 s"
+     ],
+     "name": "Burning Shot: Ignition (Noble)",
+     "key": "Burning_Shot_Ignition_Noble"
+    },
+    {
+     "lines": [
+      "Supports Burning Shot.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "The supported skill now has a 1 s cooldown",
+      "The supported skill no longer causes explosions on hit",
+      "The supported skill's Projectiles leave behind them a trail of fire that Ignites enemies in the trail once every 0.06 s",
+      "Projectiles from the supported skill always Penetrate",
+      "The supported skill now has a 1 s cooldown\\nThe supported skill no longer causes explosions on hit\\nThe supported skill's Projectiles leave behind them a trail of fire that Ignites enemies in the trail once every 0.06 s",
+      "Projectiles from the supported skill always Penetrate",
+      "+(12–14)% additional damage for the supported skill"
+     ],
+     "name": "Burning Shot: Through Fire (Noble)",
+     "key": "Burning_Shot_Through_Fire_Noble"
+    },
+    {
+     "lines": [
+      "Supports Chain of Lightning.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "+1 Jump(s) for the skill when the supported skill defeats an enemy",
+      "The supported skill deals Lucky Damage",
+      "+1 Jump(s) for the skill when the supported skill defeats an enemy",
+      "The supported skill deals Lucky Damage",
+      "(-7–-5)% additional damage for the supported skill"
+     ],
+     "name": "Chain Lightning: Lucky (Noble)",
+     "key": "Chain_Lightning_Lucky_Noble"
+    },
+    {
+     "lines": [
+      "Supports Chain of Lightning.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "Multiple Chain Lightnings released by the supported skill can target the same enemy, but will prioritize different enemies. The Shotgun Effect falloff coefficient of the supported skill is 80%",
+      "Multiple Chain Lightnings released by the supported skill can target the same enemy, but will prioritize different enemies. The Shotgun Effect falloff coefficient of the supported skill is 80%",
+      "(-14.0–-12.0)% additional damage for the supported skill"
+     ],
+     "name": "Chain Lightning: Merge (Noble)",
+     "key": "Chain_Lightning_Merge_Noble"
+    },
+    {
+     "lines": [
+      "Supports Focused Slash.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "The supported skill's Steep Strike consumes 5 Fervor Rating to make the skill deal +(62–65)% additional damage"
+     ],
+     "name": "Focused Slash: Fervor (Noble)",
+     "key": "Focused_Slash_Fervor_Noble"
+    },
+    {
+     "lines": [
+      "Supports Focused Slash.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "The supported skill is guaranteed to perform a Steep Strike",
+      "Removes the Area tag from the supported skill",
+      "The supported skill can now only hit 1 enemy",
+      "The supported skill is guaranteed to perform a Steep Strike",
+      "Removes the Area tag from the supported skill\\nThe supported skill can now only hit 1 enemy",
+      "+(6–8)% additional damage for the supported skill"
+     ],
+     "name": "Focused Slash: Behead (Noble)",
+     "key": "Focused_Slash_Behead_Noble"
+    },
+    {
+     "lines": [
+      "Supports Icy Blade.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "The supported skill cannot obtain Steep Strike attempts with Steep Strike Chance",
+      "The supported skill cannot obtain Steep Strike attempts with Steep Strike Chance",
+      "For every +1% Steep Strike chance, +(1.20–1.25)% additional Hit Damage for this skill's Steep Strike form"
+     ],
+     "name": "Icy Blade: Hidden Edge (Noble)",
+     "key": "Icy_Blade_Hidden_Edge_Noble"
+    },
+    {
+     "lines": [
+      "Supports Flame Slash.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "After reaching the maximum distance, the fire torrents of the supported skill return and knockback enemies they hit reversely",
+      "After reaching the maximum distance, the fire torrents of the supported skill return and knockback enemies they hit reversely",
+      "(-33.5–-32.5)% additional damage for the supported skill"
+     ],
+     "name": "Flame Slash: Inverted Blaze (Noble)",
+     "key": "Flame_Slash_Inverted_Blaze_Noble"
+    },
+    {
+     "lines": [
+      "Supports Double Thrusts.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "Reaps (0.036–0.039) s of Damage Over Time when the supported skill hits. Only Reaps Trauma Damage dealt by the supported skill"
+     ],
+     "name": "Double Thrusts: Cutthroat (Noble)",
+     "key": "Double_Thrusts_Cutthroat_Noble"
+    },
+    {
+     "lines": [
+      "Supports Corrosive Throw.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "Buffs gained from Multistrikes of the supported skill also +10% additional Attack Speed for the supported skill",
+      "Buffs gained from Multistrikes of the supported skill also +10% additional Attack Speed for the supported skill",
+      "Buffs gained from Multistrikes of the supported skill also +(5.5–6.0)% additional damage for the supported skill"
+     ],
+     "name": "Corrosive Throw: Swift Strike (Noble)",
+     "key": "Corrosive_Throw_Swift_Strike_Noble"
+    },
+    {
+     "lines": [
+      "Supports Corrosive Throw.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "Every 3 s, the next time the supported skill is cast, Blinks forward by up to 8 m or to the highest rarity enemy within 8 m, then gains a buff that lasts for 2 s",
+      "While the buff is active, after the supported skill hits an enemy, Blinks to the enemy. Effect Interval: 0.1 s",
+      "While the buff is active, the supported skill has Shotgun Effect",
+      "While the buff is active, -5 ° Projectile Spreading Angle for the supported skill",
+      "While the buff is active, -15 ° Max Projectile Spreading Angle for the supported skill",
+      "While the buff is active, the supported skill's Multistrike will not be interrupted",
+      "Every 3 s, the next time the supported skill is cast, Blinks forward by up to 8 m or to the highest rarity enemy within 8 m, then gains a buff that lasts for 2 s",
+      "(-2–-1)% additional damage for the supported skill"
+     ],
+     "name": "Corrosive Throw: Blitz Strike (Noble)",
+     "key": "Corrosive_Throw_Blitz_Strike_Noble"
+    },
+    {
+     "lines": [
+      "Supports Blazing Bullet.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "-25% additional Explosion Area for the supported skill",
+      "-25% additional Explosion Area for the supported skill",
+      "+(43–45)% additional damage for the supported skill when the bonus and additional bonus to Skill Area reach at least 120%"
+     ],
+     "name": "Blazing Bullet: Ignition Point (Noble)",
+     "key": "Blazing_Bullet_Ignition_Point_Noble"
+    },
+    {
+     "lines": [
+      "Supports Blazing Bullet.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "The Projectile Quantity of the supported skill is fixed at 1",
+      "+30% Projectile Size for the supported skill for every +1 Projectile Quantity",
+      "+25% to the ratio of the supported skill's Projectile Size that is applied to additional Skill Area",
+      "The Projectile Quantity of the supported skill is fixed at 1",
+      "+30% Projectile Size for the supported skill for every +1 Projectile Quantity",
+      "+25% to the ratio of the supported skill's Projectile Size that is applied to additional Skill Area",
+      "When an explosion of the supported skill hits, there is a (54–57)% chance to generate a smaller secondary explosion at the enemy's location, which deals the same damage as the original explosion",
+      "Multiple secondary explosions can hit the same enemy, and the Shotgun Effect falloff coefficient is 50%"
+     ],
+     "name": "Blazing Bullet: Dual Resonance (Noble)",
+     "key": "Blazing_Bullet_Dual_Resonance_Noble"
+    },
+    {
+     "lines": [
+      "Supports Wilt Spike.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "Triggers the supported skill every 2s. Skills triggered by this effect can only generate Shadows that attack enemies. The number of Shadows generated is equal to the Shadow Quantity of this skill.",
+      "The Attack Speed and additional Attack Speed of the supported skill is also applied to the reduction of this effect's Interval",
+      "Triggers the supported skill every 2s. Skills triggered by this effect can only generate Shadows that attack enemies. The number of Shadows generated is equal to the Shadow Quantity of this skill.\\nThe Attack Speed and additional Attack Speed of the supported skill is also applied to the reduction of this effect's Interval",
+      "+(7–8)% additional damage for the supported skill"
+     ],
+     "name": "Wilt Spike: Mirage (Noble)",
+     "key": "Wilt_Spike_Mirage_Noble"
+    },
+    {
+     "lines": [
+      "Supports Wilt Spike.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "For every stack of Wilt inflicted by the supported skill recently, (0.7–0.8)% additional Deterioration Damage and -0.2% additional Deterioration Duration for the supported skill. Stacks up to 80 time(s)"
+     ],
+     "name": "Wilt Spike: Evanescence (Noble)",
+     "key": "Wilt_Spike_Evanescence_Noble"
+    },
+    {
+     "lines": [
+      "Supports Hammer of Ash.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "Ember Projectiles leave a burning Terra on the ground after exploding. The effective speed of Ignite increases by (45–47)% for enemies on the burning Terra"
+     ],
+     "name": "Hammer of Ash: Quickfire (Noble)",
+     "key": "Hammer_of_Ash_Quickfire_Noble"
+    },
+    {
+     "lines": [
+      "Supports Hammer of Ash.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "The supported skill's Projectiles always Penetrate their targets and cause 2 additional explosion(s)",
+      "The supported skill's Projectiles always Penetrate their targets and cause 2 additional explosion(s)",
+      "(-18.0–-17.0)% additional damage for the supported skill"
+     ],
+     "name": "Hammer of Ash: Blast Quake (Noble)",
+     "key": "Hammer_of_Ash_Blast_Quake_Noble"
+    },
+    {
+     "lines": [
+      "Supports Frost Impact.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "Each wave of the supported skill's Ice Spikes no longer additionally increases damage",
+      "-50% additional Ice Spike Interval for the supported skill",
+      "Each wave of the supported skill's Ice Spikes no longer additionally increases damage",
+      "-50% additional Ice Spike Interval for the supported skill",
+      "+(40–42)% additional damage for the supported skill"
+     ],
+     "name": "Frost Impact: Chilling Surge (Noble)",
+     "key": "Frost_Impact_Chilling_Surge_Noble"
+    },
+    {
+     "lines": [
+      "Supports Frost Impact.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "+50% additional Ice Spike Interval for the supported skill",
+      "+50% additional Ice Spike Interval for the supported skill",
+      "+(40–42)% additional Hit Damage for each wave of Ice Spikes launched by the supported skill"
+     ],
+     "name": "Frost Impact: Chilling Buildup (Noble)",
+     "key": "Frost_Impact_Chilling_Buildup_Noble"
+    },
+    {
+     "lines": [
+      "Supports Whirlwind.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "The supported skill now has the Projectile tag. Wind Blade Quantity is not affected by Projectile Quantity bonuses",
+      "The supported skill now has the Projectile tag. Wind Blade Quantity is not affected by Projectile Quantity bonuses",
+      "+(33–35)% additional damage for the supported skill"
+     ],
+     "name": "Whirlwind: Whirling Blade (Noble)",
+     "key": "Whirlwind_Whirling_Blade_Noble"
+    },
+    {
+     "lines": [
+      "Supports Lightning Shot.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "+1 Chain Lightning Quantity for the supported skill for every (70–80) Dexterity, stacking up to 6 time(s)",
+      "When having at least 240 Dexterity, +(42–44)% additional damage for the supported skill"
+     ],
+     "name": "Lightning Shot: Crossed Lightning (Noble)",
+     "key": "Lightning_Shot_Crossed_Lightning_Noble"
+    },
+    {
+     "lines": [
+      "Supports Split Shot.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "+(4.2–4.4)% additional damage for the supported skill for every +1 Projectile Quantity"
+     ],
+     "name": "Split Shot: Collaboration (Noble)",
+     "key": "Split_Shot_Collaboration_Noble"
+    },
+    {
+     "lines": [
+      "Supports Split Shot.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "The supported skill becomes a Channeled Skill, which continuously fires Projectiles at enemies within a certain area, with the number of Projectiles fired each time equal to the skill's Projectile Quantity. Max channeled stacks: 5",
+      "-30% Movement Speed while channeling the supported skill",
+      "The supported skill becomes a Channeled Skill, which continuously fires Projectiles at enemies within a certain area, with the number of Projectiles fired each time equal to the skill's Projectile Quantity. Max channeled stacks: 5",
+      "-30% Movement Speed while channeling the supported skill",
+      "+(22.0–23.0)% additional damage for the supported skill for every +1 to additional Max Channeled Stacks, stacking up to 15 time(s)"
+     ],
+     "name": "Split Shot: Rapid Advance (Noble)",
+     "key": "Split_Shot_Rapid_Advance_Noble"
+    },
+    {
+     "lines": [
+      "Supports Ice Shot.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "The supported skill's explosions can hit enemies hit by Projectiles",
+      "The supported skill's explosions can hit enemies hit by Projectiles",
+      "(-3–-1)% additional damage for the supported skill"
+     ],
+     "name": "Ice Shot: Batter (Noble)",
+     "key": "Ice_Shot_Batter_Noble"
+    },
+    {
+     "lines": [
+      "Supports Bombard.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "Enhances the next supported skill, doubling its Split Quantity. Cooldown: 1.5 s",
+      "Enhances the next supported skill, doubling its Split Quantity. Cooldown: 1.5 s",
+      "(-19.0–-18.0)% additional damage for the supported skill"
+     ],
+     "name": "Bombard: Fission (Noble)",
+     "key": "Bombard_Fission_Noble"
+    },
+    {
+     "lines": [
+      "Supports Bombard.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "The max Split Quantity of the supported skill is 3",
+      "The max Split Quantity of the supported skill is 3",
+      "For every +1 Split Quantity, +(17.2–18.0)% additional damage for the supported skill"
+     ],
+     "name": "Bombard: Grenade (Noble)",
+     "key": "Bombard_Grenade_Noble"
+    },
+    {
+     "lines": [
+      "Supports Bombard.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "After landing, the supported skill's Projectiles create an area that lasts for 0.6 s",
+      "Blinds all enemies within the area and inflicts a debuff on them",
+      "After landing, the supported skill's Projectiles create an area that lasts for 0.6 s\\nBlinds all enemies within the area and inflicts a debuff on them",
+      "The supported skill deals +(33–35)% additional damage to debuffed enemies"
+     ],
+     "name": "Bombard: Smokescreen (Noble)",
+     "key": "Bombard_Smokescreen_Noble"
+    },
+    {
+     "lines": [
+      "Supports Berserking Blade.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "When the supported skill hits, a target that has less than (57–59)% Life is considered to have Low Life"
+     ],
+     "name": "Berserking Blade: Decimate (Noble)",
+     "key": "Berserking_Blade_Decimate_Noble"
+    },
+    {
+     "lines": [
+      "Supports Berserking Blade.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "(25–27)% of the bonuses and additional bonuses to Skill Area is also applied to the skill's additional Steep Strike Damage"
+     ],
+     "name": "Berserking Blade: Rampage (Noble)",
+     "key": "Berserking_Blade_Rampage_Noble"
+    },
+    {
+     "lines": [
+      "Supports Charged Pummel.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "Gains a buff when the supported skill is at max channeled stacks: Demolisher Charge is instantly restored the next 3 times the skill consumes it.",
+      "Gains a buff when the supported skill is at max channeled stacks: Demolisher Charge is instantly restored the next 3 times the skill consumes it.",
+      "+(16–18)% additional damage for the supported skill"
+     ],
+     "name": "Charged Pummel: Charge Reduction (Noble)",
+     "key": "Charged_Pummel_Charge_Reduction_Noble"
+    },
+    {
+     "lines": [
+      "Supports Charged Pummel.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "+2 Max Electric Field Quantity for the supported skill",
+      "+2 Max Electric Field Quantity for the supported skill",
+      "(-49.0–-48.0)% additional damage for the supported skill"
+     ],
+     "name": "Charged Pummel: Electric Charge (Noble)",
+     "key": "Charged_Pummel_Electric_Charge_Noble"
+    },
+    {
+     "lines": [
+      "Supports Moon Strike.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "The supported skill no longer costs Mana",
+      "The supported skill no longer costs Mana",
+      "When the supported skill is installed, seal 10% Max Mana",
+      "For every 100 Mana sealed, +1% additional damage for the supported skill, up to +(57–60)% additional damage"
+     ],
+     "name": "Moon Strike: Lunar Eclipse (Noble)",
+     "key": "Moon_Strike_Lunar_Eclipse_Noble"
+    },
+    {
+     "lines": [
+      "Supports Moon Strike.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "The supported skill can activate Spell Burst. +(20–22)% additional Hit Damage for skills cast by Spell Burst when Spell Burst is activated by the supported skill"
+     ],
+     "name": "Moon Strike: Wax and Wane (Noble)",
+     "key": "Moon_Strike_Wax_and_Wane_Noble"
+    },
+    {
+     "lines": [
+      "Supports Savage Charge.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "Triggers Demolisher and removes all channeled stacks if you have Demolisher Charge when the supported skill is at max channeled stacks. Otherwise, removes all channeled stacks",
+      "-30% Movement Speed while channeling the supported skill",
+      "Triggers Demolisher and removes all channeled stacks if you have Demolisher Charge when the supported skill is at max channeled stacks. Otherwise, removes all channeled stacks",
+      "-30% Movement Speed while channeling the supported skill",
+      "+(21–23)% additional damage for the supported skill"
+     ],
+     "name": "Savage Charge: Raid (Noble)",
+     "key": "Savage_Charge_Raid_Noble"
+    },
+    {
+     "lines": [
+      "Supports Marked Rain of Arrows.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "While a Fixate Skill is active, Critical Strikes landed by the supported skill will trigger the Marks after 1 s",
+      "Upon triggering Marks, deals True Damage equal to 60% of the supported skill's Hit Damage dealt within 1 s to the enemy",
+      "While a Fixate Skill is active, Critical Strikes landed by the supported skill will trigger the Marks after 1 s",
+      "(-10.0–-9.0)% additional damage for the supported skill"
+     ],
+     "name": "Marked Rain of Arrows: Hyper Blast (Noble)",
+     "key": "Marked_Rain_of_Arrows_Hyper_Blast_Noble"
+    },
+    {
+     "lines": [
+      "Supports Marked Rain of Arrows.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "When using the supported skill, there is a chance to double the Projectile Quantity. This chance is equal to the Critical Strike Chance of the supported skill",
+      "When using the supported skill, there is a chance to double the Projectile Quantity. This chance is equal to the Critical Strike Chance of the supported skill",
+      "+(3–4)% additional damage for the supported skill"
+     ],
+     "name": "Marked Rain of Arrows: Threads of Arrows (Noble)",
+     "key": "Marked_Rain_of_Arrows_Threads_of_Arrows_Noble"
+    },
+    {
+     "lines": [
+      "Supports Corrosive Shot.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "Each Terra generated by the supported skill gives this skill a +50% chance to inflict 1 additional stack(s) when inflicting Wilt on enemies",
+      "Each Terra generated by the supported skill gives this skill a +50% chance to inflict 1 additional stack(s) when inflicting Wilt on enemies",
+      "(-19.0–-18.0)% additional damage for the supported skill"
+     ],
+     "name": "Corrosive Shot: Degeneration (Noble)",
+     "key": "Corrosive_Shot_Degeneration_Noble"
+    },
+    {
+     "lines": [
+      "Supports Corrosive Shot.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "When the supported skill's Terra inflicts damage, it inflicts 2 Affliction to enemies. Bonuses and additional bonuses to Attack Speed affect the Affliction inflicted each time. Interval for each enemy: 0.03 s",
+      "When the supported skill's Terra inflicts damage, it inflicts 2 Affliction to enemies. Bonuses and additional bonuses to Attack Speed affect the Affliction inflicted each time. Interval for each enemy: 0.03 s",
+      "+(24–26)% additional damage for the supported skill"
+     ],
+     "name": "Corrosive Shot: Burst of Agony (Noble)",
+     "key": "Corrosive_Shot_Burst_of_Agony_Noble"
+    },
+    {
+     "lines": [
+      "Supports Inexhaustible Barrage.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "-25% Skill Area for the supported skill when using a gun",
+      "-25% Skill Area for the supported skill when using a gun",
+      "+(27–29)% additional damage for the supported skill when using a gun"
+     ],
+     "name": "Inexhaustible Barrage: Fatal Pursuit (Noble)",
+     "key": "Inexhaustible_Barrage_Fatal_Pursuit_Noble"
+    },
+    {
+     "lines": [
+      "Supports Inexhaustible Barrage.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "There is a 25% chance to replenish 1 barrage wave after each barrage wave of the supported skill while using a cannon",
+      "The replenished barrage wave will not trigger this effect",
+      "There is a 25% chance to replenish 1 barrage wave after each barrage wave of the supported skill while using a cannon\\nThe replenished barrage wave will not trigger this effect",
+      "(-5–-4)% additional damage for the supported skill when using a cannon"
+     ],
+     "name": "Inexhaustible Barrage: Landslide (Noble)",
+     "key": "Inexhaustible_Barrage_Landslide_Noble"
+    },
+    {
+     "lines": [
+      "Supports Thunder Spike.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "The supported skill gains a buff on Critical Strike: +(66–71)% Numbed Effect for 2 s"
+     ],
+     "name": "Thunder Spike: Tremble (Noble)",
+     "key": "Thunder_Spike_Tremble_Noble"
+    },
+    {
+     "lines": [
+      "Supports Thunder Spike.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "This skill gains the Mobility tag. Charges forward when casting this skill",
+      "75% of the bonuses for Movement Speed is also applied to the additional Attack Speed of the skill, up to +60% additional Attack Speed",
+      "This skill gains the Mobility tag. Charges forward when casting this skill",
+      "75% of the bonuses for Movement Speed is also applied to the additional Attack Speed of the skill, up to +60% additional Attack Speed",
+      "When the supported skill's Shadow Strike True Body hits an enemy, +(45–48)% additional Lightning Damage dealt by the skill to the enemy for 2 s"
+     ],
+     "name": "Thunder Spike: Rumbling Thunder (Noble)",
+     "key": "Thunder_Spike_Rumbling_Thunder_Noble"
+    },
+    {
+     "lines": [
+      "Supports Thunder Slash.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "Multistrikes of the supported skill are always deemed to have the Max Multistrike Count, but the Max Multistrike Count for the supported skill is 3",
+      "Multistrikes of the supported skill are always deemed to have the Max Multistrike Count, but the Max Multistrike Count for the supported skill is 3",
+      "(-22–-21)% additional damage for the supported skill"
+     ],
+     "name": "Thunder Slash: Flurry (Noble)",
+     "key": "Thunder_Slash_Flurry_Noble"
+    },
+    {
+     "lines": [
+      "Supports Thunder Slash.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "After moving 8 m, the supported skill is guaranteed to launch a Steep Strike over the next 4s",
+      "After moving 8 m, the supported skill is guaranteed to launch a Steep Strike over the next 4s",
+      "+(6–8)% additional damage for the supported skill"
+     ],
+     "name": "Thunder Slash: Big Stride (Noble)",
+     "key": "Thunder_Slash_Big_Stride_Noble"
+    },
+    {
+     "lines": [
+      "Supports Ring of Blades.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "+(4.6–4.8)% additional Projectile Speed for every channeled stack of the supported skill"
+     ],
+     "name": "Ring of Blades: Razor Edge (Noble)",
+     "key": "Ring_of_Blades_Razor_Edge_Noble"
+    },
+    {
+     "lines": [
+      "Supports Ring of Blades.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "When the supported skill generates a Projectile, it generates additional Projectiles for up to 6 Minions, but each Minion can only have up to 3 Projectiles",
+      "When the supported skill generates a Projectile, it generates additional Projectiles for up to 6 Minions, but each Minion can only have up to 3 Projectiles",
+      "(-34–-33)% additional damage for the supported skill"
+     ],
+     "name": "Ring of Blades: Strength in Numbers (Noble)",
+     "key": "Ring_of_Blades_Strength_in_Numbers_Noble"
+    },
+    {
+     "lines": [
+      "Supports Frost Spike",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill",
+      "+20% additional damage for the supported skill",
+      "+(48–51)% additional Phantom Damage when the supported skill hits a Frozen enemy"
+     ],
+     "name": "Frost Spike: Ice Fission (Noble)",
+     "key": "Frost_Spike_Ice_Fission_Noble"
+    },
+    {
+     "lines": [
+      "Supports Frost Spike.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "Icy Blades launched by the supported skill also deal damage to enemies hit by Thrust, and the Icy Blades have a 30% Shotgun Effect",
+      "+2 Horizontal Projectile Penetration(s) of the supported skill",
+      "Icy Blades launched by the supported skill also deal damage to enemies hit by Thrust, and the Icy Blades have a 30% Shotgun Effect",
+      "+2 Horizontal Projectile Penetration(s) of the supported skill",
+      "(-60.5–-60.0)% additional damage for the supported skill"
+     ],
+     "name": "Frost Spike: Glaciate (Noble)",
+     "key": "Frost_Spike_Glaciate_Noble"
+    },
+    {
+     "lines": [
+      "Supports Rain of Arrows.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "The supported skill's Projectiles will return to the sky after landing",
+      "The supported skill's Projectiles will return to the sky after landing",
+      "(-33.5–-32.5)% additional damage for the supported skill"
+     ],
+     "name": "Rain of Arrows: Payback (Noble)",
+     "key": "Rain_of_Arrows_Payback_Noble"
+    },
+    {
+     "lines": [
+      "Supports Rain of Arrows.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "The supported skill's Projectiles are guaranteed to aim at enemies",
+      "-20% base damage coefficient for subsequent effects of Shotgun Effect for the supported skill",
+      "The supported skill's Projectiles are guaranteed to aim at enemies",
+      "-20% base damage coefficient for subsequent effects of Shotgun Effect for the supported skill",
+      "+(7–9)% additional damage for the supported skill"
+     ],
+     "name": "Rain of Arrows: Tracking (Noble)",
+     "key": "Rain_of_Arrows_Tracking_Noble"
+    },
+    {
+     "lines": [
+      "Supports Arrow Einherjar.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "+5 buff stack upper limit for Sentries deployed by the supported skill",
+      "-0.7 s to the Interval for Sentries deployed by the supported skill to gain buffs",
+      "+30% tracking distance for Sentries deployed by the supported skill",
+      "+5 buff stack upper limit for Sentries deployed by the supported skill",
+      "-0.7 s to the Interval for Sentries deployed by the supported skill to gain buffs",
+      "+30% tracking distance for Sentries deployed by the supported skill",
+      "+(1–2)% additional damage for the supported skill"
+     ],
+     "name": "Arrow Einherjar: Advancement (Noble)",
+     "key": "Arrow_Einherjar_Advancement_Noble"
+    },
+    {
+     "lines": [
+      "Supports Arrow Einherjar.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "Sentries deployed by the supported skill will now follow the Character",
+      "+20% additional Duration for the supported skill",
+      "-10% additional Cast Frequency for Sentries deployed by the supported skill",
+      "Sentries deployed by the supported skill will now follow the Character",
+      "+20% additional Duration for the supported skill",
+      "-10% additional Cast Frequency for Sentries deployed by the supported skill",
+      "+(10–11)% additional damage for the supported skill"
+     ],
+     "name": "Arrow Einherjar: Fellowship (Noble)",
+     "key": "Arrow_Einherjar_Fellowship_Noble"
+    },
+    {
+     "lines": [
+      "Supports Split Firebolt.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "+(9.3–9.7)% additional Hit Damage for large fireballs for every 1 forked small fireball(s) the supported skill has"
+     ],
+     "name": "Split Firebolt: Focal Point (Noble)",
+     "key": "Split_Firebolt_Focal_Point_Noble"
+    },
+    {
+     "lines": [
+      "Supports Ice Lances.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "+6% additional Hit Damage (multiplies) for the supported skill for every Jump",
+      "+6% additional Hit Damage (multiplies) for the supported skill for every Jump",
+      "+(30–33)% additional damage for the supported skill"
+     ],
+     "name": "Ice Lances: Bounce (Noble)",
+     "key": "Ice_Lances_Bounce_Noble"
+    },
+    {
+     "lines": [
+      "Supports Ice Lances.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "Every 1.5 s, the next supported skill triggers a Lv. 20 Frost Terra on hit",
+      "+87.5% base radius for the Terra triggered by this effect and +66% additional Duration",
+      "The supported skill's additional damage bonus against enemies on a Frost Terra can be stacked, with the number of stacks equal to the Frost Terra Quantity",
+      "Every 1.5 s, the next supported skill triggers a Lv. 20 Frost Terra on hit\\n+87.5% base radius for the Terra triggered by this effect and +66% additional Duration",
+      "The supported skill's additional damage bonus against enemies on a Frost Terra can be stacked, with the number of stacks equal to the Frost Terra Quantity",
+      "+(3.0–4.5)% additional damage for the supported skill"
+     ],
+     "name": "Ice Lances: Permafrost (Noble)",
+     "key": "Ice_Lances_Permafrost_Noble"
+    },
+    {
+     "lines": [
+      "Supports Sparkle.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "-0.05 s Damage Interval for the supported skill's Projectiles",
+      "-0.1 s Chain Lightning Release Interval for the supported skill's Projectiles",
+      "-0.05 s Damage Interval for the supported skill's Projectiles",
+      "-0.1 s Chain Lightning Release Interval for the supported skill's Projectiles",
+      "+(6–8)% additional damage for the supported skill"
+     ],
+     "name": "Sparkle: Strobe (Noble)",
+     "key": "Sparkle_Strobe_Noble"
+    },
+    {
+     "lines": [
+      "Supports Sparkle.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "-20% Projectile Flight Duration for the supported skill",
+      "+10% additional damage for the supported skill",
+      "-20% Projectile Flight Duration for the supported skill",
+      "+10% additional damage for the supported skill",
+      "When a Projectile of the supported skill vanishes, +(35–37)% chance to generate a stationary Projectile where the Projectile vanished. The new Projectile will not trigger this effect again"
+     ],
+     "name": "Sparkle: Static Electricity (Noble)",
+     "key": "Sparkle_Static_Electricity_Noble"
+    },
+    {
+     "lines": [
+      "Supports Whirlwind Blade.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "For every 0.2s duration of the supported skill's Projectiles, +(3.3–3.5)% additional Hit Damage, stacking up to 25 time(s)"
+     ],
+     "name": "Whirlwind Blade: Sharpen (Noble)",
+     "key": "Whirlwind_Blade_Sharpen_Noble"
+    },
+    {
+     "lines": [
+      "Supports Whirlwind Blade.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "When the distance between the supported skill's Projectile and the character is less than or equal to 10 m, -50% additional Projectile Speed",
+      "When the distance between the supported skill's Projectile and the character is less than or equal to 10 m, -50% additional Projectile Speed",
+      "+(44–46)% additional damage for the supported skill"
+     ],
+     "name": "Whirlwind Blade: Circling (Noble)",
+     "key": "Whirlwind_Blade_Circling_Noble"
+    },
+    {
+     "lines": [
+      "Supports Ring of Ice.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "When the supported skill hits an enemy, there is a chance to generate an Icy Ring at up to 1 location(s) where enemies are hit. This chance is equal to 100% of the chance of triggering an Icy Ring on defeat. This effect will not be triggered by Icy Rings generated by this effect or when the supported skill defeats an enemy",
+      "When the supported skill hits an enemy, there is a chance to generate an Icy Ring at up to 1 location(s) where enemies are hit. This chance is equal to 100% of the chance of triggering an Icy Ring on defeat. This effect will not be triggered by Icy Rings generated by this effect or when the supported skill defeats an enemy",
+      "(-29.0–-28.0)% additional damage for the supported skill"
+     ],
+     "name": "Ring of Ice: Cascade (Noble)",
+     "key": "Ring_of_Ice_Cascade_Noble"
+    },
+    {
+     "lines": [
+      "Supports Blizzard.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "All waves of the supported skill will be released at the same time",
+      "All waves of the supported skill are considered the last wave",
+      "All waves of the supported skill will be released at the same time\\nAll waves of the supported skill are considered the last wave",
+      "+(8–10)% additional damage for the supported skill"
+     ],
+     "name": "Blizzard: Avalanche (Noble)",
+     "key": "Blizzard_Avalanche_Noble"
+    },
+    {
+     "lines": [
+      "Supports Blizzard.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "+6% Cold Penetration for the supported skill for every Barrage wave",
+      "+6% Cold Penetration for the supported skill for every Barrage wave",
+      "+(16.0–18.0)% additional damage for the supported skill"
+     ],
+     "name": "Blizzard: Numbing Cold (Noble)",
+     "key": "Blizzard_Numbing_Cold_Noble"
+    },
+    {
+     "lines": [
+      "Supports Lightning Storm.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "+(41–43)% additional Duration for the supported skill"
+     ],
+     "name": "Lightning Storm: Boundless (Noble)",
+     "key": "Lightning_Storm_Boundless_Noble"
+    },
+    {
+     "lines": [
+      "Supports Lightning Storm.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "The supported skill can activate Spell Burst",
+      "The supported skill can activate Spell Burst",
+      "(-53.0–-52.5)% additional damage for the supported skill"
+     ],
+     "name": "Lightning Storm: Raging Storm (Noble)",
+     "key": "Lightning_Storm_Raging_Storm_Noble"
+    },
+    {
+     "lines": [
+      "Supports Flame Core.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "Sentries deployed by the supported skill can move, with their Movement Speed being equal to your Movement Speed",
+      "Sentries deployed by the supported skill gain -30% additional Movement Speed",
+      "Sentries deployed by the supported skill can move, with their Movement Speed being equal to your Movement Speed",
+      "Sentries deployed by the supported skill gain -30% additional Movement Speed",
+      "+(33–35)% additional damage for the supported skill"
+     ],
+     "name": "Flame Core: Engage (Noble)",
+     "key": "Flame_Core_Engage_Noble"
+    },
+    {
+     "lines": [
+      "Supports Flame Jet.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "+2 erupted Fire Bomb(s) for the supported skill",
+      "+2 erupted Fire Bomb(s) for the supported skill",
+      "+(48–50)% Eruption Interval for the supported skill"
+     ],
+     "name": "Flame Jet: Furnace (Noble)",
+     "key": "Flame_Jet_Furnace_Noble"
+    },
+    {
+     "lines": [
+      "Supports Frost Terra.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "+(23.0–25.0)% additional damage and -20% Skill Area for the Terra created by the supported skill every 0.5s. Stacks up to 3 times"
+     ],
+     "name": "Frost Terra: Cohesion (Noble)",
+     "key": "Frost_Terra_Cohesion_Noble"
+    },
+    {
+     "lines": [
+      "Supports Frost Terra.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "The Terra spawned by the supported skill inflicts a debuff on enemies on it, making them take +13% additional Cold Damage. When casting this skill, each stack of Terra Charge makes the debuff effect additionally +(80–85)% , stacking up to 4 stacks, but no longer additionally increases this skill's damage"
+     ],
+     "name": "Frost Terra: Winter's Bite (Noble)",
+     "key": "Frost_Terra_Winters_Bite_Noble"
+    },
+    {
+     "lines": [
+      "Supports Shadow Swamp.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "For every time the enemy has been hit by Shadow Shot recently, the supported skill deals +(2.1–2.2)% additional damage to it. Stacks up to 66 times"
+     ],
+     "name": "Shadow Swamp: Overlapping Waves (Noble)",
+     "key": "Shadow_Swamp_Overlapping_Waves_Noble"
+    },
+    {
+     "lines": [
+      "Supports Shadow Swamp.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "The Swamp Terra generated by the supported skill follows you and is unable to move",
+      "When casting the supported skill, instantly increases the Swamp Terra's movement damage boost to the max",
+      "The Swamp Terra generated by the supported skill follows you and is unable to move\\nWhen casting the supported skill, instantly increases the Swamp Terra's movement damage boost to the max",
+      "+(6–7)% additional damage for the supported skill"
+     ],
+     "name": "Shadow Swamp: Still Water (Noble)",
+     "key": "Shadow_Swamp_Still_Water_Noble"
+    },
+    {
+     "lines": [
+      "Supports Thunderbolt Overload.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "+10% additional Skill Area for every time the supported skill Jumps",
+      "+10% additional Skill Area for every time the supported skill Jumps",
+      "+(29–31)% additional damage for every time the supported skill Jumps"
+     ],
+     "name": "Thunderbolt Overload: Augmentation (Noble)",
+     "key": "Thunderbolt_Overload_Augmentation_Noble"
+    },
+    {
+     "lines": [
+      "Supports Frost Core.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "+20% Projectile Flight Duration for Sentries deployed by the supported skill",
+      "+20% Projectile Flight Duration for Sentries deployed by the supported skill",
+      "For every 1 time the Projectiles of a Sentry deployed by the supported skill Penetrate, +(6.0–7.0)% additional Hit Damage"
+     ],
+     "name": "Frost Core: Puncture (Noble)",
+     "key": "Frost_Core_Puncture_Noble"
+    },
+    {
+     "lines": [
+      "Supports Summon Thunder Magus.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Passive Skill.",
+      "+20% additional damage for Minions summoned by the supported skill",
+      "When Minions summoned by the supported skill are at Stage 5 or higher and are Empowered, +1 Base Projectile Quantity for their Enhanced Skill",
+      "When Minions summoned by the supported skill are at Stage 5 or higher and are Empowered, +1 Base Projectile Quantity for their Enhanced Skill",
+      "+(15–17)% additional damage for Minions summoned by the supported skill"
+     ],
+     "name": "Summon Thunder Magus: Heavy Arrow (Noble)",
+     "key": "Summon_Thunder_Magus_Heavy_Arrow_Noble"
+    },
+    {
+     "lines": [
+      "Supports Summon Thunder Magus.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Passive Skill.",
+      "+20% additional damage for Minions summoned by the supported skill",
+      "-0.1 s to the Strike Interval for the Ultimate of Minions summoned by the supported skill",
+      "-0.1 s to the Strike Interval for the Ultimate of Minions summoned by the supported skill",
+      "(-18.0–-16.5)% additional damage for Minions summoned by the supported skill"
+     ],
+     "name": "Summon Thunder Magus: Agility (Noble)",
+     "key": "Summon_Thunder_Magus_Agility_Noble"
+    },
+    {
+     "lines": [
+      "Supports Summon Frost Magus.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Passive Skill.",
+      "+20% additional damage for Minions summoned by the supported skill",
+      "Minions summoned by the supported skill can no longer actively use Empower Skills",
+      "100% of the bonus and additional bonus to Cooldown Recovery Speed is also applied to the Cooldown Recovery Speed of Minions summoned by the supported skill",
+      "Minions summoned by the supported skill can no longer actively use Empower Skills",
+      "100% of the bonus and additional bonus to Cooldown Recovery Speed is also applied to the Cooldown Recovery Speed of Minions summoned by the supported skill",
+      "When a Minion summoned by the supported skill takes damage, triggers its Empower Skill. Cooldown: (4–4.5) s"
+     ],
+     "name": "Summon Frost Magus: Vengeance (Noble)",
+     "key": "Summon_Frost_Magus_Vengeance_Noble"
+    },
+    {
+     "lines": [
+      "Supports Summon Fire Magus.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Passive Skill.",
+      "+20% additional damage for Minions summoned by the supported skill",
+      "+20% double casting chance for Minions summoned by the supported skill",
+      "+20% double casting chance for Minions summoned by the supported skill",
+      "When a Minion summoned by the supported skill triggers double casting, the skill +(15–20)% additional Critical Strike Damage for each casting"
+     ],
+     "name": "Summon Fire Magus: Wicked Spirit (Noble)",
+     "key": "Summon_Fire_Magus_Wicked_Spirit_Noble"
+    },
+    {
+     "lines": [
+      "Supports Summon Fire Spirit.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Passive Skill.",
+      "+20% additional damage for Minions summoned by the supported skill",
+      "Minions summoned by the supported skill Reap (0.014–0.015) s of Damage Over Time on Critical Strikes for every 30% their Critical Strike Damage"
+     ],
+     "name": "Summon Fire Magus: Engulfing Flames (Noble)",
+     "key": "Summon_Fire_Magus_Engulfing_Flames_Noble"
+    },
+    {
+     "lines": [
+      "Supports Summon Machine Guard.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for Minions summoned by the supported skill",
+      "When casting Dark Gate, Minions summoned by the supported skill gain a buff: +(165–175)% additional damage for the next Onslaught Punch"
+     ],
+     "name": "Summon Machine Guard: Crushing Blow (Noble)",
+     "key": "Summon_Machine_Guard_Crushing_Blow_Noble"
+    },
+    {
+     "lines": [
+      "Supports Summon Machine Guard.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for Minions summoned by the supported skill",
+      "(0.84–0.88)% additional damage for Minions summoned by the supported skill for every 1 Command. Stacks up to 50 time(s)"
+     ],
+     "name": "Summon Machine Guard: Discipline (Noble)",
+     "key": "Summon_Machine_Guard_Discipline_Noble"
+    },
+    {
+     "lines": [
+      "Supports Summon Machine Guard.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for Minions summoned by the supported skill",
+      "When a Minion summoned by the supported skill activates Self-Destruct Protocol, it no longer charges",
+      "+20% additional Skill Area for the Self-Destruct Protocol activated by Minions summoned by the supported skill",
+      "When a Minion summoned by the supported skill activates Self-Destruct Protocol, it no longer charges",
+      "+20% additional Skill Area for the Self-Destruct Protocol activated by Minions summoned by the supported skill",
+      "+(41–43)% additional damage dealt to enemies in the center of Self-Destruct Protocol activated by Minions summoned by the supported skill"
+     ],
+     "name": "Summon Machine Guard: Dead Silence (Noble)",
+     "key": "Summon_Machine_Guard_Dead_Silence_Noble"
+    },
+    {
+     "lines": [
+      "Supports Summon Grim Phantom.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for Minions summoned by the supported skill",
+      "When casting Dark Gate, Minions summoned by the supported skill gain a buff for 2 s",
+      "While the buff is active, +15 base damage coefficient for subsequent effects of Shotgun Effect for High Energy Beam of Minions summoned by the supported skill",
+      "While the buff is active, Minions summoned by the supported skill will fire Volley instead of High Energy Beam",
+      "When casting Dark Gate, Minions summoned by the supported skill gain a buff for 2 s",
+      "While the buff is active, +15 base damage coefficient for subsequent effects of Shotgun Effect for High Energy Beam of Minions summoned by the supported skill",
+      "While the buff is active, +(20–23) additional damage for Minions summoned by the supported skill"
+     ],
+     "name": "Summon Grim Phantom: Shriek (Noble)",
+     "key": "Summon_Grim_Phantom_Shriek_Noble"
+    },
+    {
+     "lines": [
+      "Supports Summon Grim Phantom.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for Minions summoned by the supported skill",
+      "+1 Spell Burst upper limit for Minions summoned by the supported skill",
+      "The High Energy Beam cast by Minions summoned by the supported skill can't activate Spell Burst",
+      "+1 Spell Burst upper limit for Minions summoned by the supported skill",
+      "The High Energy Beam cast by Minions summoned by the supported skill can't activate Spell Burst",
+      "(-36.0–-35.0)% additional damage for Minions summoned by the supported skill"
+     ],
+     "name": "Summon Grim Phantom: Undercurrent (Noble)",
+     "key": "Summon_Grim_Phantom_Undercurrent_Noble"
+    },
+    {
+     "lines": [
+      "Supports Summon Grim Phantom.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for Minions summoned by the supported skill",
+      "The Interval for the supported skill to automatically summon Minions is affected by Cooldown Recovery Speed",
+      "When a Minion summoned by the supported skill activates Self-Destruct Protocol, it Blinks to the enemy instead of charging",
+      "The Interval for the supported skill to automatically summon Minions is affected by Cooldown Recovery Speed",
+      "When a Minion summoned by the supported skill activates Self-Destruct Protocol, it Blinks to the enemy instead of charging",
+      "For every 1m that Minions summoned by the supported skill Blink, +(2.20–2.30)% additional damage for the activated Self-Destruct Protocol"
+     ],
+     "name": "Summon Grim Phantom: Flicker (Noble)",
+     "key": "Summon_Grim_Phantom_Flicker_Noble"
+    },
+    {
+     "lines": [
+      "Supports Summon Spider Tank.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for Minions summoned by the supported skill",
+      "When casting Dark Gate, makes Minions summoned by the supported skill prioritize attacking an enemy with the highest rarity within 15 m",
+      "When casting Dark Gate, Minions summoned by the supported skill gain a buff for 2 s",
+      "While the buff is active, 0.5% additional Attack Speed for Minions summoned by the supported skill for every 1 Command the summoner has, stacking up to 50 time(s)",
+      "When casting Dark Gate, makes Minions summoned by the supported skill prioritize attacking an enemy with the highest rarity within 15 m",
+      "When casting Dark Gate, Minions summoned by the supported skill gain a buff for 2 s",
+      "While the buff is active, 0.5% additional Attack Speed for Minions summoned by the supported skill for every 1 Command the summoner has, stacking up to 50 time(s)",
+      "While the buff is active, (0.75–0.80)% additional damage for Minions summoned by the supported skill for every 1 Command the summoner has, stacking up to 50 time(s)"
+     ],
+     "name": "Summon Spider Tank: Focus Fire (Noble)",
+     "key": "Summon_Spider_Tank_Focus_Fire_Noble"
+    },
+    {
+     "lines": [
+      "Supports Summon Spider Tank.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for Minions summoned by the supported skill",
+      "After Minions summoned by the supported skill activate Self-Destruct Protocol and self-destruct, they will split into 2 part(s) and explode again upon landing. The Quantity is affected by Split Quantity",
+      "Self-Destruct now has the Parabolic and Projectile tags",
+      "After Projectiles generated from the Self-Destruction split, -50% additional damage for the effects of these Projectiles",
+      "+10% additional Attack and Cast Speed for Minions summoned by the supported skill",
+      "After Minions summoned by the supported skill activate Self-Destruct Protocol and self-destruct, they will split into 2 part(s) and explode again upon landing. The Quantity is affected by Split Quantity\\nSelf-Destruct now has the Parabolic and Projectile tags\\nAfter Projectiles generated from the Self-Destruction split, -50% additional damage for the effects of these Projectiles",
+      "+10% additional Attack and Cast Speed for Minions summoned by the supported skill",
+      "(-45.0–-44.0)% additional damage for Minions summoned by the supported skill"
+     ],
+     "name": "Summon Spider Tank: Spider Egg (Noble)",
+     "key": "Summon_Spider_Tank_Spider_Egg_Noble"
+    },
+    {
+     "lines": [
+      "Supports Ghost Blade Einherjar.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "When a Sentry deployed by the supported skill casts a skill, +(21.0–22.0)% chance for that cast's Multistrike Count to reach the max"
+     ],
+     "name": "Ghost Blade Einherjar: Eruption (Noble)",
+     "key": "Ghost_Blade_Einherjar_Eruption_Noble"
+    },
+    {
+     "lines": [
+      "Supports Ghost Blade Einherjar.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "+(12.0–13.0)% additional Multistrike Damage Increment for every 1 Sentry(ies) deployed by the supported skill"
+     ],
+     "name": "Ghost Blade Einherjar: Heroes (Noble)",
+     "key": "Ghost_Blade_Einherjar_Heroes_Noble"
+    },
+    {
+     "lines": [
+      "Supports Groundshaker.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "When the supported skill consumes Demolisher Charge, activates the fissures that have spread to the maximum once. +(60–70)% additional Hit Damage for fissures activated in this way. Interval: 0.3 s"
+     ],
+     "name": "Groundshaker: Collapse (Noble)",
+     "key": "Groundshaker_Collapse_Noble"
+    },
+    {
+     "lines": [
+      "Supports Groundshaker.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "+30% additional Skill Area when the supported skill consumes Demolisher Charge",
+      "-90% additional damage while the fissure created by the supported skill spreads",
+      "When the fissure created by the supported skill spreads, inflicts Paralysis on enemies on hit",
+      "+30% additional Skill Area when the supported skill consumes Demolisher Charge",
+      "-90% additional damage while the fissure created by the supported skill spreads",
+      "When the fissure created by the supported skill spreads, inflicts Paralysis on enemies on hit",
+      "When the cast of the Supported Skill consumes Demolisher Charge, +(44–46)% additional damage for that cast"
+     ],
+     "name": "Groundshaker: Cripple (Noble)",
+     "key": "Groundshaker_Cripple_Noble"
+    },
+    {
+     "lines": [
+      "Supports Groundshaker.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "The supported skill is now cast when jumping forward and creates fissures upon landing. The supported skill can no longer be triggered",
+      "When there are no enemies within 8 m, the supported skill cannot consume Demolisher Charge",
+      "75% of the bonuses for Movement Speed is also applied to the additional Attack Speed of the skill, up to +60% additional Attack Speed",
+      "The supported skill now has the Mobility tag",
+      "The supported skill is now cast when jumping forward and creates fissures upon landing. The supported skill can no longer be triggered",
+      "When there are no enemies within 8 m, the supported skill cannot consume Demolisher Charge",
+      "75% of the bonuses for Movement Speed is also applied to the additional Attack Speed of the skill, up to +60% additional Attack Speed",
+      "+(20–22)% additional damage for the supported skill"
+     ],
+     "name": "Groundshaker: Wrathful Vault (Noble)",
+     "key": "Groundshaker_Wrathful_Vault_Noble"
+    },
+    {
+     "lines": [
+      "Supports Howling Gale.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "+(7.2–7.6)% additional Attack Frequency for this skill's Gale for each channeled stack instead of increasing the Skill Area of this skill's Gale"
+     ],
+     "name": "Howling Gale: Furious Sweep (Noble)",
+     "key": "Howling_Gale_Furious_Sweep_Noble"
+    },
+    {
+     "lines": [
+      "Supports Howling Gale.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "The supported skill's Gale follows the character instead of tracking enemies. +(20–22)% additional Attack and Cast Speed and +20% Projectile Speed when your character is within this skill's Gale"
+     ],
+     "name": "Howling Gale: Eye of the Gale (Noble)",
+     "key": "Howling_Gale_Eye_of_the_Gale_Noble"
+    },
+    {
+     "lines": [
+      "Supports Shackles of Malice.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "(21–22)% of the Elemental Resistance Penetration of the supported skill is also applied to Erosion Resistance Penetration"
+     ],
+     "name": "Shackles of Malice: Mutual Destruction (Noble)",
+     "key": "Shackles_of_Malice_Mutual_Destruction_Noble"
+    },
+    {
+     "lines": [
+      "Supports Shackles of Malice.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "When the chain hits and explodes, the explosion deals +(9.0–9.5)% additional Hit Damage (multiplies) for every Curse affecting you"
+     ],
+     "name": "Shackles of Malice: Spite (Noble)",
+     "key": "Shackles_of_Malice_Spite_Noble"
+    },
+    {
+     "lines": [
+      "Supports Mind Control.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "The supported skill links to your own Minions whenever possible, removing 10% of Minions' Life per second. This skill deals +(13–14)% additional damage to enemies for every Minion it is linked to, up to 6 Minions"
+     ],
+     "name": "Mind Control: Enthrall (Noble)",
+     "key": "Mind_Control_Enthrall_Noble"
+    },
+    {
+     "lines": [
+      "Supports Mind Control.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "The supported skill is affected by Skill Area Bonus",
+      "The supported skill deals -10% additional damage to enemies in proximity",
+      "The supported skill is affected by Skill Area Bonus\\nThe supported skill deals -10% additional damage to enemies in proximity",
+      "+(33–35)% additional damage for the supported skill"
+     ],
+     "name": "Mind Control: Entice (Noble)",
+     "key": "Mind_Control_Entice_Noble"
+    },
+    {
+     "lines": [
+      "Supports Fire Burst.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "+20% additional Skill Area for skills cast by Spell Burst when Spell Burst is activated by the supported skill. Stacks up to 4 time(s)",
+      "+20% additional Skill Area for skills cast by Spell Burst when Spell Burst is activated by the supported skill. Stacks up to 4 time(s)",
+      "+(28–30)% additional Hit Damage for skills cast by Spell Burst each time Spell Burst is activated by the supported skill. Stacks up to 4 time(s)"
+     ],
+     "name": "Fire Burst: Prairie Fire (Noble)",
+     "key": "Fire_Burst_Prairie_Fire_Noble"
+    },
+    {
+     "lines": [
+      "Supports Fire Burst.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "When the supported skill is triggered by its own Critical Strike, explodes 2 additional time(s)",
+      "When the supported skill is triggered by its own Critical Strike, explodes 2 additional time(s)",
+      "(-27.0–-26.0)% additional damage for the supported skill"
+     ],
+     "name": "Fire Burst: Converge (Noble)",
+     "key": "Fire_Burst_Converge_Noble"
+    },
+    {
+     "lines": [
+      "Supports Icebound Beam.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "At max channeled stacks, generates 4 additional large Icy Blade Projectiles that always Penetrate and deal 110% of Base Icy Blade Projectile Damage",
+      "At max channeled stacks, generates 4 additional large Icy Blade Projectiles that always Penetrate and deal 110% of Base Icy Blade Projectile Damage",
+      "(-15–-13)% additional Hit Damage for the supported skill"
+     ],
+     "name": "Icebound Beam: Chilling Spike (Noble)",
+     "key": "Icebound_Beam_Chilling_Spike_Noble"
+    },
+    {
+     "lines": [
+      "Supports Icebound Beam.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "At max channeled stacks, the supported skill fires a circular Icy Blade projectile at the location where the skill's Beam hits an enemy; this blade always Penetrates",
+      "When the supported skill's Beam hits a Frozen enemy, 1 projectile is fired immediately with a 1s cooldown per enemy",
+      "Projectile Quantity of the supported skill +1",
+      "At max channeled stacks, the supported skill fires a circular Icy Blade projectile at the location where the skill's Beam hits an enemy; this blade always Penetrates\\nWhen the supported skill's Beam hits a Frozen enemy, 1 projectile is fired immediately with a 1s cooldown per enemy",
+      "Projectile Quantity of the supported skill +1",
+      "(-5–-4)% additional damage for the supported skill"
+     ],
+     "name": "Icebound Beam: Ring Blade (Noble)",
+     "key": "Icebound_Beam_Ring_Blade_Noble"
+    },
+    {
+     "lines": [
+      "Supports Scorching Beam.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "For each stack of Ignite additionally inflicted, +(21–22)% additional Ignite Damage for the supported skill"
+     ],
+     "name": "Scorching Beam: Disintegrate (Noble)",
+     "key": "Scorching_Beam_Disintegrate_Noble"
+    },
+    {
+     "lines": [
+      "Supports Scorching Beam.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "+13 Max Channeled Stacks for the supported skill",
+      "No explosions will be generated at max channeled stacks. Instead, the skill generates 1 explosion for every 3 channeled stack(s) it gains. The explosions generated by this skill cause Self-Destruct",
+      "+13 Max Channeled Stacks for the supported skill",
+      "No explosions will be generated at max channeled stacks. Instead, the skill generates 1 explosion for every 3 channeled stack(s) it gains. The explosions generated by this skill cause Self-Destruct",
+      "+(5–7)% additional damage for the supported skill"
+     ],
+     "name": "Scorching Beam: Immolate (Noble)",
+     "key": "Scorching_Beam_Immolate_Noble"
+    },
+    {
+     "lines": [
+      "Supports Thunder Core.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "The supported skill cannot Jump, launches 2 bolt(s) of lightning in its base state, and launches 1 additional bolt of lightning at Numbed enemies within 10m nearby, up to (3–4) bolts of lightning"
+     ],
+     "name": "Thunder Core: Lightning Lasso (Noble)",
+     "key": "Thunder_Core_Lightning_Lasso_Noble"
+    },
+    {
+     "lines": [
+      "Supports Thunder Core.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "+10% Skill Area for the supported skill for every Jump",
+      "+10% Skill Area for the supported skill for every Jump",
+      "+(7.5–8)% additional Hit Damage (multiplies) for the supported skill for every Jump"
+     ],
+     "name": "Thunder Core: Augmentation (Noble)",
+     "key": "Thunder_Core_Augmentation_Noble"
+    },
+    {
+     "lines": [
+      "Supports Path of Flames.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "Gains up to (59–66)% Movement Speed based on the enemy's rarity when passing by an enemy while channeling the supported skill. This effect falls off to 0 within 2s",
+      "The effect has a 10s interval against the same target. The interval refreshes immediately when 10m away from the target"
+     ],
+     "name": "Path of Flames: Heat Wave (Noble)",
+     "key": "Path_of_Flames_Heat_Wave_Noble"
+    },
+    {
+     "lines": [
+      "Supports Path of Flames.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "+(8.0–8.5)% additional damage for the supported skill for 2s when passing by an Elite while channeling the supported skill. Stacks up to 8 times",
+      "The effect has a 2 s interval against the same target. The interval refreshes immediately when you are 2 m away from the target"
+     ],
+     "name": "Path of Flames: Raging Boil (Noble)",
+     "key": "Path_of_Flames_Raging_Boil_Noble"
+    },
+    {
+     "lines": [
+      "Supports Thundercloud.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "The supported skill generates 2 additional Thunderclouds, but -66% additional duration",
+      "The supported skill generates 2 additional Thunderclouds, but -66% additional duration",
+      "(-34–-33)% additional damage for the supported skill"
+     ],
+     "name": "Thundercloud: Heavy Cloud (Noble)",
+     "key": "Thundercloud_Heavy_Cloud_Noble"
+    },
+    {
+     "lines": [
+      "Supports Thundercloud.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "All units within the supported skill's area gains a buff: Inflicts 3 stacks of Numbed on hit. The effect has a 1s Interval for each target",
+      "All units within the supported skill's area gains a buff: Inflicts 3 stacks of Numbed on hit. The effect has a 1s Interval for each target",
+      "+(33–35)% additional damage for the supported skill"
+     ],
+     "name": "Thundercloud: Thunderous Blow (Noble)",
+     "key": "Thundercloud_Thunderous_Blow_Noble"
+    },
+    {
+     "lines": [
+      "Supports Summon Rock Magus.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Passive Skill.",
+      "+20% additional damage for Minions summoned by the supported skill",
+      "100% of the bonus and additional bonus to the Summoner's Armor is also applied to Minions summoned by the supported skill",
+      "100% of the bonus and additional bonus to the Summoner's Armor is also applied to Minions summoned by the supported skill",
+      "+1% additional damage for Minions summoned by the supported skill for every (2500–2600) Armor they have, up to 75%"
+     ],
+     "name": "Summon Rock Magus: Stone Refinement (Noble)",
+     "key": "Summon_Rock_Magus_Stone_Refinement_Noble"
+    },
+    {
+     "lines": [
+      "Supports Summon Erosion Magus.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Passive Skill.",
+      "+20% additional damage for Minions summoned by the supported skill",
+      "While the Empower Skill of Minions summoned by the supported skill lasts, triggers the Ultimate instead of a Base or Enhanced Skill",
+      "This effect affects the Empower Skill's base effects. The interval of the Triggered Skill is no longer calculated separately for each enemy",
+      "While the Empower Skill of Minions summoned by the supported skill lasts, +1 s to the Triggered Skill's Interval",
+      "While the Empower Skill of Minions summoned by the supported skill lasts, triggers the Ultimate instead of a Base or Enhanced Skill\\nThis effect affects the Empower Skill's base effects. The interval of the Triggered Skill is no longer calculated separately for each enemy",
+      "While the Empower Skill of Minions summoned by the supported skill lasts, +1 s to the Triggered Skill's Interval",
+      "(-23.0–-21.0)% additional damage for Minions summoned by the supported skill"
+     ],
+     "name": "Summon Erosion Magus: Malignant (Noble)",
+     "key": "Summon_Erosion_Magus_Malignant_Noble"
+    },
+    {
+     "lines": [
+      "Supports Summon Erosion Magus.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Passive Skill.",
+      "+20% additional damage for Minions summoned by the supported skill",
+      "While the Empower Skill of Minions summoned by the supported skill lasts, the interval of automatically triggered skills is affected by their Cast Speed",
+      "-20% additional Cast Speed for the Enhanced Skill of Minions summoned by the supported skill",
+      "While the Empower Skill of Minions summoned by the supported skill lasts, the interval of automatically triggered skills is affected by their Cast Speed",
+      "-20% additional Cast Speed for the Enhanced Skill of Minions summoned by the supported skill",
+      "+(20–22)% additional damage for Minions summoned by the supported skill"
+     ],
+     "name": "Summon Erosion Magus: Malady (Noble)",
+     "key": "Summon_Erosion_Magus_Malady_Noble"
+    },
+    {
+     "lines": [
+      "Supports Double Thrusts.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Passive Skill.",
+      "+20% additional damage for the supported skill",
+      "Inflicts 1 stack of debuff when the supported skill hits. +(620–660)% additional hit damage for this hit and removes all debuff stacks when the supported skill's Shadows hit an enemy with 33 or more stacks of debuffs"
+     ],
+     "name": "Double Thrusts: Recourse (Noble)",
+     "key": "Double_Thrusts_Recourse_Noble"
+    },
+    {
+     "lines": [
+      "Supports Lightning Beam.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "Thunderbolts generated after the supported skill's initial thunderbolts vanish do not count toward the Base Max Thunderbolt Quantity. This effect can only generate up to 10 thunderbolts, and additionally -50% to their Duration",
+      "Thunderbolts generated after the supported skill's initial thunderbolts vanish do not count toward the Base Max Thunderbolt Quantity. This effect can only generate up to 10 thunderbolts, and additionally -50% to their Duration",
+      "(-15.0–-13.0)% additional damage for the supported skill"
+     ],
+     "name": "Lightning Beam: Reverberation (Noble)",
+     "key": "Lightning_Beam_Reverberation_Noble"
+    },
+    {
+     "lines": [
+      "Supports Lightning Beam.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "The supported skill's thunderbolts follow the character and do not actively attack. When you use the supported skill, the supported skill's thunderbolt launches a Lightning Beam at the target for 1s",
+      "The supported skill's thunderbolts follow the character and do not actively attack. When you use the supported skill, the supported skill's thunderbolt launches a Lightning Beam at the target for 1s",
+      "+(53–55)% additional damage for the supported skill"
+     ],
+     "name": "Lightning Beam: Salvo (Noble)",
+     "key": "Lightning_Beam_Salvo_Noble"
+    },
+    {
+     "lines": [
+      "Supports Wilting Beam.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "The supported skill cannot change directions",
+      "The supported skill cannot change directions",
+      "+(70–73)% additional damage for the supported skill"
+     ],
+     "name": "Wilting Beam: Set Course (Noble)",
+     "key": "Wilting_Beam_Set_Course_Noble"
+    },
+    {
+     "lines": [
+      "Supports Wilting Beam.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "For every +1 Beam the supported skill has, +(25.5–26.0)% additional Reaping Recovery Speed for Reaping that is triggered when this skill reaches max channeled stacks"
+     ],
+     "name": "Wilting Beam: Rapid Completion (Noble)",
+     "key": "Wilting_Beam_Rapid_Completion_Noble"
+    },
+    {
+     "lines": [
+      "Supports Electrifying Shot.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "For every +1% Double Damage Chance the supported skill has, +1% chance to double Projectile Quantity",
+      "For every +1% Double Damage Chance the supported skill has, +1% chance to double Projectile Quantity",
+      "(-15–-13)% additional damage for the supported skill"
+     ],
+     "name": "Electrifying Shot: Multishot (Noble)",
+     "key": "Electrifying_Shot_Multishot_Noble"
+    },
+    {
+     "lines": [
+      "Supports Marked Rain of Arrows.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "The supported skill becomes a Channeled Skill and no longer launches Marked Arrows.",
+      "When the supported skill is at max channeled stacks, it loses all channeled stacks, marking you and enemies within 8 m (affected by Skill Area), and casting Marked Rain of Arrows centered around you. Max Channeled Stacks: 5",
+      "Marked Rain of Arrows' explosion deals a small amount of Attack Fire Damage to you. Each skill can only hit once",
+      "The supported skill's Attack Speed is fixed at 3",
+      "100% of the bonus and additional bonus to the supported skill's Attack Speed is also applied to additional Hit Damage",
+      "-30% Movement Speed while channeling the supported skill",
+      "The supported skill becomes a Channeled Skill and no longer launches Marked Arrows.\\nWhen the supported skill is at max channeled stacks, it loses all channeled stacks, marking you and enemies within 8 m (affected by Skill Area), and casting Marked Rain of Arrows centered around you. Max Channeled Stacks: 5 \\nMarked Rain of Arrows' explosion deals a small amount of Attack Fire Damage to you. Each skill can only hit once",
+      "The supported skill's Attack Speed is fixed at 3",
+      "100% of the bonus and additional bonus to the supported skill's Attack Speed is also applied to additional Hit Damage",
+      "-30% Movement Speed while channeling the supported skill",
+      "+(113–116)% additional damage for the supported skill"
+     ],
+     "name": "Marked Rain of Arrows: Rainfall (Noble)",
+     "key": "Marked_Rain_of_Arrows_Rainfall_Noble"
+    },
+    {
+     "lines": [
+      "Supports Haunting Abomination.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "Additionally increases this skill's damage when the supported skill's Terra expands: +(11.0–12.0)% additional damage for every 1s the expansion lasts"
+     ],
+     "name": "Haunting Abomination: Misdeeds (Noble)",
+     "key": "Haunting_Abomination_Misdeeds_Noble"
+    },
+    {
+     "lines": [
+      "Supports Haunting Abomination.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "The supported skill no longer deals damage once at intervals. Instead, it launches 1 additional high-damage Batter for every stack of Terra Charge consumed when cast. Batter deals +(46–48)% additional Hit Damage. Batter Interval: 0.3s"
+     ],
+     "name": "Haunting Abomination: Hail Mary (Noble)",
+     "key": "Haunting_Abomination_Hail_Mary_Noble"
+    },
+    {
+     "lines": [
+      "Supports Thunder Focus.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "For every 25 Focus Pts consumed by the supported skill, the supported skill inflicts 2 additional stack(s) of Numbed on hit",
+      "For every 25 Focus Pts consumed by the supported skill, the supported skill inflicts 2 additional stack(s) of Numbed on hit",
+      "(-12–-10)% additional damage for the supported skill"
+     ],
+     "name": "Thunder Focus: Tremor (Noble)",
+     "key": "Thunder_Focus_Tremor_Noble"
+    },
+    {
+     "lines": [
+      "Supports Thunder Focus.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "+50 Focus Pts required to trigger the supported skill",
+      "+50 Max Focus Pts for the supported skill",
+      "After a Thunderstrike generated by the supported skill hits the enemy, it hits the enemy again after 0.3 s",
+      "+40% additional Skill Area for the supported skill",
+      "+50 Focus Pts required to trigger the supported skill",
+      "+50 Max Focus Pts for the supported skill",
+      "After a Thunderstrike generated by the supported skill hits the enemy, it hits the enemy again after 0.3 s",
+      "+40% additional Skill Area for the supported skill",
+      "+(1.0–3.0)% additional damage for the supported skill"
+     ],
+     "name": "Thunder Focus: Overflow (Noble)",
+     "key": "Thunder_Focus_Overflow_Noble"
+    },
+    {
+     "lines": [
+      "Supports Flame Focus.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "+5000 Critical Strike Rating for the supported skill",
+      "When the Melting Strike generated by the supported skill lands a Critical Strike, additionally increases the Damage Over Time dealt by 40% of Critical Strike Damage",
+      "+5000 Critical Strike Rating for the supported skill",
+      "When the Melting Strike generated by the supported skill lands a Critical Strike, additionally increases the Damage Over Time dealt by 40% of Critical Strike Damage",
+      "+(33–35)% additional damage for the supported skill"
+     ],
+     "name": "Flame Focus: Blast (Noble)",
+     "key": "Flame_Focus_Blast_Noble"
+    },
+    {
+     "lines": [
+      "Supports Corrosion Focus.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "For every +2 to Projectile Quantity, the supported skill launches 1 additional Projectile(s), up to 2 additional Projectile(s)",
+      "Corrosion Orb's Shotgun Effect falloff coefficient is 55%",
+      "For every +2 to Projectile Quantity, the supported skill launches 1 additional Projectile(s), up to 2 additional Projectile(s)",
+      "(-5–-2)% additional damage for the supported skill"
+     ],
+     "name": "Corrosion Focus: Splash (Noble)",
+     "key": "Corrosion_Focus_Splash_Noble"
+    },
+    {
+     "lines": [
+      "Supports Ice Focus.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "(-50–-41)% additional Skill Area for the supported skill",
+      "+25% additional Skill Area and +5% additional damage every second for the supported skill while the Ice Storm lasts. Stacks up to 4 time(s)"
+     ],
+     "name": "Ice Focus: Frigid Wind (Noble)",
+     "key": "Ice_Focus_Frigid_Wind_Noble"
+    },
+    {
+     "lines": [
+      "Supports Ice Focus.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "Ice Storm generated by the supported skill now consumes a total of 80 Focus Pts per second to deal 312 Cold Damage Over Time per second when there are enemies inside the storm instead of generating Glacial Spikes.",
+      "The supported skill now has the Damage Over Time tag. This Damage Over Time can't be spread.",
+      "+(21–28)% additional Damage Over Time for the supported skill"
+     ],
+     "name": "Ice Focus: Solemn Chill (Noble)",
+     "key": "Ice_Focus_Solemn_Chill_Noble"
+    },
+    {
+     "lines": [
+      "Supports Acuteness Focus.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "+30 Max Focus Pts for the supported skill",
+      "+30 Focus Pts required to trigger the supported skill",
+      "+30 Max Focus Pts for the supported skill",
+      "+30 Focus Pts required to trigger the supported skill",
+      "The supported skill no longer casts Acute Strike. Instead it casts Acute Smash on up to 1 enemy. +(42–44)% additional Hit Damage dealt by Smash."
+     ],
+     "name": "Acuteness Focus: Dull Pain (Noble)",
+     "key": "Acuteness_Focus_Dull_Pain_Noble"
+    },
+    {
+     "lines": [
+      "Supports Acuteness Focus.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "For every 100 Focus Pts gained by the supported skill recently, + (3.2–3.4)% additional damage. Stacks up to 20 times"
+     ],
+     "name": "Acuteness Focus: Remaining Strength (Noble)",
+     "key": "Acuteness_Focus_Remaining_Strength_Noble"
+    },
+    {
+     "lines": [
+      "Supports Crescent Slash.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "The Combo Finisher of the supported skill deals damage 1 additional time(s) for every +40% Attack Speed. Stacks up to 4 time(s)",
+      "The Combo Finisher of the supported skill deals damage 1 additional time(s) for every +40% Attack Speed. Stacks up to 4 time(s)",
+      "(-11–-10)% additional damage for the supported skill"
+     ],
+     "name": "Crescent Slash: Flash (Noble)",
+     "key": "Crescent_Slash_Flash_Noble"
+    },
+    {
+     "lines": [
+      "Supports Crescent Slash.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "Changes the Combo Finisher of the supported skill to a massive sword slash that only deals damage once",
+      "+60% additional damage for the Combo Finisher of the supported skill for every 1 Combo Point consumed, stacking up to 4 time(s)",
+      "+65% additional Deterioration Damage for the Combo Finisher of the supported skill",
+      "When the supported skill casts a Combo Finisher, if it consumes at least 4 Combo Point(s), that finisher has a 100% chance to additionally inflict 2 stacks of Deterioration",
+      "Changes the Combo Finisher of the supported skill to a massive sword slash that only deals damage once",
+      "+60% additional damage for the Combo Finisher of the supported skill for every 1 Combo Point consumed, stacking up to 4 time(s)",
+      "+65% additional Deterioration Damage for the Combo Finisher of the supported skill",
+      "When the supported skill casts a Combo Finisher, if it consumes at least 4 Combo Point(s), that finisher has a 100% chance to additionally inflict 2 stacks of Deterioration",
+      "(-39.5–-38.5)% additional damage for the supported skill"
+     ],
+     "name": "Crescent Slash: Rising (Noble)",
+     "key": "Crescent_Slash_Rising_Noble"
+    },
+    {
+     "lines": [
+      "Supports Serpent Beam.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "The Combo Finisher of the supported skill can burst",
+      "The Combo Finisher of the supported skill can burst",
+      "(-27.0–-25.0)% additional Hit Damage for the Combo Finisher of the supported skill"
+     ],
+     "name": "Serpent Beam: Torrent (Noble)",
+     "key": "Serpent_Beam_Torrent_Noble"
+    },
+    {
+     "lines": [
+      "Supports Serpent Beam.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "When casting the Combo Finisher of the supported skill, creates a Fire Snake at your side that recasts the finisher once",
+      "When casting the Combo Finisher of the supported skill, creates a Fire Snake at your side that recasts the finisher once",
+      "(-18–-17)% additional damage for the supported skill"
+     ],
+     "name": "Serpent Beam: Twin Blaze (Noble)",
+     "key": "Serpent_Beam_Twin_Blaze_Noble"
+    },
+    {
+     "lines": [
+      "Supports Gale Slash.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "The movement distance of the supported skill's Combo Starter 2 is increased to 3.5 m",
+      "The max jump distance of the supported skill's Combo Finisher is increased to 7 m",
+      "The supported skill's Combo Finisher now deals an instance of damage again after a brief delay",
+      "The Attack Speed bonus provided by the supported skill no longer falls off",
+      "The supported skill no longer deals additional damage based on Attack Speed bonus",
+      "The movement distance of the supported skill's Combo Starter 2 is increased to 3.5 m",
+      "The max jump distance of the supported skill's Combo Finisher is increased to 7 m\\nThe supported skill's Combo Finisher now deals an instance of damage again after a brief delay\\nThe Attack Speed bonus provided by the supported skill no longer falls off\\nThe supported skill no longer deals additional damage based on Attack Speed bonus",
+      "(-39.0–-38.0)% additional damage for the supported skill"
+     ],
+     "name": "Gale Slash: Soaring (Noble)",
+     "key": "Gale_Slash_Soaring_Noble"
+    },
+    {
+     "lines": [
+      "Supports Gale Slash.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "Gains 3 Combo Point(s) after casting the Combo Starter 1 of the supported skill. Cooldown: 4 s",
+      "Gains 3 Combo Point(s) after casting the Combo Starter 1 of the supported skill. Cooldown: 4 s",
+      "+(6.2–6.6)% additional Critical Strike Damage for the Combo Finisher of the supported skill for each Combo Point consumed, stacking up to 10 time(s)"
+     ],
+     "name": "Gale Slash: Brutality (Noble)",
+     "key": "Gale_Slash_Brutality_Noble"
+    },
+    {
+     "lines": [
+      "Supports Spectral Slash.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "The supported skill's Combo Finisher generates 1 additional Clone for each enemy within 15 m, up to 5",
+      "The supported skill's Combo Finisher generates 1 additional Clone for each enemy within 15 m, up to 5",
+      "(-2–0)% additional damage for the supported skill"
+     ],
+     "name": "Spectral Slash: Legion (Noble)",
+     "key": "Spectral_Slash_Legion_Noble"
+    },
+    {
+     "lines": [
+      "Supports Spectral Slash.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "The Combo Finisher of the supported skill is changed to generate 3 Clone(s) around you. These Clones slam the ground in place and create a series of 3 Explosions forward.",
+      "+108% additional Hit Damage for the Combo Finisher of the supported skill",
+      "The Combo Finisher of the supported skill is changed to generate 3 Clone(s) around you. These Clones slam the ground in place and create a series of 3 Explosions forward.",
+      "+108% additional Hit Damage for the Combo Finisher of the supported skill",
+      "+(16–18)% additional damage for the supported skill"
+     ],
+     "name": "Spectral Slash: Synchrony (Noble)",
+     "key": "Spectral_Slash_Synchrony_Noble"
+    },
+    {
+     "lines": [
+      "Supports Frigid Transmission.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+300% Duration for the supported skill",
+      "Reduces the supported skill's movement distance to 8 m",
+      "Reduces the supported skill's movement distance to 8 m",
+      "Refreshes the supported skill's Cooldown upon inflicting Frost-Seal in any situation. Interval: (0.7–1) s"
+     ],
+     "name": "Frigid Transmission: Thin Ice (Noble)",
+     "key": "Frigid_Transmission_Thin_Ice_Noble"
+    },
+    {
+     "lines": [
+      "Supports Modularization Minion Skills.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for Minions summoned by the supported skill",
+      "+100% additional Cooldown Recovery Speed for Minions summoned by the supported skill",
+      "+100% additional Cooldown Recovery Speed for Minions summoned by the supported skill",
+      "+(12–14)% additional damage for Minions summoned by the supported skill"
+     ],
+     "name": "Modularization: Superconductivity (Noble)",
+     "key": "Modularization_Superconductivity_Noble"
+    },
+    {
+     "lines": [
+      "Supports Modularization Minion Skills.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for Minions summoned by the supported skill",
+      "For each hit the summoner landed in the last 2 s, +(5.0–5.5)% additional damage for Minions summoned by the supported skill. Stacks up to 15 time(s)"
+     ],
+     "name": "Modularization: Calibrate (Noble)",
+     "key": "Modularization_Calibrate_Noble"
+    },
+    {
+     "lines": [
+      "Supports Modularization Minion Skills.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for Minions summoned by the supported skill",
+      "-25% Physique for Minions summoned by the supported skill",
+      "+50% Aggressiveness for Minions summoned by the supported skill",
+      "-25% Physique for Minions summoned by the supported skill",
+      "+50% Aggressiveness for Minions summoned by the supported skill",
+      "+(33–35)% additional damage for Minions summoned by the supported skill"
+     ],
+     "name": "Modularization: Compress (Noble)",
+     "key": "Modularization_Compress_Noble"
+    },
+    {
+     "lines": [
+      "Supports Modularization Minion Skills.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for Minions summoned by the supported skill",
+      "Minions summoned by the supported skill are immune to damage",
+      "-99% additional damage for Minions summoned by the supported skill",
+      "Minions summoned by the supported skill are immune to damage",
+      "-99% additional damage for Minions summoned by the supported skill",
+      "+(1.0–3.0)% additional damage for the summoner when there is at least 1 Minion summoned by the supported skill"
+     ],
+     "name": "Modularization: Sever (Noble)",
+     "key": "Modularization_Sever_Noble"
+    },
+    {
+     "lines": [
+      "Supports Thornfield.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill",
+      "+20% additional damage for the supported skill",
+      "You take True Damage equal to 10% of Max Life and Energy Shield every second if you are inside the supported skill's Terra",
+      "You take True Damage equal to 10% of Max Life and Energy Shield every second if you are inside the supported skill's Terra",
+      "+(22.5–23.5)% additional damage for the supported skill every 0.6 s while within the supported skill's Terra. Stacks up to 3 time(s)"
+     ],
+     "name": "Thornfield: Retribution (Noble)",
+     "key": "Thornfield_Retribution_Noble"
+    },
+    {
+     "lines": [
+      "Supports Tidewell.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "+1 erupted Torrent(s) for the supported skill for every 2 stacks of Terra Charge consumed, up to +2",
+      "+20% chance to inflict Slow when the supported skill hits for every 1 stack(s) of Terra Charge consumed",
+      "+1 erupted Torrent(s) for the supported skill for every 2 stacks of Terra Charge consumed, up to +2",
+      "+20% chance to inflict Slow when the supported skill hits for every 1 stack(s) of Terra Charge consumed",
+      "(-9–-7.5)% additional damage for the supported skill"
+     ],
+     "name": "Tidewell: Undertow (Noble)",
+     "key": "Tidewell_Undertow_Noble"
+    },
+    {
+     "lines": [
+      "Supports Fallen Star",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill",
+      "+20% additional damage for the supported skill",
+      "Gains 1 stack of Charge when the supported skill hits. At 50 Charge stack(s), the supported skill casts an additional wave of Starfall",
+      "+(112–124)% additional Hit Damage for this skill when casting Starfall"
+     ],
+     "name": "Fallen Star: Starfall (Noble)",
+     "key": "Fallen_Star_Starfall_Noble"
+    },
+    {
+     "lines": [
+      "Supports Fallen Star",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill",
+      "+20% additional damage for the supported skill",
+      "The supported skill's Falling Star area can move forward",
+      "+50% Skill Area for the skill",
+      "The supported skill's Falling Star area can move forward",
+      "+50% Skill Area for the skill",
+      "+(28–30)% additional damage for the supported skill"
+     ],
+     "name": "Fallen Star: Gravity (Noble)",
+     "key": "Fallen_Star_Gravity_Noble"
+    },
+    {
+     "lines": [
+      "Supports Nether Grasp",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill",
+      "+20% additional damage for the supported skill",
+      "The supported skill creates a fan-shaped Nether Grasp. + 20% additional damage taken by enemies inside the Nether Terra's central area",
+      "The supported skill creates a fan-shaped Nether Grasp. + 20% additional damage taken by enemies inside the Nether Terra's central area",
+      "+(21–24)% additional damage for the supported skill"
+     ],
+     "name": "Nether Grasp: Extermination (Noble)",
+     "key": "Nether_Grasp_Extermination_Noble"
+    },
+    {
+     "lines": [
+      "Supports Storm Field",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "+20% additional damage for the supported skill",
+      "+4 to the max targets hit by the supported skill's electric current",
+      "Changes the supported skill's Currents to +(5.9–6.2)% additional Hit Damage for each enemy hit"
+     ],
+     "name": "Storm Field: Conduction (Noble)",
+     "key": "Storm_Field_Conduction_Noble"
+    },
+    {
+     "lines": [
+      "Supports Chromatic Shot",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill",
+      "+20% additional damage for the supported skill",
+      "Converts 100% of the supported skill's Physical Damage to Cold Damage",
+      "Inflicts Frostbite when the supported skill deals Hit Cold Damage",
+      "The supported skill gains the Cold Tag",
+      "Converts 100% of the supported skill's Physical Damage to Cold Damage",
+      "Inflicts Frostbite when the supported skill deals Hit Cold Damage",
+      "+(23–25)% additional Hit Damage for the supported skill"
+     ],
+     "name": "Chromatic Shot: Condensed Cold (Noble)",
+     "key": "Chromatic_Shot_Condensed_Cold_Noble"
+    },
+    {
+     "lines": [
+      "Supports Chromatic Shot.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill",
+      "+20% additional damage for the supported skill",
+      "Converts 100% of the supported skill's Physical Damage to Fire Damage",
+      "Adds 1 - 1 Base Ignite Damage to the supported skill",
+      "+40% Ignite chance for the supported skill",
+      "The supported skill gains the Fire Tag",
+      "Converts 100% of the supported skill's Physical Damage to Fire Damage",
+      "Adds 1 - 1 Base Ignite Damage to the supported skill",
+      "+40% Ignite chance for the supported skill",
+      "+(23–25)% additional Hit Damage for the supported skill"
+     ],
+     "name": "Chromatic Shot: Condensed Fire (Noble)",
+     "key": "Chromatic_Shot_Condensed_Fire_Noble"
+    },
+    {
+     "lines": [
+      "Supports Chromatic Shot",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill",
+      "+20% additional damage for the supported skill",
+      "Converts 100% of the supported skill's Physical Damage to Lightning Damage",
+      "Inflicts Numbed when the supported skill deals Hit Lightning Damage",
+      "The supported skill gains the Lightning Tag",
+      "Converts 100% of the supported skill's Physical Damage to Lightning Damage",
+      "Inflicts Numbed when the supported skill deals Hit Lightning Damage",
+      "+(23–25)% additional Hit Damage for the supported skill"
+     ],
+     "name": "Chromatic Shot: Condensed Lightning (Noble)",
+     "key": "Chromatic_Shot_Condensed_Lightning_Noble"
+    },
+    {
+     "lines": [
+      "Supports Chromatic Shot",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill",
+      "+20% additional damage for the supported skill",
+      "Converts 100% of the supported skill's Physical Damage to Erosion Damage",
+      "Adds 1 - 1 Base Wilt Damage to the supported skill",
+      "+40% Wilt chance for the supported skill",
+      "The supported skill gains the Erosion Tag",
+      "Converts 100% of the supported skill's Physical Damage to Erosion Damage",
+      "Adds 1 - 1 Base Wilt Damage to the supported skill",
+      "+40% Wilt chance for the supported skill",
+      "+(23–25)% additional Hit Damage for the supported skill"
+     ],
+     "name": "Chromatic Shot: Condensed Erosion (Noble)",
+     "key": "Chromatic_Shot_Condensed_Erosion_Noble"
+    },
+    {
+     "lines": [
+      "Supports Voltaic Ripple",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill",
+      "+20% additional damage for the supported skill",
+      "Damage Over Time dealt by the supported skill changes randomly between 30% and 300% instead",
+      "Damage Over Time dealt by the supported skill changes randomly between 30% and 300% instead",
+      "(-21–-20)% additional damage for the supported skill"
+     ],
+     "name": "Voltaic Ripple: Turmoil (Noble)",
+     "key": "Voltaic_Ripple_Turmoil_Noble"
+    },
+    {
+     "lines": [
+      "Supports Voltaic Ripple",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill",
+      "+20% additional damage for the supported skill",
+      "The supported skill additionally generates an electric ring when Terra Charge stacks are greater than or equal to 3",
+      "The supported skill additionally generates an electric ring when Terra Charge stacks are greater than or equal to 3",
+      "(-34–-33)% additional damage for the supported skill"
+     ],
+     "name": "Voltaic Ripple: Afterwave (Noble)",
+     "key": "Voltaic_Ripple_Afterwave_Noble"
+    },
+    {
+     "lines": [
+      "Supports Psionic Missile",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill",
+      "+20% additional damage for the supported skill",
+      "Projectiles fired by the supported skill always land together",
+      "+15% additional damage for subsequent projectile explosions in the same skill cast for each projectile fired by the supported skill, up to 5 time(s)",
+      "Projectiles fired by the supported skill always land together",
+      "+15% additional damage for subsequent projectile explosions in the same skill cast for each projectile fired by the supported skill, up to 5 time(s)",
+      "+(4–5)% additional damage for the supported skill"
+     ],
+     "name": "Psionic Missile: Convergence (Noble)",
+     "key": "Psionic_Missile_Convergence_Noble"
+    },
+    {
+     "lines": [
+      "Supports Psionic Missile",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill",
+      "+20% additional damage for the supported skill",
+      "Projectiles fired by the supported skill always land dispersed",
+      "Generates a pulse after all projectiles fired by the supported skill land, dealing additional damage once",
+      "Pulse Damage is equal to 150% of Explosion Damage",
+      "Projectiles fired by the supported skill always land dispersed",
+      "Generates a pulse after all projectiles fired by the supported skill land, dealing additional damage once\\nPulse Damage is equal to 150% of Explosion Damage",
+      "(-26.5–-25.5)% additional damage for the supported skill"
+     ],
+     "name": "Psionic Missile: Emission (Noble)",
+     "key": "Psionic_Missile_Emission_Noble"
+    },
+    {
+     "lines": [
+      "Supports Homing Frost Bolt",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill",
+      "+20% additional damage for the supported skill",
+      "+80 Critical Strike Rating against Frozen enemies for the supported skill",
+      "There is a 25% chance for the supported skill to release a nova of secondary Icy Blades centered around the target that always Penetrate upon defeating Frost-Sealed enemies or hitting Frost-Sealed Elites",
+      "Secondary Icy Blades cannot return or be Recalled",
+      "+80 Critical Strike Rating against Frozen enemies for the supported skill",
+      "There is a 25% chance for the supported skill to release a nova of secondary Icy Blades centered around the target that always Penetrate upon defeating Frost-Sealed enemies or hitting Frost-Sealed Elites\\nSecondary Icy Blades cannot return or be Recalled",
+      "The supported skill deals +(16–18)% additional damage to Frozen enemies"
+     ],
+     "name": "Homing Frost Bolt: Deep Chill (Noble)",
+     "key": "Homing_Frost_Bolt_Deep_Chill_Noble"
+    },
+    {
+     "lines": [
+      "Supports Forking Thunder",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill",
+      "+20% additional damage for the supported skill",
+      "+(20–21)% additional Hit Damage for the supported skill for each remaining fork"
+     ],
+     "name": "Forking Thunder: Disintegration (Noble)",
+     "key": "Forking_Thunder_Disintegration_Noble"
+    },
+    {
+     "lines": [
+      "Supports Moon's Dawn",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill",
+      "+20% additional damage for the supported skill",
+      "Lucky Damage also affects the Projectile Quantity of the supported skill's forks",
+      "Lucky Damage also affects the Projectile Quantity of the supported skill's forks",
+      "+(27–30)% additional Max Damage for the supported skill"
+     ],
+     "name": "Moon's Dawn: Illumination (Noble)",
+     "key": "Moons_Dawn_Illumination_Noble"
+    },
+    {
+     "lines": [
+      "Supports Hound's Fangs",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill",
+      "+20% additional damage for the supported skill",
+      "No longer fires Massive Fangs when Bite Charge reaches 10 stacks or higher, and instead continuously fires a total of 10 Small Fangs at nearby enemies",
+      "Small Fangs fired this way can hit the same enemy",
+      "No longer fires Massive Fangs when Bite Charge reaches 10 stacks or higher, and instead continuously fires a total of 10 Small Fangs at nearby enemies\\nSmall Fangs fired this way can hit the same enemy",
+      "(-3–-2)% additional damage for the supported skill"
+     ],
+     "name": "Hound's Fangs: Volley (Noble)",
+     "key": "Hounds_Fangs_Volley_Noble"
+    },
+    {
+     "lines": [
+      "Supports Hound's Fangs",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill",
+      "+20% additional damage for the supported skill",
+      "Massive Fangs only target Elites",
+      "Massive Fangs only target Elites",
+      "+(110–115)% additional Damage for Massive Fangs against Elites"
+     ],
+     "name": "Hound's Fangs: Pounce (Noble)",
+     "key": "Hounds_Fangs_Pounce_Noble"
+    },
+    {
+     "lines": [
+      "Supports Blazing Meteor",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill",
+      "+20% additional damage for the supported skill",
+      "Ash can be detonated 1 additional time(s)",
+      "Ash can be detonated 1 additional time(s)",
+      "(-15.0–-14.0)% additional damage for the supported skill"
+     ],
+     "name": "Blazing Meteor: Aftershock (Noble)",
+     "key": "Blazing_Meteor_Aftershock_Noble"
+    },
+    {
+     "lines": [
+      "Supports Blazing Meteor",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill",
+      "+20% additional damage for the supported skill",
+      "+1 Ash explosion count for the supported skill for every +2 to Projectile Quantity it has, up to +2",
+      "Explosions caused by Ash also detonate Ash",
+      "The Projectile Quantity of the supported skill is fixed at 1",
+      "+1 Ash explosion count for the supported skill for every +2 to Projectile Quantity it has, up to +2",
+      "Explosions caused by Ash also detonate Ash",
+      "The Projectile Quantity of the supported skill is fixed at 1",
+      "(-3.0–-1.0)% additional damage for the supported skill"
+     ],
+     "name": "Blazing Meteor: Detonation (Noble)",
+     "key": "Blazing_Meteor_Detonation_Noble"
+    }
+   ]
+  }
+ ]
+}

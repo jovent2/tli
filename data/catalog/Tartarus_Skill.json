@@ -1,0 +1,1806 @@
+{
+ "page": "Tartarus_Skill",
+ "cards": [
+  {
+   "card": "Tartarus Skill Tag",
+   "tab": "TartarusSkillTag",
+   "entries": [
+    {
+     "lines": [
+      "Witch Rat, Lion Queen, Spell, Persistent, Erosion, Area"
+     ],
+     "name": "Tartarus: Black Hole I",
+     "key": "Tartarus_Black_Hole_I",
+     "icon": "UISkillBlackHolemercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Witch Rat, Lion Queen, Spell, Persistent, Erosion, Area"
+     ],
+     "name": "Tartarus: Black Hole II",
+     "key": "Tartarus_Black_Hole_II",
+     "icon": "UISkillBlackHolemercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Witch Rat, Lion Queen, Spell, Persistent, Erosion, Area"
+     ],
+     "name": "Tartarus: Black Hole III",
+     "key": "Tartarus_Black_Hole_III",
+     "icon": "UISkillBlackHolemercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Lone Wolf, Attack, Lightning, Area, Melee, Shadow Strike"
+     ],
+     "name": "Tartarus: Thunder Spike I",
+     "key": "Tartarus_Thunder_Spike_I",
+     "icon": "UISkillLightningStabmercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Lone Wolf, Attack, Lightning, Area, Melee, Shadow Strike"
+     ],
+     "name": "Tartarus: Thunder Spike II",
+     "key": "Tartarus_Thunder_Spike_II",
+     "icon": "UISkillLightningStabmercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Lone Wolf, Attack, Lightning, Area, Melee, Shadow Strike"
+     ],
+     "name": "Tartarus: Thunder Spike III",
+     "key": "Tartarus_Thunder_Spike_III",
+     "icon": "UISkillLightningStabmercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Lion Queen, Witch Rat, Spell, Lightning, Area, Persistent"
+     ],
+     "name": "Tartarus: Lightning Storm I",
+     "key": "Tartarus_Lightning_Storm_I",
+     "icon": "UISkillThunderStormmercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Lion Queen, Witch Rat, Spell, Lightning, Area, Persistent"
+     ],
+     "name": "Tartarus: Lightning Storm II",
+     "key": "Tartarus_Lightning_Storm_II",
+     "icon": "UISkillThunderStormmercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Lion Queen, Witch Rat, Spell, Lightning, Area, Persistent"
+     ],
+     "name": "Tartarus: Lightning Storm III",
+     "key": "Tartarus_Lightning_Storm_III",
+     "icon": "UISkillThunderStormmercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Lone Wolf, Attack, Melee, Physical, Shadow Strike, Area"
+     ],
+     "name": "Tartarus: Double Thrusts I",
+     "key": "Tartarus_Double_Thrusts_I",
+     "icon": "UISkillDoubleStabmercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Lone Wolf, Attack, Melee, Physical, Shadow Strike, Area"
+     ],
+     "name": "Tartarus: Double Thrusts II",
+     "key": "Tartarus_Double_Thrusts_II",
+     "icon": "UISkillDoubleStabmercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Lone Wolf, Attack, Melee, Physical, Shadow Strike, Area"
+     ],
+     "name": "Tartarus: Double Thrusts III",
+     "key": "Tartarus_Double_Thrusts_III",
+     "icon": "UISkillDoubleStabmercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Mammoth, Lone Wolf, Persistent, Spell, Defensive"
+     ],
+     "name": "Tartarus: Life Tonic I",
+     "key": "Tartarus_Life_Tonic_I",
+     "icon": "UISkillshengmingyaoshuimercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Mammoth, Lone Wolf, Persistent, Spell, Defensive"
+     ],
+     "name": "Tartarus: Life Tonic II",
+     "key": "Tartarus_Life_Tonic_II",
+     "icon": "UISkillshengmingyaoshuimercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Mammoth, Lone Wolf, Persistent, Spell, Defensive"
+     ],
+     "name": "Tartarus: Life Tonic III",
+     "key": "Tartarus_Life_Tonic_III",
+     "icon": "UISkillshengmingyaoshuimercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Lion Queen, Witch Rat, Spell, Projectile, Cold, Horizontal"
+     ],
+     "name": "Tartarus: Ice Lances I",
+     "key": "Tartarus_Ice_Lances_I",
+     "icon": "UISkillConeOfColdmercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Lion Queen, Witch Rat, Spell, Projectile, Cold, Horizontal"
+     ],
+     "name": "Tartarus: Ice Lances II",
+     "key": "Tartarus_Ice_Lances_II",
+     "icon": "UISkillConeOfColdmercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Lion Queen, Witch Rat, Spell, Projectile, Cold, Horizontal"
+     ],
+     "name": "Tartarus: Ice Lances III",
+     "key": "Tartarus_Ice_Lances_III",
+     "icon": "UISkillConeOfColdmercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Lion Queen, Witch Rat, Spell, Projectile, Horizontal, Lightning"
+     ],
+     "name": "Tartarus: Forking Thunder I",
+     "key": "Tartarus_Forking_Thunder_I",
+     "icon": "UISkillSplitSpearmercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Lion Queen, Witch Rat, Spell, Projectile, Horizontal, Lightning"
+     ],
+     "name": "Tartarus: Forking Thunder II",
+     "key": "Tartarus_Forking_Thunder_II",
+     "icon": "UISkillSplitSpearmercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Lion Queen, Witch Rat, Spell, Projectile, Horizontal, Lightning"
+     ],
+     "name": "Tartarus: Forking Thunder III",
+     "key": "Tartarus_Forking_Thunder_III",
+     "icon": "UISkillSplitSpearmercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Lion Queen, Witch Rat, Spell, Projectile, Horizontal, Fire, Area"
+     ],
+     "name": "Tartarus: Blazing Meteor I",
+     "key": "Tartarus_Blazing_Meteor_I",
+     "icon": "UISkillStarExplosionmercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Lion Queen, Witch Rat, Spell, Projectile, Horizontal, Fire, Area"
+     ],
+     "name": "Tartarus: Blazing Meteor II",
+     "key": "Tartarus_Blazing_Meteor_II",
+     "icon": "UISkillStarExplosionmercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Lion Queen, Witch Rat, Spell, Projectile, Horizontal, Fire, Area"
+     ],
+     "name": "Tartarus: Blazing Meteor III",
+     "key": "Tartarus_Blazing_Meteor_III",
+     "icon": "UISkillStarExplosionmercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Mammoth, Attack, Melee, Area, Physical, Slash-Strike"
+     ],
+     "name": "Tartarus: Focused Slash I",
+     "key": "Tartarus_Focused_Slash_I",
+     "icon": "UISkillFocusedStrikemercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Mammoth, Attack, Melee, Area, Physical, Slash-Strike"
+     ],
+     "name": "Tartarus: Focused Slash II",
+     "key": "Tartarus_Focused_Slash_II",
+     "icon": "UISkillFocusedStrikemercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Mammoth, Attack, Melee, Area, Physical, Slash-Strike"
+     ],
+     "name": "Tartarus: Focused Slash III",
+     "key": "Tartarus_Focused_Slash_III",
+     "icon": "UISkillFocusedStrikemercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Mammoth, Attack, Melee, Area, Cold, Slash-Strike"
+     ],
+     "name": "Tartarus: Icy Blade I",
+     "key": "Tartarus_Icy_Blade_I",
+     "icon": "UISkillFrostSlashmercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Mammoth, Attack, Melee, Area, Cold, Slash-Strike"
+     ],
+     "name": "Tartarus: Icy Blade II",
+     "key": "Tartarus_Icy_Blade_II",
+     "icon": "UISkillFrostSlashmercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Mammoth, Attack, Melee, Area, Cold, Slash-Strike"
+     ],
+     "name": "Tartarus: Icy Blade III",
+     "key": "Tartarus_Icy_Blade_III",
+     "icon": "UISkillFrostSlashmercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Lone Wolf, Lion Queen, Witch Rat, Spell, Cold, Area, Mobility"
+     ],
+     "name": "Tartarus: Frigid Transmission I",
+     "key": "Tartarus_Frigid_Transmission_I",
+     "icon": "UISkillIceBlinkmercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Lone Wolf, Lion Queen, Witch Rat, Spell, Cold, Area, Mobility"
+     ],
+     "name": "Tartarus: Frigid Transmission II",
+     "key": "Tartarus_Frigid_Transmission_II",
+     "icon": "UISkillIceBlinkmercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Lone Wolf, Lion Queen, Witch Rat, Spell, Cold, Area, Mobility"
+     ],
+     "name": "Tartarus: Frigid Transmission III",
+     "key": "Tartarus_Frigid_Transmission_III",
+     "icon": "UISkillIceBlinkmercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Lone Wolf, Lion Queen, Witch Rat, Spell, Physical, Area, Persistent, Empower, Mobility"
+     ],
+     "name": "Tartarus: Speed Phantom I",
+     "key": "Tartarus_Speed_Phantom_I",
+     "icon": "UISkillQuicklyPhantommercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Lone Wolf, Lion Queen, Witch Rat, Spell, Physical, Area, Persistent, Empower, Mobility"
+     ],
+     "name": "Tartarus: Speed Phantom II",
+     "key": "Tartarus_Speed_Phantom_II",
+     "icon": "UISkillQuicklyPhantommercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Lone Wolf, Lion Queen, Witch Rat, Spell, Physical, Area, Persistent, Empower, Mobility"
+     ],
+     "name": "Tartarus: Speed Phantom III",
+     "key": "Tartarus_Speed_Phantom_III",
+     "icon": "UISkillQuicklyPhantommercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Lone Wolf, Lion Queen, Mammoth, Witch Rat, Mobility, Spell"
+     ],
+     "name": "Tartarus: Blink I",
+     "key": "Tartarus_Blink_I",
+     "icon": "UISkillBlinkmercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Lone Wolf, Lion Queen, Mammoth, Witch Rat, Mobility, Spell"
+     ],
+     "name": "Tartarus: Blink II",
+     "key": "Tartarus_Blink_II",
+     "icon": "UISkillBlinkmercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Lone Wolf, Lion Queen, Mammoth, Witch Rat, Mobility, Spell"
+     ],
+     "name": "Tartarus: Blink III",
+     "key": "Tartarus_Blink_III",
+     "icon": "UISkillBlinkmercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Mammoth, Mobility, Attack, Melee, Physical, Demolisher, Area"
+     ],
+     "name": "Tartarus: Leap Attack I",
+     "key": "Tartarus_Leap_Attack_I",
+     "icon": "UISkillLeapslammercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Mammoth, Mobility, Attack, Melee, Physical, Demolisher, Area"
+     ],
+     "name": "Tartarus: Leap Attack II",
+     "key": "Tartarus_Leap_Attack_II",
+     "icon": "UISkillLeapslammercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Mammoth, Mobility, Attack, Melee, Physical, Demolisher, Area"
+     ],
+     "name": "Tartarus: Leap Attack III",
+     "key": "Tartarus_Leap_Attack_III",
+     "icon": "UISkillLeapslammercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Witch Rat, Attack, Area, Physical, Mobility, Ranged"
+     ],
+     "name": "Tartarus: Swift Shadow Raid I",
+     "key": "Tartarus_Swift_Shadow_Raid_I",
+     "icon": "UISkillCutForwardmercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Witch Rat, Attack, Area, Physical, Mobility, Ranged"
+     ],
+     "name": "Tartarus: Swift Shadow Raid II",
+     "key": "Tartarus_Swift_Shadow_Raid_II",
+     "icon": "UISkillCutForwardmercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Witch Rat, Attack, Area, Physical, Mobility, Ranged"
+     ],
+     "name": "Tartarus: Swift Shadow Raid III",
+     "key": "Tartarus_Swift_Shadow_Raid_III",
+     "icon": "UISkillCutForwardmercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Lone Wolf, Mammoth, Warcry, Area, Persistent"
+     ],
+     "name": "Tartarus: Charging Warcry I",
+     "key": "Tartarus_Charging_Warcry_I",
+     "icon": "UISkillAncestralCrymercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Lone Wolf, Mammoth, Warcry, Area, Persistent"
+     ],
+     "name": "Tartarus: Charging Warcry II",
+     "key": "Tartarus_Charging_Warcry_II",
+     "icon": "UISkillAncestralCrymercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Lone Wolf, Mammoth, Warcry, Area, Persistent"
+     ],
+     "name": "Tartarus: Charging Warcry III",
+     "key": "Tartarus_Charging_Warcry_III",
+     "icon": "UISkillAncestralCrymercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Mammoth, Lone Wolf, Warcry, Area, Persistent"
+     ],
+     "name": "Tartarus: Shockwave Warcry I",
+     "key": "Tartarus_Shockwave_Warcry_I",
+     "icon": "UISkillComboBattleCrymercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Mammoth, Lone Wolf, Warcry, Area, Persistent"
+     ],
+     "name": "Tartarus: Shockwave Warcry II",
+     "key": "Tartarus_Shockwave_Warcry_II",
+     "icon": "UISkillComboBattleCrymercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Mammoth, Lone Wolf, Warcry, Area, Persistent"
+     ],
+     "name": "Tartarus: Shockwave Warcry III",
+     "key": "Tartarus_Shockwave_Warcry_III",
+     "icon": "UISkillComboBattleCrymercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Mammoth, Lone Wolf, Warcry, Area, Persistent"
+     ],
+     "name": "Tartarus: Raging Warcry I",
+     "key": "Tartarus_Raging_Warcry_I",
+     "icon": "UISkillRageCrymercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Mammoth, Lone Wolf, Warcry, Area, Persistent"
+     ],
+     "name": "Tartarus: Raging Warcry II",
+     "key": "Tartarus_Raging_Warcry_II",
+     "icon": "UISkillRageCrymercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Mammoth, Lone Wolf, Warcry, Area, Persistent"
+     ],
+     "name": "Tartarus: Raging Warcry III",
+     "key": "Tartarus_Raging_Warcry_III",
+     "icon": "UISkillRageCrymercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Lone Wolf, Mammoth, Warcry, Area, Persistent"
+     ],
+     "name": "Tartarus: Fearless Warcry I",
+     "key": "Tartarus_Fearless_Warcry_I",
+     "icon": "UISkillWildCrymercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Lone Wolf, Mammoth, Warcry, Area, Persistent"
+     ],
+     "name": "Tartarus: Fearless Warcry II",
+     "key": "Tartarus_Fearless_Warcry_II",
+     "icon": "UISkillWildCrymercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Lone Wolf, Mammoth, Warcry, Area, Persistent"
+     ],
+     "name": "Tartarus: Fearless Warcry III",
+     "key": "Tartarus_Fearless_Warcry_III",
+     "icon": "UISkillWildCrymercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Lone Wolf, Mammoth, Warcry, Area, Persistent, Restoration"
+     ],
+     "name": "Tartarus: Resurrection Warcry I",
+     "key": "Tartarus_Resurrection_Warcry_I",
+     "icon": "UISkillBangmercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Lone Wolf, Mammoth, Warcry, Area, Persistent, Restoration"
+     ],
+     "name": "Tartarus: Resurrection Warcry II",
+     "key": "Tartarus_Resurrection_Warcry_II",
+     "icon": "UISkillBangmercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Lone Wolf, Mammoth, Warcry, Area, Persistent, Restoration"
+     ],
+     "name": "Tartarus: Resurrection Warcry III",
+     "key": "Tartarus_Resurrection_Warcry_III",
+     "icon": "UISkillBangmercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Witch Rat, Lion Queen, Spell, Erosion, Area, Persistent, Terra"
+     ],
+     "name": "Tartarus: Nether Grasp I",
+     "key": "Tartarus_Nether_Grasp_I",
+     "icon": "UISkillNethergraspmercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Witch Rat, Lion Queen, Spell, Erosion, Area, Persistent, Terra"
+     ],
+     "name": "Tartarus: Nether Grasp II",
+     "key": "Tartarus_Nether_Grasp_II",
+     "icon": "UISkillNethergraspmercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Witch Rat, Lion Queen, Spell, Erosion, Area, Persistent, Terra"
+     ],
+     "name": "Tartarus: Nether Grasp III",
+     "key": "Tartarus_Nether_Grasp_III",
+     "icon": "UISkillNethergraspmercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Lion Queen, Witch Rat, Spell, Cold, Area, Persistent, Terra"
+     ],
+     "name": "Tartarus: Frost Terra I",
+     "key": "Tartarus_Frost_Terra_I",
+     "icon": "UISkillIceAreamercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Lion Queen, Witch Rat, Spell, Cold, Area, Persistent, Terra"
+     ],
+     "name": "Tartarus: Frost Terra II",
+     "key": "Tartarus_Frost_Terra_II",
+     "icon": "UISkillIceAreamercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Lion Queen, Witch Rat, Spell, Cold, Area, Persistent, Terra"
+     ],
+     "name": "Tartarus: Frost Terra III",
+     "key": "Tartarus_Frost_Terra_III",
+     "icon": "UISkillIceAreamercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Lone Wolf, Attack, Melee, Shadow Strike, Erosion, Area, Persistent"
+     ],
+     "name": "Tartarus: Wilt Spike I",
+     "key": "Tartarus_Wilt_Spike_I",
+     "icon": "UISkillViperStabmercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Lone Wolf, Attack, Melee, Shadow Strike, Erosion, Area, Persistent"
+     ],
+     "name": "Tartarus: Wilt Spike II",
+     "key": "Tartarus_Wilt_Spike_II",
+     "icon": "UISkillViperStabmercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Lone Wolf, Attack, Melee, Shadow Strike, Erosion, Area, Persistent"
+     ],
+     "name": "Tartarus: Wilt Spike III",
+     "key": "Tartarus_Wilt_Spike_III",
+     "icon": "UISkillViperStabmercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Lone Wolf, Attack, Melee, Projectile, Shadow Strike, Cold, Area, Horizontal"
+     ],
+     "name": "Tartarus: Frost Spike I",
+     "key": "Tartarus_Frost_Spike_I",
+     "icon": "UISkillFrostStabmercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Lone Wolf, Attack, Melee, Projectile, Shadow Strike, Cold, Area, Horizontal"
+     ],
+     "name": "Tartarus: Frost Spike II",
+     "key": "Tartarus_Frost_Spike_II",
+     "icon": "UISkillFrostStabmercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Lone Wolf, Attack, Melee, Projectile, Shadow Strike, Cold, Area, Horizontal"
+     ],
+     "name": "Tartarus: Frost Spike III",
+     "key": "Tartarus_Frost_Spike_III",
+     "icon": "UISkillFrostStabmercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Lion Queen, Witch Rat, Spell, Persistent, Cold, Area, Terra"
+     ],
+     "name": "Tartarus: Tidewell I",
+     "key": "Tartarus_Tidewell_I",
+     "icon": "UISkillTorrentmercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Lion Queen, Witch Rat, Spell, Persistent, Cold, Area, Terra"
+     ],
+     "name": "Tartarus: Tidewell II",
+     "key": "Tartarus_Tidewell_II",
+     "icon": "UISkillTorrentmercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Lion Queen, Witch Rat, Spell, Persistent, Cold, Area, Terra"
+     ],
+     "name": "Tartarus: Tidewell III",
+     "key": "Tartarus_Tidewell_III",
+     "icon": "UISkillTorrentmercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Lion Queen, Witch Rat, Spell, Lightning, Area, Persistent, Beam"
+     ],
+     "name": "Tartarus: Lightning Beam I",
+     "key": "Tartarus_Lightning_Beam_I",
+     "icon": "UISkillThunderstormRayIcon128"
+    },
+    {
+     "lines": [
+      "Lion Queen, Witch Rat, Spell, Lightning, Area, Persistent, Beam"
+     ],
+     "name": "Tartarus: Lightning Beam II",
+     "key": "Tartarus_Lightning_Beam_II",
+     "icon": "UISkillThunderstormRayIcon128"
+    },
+    {
+     "lines": [
+      "Lion Queen, Witch Rat, Spell, Lightning, Area, Persistent, Beam"
+     ],
+     "name": "Tartarus: Lightning Beam III",
+     "key": "Tartarus_Lightning_Beam_III",
+     "icon": "UISkillThunderstormRayIcon128"
+    },
+    {
+     "lines": [
+      "Witch Rat, Lion Queen, Spell, Persistent, Projectile, Area, Empower"
+     ],
+     "name": "Tartarus: Star Stalker I",
+     "key": "Tartarus_Star_Stalker_I",
+     "icon": "UISkillFollowStarmercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Witch Rat, Lion Queen, Spell, Persistent, Projectile, Area, Empower"
+     ],
+     "name": "Tartarus: Star Stalker II",
+     "key": "Tartarus_Star_Stalker_II",
+     "icon": "UISkillFollowStarmercenaryIcon128"
+    },
+    {
+     "lines": [
+      "Witch Rat, Lion Queen, Spell, Persistent, Projectile, Area, Empower"
+     ],
+     "name": "Tartarus: Star Stalker III",
+     "key": "Tartarus_Star_Stalker_III",
+     "icon": "UISkillFollowStarmercenaryIcon128"
+    }
+   ]
+  },
+  {
+   "card": "Tartarus Skill",
+   "tab": "TartarusSkill",
+   "entries": [
+    {
+     "lines": [
+      "Black Hole:",
+      "Deals 100-100 Persistent Erosion Damage per second",
+      "Reverse Knocks Back enemies every 0.3s",
+      "Lasts 4s",
+      "+8% additional Affliction Effect for allies for 4 s when this skill deals damage",
+      "Casts this skill to create a black hole at the target location, dealing 100-100 Persistent Erosion Damage per second to enemies within a certain area and Reverse Knocking Back enemies inside once every 0.3s for 4s",
+      "8% additional Affliction Effect for allies for 4s when this skill deals damage",
+      "Knockback effect from this skill is reversed",
+      "+8% additional Affliction Effect for allies for 4 s when this skill deals damage"
+     ],
+     "name": "Tartarus: Black Hole I",
+     "key": "Tartarus_Black_Hole_I"
+    },
+    {
+     "lines": [
+      "Black Hole:",
+      "Deals 100-100 Persistent Erosion Damage per second",
+      "Reverse Knocks Back enemies every 0.3s",
+      "Lasts 4s",
+      "+8% additional Affliction Effect for allies for 4 s when this skill deals damage",
+      "Casts this skill to create a black hole at the target location, dealing 100-100 Persistent Erosion Damage per second to enemies within a certain area and Reverse Knocking Back enemies inside once every 0.3s for 4s",
+      "8% additional Affliction Effect for allies for 4s when this skill deals damage",
+      "Knockback effect from this skill is reversed",
+      "+8% additional Affliction Effect for allies for 4 s when this skill deals damage",
+      "<Random Support Skill>"
+     ],
+     "name": "Tartarus: Black Hole II",
+     "key": "Tartarus_Black_Hole_II"
+    },
+    {
+     "lines": [
+      "Black Hole:",
+      "Deals 100-100 Persistent Erosion Damage per second",
+      "Reverse Knocks Back enemies every 0.3s",
+      "Lasts 4s",
+      "+8% additional Affliction Effect for allies for 4 s when this skill deals damage",
+      "Casts this skill to create a black hole at the target location, dealing 100-100 Persistent Erosion Damage per second to enemies within a certain area and Reverse Knocking Back enemies inside once every 0.3s for 4s",
+      "8% additional Affliction Effect for allies for 4s when this skill deals damage",
+      "Knockback effect from this skill is reversed",
+      "+8% additional Affliction Effect for allies for 4 s when this skill deals damage",
+      "<Random Support Skill>",
+      "<Random Support Skill>",
+      "<Empty Support Skill Slot or Random Support Skill>"
+     ],
+     "name": "Tartarus: Black Hole III",
+     "key": "Tartarus_Black_Hole_III"
+    },
+    {
+     "lines": [
+      "Thunder Spike:",
+      "Deals 50-50 AttackLightning Damage",
+      "+1 to Shadow Quantity for this skill",
+      "Grants you Blur when the Shadows of this skill hit",
+      "+10% Shadow Tracking Area for 4 s when the True Body of this skill hits. Stacks up to 5 time(s)",
+      "100% of the increase or decrease on Skill Area is also applied to the Tracking Area of this skill's Shadows, up to 100%",
+      "Casts this skill to thrust forward, dealing 50-50 Attack Lightning Damage",
+      "+1 to Shadow Quantity for this skill",
+      "Grants you Blur when the Shadows of this skill hit",
+      "+10% Shadow Tracking Area for 4 s when the True Body of this skill hits. Stacks up to 5 time(s)",
+      "100% of the increase or decrease on Skill Area is also applied to the Tracking Area of this skill's Shadows, up to 100%"
+     ],
+     "name": "Tartarus: Thunder Spike I",
+     "key": "Tartarus_Thunder_Spike_I"
+    },
+    {
+     "lines": [
+      "Thunder Spike:",
+      "Deals 50-50 AttackLightning Damage",
+      "+1 to Shadow Quantity for this skill",
+      "Grants you Blur when the Shadows of this skill hit",
+      "+10% Shadow Tracking Area for 4 s when the True Body of this skill hits. Stacks up to 5 time(s)",
+      "100% of the increase or decrease on Skill Area is also applied to the Tracking Area of this skill's Shadows, up to 100%",
+      "Casts this skill to thrust forward, dealing 50-50 Attack Lightning Damage",
+      "+1 to Shadow Quantity for this skill",
+      "Grants you Blur when the Shadows of this skill hit",
+      "+10% Shadow Tracking Area for 4 s when the True Body of this skill hits. Stacks up to 5 time(s)",
+      "100% of the increase or decrease on Skill Area is also applied to the Tracking Area of this skill's Shadows, up to 100%",
+      "<Random Support Skill>"
+     ],
+     "name": "Tartarus: Thunder Spike II",
+     "key": "Tartarus_Thunder_Spike_II"
+    },
+    {
+     "lines": [
+      "Thunder Spike:",
+      "Deals 50-50 AttackLightning Damage",
+      "+1 to Shadow Quantity for this skill",
+      "Grants you Blur when the Shadows of this skill hit",
+      "+10% Shadow Tracking Area for 4 s when the True Body of this skill hits. Stacks up to 5 time(s)",
+      "100% of the increase or decrease on Skill Area is also applied to the Tracking Area of this skill's Shadows, up to 100%",
+      "Casts this skill to thrust forward, dealing 50-50 Attack Lightning Damage",
+      "+1 to Shadow Quantity for this skill",
+      "Grants you Blur when the Shadows of this skill hit",
+      "+10% Shadow Tracking Area for 4 s when the True Body of this skill hits. Stacks up to 5 time(s)",
+      "100% of the increase or decrease on Skill Area is also applied to the Tracking Area of this skill's Shadows, up to 100%",
+      "<Random Support Skill>",
+      "<Random Support Skill>",
+      "<Empty Support Skill Slot or Random Support Skill>"
+     ],
+     "name": "Tartarus: Thunder Spike III",
+     "key": "Tartarus_Thunder_Spike_III"
+    },
+    {
+     "lines": [
+      "Lightning Storm:",
+      "Deals 50-50 Spell Lightning Damage",
+      "Strikes once every 0.25s",
+      "Lasts 1.5s",
+      "Inflicts Numbed when this skill deals Hit Lightning Damage",
+      "Casts this skill to summon a Lightning Storm that tracks enemies at the target spot, continuously striking enemies within its area of effect, dealing 50-50 Spell Lightning Damage each time",
+      "Strikes once every 0.25s for 1.5s",
+      "Inflicts Numbed when this skill deals Hit Lightning Damage"
+     ],
+     "name": "Tartarus: Lightning Storm I",
+     "key": "Tartarus_Lightning_Storm_I"
+    },
+    {
+     "lines": [
+      "Lightning Storm:",
+      "Deals 50-50 Spell Lightning Damage",
+      "Strikes once every 0.25s",
+      "Lasts 1.5s",
+      "Inflicts Numbed when this skill deals Hit Lightning Damage",
+      "Casts this skill to summon a Lightning Storm that tracks enemies at the target spot, continuously striking enemies within its area of effect, dealing 50-50 Spell Lightning Damage each time",
+      "Strikes once every 0.25s for 1.5s",
+      "Inflicts Numbed when this skill deals Hit Lightning Damage",
+      "<Random Support Skill>"
+     ],
+     "name": "Tartarus: Lightning Storm II",
+     "key": "Tartarus_Lightning_Storm_II"
+    },
+    {
+     "lines": [
+      "Lightning Storm:",
+      "Deals 50-50 Spell Lightning Damage",
+      "Strikes once every 0.25s",
+      "Lasts 1.5s",
+      "Inflicts Numbed when this skill deals Hit Lightning Damage",
+      "Casts this skill to summon a Lightning Storm that tracks enemies at the target spot, continuously striking enemies within its area of effect, dealing 50-50 Spell Lightning Damage each time",
+      "Strikes once every 0.25s for 1.5s",
+      "Inflicts Numbed when this skill deals Hit Lightning Damage",
+      "<Random Support Skill>",
+      "<Random Support Skill>",
+      "<Empty Support Skill Slot or Random Support Skill>"
+     ],
+     "name": "Tartarus: Lightning Storm III",
+     "key": "Tartarus_Lightning_Storm_III"
+    },
+    {
+     "lines": [
+      "Thrust:",
+      "Deals 50-50 Attack Physical Damage",
+      "This unit and nearby allies gain Ferocity for 4s when this skill deals damage",
+      "+30% chance for this skill to inflict Trauma",
+      "Adds 1 - 1 Base Trauma Damage to this skill",
+      "+1 to Shadow Quantity for this skill",
+      "Casts this skill to thrust forward twice, dealing 50-50 Attack Physical Damage",
+      "This unit and nearby allies gain Ferocity for 4s when this skill deals damage",
+      "+30% chance for this skill to inflict Trauma",
+      "Adds 1 - 1 Base Trauma Damage to this skill",
+      "+1 to Shadow Quantity for this skill"
+     ],
+     "name": "Tartarus: Double Thrusts I",
+     "key": "Tartarus_Double_Thrusts_I"
+    },
+    {
+     "lines": [
+      "Thrust:",
+      "Deals 50-50 Attack Physical Damage",
+      "This unit and nearby allies gain Ferocity for 4s when this skill deals damage",
+      "+30% chance for this skill to inflict Trauma",
+      "Adds 1 - 1 Base Trauma Damage to this skill",
+      "+1 to Shadow Quantity for this skill",
+      "Casts this skill to thrust forward twice, dealing 50-50 Attack Physical Damage",
+      "This unit and nearby allies gain Ferocity for 4s when this skill deals damage",
+      "+30% chance for this skill to inflict Trauma",
+      "Adds 1 - 1 Base Trauma Damage to this skill",
+      "+1 to Shadow Quantity for this skill",
+      "<Random Support Skill>"
+     ],
+     "name": "Tartarus: Double Thrusts II",
+     "key": "Tartarus_Double_Thrusts_II"
+    },
+    {
+     "lines": [
+      "Thrust:",
+      "Deals 50-50 Attack Physical Damage",
+      "This unit and nearby allies gain Ferocity for 4s when this skill deals damage",
+      "+30% chance for this skill to inflict Trauma",
+      "Adds 1 - 1 Base Trauma Damage to this skill",
+      "+1 to Shadow Quantity for this skill",
+      "Casts this skill to thrust forward twice, dealing 50-50 Attack Physical Damage",
+      "This unit and nearby allies gain Ferocity for 4s when this skill deals damage",
+      "+30% chance for this skill to inflict Trauma",
+      "Adds 1 - 1 Base Trauma Damage to this skill",
+      "+1 to Shadow Quantity for this skill",
+      "<Random Support Skill>",
+      "<Random Support Skill>",
+      "<Empty Support Skill Slot or Random Support Skill>"
+     ],
+     "name": "Tartarus: Double Thrusts III",
+     "key": "Tartarus_Double_Thrusts_III"
+    },
+    {
+     "lines": [
+      "Casts this skill to grant a defensive effect to allies:",
+      "Restores 3% Max Life per second while the skill lasts",
+      "Lasts 4s",
+      "Restores 30% Max Life when casting this skill if you are at Low Life. Interval: 10 s",
+      "Casts this skill to grant allies a defensive effect: restores +3% Max Life per second for 4s",
+      "When casting this skill, if you are on Low Life, also restores 30% Max Life to you. Interval: 10s.",
+      "Restores 30% Max Life when casting this skill if you are at Low Life. Interval: 10 s"
+     ],
+     "name": "Tartarus: Life Tonic I",
+     "key": "Tartarus_Life_Tonic_I"
+    },
+    {
+     "lines": [
+      "Casts this skill to grant a defensive effect to allies:",
+      "Restores 3% Max Life per second while the skill lasts",
+      "Lasts 4s",
+      "Restores 30% Max Life when casting this skill if you are at Low Life. Interval: 10 s",
+      "Casts this skill to grant allies a defensive effect: restores +3% Max Life per second for 4s",
+      "When casting this skill, if you are on Low Life, also restores 30% Max Life to you. Interval: 10s.",
+      "Restores 30% Max Life when casting this skill if you are at Low Life. Interval: 10 s",
+      "<Random Support Skill>"
+     ],
+     "name": "Tartarus: Life Tonic II",
+     "key": "Tartarus_Life_Tonic_II"
+    },
+    {
+     "lines": [
+      "Casts this skill to grant a defensive effect to allies:",
+      "Restores 3% Max Life per second while the skill lasts",
+      "Lasts 4s",
+      "Restores 30% Max Life when casting this skill if you are at Low Life. Interval: 10 s",
+      "Casts this skill to grant allies a defensive effect: restores +3% Max Life per second for 4s",
+      "When casting this skill, if you are on Low Life, also restores 30% Max Life to you. Interval: 10s.",
+      "Restores 30% Max Life when casting this skill if you are at Low Life. Interval: 10 s",
+      "<Random Support Skill>",
+      "<Random Support Skill>",
+      "<Empty Support Skill Slot or Random Support Skill>"
+     ],
+     "name": "Tartarus: Life Tonic III",
+     "key": "Tartarus_Life_Tonic_III"
+    },
+    {
+     "lines": [
+      "Ice Lances:",
+      "Deals 50-50 Spell Cold Damage.",
+      "+3 Jumps for this skill",
+      "In general, the Projectiles shot by this skill cannot hit the same enemy.",
+      "The skill's Shotgun Effect falloff coefficient is 64%.",
+      "Casts this skill to fire 1 ice lance forward, dealing 50-50 Spell Cold Damage. The ice lance Jumps 3 time(s)",
+      "In general, Projectiles fired by this skill cannot hit the same enemy",
+      "The Shotgun Effect falloff coefficient of this skill is 64%",
+      "+3 Jumps for this skill"
+     ],
+     "name": "Tartarus: Ice Lances I",
+     "key": "Tartarus_Ice_Lances_I"
+    },
+    {
+     "lines": [
+      "Ice Lances:",
+      "Deals 50-50 Spell Cold Damage.",
+      "+3 Jumps for this skill",
+      "In general, the Projectiles shot by this skill cannot hit the same enemy.",
+      "The skill's Shotgun Effect falloff coefficient is 64%.",
+      "Casts this skill to fire 1 ice lance forward, dealing 50-50 Spell Cold Damage. The ice lance Jumps 3 time(s)",
+      "In general, Projectiles fired by this skill cannot hit the same enemy",
+      "The Shotgun Effect falloff coefficient of this skill is 64%",
+      "+3 Jumps for this skill",
+      "<Random Support Skill>"
+     ],
+     "name": "Tartarus: Ice Lances II",
+     "key": "Tartarus_Ice_Lances_II"
+    },
+    {
+     "lines": [
+      "Ice Lances:",
+      "Deals 50-50 Spell Cold Damage.",
+      "+3 Jumps for this skill",
+      "In general, the Projectiles shot by this skill cannot hit the same enemy.",
+      "The skill's Shotgun Effect falloff coefficient is 64%.",
+      "Casts this skill to fire 1 ice lance forward, dealing 50-50 Spell Cold Damage. The ice lance Jumps 3 time(s)",
+      "In general, Projectiles fired by this skill cannot hit the same enemy",
+      "The Shotgun Effect falloff coefficient of this skill is 64%",
+      "+3 Jumps for this skill",
+      "<Random Support Skill>",
+      "<Random Support Skill>",
+      "<Empty Support Skill Slot or Random Support Skill>"
+     ],
+     "name": "Tartarus: Ice Lances III",
+     "key": "Tartarus_Ice_Lances_III"
+    },
+    {
+     "lines": [
+      "Forking Thunder:",
+      "Deals 50-50 Spell Lightning Damage",
+      "This skill is guaranteed to land Critical Strikes",
+      "This skill inflicts Mark on Critical Strike",
+      "Casts this skill to launch an electric spear forward, dealing 50-50 Spell Lightning Damage. The spear forks into 2 Secondary Projectile(s) upon hitting an enemy or reaching max distance.",
+      "Projectile Quantity affects the number of forked projectiles instead of the number of electric spears.",
+      "The electric spear can fork up to 2 time(s) in total.",
+      "This skill is guaranteed to land Critical Strikes",
+      "This skill inflicts Mark on Critical Strike",
+      "This skill is guaranteed to land Critical Strikes\\nThis skill inflicts Mark on Critical Strike"
+     ],
+     "name": "Tartarus: Forking Thunder I",
+     "key": "Tartarus_Forking_Thunder_I"
+    },
+    {
+     "lines": [
+      "Forking Thunder:",
+      "Deals 50-50 Spell Lightning Damage",
+      "This skill is guaranteed to land Critical Strikes",
+      "This skill inflicts Mark on Critical Strike",
+      "Casts this skill to launch an electric spear forward, dealing 50-50 Spell Lightning Damage. The spear forks into 2 Secondary Projectile(s) upon hitting an enemy or reaching max distance.",
+      "Projectile Quantity affects the number of forked projectiles instead of the number of electric spears.",
+      "The electric spear can fork up to 2 time(s) in total.",
+      "This skill is guaranteed to land Critical Strikes",
+      "This skill inflicts Mark on Critical Strike",
+      "This skill is guaranteed to land Critical Strikes\\nThis skill inflicts Mark on Critical Strike",
+      "<Random Support Skill>"
+     ],
+     "name": "Tartarus: Forking Thunder II",
+     "key": "Tartarus_Forking_Thunder_II"
+    },
+    {
+     "lines": [
+      "Forking Thunder:",
+      "Deals 50-50 Spell Lightning Damage",
+      "This skill is guaranteed to land Critical Strikes",
+      "This skill inflicts Mark on Critical Strike",
+      "Casts this skill to launch an electric spear forward, dealing 50-50 Spell Lightning Damage. The spear forks into 2 Secondary Projectile(s) upon hitting an enemy or reaching max distance.",
+      "Projectile Quantity affects the number of forked projectiles instead of the number of electric spears.",
+      "The electric spear can fork up to 2 time(s) in total.",
+      "This skill is guaranteed to land Critical Strikes",
+      "This skill inflicts Mark on Critical Strike",
+      "This skill is guaranteed to land Critical Strikes\\nThis skill inflicts Mark on Critical Strike",
+      "<Random Support Skill>",
+      "<Random Support Skill>",
+      "<Empty Support Skill Slot or Random Support Skill>"
+     ],
+     "name": "Tartarus: Forking Thunder III",
+     "key": "Tartarus_Forking_Thunder_III"
+    },
+    {
+     "lines": [
+      "Blazing Meteor:",
+      "Deals 50-50 Spell Fire Damage",
+      "Inflicts Fire Infiltration when this skill hits, and +100% Fire Infiltration Effect",
+      "Casts this skill to fire 1 Projectile forward, dealing 50-50 Spell Fire Damage and generating 1 Ash on hit",
+      "Ash can be detonated by Projectiles fired by this skill, causing 1 explosion that deals 50-50 Spell Fire Damage",
+      "Inflicts Fire Infiltration when this skill hits, and +100% Fire Infiltration Effect"
+     ],
+     "name": "Tartarus: Blazing Meteor I",
+     "key": "Tartarus_Blazing_Meteor_I"
+    },
+    {
+     "lines": [
+      "Blazing Meteor:",
+      "Deals 50-50 Spell Fire Damage",
+      "Inflicts Fire Infiltration when this skill hits, and +100% Fire Infiltration Effect",
+      "Casts this skill to fire 1 Projectile forward, dealing 50-50 Spell Fire Damage and generating 1 Ash on hit",
+      "Ash can be detonated by Projectiles fired by this skill, causing 1 explosion that deals 50-50 Spell Fire Damage",
+      "Inflicts Fire Infiltration when this skill hits, and +100% Fire Infiltration Effect",
+      "<Random Support Skill>"
+     ],
+     "name": "Tartarus: Blazing Meteor II",
+     "key": "Tartarus_Blazing_Meteor_II"
+    },
+    {
+     "lines": [
+      "Blazing Meteor:",
+      "Deals 50-50 Spell Fire Damage",
+      "Inflicts Fire Infiltration when this skill hits, and +100% Fire Infiltration Effect",
+      "Casts this skill to fire 1 Projectile forward, dealing 50-50 Spell Fire Damage and generating 1 Ash on hit",
+      "Ash can be detonated by Projectiles fired by this skill, causing 1 explosion that deals 50-50 Spell Fire Damage",
+      "Inflicts Fire Infiltration when this skill hits, and +100% Fire Infiltration Effect",
+      "<Random Support Skill>",
+      "<Random Support Skill>",
+      "<Empty Support Skill Slot or Random Support Skill>"
+     ],
+     "name": "Tartarus: Blazing Meteor III",
+     "key": "Tartarus_Blazing_Meteor_III"
+    },
+    {
+     "lines": [
+      "Sweep Slash:",
+      "Deals 50-50 Attack Physical Damage",
+      "This unit and nearby allies gain Fervor for 4 s when this skill launches a Steep Strike",
+      "- 5% Fervor Effect for nearby allies for each Sweep Slash launched by this skill recently. Stacks up to 6 time(s)",
+      "Launches a Sweep Slash to attack the fan-shaped area in front, dealing 50-50 Attack Physical Damage on hit",
+      "This skill is affected by Steep Strike Chance and may be cast as a Steep Strike. Attacks a rectangular area ahead when casting a Steep Strike with this skill, dealing 50-50 Attack Physical Damage on hit",
+      "This unit and nearby allies gain Fervor for 4 s when this skill launches a Steep Strike",
+      "- 5% Fervor Effect for nearby allies for each Sweep Slash launched by this skill recently. Stacks up to 6 time(s)",
+      "This unit and nearby allies gain Fervor for 4 s when this skill launches a Steep Strike\\n- 5% Fervor Effect for nearby allies for each Sweep Slash launched by this skill recently. Stacks up to 6 time(s)"
+     ],
+     "name": "Tartarus: Focused Slash I",
+     "key": "Tartarus_Focused_Slash_I"
+    },
+    {
+     "lines": [
+      "Sweep Slash:",
+      "Deals 50-50 Attack Physical Damage",
+      "This unit and nearby allies gain Fervor for 4 s when this skill launches a Steep Strike",
+      "- 5% Fervor Effect for nearby allies for each Sweep Slash launched by this skill recently. Stacks up to 6 time(s)",
+      "Launches a Sweep Slash to attack the fan-shaped area in front, dealing 50-50 Attack Physical Damage on hit",
+      "This skill is affected by Steep Strike Chance and may be cast as a Steep Strike. Attacks a rectangular area ahead when casting a Steep Strike with this skill, dealing 50-50 Attack Physical Damage on hit",
+      "This unit and nearby allies gain Fervor for 4 s when this skill launches a Steep Strike",
+      "- 5% Fervor Effect for nearby allies for each Sweep Slash launched by this skill recently. Stacks up to 6 time(s)",
+      "This unit and nearby allies gain Fervor for 4 s when this skill launches a Steep Strike\\n- 5% Fervor Effect for nearby allies for each Sweep Slash launched by this skill recently. Stacks up to 6 time(s)",
+      "<Random Support Skill>"
+     ],
+     "name": "Tartarus: Focused Slash II",
+     "key": "Tartarus_Focused_Slash_II"
+    },
+    {
+     "lines": [
+      "Sweep Slash:",
+      "Deals 50-50 Attack Physical Damage",
+      "This unit and nearby allies gain Fervor for 4 s when this skill launches a Steep Strike",
+      "- 5% Fervor Effect for nearby allies for each Sweep Slash launched by this skill recently. Stacks up to 6 time(s)",
+      "Launches a Sweep Slash to attack the fan-shaped area in front, dealing 50-50 Attack Physical Damage on hit",
+      "This skill is affected by Steep Strike Chance and may be cast as a Steep Strike. Attacks a rectangular area ahead when casting a Steep Strike with this skill, dealing 50-50 Attack Physical Damage on hit",
+      "This unit and nearby allies gain Fervor for 4 s when this skill launches a Steep Strike",
+      "- 5% Fervor Effect for nearby allies for each Sweep Slash launched by this skill recently. Stacks up to 6 time(s)",
+      "This unit and nearby allies gain Fervor for 4 s when this skill launches a Steep Strike\\n- 5% Fervor Effect for nearby allies for each Sweep Slash launched by this skill recently. Stacks up to 6 time(s)",
+      "<Random Support Skill>",
+      "<Random Support Skill>",
+      "<Empty Support Skill Slot or Random Support Skill>"
+     ],
+     "name": "Tartarus: Focused Slash III",
+     "key": "Tartarus_Focused_Slash_III"
+    },
+    {
+     "lines": [
+      "Sweep Slash:",
+      "Deals 50-50 Attack Cold Damage",
+      "+40% Frostbite Effect for nearby allies for 4 s when this skill launches a Steep Strike",
+      "- 5% Frostbite Effect for nearby allies for each Sweep Slash launched by this skill recently. Stacks up to 4 time(s)",
+      "Launches a Sweep Slash to attack the fan-shaped area in front, dealing 50-50 Attack Cold Damage on hit. When this skill launches a Steep Strike, it generates 1 Icy Blade, dealing 50-50 Attack Cold Damage on hit. Causes an explosion when Steep Strike hits a Frozen enemy, dealing 50-50 Attack Cold Damage",
+      "+40% Frostbite Effect for nearby allies for 4 s when this skill launches a Steep Strike",
+      "- 5% Frostbite Effect for nearby allies for each Sweep Slash launched by this skill recently. Stacks up to 4 time(s)",
+      "+40% Frostbite Effect for nearby allies for 4 s when this skill launches a Steep Strike\\n- 5% Frostbite Effect for nearby allies for each Sweep Slash launched by this skill recently. Stacks up to 4 time(s)"
+     ],
+     "name": "Tartarus: Icy Blade I",
+     "key": "Tartarus_Icy_Blade_I"
+    },
+    {
+     "lines": [
+      "Sweep Slash:",
+      "Deals 50-50 Attack Cold Damage",
+      "+40% Frostbite Effect for nearby allies for 4 s when this skill launches a Steep Strike",
+      "- 5% Frostbite Effect for nearby allies for each Sweep Slash launched by this skill recently. Stacks up to 4 time(s)",
+      "Launches a Sweep Slash to attack the fan-shaped area in front, dealing 50-50 Attack Cold Damage on hit. When this skill launches a Steep Strike, it generates 1 Icy Blade, dealing 50-50 Attack Cold Damage on hit. Causes an explosion when Steep Strike hits a Frozen enemy, dealing 50-50 Attack Cold Damage",
+      "+40% Frostbite Effect for nearby allies for 4 s when this skill launches a Steep Strike",
+      "- 5% Frostbite Effect for nearby allies for each Sweep Slash launched by this skill recently. Stacks up to 4 time(s)",
+      "+40% Frostbite Effect for nearby allies for 4 s when this skill launches a Steep Strike\\n- 5% Frostbite Effect for nearby allies for each Sweep Slash launched by this skill recently. Stacks up to 4 time(s)",
+      "<Random Support Skill>"
+     ],
+     "name": "Tartarus: Icy Blade II",
+     "key": "Tartarus_Icy_Blade_II"
+    },
+    {
+     "lines": [
+      "Sweep Slash:",
+      "Deals 50-50 Attack Cold Damage",
+      "+40% Frostbite Effect for nearby allies for 4 s when this skill launches a Steep Strike",
+      "- 5% Frostbite Effect for nearby allies for each Sweep Slash launched by this skill recently. Stacks up to 4 time(s)",
+      "Launches a Sweep Slash to attack the fan-shaped area in front, dealing 50-50 Attack Cold Damage on hit. When this skill launches a Steep Strike, it generates 1 Icy Blade, dealing 50-50 Attack Cold Damage on hit. Causes an explosion when Steep Strike hits a Frozen enemy, dealing 50-50 Attack Cold Damage",
+      "+40% Frostbite Effect for nearby allies for 4 s when this skill launches a Steep Strike",
+      "- 5% Frostbite Effect for nearby allies for each Sweep Slash launched by this skill recently. Stacks up to 4 time(s)",
+      "+40% Frostbite Effect for nearby allies for 4 s when this skill launches a Steep Strike\\n- 5% Frostbite Effect for nearby allies for each Sweep Slash launched by this skill recently. Stacks up to 4 time(s)",
+      "<Random Support Skill>",
+      "<Random Support Skill>",
+      "<Empty Support Skill Slot or Random Support Skill>"
+     ],
+     "name": "Tartarus: Icy Blade III",
+     "key": "Tartarus_Icy_Blade_III"
+    },
+    {
+     "lines": [
+      "Casts this skill to move to the target location, leaving cold ice within a certain area at the starting point and landing point, dealing 50-50 Hit Cold Damage to enemies within and inflicting Frostbite"
+     ],
+     "name": "Tartarus: Frigid Transmission I",
+     "key": "Tartarus_Frigid_Transmission_I"
+    },
+    {
+     "lines": [
+      "Casts this skill to move to the target location, leaving cold ice within a certain area at the starting point and landing point, dealing 50-50 Hit Cold Damage to enemies within and inflicting Frostbite",
+      "<Random Support Skill>"
+     ],
+     "name": "Tartarus: Frigid Transmission II",
+     "key": "Tartarus_Frigid_Transmission_II"
+    },
+    {
+     "lines": [
+      "Casts this skill to move to the target location, leaving cold ice within a certain area at the starting point and landing point, dealing 50-50 Hit Cold Damage to enemies within and inflicting Frostbite",
+      "<Random Support Skill>",
+      "<Random Support Skill>",
+      "<Empty Support Skill Slot or Random Support Skill>"
+     ],
+     "name": "Tartarus: Frigid Transmission III",
+     "key": "Tartarus_Frigid_Transmission_III"
+    },
+    {
+     "lines": [
+      "Casts this skill to move in the target direction, leaving behind a Remnant before and after moving, and Reverse Knocking Back nearby enemies within a certain distance",
+      "The Remnant explodes after 0.65s, dealing 50-50 Hit Physical Damage to enemies",
+      "Enemies take +12% additional Spell Damage when this skill hits",
+      "Skill's max base Sentry quantity is 2",
+      "The target takes +12% additional Spell Damage when this skill hits",
+      "Knockback effect from this skill is reversed"
+     ],
+     "name": "Tartarus: Speed Phantom I",
+     "key": "Tartarus_Speed_Phantom_I"
+    },
+    {
+     "lines": [
+      "Casts this skill to move in the target direction, leaving behind a Remnant before and after moving, and Reverse Knocking Back nearby enemies within a certain distance",
+      "The Remnant explodes after 0.65s, dealing 50-50 Hit Physical Damage to enemies",
+      "Enemies take +12% additional Spell Damage when this skill hits",
+      "Skill's max base Sentry quantity is 2",
+      "The target takes +12% additional Spell Damage when this skill hits",
+      "Knockback effect from this skill is reversed",
+      "<Random Support Skill>"
+     ],
+     "name": "Tartarus: Speed Phantom II",
+     "key": "Tartarus_Speed_Phantom_II"
+    },
+    {
+     "lines": [
+      "Casts this skill to move in the target direction, leaving behind a Remnant before and after moving, and Reverse Knocking Back nearby enemies within a certain distance",
+      "The Remnant explodes after 0.65s, dealing 50-50 Hit Physical Damage to enemies",
+      "Enemies take +12% additional Spell Damage when this skill hits",
+      "Skill's max base Sentry quantity is 2",
+      "The target takes +12% additional Spell Damage when this skill hits",
+      "Knockback effect from this skill is reversed",
+      "<Random Support Skill>",
+      "<Random Support Skill>",
+      "<Empty Support Skill Slot or Random Support Skill>"
+     ],
+     "name": "Tartarus: Speed Phantom III",
+     "key": "Tartarus_Speed_Phantom_III"
+    },
+    {
+     "lines": [
+      "Casts this skill to move forward in the target direction",
+      "+20% additional Cooldown Recovery Speed for this skill for each enemy within 10m",
+      "+5% Skill Effect Duration and +5% Cooldown Recovery Speed for allies for 4s when casting this skill",
+      "+20% additional Cooldown Recovery Speed for this skill for each enemy within 10m",
+      "+5% Skill Effect Duration and +5% Cooldown Recovery Speed for allies for 4s when casting this skill"
+     ],
+     "name": "Tartarus: Blink I",
+     "key": "Tartarus_Blink_I"
+    },
+    {
+     "lines": [
+      "Casts this skill to move forward in the target direction",
+      "+20% additional Cooldown Recovery Speed for this skill for each enemy within 10m",
+      "+5% Skill Effect Duration and +5% Cooldown Recovery Speed for allies for 4s when casting this skill",
+      "+20% additional Cooldown Recovery Speed for this skill for each enemy within 10m",
+      "+5% Skill Effect Duration and +5% Cooldown Recovery Speed for allies for 4s when casting this skill",
+      "<Random Support Skill>"
+     ],
+     "name": "Tartarus: Blink II",
+     "key": "Tartarus_Blink_II"
+    },
+    {
+     "lines": [
+      "Casts this skill to move forward in the target direction",
+      "+20% additional Cooldown Recovery Speed for this skill for each enemy within 10m",
+      "+5% Skill Effect Duration and +5% Cooldown Recovery Speed for allies for 4s when casting this skill",
+      "+20% additional Cooldown Recovery Speed for this skill for each enemy within 10m",
+      "+5% Skill Effect Duration and +5% Cooldown Recovery Speed for allies for 4s when casting this skill",
+      "<Random Support Skill>",
+      "<Random Support Skill>",
+      "<Empty Support Skill Slot or Random Support Skill>"
+     ],
+     "name": "Tartarus: Blink III",
+     "key": "Tartarus_Blink_III"
+    },
+    {
+     "lines": [
+      "Casts this skill to leap to the target location and slam the ground, dealing 50-50 Hit Physical Damage to enemies within a certain area",
+      "+ 40% Skill Area for this unit and allies for 4s when this skill hits",
+      "+ 40% Skill Area for this unit and allies for 4s when this skill hits"
+     ],
+     "name": "Tartarus: Leap Attack I",
+     "key": "Tartarus_Leap_Attack_I"
+    },
+    {
+     "lines": [
+      "Casts this skill to leap to the target location and slam the ground, dealing 50-50 Hit Physical Damage to enemies within a certain area",
+      "+ 40% Skill Area for this unit and allies for 4s when this skill hits",
+      "+ 40% Skill Area for this unit and allies for 4s when this skill hits",
+      "<Random Support Skill>"
+     ],
+     "name": "Tartarus: Leap Attack II",
+     "key": "Tartarus_Leap_Attack_II"
+    },
+    {
+     "lines": [
+      "Casts this skill to leap to the target location and slam the ground, dealing 50-50 Hit Physical Damage to enemies within a certain area",
+      "+ 40% Skill Area for this unit and allies for 4s when this skill hits",
+      "+ 40% Skill Area for this unit and allies for 4s when this skill hits",
+      "<Random Support Skill>",
+      "<Random Support Skill>",
+      "<Empty Support Skill Slot or Random Support Skill>"
+     ],
+     "name": "Tartarus: Leap Attack III",
+     "key": "Tartarus_Leap_Attack_III"
+    },
+    {
+     "lines": [
+      "Casts this skill to dash forward, dealing 50-50 Hit Physical Damage to enemies on the path",
+      "+ 40% Projectile Speed for this unit and allies for 4s when casting this skill",
+      "+ 40% Projectile Speed for this unit and allies for 4s when casting this skill"
+     ],
+     "name": "Tartarus: Swift Shadow Raid I",
+     "key": "Tartarus_Swift_Shadow_Raid_I"
+    },
+    {
+     "lines": [
+      "Casts this skill to dash forward, dealing 50-50 Hit Physical Damage to enemies on the path",
+      "+ 40% Projectile Speed for this unit and allies for 4s when casting this skill",
+      "+ 40% Projectile Speed for this unit and allies for 4s when casting this skill",
+      "<Random Support Skill>"
+     ],
+     "name": "Tartarus: Swift Shadow Raid II",
+     "key": "Tartarus_Swift_Shadow_Raid_II"
+    },
+    {
+     "lines": [
+      "Casts this skill to dash forward, dealing 50-50 Hit Physical Damage to enemies on the path",
+      "+ 40% Projectile Speed for this unit and allies for 4s when casting this skill",
+      "+ 40% Projectile Speed for this unit and allies for 4s when casting this skill",
+      "<Random Support Skill>",
+      "<Random Support Skill>",
+      "<Empty Support Skill Slot or Random Support Skill>"
+     ],
+     "name": "Tartarus: Swift Shadow Raid III",
+     "key": "Tartarus_Swift_Shadow_Raid_III"
+    },
+    {
+     "lines": [
+      "Casts this skill to unleash a Warcry:",
+      "+32% Attack Speed for allies",
+      "Lasts 3s"
+     ],
+     "name": "Tartarus: Charging Warcry I",
+     "key": "Tartarus_Charging_Warcry_I"
+    },
+    {
+     "lines": [
+      "Casts this skill to unleash a Warcry:",
+      "+32% Attack Speed for allies",
+      "Lasts 3s",
+      "<Random Support Skill>"
+     ],
+     "name": "Tartarus: Charging Warcry II",
+     "key": "Tartarus_Charging_Warcry_II"
+    },
+    {
+     "lines": [
+      "Casts this skill to unleash a Warcry:",
+      "+32% Attack Speed for allies",
+      "Lasts 3s",
+      "<Random Support Skill>",
+      "<Random Support Skill>",
+      "<Empty Support Skill Slot or Random Support Skill>"
+     ],
+     "name": "Tartarus: Charging Warcry III",
+     "key": "Tartarus_Charging_Warcry_III"
+    },
+    {
+     "lines": [
+      "Casts this skill to unleash a Warcry:",
+      "+20% chance for allies' Attack Skills to deal Double Damage",
+      "Lasts 3s"
+     ],
+     "name": "Tartarus: Shockwave Warcry I",
+     "key": "Tartarus_Shockwave_Warcry_I"
+    },
+    {
+     "lines": [
+      "Casts this skill to unleash a Warcry:",
+      "+20% chance for allies' Attack Skills to deal Double Damage",
+      "Lasts 3s",
+      "<Random Support Skill>"
+     ],
+     "name": "Tartarus: Shockwave Warcry II",
+     "key": "Tartarus_Shockwave_Warcry_II"
+    },
+    {
+     "lines": [
+      "Casts this skill to unleash a Warcry:",
+      "+20% chance for allies' Attack Skills to deal Double Damage",
+      "Lasts 3s",
+      "<Random Support Skill>",
+      "<Random Support Skill>",
+      "<Empty Support Skill Slot or Random Support Skill>"
+     ],
+     "name": "Tartarus: Shockwave Warcry III",
+     "key": "Tartarus_Shockwave_Warcry_III"
+    },
+    {
+     "lines": [
+      "Casts this skill to unleash a Warcry:",
+      "+80% Attack Skill Area for allies",
+      "Lasts 3s"
+     ],
+     "name": "Tartarus: Raging Warcry I",
+     "key": "Tartarus_Raging_Warcry_I"
+    },
+    {
+     "lines": [
+      "Casts this skill to unleash a Warcry:",
+      "+80% Attack Skill Area for allies",
+      "Lasts 3s",
+      "<Random Support Skill>"
+     ],
+     "name": "Tartarus: Raging Warcry II",
+     "key": "Tartarus_Raging_Warcry_II"
+    },
+    {
+     "lines": [
+      "Casts this skill to unleash a Warcry:",
+      "+80% Attack Skill Area for allies",
+      "Lasts 3s",
+      "<Random Support Skill>",
+      "<Random Support Skill>",
+      "<Empty Support Skill Slot or Random Support Skill>"
+     ],
+     "name": "Tartarus: Raging Warcry III",
+     "key": "Tartarus_Raging_Warcry_III"
+    },
+    {
+     "lines": [
+      "Casts this skill to unleash a Warcry:",
+      "+160% Attack Critical Strike Rating for allies",
+      "Lasts 3s"
+     ],
+     "name": "Tartarus: Fearless Warcry I",
+     "key": "Tartarus_Fearless_Warcry_I"
+    },
+    {
+     "lines": [
+      "Casts this skill to unleash a Warcry:",
+      "+160% Attack Critical Strike Rating for allies",
+      "Lasts 3s",
+      "<Random Support Skill>"
+     ],
+     "name": "Tartarus: Fearless Warcry II",
+     "key": "Tartarus_Fearless_Warcry_II"
+    },
+    {
+     "lines": [
+      "Casts this skill to unleash a Warcry:",
+      "+160% Attack Critical Strike Rating for allies",
+      "Lasts 3s",
+      "<Random Support Skill>",
+      "<Random Support Skill>",
+      "<Empty Support Skill Slot or Random Support Skill>"
+     ],
+     "name": "Tartarus: Fearless Warcry III",
+     "key": "Tartarus_Fearless_Warcry_III"
+    },
+    {
+     "lines": [
+      "Casts this skill to unleash a Warcry:",
+      "+12% Life Regain for allies",
+      "-12% additional Life Regain Interval",
+      "Lasts 3s"
+     ],
+     "name": "Tartarus: Resurrection Warcry I",
+     "key": "Tartarus_Resurrection_Warcry_I"
+    },
+    {
+     "lines": [
+      "Casts this skill to unleash a Warcry:",
+      "+12% Life Regain for allies",
+      "-12% additional Life Regain Interval",
+      "Lasts 3s",
+      "<Random Support Skill>"
+     ],
+     "name": "Tartarus: Resurrection Warcry II",
+     "key": "Tartarus_Resurrection_Warcry_II"
+    },
+    {
+     "lines": [
+      "Casts this skill to unleash a Warcry:",
+      "+12% Life Regain for allies",
+      "-12% additional Life Regain Interval",
+      "Lasts 3s",
+      "<Random Support Skill>",
+      "<Random Support Skill>",
+      "<Empty Support Skill Slot or Random Support Skill>"
+     ],
+     "name": "Tartarus: Resurrection Warcry III",
+     "key": "Tartarus_Resurrection_Warcry_III"
+    },
+    {
+     "lines": [
+      "Nether Terra:",
+      "Nether Terra lasts 6s",
+      "Deals 100-100 Persistent Erosion Damage every second for 2s",
+      "Restores 5% Max Life and Energy Shield to you and nearby allies when defeating an enemy. Interval: 0.5s",
+      "Eliminates enemies with Life below 8% when this skill deals damage",
+      "Creates a Nether Grasp to hit enemies every 0.5s, dealing 50-50 Spell Erosion Damage and Reverse Knocking Back enemies toward the central area of Nether Terra",
+      "Casts this skill to create a Nether Terra at the target location for 6s. The Damage Over Time effect lasts 2s and deals 100-100 Persistent Erosion Damage per second. The Nether Terra generates a Nether Grasp once every 0.5s to hit enemies, dealing 50-50 Spell Erosion Damage and Reverse Knocking Back enemies within a certain area to the center of the Terra",
+      "Restores 5% Max Life and Energy Shield to you and nearby allies when defeating an enemy. Interval: 0.5s",
+      "Eliminates enemies with Life below 8% when this skill deals damage"
+     ],
+     "name": "Tartarus: Nether Grasp I",
+     "key": "Tartarus_Nether_Grasp_I"
+    },
+    {
+     "lines": [
+      "Nether Terra:",
+      "Nether Terra lasts 6s",
+      "Deals 100-100 Persistent Erosion Damage every second for 2s",
+      "Restores 5% Max Life and Energy Shield to you and nearby allies when defeating an enemy. Interval: 0.5s",
+      "Eliminates enemies with Life below 8% when this skill deals damage",
+      "Creates a Nether Grasp to hit enemies every 0.5s, dealing 50-50 Spell Erosion Damage and Reverse Knocking Back enemies toward the central area of Nether Terra",
+      "Casts this skill to create a Nether Terra at the target location for 6s. The Damage Over Time effect lasts 2s and deals 100-100 Persistent Erosion Damage per second. The Nether Terra generates a Nether Grasp once every 0.5s to hit enemies, dealing 50-50 Spell Erosion Damage and Reverse Knocking Back enemies within a certain area to the center of the Terra",
+      "Restores 5% Max Life and Energy Shield to you and nearby allies when defeating an enemy. Interval: 0.5s",
+      "Eliminates enemies with Life below 8% when this skill deals damage",
+      "<Random Support Skill>"
+     ],
+     "name": "Tartarus: Nether Grasp II",
+     "key": "Tartarus_Nether_Grasp_II"
+    },
+    {
+     "lines": [
+      "Nether Terra:",
+      "Nether Terra lasts 6s",
+      "Deals 100-100 Persistent Erosion Damage every second for 2s",
+      "Restores 5% Max Life and Energy Shield to you and nearby allies when defeating an enemy. Interval: 0.5s",
+      "Eliminates enemies with Life below 8% when this skill deals damage",
+      "Creates a Nether Grasp to hit enemies every 0.5s, dealing 50-50 Spell Erosion Damage and Reverse Knocking Back enemies toward the central area of Nether Terra",
+      "Casts this skill to create a Nether Terra at the target location for 6s. The Damage Over Time effect lasts 2s and deals 100-100 Persistent Erosion Damage per second. The Nether Terra generates a Nether Grasp once every 0.5s to hit enemies, dealing 50-50 Spell Erosion Damage and Reverse Knocking Back enemies within a certain area to the center of the Terra",
+      "Restores 5% Max Life and Energy Shield to you and nearby allies when defeating an enemy. Interval: 0.5s",
+      "Eliminates enemies with Life below 8% when this skill deals damage",
+      "<Random Support Skill>",
+      "<Random Support Skill>",
+      "<Empty Support Skill Slot or Random Support Skill>"
+     ],
+     "name": "Tartarus: Nether Grasp III",
+     "key": "Tartarus_Nether_Grasp_III"
+    },
+    {
+     "lines": [
+      "Frost Terra:",
+      "Lasts 6s",
+      "Deals 100-100 Persistent Cold Damage per second for 2s",
+      "Inflicts Frostbite when this skill deals damage",
+      "Casts this skill to create a Frost Terra that lasts 6s at the target location. The Damage Over Time effect lasts 2s and deals 100-100 Persistent Cold Damage per second.",
+      "Inflicts Frostbite when this skill deals damage"
+     ],
+     "name": "Tartarus: Frost Terra I",
+     "key": "Tartarus_Frost_Terra_I"
+    },
+    {
+     "lines": [
+      "Frost Terra:",
+      "Lasts 6s",
+      "Deals 100-100 Persistent Cold Damage per second for 2s",
+      "Inflicts Frostbite when this skill deals damage",
+      "Casts this skill to create a Frost Terra that lasts 6s at the target location. The Damage Over Time effect lasts 2s and deals 100-100 Persistent Cold Damage per second.",
+      "Inflicts Frostbite when this skill deals damage",
+      "<Random Support Skill>"
+     ],
+     "name": "Tartarus: Frost Terra II",
+     "key": "Tartarus_Frost_Terra_II"
+    },
+    {
+     "lines": [
+      "Frost Terra:",
+      "Lasts 6s",
+      "Deals 100-100 Persistent Cold Damage per second for 2s",
+      "Inflicts Frostbite when this skill deals damage",
+      "Casts this skill to create a Frost Terra that lasts 6s at the target location. The Damage Over Time effect lasts 2s and deals 100-100 Persistent Cold Damage per second.",
+      "Inflicts Frostbite when this skill deals damage",
+      "<Random Support Skill>",
+      "<Random Support Skill>",
+      "<Empty Support Skill Slot or Random Support Skill>"
+     ],
+     "name": "Tartarus: Frost Terra III",
+     "key": "Tartarus_Frost_Terra_III"
+    },
+    {
+     "lines": [
+      "Thrust:",
+      "Deals 50-50 Attack Erosion Damage",
+      "Inflicts 1 stack(s) of Wilt when this skill hits",
+      "Adds 1 - 1 Base Wilt Damage to this skill",
+      "+1 to Shadow Quantity for this skill",
+      "Casts this skill to thrust forward, dealing 50-50 Attack Erosion Damage to enemies",
+      "Inflicts 1 stack(s) of Wilt when this skill hits",
+      "Adds 1 - 1 Base Wilt Damage to this skill",
+      "+1 to Shadow Quantity for this skill"
+     ],
+     "name": "Tartarus: Wilt Spike I",
+     "key": "Tartarus_Wilt_Spike_I"
+    },
+    {
+     "lines": [
+      "Thrust:",
+      "Deals 50-50 Attack Erosion Damage",
+      "Inflicts 1 stack(s) of Wilt when this skill hits",
+      "Adds 1 - 1 Base Wilt Damage to this skill",
+      "+1 to Shadow Quantity for this skill",
+      "Casts this skill to thrust forward, dealing 50-50 Attack Erosion Damage to enemies",
+      "Inflicts 1 stack(s) of Wilt when this skill hits",
+      "Adds 1 - 1 Base Wilt Damage to this skill",
+      "+1 to Shadow Quantity for this skill",
+      "<Random Support Skill>"
+     ],
+     "name": "Tartarus: Wilt Spike II",
+     "key": "Tartarus_Wilt_Spike_II"
+    },
+    {
+     "lines": [
+      "Thrust:",
+      "Deals 50-50 Attack Erosion Damage",
+      "Inflicts 1 stack(s) of Wilt when this skill hits",
+      "Adds 1 - 1 Base Wilt Damage to this skill",
+      "+1 to Shadow Quantity for this skill",
+      "Casts this skill to thrust forward, dealing 50-50 Attack Erosion Damage to enemies",
+      "Inflicts 1 stack(s) of Wilt when this skill hits",
+      "Adds 1 - 1 Base Wilt Damage to this skill",
+      "+1 to Shadow Quantity for this skill",
+      "<Random Support Skill>",
+      "<Random Support Skill>",
+      "<Empty Support Skill Slot or Random Support Skill>"
+     ],
+     "name": "Tartarus: Wilt Spike III",
+     "key": "Tartarus_Wilt_Spike_III"
+    },
+    {
+     "lines": [
+      "Thrust:",
+      "Deals 50-50 Attack Cold Damage",
+      "+12% additional Shadow Damage for nearby allies for 4 s when this skill hits",
+      "+1 to Shadow Quantity for this skill",
+      "Casts this skill to thrust forward, dealing 50-50 Attack Cold Damage",
+      "Fires 2 Icy Blades on hit, dealing 50-50 Attack Cold Damage",
+      "Enemy Frostbite Rating increases this skill's damage and Icy Blade Quantity",
+      "+12% additional Shadow Damage for nearby allies for 4 s when this skill hits",
+      "+1 to Shadow Quantity for this skill"
+     ],
+     "name": "Tartarus: Frost Spike I",
+     "key": "Tartarus_Frost_Spike_I"
+    },
+    {
+     "lines": [
+      "Thrust:",
+      "Deals 50-50 Attack Cold Damage",
+      "+12% additional Shadow Damage for nearby allies for 4 s when this skill hits",
+      "+1 to Shadow Quantity for this skill",
+      "Casts this skill to thrust forward, dealing 50-50 Attack Cold Damage",
+      "Fires 2 Icy Blades on hit, dealing 50-50 Attack Cold Damage",
+      "Enemy Frostbite Rating increases this skill's damage and Icy Blade Quantity",
+      "+12% additional Shadow Damage for nearby allies for 4 s when this skill hits",
+      "+1 to Shadow Quantity for this skill",
+      "<Random Support Skill>"
+     ],
+     "name": "Tartarus: Frost Spike II",
+     "key": "Tartarus_Frost_Spike_II"
+    },
+    {
+     "lines": [
+      "Thrust:",
+      "Deals 50-50 Attack Cold Damage",
+      "+12% additional Shadow Damage for nearby allies for 4 s when this skill hits",
+      "+1 to Shadow Quantity for this skill",
+      "Casts this skill to thrust forward, dealing 50-50 Attack Cold Damage",
+      "Fires 2 Icy Blades on hit, dealing 50-50 Attack Cold Damage",
+      "Enemy Frostbite Rating increases this skill's damage and Icy Blade Quantity",
+      "+12% additional Shadow Damage for nearby allies for 4 s when this skill hits",
+      "+1 to Shadow Quantity for this skill",
+      "<Random Support Skill>",
+      "<Random Support Skill>",
+      "<Empty Support Skill Slot or Random Support Skill>"
+     ],
+     "name": "Tartarus: Frost Spike III",
+     "key": "Tartarus_Frost_Spike_III"
+    },
+    {
+     "lines": [
+      "Casts this skill to create a Water Area at the target location. Spell Skills of the allies within the Water Area have a +20% chance to deal Double Damage",
+      "The Water Area erupts 1 Torrent(s) every 0.7s beneath enemies, dealing 50-50 Spell Cold Damage",
+      "Water Area:",
+      "Allies' Spell Skills have a +20% chance to deal Double Damage",
+      "Erupts 1 Torrent(s) every 0.7s",
+      "Lasts 6s",
+      "Torrent:",
+      "Deals 50-50 Spell Cold Damage"
+     ],
+     "name": "Tartarus: Tidewell I",
+     "key": "Tartarus_Tidewell_I"
+    },
+    {
+     "lines": [
+      "Casts this skill to create a Water Area at the target location. Spell Skills of the allies within the Water Area have a +20% chance to deal Double Damage",
+      "The Water Area erupts 1 Torrent(s) every 0.7s beneath enemies, dealing 50-50 Spell Cold Damage",
+      "Water Area:",
+      "Allies' Spell Skills have a +20% chance to deal Double Damage",
+      "Erupts 1 Torrent(s) every 0.7s",
+      "Lasts 6s",
+      "Torrent:",
+      "Deals 50-50 Spell Cold Damage",
+      "<Random Support Skill>"
+     ],
+     "name": "Tartarus: Tidewell II",
+     "key": "Tartarus_Tidewell_II"
+    },
+    {
+     "lines": [
+      "Casts this skill to create a Water Area at the target location. Spell Skills of the allies within the Water Area have a +20% chance to deal Double Damage",
+      "The Water Area erupts 1 Torrent(s) every 0.7s beneath enemies, dealing 50-50 Spell Cold Damage",
+      "Water Area:",
+      "Allies' Spell Skills have a +20% chance to deal Double Damage",
+      "Erupts 1 Torrent(s) every 0.7s",
+      "Lasts 6s",
+      "Torrent:",
+      "Deals 50-50 Spell Cold Damage",
+      "<Random Support Skill>",
+      "<Random Support Skill>",
+      "<Empty Support Skill Slot or Random Support Skill>"
+     ],
+     "name": "Tartarus: Tidewell III",
+     "key": "Tartarus_Tidewell_III"
+    },
+    {
+     "lines": [
+      "Casts this skill to fire 3 Lightning Beams forward, striking enemies in their range and dealing 50-50 Spell Lightning Damage on hit",
+      "5% additional Spell Damage taken by enemies (multiplies) for each time this skill hits recently. Stacks up to 2 time(s)",
+      "Lightning Beam:",
+      "Deals 50-50 Spell Lightning Damage",
+      "+5% additional Spell Damage taken by enemies (multiplies) for each time this skill hits recently. Stacks up to 2 time(s)"
+     ],
+     "name": "Tartarus: Lightning Beam I",
+     "key": "Tartarus_Lightning_Beam_I"
+    },
+    {
+     "lines": [
+      "Casts this skill to fire 3 Lightning Beams forward, striking enemies in their range and dealing 50-50 Spell Lightning Damage on hit",
+      "5% additional Spell Damage taken by enemies (multiplies) for each time this skill hits recently. Stacks up to 2 time(s)",
+      "Lightning Beam:",
+      "Deals 50-50 Spell Lightning Damage",
+      "+5% additional Spell Damage taken by enemies (multiplies) for each time this skill hits recently. Stacks up to 2 time(s)",
+      "<Random Support Skill>"
+     ],
+     "name": "Tartarus: Lightning Beam II",
+     "key": "Tartarus_Lightning_Beam_II"
+    },
+    {
+     "lines": [
+      "Casts this skill to fire 3 Lightning Beams forward, striking enemies in their range and dealing 50-50 Spell Lightning Damage on hit",
+      "5% additional Spell Damage taken by enemies (multiplies) for each time this skill hits recently. Stacks up to 2 time(s)",
+      "Lightning Beam:",
+      "Deals 50-50 Spell Lightning Damage",
+      "+5% additional Spell Damage taken by enemies (multiplies) for each time this skill hits recently. Stacks up to 2 time(s)",
+      "<Random Support Skill>",
+      "<Random Support Skill>",
+      "<Empty Support Skill Slot or Random Support Skill>"
+     ],
+     "name": "Tartarus: Lightning Beam III",
+     "key": "Tartarus_Lightning_Beam_III"
+    },
+    {
+     "lines": [
+      "Casts this skill to fire 1 Projectile forward. The Projectile generates an area centered on itself that follows its movement. While inside this area, allies gain Euphoria: +8% additional Damage Over Time",
+      "The Projectile continuously tracks Elites and attaches itself to the tracked target upon reaching it. After that target is defeated, the Projectile will track another target",
+      "The Flying Speed of the Projectile is 100% of the caster's Movement Speed. The Projectile lasts 4s",
+      "Star Stalker:",
+      "Casts this skill to fire 1 Projectile forward. The Projectile generates an area centered on itself that follows its movement",
+      "The Projectile continuously tracks Elites and attaches itself to the tracked target upon reaching it. After that target is defeated, the Projectile will track another target",
+      "While inside the area, allies gain Euphoria:",
+      "+8% additional Damage Over Time",
+      "The Flying Speed of the Projectile is 100% of this unit's Movement Speed",
+      "The Projectile lasts 4s",
+      "The Projectiles launched by this skill are not affected by Penetrate, Jump, or Return effects"
+     ],
+     "name": "Tartarus: Star Stalker I",
+     "key": "Tartarus_Star_Stalker_I"
+    },
+    {
+     "lines": [
+      "Casts this skill to fire 1 Projectile forward. The Projectile generates an area centered on itself that follows its movement. While inside this area, allies gain Euphoria: +8% additional Damage Over Time",
+      "The Projectile continuously tracks Elites and attaches itself to the tracked target upon reaching it. After that target is defeated, the Projectile will track another target",
+      "The Flying Speed of the Projectile is 100% of the caster's Movement Speed. The Projectile lasts 4s",
+      "Star Stalker:",
+      "Casts this skill to fire 1 Projectile forward. The Projectile generates an area centered on itself that follows its movement",
+      "The Projectile continuously tracks Elites and attaches itself to the tracked target upon reaching it. After that target is defeated, the Projectile will track another target",
+      "While inside the area, allies gain Euphoria:",
+      "+8% additional Damage Over Time",
+      "The Flying Speed of the Projectile is 100% of this unit's Movement Speed",
+      "The Projectile lasts 4s",
+      "The Projectiles launched by this skill are not affected by Penetrate, Jump, or Return effects",
+      "<Random Support Skill>"
+     ],
+     "name": "Tartarus: Star Stalker II",
+     "key": "Tartarus_Star_Stalker_II"
+    },
+    {
+     "lines": [
+      "Casts this skill to fire 1 Projectile forward. The Projectile generates an area centered on itself that follows its movement. While inside this area, allies gain Euphoria: +8% additional Damage Over Time",
+      "The Projectile continuously tracks Elites and attaches itself to the tracked target upon reaching it. After that target is defeated, the Projectile will track another target",
+      "The Flying Speed of the Projectile is 100% of the caster's Movement Speed. The Projectile lasts 4s",
+      "Star Stalker:",
+      "Casts this skill to fire 1 Projectile forward. The Projectile generates an area centered on itself that follows its movement",
+      "The Projectile continuously tracks Elites and attaches itself to the tracked target upon reaching it. After that target is defeated, the Projectile will track another target",
+      "While inside the area, allies gain Euphoria:",
+      "+8% additional Damage Over Time",
+      "The Flying Speed of the Projectile is 100% of this unit's Movement Speed",
+      "The Projectile lasts 4s",
+      "The Projectiles launched by this skill are not affected by Penetrate, Jump, or Return effects",
+      "<Random Support Skill>",
+      "<Random Support Skill>",
+      "<Empty Support Skill Slot or Random Support Skill>"
+     ],
+     "name": "Tartarus: Star Stalker III",
+     "key": "Tartarus_Star_Stalker_III"
+    }
+   ]
+  },
+  {
+   "card": "Tartarus Skill",
+   "tab": "TartarusSkill_ManualRule",
+   "text": [
+    "Tartarus Skills can only be equipped by Followers. They generate with random affixes, and can have affixes added to them through Crafting.",
+    "Tartarus Skills are skills that can only be equipped by Followers.",
+    "Tartarus Skills generate with random affixes.",
+    "Some Tartarus Skills can have affixes added to them through Crafting."
+   ]
+  }
+ ]
+}

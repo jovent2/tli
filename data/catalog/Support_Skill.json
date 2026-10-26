@@ -1,0 +1,2944 @@
+{
+ "page": "Support_Skill",
+ "cards": [
+  {
+   "card": "Support Skill Tag",
+   "tab": "SupportSkillTag",
+   "entries": [
+    {
+     "lines": [
+      "Projectile, Support"
+     ],
+     "name": "Multiple Projectiles",
+     "key": "Multiple_Projectiles",
+     "icon": "IconSupportExtraProjectiles128"
+    },
+    {
+     "lines": [
+      "Attack, Support"
+     ],
+     "name": "Multistrike",
+     "key": "Multistrike",
+     "icon": "IconSupportMultistrike128"
+    },
+    {
+     "lines": [
+      "Projectile, Support, Parabolic"
+     ],
+     "name": "Projectile Split",
+     "key": "Projectile_Split",
+     "icon": "IconSupportSplit128"
+    },
+    {
+     "lines": [
+      "Area, Support"
+     ],
+     "name": "Increased Area",
+     "key": "Increased_Area",
+     "icon": "IconSupportIncreasedArea128"
+    },
+    {
+     "lines": [
+      "Attack, Melee, Support"
+     ],
+     "name": "Melee Knockback",
+     "key": "Melee_Knockback",
+     "icon": "IconSupportMeleeKnockback128"
+    },
+    {
+     "lines": [
+      "Support, Spell"
+     ],
+     "name": "Overload",
+     "key": "Overload",
+     "icon": "UISkillOverloadIcon128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Tendonslicer",
+     "key": "Tendonslicer",
+     "icon": "UISkillHighEnergyCrashIcon128"
+    },
+    {
+     "lines": [
+      "Support, Cold"
+     ],
+     "name": "Glacial Freeze",
+     "key": "Glacial_Freeze",
+     "icon": "IconSupportFrozen128"
+    },
+    {
+     "lines": [
+      "Support, Fire"
+     ],
+     "name": "Additional Ignite",
+     "key": "Additional_Ignite",
+     "icon": "IconSupportRekindle128"
+    },
+    {
+     "lines": [
+      "Support, Lightning"
+     ],
+     "name": "High Voltage",
+     "key": "High_Voltage",
+     "icon": "IconSupportHighVoltage128"
+    },
+    {
+     "lines": [
+      "Mobility, Support"
+     ],
+     "name": "Quick Mobility",
+     "key": "Quick_Mobility",
+     "icon": "IconSupportFasterTravel128"
+    },
+    {
+     "lines": [
+      "Persistent, Support"
+     ],
+     "name": "Extended Duration",
+     "key": "Extended_Duration",
+     "icon": "IconSupportIncreasedDuration128"
+    },
+    {
+     "lines": [
+      "Spell, Area, Support"
+     ],
+     "name": "Spell Concentration",
+     "key": "Spell_Concentration",
+     "icon": "IconSupportSpellConcentration128"
+    },
+    {
+     "lines": [
+      "Erosion, Support"
+     ],
+     "name": "Added Erosion Damage",
+     "key": "Added_Erosion_Damage",
+     "icon": "IconSupportAddedChaosDamage128"
+    },
+    {
+     "lines": [
+      "Support"
+     ],
+     "name": "Critical Strike Rating Increase",
+     "key": "Critical_Strike_Rating_Increase",
+     "icon": "IconSupportIncreasedCriticalRate128"
+    },
+    {
+     "lines": [
+      "Support"
+     ],
+     "name": "Critical Strike Damage Increase",
+     "key": "Critical_Strike_Damage_Increase",
+     "icon": "IconSupportIncreasedCriticalDamage128"
+    },
+    {
+     "lines": [
+      "Support, Physical, Fire"
+     ],
+     "name": "Physical to Fire",
+     "key": "Physical_to_Fire",
+     "icon": "IconSupportPhysicalToFire128"
+    },
+    {
+     "lines": [
+      "Support, Lightning, Cold"
+     ],
+     "name": "Lightning to Cold",
+     "key": "Lightning_to_Cold",
+     "icon": "IconSupportLightningToIce128"
+    },
+    {
+     "lines": [
+      "Support, Physical"
+     ],
+     "name": "Deep Wounds",
+     "key": "Deep_Wounds",
+     "icon": "IconSupportDeeperWound128"
+    },
+    {
+     "lines": [
+      "Support, Erosion"
+     ],
+     "name": "Improved Corrosion",
+     "key": "Improved_Corrosion",
+     "icon": "IconSupportHypertoxin128"
+    },
+    {
+     "lines": [
+      "Support, Erosion"
+     ],
+     "name": "Passivation",
+     "key": "Passivation",
+     "icon": "UISkillPassivationIcon128"
+    },
+    {
+     "lines": [
+      "Support"
+     ],
+     "name": "Quick Decision",
+     "key": "Quick_Decision",
+     "icon": "IconSupportFasterCasting128"
+    },
+    {
+     "lines": [
+      "Support"
+     ],
+     "name": "Cost Conversion",
+     "key": "Cost_Conversion",
+     "icon": "UISkillIconSupportBloodMagicIcon128"
+    },
+    {
+     "lines": [
+      "Projectile, Support, Chain, Horizontal"
+     ],
+     "name": "Jump",
+     "key": "Jump",
+     "icon": "IconSupportBounce128"
+    },
+    {
+     "lines": [
+      "Persistent, Support"
+     ],
+     "name": "Shortened Duration",
+     "key": "Shortened_Duration",
+     "icon": "IconSupportLessDuration128"
+    },
+    {
+     "lines": [
+      "Fire, Support"
+     ],
+     "name": "Added Fire Damage",
+     "key": "Added_Fire_Damage",
+     "icon": "IconSupportAddedFireDamage128"
+    },
+    {
+     "lines": [
+      "Cold, Support"
+     ],
+     "name": "Added Cold Damage",
+     "key": "Added_Cold_Damage",
+     "icon": "IconSupportAddedIceDamage128"
+    },
+    {
+     "lines": [
+      "Lightning, Support"
+     ],
+     "name": "Added Lightning Damage",
+     "key": "Added_Lightning_Damage",
+     "icon": "IconSupportAddedLightningDamage128"
+    },
+    {
+     "lines": [
+      "Spell, Support"
+     ],
+     "name": "Control Spell",
+     "key": "Control_Spell",
+     "icon": "IconSupportControlledSpell128"
+    },
+    {
+     "lines": [
+      "Support, Fire, Lightning, Cold"
+     ],
+     "name": "Elemental Fusion",
+     "key": "Elemental_Fusion",
+     "icon": "IconSupportElemetalFocus128"
+    },
+    {
+     "lines": [
+      "Attack, Support"
+     ],
+     "name": "Recklessness",
+     "key": "Recklessness",
+     "icon": "UISkillSlaughterIcon128"
+    },
+    {
+     "lines": [
+      "Projectile, Support"
+     ],
+     "name": "Slow Projectile",
+     "key": "Slow_Projectile",
+     "icon": "IconSupportSlowerProjectiles128"
+    },
+    {
+     "lines": [
+      "Spell, Support"
+     ],
+     "name": "Grudge",
+     "key": "Grudge",
+     "icon": "UISkillGrudgeIcon128"
+    },
+    {
+     "lines": [
+      "Projectile, Support, Horizontal"
+     ],
+     "name": "Projectile Penetration",
+     "key": "Projectile_Penetration",
+     "icon": "IconSupportPierce128"
+    },
+    {
+     "lines": [
+      "Attack, Melee, Area, Support"
+     ],
+     "name": "Steamroll",
+     "key": "Steamroll",
+     "icon": "IconSupportCrush128"
+    },
+    {
+     "lines": [
+      "Persistent, Support"
+     ],
+     "name": "Cataclysm",
+     "key": "Cataclysm",
+     "icon": "IconSupportCatalyst128"
+    },
+    {
+     "lines": [
+      "Support, Attack, Projectile"
+     ],
+     "name": "Hunting Tempo",
+     "key": "Hunting_Tempo",
+     "icon": "UISkillEmergencyStopShotIcon128"
+    },
+    {
+     "lines": [
+      "Support, Spell, Sentry"
+     ],
+     "name": "Multifaceted Guard",
+     "key": "Multifaceted_Guard",
+     "icon": "UISkillMultifacetedGuardIcon128"
+    },
+    {
+     "lines": [
+      "Support, Spell, Sentry"
+     ],
+     "name": "Sentry Modification",
+     "key": "Sentry_Modification",
+     "icon": "UISkillModifiedSentinelIcon128"
+    },
+    {
+     "lines": [
+      "Fire, Support"
+     ],
+     "name": "Fire Explosion",
+     "key": "Fire_Explosion",
+     "icon": "IconSupportFireBurst128"
+    },
+    {
+     "lines": [
+      "Support, Projectile, Vertical"
+     ],
+     "name": "Nova Shot",
+     "key": "Nova_Shot",
+     "icon": "UISkillLobIcon128"
+    },
+    {
+     "lines": [
+      "Area, Support, Attack, Melee"
+     ],
+     "name": "Precision Strike",
+     "key": "Precision_Strike",
+     "icon": "IconSkillFlameBlast128"
+    },
+    {
+     "lines": [
+      "Attack, Melee, Shadow Strike, Support"
+     ],
+     "name": "Haunt",
+     "key": "Haunt",
+     "icon": "UISkillIconSupportPhantomStabIcon128"
+    },
+    {
+     "lines": [
+      "Support, Channeled"
+     ],
+     "name": "Guard",
+     "key": "Guard",
+     "icon": "UISkillIconSupportProtectWhenChannelingIcon128"
+    },
+    {
+     "lines": [
+      "Support, Channeled"
+     ],
+     "name": "Channel Preparation",
+     "key": "Channel_Preparation",
+     "icon": "UISkillIconSupportPreparedChannelingIcon128"
+    },
+    {
+     "lines": [
+      "Support, Attack, Melee, Slash-Strike"
+     ],
+     "name": "Raging Slash",
+     "key": "Raging_Slash",
+     "icon": "UISkillFurySlahIcon128"
+    },
+    {
+     "lines": [
+      "Support, Attack, Melee, Demolisher"
+     ],
+     "name": "Quick Return",
+     "key": "Quick_Return",
+     "icon": "UISkillFastReturnIcon128"
+    },
+    {
+     "lines": [
+      "Support"
+     ],
+     "name": "Restrain",
+     "key": "Restrain",
+     "icon": "IconSupportEnlightenment128"
+    },
+    {
+     "lines": [
+      "Support, Attack"
+     ],
+     "name": "Attack Focus",
+     "key": "Attack_Focus",
+     "icon": "IconSupportAttackFocusing128"
+    },
+    {
+     "lines": [
+      "Projectile, Support"
+     ],
+     "name": "Wind Projectiles",
+     "key": "Wind_Projectiles",
+     "icon": "IconSupportWindShoot128"
+    },
+    {
+     "lines": [
+      "Support, Persistent"
+     ],
+     "name": "Pain Amplification",
+     "key": "Pain_Amplification",
+     "icon": "UISkillIconSupportPainIntensifyIcon128"
+    },
+    {
+     "lines": [
+      "Support"
+     ],
+     "name": "Blind",
+     "key": "Blind",
+     "icon": "IconSupportBlind128"
+    },
+    {
+     "lines": [
+      "Support, Lightning"
+     ],
+     "name": "Electric Punishment",
+     "key": "Electric_Punishment",
+     "icon": "IconSupportConduction128"
+    },
+    {
+     "lines": [
+      "Support"
+     ],
+     "name": "Ailment Termination",
+     "key": "Ailment_Termination",
+     "icon": "IconSupportAilmentFinish128"
+    },
+    {
+     "lines": [
+      "Support"
+     ],
+     "name": "Enhanced Ailment",
+     "key": "Enhanced_Ailment",
+     "icon": "IconSupportAilmentEnhance128"
+    },
+    {
+     "lines": [
+      "Physical, Support"
+     ],
+     "name": "Added Physical Damage",
+     "key": "Added_Physical_Damage",
+     "icon": "UISkillAddedPhysicalDamageIcon128"
+    },
+    {
+     "lines": [
+      "Support"
+     ],
+     "name": "Cooldown Reduction",
+     "key": "Cooldown_Reduction",
+     "icon": "IconSupportCooldownReduce128"
+    },
+    {
+     "lines": [
+      "Restoration, Support"
+     ],
+     "name": "Emergency restoration",
+     "key": "Emergency_restoration",
+     "icon": "UISkillIconSupportEmergentRecoverIcon128"
+    },
+    {
+     "lines": [
+      "Restoration, Support"
+     ],
+     "name": "Instant restoration",
+     "key": "Instant_restoration",
+     "icon": "UISkillIconSupportInstantRecoverIcon128"
+    },
+    {
+     "lines": [
+      "Support, Terra"
+     ],
+     "name": "Ground Divide",
+     "key": "Ground_Divide",
+     "icon": "UISkillAreaSplitIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Support, Beam"
+     ],
+     "name": "Scattershot Beam",
+     "key": "Scattershot_Beam",
+     "icon": "UISkillSplitRayIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Support, Beam"
+     ],
+     "name": "Focused Beam",
+     "key": "Focused_Beam",
+     "icon": "UISkillConcentratedRayIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Support, Beam"
+     ],
+     "name": "Refracted Prism",
+     "key": "Refracted_Prism",
+     "icon": "UISkillRefractionRayIcon128"
+    },
+    {
+     "lines": [
+      "Summon, Support"
+     ],
+     "name": "Servant Damage",
+     "key": "Servant_Damage",
+     "icon": "UISkillIconSupportMinionDamageIcon128"
+    },
+    {
+     "lines": [
+      "Summon, Support"
+     ],
+     "name": "Servant Life",
+     "key": "Servant_Life",
+     "icon": "UISkillIconSupportMinionHealthIcon128"
+    },
+    {
+     "lines": [
+      "Summon, Support, Spirit Magus"
+     ],
+     "name": "Elemental Duo",
+     "key": "Elemental_Duo",
+     "icon": "UISkillIconSupportElementalDoubleIcon128"
+    },
+    {
+     "lines": [
+      "Summon, Support, Synthetic Troop"
+     ],
+     "name": "Maniacal Army",
+     "key": "Maniacal_Army",
+     "icon": "UISkillIconSupportRabidArmyIcon128"
+    },
+    {
+     "lines": [
+      "Summon, Support, Synthetic Troop"
+     ],
+     "name": "Mechanical Modification",
+     "key": "Mechanical_Modification",
+     "icon": "UISkillIconSupportMachineReformIcon128"
+    },
+    {
+     "lines": [
+      "Summon, Support, Synthetic Troop"
+     ],
+     "name": "Assault Command",
+     "key": "Assault_Command",
+     "icon": "UISkillIconSupportAttackCommandIcon128"
+    },
+    {
+     "lines": [
+      "Summon, Support, Synthetic Troop"
+     ],
+     "name": "Defense Form",
+     "key": "Defense_Form",
+     "icon": "UISkillIconSupportDefendStanceIcon128"
+    },
+    {
+     "lines": [
+      "Support, Empower"
+     ],
+     "name": "Well-Fought Battle",
+     "key": "Well-Fought_Battle",
+     "icon": "UISkillBathInBloodIcon128"
+    },
+    {
+     "lines": [
+      "Support, Restoration"
+     ],
+     "name": "Fragile Resurrection",
+     "key": "Fragile_Resurrection",
+     "icon": "UISkillFragileResurrectionIcon128"
+    },
+    {
+     "lines": [
+      "Support, Restoration"
+     ],
+     "name": "Residues",
+     "key": "Residues",
+     "icon": "UISkillMedicineResidueIcon128"
+    },
+    {
+     "lines": [
+      "Support, Defensive"
+     ],
+     "name": "All In",
+     "key": "All_In",
+     "icon": "UISkillAtADashIcon128"
+    },
+    {
+     "lines": [
+      "Support, Defensive"
+     ],
+     "name": "Iron Fortification",
+     "key": "Iron_Fortification",
+     "icon": "UISkillArmourStillIcon128"
+    },
+    {
+     "lines": [
+      "Support, Mobility"
+     ],
+     "name": "Emergency Avoidance",
+     "key": "Emergency_Avoidance",
+     "icon": "UISkillEmergencyAvoidanceIcon128"
+    },
+    {
+     "lines": [
+      "Support, Warcry"
+     ],
+     "name": "Concentration Warcry",
+     "key": "Concentration_Warcry",
+     "icon": "UISkillTogatherBattleCryIcon128"
+    },
+    {
+     "lines": [
+      "Support, Warcry"
+     ],
+     "name": "Lion's Roars",
+     "key": "Lions_Roars",
+     "icon": "UISkillAgainBattleCryIcon128"
+    },
+    {
+     "lines": [
+      "Support, Mobility"
+     ],
+     "name": "Periodic Burst",
+     "key": "Periodic_Burst",
+     "icon": "UISkillIntermittentBurstsIcon128"
+    },
+    {
+     "lines": [
+      "Support, Curse"
+     ],
+     "name": "Terrain of Malice",
+     "key": "Terrain_of_Malice",
+     "icon": "UISkillCurseAreaIcon128"
+    },
+    {
+     "lines": [
+      "Support, Lightning"
+     ],
+     "name": "Electric Overload",
+     "key": "Electric_Overload",
+     "icon": "UISkillLightingTreatIcon128"
+    },
+    {
+     "lines": [
+      "Support"
+     ],
+     "name": "Elemental Impact",
+     "key": "Elemental_Impact",
+     "icon": "UISkillElementBlastIcon128"
+    },
+    {
+     "lines": [
+      "Support, Barrage"
+     ],
+     "name": "Carpet Bombardment",
+     "key": "Carpet_Bombardment",
+     "icon": "UISkillIncessantlyIcon128"
+    },
+    {
+     "lines": [
+      "Support, Empower"
+     ],
+     "name": "Mass Effect",
+     "key": "Mass_Effect",
+     "icon": "UISkillMassEffectIcon128"
+    },
+    {
+     "lines": [
+      "Support, Defensive"
+     ],
+     "name": "Defense Layers",
+     "key": "Defense_Layers",
+     "icon": "UISkillMultiLayeredDefenseIcon128"
+    },
+    {
+     "lines": [
+      "Support, Focus"
+     ],
+     "name": "Focus Acceleration",
+     "key": "Focus_Acceleration",
+     "icon": "UISkillEnhanceBenefitIcon128"
+    },
+    {
+     "lines": [
+      "Support, Focus"
+     ],
+     "name": "Focus Buff",
+     "key": "Focus_Buff",
+     "icon": "UISkillEnhanceDamageIcon128"
+    },
+    {
+     "lines": [
+      "Support"
+     ],
+     "name": "Seal Conversion",
+     "key": "Seal_Conversion",
+     "icon": "UISkillIconSupportBloodMagicIcon128"
+    },
+    {
+     "lines": [
+      "Support, Spell"
+     ],
+     "name": "Psychic Burst",
+     "key": "Psychic_Burst",
+     "icon": "UISkillSurgeIcon128"
+    },
+    {
+     "lines": [
+      "Support, Mobility"
+     ],
+     "name": "Magic Dash",
+     "key": "Magic_Dash",
+     "icon": "UISkillAccelerateAfterSpellIcon128"
+    },
+    {
+     "lines": [
+      "Support, Spell, Mobility"
+     ],
+     "name": "Psychic Surge",
+     "key": "Psychic_Surge",
+     "icon": "UISkillSpellFallIcon128"
+    },
+    {
+     "lines": [
+      "Summon, Support, Spirit Magus"
+     ],
+     "name": "Savage Growth",
+     "key": "Savage_Growth",
+     "icon": "UISkillBrutalGrowthIcon128"
+    },
+    {
+     "lines": [
+      "Summon, Support, Spirit Magus"
+     ],
+     "name": "Harvest Time",
+     "key": "Harvest_Time",
+     "icon": "UISkillHarvestTimeIcon128"
+    },
+    {
+     "lines": [
+      "Support"
+     ],
+     "name": "Preparation",
+     "key": "Preparation",
+     "icon": "UISkillIconSkillBarrierDetonateIcon128"
+    },
+    {
+     "lines": [
+      "Mobility, Support"
+     ],
+     "name": "Charge",
+     "key": "Charge",
+     "icon": "UISkillGatheringIcon128"
+    },
+    {
+     "lines": [
+      "Warcry, Support"
+     ],
+     "name": "Gladiator's Roar",
+     "key": "Gladiators_Roar",
+     "icon": "UISkillGladiatorialRoarIcon128"
+    },
+    {
+     "lines": [
+      "Support, Aura"
+     ],
+     "name": "Aura Amplification",
+     "key": "Aura_Amplification",
+     "icon": "UISkillAuraEnhanceIcon128"
+    },
+    {
+     "lines": [
+      "Summon, Support, Spirit Magus"
+     ],
+     "name": "Friend of Spirit Magi",
+     "key": "Friend_of_Spirit_Magi",
+     "icon": "UISkillFriendsOfSpiritMagusIcon128"
+    },
+    {
+     "lines": [
+      "Summon, Support, Spirit Magus"
+     ],
+     "name": "Protection Field",
+     "key": "Protection_Field",
+     "icon": "UISkillIconSkillFieldOfShieldIcon128"
+    },
+    {
+     "lines": [
+      "Support, Elixir"
+     ],
+     "name": "Hyper Metabolism",
+     "key": "Hyper_Metabolism",
+     "icon": "UISkillAutoChargeIcon128"
+    },
+    {
+     "lines": [
+      "Support, Elixir"
+     ],
+     "name": "Emergency Aid",
+     "key": "Emergency_Aid",
+     "icon": "UISkillEmergentChargeIcon128"
+    },
+    {
+     "lines": [
+      "Support, Elixir"
+     ],
+     "name": "Medicinal Buildup",
+     "key": "Medicinal_Buildup",
+     "icon": "UISkillPerfusedChargeIcon128"
+    },
+    {
+     "lines": [
+      "Support"
+     ],
+     "name": "Willpower",
+     "key": "Willpower",
+     "icon": "UISkillDeterminationIcon128"
+    },
+    {
+     "lines": [
+      "Support, Combo"
+     ],
+     "name": "Recuperation",
+     "key": "Recuperation",
+     "icon": "UISkillBreathingIcon128"
+    },
+    {
+     "lines": [
+      "Support, Spell"
+     ],
+     "name": "Spell Tangle",
+     "key": "Spell_Tangle",
+     "icon": "UISkillEntanglementIcon128"
+    },
+    {
+     "lines": [
+      "Support, Spell"
+     ],
+     "name": "Manifold Entanglement",
+     "key": "Manifold_Entanglement",
+     "icon": "UISkillMultiEntanglementIcon128"
+    },
+    {
+     "lines": [
+      "Support, Channeled"
+     ],
+     "name": "Channeled Depths",
+     "key": "Channeled_Depths",
+     "icon": "UISkillDeepChannelingIcon128"
+    },
+    {
+     "lines": [
+      "Support, Spell"
+     ],
+     "name": "Turmoil Burst",
+     "key": "Turmoil_Burst",
+     "icon": "UISkillChaosBurstIcon128"
+    },
+    {
+     "lines": [
+      "Support, Spell"
+     ],
+     "name": "Tangle Surge",
+     "key": "Tangle_Surge",
+     "icon": "UISkillEntangledMightIcon128"
+    },
+    {
+     "lines": [
+      "Support"
+     ],
+     "name": "Elemental Conversion",
+     "key": "Elemental_Conversion",
+     "icon": "UISkillMultiformConversionIcon128"
+    },
+    {
+     "lines": [
+      "Support, Cold"
+     ],
+     "name": "Frostbloom",
+     "key": "Frostbloom",
+     "icon": "UISkillFrostBloomIcon128"
+    },
+    {
+     "lines": [
+      "Support, Fire"
+     ],
+     "name": "Blazing Scorch",
+     "key": "Blazing_Scorch",
+     "icon": "UISkillBlazingBurnIcon128"
+    },
+    {
+     "lines": [
+      "Support, Erosion"
+     ],
+     "name": "Rising Evil",
+     "key": "Rising_Evil",
+     "icon": "UISkillVileGrowthIcon128"
+    },
+    {
+     "lines": [
+      "Support"
+     ],
+     "name": "Honed Edge",
+     "key": "Honed_Edge",
+     "icon": "UISkillHonedBladeIcon128"
+    },
+    {
+     "lines": [
+      "Support"
+     ],
+     "name": "Vigilant Guard",
+     "key": "Vigilant_Guard",
+     "icon": "UISkillVigilantGuardIcon128"
+    },
+    {
+     "lines": [
+      "Support"
+     ],
+     "name": "Dual Onslaught",
+     "key": "Dual_Onslaught",
+     "icon": "UISkillTwinEdgeShiftIcon128"
+    },
+    {
+     "lines": [
+      "Support"
+     ],
+     "name": "Blessed Leap",
+     "key": "Blessed_Leap",
+     "icon": "UISkillAgileLeapIcon128"
+    },
+    {
+     "lines": [
+      "Support"
+     ],
+     "name": "Phantom Trace",
+     "key": "Phantom_Trace",
+     "icon": "UISkillPhantomTrailIcon128"
+    },
+    {
+     "lines": [
+      "Support"
+     ],
+     "name": "Mana Convergence",
+     "key": "Mana_Convergence",
+     "icon": "UISkillManaFocusIcon128"
+    },
+    {
+     "lines": [
+      "Support"
+     ],
+     "name": "Vigor Restitution",
+     "key": "Vigor_Restitution",
+     "icon": "UISkillVitalityRepaidIcon128"
+    },
+    {
+     "lines": [
+      "Support"
+     ],
+     "name": "Exhaustion",
+     "key": "Exhaustion",
+     "icon": "UISkillExhaustionIcon128"
+    },
+    {
+     "lines": [
+      "Support"
+     ],
+     "name": "Sluggish",
+     "key": "Sluggish",
+     "icon": "UISkillSlowingIcon128"
+    },
+    {
+     "lines": [
+      "Support, Demolisher"
+     ],
+     "name": "Still Charge",
+     "key": "Still_Charge",
+     "icon": "UISkillStillnessChargeIcon128"
+    },
+    {
+     "lines": [
+      "Support, Channeled"
+     ],
+     "name": "Empowered Channeling",
+     "key": "Empowered_Channeling",
+     "icon": "UISkillChannelingBoostIcon128"
+    },
+    {
+     "lines": [
+      "Support, Projectile"
+     ],
+     "name": "Target Projection",
+     "key": "Target_Projection",
+     "icon": "UISkillTargetedProjectileIcon128"
+    },
+    {
+     "lines": [
+      "Support, Projectile"
+     ],
+     "name": "Windbolt",
+     "key": "Windbolt",
+     "icon": "UISkillWindborneMissileIcon128"
+    },
+    {
+     "lines": [
+      "Support, Combo"
+     ],
+     "name": "Finisher Combo",
+     "key": "Finisher_Combo",
+     "icon": "UISkillFinishingLinkIcon128"
+    },
+    {
+     "lines": [
+      "Support, Spell"
+     ],
+     "name": "Empowered Insight",
+     "key": "Empowered_Insight",
+     "icon": "UISkillForesightIcon128"
+    },
+    {
+     "lines": [
+      "Support, Spell"
+     ],
+     "name": "Swiftstep Spell",
+     "key": "Swiftstep_Spell",
+     "icon": "UISkillMovingSpellIcon128"
+    },
+    {
+     "lines": [
+      "Support, Attack"
+     ],
+     "name": "Seize",
+     "key": "Seize",
+     "icon": "UISkillGraspingForceIcon128"
+    },
+    {
+     "lines": [
+      "Support"
+     ],
+     "name": "Reckless Aggression",
+     "key": "Reckless_Aggression",
+     "icon": "UISkillRecklessAggressionIcon128"
+    },
+    {
+     "lines": [
+      "Support"
+     ],
+     "name": "Weakness Infiltration",
+     "key": "Weakness_Infiltration",
+     "icon": "UISkillWeaknessPenetrationIcon128"
+    },
+    {
+     "lines": [
+      "Support"
+     ],
+     "name": "Resurgence",
+     "key": "Resurgence",
+     "icon": "UISkillRevivalIcon128"
+    },
+    {
+     "lines": [
+      "Support, Defensive"
+     ],
+     "name": "Mighty Bulwark",
+     "key": "Mighty_Bulwark",
+     "icon": "UISkillMightyFoeBarrierIcon128"
+    },
+    {
+     "lines": [
+      "Support, Defensive"
+     ],
+     "name": "Dulled Edge",
+     "key": "Dulled_Edge",
+     "icon": "UISkillCriticalGuardIcon128"
+    },
+    {
+     "lines": [
+      "Support, Defensive"
+     ],
+     "name": "Resilient",
+     "key": "Resilient",
+     "icon": "UISkillTenacityIcon128"
+    },
+    {
+     "lines": [
+      "Support, Empower"
+     ],
+     "name": "Thrive in Adversity",
+     "key": "Thrive_in_Adversity",
+     "icon": "UISkillRisingAgainstMightIcon128"
+    },
+    {
+     "lines": [
+      "Support, Empower"
+     ],
+     "name": "Empowered Element",
+     "key": "Empowered_Element",
+     "icon": "UISkillElementalEmpowermentIcon128"
+    },
+    {
+     "lines": [
+      "Support, Warcry"
+     ],
+     "name": "Inspiring Warcry",
+     "key": "Inspiring_Warcry",
+     "icon": "UISkillInspiringWarcryIcon128"
+    },
+    {
+     "lines": [
+      "Support, Curse"
+     ],
+     "name": "Deepened Curse",
+     "key": "Deepened_Curse",
+     "icon": "UISkillDeepenedCurseIcon128"
+    },
+    {
+     "lines": [
+      "Support"
+     ],
+     "name": "Precise: Seal Conversion",
+     "key": "Precise_Seal_Conversion",
+     "icon": "UISkillIconSupportBloodMagicSpecialIcon128"
+    },
+    {
+     "lines": [
+      "Support, Aura"
+     ],
+     "name": "Precise: Selfless",
+     "key": "Precise_Selfless",
+     "icon": "UISkillIconSupportSelflessSpecialIcon128"
+    },
+    {
+     "lines": [
+      "Support, Aura"
+     ],
+     "name": "Precise: Selfishness",
+     "key": "Precise_Selfishness",
+     "icon": "UISkillIconSupportSelfishSpecialIcon128"
+    },
+    {
+     "lines": [
+      "Support, Aura"
+     ],
+     "name": "Precise: Stand as One",
+     "key": "Precise_Stand_as_One",
+     "icon": "UISkillIconSupportMoreIsGreatSpecialIcon128"
+    },
+    {
+     "lines": [
+      "Support, Aura"
+     ],
+     "name": "Precise: Disciplined",
+     "key": "Precise_Disciplined",
+     "icon": "UISkillSelfDisciplineSpecialIcon128"
+    },
+    {
+     "lines": [
+      "Support, Aura"
+     ],
+     "name": "Precise: Concentrated",
+     "key": "Precise_Concentrated",
+     "icon": "UISkillAuraConcentrateSpecialIcon128"
+    },
+    {
+     "lines": [
+      "Support, Aura"
+     ],
+     "name": "Precise: Malleable",
+     "key": "Precise_Malleable",
+     "icon": "UISkillStrongFaceStrongSpecialIcon128"
+    },
+    {
+     "lines": [
+      "Support, Aura"
+     ],
+     "name": "Precise: Safety in Numbers",
+     "key": "Precise_Safety_in_Numbers",
+     "icon": "UISkillPeopleStrongSpecialIcon128"
+    },
+    {
+     "lines": [
+      "Support, Focus"
+     ],
+     "name": "Precise: Focus Buff",
+     "key": "Precise_Focus_Buff",
+     "icon": "UISkillEnhanceDamageSpecialIcon128"
+    },
+    {
+     "lines": [
+      "Summon, Support, Spirit Magus"
+     ],
+     "name": "Precise: Superpower",
+     "key": "Precise_Superpower",
+     "icon": "UISkillIconSupportSysmbiosisSpecialIcon128"
+    },
+    {
+     "lines": [
+      "Summon, Support, Spirit Magus"
+     ],
+     "name": "Precise: Friend of Spirit Magi",
+     "key": "Precise_Friend_of_Spirit_Magi",
+     "icon": "UISkillFriendsOfSpiritMagusSpecialIcon128"
+    },
+    {
+     "lines": [
+      "Summon, Support, Spirit Magus"
+     ],
+     "name": "Precise: Protection Field",
+     "key": "Precise_Protection_Field",
+     "icon": "UISkillIconSkillFieldOfShieldSpecialIcon128"
+    },
+    {
+     "lines": [
+      "Support"
+     ],
+     "name": "Precise Restrain",
+     "key": "Precise_Restrain",
+     "icon": "IconSupportEnlightenmentSpecial128"
+    },
+    {
+     "lines": [
+      "Support, Restoration"
+     ],
+     "name": "Precise: Harmony",
+     "key": "Precise_Harmony",
+     "icon": "UISkillMixElementSpecialIcon128"
+    },
+    {
+     "lines": [
+      "Support, Restoration"
+     ],
+     "name": "Precise: Purify",
+     "key": "Precise_Purify",
+     "icon": "UISkillPurifySpecialIcon128"
+    }
+   ]
+  },
+  {
+   "card": "Support Skill",
+   "tab": "SupportSkill",
+   "entries": [
+    {
+     "lines": [
+      "Supports Projectile Skills.",
+      "Projectile Quantity of the supported skill +2",
+      "+15% additional damage for the supported skill",
+      "Projectile Quantity of the supported skill +2",
+      "+15% additional damage for the supported skill"
+     ],
+     "name": "Multiple Projectiles",
+     "key": "Multiple_Projectiles"
+    },
+    {
+     "lines": [
+      "Supports Attack Skills. Cannot support Mobility or Channeled Skills.",
+      "+120% chance for the supported skill to trigger Multistrike",
+      "Multistrikes of the supported skill deal 27% increasing damage",
+      "+120% chance for the supported skill to trigger Multistrike",
+      "Multistrikes of the supported skill deal 27% increasing damage"
+     ],
+     "name": "Multistrike",
+     "key": "Multistrike"
+    },
+    {
+     "lines": [
+      "Supports Parabolic Projectile Skills.",
+      "When casting the supported skill, +50% chance to +2 Split Quantity for that cast",
+      "+12% additional damage for the supported skill",
+      "When casting the supported skill, +50% chance to +2 Split Quantity for that cast",
+      "+12% additional damage for the supported skill"
+     ],
+     "name": "Projectile Split",
+     "key": "Projectile_Split"
+    },
+    {
+     "lines": [
+      "Supports Area Skills.",
+      "+20% Skill Area for the supported skill",
+      "19.8% additional damage for the supported skill",
+      "+20% Skill Area for the supported skill",
+      "19.8% additional damage for the supported skill"
+     ],
+     "name": "Increased Area",
+     "key": "Increased_Area"
+    },
+    {
+     "lines": [
+      "Supports Melee Attack Skills.",
+      "+39% Knockback Chance for the supported skill",
+      "+25% additional damage for the supported skill",
+      "+59% Knockback distance for the supported skill",
+      "+39% Knockback Chance for the supported skill",
+      "+25% additional damage for the supported skill",
+      "+59% Knockback distance for the supported skill"
+     ],
+     "name": "Melee Knockback",
+     "key": "Melee_Knockback"
+    },
+    {
+     "lines": [
+      "Supports Spell Skills.",
+      "+4% additional damage for the supported skill for each stack of Focus Blessing, stacking up to 8 time(s)",
+      "+4% additional damage for the supported skill for each stack of Focus Blessing, stacking up to 8 time(s)"
+     ],
+     "name": "Overload",
+     "key": "Overload"
+    },
+    {
+     "lines": [
+      "Supports skills that deal damage.",
+      "+17% additional Physical Damage for the supported skill",
+      "When the supported skill deals damage, there is a 50% chance to inflict a debuff: +10% damage taken by the enemy from the supported skill for 4 s",
+      "+17% additional Physical Damage for the supported skill",
+      "When the supported skill deals damage, there is a 50% chance to inflict a debuff: +10% damage taken by the enemy from the supported skill for 4 s"
+     ],
+     "name": "Tendonslicer",
+     "key": "Tendonslicer"
+    },
+    {
+     "lines": [
+      "Supports skills that deal damage.",
+      "+16% additional Cold Damage for the supported skill",
+      "Inflicts Frostbite when the supported skill deals Hit Cold Damage",
+      "+16% additional Cold Damage for the supported skill",
+      "Inflicts Frostbite when the supported skill deals Hit Cold Damage"
+     ],
+     "name": "Glacial Freeze",
+     "key": "Glacial_Freeze"
+    },
+    {
+     "lines": [
+      "Supports skills that hit enemies.",
+      "The supported skill inflicts 1 additional stack(s) of Ignite",
+      "For each stack of Ignite an enemy has, the supported skill deals +9% additional Ignite Damage to the enemy, up to +27% .",
+      "The supported skill inflicts 1 additional stack(s) of Ignite",
+      "For each stack of Ignite an enemy has, the supported skill deals +9% additional Ignite Damage to the enemy, up to +27% ."
+     ],
+     "name": "Additional Ignite",
+     "key": "Additional_Ignite"
+    },
+    {
+     "lines": [
+      "Supports skills that hit enemies.",
+      "+16% additional Lightning Damage for the supported skill",
+      "Inflicts Numbed when the supported skill deals Hit Lightning Damage",
+      "+16% additional Lightning Damage for the supported skill",
+      "Inflicts Numbed when the supported skill deals Hit Lightning Damage"
+     ],
+     "name": "High Voltage",
+     "key": "High_Voltage"
+    },
+    {
+     "lines": [
+      "Supports Mobility Skills.",
+      "+20% Attack and Cast Speed for the supported skill",
+      "+30% Cooldown Recovery Speed for the supported skill",
+      "+20% Attack and Cast Speed for the supported skill",
+      "+30% Cooldown Recovery Speed for the supported skill"
+     ],
+     "name": "Quick Mobility",
+     "key": "Quick_Mobility"
+    },
+    {
+     "lines": [
+      "Supports Duration Skills.",
+      "22.5% Duration for the supported skill",
+      "22.5% Duration for the supported skill"
+     ],
+     "name": "Extended Duration",
+     "key": "Extended_Duration"
+    },
+    {
+     "lines": [
+      "Supports Area Spell Skills.",
+      "-15% Skill Area for the supported skill",
+      "+30% additional damage for the supported skill",
+      "-15% Skill Area for the supported skill",
+      "+30% additional damage for the supported skill"
+     ],
+     "name": "Spell Concentration",
+     "key": "Spell_Concentration"
+    },
+    {
+     "lines": [
+      "Supports skills that hit enemies.",
+      "Adds 104 - 104 Erosion Damage to the supported skill",
+      "Adds 104 - 104 Erosion Damage to the supported skill"
+     ],
+     "name": "Added Erosion Damage",
+     "key": "Added_Erosion_Damage"
+    },
+    {
+     "lines": [
+      "Supports skills that hit enemies.",
+      "+230% Critical Strike Rating for the supported skill",
+      "+230% Critical Strike Rating for the supported skill"
+     ],
+     "name": "Critical Strike Rating Increase",
+     "key": "Critical_Strike_Rating_Increase"
+    },
+    {
+     "lines": [
+      "Supports skills that hit enemies.",
+      "35.5% additional damage for the supported skill when it lands a Critical Strike",
+      "35.5% additional damage for the supported skill when it lands a Critical Strike"
+     ],
+     "name": "Critical Strike Damage Increase",
+     "key": "Critical_Strike_Damage_Increase"
+    },
+    {
+     "lines": [
+      "Supports skills that hit enemies.",
+      "Converts 100% of the supported skill's Physical Damage to Fire Damage",
+      "Adds 25% of Physical Damage as Fire Damage to the supported skill",
+      "Converts 100% of the supported skill's Physical Damage to Fire Damage",
+      "Adds 25% of Physical Damage as Fire Damage to the supported skill"
+     ],
+     "name": "Physical to Fire",
+     "key": "Physical_to_Fire"
+    },
+    {
+     "lines": [
+      "Supports skills that hit enemies.",
+      "Converts 50% of the supported skill's Lightning Damage to Cold Damage",
+      "+15% additional Lightning Damage for the supported skill",
+      "Converts 50% of the supported skill's Lightning Damage to Cold Damage",
+      "+15% additional Lightning Damage for the supported skill"
+     ],
+     "name": "Lightning to Cold",
+     "key": "Lightning_to_Cold"
+    },
+    {
+     "lines": [
+      "Supports skills that hit enemies.",
+      "16.5% additional Trauma Damage for the supported skill",
+      "+15% chance for the supported skill to inflict Trauma",
+      "16.5% additional Trauma Damage for the supported skill",
+      "+15% chance for the supported skill to inflict Trauma"
+     ],
+     "name": "Deep Wounds",
+     "key": "Deep_Wounds"
+    },
+    {
+     "lines": [
+      "Supports skills that hit enemies.",
+      "32.5% chance for the supported skill to inflict 1 additional stacks of Wilt",
+      "+15% Wilt chance for the supported skill",
+      "32.5% chance for the supported skill to inflict 1 additional stacks of Wilt",
+      "+15% Wilt chance for the supported skill"
+     ],
+     "name": "Improved Corrosion",
+     "key": "Improved_Corrosion"
+    },
+    {
+     "lines": [
+      "Supports skills that deal damage.",
+      "The supported skill cannot inflict Wilt",
+      "The supported skill deals more damage to enemies with more Life, up to +50% additional Erosion Damage",
+      "The supported skill cannot inflict Wilt",
+      "The supported skill deals more damage to enemies with more Life, up to +50% additional Erosion Damage"
+     ],
+     "name": "Passivation",
+     "key": "Passivation"
+    },
+    {
+     "lines": [
+      "Supports Attack Skills or Spell Skills.",
+      "Cannot support Mobility Skills.",
+      "24.5% additional Attack and Cast Speed for the supported skill",
+      "24.5% additional Attack and Cast Speed for the supported skill"
+     ],
+     "name": "Quick Decision",
+     "key": "Quick_Decision"
+    },
+    {
+     "lines": [
+      "Supports Active Skills.",
+      "Replace Mana Cost from the supported skill with Life cost",
+      "Replace Mana Cost from the supported skill with Life cost"
+     ],
+     "name": "Cost Conversion",
+     "key": "Cost_Conversion"
+    },
+    {
+     "lines": [
+      "Supports Horizontal Projectile Skills or Chain Skills.",
+      "+2 Jumps for the supported skill",
+      "7.8% additional damage for the supported skill",
+      "+2 Jumps for the supported skill",
+      "7.8% additional damage for the supported skill"
+     ],
+     "name": "Jump",
+     "key": "Jump"
+    },
+    {
+     "lines": [
+      "Supports Persistent Skills and skills that can inflict Ailment.",
+      "-8.1% Duration for the supported skill",
+      "+27% additional Damage Over Time for the supported skill",
+      "-8.1% Duration for the supported skill",
+      "+27% additional Damage Over Time for the supported skill"
+     ],
+     "name": "Shortened Duration",
+     "key": "Shortened_Duration"
+    },
+    {
+     "lines": [
+      "Supports skills that hit enemies.",
+      "The supported skill adds 73 - 135 Fire Damage",
+      "The supported skill adds 73 - 135 Fire Damage"
+     ],
+     "name": "Added Fire Damage",
+     "key": "Added_Fire_Damage"
+    },
+    {
+     "lines": [
+      "Supports skills that hit enemies.",
+      "Adds 83 - 125 Cold Damage to the supported skill",
+      "Adds 83 - 125 Cold Damage to the supported skill"
+     ],
+     "name": "Added Cold Damage",
+     "key": "Added_Cold_Damage"
+    },
+    {
+     "lines": [
+      "Supports skills that hit enemies.",
+      "The supported skill adds 10 - 198 Lightning Damage",
+      "The supported skill adds 10 - 198 Lightning Damage"
+     ],
+     "name": "Added Lightning Damage",
+     "key": "Added_Lightning_Damage"
+    },
+    {
+     "lines": [
+      "Supports Spell Skills.",
+      "-50% Critical Strike Rating for the supported skill",
+      "+32% additional Hit Damage for the supported skill",
+      "-50% Critical Strike Rating for the supported skill",
+      "+32% additional Hit Damage for the supported skill"
+     ],
+     "name": "Control Spell",
+     "key": "Control_Spell"
+    },
+    {
+     "lines": [
+      "Supports skills that deal damage.",
+      "The supported skill cannot inflict Ignite, Frostbite or Numbed",
+      "+32% additional Elemental Damage for the supported skill",
+      "The supported skill cannot inflict Ignite, Frostbite or Numbed",
+      "+32% additional Elemental Damage for the supported skill"
+     ],
+     "name": "Elemental Fusion",
+     "key": "Elemental_Fusion"
+    },
+    {
+     "lines": [
+      "Supports Attack Skills.",
+      "3% of current Life will be consumed when the supported skill is cast",
+      "0.5% additional damage for the supported skill for every 1% Life lost, up to +26%",
+      "3% of current Life will be consumed when the supported skill is cast",
+      "0.5% additional damage for the supported skill for every 1% Life lost, up to +26%"
+     ],
+     "name": "Recklessness",
+     "key": "Recklessness"
+    },
+    {
+     "lines": [
+      "Supports Projectile Skills.",
+      "-20% additional Projectile Speed for the supported skill",
+      "+28% additional damage for the supported skill",
+      "-20% additional Projectile Speed for the supported skill",
+      "+28% additional damage for the supported skill"
+     ],
+     "name": "Slow Projectile",
+     "key": "Slow_Projectile"
+    },
+    {
+     "lines": [
+      "Supports Spell Skills.",
+      "The supported skill deals +17% additional damage to Cursed enemies",
+      "When the supported skill deals damage to a Cursed target, there is a +50% chance to Paralyze it",
+      "The supported skill deals +17% additional damage to Cursed enemies",
+      "When the supported skill deals damage to a Cursed target, there is a +50% chance to Paralyze it"
+     ],
+     "name": "Grudge",
+     "key": "Grudge"
+    },
+    {
+     "lines": [
+      "Supports Horizontal Projectile Skills.",
+      "+4 Horizontal Projectile Penetration(s) of the supported skill",
+      "+15% additional damage for the supported skill",
+      "+4 Horizontal Projectile Penetration(s) of the supported skill",
+      "+15% additional damage for the supported skill"
+     ],
+     "name": "Projectile Penetration",
+     "key": "Projectile_Penetration"
+    },
+    {
+     "lines": [
+      "Supports Melee Attack Skills.",
+      "+38% additional Melee Damage for the supported skill",
+      "+38% additional Ailment Damage for the supported skill",
+      "-20% Attack Speed for the supported skill",
+      "+38% additional Melee Damage for the supported skill",
+      "+38% additional Ailment Damage for the supported skill",
+      "-20% Attack Speed for the supported skill"
+     ],
+     "name": "Steamroll",
+     "key": "Steamroll"
+    },
+    {
+     "lines": [
+      "Supports skills that deal Damage Over Time or inflict Ailments.",
+      "When the supported skill deals Damage Over Time, it inflicts 8 Affliction on the enemy. Effect Cooldown: 1 s",
+      "Affliction grants an additional +36% effect to the supported skill",
+      "When the supported skill deals Damage Over Time, it inflicts 8 Affliction on the enemy. Effect Cooldown: 1 s",
+      "Affliction grants an additional +36% effect to the supported skill"
+     ],
+     "name": "Cataclysm",
+     "key": "Cataclysm"
+    },
+    {
+     "lines": [
+      "Supports Attack Projectile Skills",
+      "Cannot support Channeled Skills",
+      "30.25% additional damage and +40% Knockback Chance to the next 5 supported skill(s) for every 6 m moved",
+      "30.25% additional damage and +40% Knockback Chance to the next 5 supported skill(s) for every 6 m moved"
+     ],
+     "name": "Hunting Tempo",
+     "key": "Hunting_Tempo"
+    },
+    {
+     "lines": [
+      "Supports Sentry Skills.",
+      "+1 Max Sentries that can be deployed at the same time by the supported skill",
+      "+20% additional damage for the supported skill",
+      "-30% additional Sentry Start Time for the supported skill",
+      "+1 Max Sentries that can be deployed at the same time by the supported skill",
+      "+20% additional damage for the supported skill",
+      "-30% additional Sentry Start Time for the supported skill"
+     ],
+     "name": "Multifaceted Guard",
+     "key": "Multifaceted_Guard"
+    },
+    {
+     "lines": [
+      "Supports Sentry Skills.",
+      "+1 Sentries that can be deployed at a time by the supported skill",
+      "+25% additional Cast Frequency for Sentries deployed by the supported skill",
+      "+1 Sentries that can be deployed at a time by the supported skill",
+      "+25% additional Cast Frequency for Sentries deployed by the supported skill"
+     ],
+     "name": "Sentry Modification",
+     "key": "Sentry_Modification"
+    },
+    {
+     "lines": [
+      "Supports skills that deal damage.",
+      "+25% additional Fire Damage for the supported skill",
+      "+25 Affliction Per Second if the supported skill has dealt damage recently",
+      "+25% additional Fire Damage for the supported skill",
+      "+25 Affliction Per Second if the supported skill has dealt damage recently"
+     ],
+     "name": "Fire Explosion",
+     "key": "Fire_Explosion"
+    },
+    {
+     "lines": [
+      "Supports Vertical Projectile Skills.",
+      "+27% additional damage for the supported skill",
+      "-24.5% Skill Area for the supported skill",
+      "24.5% additional Projectile Speed for the supported skill",
+      "+27% additional damage for the supported skill",
+      "-24.5% Skill Area for the supported skill",
+      "24.5% additional Projectile Speed for the supported skill"
+     ],
+     "name": "Nova Shot",
+     "key": "Nova_Shot"
+    },
+    {
+     "lines": [
+      "Supports Melee Attack Skills.",
+      "-30% Skill Area for the supported skill",
+      "+25% additional Area Damage for the supported skill",
+      "+25% additional Ailment Damage for the supported skill",
+      "+15% Attack Speed for the supported skill",
+      "-30% Skill Area for the supported skill",
+      "+25% additional Area Damage for the supported skill",
+      "+25% additional Ailment Damage for the supported skill",
+      "+15% Attack Speed for the supported skill"
+     ],
+     "name": "Precision Strike",
+     "key": "Precision_Strike"
+    },
+    {
+     "lines": [
+      "Supports Shadow Strike Skills.",
+      "+2 Shadow Quantity for the supported skill",
+      "0.8% additional damage for the supported skill",
+      "+2 Shadow Quantity for the supported skill",
+      "0.8% additional damage for the supported skill"
+     ],
+     "name": "Haunt",
+     "key": "Haunt"
+    },
+    {
+     "lines": [
+      "Supports Channeled Skills.",
+      "+25% additional damage for the supported skill",
+      "Every 5 time(s) the supported skill is used, gains a Barrier if there's no Barrier. Interval: 6 s",
+      "+25% additional damage for the supported skill",
+      "Every 5 time(s) the supported skill is used, gains a Barrier if there's no Barrier. Interval: 6 s"
+     ],
+     "name": "Guard",
+     "key": "Guard"
+    },
+    {
+     "lines": [
+      "Supports Channeled Skills.",
+      "11.6% additional damage for the supported skill",
+      "+2 to the Min Channeled Stacks for the supported skill",
+      "11.6% additional damage for the supported skill",
+      "+2 to the Min Channeled Stacks for the supported skill"
+     ],
+     "name": "Channel Preparation",
+     "key": "Channel_Preparation"
+    },
+    {
+     "lines": [
+      "Supports Melee Slash Strike Skills.",
+      "The supported skill +40% Steep Strike chance.",
+      "The supported skill +40% Steep Strike chance."
+     ],
+     "name": "Raging Slash",
+     "key": "Raging_Slash"
+    },
+    {
+     "lines": [
+      "Supports Melee Demolisher Skills.",
+      "+101% Demolisher Charge Restoration Speed for the supported skill",
+      "+25% additional damage for the supported skill",
+      "+101% Demolisher Charge Restoration Speed for the supported skill",
+      "+25% additional damage for the supported skill"
+     ],
+     "name": "Quick Return",
+     "key": "Quick_Return"
+    },
+    {
+     "lines": [
+      "Supports Passive Skill.",
+      "+10% Sealed Mana Compensation for the supported skill",
+      "+10% Sealed Mana Compensation for the supported skill"
+     ],
+     "name": "Restrain",
+     "key": "Restrain"
+    },
+    {
+     "lines": [
+      "Supports Attack Skills.",
+      "Gains 2 Fervor Rating when the supported skill hits an enemy",
+      "The supported skill 2.35% additional damage for every 10 Fervor Rating",
+      "For every 10 Fervor Rating, the supported skill +3% Critical Strike Rating",
+      "Gains 2 Fervor Rating when the supported skill hits an enemy",
+      "The supported skill 2.35% additional damage for every 10 Fervor Rating",
+      "For every 10 Fervor Rating, the supported skill +3% Critical Strike Rating"
+     ],
+     "name": "Attack Focus",
+     "key": "Attack_Focus"
+    },
+    {
+     "lines": [
+      "Supports Projectile Skills.",
+      "+20% Projectile Speed for the supported skill",
+      "+25% additional damage for the supported skill",
+      "+20% Projectile Speed for the supported skill",
+      "+25% additional damage for the supported skill"
+     ],
+     "name": "Wind Projectiles",
+     "key": "Wind_Projectiles"
+    },
+    {
+     "lines": [
+      "Supports Persistent Skills and skills that can inflict Ailment.",
+      "+30% additional Damage Over Time against enemies with Max Affliction for the supported skill",
+      "+30% additional Damage Over Time against enemies with Max Affliction for the supported skill"
+     ],
+     "name": "Pain Amplification",
+     "key": "Pain_Amplification"
+    },
+    {
+     "lines": [
+      "Supports skills that hit enemies.",
+      "+10% chance to Blind the target when the supported skill hits",
+      "38.25% Blinding Duration caused by the supported skill",
+      "+10% chance to Blind the target when the supported skill hits",
+      "38.25% Blinding Duration caused by the supported skill"
+     ],
+     "name": "Blind",
+     "key": "Blind"
+    },
+    {
+     "lines": [
+      "Supports skills that hit enemies.",
+      "The supported skill deals +16% additional damage to Numbed enemies. For every stack of Numbed the enemy has, the supported skill deals +1% additional damage",
+      "The supported skill deals +16% additional damage to Numbed enemies. For every stack of Numbed the enemy has, the supported skill deals +1% additional damage"
+     ],
+     "name": "Electric Punishment",
+     "key": "Electric_Punishment"
+    },
+    {
+     "lines": [
+      "Supports skills that hit enemies.",
+      "The supported skill deals 8.6% additional damage for every type of Ailment on enemy (multiplies)",
+      "The supported skill -30% Ailment Duration",
+      "The supported skill deals 8.6% additional damage for every type of Ailment on enemy (multiplies)",
+      "The supported skill -30% Ailment Duration"
+     ],
+     "name": "Ailment Termination",
+     "key": "Ailment_Termination"
+    },
+    {
+     "lines": [
+      "Supports skills that hit enemies.",
+      "+40% chance for the supported skill to inflict Damaging Ailments",
+      "+6% additional Ailment Damage for the supported skill",
+      "+40% chance for the supported skill to inflict Damaging Ailments",
+      "+6% additional Ailment Damage for the supported skill"
+     ],
+     "name": "Enhanced Ailment",
+     "key": "Enhanced_Ailment"
+    },
+    {
+     "lines": [
+      "Supports skills that hit enemies.",
+      "Supported skills add 78 - 130 physical damage",
+      "Supported skills add 78 - 130 physical damage"
+     ],
+     "name": "Added Physical Damage",
+     "key": "Added_Physical_Damage"
+    },
+    {
+     "lines": [
+      "Supports any skill.",
+      "22.5% Cooldown Recovery Speed for the supported skill",
+      "22.5% Cooldown Recovery Speed for the supported skill"
+     ],
+     "name": "Cooldown Reduction",
+     "key": "Cooldown_Reduction"
+    },
+    {
+     "lines": [
+      "Supports Restoration Skills.",
+      "+55% Restoration effect at Low Life for the supported skill",
+      "+10% Restoration Effect for the supported skill at Low Mana",
+      "+55% Restoration effect at Low Life for the supported skill",
+      "+10% Restoration Effect for the supported skill at Low Mana"
+     ],
+     "name": "Emergency restoration",
+     "key": "Emergency_restoration"
+    },
+    {
+     "lines": [
+      "Supports Restoration Skills.",
+      "The supported skill's Restoration effect becomes instant",
+      "-10.5% additional Restoration Effect from the supported skill",
+      "The supported skill's Restoration effect becomes instant",
+      "-10.5% additional Restoration Effect from the supported skill"
+     ],
+     "name": "Instant restoration",
+     "key": "Instant_restoration"
+    },
+    {
+     "lines": [
+      "Supports Terra Skills.",
+      "+1 Max Terra Charge stacks for the supported skill",
+      "+65% Terra Charge Restoration Speed for the supported skill",
+      "+11% additional damage for the supported skill",
+      "+1 Max Terra Charge stacks for the supported skill",
+      "+65% Terra Charge Restoration Speed for the supported skill",
+      "+11% additional damage for the supported skill"
+     ],
+     "name": "Ground Divide",
+     "key": "Ground_Divide"
+    },
+    {
+     "lines": [
+      "Supports Beam Skills.",
+      "+2 additional Beams for the supported Beam Skill",
+      "3.9% additional damage for the supported skill",
+      "+2 additional Beams for the supported Beam Skill",
+      "3.9% additional damage for the supported skill"
+     ],
+     "name": "Scattershot Beam",
+     "key": "Scattershot_Beam"
+    },
+    {
+     "lines": [
+      "Supports Beam Skills.",
+      "+15% additional Beam Length for the supported Beam Skill",
+      "+25% additional damage for the supported skill",
+      "+15% additional Beam Length for the supported Beam Skill",
+      "+25% additional damage for the supported skill"
+     ],
+     "name": "Focused Beam",
+     "key": "Focused_Beam"
+    },
+    {
+     "lines": [
+      "Supports Beam Skills.",
+      "+2 additional refractions for the supported Beam Skill",
+      "+22% additional damage for the supported skill",
+      "-10% additional Beam Length for the supported Beam Skill",
+      "+2 additional refractions for the supported Beam Skill",
+      "+22% additional damage for the supported skill",
+      "-10% additional Beam Length for the supported Beam Skill"
+     ],
+     "name": "Refracted Prism",
+     "key": "Refracted_Prism"
+    },
+    {
+     "lines": [
+      "Supports skills that summon Minions.",
+      "+25% additional damage for Minions summoned by the supported skill",
+      "+25% additional damage for Minions summoned by the supported skill"
+     ],
+     "name": "Servant Damage",
+     "key": "Servant_Damage"
+    },
+    {
+     "lines": [
+      "Supports skills that summon Minions.",
+      "61.5% additional Life for Minions summoned by the supported skill",
+      "61.5% additional Life for Minions summoned by the supported skill"
+     ],
+     "name": "Servant Life",
+     "key": "Servant_Life"
+    },
+    {
+     "lines": [
+      "Supports skills that summon Spirit Magus.",
+      "+1 to Max Summonable Minions for the supported skill",
+      "+25% additional damage for Minions summoned by the supported skill",
+      "+1 to Max Summonable Minions for the supported skill",
+      "+25% additional damage for Minions summoned by the supported skill"
+     ],
+     "name": "Elemental Duo",
+     "key": "Elemental_Duo"
+    },
+    {
+     "lines": [
+      "Supports skills that summon Synthetic Troops.",
+      "Whenever a Minion summoned by the supported skill deals damage, gains 15 Command per second for 5 s. Interval: 1 s",
+      "-1.5% additional damage for Minions summoned by the supported skill",
+      "Whenever a Minion summoned by the supported skill deals damage, gains 15 Command per second for 5 s. Interval: 1 s",
+      "-1.5% additional damage for Minions summoned by the supported skill"
+     ],
+     "name": "Maniacal Army",
+     "key": "Maniacal_Army"
+    },
+    {
+     "lines": [
+      "Supports skills that summon Synthetic Troops.",
+      "+40% Physique for Minions summoned by the supported skill",
+      "+40% additional Skill Area for Minions summoned by the supported skill",
+      "+150% additional damage for Minions summoned by the supported skill",
+      "Halve the max number of Synthetic Troop Minions that can be summoned by you, rounding up to at least 1. This effect will take effect once",
+      "+40% Physique for Minions summoned by the supported skill",
+      "+40% additional Skill Area for Minions summoned by the supported skill",
+      "+150% additional damage for Minions summoned by the supported skill",
+      "Halve the max number of Synthetic Troop Minions that can be summoned by you, rounding up to at least 1. This effect will take effect once"
+     ],
+     "name": "Mechanical Modification",
+     "key": "Mechanical_Modification"
+    },
+    {
+     "lines": [
+      "Supports skills that summon Synthetic Troops.",
+      "20.25% additional damage for Minions summoned by the supported skill",
+      "+45 Critical Strike Rating for Minions summoned by the supported skill when having at least 30 Command",
+      "20.25% additional damage for Minions summoned by the supported skill",
+      "+45 Critical Strike Rating for Minions summoned by the supported skill when having at least 30 Command"
+     ],
+     "name": "Assault Command",
+     "key": "Assault_Command"
+    },
+    {
+     "lines": [
+      "Supports skills that summon Synthetic Troops.",
+      "14.75% additional Life for Minions summoned by the supported skill",
+      "-14.5% additional damage taken for Minions summoned by the supported skill",
+      "+20% chance to Weaken the enemy for every 10 Command when hit by a Minion summoned by the supported skill",
+      "14.75% additional Life for Minions summoned by the supported skill",
+      "-14.5% additional damage taken for Minions summoned by the supported skill",
+      "+20% chance to Weaken the enemy for every 10 Command when hit by a Minion summoned by the supported skill"
+     ],
+     "name": "Defense Form",
+     "key": "Defense_Form"
+    },
+    {
+     "lines": [
+      "Supports Empower Skills. Cannot support Summon Skills.",
+      "The supported skill +10% Effect every time it is cast, stacking up to 3 time(s)",
+      "The supported skill +10% Effect every time it is cast, stacking up to 3 time(s)"
+     ],
+     "name": "Well-Fought Battle",
+     "key": "Well-Fought_Battle"
+    },
+    {
+     "lines": [
+      "Supports Restoration Skills.",
+      "+29% Restoration effect for the supported skill",
+      "-29.8% Restoration Duration for the supported skill",
+      "+10% additional damage taken during the supported skill's restoration effect",
+      "+29% Restoration effect for the supported skill",
+      "-29.8% Restoration Duration for the supported skill",
+      "+10% additional damage taken during the supported skill's restoration effect"
+     ],
+     "name": "Fragile Resurrection",
+     "key": "Fragile_Resurrection"
+    },
+    {
+     "lines": [
+      "Supports Restoration Skills.",
+      "+51% Restoration Duration for the supported skill",
+      "The Restoration Effect from supported skills cannot be removed",
+      "+51% Restoration Duration for the supported skill",
+      "The Restoration Effect from supported skills cannot be removed"
+     ],
+     "name": "Residues",
+     "key": "Residues"
+    },
+    {
+     "lines": [
+      "Supports Defensive Skills.",
+      "When casting the supported skill, gains the buff:",
+      "29.5% additional Evasion. It drops to 0 gradually within 4s.",
+      "When casting the supported skill, gains the buff:"
+     ],
+     "name": "All In",
+     "key": "All_In"
+    },
+    {
+     "lines": [
+      "Supports Defensive Skills.",
+      "+1360 Armor while the supported skill lasts",
+      "+2% Armor Effective Rate against non-Physical Damage while the supported skill lasts",
+      "+1360 Armor while the supported skill lasts",
+      "+2% Armor Effective Rate against non-Physical Damage while the supported skill lasts"
+     ],
+     "name": "Iron Fortification",
+     "key": "Iron_Fortification"
+    },
+    {
+     "lines": [
+      "Support Mobility Skills.",
+      "Gains a stack of buff when you use the supported skill: 4.5% Evasion per stack of buffs",
+      "The buff lasts 4s, stacking up to 4 times.",
+      "Gains 1 stack of buff when you use the supported skill.\\nThe buff lasts 4 s, stacking up to 4 times"
+     ],
+     "name": "Emergency Avoidance",
+     "key": "Emergency_Avoidance"
+    },
+    {
+     "lines": [
+      "Supports Warcry Skills.",
+      "-15% Skill Area for the supported skill",
+      "19.5% Cooldown Recovery Speed for the supported skill",
+      "-15% Skill Area for the supported skill",
+      "19.5% Cooldown Recovery Speed for the supported skill"
+     ],
+     "name": "Concentration Warcry",
+     "key": "Concentration_Warcry"
+    },
+    {
+     "lines": [
+      "Support Warcry Skills.",
+      "+20% Warcry Cast Speed for the supported skill",
+      "+2 Max Charges for the supported skill",
+      "-10.25% Cooldown Recovery Speed for the supported skill",
+      "Gains 1 stack of buff for 5 s when casting the supported skill. Stacks up to 5 times",
+      "+4% Warcry Effect to the supported skill per buff stack",
+      "+20% Warcry Cast Speed for the supported skill",
+      "+2 Max Charges for the supported skill",
+      "-10.25% Cooldown Recovery Speed for the supported skill",
+      "Gains 1 stack of buff for 5 s when casting the supported skill. Stacks up to 5 times"
+     ],
+     "name": "Lion's Roars",
+     "key": "Lions_Roars"
+    },
+    {
+     "lines": [
+      "Support Mobility Skills.",
+      "Gains a stack of buff when using the supported skill every 6s: +30 % Attack and Cast Speed after using a Mobility Skill",
+      "The buff lasts 2s",
+      "Gains a stack of buff when using the supported skill every 6 s. The buff lasts 2s"
+     ],
+     "name": "Periodic Burst",
+     "key": "Periodic_Burst"
+    },
+    {
+     "lines": [
+      "Supports Curse Skills.",
+      "The supported Curse Skill becomes an instant-cast skill. Upon being cast, it inflicts its Curse Effect persistently on enemies within an area centered around the caster. The Duration of the area is equal to the Duration of the Curse Effect of the supported skill. CD of the supported skill is changed to 8s",
+      "+400% additional Skill Area for the supported skill",
+      "The supported Curse Skill becomes an instant-cast skill. Upon being cast, it inflicts its Curse Effect persistently on enemies within an area centered around the caster. The Duration of the area is equal to the Duration of the Curse Effect of the supported skill. CD of the supported skill is changed to 8s",
+      "+400% additional Skill Area for the supported skill"
+     ],
+     "name": "Terrain of Malice",
+     "key": "Terrain_of_Malice"
+    },
+    {
+     "lines": [
+      "Supports skills that deal damage.",
+      "+16% additional Lightning Damage for the supported skill",
+      "The supported skill gains a buff on Critical Strike. The buff lasts 2 s.",
+      "Buffs grant +10% additional Lightning Damage to this skill",
+      "+16% additional Lightning Damage for the supported skill",
+      "The supported skill gains a buff on Critical Strike. The buff lasts 2 s."
+     ],
+     "name": "Electric Overload",
+     "key": "Electric_Overload"
+    },
+    {
+     "lines": [
+      "Supports Attack Skills.",
+      "+27% additional Elemental Damage for the supported skill if it has dealt all types of Elemental Damage recently",
+      "+27% additional Elemental Damage for the supported skill if it has dealt all types of Elemental Damage recently"
+     ],
+     "name": "Elemental Impact",
+     "key": "Elemental_Impact"
+    },
+    {
+     "lines": [
+      "Supports Barrage Skills.",
+      "+15% additional damage for the supported skill",
+      "The supported skill +20% damage increase per wave",
+      "-40% Wave Interval for the supported skill",
+      "+15% additional damage for the supported skill",
+      "The supported skill +20% damage increase per wave",
+      "-40% Wave Interval for the supported skill"
+     ],
+     "name": "Carpet Bombardment",
+     "key": "Carpet_Bombardment"
+    },
+    {
+     "lines": [
+      "Supports Empower Skills.",
+      "+1 Max Charges for the supported skill",
+      "+20% effect for the supported skill for every +1 Charge, up to +60%",
+      "+1 Max Charges for the supported skill",
+      "+20% effect for the supported skill for every +1 Charge, up to +60%"
+     ],
+     "name": "Mass Effect",
+     "key": "Mass_Effect"
+    },
+    {
+     "lines": [
+      "Supports Defensive Skills.",
+      "When casting the supported skill, Energy Shield cannot be interrupted by damage for 1 s",
+      "+8% Energy Shield Charge Speed while the supported skill lasts",
+      "When casting the supported skill, Energy Shield cannot be interrupted by damage for 1 s",
+      "+8% Energy Shield Charge Speed while the supported skill lasts"
+     ],
+     "name": "Defense Layers",
+     "key": "Defense_Layers"
+    },
+    {
+     "lines": [
+      "Supports Focus Skills.",
+      "+75% Focus Speed for the supported skill",
+      "+75% Focus Speed for the supported skill"
+     ],
+     "name": "Focus Acceleration",
+     "key": "Focus_Acceleration"
+    },
+    {
+     "lines": [
+      "Supports Focus Skills.",
+      "+55% buff effect for the supported skill",
+      "-30% Sealed Mana Compensation for the supported skill",
+      "+55% buff effect for the supported skill",
+      "-30% Sealed Mana Compensation for the supported skill"
+     ],
+     "name": "Focus Buff",
+     "key": "Focus_Buff"
+    },
+    {
+     "lines": [
+      "Supports Passive Skill.",
+      "Replaces Sealed Mana of the supported skill with Sealed Life",
+      "-65.25% additional Sealed Mana Compensation for the supported skill",
+      "Replaces Sealed Mana of the supported skill with Sealed Life",
+      "-65.25% additional Sealed Mana Compensation for the supported skill"
+     ],
+     "name": "Seal Conversion",
+     "key": "Seal_Conversion"
+    },
+    {
+     "lines": [
+      "Supports Spell Skills or skills that can activate Spell Burst.",
+      "+30% additional Hit Damage for the supported skills cast by Spell Burst",
+      "+16% Cast Speed for the supported skill",
+      "+30% additional Hit Damage for the supported skills cast by Spell Burst",
+      "+16% Cast Speed for the supported skill"
+     ],
+     "name": "Psychic Burst",
+     "key": "Psychic_Burst"
+    },
+    {
+     "lines": [
+      "Supports Mobility Skills.",
+      "+1 Max Charges for the supported skill",
+      "Gains the following buff upon casting the supported skill: +4.8% Movement Speed",
+      "The buff lasts 2s.",
+      "+1 Max Charges for the supported skill",
+      "Gains a 2 s buff after casting the supported skill"
+     ],
+     "name": "Magic Dash",
+     "key": "Magic_Dash"
+    },
+    {
+     "lines": [
+      "Supports Mobility Skills.",
+      "+10% additional Hit Damage for skills cast by Spell Burst during the next 1 Spell Burst(s) activated after casting the supported skill",
+      "+10% additional Hit Damage for skills cast by Spell Burst during the next 1 Spell Burst(s) activated after casting the supported skill"
+     ],
+     "name": "Psychic Surge",
+     "key": "Psychic_Surge"
+    },
+    {
+     "lines": [
+      "Supports skills that summon Spirit Magus.",
+      "0.02% additional damage for every 1 point(s) of Growth Minions summoned by the supported skill have",
+      "Gains a buff when Minions summoned by the supported skill cast skills 8 time(s). Lasts 5 s. You will not receive another buff while the buff is active",
+      "While a buff is active, Spirit Magi +150 initial Growth. The buff will reduce to +60 in 5s",
+      "0.02% additional damage for every 1 point(s) of Growth Minions summoned by the supported skill have",
+      "Gains a buff when Minions summoned by the supported skill cast skills 8 time(s). Lasts 5 s. You will not receive another buff while the buff is active"
+     ],
+     "name": "Savage Growth",
+     "key": "Savage_Growth"
+    },
+    {
+     "lines": [
+      "Supports skills that summon Spirit Magus.",
+      "Minions summoned by the supported skill prepare the Empower Skill every 5 s",
+      "When Minions summoned by the supported skill are at Stage 2 or higher, +15% chance to use an Enhanced Skill",
+      "When Minions summoned by the supported skill are at Stage 3 or higher, +15% additional Empower Duration for them",
+      "When Minions summoned by the supported skill are at Stage 3 or higher and Empowered, 15.6% additional damage for them",
+      "Minions summoned by the supported skill prepare the Empower Skill every 5 s",
+      "When Minions summoned by the supported skill are at Stage 2 or higher, +15% chance to use an Enhanced Skill",
+      "When Minions summoned by the supported skill are at Stage 3 or higher, +15% additional Empower Duration for them",
+      "When Minions summoned by the supported skill are at Stage 3 or higher and Empowered, 15.6% additional damage for them"
+     ],
+     "name": "Harvest Time",
+     "key": "Harvest_Time"
+    },
+    {
+     "lines": [
+      "Supports Active Skills. Cannot support Channeled Skills or Attack Skills.",
+      "Prepares the supported skill every 8 s",
+      "Prepares the supported skill every 8 s"
+     ],
+     "name": "Preparation",
+     "key": "Preparation"
+    },
+    {
+     "lines": [
+      "Support Mobility Skills.",
+      "When casting the supported skill, gains a buff",
+      "Buffs grant +118% Warcry Cast Speed for the next Warcry",
+      "When casting the supported skill, gains a buff"
+     ],
+     "name": "Charge",
+     "key": "Charge"
+    },
+    {
+     "lines": [
+      "Supports Warcry Skills.",
+      "+59% Skill Area for the supported skill",
+      "Reverse Knocks Back enemies Nearby by 2 m when casting the supported skill",
+      "The effective area of this effect is affected by Skill Area bonuses",
+      "+4% additional damage for 6 s if there are Elites within the area",
+      "+59% Skill Area for the supported skill",
+      "Reverse Knocks Back enemies Nearby by 2 m when casting the supported skill\\nThe effective area of this effect is affected by Skill Area bonuses\\n +4% additional damage for 6 s if there are Elites within the area"
+     ],
+     "name": "Gladiator's Roar",
+     "key": "Gladiators_Roar"
+    },
+    {
+     "lines": [
+      "Supports Aura Skills.",
+      "+10% Aura effect for the supported skill",
+      "+100% Skill Area for the supported skill",
+      "+10% Aura effect for the supported skill",
+      "+100% Skill Area for the supported skill"
+     ],
+     "name": "Aura Amplification",
+     "key": "Aura_Amplification"
+    },
+    {
+     "lines": [
+      "Supports Spirit Magus Skills.",
+      "When having at least 2 type(s) of Spirit Magus at the same time, Origin of Spirit Magus provided by the supported skill +55% Effect",
+      "-30% Sealed Mana Compensation for the supported skill",
+      "When having at least 2 type(s) of Spirit Magus at the same time, Origin of Spirit Magus provided by the supported skill +55% Effect",
+      "-30% Sealed Mana Compensation for the supported skill"
+     ],
+     "name": "Friend of Spirit Magi",
+     "key": "Friend_of_Spirit_Magi"
+    },
+    {
+     "lines": [
+      "Supports Spirit Magus Skills.",
+      "Transfers 5.95% of damage taken to the Minions summoned by the supported skill",
+      "-30% Sealed Mana Compensation for the supported skill",
+      "Transfers 5.95% of damage taken to the Minions summoned by the supported skill",
+      "-30% Sealed Mana Compensation for the supported skill"
+     ],
+     "name": "Protection Field",
+     "key": "Protection_Field"
+    },
+    {
+     "lines": [
+      "Supports Elixir Skills.",
+      "The supported skill gains 0.975 Charging Progress every second.",
+      "The supported skill gains 0.975 Charging Progress every second."
+     ],
+     "name": "Hyper Metabolism",
+     "key": "Hyper_Metabolism"
+    },
+    {
+     "lines": [
+      "Supports Elixir Skills.",
+      "The supported skill gains 15.7 Charging Progress when suffering a Severe Injury. Interval: 4s",
+      "The supported skill gains 15.7 Charging Progress when suffering a Severe Injury. Interval: 4s"
+     ],
+     "name": "Emergency Aid",
+     "key": "Emergency_Aid"
+    },
+    {
+     "lines": [
+      "Supports Elixir Skills.",
+      "+1 Max Charges for the supported skill",
+      "When casting the supported skill, gains 14.5% of the skill's Charging Progress",
+      "+1 Max Charges for the supported skill",
+      "When casting the supported skill, gains 14.5% of the skill's Charging Progress"
+     ],
+     "name": "Medicinal Buildup",
+     "key": "Medicinal_Buildup"
+    },
+    {
+     "lines": [
+      "Supports Attack and Spell Skills.",
+      "While standing still, gains 1 stack of buff when using the supported skill. Stacks up to 6 time(s)",
+      "The buff lasts for another 0.5 s after you start moving",
+      "+6% additional damage for the supported skill for every stack of buffs while standing still (multiplies)",
+      "While standing still, gains 1 stack of buff when using the supported skill. Stacks up to 6 time(s)\\nThe buff lasts for another 0.5 s after you start moving"
+     ],
+     "name": "Willpower",
+     "key": "Willpower"
+    },
+    {
+     "lines": [
+      "Supports Combo Skills.",
+      "+1 Combo Points gained from Combo Starters for the supported skill",
+      "+13% Combo Finisher Amplification for the supported skill",
+      "+1 Combo Points gained from Combo Starters for the supported skill",
+      "+13% Combo Finisher Amplification for the supported skill"
+     ],
+     "name": "Recuperation",
+     "key": "Recuperation"
+    },
+    {
+     "lines": [
+      "Supports Active Spell Skills",
+      "Cannot support Channeled Skills, Sentry Skills, skills that summon Minions, Terra Skills, Scorching Pulse, Lightning Storm, and Whirlwind Blade",
+      "This skill can only be installed in the first Support Skill Slot of each Active Skill",
+      "The supported skill is cast as a Spell Tangle",
+      "+25% additional damage for the supported skill",
+      "The supported skill is cast as a Spell Tangle",
+      "+25% additional damage for the supported skill"
+     ],
+     "name": "Spell Tangle",
+     "key": "Spell_Tangle"
+    },
+    {
+     "lines": [
+      "Supports Active Spell Skills",
+      "Cannot support Channeled Skills, Sentry Skills, skills that summon Minions, Terra Skills, Scorching Pulse, Lightning Storm, and Whirlwind Blade",
+      "Creates Tangles equal to Max Tangle Quantity when you use the supported skill",
+      "+20% additional damage for the supported skill",
+      "Creates Tangles equal to Max Tangle Quantity when you use the supported skill",
+      "+20% additional damage for the supported skill"
+     ],
+     "name": "Manifold Entanglement",
+     "key": "Manifold_Entanglement"
+    },
+    {
+     "lines": [
+      "Supports Channeled Skills.",
+      "+2 Max Channeled Stacks for the supported skill",
+      "+5% additional damage for the supported skill",
+      "+2 Max Channeled Stacks for the supported skill",
+      "+5% additional damage for the supported skill"
+     ],
+     "name": "Channeled Depths",
+     "key": "Channeled_Depths"
+    },
+    {
+     "lines": [
+      "Supports Spell Skills",
+      "Cannot support Minion Skills",
+      "Inflicts Turmoil on enemies within a certain area around the target when the supported skill cast by Spell Burst hits. Interval: 0.2 s",
+      "+10% Turmoil Effect for each stack of Spell Burst consumed recently",
+      "+10% Turmoil Radius for each stack of Spell Burst consumed recently",
+      "Max stacks: 6",
+      "Inflicts Turmoil on enemies within a certain area around the target when the supported skill cast by Spell Burst hits. Interval: 0.2 s\\n +10% Turmoil Effect for each stack of Spell Burst consumed recently\\n +10% Turmoil Radius for each stack of Spell Burst consumed recently\\nMax stacks: 6"
+     ],
+     "name": "Turmoil Burst",
+     "key": "Turmoil_Burst"
+    },
+    {
+     "lines": [
+      "Supports Spell Skills.",
+      "+10% additional damage for the supported skill for each active Tangle",
+      "-10% additional Cast Speed for the supported skill",
+      "+10% additional damage for the supported skill for each active Tangle",
+      "-10% additional Cast Speed for the supported skill"
+     ],
+     "name": "Tangle Surge",
+     "key": "Tangle_Surge"
+    },
+    {
+     "lines": [
+      "Supports skills that deal damage.",
+      "7.5% additional Physical Damage for the supported skill for each type of Non-Physical Damage dealt recently",
+      "-3% additional damage of the corresponding type for the supported skill for each type of Non-Physical Damage dealt recently",
+      "7.5% additional Physical Damage for the supported skill for each type of Non-Physical Damage dealt recently\\n -3% additional damage of the corresponding type for the supported skill for each type of Non-Physical Damage dealt recently"
+     ],
+     "name": "Elemental Conversion",
+     "key": "Elemental_Conversion"
+    },
+    {
+     "lines": [
+      "Supports skills that hit enemies.",
+      "The supported skill deals +15% additional damage to Frozen enemies",
+      "+10% Critical Strike Rating against enemies for the supported skill for each point of enemy's Frostbite Rating exceeding 100, up to +100%",
+      "The supported skill deals +15% additional damage to Frozen enemies",
+      "+10% Critical Strike Rating against enemies for the supported skill for each point of enemy's Frostbite Rating exceeding 100, up to +100%"
+     ],
+     "name": "Frostbloom",
+     "key": "Frostbloom"
+    },
+    {
+     "lines": [
+      "Supports skills that hit enemies",
+      "Cannot support Minion Skills",
+      "Enemies Ignited by the supported skill gain Ablaze",
+      "+16% additional Ablaze Effect for each enemy within 10 m Ignited by the supported skill, up to +80%",
+      "Enemies Ignited by the supported skill gain Ablaze",
+      "+16% additional Ablaze Effect for each enemy within 10 m Ignited by the supported skill, up to +80%"
+     ],
+     "name": "Blazing Scorch",
+     "key": "Blazing_Scorch"
+    },
+    {
+     "lines": [
+      "Supports skills that hit enemies.",
+      "16.5% additional Deterioration Damage for the supported skill",
+      "There is a 10% chance for the supported skill to inflict 1 additional stack(s) of Deterioration while having Profane",
+      "16.5% additional Deterioration Damage for the supported skill",
+      "There is a 10% chance for the supported skill to inflict 1 additional stack(s) of Deterioration while having Profane"
+     ],
+     "name": "Rising Evil",
+     "key": "Rising_Evil"
+    },
+    {
+     "lines": [
+      "Supports skills that hit enemies.",
+      "+20% additional damage for the supported skill",
+      "While wielding a Two-Handed Weapon, +9% Critical Strike Rating for the supported skill for every 45 Base Damage on the weapon, up to +90%",
+      "+20% additional damage for the supported skill",
+      "While wielding a Two-Handed Weapon, +9% Critical Strike Rating for the supported skill for every 45 Base Damage on the weapon, up to +90%"
+     ],
+     "name": "Honed Edge",
+     "key": "Honed_Edge"
+    },
+    {
+     "lines": [
+      "Supports skills that deal damage.",
+      "Gains Vigilance while holding a Shield",
+      "+100% Vigilance Effect gained by the supported skill if damage was taken in the last 8 s",
+      "Gains Vigilance while holding a Shield",
+      "+100% Vigilance Effect gained by the supported skill if damage was taken in the last 8 s"
+     ],
+     "name": "Vigilant Guard",
+     "key": "Vigilant_Guard"
+    },
+    {
+     "lines": [
+      "Supports skills that hit enemies",
+      "Cannot support Channeled Skills",
+      "While Dual Wielding:",
+      "+20% Attack and Cast Speed for every 1st cast of the supported skill",
+      "+35% additional damage and +30% Skill Area for every 2nd cast of the supported skill",
+      "While Dual Wielding:\\n +20% Attack and Cast Speed for every 1st cast of the supported skill\\n +35% additional damage and +30% Skill Area for every 2nd cast of the supported skill"
+     ],
+     "name": "Dual Onslaught",
+     "key": "Dual_Onslaught"
+    },
+    {
+     "lines": [
+      "Supports skills that hit enemies.",
+      "+4% additional damage for the supported skill for each stack of Agility Blessing. Stacks up to 8 time(s)",
+      "+4% additional damage for the supported skill for each stack of Agility Blessing. Stacks up to 8 time(s)"
+     ],
+     "name": "Blessed Leap",
+     "key": "Blessed_Leap"
+    },
+    {
+     "lines": [
+      "Supports skills that deal damage.",
+      "Gains Blur when the supported skill deals Damage Over Time",
+      "1.7% additional damage for the supported skill for every 10 Blur Rating",
+      "Gains Blur when the supported skill deals Damage Over Time",
+      "1.7% additional damage for the supported skill for every 10 Blur Rating"
+     ],
+     "name": "Phantom Trace",
+     "key": "Phantom_Trace"
+    },
+    {
+     "lines": [
+      "Supports skills that deal damage.",
+      "1.05% additional damage for the supported skill for every 250 Max Mana, up to 26.25%",
+      "1.05% additional damage for the supported skill for every 250 Max Mana, up to 26.25%"
+     ],
+     "name": "Mana Convergence",
+     "key": "Mana_Convergence"
+    },
+    {
+     "lines": [
+      "Supports skills that deal damage.",
+      "1.2% additional damage (multiplies) for the supported skill for every 15% Max Life consumed recently, up to 20 time(s)",
+      "1.2% additional damage (multiplies) for the supported skill for every 15% Max Life consumed recently, up to 20 time(s)"
+     ],
+     "name": "Vigor Restitution",
+     "key": "Vigor_Restitution"
+    },
+    {
+     "lines": [
+      "Supports skills that deal damage.",
+      "There is a +60% chance to inflict Weaken when the supported skill deals damage",
+      "+17% additional damage for the supported skill",
+      "There is a +60% chance to inflict Weaken when the supported skill deals damage",
+      "+17% additional damage for the supported skill"
+     ],
+     "name": "Exhaustion",
+     "key": "Exhaustion"
+    },
+    {
+     "lines": [
+      "Supports skills that deal damage.",
+      "34.95% chance to inflict 1 stack(s) of Slow when the supported skill deals damage",
+      "+17% additional damage for the supported skill",
+      "34.95% chance to inflict 1 stack(s) of Slow when the supported skill deals damage",
+      "+17% additional damage for the supported skill"
+     ],
+     "name": "Sluggish",
+     "key": "Sluggish"
+    },
+    {
+     "lines": [
+      "Supports Demolisher Skills",
+      "Cannot support Channeled Skills",
+      "+32% additional damage for the next supported skill after standing still",
+      "After standing still, gains Still Momentum when casting the supported skill",
+      "Loses Still Momentum upon moving if active, and +10% Movement Speed",
+      "This effect lasts until the supported skill's Demolisher Charge is fully restored",
+      "+32% additional damage for the next supported skill after standing still\\nAfter standing still, gains Still Momentum when casting the supported skill",
+      "Loses Still Momentum upon moving if active, and +10% Movement Speed\\nThis effect lasts until the supported skill's Demolisher Charge is fully restored"
+     ],
+     "name": "Still Charge",
+     "key": "Still_Charge"
+    },
+    {
+     "lines": [
+      "Supports Channeled Skills.",
+      "+9% additional damage for the supported skill for every 1 s spent channeling, up to 3 time(s)",
+      "This effect lasts up to 1 s longer when channeling stops",
+      "+9% additional damage for the supported skill for every 1 s spent channeling, up to 3 time(s)\\nThis effect lasts up to 1 s longer when channeling stops"
+     ],
+     "name": "Empowered Channeling",
+     "key": "Empowered_Channeling"
+    },
+    {
+     "lines": [
+      "Supports Projectile Skills.",
+      "Inflicts Enhanced Mark when the supported skill hits",
+      "The supported skill deals 14.5% additional damage to Marked enemies",
+      "Inflicts Enhanced Mark when the supported skill hits",
+      "The supported skill deals 14.5% additional damage to Marked enemies"
+     ],
+     "name": "Target Projection",
+     "key": "Target_Projection"
+    },
+    {
+     "lines": [
+      "Supports Projectile Skills.",
+      "+26% additional damage for the supported skill while having Hasten",
+      "+26% additional damage for the supported skill while having Hasten"
+     ],
+     "name": "Windbolt",
+     "key": "Windbolt"
+    },
+    {
+     "lines": [
+      "Supports Combo Skills.",
+      "-15% Attack Speed for the supported skill's Combo Starter",
+      "+37% additional Hit Damage for the Combo Finisher of the supported skill",
+      "-15% Attack Speed for the supported skill's Combo Starter",
+      "+37% additional Hit Damage for the Combo Finisher of the supported skill"
+     ],
+     "name": "Finisher Combo",
+     "key": "Finisher_Combo"
+    },
+    {
+     "lines": [
+      "Supports Spell Skills.",
+      "+26% additional damage for the supported skill while affected by at least 2 Empower Skill(s)",
+      "+26% additional damage for the supported skill while affected by at least 2 Empower Skill(s)"
+     ],
+     "name": "Empowered Insight",
+     "key": "Empowered_Insight"
+    },
+    {
+     "lines": [
+      "Supports Spell Skills.",
+      "+27% additional damage for the supported skill after moving for more than 2 s",
+      "Loses this bonus if you stand still for more than 1 s, and -25% additional damage for the supported skill for 3 s",
+      "+27% additional damage for the supported skill after moving for more than 2 s\\nLoses this bonus if you stand still for more than 1 s, and -25% additional damage for the supported skill for 3 s"
+     ],
+     "name": "Swiftstep Spell",
+     "key": "Swiftstep_Spell"
+    },
+    {
+     "lines": [
+      "Supports Attack Skills.",
+      "The supported skill has reversed knockback",
+      "+100% Knockback Chance for the supported skill",
+      "+26% additional Hit Damage for the supported skill",
+      "The supported skill has reversed knockback",
+      "+100% Knockback Chance for the supported skill",
+      "+26% additional Hit Damage for the supported skill"
+     ],
+     "name": "Seize",
+     "key": "Seize"
+    },
+    {
+     "lines": [
+      "Supports Attack Skills or Spell Skills.",
+      "While having Attack Aggression or Spell Aggression, 6.2% additional damage for the supported skill for each enemy within 20 m, up to +31%",
+      "-9% Defense while having Attack Aggression or Spell Aggression",
+      "While having Attack Aggression or Spell Aggression, 6.2% additional damage for the supported skill for each enemy within 20 m, up to +31%",
+      "-9% Defense while having Attack Aggression or Spell Aggression"
+     ],
+     "name": "Reckless Aggression",
+     "key": "Reckless_Aggression"
+    },
+    {
+     "lines": [
+      "Supports Attack Skills or Spell Skills.",
+      "+22% additional damage for the supported skill",
+      "+30% Infiltration Effect taken by enemies for 4 s when the supported skill deals damage",
+      "+22% additional damage for the supported skill",
+      "+30% Infiltration Effect taken by enemies for 4 s when the supported skill deals damage"
+     ],
+     "name": "Weakness Infiltration",
+     "key": "Weakness_Infiltration"
+    },
+    {
+     "lines": [
+      "Supports Empower and Defensive Skills",
+      "+4% Life Regain and Shield Regain while the supported skill lasts",
+      "+4% Life Regain and Shield Regain while the supported skill lasts"
+     ],
+     "name": "Resurgence",
+     "key": "Resurgence"
+    },
+    {
+     "lines": [
+      "Supports Defensive Skills.",
+      "-5% additional damage taken while the supported skill lasts if there are Elites within 10 m",
+      "-5% additional damage taken while the supported skill lasts if there are Elites within 10 m"
+     ],
+     "name": "Mighty Bulwark",
+     "key": "Mighty_Bulwark"
+    },
+    {
+     "lines": [
+      "Supports Defensive Skills.",
+      "+25% Critical Strike Damage Mitigation while the supported skill lasts",
+      "+25% Critical Strike Damage Mitigation while the supported skill lasts"
+     ],
+     "name": "Dulled Edge",
+     "key": "Dulled_Edge"
+    },
+    {
+     "lines": [
+      "Supports Defensive Skills.",
+      "-20% additional Duration for the supported skill",
+      "Restores 30% Max Life when taking a severe injury while the supported skill lasts. Interval: 5 s",
+      "-20% additional Duration for the supported skill",
+      "Restores 30% Max Life when taking a severe injury while the supported skill lasts. Interval: 5 s"
+     ],
+     "name": "Resilient",
+     "key": "Resilient"
+    },
+    {
+     "lines": [
+      "Supports Empower Skills.",
+      "+20% Effect for the supported skill when there is an Elite within 20 m",
+      "-20% Effect for the supported skill when there are no Elites within 20 m",
+      "+20% Effect for the supported skill when there is an Elite within 20 m",
+      "-20% Effect for the supported skill when there are no Elites within 20 m"
+     ],
+     "name": "Thrive in Adversity",
+     "key": "Thrive_in_Adversity"
+    },
+    {
+     "lines": [
+      "Supports Empower Skills.",
+      "+24% Elemental Damage while the supported skill lasts",
+      "+24% Elemental Damage while the supported skill lasts"
+     ],
+     "name": "Empowered Element",
+     "key": "Empowered_Element"
+    },
+    {
+     "lines": [
+      "Supports Warcry Skills.",
+      "-4% additional damage taken for 5 s when casting the supported skill",
+      "-4% additional damage taken for 5 s when casting the supported skill"
+     ],
+     "name": "Inspiring Warcry",
+     "key": "Inspiring_Warcry"
+    },
+    {
+     "lines": [
+      "Supports Curse Skills.",
+      "Enemies take +5% additional damage if affected by curses inflicted by the supported skill for at least 2 s",
+      "Enemies take +5% additional damage if affected by curses inflicted by the supported skill for at least 2 s"
+     ],
+     "name": "Deepened Curse",
+     "key": "Deepened_Curse"
+    },
+    {
+     "lines": [
+      "Supports Passive Skill.",
+      "Replaces Sealed Mana of the supported skill with Sealed Life",
+      "-50.5% additional Sealed Mana Compensation for the supported skill",
+      "Replaces Sealed Mana of the supported skill with Sealed Life",
+      "-50.5% additional Sealed Mana Compensation for the supported skill"
+     ],
+     "name": "Precise: Seal Conversion",
+     "key": "Precise_Seal_Conversion"
+    },
+    {
+     "lines": [
+      "Supports Aura Skills.",
+      "-90% additional Aura Effect received from the supported skill.",
+      "+26% Aura effect for the supported skill",
+      "-12% Sealed Mana Compensation for the supported skill",
+      "-90% additional Aura Effect received from the supported skill.",
+      "+26% Aura effect for the supported skill",
+      "-12% Sealed Mana Compensation for the supported skill"
+     ],
+     "name": "Precise: Selfless",
+     "key": "Precise_Selfless"
+    },
+    {
+     "lines": [
+      "Supports Aura Skills.",
+      "The supported skill does not take effect on other allies",
+      "+24% Aura effect for the supported skill",
+      "-12% Sealed Mana Compensation for the supported skill",
+      "The supported skill does not take effect on other allies",
+      "+24% Aura effect for the supported skill",
+      "-12% Sealed Mana Compensation for the supported skill"
+     ],
+     "name": "Precise: Selfishness",
+     "key": "Precise_Selfishness"
+    },
+    {
+     "lines": [
+      "Supports Aura Skills.",
+      "The supported skill +6% Aura Effect for each Aura that affects you, stacking up to 5 time(s)",
+      "The supported skill +6% Aura Effect for each Aura that affects you, stacking up to 5 time(s)"
+     ],
+     "name": "Precise: Stand as One",
+     "key": "Precise_Stand_as_One"
+    },
+    {
+     "lines": [
+      "Supports Aura Skills.",
+      "+35% Sealed Mana Compensation for the supported skill",
+      "The supported skill -19% additional Aura Effect",
+      "+35% Sealed Mana Compensation for the supported skill",
+      "The supported skill -19% additional Aura Effect"
+     ],
+     "name": "Precise: Disciplined",
+     "key": "Precise_Disciplined"
+    },
+    {
+     "lines": [
+      "Supports Aura Skills.",
+      "The supported skill +35% Aura Effect when the character is affected by no more than 2 Auras",
+      "The supported skill +35% Aura Effect when the character is affected by no more than 2 Auras"
+     ],
+     "name": "Precise: Concentrated",
+     "key": "Precise_Concentrated"
+    },
+    {
+     "lines": [
+      "Supports Aura Skills.",
+      "The supported skill +30% Aura Effect if there is an Elite within 10 m. Otherwise, -15% additional Aura Effect",
+      "-15% Sealed Mana Compensation for the supported skill",
+      "The supported skill +30% Aura Effect if there is an Elite within 10 m. Otherwise, -15% additional Aura Effect",
+      "-15% Sealed Mana Compensation for the supported skill"
+     ],
+     "name": "Precise: Malleable",
+     "key": "Precise_Malleable"
+    },
+    {
+     "lines": [
+      "Supports Aura Skills.",
+      "+5% Aura Effect for each ally affected by the supported skill, stacking up to 7 time(s)",
+      "-12% Sealed Mana Compensation for the supported skill",
+      "+5% Aura Effect for each ally affected by the supported skill, stacking up to 7 time(s)",
+      "-12% Sealed Mana Compensation for the supported skill"
+     ],
+     "name": "Precise: Safety in Numbers",
+     "key": "Precise_Safety_in_Numbers"
+    },
+    {
+     "lines": [
+      "Supports Focus Skills.",
+      "+55% buff effect for the supported skill",
+      "-18% Sealed Mana Compensation for the supported skill",
+      "+55% buff effect for the supported skill",
+      "-18% Sealed Mana Compensation for the supported skill"
+     ],
+     "name": "Precise: Focus Buff",
+     "key": "Precise_Focus_Buff"
+    },
+    {
+     "lines": [
+      "Supports Spirit Magus Skills.",
+      "+52% Origin of Spirit Magus effect for the supported skill",
+      "-20% Sealed Mana Compensation for the supported skill",
+      "+52% Origin of Spirit Magus effect for the supported skill",
+      "-20% Sealed Mana Compensation for the supported skill"
+     ],
+     "name": "Precise: Superpower",
+     "key": "Precise_Superpower"
+    },
+    {
+     "lines": [
+      "Supports Spirit Magus Skills.",
+      "When having at least 3 type(s) of Spirit Magus at the same time, Origin of Spirit Magus provided by the supported skill +128% Effect",
+      "-30% Sealed Mana Compensation for the supported skill",
+      "When having at least 3 type(s) of Spirit Magus at the same time, Origin of Spirit Magus provided by the supported skill +128% Effect",
+      "-30% Sealed Mana Compensation for the supported skill"
+     ],
+     "name": "Precise: Friend of Spirit Magi",
+     "key": "Precise_Friend_of_Spirit_Magi"
+    },
+    {
+     "lines": [
+      "Supports Spirit Magus Skills.",
+      "Transfers 8.95% of damage taken to the Minions summoned by the supported skill",
+      "-30% Sealed Mana Compensation for the supported skill",
+      "Minions summoned by the supported skill Taunt nearby enemies every 6 s.",
+      "Transfers 8.95% of damage taken to the Minions summoned by the supported skill",
+      "-30% Sealed Mana Compensation for the supported skill",
+      "Minions summoned by the supported skill Taunt nearby enemies every 6 s."
+     ],
+     "name": "Precise: Protection Field",
+     "key": "Precise_Protection_Field"
+    },
+    {
+     "lines": [
+      "Supports Passive Skill.",
+      "+25% Sealed Mana Compensation for the supported skill",
+      "+25% Sealed Mana Compensation for the supported skill"
+     ],
+     "name": "Precise Restrain",
+     "key": "Precise_Restrain"
+    },
+    {
+     "lines": [
+      "Supports Restoration Skills.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "Gains immunity to Elemental Ailment for 4 s after casting the supported skill",
+      "Gains immunity to Elemental Ailment for 4 s after casting the supported skill"
+     ],
+     "name": "Precise: Harmony",
+     "key": "Precise_Harmony"
+    },
+    {
+     "lines": [
+      "Supports Restoration Skills.",
+      "This skill can only be installed in the fifth Support Skill Slot of each Active Skill.",
+      "Gains immunity to Wilt and Trauma for 4 s after casting the supported skill",
+      "Gains immunity to Wilt and Trauma for 4 s after casting the supported skill"
+     ],
+     "name": "Precise: Purify",
+     "key": "Precise_Purify"
+    }
+   ]
+  },
+  {
+   "card": "Skill - Support Skill - Help",
+   "tab": "Skill-SupportSkill-Help",
+   "text": [
+    "Support Skills can enhance your Active Skills.",
+    "You can link up to 5 Support Skills to an Active Skill.",
+    "Choose Support Skills based on the tags of your Active Skill to significantly boost your combat prowess."
+   ]
+  }
+ ]
+}

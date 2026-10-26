@@ -1,0 +1,3878 @@
+{
+ "page": "Ethereal_Prism",
+ "cards": [
+  {
+   "card": "Ethereal Prism Affix",
+   "tab": "EtherealPrismAffix",
+   "tables": [
+    {
+     "header": [
+      "Affix Effect",
+      "Source",
+      "Type"
+     ],
+     "rows": [
+      {
+       "cells": [
+        "+75% to the effects of Random Affixes on this Prism",
+        "Ethereal Prism",
+        "Base Affix"
+       ]
+      },
+      {
+       "cells": [
+        "Adds an additional effect to the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel: / +12% additional Attack Damage when holding a One-Handed Weapon / +12% additional Base Damage for Two-Handed Weapons",
+        "Ethereal Prism",
+        "Base Affix"
+       ]
+      },
+      {
+       "cells": [
+        "Adds an additional effect to the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel: / While standing still, +12% additional Attack Damage and Ailment Damage dealt by attacks. -5% additional damage taken",
+        "Ethereal Prism",
+        "Base Affix"
+       ]
+      },
+      {
+       "cells": [
+        "Adds an additional effect to the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel: / +1% additional Damage per +5% Movement Speed, up to +12%",
+        "Ethereal Prism",
+        "Base Affix"
+       ]
+      },
+      {
+       "cells": [
+        "Adds an additional effect to the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel: / +12% additional Attack Damage and Ailment Damage dealt by attacks when there are Elites within 10m nearby / +50% Skill Area when there are no Elites within 10m nearby",
+        "Ethereal Prism",
+        "Base Affix"
+       ]
+      },
+      {
+       "cells": [
+        "Adds an additional effect to the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel: / +30 Affliction inflicted per second / +10% additional Damage Over Time",
+        "Ethereal Prism",
+        "Base Affix"
+       ]
+      },
+      {
+       "cells": [
+        "Adds an additional effect to the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel: / When channeling Harmonious Field, triggers the Sentry Main Skill if there are no Sentries within 10m. Interval: 1s / +30% Empower Skill Effect for Harmonious Field",
+        "Ethereal Prism",
+        "Base Affix"
+       ]
+      },
+      {
+       "cells": [
+        "Adds an additional effect to the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel: / Blinds enemies within 15 m when casting Dazzling Bloom / +12% additional damage for Spirit Magi against Blinded enemies",
+        "Ethereal Prism",
+        "Base Affix"
+       ]
+      },
+      {
+       "cells": [
+        "Adds an additional effect to the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel: / For every stack of Max Spell Burst, +4% additional Spell Damage, up to +16% additional Spell Damage",
+        "Ethereal Prism",
+        "Base Affix"
+       ]
+      },
+      {
+       "cells": [
+        "Adds an additional effect to the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel: / 2.5% additional Minion Damage per Synthetic Troop Minion you own",
+        "Ethereal Prism",
+        "Base Affix"
+       ]
+      },
+      {
+       "cells": [
+        "Adds an additional effect to the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel: / +12% additional Spell Damage when you have Spell Aggression",
+        "Ethereal Prism",
+        "Base Affix"
+       ]
+      },
+      {
+       "cells": [
+        "Replaces the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel with One For All",
+        "Ethereal Prism",
+        "Base Affix"
+       ]
+      },
+      {
+       "cells": [
+        "Replaces the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel with Unwavering Fortress",
+        "Ethereal Prism",
+        "Base Affix"
+       ]
+      },
+      {
+       "cells": [
+        "Replaces the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel with Unstoppable Force",
+        "Ethereal Prism",
+        "Base Affix"
+       ]
+      },
+      {
+       "cells": [
+        "Replaces the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel with Hare's Agility",
+        "Ethereal Prism",
+        "Base Affix"
+       ]
+      },
+      {
+       "cells": [
+        "Replaces the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel with Sweeping Fury",
+        "Ethereal Prism",
+        "Base Affix"
+       ]
+      },
+      {
+       "cells": [
+        "Replaces the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel with Keen Intellect",
+        "Ethereal Prism",
+        "Base Affix"
+       ]
+      },
+      {
+       "cells": [
+        "Replaces the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel with Towering Presence",
+        "Ethereal Prism",
+        "Base Affix"
+       ]
+      },
+      {
+       "cells": [
+        "Replaces the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel with Spell Ripple",
+        "Ethereal Prism",
+        "Base Affix"
+       ]
+      },
+      {
+       "cells": [
+        "Replaces the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel with Juggernaut",
+        "Ethereal Prism",
+        "Base Affix"
+       ]
+      },
+      {
+       "cells": [
+        "Replaces the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel with Adaptive Defense",
+        "Ethereal Prism",
+        "Base Affix"
+       ]
+      },
+      {
+       "cells": [
+        "Replaces the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel with Unmatched Valor",
+        "Ethereal Prism",
+        "Base Affix"
+       ]
+      },
+      {
+       "cells": [
+        "Replaces the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel with Self-Delusion",
+        "Ethereal Prism",
+        "Base Affix"
+       ]
+      },
+      {
+       "cells": [
+        "Replaces the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel with Escalating Affliction",
+        "Ethereal Prism",
+        "Base Affix"
+       ]
+      },
+      {
+       "cells": [
+        "Replaces the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel with Commander's Gambit",
+        "Ethereal Prism",
+        "Base Affix"
+       ]
+      },
+      {
+       "cells": [
+        "Replaces the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel with Circle of Life",
+        "Ethereal Prism",
+        "Base Affix"
+       ]
+      },
+      {
+       "cells": [
+        "Replaces the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel with Miraculous Touch",
+        "Ethereal Prism",
+        "Base Affix"
+       ]
+      },
+      {
+       "cells": [
+        "Replaces the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel with Dark Advance",
+        "Ethereal Prism",
+        "Base Affix"
+       ]
+      },
+      {
+       "cells": [
+        "Replaces the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel with Effortless Command",
+        "Ethereal Prism",
+        "Base Affix"
+       ]
+      },
+      {
+       "cells": [
+        "Replaces the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel with Crushing Blast",
+        "Ethereal Prism",
+        "Base Affix"
+       ]
+      },
+      {
+       "cells": [
+        "Replaces the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel with Storm's Command",
+        "Ethereal Prism",
+        "Base Affix"
+       ]
+      },
+      {
+       "cells": [
+        "Replaces the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel with Fire's Allure",
+        "Ethereal Prism",
+        "Base Affix"
+       ]
+      },
+      {
+       "cells": [
+        "Replaces the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel with Fiery Fantasy",
+        "Ethereal Prism",
+        "Base Affix"
+       ]
+      },
+      {
+       "cells": [
+        "The area of effect expands to 3x3 Rectangle",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "The area of effect expands to 3x4 Rectangle",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "The area of effect expands to 4x3 Rectangle",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "The area of effect expands to 2x2 Rectangle",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "The area of effect expands to 7x1 Rectangle",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "The area of effect expands to 2x4 Rectangle",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "The area of effect expands to 4x2 Rectangle",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "The area of effect expands to 3x3 Rectangle",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "The area of effect expands to 3x4 Rectangle",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "The area of effect expands to 4x3 Rectangle",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "The area of effect expands to 2x2 Rectangle",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "The area of effect expands to 7x1 Rectangle",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "The area of effect expands to 2x4 Rectangle",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "The area of effect expands to 4x2 Rectangle",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "The area of effect expands to 3x3 Rectangle",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "The area of effect expands to 3x4 Rectangle",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "The area of effect expands to 4x3 Rectangle",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "The area of effect expands to 2x2 Rectangle",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "The area of effect expands to 7x1 Rectangle",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "The area of effect expands to 2x4 Rectangle",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "The area of effect expands to 4x2 Rectangle",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-5% Elemental Resistance / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [One For All] Gains Cold and Lightning Resistance equal to 50% of Fire Resistance",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-5% Elemental Resistance / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Unwavering Fortress] Gains Bulwark equal to 1.5% of Armor and reduces 100% Non-True Damage taken every 10s. Bulwark is refreshed when gained again / Your Max Life is set to 100 / Your Evasion and Max Energy Shield are fixed at 0",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-5% Elemental Resistance / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Unstoppable Force] When a Combo Finisher is in Multistrike, it is guaranteed to deal damage equal to the Max Multistrike Count",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-5% Elemental Resistance / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Hare's Agility] When exiting Stand Still, gains 1 stack of buff that lasts for 2s, up to 5 times / +14% additional damage dealt to enemies in proximity for each stack of buff. +8% Attack Speed",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-5% Elemental Resistance / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Sweeping Fury] On hit, Main Ranged Horizontal Projectile Skills have a 100% chance to cast an additional Main Skill, whose projectiles fire in a ring and deal -60% additional damage. Interval: 0.03s. Does not affect Sentry Skills, Vertical Skills, and Channeled Skills. / Projectile Quantity Upper limit: 5 / +2 Horizontal Projectile Penetration(s)",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-5% Elemental Resistance / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Keen Intellect] For every Active Empower Skill equipped, +13% additional Spell Damage (multiplies) / For every Active Curse Skill equipped, +6% Elemental and Erosion Resistance Penetration and +6% Armor DMG Mitigation Penetration. / For every Active Defensive Skill equipped, +13% additional Max Mana (multiplies) / For every Active Mobility Skill equipped, +13% additional Cast Speed (multiplies)",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-5% Elemental Resistance / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Towering Presence] Adds 100% of the Main-Hand Weapon damage to Spells / Adds 75% of Main-Hand Weapon's Critical Strike Rating to the Base Critical Strike Rating of Spell Skills / -99% additional Ailment Damage",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-5% Elemental Resistance / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Spell Ripple] Main Spell Skills on hit have a 50% chance to spawn a Pulse, dealing True Damage equal to 150% of Hit Damage. Interval: 0.03s",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-5% Elemental Resistance / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Juggernaut] -10% additional Armor and -2% Elemental and Erosion Resistance for enemies on Critical Strike for 8 s. Stacks up to 10 times",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-5% Elemental Resistance / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Adaptive Defense] If you haven't been hit recently, +40% Injury Buffer. This effect lasts for another 4s when you are hit / Gains 1 stack(s) of Deflection every 0.5 s if you have been hit recently",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-5% Elemental Resistance / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Unmatched Valor] Has 130 point(s) of fixed Fervor Rating",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-5% Elemental Resistance / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Self-Delusion] +12% additional Erosion Damage to an enemy for each type of Crowd Control Effect they are under / Crowd Control Effects inflicted are reflected back onto you",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-5% Elemental Resistance / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Escalating Affliction] Changes the effect of each point of Affliction to: 0.1% - +3% additional Damage Over Time taken. Refreshes every 1s and is affected by Lucky Damage bonuses / 90% of the bonuses and additional bonuses for Max Damage is also applied to Damage Over Time",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-5% Elemental Resistance / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Commander's Gambit] -100% additional Tenacity Blessing, Agility Blessing, and Focus Blessing Effect / When gaining any Blessing, Minions within 10m also gain it / Minions' Max Blessing Stacks are three times your own",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-5% Elemental Resistance / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Circle of Life] Gains Growth equal to 80% of the nearest Spirit Magus every 1s, and Growth gains Return Speed equal to Command / For every 10 Growth, +1% additional damage for Spirit Magi, 0.1% additional Physique and 0.5% Skill Area for yourself",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-5% Elemental Resistance / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Miraculous Touch] Triggers Miraculous Gain when casting an Elixir Skill / Elixir Skills gain 1 Charging Progress every second",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-5% Elemental Resistance / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Dark Advance] Moves in the target direction when casting Dark Gate / +3 Max Charges for Dark Gate / +50% additional Cooldown Recovery Speed to Dark Gate / +30% additional Minion Damage if a Dark Gate has been cast recently",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-5% Elemental Resistance / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: 1204411023",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-5% Elemental Resistance / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Crushing Blast] Enemies have a 25% chance to explode when defeated by an Attack or Spell, dealing True Damage equal to 250% of their Max Life to enemies within a 6 m radius / +30% additional damage to Elites",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-5% Elemental Resistance / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Storm's Command] +35% additional Attack Damage for each different Warcry cast for 8 s / -99% additional Empower Skill and Defensive Skill Effect",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-5% Elemental Resistance / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Fire's Allure] Inflicts Scorch instead of Ignite / Nearby enemies within 10m -10% Fire Resistance for each stack of Scorch on them",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-5% Elemental Resistance / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Fiery Fantasy] +3% additional Ignite Damage, up to +150% , for every +1% Ignite Chance above 100% / +3% additional Wilt Damage, up to +150% , for every +1% Wilt Chance above 100% / +3% additional Trauma Damage, up to +150% , for every +1% Trauma Chance above 100%",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-30 to All Stats / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [One For All] Gains Cold and Lightning Resistance equal to 50% of Fire Resistance",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-30 to All Stats / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Unwavering Fortress] Gains Bulwark equal to 1.5% of Armor and reduces 100% Non-True Damage taken every 10s. Bulwark is refreshed when gained again / Your Max Life is set to 100 / Your Evasion and Max Energy Shield are fixed at 0",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-30 to All Stats / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Unstoppable Force] When a Combo Finisher is in Multistrike, it is guaranteed to deal damage equal to the Max Multistrike Count",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-30 to All Stats / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Hare's Agility] When exiting Stand Still, gains 1 stack of buff that lasts for 2s, up to 5 times / +14% additional damage dealt to enemies in proximity for each stack of buff. +8% Attack Speed",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-30 to All Stats / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Sweeping Fury] On hit, Main Ranged Horizontal Projectile Skills have a 100% chance to cast an additional Main Skill, whose projectiles fire in a ring and deal -60% additional damage. Interval: 0.03s. Does not affect Sentry Skills, Vertical Skills, and Channeled Skills. / Projectile Quantity Upper limit: 5 / +2 Horizontal Projectile Penetration(s)",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-30 to All Stats / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Keen Intellect] For every Active Empower Skill equipped, +13% additional Spell Damage (multiplies) / For every Active Curse Skill equipped, +6% Elemental and Erosion Resistance Penetration and +6% Armor DMG Mitigation Penetration. / For every Active Defensive Skill equipped, +13% additional Max Mana (multiplies) / For every Active Mobility Skill equipped, +13% additional Cast Speed (multiplies)",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-30 to All Stats / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Towering Presence] Adds 100% of the Main-Hand Weapon damage to Spells / Adds 75% of Main-Hand Weapon's Critical Strike Rating to the Base Critical Strike Rating of Spell Skills / -99% additional Ailment Damage",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-30 to All Stats / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Spell Ripple] Main Spell Skills on hit have a 50% chance to spawn a Pulse, dealing True Damage equal to 150% of Hit Damage. Interval: 0.03s",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-30 to All Stats / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Juggernaut] -10% additional Armor and -2% Elemental and Erosion Resistance for enemies on Critical Strike for 8 s. Stacks up to 10 times",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-30 to All Stats / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Adaptive Defense] If you haven't been hit recently, +40% Injury Buffer. This effect lasts for another 4s when you are hit / Gains 1 stack(s) of Deflection every 0.5 s if you have been hit recently",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-30 to All Stats / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Unmatched Valor] Has 130 point(s) of fixed Fervor Rating",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-30 to All Stats / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Self-Delusion] +12% additional Erosion Damage to an enemy for each type of Crowd Control Effect they are under / Crowd Control Effects inflicted are reflected back onto you",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-30 to All Stats / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Escalating Affliction] Changes the effect of each point of Affliction to: 0.1% - +3% additional Damage Over Time taken. Refreshes every 1s and is affected by Lucky Damage bonuses / 90% of the bonuses and additional bonuses for Max Damage is also applied to Damage Over Time",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-30 to All Stats / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Commander's Gambit] -100% additional Tenacity Blessing, Agility Blessing, and Focus Blessing Effect / When gaining any Blessing, Minions within 10m also gain it / Minions' Max Blessing Stacks are three times your own",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-30 to All Stats / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Circle of Life] Gains Growth equal to 80% of the nearest Spirit Magus every 1s, and Growth gains Return Speed equal to Command / For every 10 Growth, +1% additional damage for Spirit Magi, 0.1% additional Physique and 0.5% Skill Area for yourself",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-30 to All Stats / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Miraculous Touch] Triggers Miraculous Gain when casting an Elixir Skill / Elixir Skills gain 1 Charging Progress every second",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-30 to All Stats / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Dark Advance] Moves in the target direction when casting Dark Gate / +3 Max Charges for Dark Gate / +50% additional Cooldown Recovery Speed to Dark Gate / +30% additional Minion Damage if a Dark Gate has been cast recently",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-30 to All Stats / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: 1204411023",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-30 to All Stats / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Crushing Blast] Enemies have a 25% chance to explode when defeated by an Attack or Spell, dealing True Damage equal to 250% of their Max Life to enemies within a 6 m radius / +30% additional damage to Elites",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-30 to All Stats / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Storm's Command] +35% additional Attack Damage for each different Warcry cast for 8 s / -99% additional Empower Skill and Defensive Skill Effect",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-30 to All Stats / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Fire's Allure] Inflicts Scorch instead of Ignite / Nearby enemies within 10m -10% Fire Resistance for each stack of Scorch on them",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-30 to All Stats / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Fiery Fantasy] +3% additional Ignite Damage, up to +150% , for every +1% Ignite Chance above 100% / +3% additional Wilt Damage, up to +150% , for every +1% Wilt Chance above 100% / +3% additional Trauma Damage, up to +150% , for every +1% Trauma Chance above 100%",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-8% Defense / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [One For All] Gains Cold and Lightning Resistance equal to 50% of Fire Resistance",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-8% Defense / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Unwavering Fortress] Gains Bulwark equal to 1.5% of Armor and reduces 100% Non-True Damage taken every 10s. Bulwark is refreshed when gained again / Your Max Life is set to 100 / Your Evasion and Max Energy Shield are fixed at 0",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-8% Defense / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Unstoppable Force] When a Combo Finisher is in Multistrike, it is guaranteed to deal damage equal to the Max Multistrike Count",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-8% Defense / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Hare's Agility] When exiting Stand Still, gains 1 stack of buff that lasts for 2s, up to 5 times / +14% additional damage dealt to enemies in proximity for each stack of buff. +8% Attack Speed",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-8% Defense / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Sweeping Fury] On hit, Main Ranged Horizontal Projectile Skills have a 100% chance to cast an additional Main Skill, whose projectiles fire in a ring and deal -60% additional damage. Interval: 0.03s. Does not affect Sentry Skills, Vertical Skills, and Channeled Skills. / Projectile Quantity Upper limit: 5 / +2 Horizontal Projectile Penetration(s)",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-8% Defense / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Keen Intellect] For every Active Empower Skill equipped, +13% additional Spell Damage (multiplies) / For every Active Curse Skill equipped, +6% Elemental and Erosion Resistance Penetration and +6% Armor DMG Mitigation Penetration. / For every Active Defensive Skill equipped, +13% additional Max Mana (multiplies) / For every Active Mobility Skill equipped, +13% additional Cast Speed (multiplies)",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-8% Defense / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Towering Presence] Adds 100% of the Main-Hand Weapon damage to Spells / Adds 75% of Main-Hand Weapon's Critical Strike Rating to the Base Critical Strike Rating of Spell Skills / -99% additional Ailment Damage",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-8% Defense / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Spell Ripple] Main Spell Skills on hit have a 50% chance to spawn a Pulse, dealing True Damage equal to 150% of Hit Damage. Interval: 0.03s",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-8% Defense / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Juggernaut] -10% additional Armor and -2% Elemental and Erosion Resistance for enemies on Critical Strike for 8 s. Stacks up to 10 times",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-8% Defense / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Adaptive Defense] If you haven't been hit recently, +40% Injury Buffer. This effect lasts for another 4s when you are hit / Gains 1 stack(s) of Deflection every 0.5 s if you have been hit recently",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-8% Defense / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Unmatched Valor] Has 130 point(s) of fixed Fervor Rating",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-8% Defense / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Self-Delusion] +12% additional Erosion Damage to an enemy for each type of Crowd Control Effect they are under / Crowd Control Effects inflicted are reflected back onto you",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-8% Defense / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Escalating Affliction] Changes the effect of each point of Affliction to: 0.1% - +3% additional Damage Over Time taken. Refreshes every 1s and is affected by Lucky Damage bonuses / 90% of the bonuses and additional bonuses for Max Damage is also applied to Damage Over Time",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-8% Defense / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Commander's Gambit] -100% additional Tenacity Blessing, Agility Blessing, and Focus Blessing Effect / When gaining any Blessing, Minions within 10m also gain it / Minions' Max Blessing Stacks are three times your own",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-8% Defense / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Circle of Life] Gains Growth equal to 80% of the nearest Spirit Magus every 1s, and Growth gains Return Speed equal to Command / For every 10 Growth, +1% additional damage for Spirit Magi, 0.1% additional Physique and 0.5% Skill Area for yourself",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-8% Defense / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Miraculous Touch] Triggers Miraculous Gain when casting an Elixir Skill / Elixir Skills gain 1 Charging Progress every second",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-8% Defense / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Dark Advance] Moves in the target direction when casting Dark Gate / +3 Max Charges for Dark Gate / +50% additional Cooldown Recovery Speed to Dark Gate / +30% additional Minion Damage if a Dark Gate has been cast recently",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-8% Defense / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: 1204411023",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-8% Defense / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Crushing Blast] Enemies have a 25% chance to explode when defeated by an Attack or Spell, dealing True Damage equal to 250% of their Max Life to enemies within a 6 m radius / +30% additional damage to Elites",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-8% Defense / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Storm's Command] +35% additional Attack Damage for each different Warcry cast for 8 s / -99% additional Empower Skill and Defensive Skill Effect",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-8% Defense / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Fire's Allure] Inflicts Scorch instead of Ignite / Nearby enemies within 10m -10% Fire Resistance for each stack of Scorch on them",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "-8% Defense / Mutated Core Talents no longer replace the original talent, but add the following to the Core Talent in the current Talent Panel: [Fiery Fantasy] +3% additional Ignite Damage, up to +150% , for every +1% Ignite Chance above 100% / +3% additional Wilt Damage, up to +150% , for every +1% Wilt Chance above 100% / +3% additional Trauma Damage, up to +150% , for every +1% Trauma Chance above 100%",
+        "Ethereal Prism",
+        "Random Affix"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +6% Attack Damage",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +6% Spell Damage",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +6% Damage Over Time",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +1% Elemental and Erosion Resistance",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +2% Attack and Cast Speed / +2% Minion Attack and Cast Speed",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +10% Critical Strike Rating / +10% Minion Critical Strike Rating",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +6% Critical Strike Damage / +6% Minion Critical Strike Damage",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +2% Defense",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +2% Max Life",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +4% Max Mana",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +6% Attack Damage",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +6% Spell Damage",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +6% Damage Over Time",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +1% Elemental and Erosion Resistance",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +2% Attack and Cast Speed / +2% Minion Attack and Cast Speed",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +10% Critical Strike Rating / +10% Minion Critical Strike Rating",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +6% Critical Strike Damage / +6% Minion Critical Strike Damage",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +2% Defense",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +2% Max Life",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +4% Max Mana",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +10 Strength",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +10 Dexterity",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +10 Intelligence",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +2% Sealed Mana Compensation",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +8% Projectile Speed",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +6% Spell Burst Charge Speed",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +2% Attack and Spell Block Chance",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +6% Affliction Effect",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +10 Strength",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +10 Dexterity",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +10 Intelligence",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +2% Sealed Mana Compensation",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +8% Projectile Speed",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +6% Spell Burst Charge Speed",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +2% Attack and Spell Block Chance",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +6% Affliction Effect",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area also gain: +5% Block Ratio",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area also gain: +7% Movement Speed",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area also gain: +9% Steep Strike chance.",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area also gain: +6% additional Shadow Damage",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area also gain: +30% Demolisher Charge Restoration Speed",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area also gain: +10 to Max Frostbite Rating",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area also gain: +16% Deterioration Chance",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area also gain: Multistrikes deal 12% increasing damage",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area also gain: + 3 Command per second",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area also gain: +24 initial Growth for Spirit Magi",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area also gain: +25% Reaping Duration",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area also gain: +6% Aura Effect",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area also gain: +12% Origin of Spirit Magus effect",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area also gain: +15% Numbed Effect",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +6% Minion Damage",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +6% Minion Damage",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +4% Cold Resistance",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +4% Cold Resistance",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +4% Fire Resistance",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +4% Fire Resistance",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +4% Lightning Resistance",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +4% Lightning Resistance",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +4% Erosion Resistance",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +4% Erosion Resistance",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +2% Aura Effect",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +2% Aura Effect",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +4% Origin of Spirit Magus effect",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +4% Origin of Spirit Magus effect",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area also gain: +6% Sealed Mana Compensation",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area also gain: +50% Terra Charge Recovery Speed",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: 10.5% Attack Damage",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: 10.5% Spell Damage",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: 10.5% Damage Over Time",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +2% Elemental and Erosion Resistance",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: 3.5% Attack and Cast Speed / 3.5% Minion Attack and Cast Speed",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: 17.5% Critical Strike Rating / 17.5% Minion Critical Strike Rating",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: 10.5% Critical Strike Damage / 10.5% Minion Critical Strike Damage",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: 3.5% Defense",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: 3.5% Max Life",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +7% Max Mana",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: 10.5% Attack Damage",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: 10.5% Spell Damage",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: 10.5% Damage Over Time",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +2% Elemental and Erosion Resistance",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: 3.5% Attack and Cast Speed / 3.5% Minion Attack and Cast Speed",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: 17.5% Critical Strike Rating / 17.5% Minion Critical Strike Rating",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: 10.5% Critical Strike Damage / 10.5% Minion Critical Strike Damage",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: 3.5% Defense",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: 3.5% Max Life",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +7% Max Mana",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: 17.5 Strength",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: 17.5 Dexterity",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: 17.5 Intelligence",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: 3.5% Sealed Mana Compensation",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +14% Projectile Speed",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: 10.5% Spell Burst Charge Speed",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: 3.5% Attack and Spell Block Chance",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: 10.5% Affliction Effect",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: 17.5 Strength",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: 17.5 Dexterity",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: 17.5 Intelligence",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: 3.5% Sealed Mana Compensation",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +14% Projectile Speed",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: 10.5% Spell Burst Charge Speed",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: 3.5% Attack and Spell Block Chance",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: 10.5% Affliction Effect",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area also gain: +9% Block Ratio",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area also gain: 12.5% Movement Speed",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area also gain: +16% Steep Strike chance.",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area also gain: 10.5% additional Shadow Damage",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area also gain: 52.5% Demolisher Charge Restoration Speed",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area also gain: 17.5 to Max Frostbite Rating",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area also gain: +28% Deterioration Chance",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area also gain: Multistrikes deal 21% increasing damage",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area also gain: + 5.5 Command per second",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area also gain: +42 initial Growth for Spirit Magi",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area also gain: +44% Reaping Duration",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area also gain: 10.5% Aura Effect",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area also gain: +21% Origin of Spirit Magus effect",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area also gain: 26.5% Numbed Effect",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: 10.5% Minion Damage",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: 10.5% Minion Damage",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +7% Cold Resistance",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +7% Cold Resistance",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +7% Fire Resistance",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +7% Fire Resistance",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +7% Lightning Resistance",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +7% Lightning Resistance",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +7% Erosion Resistance",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +7% Erosion Resistance",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: 3.5% Aura Effect",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: 3.5% Aura Effect",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +7% Origin of Spirit Magus effect",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +7% Origin of Spirit Magus effect",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area also gain: 10.5% Sealed Mana Compensation",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area also gain: +88% Terra Charge Recovery Speed",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +6% Attack Damage",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +6% Spell Damage",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +6% Damage Over Time",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +1% Elemental and Erosion Resistance",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +2% Attack and Cast Speed / +2% Minion Attack and Cast Speed",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +10% Critical Strike Rating / +10% Minion Critical Strike Rating",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +6% Critical Strike Damage / +6% Minion Critical Strike Damage",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +2% Defense",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +2% Max Life",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +4% Max Mana",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +6% Attack Damage",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +6% Spell Damage",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +6% Damage Over Time",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +1% Elemental and Erosion Resistance",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +2% Attack and Cast Speed / +2% Minion Attack and Cast Speed",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +10% Critical Strike Rating / +10% Minion Critical Strike Rating",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +6% Critical Strike Damage / +6% Minion Critical Strike Damage",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +2% Defense",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +2% Max Life",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +4% Max Mana",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +10 Strength",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +10 Dexterity",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +10 Intelligence",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +2% Sealed Mana Compensation",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +8% Projectile Speed",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +6% Spell Burst Charge Speed",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +2% Attack and Spell Block Chance",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +6% Affliction Effect",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +10 Strength",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +10 Dexterity",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +10 Intelligence",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +2% Sealed Mana Compensation",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +8% Projectile Speed",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +6% Spell Burst Charge Speed",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +2% Attack and Spell Block Chance",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +6% Affliction Effect",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area also gain: +5% Block Ratio",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area also gain: +7% Movement Speed",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area also gain: +9% Steep Strike chance.",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area also gain: +6% additional Shadow Damage",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area also gain: +30% Demolisher Charge Restoration Speed",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area also gain: +10 to Max Frostbite Rating",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area also gain: +16% Deterioration Chance",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area also gain: Multistrikes deal 12% increasing damage",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area also gain: + 3 Command per second",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area also gain: +24 initial Growth for Spirit Magi",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area also gain: +25% Reaping Duration",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area also gain: +6% Aura Effect",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area also gain: +12% Origin of Spirit Magus effect",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area also gain: +15% Numbed Effect",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +6% Minion Damage",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +6% Minion Damage",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +4% Cold Resistance",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +4% Cold Resistance",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +4% Fire Resistance",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +4% Fire Resistance",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +4% Lightning Resistance",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +4% Lightning Resistance",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +4% Erosion Resistance",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +4% Erosion Resistance",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +2% Aura Effect",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +2% Aura Effect",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Micro Talent within the area also gain: +4% Origin of Spirit Magus effect",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Medium Talent within the area also gain: +4% Origin of Spirit Magus effect",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area also gain: +6% Sealed Mana Compensation",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area also gain: +50% Terra Charge Recovery Speed",
+        "Ethereal Prism",
+        "Prism Gauge - Rare"
+       ],
+       "links": [
+        "Prism_Gauge_-_Rare"
+       ]
+      },
+      {
+       "cells": [
+        "Points can be allocated to all Micro Talent within the area 1 additional time(s)",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "Points can be allocated to all Medium Talent within the area 1 additional time(s)",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "Points can be allocated to all Micro Talent within the area 2 additional time(s)",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "Points can be allocated to all Medium Talent within the area 2 additional time(s)",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "Points can be allocated to all Micro Talent within the area 3 additional time(s)",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "Points can be allocated to all Medium Talent within the area 3 additional time(s)",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area can ignore prerequisite point requirements",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, +1 to Max Tenacity Blessing Stacks",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, +1 to Max Agility Blessing Stacks",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, +1 to Max Focus Blessing Stacks",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, Gains a stack of Fortitude when using a Melee Skill / Owns 1 additional stack(s) of Fortitude",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, Inflicts Frail when dealing Spell Damage / +40% Frail Effect",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, Gains Attack Aggression when casting an Attack Skill / +40% Attack Aggression Effect",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, Gains Spell Aggression when casting a Spell Skill / +40% Spell Aggression Effect",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, Gains a stack of Torment when dealing Damage Over Time / +40% Torment Effect",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, Has 100 point(s) of fixed Blur Rating",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, +100% chance to gain a Barrier upon casting a Defensive Skill",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, Inflicts Cold Infiltration on hit / +40% Cold Infiltration Effect",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, Inflicts Fire Infiltration on hit / +40% Fire Infiltration Effect",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, Inflicts Lightning Infiltration on hit / +40% Lightning Infiltration Effect",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, You can cast 1 additional Curses / Gains 1 Lv. 1 random curse for 5 s after casting a Curse Skill",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, Immune to crowd control effects / -25% Defense",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, -100% Curse effect against you",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, Immune to Elemental Ailments / -8% Elemental Resistance",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, +1 Max Bond Stacks",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "Points can be allocated to all Micro Talent within the area 1 additional time(s)",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "Points can be allocated to all Medium Talent within the area 1 additional time(s)",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "Points can be allocated to all Micro Talent within the area 2 additional time(s)",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "Points can be allocated to all Medium Talent within the area 2 additional time(s)",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "Points can be allocated to all Micro Talent within the area 3 additional time(s)",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "Points can be allocated to all Medium Talent within the area 3 additional time(s)",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area can ignore prerequisite point requirements",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, +2 to Max Tenacity Blessing Stacks",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, +2 to Max Agility Blessing Stacks",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, +2 to Max Focus Blessing Stacks",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, Gains a stack of Fortitude when using a Melee Skill / Owns 2 additional stack(s) of Fortitude",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, Inflicts Frail when dealing Spell Damage / +100% Frail Effect",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, Gains Attack Aggression when casting an Attack Skill / +100% Attack Aggression Effect",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, Gains Spell Aggression when casting a Spell Skill / +100% Spell Aggression Effect",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, Gains a stack of Torment when dealing Damage Over Time / +100% Torment Effect",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, Has 120 point(s) of fixed Blur Rating",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, +175% chance to gain a Barrier upon casting a Defensive Skill",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, Inflicts Cold Infiltration on hit / +100% Cold Infiltration Effect",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, Inflicts Fire Infiltration on hit / +100% Fire Infiltration Effect",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, Inflicts Lightning Infiltration on hit / +100% Lightning Infiltration Effect",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, You can cast 1 additional Curses / Gains 1 Lv. 1 random curse for 5 s after casting a Curse Skill",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, Immune to crowd control effects",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, -100% Curse effect against you",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, Immune to Elemental Ailments",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, +2 Max Bond Stacks",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "Points can be allocated to all Micro Talent within the area 1 additional time(s)",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "Points can be allocated to all Medium Talent within the area 1 additional time(s)",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "Points can be allocated to all Micro Talent within the area 2 additional time(s)",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "Points can be allocated to all Medium Talent within the area 2 additional time(s)",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "Points can be allocated to all Micro Talent within the area 3 additional time(s)",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "Points can be allocated to all Medium Talent within the area 3 additional time(s)",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "All Legendary Medium Talent within the area can ignore prerequisite point requirements / All Medium Talent within the area can ignore prerequisite point requirements",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, +1 to Max Tenacity Blessing Stacks",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, +1 to Max Agility Blessing Stacks",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, +1 to Max Focus Blessing Stacks",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, Gains a stack of Fortitude when using a Melee Skill / Owns 1 additional stack(s) of Fortitude",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, Inflicts Frail when dealing Spell Damage / +40% Frail Effect",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, Gains Attack Aggression when casting an Attack Skill / +40% Attack Aggression Effect",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, Gains Spell Aggression when casting a Spell Skill / +40% Spell Aggression Effect",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, Gains a stack of Torment when dealing Damage Over Time / +40% Torment Effect",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, Has 100 point(s) of fixed Blur Rating",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, +100% chance to gain a Barrier upon casting a Defensive Skill",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, Inflicts Cold Infiltration on hit / +40% Cold Infiltration Effect",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, Inflicts Fire Infiltration on hit / +40% Fire Infiltration Effect",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, Inflicts Lightning Infiltration on hit / +40% Lightning Infiltration Effect",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, You can cast 1 additional Curses / Gains 1 Lv. 1 random curse for 5 s after casting a Curse Skill",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, Immune to crowd control effects / -25% Defense",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, -100% Curse effect against you",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, Immune to Elemental Ailments / -8% Elemental Resistance",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      },
+      {
+       "cells": [
+        "When activating 2 Legendary Medium Talent within the area, +1 Max Bond Stacks",
+        "Ethereal Prism",
+        "Prism Gauge - Legendary"
+       ],
+       "links": [
+        "Prism_Gauge_-_Legendary"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "card": "Item",
+   "tab": "Item",
+   "entries": [
+    {
+     "lines": [
+      "(Up to 1 Ethereal Prism and 1 Inverse Image can be installed)",
+      "Can be installed on a Non-Core Talent slot, overriding the original effects."
+     ],
+     "name": "Ethereal Prism: Haze",
+     "key": "Ethereal_Prism_Haze"
+    },
+    {
+     "lines": [
+      "+75% to the effects of Random Affixes on this Prism",
+      "(Up to 1 Ethereal Prism and 1 Inverse Image can be installed)",
+      "Can be installed on a Non-Core Talent slot, overriding the original effects."
+     ],
+     "name": "Ethereal Prism: Phantasmagoria",
+     "key": "Ethereal_Prism_Phantasmagoria"
+    },
+    {
+     "lines": [
+      "Replaces the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel with One For All",
+      "(Up to 1 Ethereal Prism and 1 Inverse Image can be installed)",
+      "Can be installed on a Non-Core Talent slot, overriding the original effects."
+     ],
+     "name": "Ethereal Prism: One For All",
+     "key": "Ethereal_Prism_One_For_All"
+    },
+    {
+     "lines": [
+      "Replaces the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel with Unwavering Fortress",
+      "(Up to 1 Ethereal Prism and 1 Inverse Image can be installed)",
+      "Can be installed on a Non-Core Talent slot, overriding the original effects."
+     ],
+     "name": "Ethereal Prism: Unwavering Fortress",
+     "key": "Ethereal_Prism_Unwavering_Fortress"
+    },
+    {
+     "lines": [
+      "Replaces the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel with Unstoppable Force",
+      "(Up to 1 Ethereal Prism and 1 Inverse Image can be installed)",
+      "Can be installed on a Non-Core Talent slot, overriding the original effects."
+     ],
+     "name": "Ethereal Prism: Unstoppable Force",
+     "key": "Ethereal_Prism_Unstoppable_Force"
+    },
+    {
+     "lines": [
+      "Replaces the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel with Hare's Agility",
+      "(Up to 1 Ethereal Prism and 1 Inverse Image can be installed)",
+      "Can be installed on a Non-Core Talent slot, overriding the original effects."
+     ],
+     "name": "Ethereal Prism: Hare's Agility",
+     "key": "Ethereal_Prism_Hares_Agility"
+    },
+    {
+     "lines": [
+      "Replaces the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel with Sweeping Fury",
+      "(Up to 1 Ethereal Prism and 1 Inverse Image can be installed)",
+      "Can be installed on a Non-Core Talent slot, overriding the original effects."
+     ],
+     "name": "Ethereal Prism: Sweeping Fury",
+     "key": "Ethereal_Prism_Sweeping_Fury"
+    },
+    {
+     "lines": [
+      "Replaces the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel with Keen Intellect",
+      "(Up to 1 Ethereal Prism and 1 Inverse Image can be installed)",
+      "Can be installed on a Non-Core Talent slot, overriding the original effects."
+     ],
+     "name": "Ethereal Prism: Keen Intellect",
+     "key": "Ethereal_Prism_Keen_Intellect"
+    },
+    {
+     "lines": [
+      "Replaces the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel with Towering Presence",
+      "(Up to 1 Ethereal Prism and 1 Inverse Image can be installed)",
+      "Can be installed on a Non-Core Talent slot, overriding the original effects."
+     ],
+     "name": "Ethereal Prism: Towering Presence",
+     "key": "Ethereal_Prism_Towering_Presence"
+    },
+    {
+     "lines": [
+      "Replaces the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel with Spell Ripple",
+      "(Up to 1 Ethereal Prism and 1 Inverse Image can be installed)",
+      "Can be installed on a Non-Core Talent slot, overriding the original effects."
+     ],
+     "name": "Ethereal Prism: Spell Ripple",
+     "key": "Ethereal_Prism_Spell_Ripple"
+    },
+    {
+     "lines": [
+      "Replaces the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel with Juggernaut",
+      "(Up to 1 Ethereal Prism and 1 Inverse Image can be installed)",
+      "Can be installed on a Non-Core Talent slot, overriding the original effects."
+     ],
+     "name": "Ethereal Prism: Juggernaut",
+     "key": "Ethereal_Prism_Juggernaut"
+    },
+    {
+     "lines": [
+      "Replaces the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel with Adaptive Defense",
+      "(Up to 1 Ethereal Prism and 1 Inverse Image can be installed)",
+      "Can be installed on a Non-Core Talent slot, overriding the original effects."
+     ],
+     "name": "Ethereal Prism: Adaptive Defense",
+     "key": "Ethereal_Prism_Adaptive_Defense"
+    },
+    {
+     "lines": [
+      "Replaces the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel with Unmatched Valor",
+      "(Up to 1 Ethereal Prism and 1 Inverse Image can be installed)",
+      "Can be installed on a Non-Core Talent slot, overriding the original effects."
+     ],
+     "name": "Ethereal Prism: Unmatched Valor",
+     "key": "Ethereal_Prism_Unmatched_Valor"
+    },
+    {
+     "lines": [
+      "Replaces the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel with Self-Delusion",
+      "(Up to 1 Ethereal Prism and 1 Inverse Image can be installed)",
+      "Can be installed on a Non-Core Talent slot, overriding the original effects."
+     ],
+     "name": "Ethereal Prism: Self-Delusion",
+     "key": "Ethereal_Prism_Self-Delusion"
+    },
+    {
+     "lines": [
+      "Replaces the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel with Escalating Affliction",
+      "(Up to 1 Ethereal Prism and 1 Inverse Image can be installed)",
+      "Can be installed on a Non-Core Talent slot, overriding the original effects."
+     ],
+     "name": "Ethereal Prism: Escalating Affliction",
+     "key": "Ethereal_Prism_Escalating_Affliction"
+    },
+    {
+     "lines": [
+      "Replaces the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel with Commander's Gambit",
+      "(Up to 1 Ethereal Prism and 1 Inverse Image can be installed)",
+      "Can be installed on a Non-Core Talent slot, overriding the original effects."
+     ],
+     "name": "Ethereal Prism: Commander's Gambit",
+     "key": "Ethereal_Prism_Commanders_Gambit"
+    },
+    {
+     "lines": [
+      "Replaces the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel with Circle of Life",
+      "(Up to 1 Ethereal Prism and 1 Inverse Image can be installed)",
+      "Can be installed on a Non-Core Talent slot, overriding the original effects."
+     ],
+     "name": "Ethereal Prism: Circle of Life",
+     "key": "Ethereal_Prism_Circle_of_Life"
+    },
+    {
+     "lines": [
+      "Replaces the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel with Miraculous Touch",
+      "(Up to 1 Ethereal Prism and 1 Inverse Image can be installed)",
+      "Can be installed on a Non-Core Talent slot, overriding the original effects."
+     ],
+     "name": "Ethereal Prism: Miraculous Touch",
+     "key": "Ethereal_Prism_Miraculous_Touch"
+    },
+    {
+     "lines": [
+      "Replaces the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel with Dark Advance",
+      "(Up to 1 Ethereal Prism and 1 Inverse Image can be installed)",
+      "Can be installed on a Non-Core Talent slot, overriding the original effects."
+     ],
+     "name": "Ethereal Prism: Dark Advance",
+     "key": "Ethereal_Prism_Dark_Advance"
+    },
+    {
+     "lines": [
+      "Replaces the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel with Effortless Command",
+      "(Up to 1 Ethereal Prism and 1 Inverse Image can be installed)",
+      "Can be installed on a Non-Core Talent slot, overriding the original effects."
+     ],
+     "name": "Ethereal Prism: Effortless Command",
+     "key": "Ethereal_Prism_Effortless_Command"
+    },
+    {
+     "lines": [
+      "Replaces the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel with Crushing Blast",
+      "(Up to 1 Ethereal Prism and 1 Inverse Image can be installed)",
+      "Can be installed on a Non-Core Talent slot, overriding the original effects."
+     ],
+     "name": "Ethereal Prism: Crushing Blast",
+     "key": "Ethereal_Prism_Crushing_Blast"
+    },
+    {
+     "lines": [
+      "Replaces the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel with Storm's Command",
+      "(Up to 1 Ethereal Prism and 1 Inverse Image can be installed)",
+      "Can be installed on a Non-Core Talent slot, overriding the original effects."
+     ],
+     "name": "Ethereal Prism: Storm's Command",
+     "key": "Ethereal_Prism_Storms_Command"
+    },
+    {
+     "lines": [
+      "Replaces the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel with Fire's Allure",
+      "(Up to 1 Ethereal Prism and 1 Inverse Image can be installed)",
+      "Can be installed on a Non-Core Talent slot, overriding the original effects."
+     ],
+     "name": "Ethereal Prism: Fire's Allure",
+     "key": "Ethereal_Prism_Fires_Allure"
+    },
+    {
+     "lines": [
+      "Replaces the Core Talent on the God of Might/Goddess of Hunting/Goddess of Knowledge/God of War/Goddess of Deception/God of Machines Advanced Talent Panel with Fiery Fantasy",
+      "(Up to 1 Ethereal Prism and 1 Inverse Image can be installed)",
+      "Can be installed on a Non-Core Talent slot, overriding the original effects."
+     ],
+     "name": "Ethereal Prism: Fiery Fantasy",
+     "key": "Ethereal_Prism_Fiery_Fantasy"
+    },
+    {
+     "lines": [
+      "Reflects all Talents within the range to the mirrored area. All Talents within the reflected area have no prerequisites.",
+      "-100% all reflected Micro Talent Effects",
+      "-100% all reflected Medium Talent Effects",
+      "-100% all reflected Legendary Medium Talent Effects",
+      "(Up to 1 Ethereal Prism and 1 Inverse Image can be installed)",
+      "Can be installed on a Non-Core Talent slot, overriding the original effects.",
+      "1 - 3 random affix slots are Tempered"
+     ],
+     "name": "Inverse Image",
+     "key": "Inverse_Image"
+    },
+    {
+     "lines": [
+      "Can be used to calibrate Prisms",
+      "Prism calibration material. Can be used to add the first and second random affixes to a Prism"
+     ],
+     "name": "Prism Gauge - Rare",
+     "key": "Prism_Gauge_-_Rare"
+    },
+    {
+     "lines": [
+      "Can be used to calibrate Prisms",
+      "Prism calibration material. Can be used to add the third Legendary random affix to a Prism"
+     ],
+     "name": "Prism Gauge - Legendary",
+     "key": "Prism_Gauge_-_Legendary"
+    },
+    {
+     "lines": [
+      "Prism Calibration additive. Use when calibrating the first affix to gain an extra reroll on the random affix outcome"
+     ],
+     "name": "Prism Level I",
+     "key": "Prism_Level_I"
+    },
+    {
+     "lines": [
+      "Prism Calibration additive. Use when calibrating the second affix to gain an extra reroll on the random affix outcome"
+     ],
+     "name": "Prism Level II",
+     "key": "Prism_Level_II"
+    },
+    {
+     "lines": [
+      "Prism Calibration additive. Use when calibrating the third affix to gain an extra reroll on the random affix outcome"
+     ],
+     "name": "Prism Level III",
+     "key": "Prism_Level_III"
+    },
+    {
+     "lines": [
+      "Prism Restoration Material. Restores a Prism to its pre-crafted state, but consumes Plasticity."
+     ],
+     "name": "Prism Repairer",
+     "key": "Prism_Repairer"
+    }
+   ]
+  },
+  {
+   "card": "Calibrate Prism - Help",
+   "tab": "CalibratePrism-Help",
+   "text": [
+    "Calibrate Prisms to add random affixes to Ethereal Prisms.",
+    "Calibration generates 3 random optional affixes, 1 of which is selected as the final result. Each Prism slot can be calibrated to produce a corresponding type of affix. Slot 1 can be calibrated with a Prism Effect Area affix. Slot 2 can be calibrated with a Prism Additional Effect Affix. Slot 3 can be calibrated with a Prism Legendary Mechanic Affix.",
+    "During calibration, a special additional material called Prism Level can be added. Its function is to make it possible to manually refresh the random affix options once.",
+    "Prisms that already have 1 or more random affixes can be restored using the restoration feature by spending certain materials. Prisms that have reached the Plasticity upper limit cannot be restored."
+   ]
+  }
+ ]
+}

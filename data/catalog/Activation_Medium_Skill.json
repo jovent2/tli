@@ -1,0 +1,569 @@
+{
+ "page": "Activation_Medium_Skill",
+ "cards": [
+  {
+   "card": "Activation Medium Skill Tag",
+   "tab": "ActivationMediumSkillTag",
+   "entries": [
+    {
+     "lines": [
+      "Activation Medium, Support"
+     ],
+     "name": "Activation Medium: Preparation",
+     "key": "Activation_Medium_Preparation",
+     "icon": "UISkillCMPreparationIcon128"
+    },
+    {
+     "lines": [
+      "Activation Medium, Support"
+     ],
+     "name": "Activation Medium: Perpetual Motion",
+     "key": "Activation_Medium_Perpetual_Motion",
+     "icon": "UISkillCMPerpetualMotionIcon128"
+    },
+    {
+     "lines": [
+      "Activation Medium, Support"
+     ],
+     "name": "Activation Medium: Elite",
+     "key": "Activation_Medium_Elite",
+     "icon": "UISkillCMStrongRivalIcon128"
+    },
+    {
+     "lines": [
+      "Activation Medium, Support"
+     ],
+     "name": "Activation Medium: Boss",
+     "key": "Activation_Medium_Boss",
+     "icon": "UISkillCMLeaderIcon128"
+    },
+    {
+     "lines": [
+      "Activation Medium, Support"
+     ],
+     "name": "Activation Medium: Life",
+     "key": "Activation_Medium_Life",
+     "icon": "UISkillCMLifeIcon128"
+    },
+    {
+     "lines": [
+      "Activation Medium, Support"
+     ],
+     "name": "Activation Medium: Energy Shield",
+     "key": "Activation_Medium_Energy_Shield",
+     "icon": "UISkillCMShieldIcon128"
+    },
+    {
+     "lines": [
+      "Activation Medium, Support"
+     ],
+     "name": "Activation Medium: Severe Injury",
+     "key": "Activation_Medium_Severe_Injury",
+     "icon": "UISkillCMHeavyHamageIcon128"
+    },
+    {
+     "lines": [
+      "Activation Medium, Support"
+     ],
+     "name": "Activation Medium: Multistrike",
+     "key": "Activation_Medium_Multistrike",
+     "icon": "UISkillCMContinuousAttackIcon128"
+    },
+    {
+     "lines": [
+      "Activation Medium, Support"
+     ],
+     "name": "Activation Medium: Demolisher",
+     "key": "Activation_Medium_Demolisher",
+     "icon": "UISkillCMWreckIcon128"
+    },
+    {
+     "lines": [
+      "Activation Medium, Support"
+     ],
+     "name": "Activation Medium: Spell Burst",
+     "key": "Activation_Medium_Spell_Burst",
+     "icon": "UISkillCMBurstOfSpellsIcon128"
+    },
+    {
+     "lines": [
+      "Activation Medium, Support"
+     ],
+     "name": "Activation Medium: Start",
+     "key": "Activation_Medium_Start",
+     "icon": "UISkillCMStartIcon128"
+    },
+    {
+     "lines": [
+      "Activation Medium, Support"
+     ],
+     "name": "Activation Medium: Root",
+     "key": "Activation_Medium_Root",
+     "icon": "UISkillCMStopIcon128"
+    },
+    {
+     "lines": [
+      "Activation Medium, Support"
+     ],
+     "name": "Activation Medium: Resonance Activation",
+     "key": "Activation_Medium_Resonance_Activation",
+     "icon": "UISkillCMActivateResonanceIcon128"
+    },
+    {
+     "lines": [
+      "Activation Medium, Support"
+     ],
+     "name": "Activation Medium: Resonance",
+     "key": "Activation_Medium_Resonance",
+     "icon": "UISkillCMResonanceIcon128"
+    },
+    {
+     "lines": [
+      "Activation Medium, Support"
+     ],
+     "name": "Activation Medium: Rhythm",
+     "key": "Activation_Medium_Rhythm",
+     "icon": "UISkillCMRhythmIcon128"
+    },
+    {
+     "lines": [
+      "Activation Medium, Support"
+     ],
+     "name": "Activation Medium: Wind Rhythm",
+     "key": "Activation_Medium_Wind_Rhythm",
+     "icon": "UISkillCMRhythmOftheWindIcon128"
+    },
+    {
+     "lines": [
+      "Activation Medium, Support"
+     ],
+     "name": "Activation Medium: Root Attack",
+     "key": "Activation_Medium_Root_Attack",
+     "icon": "UISkillCMStopAttackIcon128"
+    },
+    {
+     "lines": [
+      "Activation Medium, Support"
+     ],
+     "name": "Activation Medium: Still Attack",
+     "key": "Activation_Medium_Still_Attack",
+     "icon": "UISkillCMStationaryAttackIcon128"
+    },
+    {
+     "lines": [
+      "Activation Medium, Support"
+     ],
+     "name": "Activation Medium: Sentry",
+     "key": "Activation_Medium_Sentry",
+     "icon": "UISkillCMSentinelIcon128"
+    },
+    {
+     "lines": [
+      "Activation Medium, Support"
+     ],
+     "name": "Activation Medium: Minion",
+     "key": "Activation_Medium_Minion",
+     "icon": "UISkillCMSummonIcon128"
+    },
+    {
+     "lines": [
+      "Activation Medium, Support"
+     ],
+     "name": "Activation Medium: Critical Strike",
+     "key": "Activation_Medium_Critical_Strike",
+     "icon": "UISkillCMCriticalHitIcon128"
+    },
+    {
+     "lines": [
+      "Activation Medium, Support"
+     ],
+     "name": "Activation Medium: Channel",
+     "key": "Activation_Medium_Channel",
+     "icon": "UISkillCMGuideIcon128"
+    },
+    {
+     "lines": [
+      "Activation Medium, Support"
+     ],
+     "name": "Activation Medium: Instruction",
+     "key": "Activation_Medium_Instruction",
+     "icon": "UISkillCMArcaneSignalIcon128"
+    },
+    {
+     "lines": [
+      "Activation Medium, Support"
+     ],
+     "name": "Activation Medium: Lock On",
+     "key": "Activation_Medium_Lock_On",
+     "icon": "UISkillCMLockingIcon128"
+    },
+    {
+     "lines": [
+      "Activation Medium, Support"
+     ],
+     "name": "Activation Medium: Track",
+     "key": "Activation_Medium_Track",
+     "icon": "UISkillCMTrackIcon128"
+    },
+    {
+     "lines": [
+      "Activation Medium, Support"
+     ],
+     "name": "Activation Medium: Burst Activation",
+     "key": "Activation_Medium_Burst_Activation",
+     "icon": "UISkillCMDoppelgangerSignalIcon128"
+    },
+    {
+     "lines": [
+      "Activation Medium, Support"
+     ],
+     "name": "Activation Medium: Motionless",
+     "key": "Activation_Medium_Motionless",
+     "icon": "UISkillCMStationaryUseIcon128"
+    },
+    {
+     "lines": [
+      "Activation Medium, Support"
+     ],
+     "name": "Activation Medium: Tangle",
+     "key": "Activation_Medium_Tangle",
+     "icon": "UISkillCMEntanglementIcon128"
+    },
+    {
+     "lines": [
+      "Activation Medium, Support"
+     ],
+     "name": "Activation Medium: Rejuvenation",
+     "key": "Activation_Medium_Rejuvenation",
+     "icon": "UISkillCMShengXiIcon128"
+    }
+   ]
+  },
+  {
+   "card": "Activation Medium Skill",
+   "tab": "ActivationMediumSkill",
+   "entries": [
+    {
+     "lines": [
+      "Supports Active Skills.",
+      "Cannot support Channeled Skills and Attack Skills.",
+      "This skill can only be installed in the first Support Skill Slot of each Active Skill.",
+      "Prepares the supported skill every (4–5) s",
+      "<Cooldown Recovery Speed or Duration Bonus>"
+     ],
+     "name": "Activation Medium: Preparation",
+     "key": "Activation_Medium_Preparation"
+    },
+    {
+     "lines": [
+      "Supports Empower, Defensive, Restoration, Curse, Warcry, and Elixir Skills.",
+      "Cannot support Channeled Skills.",
+      "This skill can only be installed in the first Support Skill Slot of each Active Skill.",
+      "Always attempts to trigger the supported skill. Interval: 0.2s",
+      "<Cooldown Recovery Speed or Duration Bonus>"
+     ],
+     "name": "Activation Medium: Perpetual Motion",
+     "key": "Activation_Medium_Perpetual_Motion"
+    },
+    {
+     "lines": [
+      "Supports Empower, Defensive, Restoration, Curse, Warcry, and Elixir Skills.",
+      "Cannot support Channeled Skills.",
+      "This skill can only be installed in the first Support Skill Slot of each Active Skill.",
+      "Always attempts to trigger the supported skill when there is an Elite within (6–20) m. Interval: 0.2 s",
+      "<Cooldown Recovery Speed or Duration Bonus>"
+     ],
+     "name": "Activation Medium: Elite",
+     "key": "Activation_Medium_Elite"
+    },
+    {
+     "lines": [
+      "Supports Empower, Defensive, Restoration, Curse, Warcry, and Elixir Skills.",
+      "Cannot support Channeled Skills.",
+      "This skill can only be installed in the first Support Skill Slot of each Active Skill.",
+      "Always attempts to trigger the supported skill when there is a boss within (6–20) m. Interval: 0.1s",
+      "<Cooldown Recovery Speed or Duration Bonus>"
+     ],
+     "name": "Activation Medium: Boss",
+     "key": "Activation_Medium_Boss"
+    },
+    {
+     "lines": [
+      "Supports Restoration and Elixir Skills.",
+      "Cannot support Channeled Skills.",
+      "This skill can only be installed in the first Support Skill Slot of each Active Skill.",
+      "Always attempts to trigger the Supported Skill when HP is lower than (20–95)% . Disabled while any Restoration Skill is active",
+      "<Cooldown Recovery Speed or Duration Bonus>"
+     ],
+     "name": "Activation Medium: Life",
+     "key": "Activation_Medium_Life"
+    },
+    {
+     "lines": [
+      "Supports Empower, Defensive, Restoration, Curse, and Elixir Skills.",
+      "Cannot support Channeled Skills.",
+      "This skill can only be installed in the first Support Skill Slot of each Active Skill.",
+      "Always attempts to trigger the supported skill when Energy Shield is lower than (20–95)% . Interval: 0.1s",
+      "<Cooldown Recovery Speed or Duration Bonus>"
+     ],
+     "name": "Activation Medium: Energy Shield",
+     "key": "Activation_Medium_Energy_Shield"
+    },
+    {
+     "lines": [
+      "Supports Empower, Defensive, Restoration, Curse, and Elixir Skills.",
+      "Cannot support Channeled Skills.",
+      "This skill can only be installed in the first Support Skill Slot of each Active Skill.",
+      "Triggers the supported skill when suffering a Severe Injury",
+      "<Cooldown Recovery Speed or Duration Bonus>"
+     ],
+     "name": "Activation Medium: Severe Injury",
+     "key": "Activation_Medium_Severe_Injury"
+    },
+    {
+     "lines": [
+      "Supports Empower, Defensive, Restoration, Curse, Mobility, Warcry, and Elixir Skills.",
+      "Cannot support Channeled Skills and Attack Skills.",
+      "This skill can only be installed in the first Support Skill Slot of each Active Skill.",
+      "Triggers the supported skill upon reaching the max Multistrike Count. Interval: 0.1s",
+      "<Cooldown Recovery Speed or Duration Bonus>"
+     ],
+     "name": "Activation Medium: Multistrike",
+     "key": "Activation_Medium_Multistrike"
+    },
+    {
+     "lines": [
+      "Supports Empower, Defensive, Restoration, Curse, Warcry, and Elixir Skills.",
+      "Cannot support Channeled Skills.",
+      "This skill can only be installed in the first Support Skill Slot of each Active Skill.",
+      "Triggers the supported skill upon gaining Demolisher Charge. Interval: 0.1s",
+      "<Cooldown Recovery Speed or Duration Bonus>"
+     ],
+     "name": "Activation Medium: Demolisher",
+     "key": "Activation_Medium_Demolisher"
+    },
+    {
+     "lines": [
+      "Supports Empower, Defensive, Restoration, Curse, and Elixir Skills.",
+      "Cannot support Channeled Skills.",
+      "This skill can only be installed in the first Support Skill Slot of each Active Skill.",
+      "Triggers the supported skill when activating Spell Burst. Interval: 0.1s",
+      "<Cooldown Recovery Speed or Duration Bonus>"
+     ],
+     "name": "Activation Medium: Spell Burst",
+     "key": "Activation_Medium_Spell_Burst"
+    },
+    {
+     "lines": [
+      "Supports Empower, Defensive, Restoration, Curse, Warcry, and Elixir Skills.",
+      "Cannot support Channeled Skills.",
+      "This skill can only be installed in the first Support Skill Slot of each Active Skill.",
+      "Triggers the supported skill upon starting to move. Interval: 0.1s",
+      "<Cooldown Recovery Speed or Duration Bonus>"
+     ],
+     "name": "Activation Medium: Start",
+     "key": "Activation_Medium_Start"
+    },
+    {
+     "lines": [
+      "Supports Empower, Defensive, Restoration, Curse, Warcry, and Elixir Skills.",
+      "Cannot support Channeled Skills.",
+      "This skill can only be installed in the first Support Skill Slot of each Active Skill.",
+      "Triggers the supported skill upon stopping moving. Interval: 0.1s",
+      "<Cooldown Recovery Speed or Duration Bonus>"
+     ],
+     "name": "Activation Medium: Root",
+     "key": "Activation_Medium_Root"
+    },
+    {
+     "lines": [
+      "Supports Empower, Defensive, Restoration, Curse, Warcry, and Elixir Skills.",
+      "Cannot support Channeled Skills.",
+      "This skill can only be installed in the first Support Skill Slot of each Active Skill.",
+      "Activates Resonance when you use the supported skill",
+      "<Cooldown Recovery Speed or Duration Bonus>"
+     ],
+     "name": "Activation Medium: Resonance Activation",
+     "key": "Activation_Medium_Resonance_Activation"
+    },
+    {
+     "lines": [
+      "Supports Empower, Defensive, Restoration, Curse, Warcry, and Elixir Skills.",
+      "Cannot support Channeled Skills.",
+      "This skill can only be installed in the first Support Skill Slot of each Active Skill.",
+      "Triggers the supported skill when Resonance is activated",
+      "<Cooldown Recovery Speed or Duration Bonus>"
+     ],
+     "name": "Activation Medium: Resonance",
+     "key": "Activation_Medium_Resonance"
+    },
+    {
+     "lines": [
+      "Supports Active Skill that deal damage.",
+      "Cannot support Channeled Skills and Attack Mobility Skills.",
+      "This skill can only be installed in the first Support Skill Slot of each Active Skill.",
+      "Triggers the supported skill on the closest enemy within 20m every (0.3–0.5)s.",
+      "The next skill triggered by the supported skill +3% additional damage for every 1m of movement made during the trigger interval, up to +(18–21)%.",
+      "-80% additional damage for manually used Supported Skill"
+     ],
+     "name": "Activation Medium: Rhythm",
+     "key": "Activation_Medium_Rhythm"
+    },
+    {
+     "lines": [
+      "Supports Spell Skills that deal damage.",
+      "Cannot support Passive Skills and Channeled Skills.",
+      "This skill can only be installed in the first Support Skill Slot of each Active Skill.",
+      "Always attempts to trigger the supported skill on the closest enemy within 25m. Cooldown: 0.6 s",
+      "(80–85)% of the bonuses and additional bonuses for Cast Speed is also applied to the Cooldown Recovery Speed of this Support Skill and the supported skill",
+      "-80% additional damage for manually used Supported Skill"
+     ],
+     "name": "Activation Medium: Wind Rhythm",
+     "key": "Activation_Medium_Wind_Rhythm"
+    },
+    {
+     "lines": [
+      "Supports Attack Skills that deal damage.",
+      "Cannot support Passive Skills and Channeled Skills.",
+      "This skill can only be installed in the first Support Skill Slot of each Active Skill.",
+      "Automatically attempts to use a supported Attack Skill on the closest enemy when stopping moving. Interval: (0.2–0.3) s",
+      "Every 1m moved adds +(10–20)% damage to the next auto used supported skill, up to +(46–65)% . During Multistrike, the bonus persists until the multistrike ends"
+     ],
+     "name": "Activation Medium: Root Attack",
+     "key": "Activation_Medium_Root_Attack"
+    },
+    {
+     "lines": [
+      "Supports Attack Skills that deal damage",
+      "Cannot support Passive Skills and Channeled Skills",
+      "This skill can only be installed in the first Support Skill Slot of each Active Skill",
+      "Automatically use the Supported Attack Skill to continuously attack the nearest enemy within 25m while standing still",
+      "The supported skill is supported by Lv. (16–20) Willpower"
+     ],
+     "name": "Activation Medium: Still Attack",
+     "key": "Activation_Medium_Still_Attack"
+    },
+    {
+     "lines": [
+      "Supports Sentry Skills.",
+      "This skill can only be installed in the first Support Skill Slot of each Active Skill.",
+      "Always attempts to trigger the Supported Skill if no Sentries are within (10–20) m. Interval: 0.1 s",
+      "+(16–19)% additional damage for the supported skill",
+      "+2 Sentries that can be deployed at a time by the supported skill-30% Movement Speed"
+     ],
+     "name": "Activation Medium: Sentry",
+     "key": "Activation_Medium_Sentry"
+    },
+    {
+     "lines": [
+      "Supports Synthetic Troop Skills.",
+      "This skill can only be installed in the first Support Skill Slot of each Active Skill.",
+      "Triggers the supported skill and replenishes the Minions of the supported skill to the maximum upon entering the stage",
+      "+(30–36)% additional damage for Minions summoned by the supported skill"
+     ],
+     "name": "Activation Medium: Minion",
+     "key": "Activation_Medium_Minion"
+    },
+    {
+     "lines": [
+      "Supports skills that hit the enemy.",
+      "This skill cannot support Summon Skills.",
+      "This skill can only be installed in the first Support Skill Slot of each Active Skill.",
+      "When the supported skill lands a Critical Strike, sends (2–3) Instruction(s). Interval: 0.03 s."
+     ],
+     "name": "Activation Medium: Critical Strike",
+     "key": "Activation_Medium_Critical_Strike"
+    },
+    {
+     "lines": [
+      "Supports Channeled Skills.",
+      "This skill can only be installed in the first Support Skill Slot of each Active Skill.",
+      "When channeling the Supported Skill, sends 1 Instruction for every 2 stack(s) channeled"
+     ],
+     "name": "Activation Medium: Channel",
+     "key": "Activation_Medium_Channel"
+    },
+    {
+     "lines": [
+      "Supports Active Skill that deal damage.",
+      "Cannot support Channeled Skills and Attack Mobility Skills.",
+      "This skill can only be installed in the first Support Skill Slot of each Active Skill.",
+      "Triggers the supported skill on the closest enemy within 20m every (0.4–1.0)s.",
+      "During the trigger interval, each Instruction adds +(6–7)% damage to the next skill triggered by the Supported Skill, up to +(54–63)% additional damage",
+      "-80% additional damage for manually used Supported Skill"
+     ],
+     "name": "Activation Medium: Instruction",
+     "key": "Activation_Medium_Instruction"
+    },
+    {
+     "lines": [
+      "Supports Active Skills.",
+      "This skill can only be installed in the first Support Skill Slot of each Active Skill.",
+      "Locks On enemies within 25 m when you use the supported skill"
+     ],
+     "name": "Activation Medium: Lock On",
+     "key": "Activation_Medium_Lock_On"
+    },
+    {
+     "lines": [
+      "Supports Active Skill that deal damage.",
+      "Cannot support Channeled Skills and Attack Mobility Skills.",
+      "This skill can only be installed in the first Support Skill Slot of each Active Skill.",
+      "Triggers the supported skill once on up to 3 Locked-On enemy(ies) within (10–20) m every (0.7–0.8) s",
+      "Always Locks On enemies within 20m."
+     ],
+     "name": "Activation Medium: Track",
+     "key": "Activation_Medium_Track"
+    },
+    {
+     "lines": [
+      "Supports Spell Skills that deal damage or skills that can activate Spell Burst.",
+      "Cannot support Passive Skills and Channeled Skills.",
+      "This skill can only be installed in the first Support Skill Slot of each Active Skill.",
+      "When Spell Burst is fully charged, triggers the supported skill on the nearest enemy within 25m and attempts to trigger the supported skill's Spell Burst",
+      "(-15–-1)% additional Hit Damage for the supported skills cast by Spell Burst",
+      "-40% Movement Speed for 2 s when the supported skill activates Spell Burst"
+     ],
+     "name": "Activation Medium: Burst Activation",
+     "key": "Activation_Medium_Burst_Activation"
+    },
+    {
+     "lines": [
+      "Supports Attack Skills and Spell Skills that deal damage.",
+      "Cannot support Passive Skills and Channeled Skills.",
+      "This skill can only be installed in the first Support Skill Slot of each Active Skill.",
+      "Automatically and continuously cast the supported skill at the nearest enemy within 25m while standing still",
+      "Auto-used supported skills +10% additional damage"
+     ],
+     "name": "Activation Medium: Motionless",
+     "key": "Activation_Medium_Motionless"
+    },
+    {
+     "lines": [
+      "Supports Active Spell Skills",
+      "Cannot support Channeled Skills, Sentry Skills, skills that summon Minions, Terra Skills, Scorching Pulse, Lightning Storm, and Whirlwind Blade",
+      "This skill can only be installed in the first Support Skill Slot of each Active Skill",
+      "The supported skill is cast as a Spell Tangle",
+      "The supported skill is cast as a Spell Tangle",
+      "+(11–15)% additional damage for the supported skill",
+      "When the number of Tangles within 10 m is below the upper limit, triggers the supported skill, creating it in the form of a Tangle. Interval: 0.4 s",
+      "Creates 1 additional Tangle",
+      "+(91–120)% Tangle Attach Range-30% Movement Speed"
+     ],
+     "name": "Activation Medium: Tangle",
+     "key": "Activation_Medium_Tangle"
+    },
+    {
+     "lines": [
+      "Supports Restoration and Elixir Skills.",
+      "This skill can only be installed in the first Support Skill Slot of each Active Skill.",
+      "Always attempts to trigger the Supported Skill when HP is lower than 50% . Disabled while any Restoration Skill is active",
+      "The supported skill +5% additional Cooldown Recovery Speed"
+     ],
+     "name": "Activation Medium: Rejuvenation",
+     "key": "Activation_Medium_Rejuvenation"
+    }
+   ]
+  }
+ ]
+}

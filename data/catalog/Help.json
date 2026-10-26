@@ -1,0 +1,1460 @@
+{
+ "page": "Help",
+ "cards": [
+  {
+   "card": "Help",
+   "tab": "Help",
+   "entries": [
+    {
+     "lines": [],
+     "name": "Damage Form",
+     "key": "Damage_Form"
+    },
+    {
+     "lines": [],
+     "name": "Damage Type",
+     "key": "Damage_Type"
+    },
+    {
+     "lines": [],
+     "name": "Damage Calculation",
+     "key": "Damage_Calculation"
+    },
+    {
+     "lines": [],
+     "name": "Critical Strike",
+     "key": "Critical_Strike"
+    },
+    {
+     "lines": [],
+     "name": "Double Damage",
+     "key": "Double_Damage"
+    },
+    {
+     "lines": [],
+     "name": "Amplified Damage Over Time",
+     "key": "Amplified_Damage_Over_Time"
+    },
+    {
+     "lines": [],
+     "name": "Damage Over Time Reaping",
+     "key": "Damage_Over_Time_Reaping"
+    },
+    {
+     "lines": [],
+     "name": "Damage Type Conversion",
+     "key": "Damage_Type_Conversion"
+    },
+    {
+     "lines": [],
+     "name": "Resistance Penetration",
+     "key": "Resistance_Penetration"
+    },
+    {
+     "lines": [],
+     "name": "Armor DMG Mitigation Penetration",
+     "key": "Armor_DMG_Mitigation_Penetration"
+    },
+    {
+     "lines": [],
+     "name": "Others",
+     "key": "Others"
+    },
+    {
+     "lines": [],
+     "name": "Life",
+     "key": "Life"
+    },
+    {
+     "lines": [],
+     "name": "Shield",
+     "key": "Shield"
+    },
+    {
+     "lines": [],
+     "name": "Regain",
+     "key": "Regain"
+    },
+    {
+     "lines": [],
+     "name": "Resistance",
+     "key": "Resistance"
+    },
+    {
+     "lines": [],
+     "name": "Armor",
+     "key": "Armor"
+    },
+    {
+     "lines": [],
+     "name": "Evade",
+     "key": "Evade"
+    },
+    {
+     "lines": [],
+     "name": "Block",
+     "key": "Block"
+    },
+    {
+     "lines": [],
+     "name": "Damage Mitigation",
+     "key": "Damage_Mitigation"
+    },
+    {
+     "lines": [],
+     "name": "Chance to Avoid Damage",
+     "key": "Chance_to_Avoid_Damage"
+    },
+    {
+     "lines": [],
+     "name": "Injury Buffer",
+     "key": "Injury_Buffer"
+    },
+    {
+     "lines": [],
+     "name": "Critical Strike Damage Mitigation",
+     "key": "Critical_Strike_Damage_Mitigation"
+    },
+    {
+     "lines": [],
+     "name": "Deflection",
+     "key": "Deflection"
+    },
+    {
+     "lines": [],
+     "name": "Strength",
+     "key": "Strength"
+    },
+    {
+     "lines": [],
+     "name": "Dexterity",
+     "key": "Dexterity"
+    },
+    {
+     "lines": [],
+     "name": "Intelligence",
+     "key": "Intelligence"
+    },
+    {
+     "lines": [],
+     "name": "Mana",
+     "key": "Mana"
+    },
+    {
+     "lines": [],
+     "name": "Movement Speed",
+     "key": "Movement_Speed"
+    },
+    {
+     "lines": [],
+     "name": "Stacks and Multiplication Rules",
+     "key": "Stacks_and_Multiplication_Rules"
+    },
+    {
+     "lines": [],
+     "name": "Sealed Mana Compensation",
+     "key": "Sealed_Mana_Compensation"
+    },
+    {
+     "lines": [],
+     "name": "Effective and Excess",
+     "key": "Effective_and_Excess"
+    },
+    {
+     "lines": [],
+     "name": "Lucky",
+     "key": "Lucky"
+    },
+    {
+     "lines": [],
+     "name": "Ill Omen Base Mechanics",
+     "key": "Ill_Omen_Base_Mechanics"
+    },
+    {
+     "lines": [],
+     "name": "Obtain Ill Omen",
+     "key": "Obtain_Ill_Omen"
+    },
+    {
+     "lines": [],
+     "name": "Stack Ill Omen",
+     "key": "Stack_Ill_Omen"
+    },
+    {
+     "lines": [],
+     "name": "Ill Omen Trigger Effect",
+     "key": "Ill_Omen_Trigger_Effect"
+    },
+    {
+     "lines": [],
+     "name": "Ill Omen Additional Progression",
+     "key": "Ill_Omen_Additional_Progression"
+    },
+    {
+     "lines": [],
+     "name": "Skill Type",
+     "key": "Skill_Type"
+    },
+    {
+     "lines": [],
+     "name": "Skill Speed",
+     "key": "Skill_Speed"
+    },
+    {
+     "lines": [],
+     "name": "Cooldown",
+     "key": "Cooldown"
+    },
+    {
+     "lines": [],
+     "name": "Charges",
+     "key": "Charges"
+    },
+    {
+     "lines": [],
+     "name": "Skill cost",
+     "key": "Skill_cost"
+    },
+    {
+     "lines": [],
+     "name": "Seal",
+     "key": "Seal"
+    },
+    {
+     "lines": [],
+     "name": "Skill Slots",
+     "key": "Skill_Slots"
+    },
+    {
+     "lines": [],
+     "name": "Skill Level",
+     "key": "Skill_Level"
+    },
+    {
+     "lines": [],
+     "name": "Attack",
+     "key": "Attack"
+    },
+    {
+     "lines": [],
+     "name": "Spell",
+     "key": "Spell"
+    },
+    {
+     "lines": [],
+     "name": "Channeled",
+     "key": "Channeled"
+    },
+    {
+     "lines": [],
+     "name": "Area",
+     "key": "Area"
+    },
+    {
+     "lines": [],
+     "name": "Melee",
+     "key": "Melee"
+    },
+    {
+     "lines": [],
+     "name": "Slash-Strike",
+     "key": "Slash-Strike"
+    },
+    {
+     "lines": [],
+     "name": "Demolisher",
+     "key": "Demolisher"
+    },
+    {
+     "lines": [],
+     "name": "Shadow Strike",
+     "key": "Shadow_Strike"
+    },
+    {
+     "lines": [],
+     "name": "Projectile",
+     "key": "Projectile"
+    },
+    {
+     "lines": [],
+     "name": "Horizontal",
+     "key": "Horizontal"
+    },
+    {
+     "lines": [],
+     "name": "Parabolic",
+     "key": "Parabolic"
+    },
+    {
+     "lines": [],
+     "name": "Vertical",
+     "key": "Vertical"
+    },
+    {
+     "lines": [],
+     "name": "Terra",
+     "key": "Terra"
+    },
+    {
+     "lines": [],
+     "name": "Barrage",
+     "key": "Barrage"
+    },
+    {
+     "lines": [],
+     "name": "Chain",
+     "key": "Chain"
+    },
+    {
+     "lines": [],
+     "name": "Beam",
+     "key": "Beam"
+    },
+    {
+     "lines": [],
+     "name": "Sentry",
+     "key": "Sentry"
+    },
+    {
+     "lines": [],
+     "name": "Summon",
+     "key": "Summon"
+    },
+    {
+     "lines": [],
+     "name": "Synthetic Troop",
+     "key": "Synthetic_Troop"
+    },
+    {
+     "lines": [],
+     "name": "Spirit Magus",
+     "key": "Spirit_Magus"
+    },
+    {
+     "lines": [],
+     "name": "Warcry",
+     "key": "Warcry"
+    },
+    {
+     "lines": [],
+     "name": "Curse",
+     "key": "Curse"
+    },
+    {
+     "lines": [],
+     "name": "Empower",
+     "key": "Empower"
+    },
+    {
+     "lines": [],
+     "name": "Mobility",
+     "key": "Mobility"
+    },
+    {
+     "lines": [],
+     "name": "Restoration",
+     "key": "Restoration"
+    },
+    {
+     "lines": [],
+     "name": "Defensive",
+     "key": "Defensive"
+    },
+    {
+     "lines": [],
+     "name": "Aura",
+     "key": "Aura"
+    },
+    {
+     "lines": [],
+     "name": "Activation Medium",
+     "key": "Activation_Medium"
+    },
+    {
+     "lines": [],
+     "name": "Focus",
+     "key": "Focus"
+    },
+    {
+     "lines": [],
+     "name": "Combo",
+     "key": "Combo"
+    },
+    {
+     "lines": [],
+     "name": "Modularization",
+     "key": "Modularization"
+    },
+    {
+     "lines": [],
+     "name": "Exclusive Support Skill (Magnificent)",
+     "key": "Exclusive_Support_Skill_Magnificent"
+    },
+    {
+     "lines": [],
+     "name": "Exclusive Support Skill (Noble)",
+     "key": "Exclusive_Support_Skill_Noble"
+    },
+    {
+     "lines": [],
+     "name": "Multistrike",
+     "key": "Multistrike"
+    },
+    {
+     "lines": [],
+     "name": "Spell Burst",
+     "key": "Spell_Burst"
+    },
+    {
+     "lines": [],
+     "name": "Using, Triggering, Casting, and Activating Skills",
+     "key": "Using,_Triggering,_Casting,_and_Activating_Skills"
+    },
+    {
+     "lines": [],
+     "name": "Tangle",
+     "key": "Tangle"
+    },
+    {
+     "lines": [],
+     "name": "Ailment",
+     "key": "Ailment"
+    },
+    {
+     "lines": [],
+     "name": "Trauma",
+     "key": "Trauma"
+    },
+    {
+     "lines": [],
+     "name": "Ignite",
+     "key": "Ignite"
+    },
+    {
+     "lines": [],
+     "name": "Frostbite and Freeze",
+     "key": "Frostbite_and_Freeze"
+    },
+    {
+     "lines": [],
+     "name": "Shock",
+     "key": "Shock"
+    },
+    {
+     "lines": [],
+     "name": "Wilt",
+     "key": "Wilt"
+    },
+    {
+     "lines": [],
+     "name": "Numbed",
+     "key": "Numbed"
+    },
+    {
+     "lines": [],
+     "name": "Tenacity Blessing",
+     "key": "Tenacity_Blessing"
+    },
+    {
+     "lines": [],
+     "name": "Agility Blessing",
+     "key": "Agility_Blessing"
+    },
+    {
+     "lines": [],
+     "name": "Focus Blessing",
+     "key": "Focus_Blessing"
+    },
+    {
+     "lines": [],
+     "name": "Fighting Will",
+     "key": "Fighting_Will"
+    },
+    {
+     "lines": [],
+     "name": "Blur",
+     "key": "Blur"
+    },
+    {
+     "lines": [],
+     "name": "Barrier",
+     "key": "Barrier"
+    },
+    {
+     "lines": [],
+     "name": "Slow",
+     "key": "Slow"
+    },
+    {
+     "lines": [],
+     "name": "Taunt",
+     "key": "Taunt"
+    },
+    {
+     "lines": [],
+     "name": "Knockback",
+     "key": "Knockback"
+    },
+    {
+     "lines": [],
+     "name": "Paralysis",
+     "key": "Paralysis"
+    },
+    {
+     "lines": [],
+     "name": "Blind",
+     "key": "Blind"
+    },
+    {
+     "lines": [],
+     "name": "Frostbite and Freeze",
+     "key": "Frostbite_and_Freeze"
+    },
+    {
+     "lines": [],
+     "name": "Monster Immunity",
+     "key": "Monster_Immunity"
+    },
+    {
+     "lines": [],
+     "name": "Focus",
+     "key": "Focus"
+    },
+    {
+     "lines": [],
+     "name": "Hardened",
+     "key": "Hardened"
+    },
+    {
+     "lines": [],
+     "name": "Movement",
+     "key": "Movement"
+    },
+    {
+     "lines": [],
+     "name": "Stand Still",
+     "key": "Stand_Still"
+    },
+    {
+     "lines": [],
+     "name": "Deterioration",
+     "key": "Deterioration"
+    },
+    {
+     "lines": [],
+     "name": "Scorch",
+     "key": "Scorch"
+    },
+    {
+     "lines": [],
+     "name": "Frosted",
+     "key": "Frosted"
+    },
+    {
+     "lines": [],
+     "name": "Maim",
+     "key": "Maim"
+    },
+    {
+     "lines": [],
+     "name": "Rot",
+     "key": "Rot"
+    },
+    {
+     "lines": [],
+     "name": "Skill Slot Info",
+     "key": "Skill_Slot_Info"
+    },
+    {
+     "lines": [],
+     "name": "Skill Info",
+     "key": "Skill_Info"
+    },
+    {
+     "lines": [],
+     "name": "Basic Rules",
+     "key": "Basic_Rules"
+    },
+    {
+     "lines": [],
+     "name": "Talent Node Related",
+     "key": "Talent_Node_Related"
+    },
+    {
+     "lines": [],
+     "name": "Oblivion Point Related",
+     "key": "Oblivion_Point_Related"
+    },
+    {
+     "lines": [],
+     "name": "Basic Rules",
+     "key": "Basic_Rules"
+    },
+    {
+     "lines": [],
+     "name": "Brand Divinity Slate",
+     "key": "Brand_Divinity_Slate"
+    },
+    {
+     "lines": [],
+     "name": "Brand the Nether King's Divinity",
+     "key": "Brand_the_Nether_Kings_Divinity"
+    },
+    {
+     "lines": [],
+     "name": "Basic Rules",
+     "key": "Basic_Rules"
+    },
+    {
+     "lines": [],
+     "name": "Calibrate Ethereal Prism",
+     "key": "Calibrate_Ethereal_Prism"
+    },
+    {
+     "lines": [],
+     "name": "Basic Rules",
+     "key": "Basic_Rules"
+    },
+    {
+     "lines": [],
+     "name": "Empower",
+     "key": "Empower"
+    },
+    {
+     "lines": [],
+     "name": "Craft",
+     "key": "Craft"
+    },
+    {
+     "lines": [],
+     "name": "Corrosion",
+     "key": "Corrosion"
+    },
+    {
+     "lines": [],
+     "name": "Blending",
+     "key": "Blending"
+    },
+    {
+     "lines": [],
+     "name": "Imprint",
+     "key": "Imprint"
+    },
+    {
+     "lines": [],
+     "name": "TOWER Sequence",
+     "key": "TOWER_Sequence"
+    },
+    {
+     "lines": [],
+     "name": "Graft",
+     "key": "Graft"
+    },
+    {
+     "lines": [],
+     "name": "Basic Rules",
+     "key": "Basic_Rules"
+    },
+    {
+     "lines": [],
+     "name": "Memory Upgrade",
+     "key": "Memory_Upgrade"
+    },
+    {
+     "lines": [],
+     "name": "Memory Revival",
+     "key": "Memory_Revival"
+    },
+    {
+     "lines": [],
+     "name": "Pact Point",
+     "key": "Pact_Point"
+    },
+    {
+     "lines": [],
+     "name": "Pactspirit",
+     "key": "Pactspirit"
+    },
+    {
+     "lines": [],
+     "name": "Basic Rules",
+     "key": "Basic_Rules"
+    },
+    {
+     "lines": [],
+     "name": "Destiny Type",
+     "key": "Destiny_Type"
+    },
+    {
+     "lines": [],
+     "name": "Undetermined Fate",
+     "key": "Undetermined_Fate"
+    },
+    {
+     "lines": [],
+     "name": "Follower System",
+     "key": "Follower_System"
+    },
+    {
+     "lines": [],
+     "name": "Tartarus Skill",
+     "key": "Tartarus_Skill"
+    },
+    {
+     "lines": [],
+     "name": "Normal Search",
+     "key": "Normal_Search"
+    },
+    {
+     "lines": [],
+     "name": "Advanced",
+     "key": "Advanced"
+    },
+    {
+     "lines": [],
+     "name": "Item Viewing Mode",
+     "key": "Item_Viewing_Mode"
+    },
+    {
+     "lines": [],
+     "name": "Filter Items",
+     "key": "Filter_Items"
+    },
+    {
+     "lines": [],
+     "name": "Buy Items",
+     "key": "Buy_Items"
+    },
+    {
+     "lines": [],
+     "name": "Collecting Items",
+     "key": "Collecting_Items"
+    },
+    {
+     "lines": [],
+     "name": "Trade Tax",
+     "key": "Trade_Tax"
+    },
+    {
+     "lines": [],
+     "name": "My Booth",
+     "key": "My_Booth"
+    },
+    {
+     "lines": [],
+     "name": "Place Items for Sale",
+     "key": "Place_Items_for_Sale"
+    },
+    {
+     "lines": [],
+     "name": "Remove Items",
+     "key": "Remove_Items"
+    },
+    {
+     "lines": [],
+     "name": "Filter",
+     "key": "Filter"
+    },
+    {
+     "lines": [],
+     "name": "Share Filter",
+     "key": "Share_Filter"
+    },
+    {
+     "lines": [],
+     "name": "Planes",
+     "key": "Planes"
+    },
+    {
+     "lines": [],
+     "name": "Timemark",
+     "key": "Timemark"
+    },
+    {
+     "lines": [],
+     "name": "Netherrealm Stages",
+     "key": "Netherrealm_Stages"
+    },
+    {
+     "lines": [],
+     "name": "Plane Watcher",
+     "key": "Plane_Watcher"
+    },
+    {
+     "lines": [],
+     "name": "Traveler",
+     "key": "Traveler"
+    },
+    {
+     "lines": [],
+     "name": "Chaos Invasion",
+     "key": "Chaos_Invasion"
+    },
+    {
+     "lines": [],
+     "name": "Confusion Card",
+     "key": "Confusion_Card"
+    },
+    {
+     "lines": [],
+     "name": "Void Chart",
+     "key": "Void_Chart"
+    },
+    {
+     "lines": [],
+     "name": "Beacon",
+     "key": "Beacon"
+    },
+    {
+     "lines": [],
+     "name": "Netherrealm resonance",
+     "key": "Netherrealm_resonance"
+    },
+    {
+     "lines": [],
+     "name": "Map Material",
+     "key": "Map_Material"
+    },
+    {
+     "lines": [],
+     "name": "Hunter file",
+     "key": "Hunter_file"
+    },
+    {
+     "lines": [],
+     "name": "Show Hunter Profile",
+     "key": "Show_Hunter_Profile"
+    },
+    {
+     "lines": [],
+     "name": "Starting a Gameplay",
+     "key": "Starting_a_Gameplay"
+    },
+    {
+     "lines": [],
+     "name": "Ruins of Aeterna",
+     "key": "Ruins_of_Aeterna"
+    },
+    {
+     "lines": [],
+     "name": "Aeterna Construction",
+     "key": "Aeterna_Construction"
+    },
+    {
+     "lines": [],
+     "name": "The City of Aeterna",
+     "key": "The_City_of_Aeterna"
+    },
+    {
+     "lines": [],
+     "name": "Psalms of Aeterna",
+     "key": "Psalms_of_Aeterna"
+    },
+    {
+     "lines": [],
+     "name": "God of Machines",
+     "key": "God_of_Machines"
+    },
+    {
+     "lines": [],
+     "name": "Goddess of Hunting",
+     "key": "Goddess_of_Hunting"
+    },
+    {
+     "lines": [],
+     "name": "God of Might",
+     "key": "God_of_Might"
+    },
+    {
+     "lines": [],
+     "name": "God of War",
+     "key": "God_of_War"
+    },
+    {
+     "lines": [],
+     "name": "Mystery Chest",
+     "key": "Mystery_Chest"
+    },
+    {
+     "lines": [],
+     "name": "Cage of Original Sin",
+     "key": "Cage_of_Original_Sin"
+    },
+    {
+     "lines": [],
+     "name": "Dark Surge",
+     "key": "Dark_Surge"
+    },
+    {
+     "lines": [],
+     "name": "Blacksail",
+     "key": "Blacksail"
+    },
+    {
+     "lines": [],
+     "name": "Cube",
+     "key": "Cube"
+    },
+    {
+     "lines": [],
+     "name": "Aeterna",
+     "key": "Aeterna"
+    },
+    {
+     "lines": [],
+     "name": "Nightmare",
+     "key": "Nightmare"
+    },
+    {
+     "lines": [],
+     "name": "Folklores",
+     "key": "Folklores"
+    },
+    {
+     "lines": [],
+     "name": "Normal Monster",
+     "key": "Normal_Monster"
+    },
+    {
+     "lines": [],
+     "name": "Magic Monster",
+     "key": "Magic_Monster"
+    },
+    {
+     "lines": [],
+     "name": "Rare Monster",
+     "key": "Rare_Monster"
+    },
+    {
+     "lines": [],
+     "name": "Boss",
+     "key": "Boss"
+    },
+    {
+     "lines": [],
+     "name": "Disciple",
+     "key": "Disciple"
+    },
+    {
+     "lines": [],
+     "name": "Treasure Sentry",
+     "key": "Treasure_Sentry"
+    },
+    {
+     "lines": [],
+     "name": "Supreme Boss",
+     "key": "Supreme_Boss"
+    },
+    {
+     "lines": [],
+     "name": "Talent Constellation",
+     "key": "Talent_Constellation"
+    },
+    {
+     "lines": [],
+     "name": "Star Talent",
+     "key": "Star_Talent"
+    },
+    {
+     "lines": [],
+     "name": "Drop Pactspirit",
+     "key": "Drop_Pactspirit"
+    },
+    {
+     "lines": [],
+     "name": "Quick Loot",
+     "key": "Quick_Loot"
+    },
+    {
+     "lines": [],
+     "name": "How to Get Rich",
+     "key": "How_to_Get_Rich"
+    },
+    {
+     "lines": [],
+     "name": "Fuel",
+     "key": "Fuel"
+    },
+    {
+     "lines": [],
+     "name": "Ember",
+     "key": "Ember"
+    },
+    {
+     "lines": [],
+     "name": "Fluorescent Memory",
+     "key": "Fluorescent_Memory"
+    },
+    {
+     "lines": [],
+     "name": "Legendary Gear",
+     "key": "Legendary_Gear"
+    },
+    {
+     "lines": [],
+     "name": "Hero Item",
+     "key": "Hero_Item"
+    },
+    {
+     "lines": [],
+     "name": "Divinity Slate",
+     "key": "Divinity_Slate"
+    },
+    {
+     "lines": [],
+     "name": "Divinity Slate Upgrade Material",
+     "key": "Divinity_Slate_Upgrade_Material"
+    },
+    {
+     "lines": [],
+     "name": "Beacon",
+     "key": "Beacon"
+    },
+    {
+     "lines": [],
+     "name": "Compass",
+     "key": "Compass"
+    },
+    {
+     "lines": [],
+     "name": "Special Skill",
+     "key": "Special_Skill"
+    },
+    {
+     "lines": [],
+     "name": "Activation Medium",
+     "key": "Activation_Medium"
+    },
+    {
+     "lines": [],
+     "name": "Effect Priority",
+     "key": "Effect_Priority"
+    },
+    {
+     "lines": [],
+     "name": "Drop quantity",
+     "key": "Drop_quantity"
+    },
+    {
+     "lines": [],
+     "name": "Drop rarity",
+     "key": "Drop_rarity"
+    },
+    {
+     "lines": [],
+     "name": "Drop Quantity Bonuses for Certain Item Types",
+     "key": "Drop_Quantity_Bonuses_for_Certain_Item_Types"
+    },
+    {
+     "lines": [],
+     "name": "Additional Drops",
+     "key": "Additional_Drops"
+    },
+    {
+     "lines": [],
+     "name": "Type Conversion",
+     "key": "Type_Conversion"
+    },
+    {
+     "lines": [],
+     "name": "Replicate",
+     "key": "Replicate"
+    },
+    {
+     "lines": [],
+     "name": "Newbie Pro Builds",
+     "key": "Newbie_Pro_Builds"
+    },
+    {
+     "lines": [],
+     "name": "Generate Build Code",
+     "key": "Generate_Build_Code"
+    },
+    {
+     "lines": [],
+     "name": "Use Build Code",
+     "key": "Use_Build_Code"
+    },
+    {
+     "lines": [],
+     "name": "Hero Ranking",
+     "key": "Hero_Ranking"
+    }
+   ]
+  },
+  {
+   "card": "Help",
+   "tab": "Help_Handbook",
+   "entries": [
+    {
+     "lines": [],
+     "name": "Character Build - Life",
+     "key": "Character_Build"
+    },
+    {
+     "lines": [],
+     "name": "Skill - Support Skill",
+     "key": "Skill"
+    },
+    {
+     "lines": [],
+     "name": "Talent",
+     "key": "Talent"
+    },
+    {
+     "lines": [],
+     "name": "Core Talent Node",
+     "key": "Core_Talent_Node"
+    },
+    {
+     "lines": [],
+     "name": "Hero Trait",
+     "key": "Hero_Trait"
+    },
+    {
+     "lines": [],
+     "name": "Reward",
+     "key": "Reward"
+    },
+    {
+     "lines": [],
+     "name": "Gear - Item Level",
+     "key": "Gear"
+    },
+    {
+     "lines": [],
+     "name": "Monster - Monster Rarity",
+     "key": "Monster"
+    },
+    {
+     "lines": [],
+     "name": "Enchant",
+     "key": "Enchant"
+    },
+    {
+     "lines": [],
+     "name": "Gear Empowerment",
+     "key": "Gear_Empowerment"
+    },
+    {
+     "lines": [],
+     "name": "Trade House",
+     "key": "Trade_House"
+    },
+    {
+     "lines": [],
+     "name": "Fluorescent Memory - Exchange",
+     "key": "Fluorescent_Memory"
+    },
+    {
+     "lines": [],
+     "name": "Hero Relic",
+     "key": "Hero_Relic"
+    },
+    {
+     "lines": [],
+     "name": "Hero Memories",
+     "key": "Hero_Memories"
+    },
+    {
+     "lines": [],
+     "name": "Corrosion Craft",
+     "key": "Corrosion_Craft"
+    },
+    {
+     "lines": [],
+     "name": "Netherrealm",
+     "key": "Netherrealm"
+    },
+    {
+     "lines": [],
+     "name": "Gameplay - Chest Mimic",
+     "key": "Gameplay"
+    },
+    {
+     "lines": [],
+     "name": "Exchange",
+     "key": "Exchange"
+    },
+    {
+     "lines": [],
+     "name": "Hero Ranking",
+     "key": "Hero_Ranking"
+    },
+    {
+     "lines": [],
+     "name": "Xbox Controls",
+     "key": "Xbox_Controls"
+    },
+    {
+     "lines": [],
+     "name": "DualSense Controls",
+     "key": "DualSense_Controls"
+    },
+    {
+     "lines": [],
+     "name": "SteamDeck Controls",
+     "key": "SteamDeck_Controls"
+    },
+    {
+     "lines": [],
+     "name": "Craft",
+     "key": "Craft"
+    },
+    {
+     "lines": [],
+     "name": "Corrosion",
+     "key": "Corrosion"
+    },
+    {
+     "lines": [],
+     "name": "Skill",
+     "key": "Skill"
+    },
+    {
+     "lines": [],
+     "name": "Pactspirit",
+     "key": "Pactspirit"
+    },
+    {
+     "lines": [],
+     "name": "Talents",
+     "key": "Talents"
+    },
+    {
+     "lines": [],
+     "name": "Path of Progression",
+     "key": "Path_of_Progression"
+    },
+    {
+     "lines": [],
+     "name": "Help",
+     "key": "Help"
+    },
+    {
+     "lines": [],
+     "name": "Netherrealm",
+     "key": "Netherrealm"
+    },
+    {
+     "lines": [],
+     "name": "Hunter file",
+     "key": "Hunter_file"
+    },
+    {
+     "lines": [],
+     "name": "Gear Empowerment",
+     "key": "Gear_Empowerment"
+    },
+    {
+     "lines": [],
+     "name": "Void Sea Flame",
+     "key": "Void_Sea_Flame"
+    },
+    {
+     "lines": [],
+     "name": "Void Sea Terminal",
+     "key": "Void_Sea_Terminal"
+    },
+    {
+     "lines": [],
+     "name": "Cube of Rapacity",
+     "key": "Cube_of_Rapacity"
+    },
+    {
+     "lines": [],
+     "name": "Avarice Code",
+     "key": "Avarice_Code"
+    },
+    {
+     "lines": [],
+     "name": "Hunter's Forge",
+     "key": "Hunters_Forge"
+    },
+    {
+     "lines": [],
+     "name": "Blessings from Gods",
+     "key": "Blessings_from_Gods"
+    },
+    {
+     "lines": [],
+     "name": "Select Ruins of Aeterna",
+     "key": "Select_Ruins_of_Aeterna"
+    },
+    {
+     "lines": [],
+     "name": "Aeterna Map",
+     "key": "Aeterna_Map"
+    },
+    {
+     "lines": [],
+     "name": "Psalms of Aeterna",
+     "key": "Psalms_of_Aeterna"
+    },
+    {
+     "lines": [],
+     "name": "Trait Decks and Card Library",
+     "key": "Trait_Decks_and_Card_Library"
+    },
+    {
+     "lines": [],
+     "name": "Confusion Deck and Card Library",
+     "key": "Confusion_Deck_and_Card_Library"
+    },
+    {
+     "lines": [],
+     "name": "Twinightmare",
+     "key": "Twinightmare"
+    },
+    {
+     "lines": [],
+     "name": "Dream Interpretation",
+     "key": "Dream_Interpretation"
+    },
+    {
+     "lines": [],
+     "name": "Dream Cloud Atlas",
+     "key": "Dream_Cloud_Atlas"
+    },
+    {
+     "lines": [],
+     "name": "Mistville Exploration",
+     "key": "Mistville_Exploration"
+    },
+    {
+     "lines": [],
+     "name": "Trial of Divinity",
+     "key": "Trial_of_Divinity"
+    },
+    {
+     "lines": [],
+     "name": "Whispering Mist",
+     "key": "Whispering_Mist"
+    },
+    {
+     "lines": [],
+     "name": "Clockwork Ballet",
+     "key": "Clockwork_Ballet"
+    },
+    {
+     "lines": [],
+     "name": "Legendary Vision",
+     "key": "Legendary_Vision"
+    },
+    {
+     "lines": [],
+     "name": "Supreme Showdown",
+     "key": "Supreme_Showdown"
+    },
+    {
+     "lines": [],
+     "name": "Boss Conquest",
+     "key": "Boss_Conquest"
+    },
+    {
+     "lines": [],
+     "name": "Tarot Path",
+     "key": "Tarot_Path"
+    },
+    {
+     "lines": [],
+     "name": "City Defense",
+     "key": "City_Defense"
+    },
+    {
+     "lines": [],
+     "name": "Blending Rituals",
+     "key": "Blending_Rituals"
+    },
+    {
+     "lines": [],
+     "name": "Gear Imprinting",
+     "key": "Gear_Imprinting"
+    },
+    {
+     "lines": [],
+     "name": "TOWER Sequence",
+     "key": "TOWER_Sequence"
+    },
+    {
+     "lines": [],
+     "name": "Hot Streak",
+     "key": "Hot_Streak"
+    },
+    {
+     "lines": [],
+     "name": "Crime Rating",
+     "key": "Crime_Rating"
+    },
+    {
+     "lines": [],
+     "name": "TOWER Co. Central Vault",
+     "key": "TOWER_Co._Central_Vault"
+    },
+    {
+     "lines": [],
+     "name": "Graft",
+     "key": "Graft"
+    },
+    {
+     "lines": [],
+     "name": "Vorax Exchange",
+     "key": "Vorax_Exchange"
+    },
+    {
+     "lines": [],
+     "name": "Vorax Imprint",
+     "key": "Vorax_Imprint"
+    },
+    {
+     "lines": [],
+     "name": "Calibrate Prism",
+     "key": "Calibrate_Prism"
+    },
+    {
+     "lines": [],
+     "name": "Lunar Harp Tuning",
+     "key": "Lunar_Harp_Tuning"
+    },
+    {
+     "lines": [],
+     "name": "Memory Revival",
+     "key": "Memory_Revival"
+    },
+    {
+     "lines": [],
+     "name": "Divine Ascent",
+     "key": "Divine_Ascent"
+    },
+    {
+     "lines": [],
+     "name": "Brand the Nether King's Divinity",
+     "key": "Brand_the_Nether_Kings_Divinity"
+    },
+    {
+     "lines": [],
+     "name": "Regular Pactspirit Setting",
+     "key": "Regular_Pactspirit_Setting"
+    },
+    {
+     "lines": [],
+     "name": "Vigil Gameplay",
+     "key": "Vigil_Gameplay"
+    },
+    {
+     "lines": [],
+     "name": "Pactspirit Rally",
+     "key": "Pactspirit_Rally"
+    }
+   ]
+  },
+  {
+   "card": "Help - Help",
+   "tab": "Help-Help",
+   "text": [
+    "1. When players trigger new or unique mechanics in the game, corresponding help tips will be unlocked to explain the mechanic.",
+    "2. Help is always available. Check it out when you run into questions!"
+   ]
+  }
+ ]
+}

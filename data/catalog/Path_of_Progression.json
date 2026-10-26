@@ -1,0 +1,184 @@
+{
+ "page": "Path_of_Progression",
+ "cards": [
+  {
+   "card": "Path of Progression",
+   "tab": "PathofProgression",
+   "entries": [
+    {
+     "lines": [
+      "1:Jagged Primocryst 50",
+      "Pactspirit Crystal 1",
+      "Revival Token 3",
+      "Elixir of Oblivion 1",
+      "2:Jagged Primocryst 50",
+      "Pactspirit Crystal 1",
+      "Revival Token 3",
+      "Elixir of Oblivion 1",
+      "3:Jagged Primocryst 50",
+      "Pactspirit Crystal 1",
+      "Revival Token 3",
+      "Elixir of Oblivion 1",
+      "4:Jagged Primocryst 50",
+      "Pactspirit Crystal 1",
+      "Revival Token 3",
+      "Elixir of Oblivion 1",
+      "5:Jagged Primocryst 50",
+      "Pactspirit Crystal 1",
+      "Revival Token 3",
+      "Elixir of Oblivion 1",
+      "6:Jagged Primocryst 50",
+      "Pactspirit Crystal 1",
+      "Revival Token 3",
+      "Elixir of Oblivion 1",
+      "7:Jagged Primocryst 25",
+      "Pactspirit Crystal 1",
+      "Revival Token 3",
+      "Elixir of Oblivion 1",
+      "8:Jagged Primocryst 25",
+      "Pactspirit Crystal 1",
+      "Revival Token 3",
+      "Elixir of Oblivion 1",
+      "9:Jagged Primocryst 25",
+      "Pactspirit Crystal 1",
+      "Revival Token 3",
+      "Elixir of Oblivion 1",
+      "10:Jagged Primocryst 25",
+      "Pactspirit Crystal 1",
+      "Revival Token 3",
+      "Elixir of Oblivion 1",
+      "11:Jagged Primocryst 25",
+      "Pactspirit Crystal 1",
+      "Revival Token 3",
+      "Elixir of Oblivion 1",
+      "12:Jagged Primocryst 25",
+      "Pactspirit Crystal 1",
+      "Revival Token 3",
+      "Elixir of Oblivion 1",
+      "13:Jagged Primocryst 25",
+      "Pactspirit Crystal 1",
+      "Revival Token 3",
+      "Elixir of Oblivion 1",
+      "14:Jagged Primocryst 25",
+      "Pactspirit Crystal 1",
+      "Revival Token 3",
+      "Elixir of Oblivion 1",
+      "15:Jagged Primocryst 25",
+      "Pactspirit Crystal 1",
+      "Revival Token 3",
+      "Elixir of Oblivion 1",
+      "16:Jagged Primocryst 25",
+      "Pactspirit Crystal 1",
+      "Revival Token 3",
+      "Elixir of Oblivion 1",
+      "17:Jagged Primocryst 25",
+      "Pactspirit Crystal 1",
+      "Revival Token 3",
+      "Elixir of Oblivion 1",
+      "18:Jagged Primocryst 100",
+      "Revival Token 10",
+      "Elixir of Oblivion 5",
+      "19:Jagged Primocryst 100",
+      "Revival Token 10",
+      "Elixir of Oblivion 5"
+     ],
+     "name": "Journey",
+     "key": "Journey"
+    },
+    {
+     "lines": [
+      "1:Pactspirit Crystal - Battle 1",
+      "2:Pactspirit Crystal 1",
+      "3:Pactspirit Crystal 1",
+      "4:Pactspirit Crystal - Battle 1",
+      "5:Pactspirit Crystal 1",
+      "6:Pactspirit Crystal 1",
+      "7:Pactspirit Crystal 1",
+      "8:Pactspirit Crystal - Battle 1"
+     ],
+     "name": "Skill",
+     "key": "Skill"
+    },
+    {
+     "lines": [
+      "1:Pactspirit Crystal - Battle 1",
+      "2:Pactspirit Crystal 1",
+      "3:Pactspirit Crystal - Battle 1",
+      "4:Pactspirit Crystal 1",
+      "5:Pactspirit Crystal 1",
+      "6:Pactspirit Crystal - Battle 1",
+      "7:Pactspirit Crystal - Battle 1",
+      "8:Pactspirit Crystal 1",
+      "9:Jagged Primocryst 150"
+     ],
+     "name": "Gear",
+     "key": "Gear"
+    },
+    {
+     "lines": [
+      "1:Pactspirit Crystal - Battle 1",
+      "2:Pactspirit Crystal - Battle 1",
+      "3:Pactspirit Crystal 1",
+      "4:Pactspirit Crystal 1",
+      "5:Pactspirit Crystal - Battle 1",
+      "6:Pactspirit Crystal - Battle 1"
+     ],
+     "name": "Hero Memories",
+     "key": "Hero_Memories"
+    },
+    {
+     "lines": [
+      "1:Pactspirit Crystal - Battle 1",
+      "2:Pactspirit Crystal 1",
+      "3:Pactspirit Crystal 1",
+      "4:Pactspirit Crystal - Battle 1",
+      "5:Pactspirit Crystal 1",
+      "6:Pactspirit Crystal 1",
+      "7:Pactspirit Crystal 1",
+      "8:Pactspirit Crystal - Battle 1",
+      "9:Pactspirit Crystal 1",
+      "10:Pactspirit Crystal 1",
+      "11:Jagged Primocryst 150"
+     ],
+     "name": "Loot",
+     "key": "Loot"
+    },
+    {
+     "lines": [
+      "1:Pactspirit Crystal - Battle 1",
+      "2:Pactspirit Crystal - Battle 1",
+      "3:Pactspirit Crystal 1",
+      "4:Pactspirit Crystal - Battle 1",
+      "5:Pactspirit Crystal 1",
+      "6:Pactspirit Crystal - Battle 1"
+     ],
+     "name": "Divinity Slate",
+     "key": "Divinity_Slate"
+    },
+    {
+     "lines": [
+      "1:Pactspirit Crystal - Battle 1",
+      "2:Pactspirit Crystal 1",
+      "3:Pactspirit Crystal 1",
+      "4:Pactspirit Crystal 1",
+      "5:Pactspirit Crystal - Battle 1",
+      "6:Jagged Primocryst 150"
+     ],
+     "name": "Challenge",
+     "key": "Challenge"
+    }
+   ]
+  },
+  {
+   "card": "Path of Progression - Help",
+   "tab": "PathofProgression-Help",
+   "text": [
+    "Intro:",
+    "1. The Path of Progression contains a set of goals that span the entire game cycle, helping Hunters to have a better understanding of each section of the game.",
+    "2. These goals are tied to seasons and can be accomplished by any character within that season.",
+    "3. Path of Progression rewards are Account Level rewards that are divided into first rewards and regular rewards. Any character under the current account can receive the first reward when completing goals in Path of Progression for the first time. Upon completing Path of Progression goals again in subsequent seasons, regular rewards can be claimed instead. All rewards claimed in subsequent seasons after claiming the first reward are regular rewards.",
+    "4. The rewards and goals of Path of Progression will be reset every season. Due to seasonal content updates, the goals and rewards in future seasons may be adjusted."
+   ]
+  }
+ ]
+}

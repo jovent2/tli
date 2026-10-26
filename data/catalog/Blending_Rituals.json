@@ -1,0 +1,1051 @@
+{
+ "page": "Blending_Rituals",
+ "cards": [
+  {
+   "card": "Blending Rituals",
+   "tab": "BlendingRituals",
+   "entries": [
+    {
+     "lines": [
+      "+40% Defense gained from Chest Armor",
+      "Medium Talent Lv.0",
+      "Sage Lv. 1 x4, Silver Mound Lv. 2 x4, Gloomy Daffodil Lv. 5 x1"
+     ],
+     "name": "Sage Lv. 1",
+     "key": "Sage_Lv._1",
+     "icon": "UIMoneyS10EquipEnchantMaterial01128"
+    },
+    {
+     "lines": [
+      "Restores 3% of Life on defeat",
+      "Medium Talent Lv.0",
+      "Sage Lv. 1 x3, Silver Mound Lv. 2 x3, Gloomy Daffodil Lv. 5 x2"
+     ],
+     "name": "Sage Lv. 1",
+     "key": "Sage_Lv._1",
+     "icon": "UIMoneyS10EquipEnchantMaterial01128"
+    },
+    {
+     "lines": [
+      "+10% additional Base Damage for Two-Handed Weapons",
+      "Medium Talent Lv.0",
+      "Sage Lv. 1 x2, Silver Mound Lv. 2 x2, Gloomy Daffodil Lv. 5 x3"
+     ],
+     "name": "Sage Lv. 1",
+     "key": "Sage_Lv._1",
+     "icon": "UIMoneyS10EquipEnchantMaterial01128"
+    },
+    {
+     "lines": [
+      "+1 to Attack Skill Level",
+      "Medium Talent Lv.0",
+      "Sage Lv. 1 x3, Silver Mound Lv. 2 x1, Gloomy Daffodil Lv. 5 x3"
+     ],
+     "name": "Sage Lv. 1",
+     "key": "Sage_Lv._1",
+     "icon": "UIMoneyS10EquipEnchantMaterial01128"
+    },
+    {
+     "lines": [
+      "Immune to Ignite",
+      "Minions are immune to Fire Damage",
+      "Medium Talent Lv.0",
+      "Sage Lv. 1 x1, Silver Mound Lv. 2 x3, Gloomy Daffodil Lv. 5 x3"
+     ],
+     "name": "Sage Lv. 1",
+     "key": "Sage_Lv._1",
+     "icon": "UIMoneyS10EquipEnchantMaterial01128"
+    },
+    {
+     "lines": [
+      "+1 to Max Tenacity Blessing Stacks",
+      "Medium Talent Lv.0",
+      "Sage Lv. 1 x5, Silver Mound Lv. 2 x10, Gloomy Daffodil Lv. 5 x8"
+     ],
+     "name": "Sage Lv. 1",
+     "key": "Sage_Lv._1",
+     "icon": "UIMoneyS10EquipEnchantMaterial01128"
+    },
+    {
+     "lines": [
+      "Multistrikes deal 16% increasing damage",
+      "Medium Talent Lv.0",
+      "Sage Lv. 1 x1, Silver Mound Lv. 2 x3, Night-Blooming Cereus Lv. 4 x3"
+     ],
+     "name": "Sage Lv. 1",
+     "key": "Sage_Lv._1",
+     "icon": "UIMoneyS10EquipEnchantMaterial01128"
+    },
+    {
+     "lines": [
+      "-4% to the Max Life and Energy Shield thresholds for inflicting Numbed",
+      "Inflicts 1 additional stack(s) of Numbed",
+      "Medium Talent Lv.0",
+      "Sage Lv. 1 x3, Silver Mound Lv. 2 x1, Night-Blooming Cereus Lv. 4 x3"
+     ],
+     "name": "Sage Lv. 1",
+     "key": "Sage_Lv._1",
+     "icon": "UIMoneyS10EquipEnchantMaterial01128"
+    },
+    {
+     "lines": [
+      "+12% additional Max Damage",
+      "+12% additional Max Damage for Minions",
+      "Medium Talent Lv.0",
+      "Sage Lv. 1 x2, Silver Mound Lv. 2 x2, Night-Blooming Cereus Lv. 4 x4"
+     ],
+     "name": "Sage Lv. 1",
+     "key": "Sage_Lv._1",
+     "icon": "UIMoneyS10EquipEnchantMaterial01128"
+    },
+    {
+     "lines": [
+      "+1% Attack and Cast Speed per 40 Dexterity",
+      "Medium Talent Lv.0",
+      "Sage Lv. 1 x3, Silver Mound Lv. 2 x1, Night-Blooming Cereus Lv. 4 x4"
+     ],
+     "name": "Sage Lv. 1",
+     "key": "Sage_Lv._1",
+     "icon": "UIMoneyS10EquipEnchantMaterial01128"
+    },
+    {
+     "lines": [
+      "+1 Max Deflection stacks",
+      "Medium Talent Lv.0",
+      "Sage Lv. 1 x1, Silver Mound Lv. 2 x3, Night-Blooming Cereus Lv. 4 x4"
+     ],
+     "name": "Sage Lv. 1",
+     "key": "Sage_Lv._1",
+     "icon": "UIMoneyS10EquipEnchantMaterial01128"
+    },
+    {
+     "lines": [
+      "+1 to Max Agility Blessing Stacks",
+      "Medium Talent Lv.0",
+      "Sage Lv. 1 x11, Silver Mound Lv. 2 x15, Night-Blooming Cereus Lv. 4 x15"
+     ],
+     "name": "Sage Lv. 1",
+     "key": "Sage_Lv._1",
+     "icon": "UIMoneyS10EquipEnchantMaterial01128"
+    },
+    {
+     "lines": [
+      "+10% additional damage against Frozen enemies",
+      "Medium Talent Lv.0",
+      "Sage Lv. 1 x4, Silver Mound Lv. 2 x5, Night-Blooming Cereus Lv. 4 x2"
+     ],
+     "name": "Sage Lv. 1",
+     "key": "Sage_Lv._1",
+     "icon": "UIMoneyS10EquipEnchantMaterial01128"
+    },
+    {
+     "lines": [
+      "Inflicts Frail when dealing Spell Damage",
+      "Medium Talent Lv.0",
+      "Sage Lv. 1 x3, Silver Mound Lv. 2 x1, Night-Blooming Cereus Lv. 4 x3"
+     ],
+     "name": "Sage Lv. 1",
+     "key": "Sage_Lv._1",
+     "icon": "UIMoneyS10EquipEnchantMaterial01128"
+    },
+    {
+     "lines": [
+      "Immediately starts Energy Shield Charge upon entering Low Energy Shield status",
+      "Medium Talent Lv.0",
+      "Sage Lv. 1 x2, Silver Mound Lv. 2 x2, Night-Blooming Cereus Lv. 4 x4"
+     ],
+     "name": "Sage Lv. 1",
+     "key": "Sage_Lv._1",
+     "icon": "UIMoneyS10EquipEnchantMaterial01128"
+    },
+    {
+     "lines": [
+      "8% of damage is taken from Mana before life",
+      "Medium Talent Lv.0",
+      "Sage Lv. 1 x3, Silver Mound Lv. 2 x1, Night-Blooming Cereus Lv. 4 x4"
+     ],
+     "name": "Sage Lv. 1",
+     "key": "Sage_Lv._1",
+     "icon": "UIMoneyS10EquipEnchantMaterial01128"
+    },
+    {
+     "lines": [
+      "Gains 1 stack(s) of Focus Blessing when consuming Spell Burst",
+      "Medium Talent Lv.0",
+      "Sage Lv. 1 x1, Silver Mound Lv. 2 x3, Night-Blooming Cereus Lv. 4 x4"
+     ],
+     "name": "Sage Lv. 1",
+     "key": "Sage_Lv._1",
+     "icon": "UIMoneyS10EquipEnchantMaterial01128"
+    },
+    {
+     "lines": [
+      "+1 to Max Focus Blessing Stacks",
+      "Medium Talent Lv.0",
+      "Sage Lv. 1 x21, Silver Mound Lv. 2 x1, Night-Blooming Cereus Lv. 4 x18"
+     ],
+     "name": "Sage Lv. 1",
+     "key": "Sage_Lv._1",
+     "icon": "UIMoneyS10EquipEnchantMaterial01128"
+    },
+    {
+     "lines": [
+      "+12% Steep Strike chance.",
+      "Medium Talent Lv.0",
+      "Sage Lv. 1 x2, Silver Mound Lv. 2 x4, Night-Blooming Cereus Lv. 4 x2"
+     ],
+     "name": "Sage Lv. 1",
+     "key": "Sage_Lv._1",
+     "icon": "UIMoneyS10EquipEnchantMaterial01128"
+    },
+    {
+     "lines": [
+      "+1% Movement Speed per 10 Fervor Rating",
+      "Medium Talent Lv.0",
+      "Sage Lv. 1 x2, Silver Mound Lv. 2 x5, Night-Blooming Cereus Lv. 4 x2"
+     ],
+     "name": "Sage Lv. 1",
+     "key": "Sage_Lv._1",
+     "icon": "UIMoneyS10EquipEnchantMaterial01128"
+    },
+    {
+     "lines": [
+      "+5% Block Ratio",
+      "Restores 1% Missing Life and Energy Shield when Blocking",
+      "Medium Talent Lv.0",
+      "Sage Lv. 1 x1, Silver Mound Lv. 2 x6, Night-Blooming Cereus Lv. 4 x2"
+     ],
+     "name": "Sage Lv. 1",
+     "key": "Sage_Lv._1",
+     "icon": "UIMoneyS10EquipEnchantMaterial01128"
+    },
+    {
+     "lines": [
+      "+8% Armor DMG Mitigation Penetration",
+      "+8% Armor DMG Mitigation Penetration for Minions",
+      "Medium Talent Lv.0",
+      "Sage Lv. 1 x3, Silver Mound Lv. 2 x7, Night-Blooming Cereus Lv. 4 x2"
+     ],
+     "name": "Sage Lv. 1",
+     "key": "Sage_Lv._1",
+     "icon": "UIMoneyS10EquipEnchantMaterial01128"
+    },
+    {
+     "lines": [
+      "120% of the increase/decrease on Knockback distance is also applied to damage bonuses, up to +100% damage",
+      "Medium Talent Lv.0",
+      "Sage Lv. 1 x2, Silver Mound Lv. 2 x8, Night-Blooming Cereus Lv. 4 x2"
+     ],
+     "name": "Sage Lv. 1",
+     "key": "Sage_Lv._1",
+     "icon": "UIMoneyS10EquipEnchantMaterial01128"
+    },
+    {
+     "lines": [
+      "Critical Strikes eliminate enemies under 8% Life",
+      "Medium Talent Lv.0",
+      "Sage Lv. 1 x5, Silver Mound Lv. 2 x9, Night-Blooming Cereus Lv. 4 x2"
+     ],
+     "name": "Sage Lv. 1",
+     "key": "Sage_Lv._1",
+     "icon": "UIMoneyS10EquipEnchantMaterial01128"
+    },
+    {
+     "lines": [
+      "+20% chance to Blind the target on hit",
+      "+25% Critical Strike Damage Mitigation against Blinded enemies",
+      "Medium Talent Lv.0",
+      "Sage Lv. 1 x3, Silver Mound Lv. 2 x5, Night-Blooming Cereus Lv. 4 x2"
+     ],
+     "name": "Sage Lv. 1",
+     "key": "Sage_Lv._1",
+     "icon": "UIMoneyS10EquipEnchantMaterial01128"
+    },
+    {
+     "lines": [
+      "+30% Ill Omen Cumulative Efficiency",
+      "Medium Talent Lv.0",
+      "Sage Lv. 1 x3, Silver Mound Lv. 2 x1, Night-Blooming Cereus Lv. 4 x3"
+     ],
+     "name": "Sage Lv. 1",
+     "key": "Sage_Lv._1",
+     "icon": "UIMoneyS10EquipEnchantMaterial01128"
+    },
+    {
+     "lines": [
+      "Gains 1 stack(s) of Focus Blessing when Reaping",
+      "Medium Talent Lv.0",
+      "Sage Lv. 1 x2, Silver Mound Lv. 2 x2, Night-Blooming Cereus Lv. 4 x4"
+     ],
+     "name": "Sage Lv. 1",
+     "key": "Sage_Lv._1",
+     "icon": "UIMoneyS10EquipEnchantMaterial01128"
+    },
+    {
+     "lines": [
+      "+8% additional Deterioration Damage",
+      "+5% additional Deterioration Duration",
+      "Medium Talent Lv.0",
+      "Sage Lv. 1 x3, Silver Mound Lv. 2 x1, Night-Blooming Cereus Lv. 4 x4"
+     ],
+     "name": "Sage Lv. 1",
+     "key": "Sage_Lv._1",
+     "icon": "UIMoneyS10EquipEnchantMaterial01128"
+    },
+    {
+     "lines": [
+      "+18 Affliction inflicted per second",
+      "-8% All Resistance when the enemy has max Affliction",
+      "Medium Talent Lv.0",
+      "Sage Lv. 1 x1, Silver Mound Lv. 2 x3, Night-Blooming Cereus Lv. 4 x4"
+     ],
+     "name": "Sage Lv. 1",
+     "key": "Sage_Lv._1",
+     "icon": "UIMoneyS10EquipEnchantMaterial01128"
+    },
+    {
+     "lines": [
+      "+1 to All Skills' Levels",
+      "Medium Talent Lv.0",
+      "Sage Lv. 1 x99, Silver Mound Lv. 2 x15, Night-Blooming Cereus Lv. 4 x19"
+     ],
+     "name": "Sage Lv. 1",
+     "key": "Sage_Lv._1",
+     "icon": "UIMoneyS10EquipEnchantMaterial01128"
+    },
+    {
+     "lines": [
+      "+15% Life Regeneration Speed",
+      "-15% additional Energy Shield Charge Interval",
+      "Medium Talent Lv.0",
+      "Sage Lv. 1 x4, Silver Mound Lv. 2 x5, Night-Blooming Cereus Lv. 4 x1"
+     ],
+     "name": "Sage Lv. 1",
+     "key": "Sage_Lv._1",
+     "icon": "UIMoneyS10EquipEnchantMaterial01128"
+    },
+    {
+     "lines": [
+      "Converts 8% of Physical Damage taken to random Elemental Damage",
+      "Medium Talent Lv.0",
+      "Sage Lv. 1 x3, Silver Mound Lv. 2 x1, Night-Blooming Cereus Lv. 4 x2"
+     ],
+     "name": "Sage Lv. 1",
+     "key": "Sage_Lv._1",
+     "icon": "UIMoneyS10EquipEnchantMaterial01128"
+    },
+    {
+     "lines": [
+      "+10% additional Sentry Damage if Sentry Skill is not used in the last 1 s",
+      "Medium Talent Lv.0",
+      "Sage Lv. 1 x2, Silver Mound Lv. 2 x3, Night-Blooming Cereus Lv. 4 x2"
+     ],
+     "name": "Sage Lv. 1",
+     "key": "Sage_Lv._1",
+     "icon": "UIMoneyS10EquipEnchantMaterial01128"
+    },
+    {
+     "lines": [
+      "8% of damage taken is transferred to a random Minion",
+      "-80% additional damage taken by Spirit Magi",
+      "Medium Talent Lv.0",
+      "Sage Lv. 1 x1, Silver Mound Lv. 2 x4, Night-Blooming Cereus Lv. 4 x2"
+     ],
+     "name": "Sage Lv. 1",
+     "key": "Sage_Lv._1",
+     "icon": "UIMoneyS10EquipEnchantMaterial01128"
+    },
+    {
+     "lines": [
+      "+8% Barrier Absorption Rate",
+      "Medium Talent Lv.0",
+      "Sage Lv. 1 x1, Silver Mound Lv. 2 x5, Night-Blooming Cereus Lv. 4 x2"
+     ],
+     "name": "Sage Lv. 1",
+     "key": "Sage_Lv._1",
+     "icon": "UIMoneyS10EquipEnchantMaterial01128"
+    },
+    {
+     "lines": [
+      "+1 Minion Skill Level",
+      "Medium Talent Lv.0",
+      "Sage Lv. 1 x1, Silver Mound Lv. 2 x6, Night-Blooming Cereus Lv. 4 x10"
+     ],
+     "name": "Sage Lv. 1",
+     "key": "Sage_Lv._1",
+     "icon": "UIMoneyS10EquipEnchantMaterial01128"
+    },
+    {
+     "lines": [
+      "[Elimination] Attacks eliminate enemies under 18% Life on hit",
+      "Core Talents Lv.0",
+      "Soft Rush Lv. 3 x2, Golden Iris Lv. 6 x5, Giant Civet Musk Lv. 7 x10"
+     ],
+     "name": "Soft Rush Lv. 3",
+     "key": "Soft_Rush_Lv._3",
+     "icon": "UIMoneyS10EquipEnchantMaterial03128"
+    },
+    {
+     "lines": [
+      "[Joined Force] Off-Hand Weapons do not participate in Attacks while Dual Wielding",
+      "Adds 60% of the damage of the Off-Hand Weapon to the final damage of the Main-Hand Weapon",
+      "Core Talents Lv.0",
+      "Soft Rush Lv. 3 x2, Golden Iris Lv. 6 x1, Sandalwood Incense Lv. 8 x4"
+     ],
+     "name": "Soft Rush Lv. 3",
+     "key": "Soft_Rush_Lv._3",
+     "icon": "UIMoneyS10EquipEnchantMaterial03128"
+    },
+    {
+     "lines": [
+      "[Sacrifice] Changes the base effect of Tenacity Blessing to: +8% additional damage",
+      "Core Talents Lv.0",
+      "Soft Rush Lv. 3 x1, Sage Lv. 1 x1, Giant Civet Musk Lv. 7 x12"
+     ],
+     "name": "Soft Rush Lv. 3",
+     "key": "Soft_Rush_Lv._3",
+     "icon": "UIMoneyS10EquipEnchantMaterial03128"
+    },
+    {
+     "lines": [
+      "[Conductive] Changes the base effect of Numbed to: +11% additional Lightning Damage taken",
+      "Core Talents Lv.0",
+      "Night-Blooming Cereus Lv. 4 x1, Gloomy Daffodil Lv. 5 x1, Giant Civet Musk Lv. 7 x10"
+     ],
+     "name": "Night-Blooming Cereus Lv. 4",
+     "key": "Night-Blooming_Cereus_Lv._4",
+     "icon": "UIMoneyS10EquipEnchantMaterial04128"
+    },
+    {
+     "lines": [
+      "[Gale] 60% of the Projectile Speed bonus is also applied to the additional bonus for Projectile Damage",
+      "Core Talents Lv.0",
+      "Night-Blooming Cereus Lv. 4 x5, Gloomy Daffodil Lv. 5 x5, Sandalwood Incense Lv. 8 x7"
+     ],
+     "name": "Night-Blooming Cereus Lv. 4",
+     "key": "Night-Blooming_Cereus_Lv._4",
+     "icon": "UIMoneyS10EquipEnchantMaterial04128"
+    },
+    {
+     "lines": [
+      "[Transition] When casting a skill, there is a 50% chance for that cast to deal +16% additional damage",
+      "When casting a skill, there is a 25% chance for that cast to deal +32% additional damage",
+      "When casting a skill, there is a 10% chance for that cast to deal +80% additional damage",
+      "Core Talents Lv.0",
+      "Night-Blooming Cereus Lv. 4 x1, Gloomy Daffodil Lv. 5 x1, Giant Civet Musk Lv. 7 x12"
+     ],
+     "name": "Night-Blooming Cereus Lv. 4",
+     "key": "Night-Blooming_Cereus_Lv._4",
+     "icon": "UIMoneyS10EquipEnchantMaterial04128"
+    },
+    {
+     "lines": [
+      "[Acquaintance] Has Dormant Entanglement",
+      "+25% additional Spell Damage",
+      "Core Talents Lv.0",
+      "Silver Mound Lv. 2 x3, Giant Civet Musk Lv. 7 x16, Night-Blooming Cereus Lv. 4 x16"
+     ],
+     "name": "Silver Mound Lv. 2",
+     "key": "Silver_Mound_Lv._2",
+     "icon": "UIMoneyS10EquipEnchantMaterial02128"
+    },
+    {
+     "lines": [
+      "[Frostbitten] Inflicts Frostbite when dealing Hit Cold Damage",
+      "+40% Frostbite Effect",
+      "Core Talents Lv.0",
+      "Silver Mound Lv. 2 x2, Giant Civet Musk Lv. 7 x10, Gloomy Daffodil Lv. 5 x1"
+     ],
+     "name": "Silver Mound Lv. 2",
+     "key": "Silver_Mound_Lv._2",
+     "icon": "UIMoneyS10EquipEnchantMaterial02128"
+    },
+    {
+     "lines": [
+      "[Bunch] +1 to Max Focus Blessing Stacks",
+      "+3% additional Spell Damage per stack of Focus Blessing owned",
+      "Core Talents Lv.0",
+      "Silver Mound Lv. 2 x3, Giant Civet Musk Lv. 7 x10, Golden Iris Lv. 6 x1"
+     ],
+     "name": "Silver Mound Lv. 2",
+     "key": "Silver_Mound_Lv._2",
+     "icon": "UIMoneyS10EquipEnchantMaterial02128"
+    },
+    {
+     "lines": [
+      "[Ambition] +100% chance to gain 10 Fervor rating on hit",
+      "Gains Fervor when there are enemies Nearby",
+      "Core Talents Lv.0",
+      "Silver Mound Lv. 2 x1, Golden Iris Lv. 6 x15, Giant Civet Musk Lv. 7 x9"
+     ],
+     "name": "Silver Mound Lv. 2",
+     "key": "Silver_Mound_Lv._2",
+     "icon": "UIMoneyS10EquipEnchantMaterial02128"
+    },
+    {
+     "lines": [
+      "[Cohesion] +40% additional Critical Strike Rating for the next Main Skill used every 1 s",
+      "Core Talents Lv.0",
+      "Silver Mound Lv. 2 x2, Golden Iris Lv. 6 x3, Sandalwood Incense Lv. 8 x3"
+     ],
+     "name": "Silver Mound Lv. 2",
+     "key": "Silver_Mound_Lv._2",
+     "icon": "UIMoneyS10EquipEnchantMaterial02128"
+    },
+    {
+     "lines": [
+      "[Blunt] +30% additional Physical Damage",
+      "Enemies +20% Injury Buffer",
+      "Core Talents Lv.0",
+      "Silver Mound Lv. 2 x1, Golden Iris Lv. 6 x10, Giant Civet Musk Lv. 7 x10"
+     ],
+     "name": "Silver Mound Lv. 2",
+     "key": "Silver_Mound_Lv._2",
+     "icon": "UIMoneyS10EquipEnchantMaterial02128"
+    },
+    {
+     "lines": [
+      "[Indifference] +1% additional damage and +1% additional Minion Damage for every 5 remaining Energy, up to +50% additional damage",
+      "Core Talents Lv.0",
+      "Sage Lv. 1 x9, Giant Civet Musk Lv. 7 x9, Night-Blooming Cereus Lv. 4 x9"
+     ],
+     "name": "Sage Lv. 1",
+     "key": "Sage_Lv._1",
+     "icon": "UIMoneyS10EquipEnchantMaterial01128"
+    },
+    {
+     "lines": [
+      "[Plague] +20% Movement Speed when defeating Wilted enemies recently",
+      "+15% additional Wilt Damage",
+      "Core Talents Lv.0",
+      "Sage Lv. 1 x2, Giant Civet Musk Lv. 7 x12, Gloomy Daffodil Lv. 5 x6"
+     ],
+     "name": "Sage Lv. 1",
+     "key": "Sage_Lv._1",
+     "icon": "UIMoneyS10EquipEnchantMaterial01128"
+    },
+    {
+     "lines": [
+      "[Affliction] +30 Affliction inflicted per second",
+      "+30% additional Affliction effect",
+      "Core Talents Lv.0",
+      "Sage Lv. 1 x1, Giant Civet Musk Lv. 7 x15, Golden Iris Lv. 6 x6"
+     ],
+     "name": "Sage Lv. 1",
+     "key": "Sage_Lv._1",
+     "icon": "UIMoneyS10EquipEnchantMaterial01128"
+    },
+    {
+     "lines": [
+      "[Sentry] Max Sentry Quantity +1",
+      "+100% additional Cast Speed for Sentry Skills",
+      "Core Talents Lv.0",
+      "Sage Lv. 1 x2, Sandalwood Incense Lv. 8 x5, Night-Blooming Cereus Lv. 4 x1"
+     ],
+     "name": "Sage Lv. 1",
+     "key": "Sage_Lv._1",
+     "icon": "UIMoneyS10EquipEnchantMaterial01128"
+    },
+    {
+     "lines": [
+      "[Reflection] +6% additional damage for each type of Aura you are affected by",
+      "Minions +6% additional damage for each type of Aura they are affected by",
+      "Core Talents Lv.0",
+      "Sage Lv. 1 x2, Sandalwood Incense Lv. 8 x5, Gloomy Daffodil Lv. 5 x1"
+     ],
+     "name": "Sage Lv. 1",
+     "key": "Sage_Lv._1",
+     "icon": "UIMoneyS10EquipEnchantMaterial01128"
+    },
+    {
+     "lines": [
+      "[Rally] Synthetic Troop Minions summoned at a time +1",
+      "+25% additional Minion Damage",
+      "Core Talents Lv.0",
+      "Sage Lv. 1 x2, Sandalwood Incense Lv. 8 x5, Golden Iris Lv. 6 x1"
+     ],
+     "name": "Sage Lv. 1",
+     "key": "Sage_Lv._1",
+     "icon": "UIMoneyS10EquipEnchantMaterial01128"
+    },
+    {
+     "lines": [
+      "[Formless] Doubles Max Warcry Skill Effects",
+      "+66% Warcry Skill Area",
+      "Core Talents Lv.0",
+      "Soft Rush Lv. 3 x3, Golden Iris Lv. 6 x2, Giant Civet Musk Lv. 7 x9"
+     ],
+     "name": "Soft Rush Lv. 3",
+     "key": "Soft_Rush_Lv._3",
+     "icon": "UIMoneyS10EquipEnchantMaterial03128"
+    },
+    {
+     "lines": [
+      "[True Flame] When an enemy is Ignited, 65% of the additional bonus to Damage Over Time taken from Affliction is also applied to your Fire Hit Damage",
+      "Core Talents Lv.0",
+      "Soft Rush Lv. 3 x1, Golden Iris Lv. 6 x3, Sandalwood Incense Lv. 8 x3"
+     ],
+     "name": "Soft Rush Lv. 3",
+     "key": "Soft_Rush_Lv._3",
+     "icon": "UIMoneyS10EquipEnchantMaterial03128"
+    },
+    {
+     "lines": [
+      "[No Loose Ends] +40% additional Attack Damage at Low Life",
+      "Your Max Energy Shield is fixed at 0",
+      "Core Talents Lv.0",
+      "Soft Rush Lv. 3 x2, Golden Iris Lv. 6 x1, Stygian Benzoin Lv. 9 x2"
+     ],
+     "name": "Soft Rush Lv. 3",
+     "key": "Soft_Rush_Lv._3",
+     "icon": "UIMoneyS10EquipEnchantMaterial03128"
+    },
+    {
+     "lines": [
+      "[Queer Angle] Your and Minions' damage gains Lucky",
+      "Core Talents Lv.0",
+      "Night-Blooming Cereus Lv. 4 x1, Gloomy Daffodil Lv. 5 x1, Stygian Benzoin Lv. 9 x2"
+     ],
+     "name": "Night-Blooming Cereus Lv. 4",
+     "key": "Night-Blooming_Cereus_Lv._4",
+     "icon": "UIMoneyS10EquipEnchantMaterial04128"
+    },
+    {
+     "lines": [
+      "[Impermanence] -90% additional Min Physical Damage, and +80% additional Max Physical Damage",
+      "-32% additional min damage",
+      "+32% additional Max Damage",
+      "Core Talents Lv.0",
+      "Night-Blooming Cereus Lv. 4 x1, Golden Iris Lv. 6 x1, Giant Civet Musk Lv. 7 x10"
+     ],
+     "name": "Night-Blooming Cereus Lv. 4",
+     "key": "Night-Blooming_Cereus_Lv._4",
+     "icon": "UIMoneyS10EquipEnchantMaterial04128"
+    },
+    {
+     "lines": [
+      "[Steady Accumulation] +40% additional Hit Damage",
+      "Additional -30% Skill Effect Duration",
+      "Core Talents Lv.0",
+      "Night-Blooming Cereus Lv. 4 x1, Golden Iris Lv. 6 x7, Sandalwood Incense Lv. 8 x12"
+     ],
+     "name": "Night-Blooming Cereus Lv. 4",
+     "key": "Night-Blooming_Cereus_Lv._4",
+     "icon": "UIMoneyS10EquipEnchantMaterial04128"
+    },
+    {
+     "lines": [
+      "[Extreme Coldness] +50 to Max Frostbite Rating",
+      "You can only deal Cold Damage",
+      "Core Talents Lv.0",
+      "Silver Mound Lv. 2 x1, Giant Civet Musk Lv. 7 x14"
+     ],
+     "name": "Silver Mound Lv. 2",
+     "key": "Silver_Mound_Lv._2",
+     "icon": "UIMoneyS10EquipEnchantMaterial02128"
+    },
+    {
+     "lines": [
+      "[Quick Wits] +25% additional Spell Damage when the Energy Shield is not low",
+      "-20% additional damage taken at Low Energy Shield",
+      "Core Talents Lv.0",
+      "Sage Lv. 1 x4, Sandalwood Incense Lv. 8 x3, Gloomy Daffodil Lv. 5 x3"
+     ],
+     "name": "Sage Lv. 1",
+     "key": "Sage_Lv._1",
+     "icon": "UIMoneyS10EquipEnchantMaterial01128"
+    },
+    {
+     "lines": [
+      "[Play Safe] 100% of the bonuses and additional bonuses to Cast Speed is also applied to Spell Burst Charge Speed",
+      "-33% additional Spell Burst Charge Speed",
+      "+40% additional Hit Damage for skills cast by Spell Burst",
+      "Core Talents Lv.0",
+      "Silver Mound Lv. 2 x1, Giant Civet Musk Lv. 7 x5, Stygian Benzoin Lv. 9 x1"
+     ],
+     "name": "Silver Mound Lv. 2",
+     "key": "Silver_Mound_Lv._2",
+     "icon": "UIMoneyS10EquipEnchantMaterial02128"
+    },
+    {
+     "lines": [
+      "[Impending] Every 0.25 s, +6% additional damage taken for enemies within 10 m. Stacks up to 5 times",
+      "Core Talents Lv.0",
+      "Silver Mound Lv. 2 x1, Golden Iris Lv. 6 x5, Giant Civet Musk Lv. 7 x12"
+     ],
+     "name": "Silver Mound Lv. 2",
+     "key": "Silver_Mound_Lv._2",
+     "icon": "UIMoneyS10EquipEnchantMaterial02128"
+    },
+    {
+     "lines": [
+      "[Open Wounds] +2 TraumaLimit",
+      "-99% additional Trauma Damage",
+      "+12% additional Hit Physical Damage taken for every stack of Trauma the enemy has, up to +60%",
+      "Core Talents Lv.0",
+      "Silver Mound Lv. 2 x1, Golden Iris Lv. 6 x9, Sandalwood Incense Lv. 8 x4"
+     ],
+     "name": "Silver Mound Lv. 2",
+     "key": "Silver_Mound_Lv._2",
+     "icon": "UIMoneyS10EquipEnchantMaterial02128"
+    },
+    {
+     "lines": [
+      "[Last Stand] Block Ratio is set to 0%",
+      "For every +3% Attack or Spell Block Chance, +2% additional damage, up to +90%",
+      "Core Talents Lv.0",
+      "Silver Mound Lv. 2 x1, Golden Iris Lv. 6 x1, Stygian Benzoin Lv. 9 x2"
+     ],
+     "name": "Silver Mound Lv. 2",
+     "key": "Silver_Mound_Lv._2",
+     "icon": "UIMoneyS10EquipEnchantMaterial02128"
+    },
+    {
+     "lines": [
+      "[Beyond Cure] Deals more Wilt Damage to enemies with more Life, up to +60% additional Wilt Damage",
+      "Core Talents Lv.0",
+      "Sage Lv. 1 x3, Giant Civet Musk Lv. 7 x16"
+     ],
+     "name": "Sage Lv. 1",
+     "key": "Sage_Lv._1",
+     "icon": "UIMoneyS10EquipEnchantMaterial01128"
+    },
+    {
+     "lines": [
+      "[Dirty Tricks] Upon inflicting damage, +12% additional Hit Damage (multiplies) for every type of Ailment the enemy has",
+      "When Minions deal damage, +12% additional Hit Damage (multiplies) for every type of Ailment the enemy has",
+      "Core Talents Lv.0",
+      "Sage Lv. 1 x1, Giant Civet Musk Lv. 7 x2, Sandalwood Incense Lv. 8 x4"
+     ],
+     "name": "Sage Lv. 1",
+     "key": "Sage_Lv._1",
+     "icon": "UIMoneyS10EquipEnchantMaterial01128"
+    },
+    {
+     "lines": [
+      "[Subtle Impact] +30% additional Damage Over Time while Blur is active",
+      "Core Talents Lv.0",
+      "Sage Lv. 1 x1, Giant Civet Musk Lv. 7 x2, Stygian Benzoin Lv. 9 x3"
+     ],
+     "name": "Sage Lv. 1",
+     "key": "Sage_Lv._1",
+     "icon": "UIMoneyS10EquipEnchantMaterial01128"
+    },
+    {
+     "lines": [
+      "[Mighty Guard] +2 Minion Skill Level",
+      "+ 4 Command per second",
+      "+40 initial Growth for Spirit Magi",
+      "Core Talents Lv.0",
+      "Sage Lv. 1 x1, Sandalwood Incense Lv. 8 x6, Giant Civet Musk Lv. 7 x2"
+     ],
+     "name": "Sage Lv. 1",
+     "key": "Sage_Lv._1",
+     "icon": "UIMoneyS10EquipEnchantMaterial01128"
+    },
+    {
+     "lines": [
+      "[Source] +50% Sealed Mana Compensation for Spirit Magus Skills",
+      "+30% additional Origin of Spirit Magus Effect",
+      "Spirit Magi +30% additional Empower Skill Effect",
+      "Core Talents Lv.0",
+      "Giant Civet Musk Lv. 7 x2, Sandalwood Incense Lv. 8 x2, Stygian Benzoin Lv. 9 x2"
+     ],
+     "name": "Giant Civet Musk Lv. 7",
+     "key": "Giant_Civet_Musk_Lv._7",
+     "icon": "UIMoneyS10EquipEnchantMaterial07128"
+    },
+    {
+     "lines": [
+      "[Co-resonance] +25% additional Sentry Damage",
+      "Attack Speed bonus and 100% of additional bonus are also applied to Attack Sentries' Cast Frequency",
+      "Cast Speed bonus and 100% of additional bonus are also applied to Spell Sentries' Cast Frequency",
+      "Core Talents Lv.0",
+      "Sage Lv. 1 x1, Sandalwood Incense Lv. 8 x6, Stygian Benzoin Lv. 9 x1"
+     ],
+     "name": "Sage Lv. 1",
+     "key": "Sage_Lv._1",
+     "icon": "UIMoneyS10EquipEnchantMaterial01128"
+    },
+    {
+     "lines": [
+      "[Resolve] +4% additional Armor per stack of Tenacity Blessing owned",
+      "Core Talents Lv.0",
+      "Night-Blooming Cereus Lv. 4 x5, Giant Civet Musk Lv. 7 x9, Sandalwood Incense Lv. 8 x5"
+     ],
+     "name": "Night-Blooming Cereus Lv. 4",
+     "key": "Night-Blooming_Cereus_Lv._4",
+     "icon": "UIMoneyS10EquipEnchantMaterial04128"
+    },
+    {
+     "lines": [
+      "[Rock] Converts 5% of Physical Damage taken to Fire Damage for every stack of Tenacity Blessing you have",
+      "Core Talents Lv.0",
+      "Giant Civet Musk Lv. 7 x5, Sandalwood Incense Lv. 8 x8, Soft Rush Lv. 3 x2"
+     ],
+     "name": "Giant Civet Musk Lv. 7",
+     "key": "Giant_Civet_Musk_Lv._7",
+     "icon": "UIMoneyS10EquipEnchantMaterial07128"
+    },
+    {
+     "lines": [
+      "[Arcane] Converts 100% of Mana Cost to Life Cost",
+      "+25% additional Max Life",
+      "Core Talents Lv.0",
+      "Soft Rush Lv. 3 x24, Sandalwood Incense Lv. 8 x12, Golden Iris Lv. 6 x1"
+     ],
+     "name": "Soft Rush Lv. 3",
+     "key": "Soft_Rush_Lv._3",
+     "icon": "UIMoneyS10EquipEnchantMaterial03128"
+    },
+    {
+     "lines": [
+      "[Master Escapist] +1 Max Deflection stacks",
+      "Gains max stacks of Deflection on Evade",
+      "Gains max stacks of Deflection if you haven't been hit recently",
+      "Deflection is not consumed immediately when hit, but after 0.5s instead",
+      "Core Talents Lv.0",
+      "Night-Blooming Cereus Lv. 4 x5, Sandalwood Incense Lv. 8 x3, Giant Civet Musk Lv. 7 x7"
+     ],
+     "name": "Night-Blooming Cereus Lv. 4",
+     "key": "Night-Blooming_Cereus_Lv._4",
+     "icon": "UIMoneyS10EquipEnchantMaterial04128"
+    },
+    {
+     "lines": [
+      "[Rebirth] Converts 50% of Life Regain and Energy Shield Regain to Restoration Over Time",
+      "-50% additional Regain Interval",
+      "Core Talents Lv.0",
+      "Gloomy Daffodil Lv. 5 x5, Sandalwood Incense Lv. 8 x8, Sage Lv. 1 x27"
+     ],
+     "name": "Gloomy Daffodil Lv. 5",
+     "key": "Gloomy_Daffodil_Lv._5",
+     "icon": "UIMoneyS10EquipEnchantMaterial05128"
+    },
+    {
+     "lines": [
+      "[Poisoned Relief] +25% Injury Buffer",
+      "-15% additional damage taken at Low Life",
+      "Core Talents Lv.0",
+      "Golden Iris Lv. 6 x5, Sandalwood Incense Lv. 8 x6, Stygian Benzoin Lv. 9 x2"
+     ],
+     "name": "Golden Iris Lv. 6",
+     "key": "Golden_Iris_Lv._6",
+     "icon": "UIMoneyS10EquipEnchantMaterial06128"
+    },
+    {
+     "lines": [
+      "[Barrier of Radiance] Energy Shield Charge started recently cannot be interrupted by damage",
+      "+50% Energy Shield Charge Speed",
+      "Core Talents Lv.0",
+      "Sage Lv. 1 x30, Sandalwood Incense Lv. 8 x8, Night-Blooming Cereus Lv. 4 x10"
+     ],
+     "name": "Sage Lv. 1",
+     "key": "Sage_Lv._1",
+     "icon": "UIMoneyS10EquipEnchantMaterial01128"
+    },
+    {
+     "lines": [
+      "[Shell] +35% additional Max Energy Shield",
+      "Your Max Life is set to 100",
+      "Core Talents Lv.0",
+      "Gloomy Daffodil Lv. 5 x5, Sandalwood Incense Lv. 8 x8, Stygian Benzoin Lv. 9 x1"
+     ],
+     "name": "Gloomy Daffodil Lv. 5",
+     "key": "Gloomy_Daffodil_Lv._5",
+     "icon": "UIMoneyS10EquipEnchantMaterial05128"
+    },
+    {
+     "lines": [
+      "[Mana] 20% of damage is taken from Mana before life",
+      "+12% additional Max Mana",
+      "Core Talents Lv.0",
+      "Night-Blooming Cereus Lv. 4 x10, Stygian Benzoin Lv. 9 x2, Giant Civet Musk Lv. 7 x12"
+     ],
+     "name": "Night-Blooming Cereus Lv. 4",
+     "key": "Night-Blooming_Cereus_Lv._4",
+     "icon": "UIMoneyS10EquipEnchantMaterial04128"
+    },
+    {
+     "lines": [
+      "[Determined] Upon taking fatal damage, you have a 50% chance to keep at least 1 Life",
+      "Core Talents Lv.0",
+      "Night-Blooming Cereus Lv. 4 x15, Sandalwood Incense Lv. 8 x5, Giant Civet Musk Lv. 7 x2"
+     ],
+     "name": "Night-Blooming Cereus Lv. 4",
+     "key": "Night-Blooming_Cereus_Lv._4",
+     "icon": "UIMoneyS10EquipEnchantMaterial04128"
+    },
+    {
+     "lines": [
+      "[Centralize] Gains additional Fervor Rating equal to 25% of the current Fervor Rating on hit. Cooldown: 0.3 s",
+      "Consumes half of current Fervor Rating when hit. -0.8% additional damage per 1 point consumed",
+      "Core Talents Lv.0",
+      "Gloomy Daffodil Lv. 5 x10, Sandalwood Incense Lv. 8 x8"
+     ],
+     "name": "Gloomy Daffodil Lv. 5",
+     "key": "Gloomy_Daffodil_Lv._5",
+     "icon": "UIMoneyS10EquipEnchantMaterial05128"
+    },
+    {
+     "lines": [
+      "[Full Defense] -1% additional Damage Over Time taken for every 1% Block Ratio",
+      "Core Talents Lv.0",
+      "Golden Iris Lv. 6 x5, Sandalwood Incense Lv. 8 x5, Stygian Benzoin Lv. 9 x2"
+     ],
+     "name": "Golden Iris Lv. 6",
+     "key": "Golden_Iris_Lv._6",
+     "icon": "UIMoneyS10EquipEnchantMaterial06128"
+    },
+    {
+     "lines": [
+      "[Holiness] -95% Curse effect against you",
+      "-15% additional damage taken from Cursed enemies",
+      "Core Talents Lv.0",
+      "Night-Blooming Cereus Lv. 4 x30, Sandalwood Incense Lv. 8 x5"
+     ],
+     "name": "Night-Blooming Cereus Lv. 4",
+     "key": "Night-Blooming_Cereus_Lv._4",
+     "icon": "UIMoneyS10EquipEnchantMaterial04128"
+    },
+    {
+     "lines": [
+      "[Boss] Can obtain Bond",
+      "+5% additional Minion Damage while having Bond",
+      "Core Talents Lv.0",
+      "Gloomy Daffodil Lv. 5 x9, Sandalwood Incense Lv. 8 x5, Golden Iris Lv. 6 x1"
+     ],
+     "name": "Gloomy Daffodil Lv. 5",
+     "key": "Gloomy_Daffodil_Lv._5",
+     "icon": "UIMoneyS10EquipEnchantMaterial05128"
+    },
+    {
+     "lines": [
+      "[Tailored Remedy] The Restoration Effect from Elixir Skills cannot be removed",
+      "+60% additional Elixir Skill Effect while affected by no more than 2 Elixir Skills",
+      "Core Talents Lv.0",
+      "Golden Iris Lv. 6 x5, Sandalwood Incense Lv. 8 x5, Silver Mound Lv. 2 x18"
+     ],
+     "name": "Golden Iris Lv. 6",
+     "key": "Golden_Iris_Lv._6",
+     "icon": "UIMoneyS10EquipEnchantMaterial06128"
+    },
+    {
+     "lines": [
+      "[Kinetic Conversion] 100% chance to gain a Barrier for every 5 m you move",
+      "Refreshes Barrier when gaining Barrier",
+      "-40% additional Barrier Shield",
+      "Core Talents Lv.0",
+      "Night-Blooming Cereus Lv. 4 x5, Sandalwood Incense Lv. 8 x6, Giant Civet Musk Lv. 7 x7"
+     ],
+     "name": "Night-Blooming Cereus Lv. 4",
+     "key": "Night-Blooming_Cereus_Lv._4",
+     "icon": "UIMoneyS10EquipEnchantMaterial04128"
+    },
+    {
+     "lines": [
+      "Ember Armor",
+      "Core Talents Lv.0",
+      "Gloomy Daffodil Lv. 5 x9, Sandalwood Incense Lv. 8 x5, Golden Iris Lv. 6 x1"
+     ],
+     "name": "Gloomy Daffodil Lv. 5",
+     "key": "Gloomy_Daffodil_Lv._5",
+     "icon": "UIMoneyS10EquipEnchantMaterial05128"
+    },
+    {
+     "lines": [
+      "[Defensiveness] +25% Block Ratio",
+      "Core Talents Lv.0",
+      "Golden Iris Lv. 6 x5, Sandalwood Incense Lv. 8 x5, Silver Mound Lv. 2 x18"
+     ],
+     "name": "Golden Iris Lv. 6",
+     "key": "Golden_Iris_Lv._6",
+     "icon": "UIMoneyS10EquipEnchantMaterial06128"
+    },
+    {
+     "lines": [
+      "[Resistance] +1% chance to avoidElemental Ailments for every 1% effective Erosion Resistance",
+      "Core Talents Lv.0",
+      "Night-Blooming Cereus Lv. 4 x5, Sandalwood Incense Lv. 8 x6, Giant Civet Musk Lv. 7 x7"
+     ],
+     "name": "Night-Blooming Cereus Lv. 4",
+     "key": "Night-Blooming_Cereus_Lv._4",
+     "icon": "UIMoneyS10EquipEnchantMaterial04128"
+    },
+    {
+     "lines": [
+      "[Divine Grace] Changes the base effect of all Blessings to: +4% additional damage and -4% additional damage taken (multiplies)",
+      "Max stacks of each Blessing: 4",
+      "Aromatic Talent Lv.0",
+      "Gloomy Daffodil Lv. 5 x6, Giant Civet Musk Lv. 7 x6, Sandalwood Incense Lv. 8 x6"
+     ],
+     "name": "Gloomy Daffodil Lv. 5",
+     "key": "Gloomy_Daffodil_Lv._5",
+     "icon": "UIMoneyS10EquipEnchantMaterial05128"
+    },
+    {
+     "lines": [
+      "[Caged Fury] If you have moved 12m or more in the last 1s, +15% additional Attack Speed and +15% Movement Speed",
+      "If you have moved less than 12m in the last 1s, +35% additional damage and +35% Physique",
+      "Aromatic Talent Lv.0",
+      "Silver Mound Lv. 2 x5, Golden Iris Lv. 6 x5, Stygian Benzoin Lv. 9 x2"
+     ],
+     "name": "Silver Mound Lv. 2",
+     "key": "Silver_Mound_Lv._2",
+     "icon": "UIMoneyS10EquipEnchantMaterial02128"
+    },
+    {
+     "lines": [
+      "[Rotted Taboo] Takes 100 True Damage when casting a skill. Interval: 0.1s",
+      "+3 to All Skill Levels",
+      "Aromatic Talent Lv.0",
+      "Soft Rush Lv. 3 x100, Silver Mound Lv. 2 x100, Stygian Benzoin Lv. 9 x3"
+     ],
+     "name": "Soft Rush Lv. 3",
+     "key": "Soft_Rush_Lv._3",
+     "icon": "UIMoneyS10EquipEnchantMaterial03128"
+    },
+    {
+     "lines": [
+      "[Comradeship] Minions gain the Belt's bonuses.",
+      "Aromatic Talent Lv.0",
+      "Silver Mound Lv. 2 x5, Sage Lv. 1 x5, Sandalwood Incense Lv. 8 x9"
+     ],
+     "name": "Silver Mound Lv. 2",
+     "key": "Silver_Mound_Lv._2",
+     "icon": "UIMoneyS10EquipEnchantMaterial02128"
+    },
+    {
+     "lines": [
+      "[Hallowed Journey] You have a Lv. 1 Precise: Magical Source",
+      "Precise: Magical Source gains an additional base effect: 20% of damage is taken from Mana before Life",
+      "Aromatic Talent Lv.0",
+      "Soft Rush Lv. 3 x18, Golden Iris Lv. 6 x5, Giant Civet Musk Lv. 7 x24"
+     ],
+     "name": "Soft Rush Lv. 3",
+     "key": "Soft_Rush_Lv._3",
+     "icon": "UIMoneyS10EquipEnchantMaterial03128"
+    },
+    {
+     "lines": [
+      "[Thrice Lucky] Very Lucky Damage",
+      "Aromatic Talent Lv.0",
+      "Sage Lv. 1 x17, Silver Mound Lv. 2 x71, Sandalwood Incense Lv. 8 x7"
+     ],
+     "name": "Sage Lv. 1",
+     "key": "Sage_Lv._1",
+     "icon": "UIMoneyS10EquipEnchantMaterial01128"
+    }
+   ]
+  },
+  {
+   "card": "Blending Rituals - Help",
+   "tab": "BlendingRituals-Help",
+   "text": [
+    "1. Blending Rituals allows you to add Blending Affixes to any Belt. By blending Aromatic Materials according to specific recipes, you can obtain the following types of Blending Affixes: Medium Talents, Core Talents, and Aromatic Talents.",
+    "2. Blending can be performed on crafted gear and gear that has undergone Dream Interpretation, Corrosion, or Branding. Gear with Blending Affixes can still be used for crafting, Dream Interpretation, Corrosion, and Branding, depending on its gear type.",
+    "3. Once Blending starts, it cannot be interrupted. Abandoning the Blending process will still consume the Aromatic Materials used."
+   ]
+  }
+ ]
+}

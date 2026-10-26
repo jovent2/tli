@@ -1,0 +1,216 @@
+{
+ "page": "Hero",
+ "cards": [
+  {
+   "card": "Hero",
+   "tab": "Hero",
+   "entries": [
+    {
+     "lines": [
+      "Rehan will gain Rage upon hitting a target or taking damage and then gain damage from Rage. At Max Rage, Rehan will automatically enter the Berserk state and have his stats significantly increased."
+     ],
+     "name": "Berserker Rehan | Anger",
+     "key": "Anger"
+    },
+    {
+     "lines": [
+      "Blessed by the Ancestor Spirit, Rehan has a chance to summon the Seething Spirit to assist him in fights. The Seething Spirit will cast the Main Skill to help Rehan fight powerful enemies."
+     ],
+     "name": "Berserker Rehan | Seething Silhouette",
+     "key": "Seething_Silhouette"
+    },
+    {
+     "lines": [
+      "Carino is a character specialized in projectiles' special ammo. When using Projectile Skills, Carino will use different special ammo combos to assist in firing and enhance the skills at the cost of ammo."
+     ],
+     "name": "Divineshot Carino | Ranger of Glory",
+     "key": "Ranger_of_Glory"
+    },
+    {
+     "lines": [
+      "Lethal Flash centers around controlling projectile range. It changes projectile forms to match the situation, and boosts damage and survivability through Deflection."
+     ],
+     "name": "Divineshot Carino | Lethal Flash",
+     "key": "Lethal_Flash"
+    },
+    {
+     "lines": [
+      "Carino's combat style revolves around switching shooting modes and managing heat. Carino can change modes on the fly to adapt to various situations and gain a high damage bonus by consuming ammo. However, he'll also be forced to reload when his muzzle overheats."
+     ],
+     "name": "Divineshot Carino | Zealot of War",
+     "key": "Zealot_of_War"
+    },
+    {
+     "lines": [
+      "During combat, Erika can dodge attacks and launch a powerful strike through her swift movements and agile positioning. After moving a certain distance, Erika will gain Stalker, move even faster, have a higher chance to Multistrike, and deal more damage."
+     ],
+     "name": "Cateye Erika | Wind Stalker",
+     "key": "Wind_Stalker"
+    },
+    {
+     "lines": [
+      "Utilizes lightning-powered Ember Tech to gain massive buffs.",
+      "Inflicts Numbed on the enemies within range through Feline Figure and effectively increases damage."
+     ],
+     "name": "Cateye Erika | Lightning Shadow",
+     "key": "Lightning_Shadow"
+    },
+    {
+     "lines": [
+      "Transformed into an assassin, Erika darts swiftly through enemy lines, unleashing a flurry of swift and deadly melee strikes."
+     ],
+     "name": "Cateye Erika|Vendetta's Sting",
+     "key": "Vendettas_Sting"
+    },
+    {
+     "lines": [
+      "Bing can pack a large number of projectiles into his exquisite and dangerous bombs, dealing deadly damage by throwing multiple bombs at once and detonating them in an instant."
+     ],
+     "name": "Escapist Bing | Blast Nova",
+     "key": "Blast_Nova"
+    },
+    {
+     "lines": [
+      "Bing carries two Inspiration Machines, charging them with Whimsy Essence and Ingenuity Essence. He uses Whimsy Explosion to increase Spell Damage taken by enemies and Ingenuity Overload to unleash devastating Spell Bursts!"
+     ],
+     "name": "Escapist Bing | Creative Genius",
+     "key": "Creative_Genius"
+    },
+    {
+     "lines": [
+      "Casts Purgatory, greatly weakening enemies within it and increasing your damage dealt."
+     ],
+     "name": "Frostfire Gemma | Flame of Pleasure",
+     "key": "Flame_of_Pleasure"
+    },
+    {
+     "lines": [
+      "When using Cold Skills, Gemma will gain Cold Energy, which will increase Cold Damage and Frostbite Chance. At Max Cold Energy, Gemma will cast Cold Pulse and deal massive Cold Damage."
+     ],
+     "name": "Frostfire Gemma | Frostbitten Heart",
+     "key": "Frostbitten_Heart"
+    },
+    {
+     "lines": [
+      "The forces of fire and ice fuse within Gemma's body, reinforcing each other. When using Cold and Fire Skills, Gemma will gain Fusion Energy. At Max Fusion Energy, Gemma can cast Frostfire Rampage to increase her damage."
+     ],
+     "name": "Frostfire Gemma | Ice-Fire Fusion",
+     "key": "Ice-Fire_Fusion"
+    },
+    {
+     "lines": [
+      "Thea is capable of gaining and using Tenacity, Focus, and Agility Blessings skillfully. She can enhance the incoming God's Boon and gain buffs at the cost of Blessings."
+     ],
+     "name": "Oracle Thea | Wisdom of The Gods",
+     "key": "Wisdom_of_The_Gods"
+    },
+    {
+     "lines": [
+      "Thea can use blessings to summon a Divine Realm in the mortal world. When outside the Divine Realm, Thea can fight against enemies with the Agility Blessing. When inside the Divine Realm, she will fight against powerful enemies with the Tenacity Blessing."
+     ],
+     "name": "Oracle Thea | Incarnation of The Gods",
+     "key": "Incarnation_of_the_Gods"
+    },
+    {
+     "lines": [
+      "Thea can convert Blessings into a sacrilegious power that increases the Erosion Damage dealt to a single enemy and can cause Erosion Explosions with a large area of effect."
+     ],
+     "name": "Oracle Thea | Blasphemer",
+     "key": "Blasphemer"
+    },
+    {
+     "lines": [
+      "Youga can create a Twisted Spacetime around himself to gain multiple buffs when staying inside it. When in the Twisted Spacetime, he can summon a shadow who can cast skills independently to assist him."
+     ],
+     "name": "Spacetime Witness Youga | Spacetime Illusion",
+     "key": "Spacetime_Illusion"
+    },
+    {
+     "lines": [
+      "When encountering enemies, Youga releases the Twisted Spacetime and deals Damage Over Time to them. When he moves the Twisted Spacetime, it applies Spacetime Turbulence on enemies within it, speeding up and enhancing Damage Over Time."
+     ],
+     "name": "Spacetime Witness Youga | Spacetime Elapse",
+     "key": "Spacetime_Elapse"
+    },
+    {
+     "lines": [
+      "Don't bother with the others. The most perfect \"me\" is right before your eyes. I can fill the Clockwork Core with Spell Tangle, and with a snap of my fingers, magic pours out on its own. Land a few Critical Strikes, and my Cooldowns melt away. I slip through time and space at will, turning certain defeat into victory. I dominate. I conquer. I reign. I am the final master of countless worlds and ages."
+     ],
+     "name": "Spacetime Witness Youga | The Ultimate One",
+     "key": "The_Ultimate_One"
+    },
+    {
+     "lines": [
+      "Moto is capable of leading his Synthetic Troop to fight. He will inflict Overload on Minions frequently to increase their Life, Speed, Attack, and other stats to let this iron army fight for him."
+     ],
+     "name": "Commander Moto | Order Calling",
+     "key": "Order_Calling"
+    },
+    {
+     "lines": [
+      "Moto commands the Synthetic Troop to dash toward enemies and makes them self-destruct. When in combat, Moto can use Overload to quickly summon Synthetic Troops to increase the explosion efficiency and enhance combat capability."
+     ],
+     "name": "Commander Moto | Charge Calling",
+     "key": "Charge_Calling"
+    },
+    {
+     "lines": [
+      "You can use Holy Domain to force enemies to gather together and gain buffs when you're in the Holy Domain."
+     ],
+     "name": "Lightbringer Rosa | High Court Chariot",
+     "key": "High_Court_Chariot"
+    },
+    {
+     "lines": [
+      "Increase your Mana to deal lots of Elemental Damage to enemies inside the Realm of Mercury."
+     ],
+     "name": "Lightbringer Rosa | Unsullied Blade",
+     "key": "Unsullied_Blade"
+    },
+    {
+     "lines": [
+      "Fight with Spirit Magi and give them buffs to speed up their growth."
+     ],
+     "name": "The Forsaken Iris | Growing Breeze",
+     "key": "Growing_Breeze"
+    },
+    {
+     "lines": [
+      "Iris merges with a Spirit Magus to enter the Vigilant state, fighting enemies with Spirit Magus Skills and granting Spirit Magi with Breeze to enhance their damage."
+     ],
+     "name": "The Forsaken Iris | Vigilant Breeze",
+     "key": "Vigilant_Breeze"
+    },
+    {
+     "lines": [
+      "In Bard form, you can encase skills in bubbles while moving. When a bubble bursts, the skill within is cast at that location, creating a Tide. In Loud Song form, you can deal significantly increased damage when standing in the Tide."
+     ],
+     "name": "Tide Whisper Selena | Sing with the Tide",
+     "key": "Sing_with_the_Tide"
+    },
+    {
+     "lines": [
+      "Makes Terra Skills follow you as you move. Dance with them to gain multiple Terra Skill-related bonuses and auto-use your Main Terra Skill. Different Dance Steps also grant Movement Speed, Survival, and Damage buffs."
+     ],
+     "name": "Tide Whisper: Selena | Dance of the Deep",
+     "key": "Dance_of_the_Deep"
+    },
+    {
+     "lines": [
+      "Sage is a master of alchemy capable of brewing potent Elixirs to unlock her potential and take down even the most formidable foes. In battle, she can adapt her recipes on the fly, mixing special Elixirs to provide versatile support."
+     ],
+     "name": "Scent Weaver Sage|Licorice Note",
+     "key": "Licorice_Note"
+    }
+   ]
+  },
+  {
+   "card": "Hero Trait - Help",
+   "tab": "HeroTrait-Help",
+   "text": [
+    "Hero Traits define a hero's combat style. You may select different Trait branches once you meet the level requirements.",
+    "Click the icon of a hero trait to activate its special ability."
+   ]
+  }
+ ]
+}

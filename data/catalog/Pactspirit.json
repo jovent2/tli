@@ -1,0 +1,2241 @@
+{
+ "page": "Pactspirit",
+ "cards": [
+  {
+   "card": "Pactspirit",
+   "tab": "Pactspirit",
+   "entries": [
+    {
+     "lines": [
+      "Attack Magic",
+      "Increases Attack Damage, Attack Critical Strike, and Attack Speed",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+3% additional Attack Damage dealt to Nearby enemies",
+      "+4% additional damage"
+     ],
+     "name": "Awooawoo - Violet",
+     "key": "Awooawoo_-_Violet",
+     "icon": "UIPetRAWuAWu201116"
+    },
+    {
+     "lines": [
+      "Attack Rare",
+      "Increases Attack Damage, Attack Critical Strike, and Attack Speed",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+6% additional Attack Damage dealt to Nearby enemies",
+      "+4% additional damage"
+     ],
+     "name": "Traveling Lizard - Green Leaf",
+     "key": "Traveling_Lizard_-_Green_Leaf",
+     "icon": "UIPetSRLvXingXiaoXi201116"
+    },
+    {
+     "lines": [
+      "Attack Legendary",
+      "Increases Attack Damage, Attack Critical Strike, and Attack Speed",
+      "+26% chance for Attacks to inflict Paralysis on hit",
+      "+14% additional Attack Damage dealt to Nearby enemies",
+      "+12% additional Attack Damage dealt to Nearby enemies",
+      "+4% additional damage"
+     ],
+     "name": "Red Umbrella",
+     "key": "Red_Umbrella",
+     "icon": "UIPetSSRChiSan201116"
+    },
+    {
+     "lines": [
+      "Attack Magic",
+      "Increases Double Attack, Attack Damage, and Multistrike",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+8% Movement Speed when at least 2 enemies are Nearby",
+      "+4% additional damage"
+     ],
+     "name": "Idling Weasel - Shallow sea",
+     "key": "Idling_Weasel_-_Shallow_sea",
+     "icon": "UIPetRXianYouXiaoYou202116"
+    },
+    {
+     "lines": [
+      "Attack Rare",
+      "Increases Double Attack, Attack Damage, and Multistrike",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+15% Movement Speed when at least 2 enemies are Nearby",
+      "+4% additional damage"
+     ],
+     "name": "Plaintive Ball of Thread - Violet",
+     "key": "Plaintive_Ball_of_Thread_-_Violet",
+     "icon": "UIPetSRAiYuanXianQiu203116"
+    },
+    {
+     "lines": [
+      "Attack Legendary",
+      "Increases Double Attack, Attack Damage, and Multistrike",
+      "+27% additional Attack Speed when only 1 enemies are Nearby",
+      "+12% Movement Speed when at least 2 enemies are Nearby",
+      "+30% Movement Speed when at least 2 enemies are Nearby",
+      "+4% additional damage"
+     ],
+     "name": "Fog Scorpion",
+     "key": "Fog_Scorpion",
+     "icon": "UIPetSSRWuXie201116"
+    },
+    {
+     "lines": [
+      "Attack Magic",
+      "Increases Projectile Damage, Projectile Speed, and Attack Critical Strike",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+35 Attack Projectile Skill Critical Strike Rating against Distant enemies",
+      "+4% additional damage"
+     ],
+     "name": "Awooawoo - Drizzle",
+     "key": "Awooawoo_-_Drizzle",
+     "icon": "UIPetRAWuAWu202116"
+    },
+    {
+     "lines": [
+      "Attack Rare",
+      "Increases Projectile Damage, Projectile Speed, and Attack Critical Strike",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+70 Attack Projectile Skill Critical Strike Rating against Distant enemies",
+      "+4% additional damage"
+     ],
+     "name": "Traveling Lizard - Violet",
+     "key": "Traveling_Lizard_-_Violet",
+     "icon": "UIPetSRLvXingXiaoXi202116"
+    },
+    {
+     "lines": [
+      "Attack Legendary",
+      "Increases Projectile Damage, Projectile Speed, and Attack Critical Strike",
+      "+21% additional Projectile Skill Critical Strike Damage against Distant enemies",
+      "+55 Attack Projectile Skill Critical Strike Rating against Distant enemies",
+      "+140 Attack Projectile Skill Critical Strike Rating against Distant enemies",
+      "+4% additional damage"
+     ],
+     "name": "Flower Whisperer",
+     "key": "Flower_Whisperer",
+     "icon": "UIPetSSRHuaYuZhe201116"
+    },
+    {
+     "lines": [
+      "Spell Magic",
+      "Increases Mana Restoration, Spell Damage, and Critical Strike damage",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+4% Critical Strike Damage per Ailment on enemies, up to +8%",
+      "+4% additional damage"
+     ],
+     "name": "Luluri - Amethyst",
+     "key": "Luluri_-_Amethyst",
+     "icon": "UIPetRLuLuLi201116"
+    },
+    {
+     "lines": [
+      "Spell Rare",
+      "Increases Mana Restoration, Spell Damage, and Critical Strike damage",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+9% Critical Strike Damage per Ailment on enemies, up to +18%",
+      "+4% additional damage"
+     ],
+     "name": "Hell Cavalry - Glow",
+     "key": "Hell_Cavalry_-_Glow",
+     "icon": "UIPetSRYouYuQingQi204116"
+    },
+    {
+     "lines": [
+      "Spell Legendary",
+      "Increases Mana Restoration, Spell Damage, and Critical Strike damage",
+      "+70 Spell Critical Strike Rating per Ailment on enemies, up to +140",
+      "+7% Critical Strike Damage per Ailment on enemies, up to +14%",
+      "+18% Critical Strike Damage per Ailment on enemies, up to +36%",
+      "+4% additional damage"
+     ],
+     "name": "The Bone worm's Daughter",
+     "key": "The_Bone_worms_Daughter",
+     "icon": "UIPetSSRGuChongZhiNv201116"
+    },
+    {
+     "lines": [
+      "Spell Magic",
+      "Increases double Spell, Spell Damage, and Cast Speed",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+3% Movement Speed per second when an Elite is nearby, up to +3 stack(s)",
+      "+4% additional damage"
+     ],
+     "name": "Luluri - Maple",
+     "key": "Luluri_-_Maple",
+     "icon": "UIPetRLuLuLi204116"
+    },
+    {
+     "lines": [
+      "Spell Rare",
+      "Increases double Spell, Spell Damage, and Cast Speed",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+5% Movement Speed per second when an Elite is nearby, up to +3 stack(s)",
+      "+4% additional damage"
+     ],
+     "name": "Winter Darer - Shallow Sea",
+     "key": "Winter_Darer_-_Shallow_Sea",
+     "icon": "UIPetSRLinDongMangHan202116"
+    },
+    {
+     "lines": [
+      "Spell Legendary",
+      "Increases double Spell, Spell Damage, and Cast Speed",
+      "+8% additional Cast Speed per second when an Elite is Nearby, up to +24%",
+      "+4% Movement Speed when an Elite is Nearby, up to +12%",
+      "+10% Movement Speed per second when an Elite is nearby, up to +3 stack(s)",
+      "+4% additional damage"
+     ],
+     "name": "Starcatcher",
+     "key": "Starcatcher",
+     "icon": "UIPetSSRBuXingZhe201116"
+    },
+    {
+     "lines": [
+      "Spell Magic",
+      "Increases Elemental Damage, Elemental Piercing, and Cast Speed",
+      "+7% additional damage; +7% additional Minion Damage",
+      "0.8% Elemental Resistance Penetration every time you hit an enemy with Elemental Damage recently. Stacks up to 4 times",
+      "+4% additional damage"
+     ],
+     "name": "Idling Weasel - Sprouts",
+     "key": "Idling_Weasel_-_Sprouts",
+     "icon": "UIPetRXianYouXiaoYou203116"
+    },
+    {
+     "lines": [
+      "Spell Rare",
+      "Increases Elemental Damage, Elemental Piercing, and Cast Speed",
+      "+7% additional damage; +7% additional Minion Damage",
+      "1.6% Elemental Resistance Penetration every time you hit an enemy with Elemental Damage recently. Stacks up to 4 times",
+      "+4% additional damage"
+     ],
+     "name": "Cloudgatherer - Violet",
+     "key": "Cloudgatherer_-_Violet",
+     "icon": "UIPetSRCaiYunZhe202116"
+    },
+    {
+     "lines": [
+      "Spell Legendary",
+      "Increases Elemental Damage, Elemental Piercing, and Cast Speed",
+      "+19% additional Elemental Damage dealt by Spell Skills",
+      "1.2% Elemental Resistance Penetration when hitting an enemy with Elemental Damage, stacking up to 4 times",
+      "+3% Elemental Resistance Penetration every time you hit an enemy with Elemental Damage recently. Stacks up to 4 times",
+      "+4% additional damage"
+     ],
+     "name": "Dreamweaver",
+     "key": "Dreamweaver",
+     "icon": "UIPetSSRZhiMengZhe201116"
+    },
+    {
+     "lines": [
+      "Persistent Magic",
+      "Increases Damage Over Time, Ailment Chance, and Damage Affliction",
+      "+7% additional damage; +7% additional Minion Damage",
+      "3.6% Reaping Duration for each Reap dealt, stacking up to 4 times.",
+      "+4% additional damage"
+     ],
+     "name": "Awooawoo - Amber",
+     "key": "Awooawoo_-_Amber",
+     "icon": "UIPetRAWuAWu204116"
+    },
+    {
+     "lines": [
+      "Persistent Rare",
+      "Increases Damage Over Time, Ailment Chance, and Damage Affliction",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+7% Reaping Duration for each Reap dealt, stacking up to 4 times.",
+      "+4% additional damage"
+     ],
+     "name": "Greedy Chestnut - Lotus Leaf",
+     "key": "Greedy_Chestnut_-_Lotus_Leaf",
+     "icon": "UIPetSRTanCaiXiaoLi203116"
+    },
+    {
+     "lines": [
+      "Persistent Legendary",
+      "Increases Damage Over Time, Ailment Chance, and Damage Affliction",
+      "Reaps 1 s of Damage Over Time when inflicting an Ailment. The effect has a 6 s Recovery Time against the same target",
+      "+6% Reaping Duration for each recent Reaping. Stacks up to 4 time(s)",
+      "+14% Reaping Duration for each Reap dealt, stacking up to 4 times.",
+      "+4% additional damage"
+     ],
+     "name": "Fire Swordsman",
+     "key": "Fire_Swordsman",
+     "icon": "UIPetSSRYanDaoKe201116"
+    },
+    {
+     "lines": [
+      "Persistent Magic",
+      "Increases Ailment Chance, Ailment Damage, and Ailment Duration",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+5% Curse Effect",
+      "+4% additional damage"
+     ],
+     "name": "Idling Weasel - Abyss",
+     "key": "Idling_Weasel_-_Abyss",
+     "icon": "UIPetRXianYouXiaoYou201116"
+    },
+    {
+     "lines": [
+      "Persistent Rare",
+      "Increases Ailment Chance, Ailment Damage, and Ailment Duration",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+10% Curse Effect",
+      "+4% additional damage"
+     ],
+     "name": "Greedy Chestnut - Emerald",
+     "key": "Greedy_Chestnut_-_Emerald",
+     "icon": "UIPetSRTanCaiXiaoLi204116"
+    },
+    {
+     "lines": [
+      "Persistent Legendary",
+      "Increases Ailment Chance, Ailment Damage, and Ailment Duration",
+      "+18% additional Ailment Damage against Cursed enemies",
+      "+15% Curse effect",
+      "+20% Curse Effect",
+      "+4% additional damage"
+     ],
+     "name": "Crossroad Walker",
+     "key": "Crossroad_Walker",
+     "icon": "UIPetSSRQiLuRen201116"
+    },
+    {
+     "lines": [
+      "Persistent Magic",
+      "Increases Damage Over Time, Skill Duration, and Damage Affliction",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+8 Affliction inflicted per second at Full Life.",
+      "+4% additional damage"
+     ],
+     "name": "Luluri - Golden Leaf",
+     "key": "Luluri_-_Golden_Leaf",
+     "icon": "UIPetRLuLuLi203116"
+    },
+    {
+     "lines": [
+      "Persistent Rare",
+      "Increases Damage Over Time, Skill Duration, and Damage Affliction",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+16 Affliction inflicted per second at Full Life.",
+      "+4% additional damage"
+     ],
+     "name": "Greedy Chestnut - Radiance",
+     "key": "Greedy_Chestnut_-_Radiance",
+     "icon": "UIPetSRTanCaiXiaoLi201116"
+    },
+    {
+     "lines": [
+      "Persistent Legendary",
+      "Increases Damage Over Time, Skill Duration, and Damage Affliction",
+      "+105% Affliction effect at Full Life.",
+      "+14 Affliction inflicted per second on Full Life.",
+      "+30 Affliction inflicted per second at Full Life.",
+      "+4% additional damage"
+     ],
+     "name": "Firewing",
+     "key": "Firewing",
+     "icon": "UIPetSSRChiYu201116"
+    },
+    {
+     "lines": [
+      "Summon Magic",
+      "Increases Servant Damage, Servant Speed, and Servant Life",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+5% Minion Attack and Cast Speed for 4 s when your Synthetic Troops deal Double Damage",
+      "+4% additional Minion Damage"
+     ],
+     "name": "Spiny Snail - Flower",
+     "key": "Spiny_Snail_-_Flower",
+     "icon": "UIPetRCiTouXiaoWo203116"
+    },
+    {
+     "lines": [
+      "Summon Rare",
+      "Increases Servant Damage, Servant Speed, and Servant Life",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+10% Minion Attack and Cast Speed for 4 s when your Synthetic Troops deal Double Damage",
+      "+4% additional Minion Damage"
+     ],
+     "name": "Winter Darer",
+     "key": "Winter_Darer",
+     "icon": "UIPetSRLinDongMangHan201116"
+    },
+    {
+     "lines": [
+      "Summon Legendary",
+      "Increases Servant Damage, Servant Speed, and Servant Life",
+      "+19% chance for Synthetic Troop Minions to deal Double Damage",
+      "+8% Minion Attack and Cast Speed for 4 s when your Synthetic Troop Minions deal Double Damage",
+      "+20% Minion Attack and Cast Speed for 4 s when your Synthetic Troops deal Double Damage",
+      "+4% additional Minion Damage"
+     ],
+     "name": "Mechanical Throne",
+     "key": "Mechanical_Throne",
+     "icon": "UIPetSSRJiGuanQuanBing201116"
+    },
+    {
+     "lines": [
+      "Summon Magic",
+      "Increases Servant Buff, Servant Cooldown, and Servant Life",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+2% additional Spirit Magus Skill Damage",
+      "+4% additional Minion Damage"
+     ],
+     "name": "Explorer Otter - Olive",
+     "key": "Explorer_Otter_-_Olive",
+     "icon": "UIPetRTanXianXiaoTa202116"
+    },
+    {
+     "lines": [
+      "Summon Rare",
+      "Increases Servant Buff, Servant Cooldown, and Servant Life",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+4% additional Spirit Magus Skill Damage",
+      "+4% additional Minion Damage"
+     ],
+     "name": "Greedy Chestnut - Lotus Root",
+     "key": "Greedy_Chestnut_-_Lotus_Root",
+     "icon": "UIPetSRTanCaiXiaoLi202116"
+    },
+    {
+     "lines": [
+      "Summon Legendary",
+      "Increases Servant Buff, Servant Cooldown, and Servant Life",
+      "+55% Origin of Spirit Magus effect",
+      "+7% additional Spirit Magus Skill Damage",
+      "+8% additional Spirit Magus Skill Damage",
+      "+4% additional Minion Damage"
+     ],
+     "name": "Drapion Lady",
+     "key": "Drapion_Lady",
+     "icon": "UIPetSSRLongXieHuoNv201116"
+    },
+    {
+     "lines": [
+      "Summon Magic",
+      "Increases Servant Damage, Servant Speed, and Servant Life",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+40 Critical Strike Rating for recently summoned Minions",
+      "+4% additional Minion Damage"
+     ],
+     "name": "Spiny Snail - Iris",
+     "key": "Spiny_Snail_-_Iris",
+     "icon": "UIPetRCiTouXiaoWo202116"
+    },
+    {
+     "lines": [
+      "Summon Rare",
+      "Increases Servant Damage, Servant Speed, and Servant Life",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+80 Critical Strike Rating for recently summoned Minions",
+      "+4% additional Minion Damage"
+     ],
+     "name": "Cloudgatherer - Sparkle",
+     "key": "Cloudgatherer_-_Sparkle",
+     "icon": "UIPetSRCaiYunZhe201116"
+    },
+    {
+     "lines": [
+      "Summon Legendary",
+      "Increases Servant Damage, Servant Speed, and Servant Life",
+      "+30% additional damage for recently summoned Minions",
+      "+60 Critical Strike Rating for recently summoned Minions",
+      "+160 Critical Strike Rating for recently summoned Minions",
+      "+4% additional Minion Damage"
+     ],
+     "name": "Whisperwind Leaves",
+     "key": "Whisperwind_Leaves",
+     "icon": "UIPetSSRFengYuYe201116"
+    },
+    {
+     "lines": [
+      "Survival Magic",
+      "Increases Maximum Life, Mana Restoration, and XP Balance",
+      "-6% additional damage taken",
+      "Regenerates 0.6% Life per second",
+      "-4% additional damage taken"
+     ],
+     "name": "Explorer Otter - Mudstone",
+     "key": "Explorer_Otter_-_Mudstone",
+     "icon": "UIPetRTanXianXiaoTa201116"
+    },
+    {
+     "lines": [
+      "Survival Rare",
+      "Increases Maximum Life, Mana Restoration, and XP Balance",
+      "-6% additional damage taken",
+      "Regenerates 1.2% Life per second",
+      "-4% additional damage taken"
+     ],
+     "name": "Plaintive Ball of Thread",
+     "key": "Plaintive_Ball_of_Thread",
+     "icon": "UIPetSRAiYuanXianQiu201116"
+    },
+    {
+     "lines": [
+      "Survival Legendary",
+      "Increases Maximum Life, Mana Restoration, and XP Balance",
+      "+14% additional Life",
+      "Regenerates 0.9% Life per second",
+      "Regenerates 2% Life per second",
+      "-4% additional damage taken"
+     ],
+     "name": "Anthem",
+     "key": "Anthem",
+     "icon": "UIPetSSRShengGe201116"
+    },
+    {
+     "lines": [
+      "Survival Magic",
+      "Increases Max Energy Shield, Mana Restoration, and XP bonus",
+      "-6% additional damage taken",
+      "+4% Energy Shield Charge Speed",
+      "-4% additional damage taken"
+     ],
+     "name": "Explorer Otter - Rock",
+     "key": "Explorer_Otter_-_Rock",
+     "icon": "UIPetRTanXianXiaoTa204116"
+    },
+    {
+     "lines": [
+      "Survival Rare",
+      "Increases Max Energy Shield, Mana Restoration, and XP bonus",
+      "-6% additional damage taken",
+      "+8% Energy Shield Charge Speed",
+      "-4% additional damage taken"
+     ],
+     "name": "Traveling Lizard - Ocean",
+     "key": "Traveling_Lizard_-_Ocean",
+     "icon": "UIPetSRLvXingXiaoXi203116"
+    },
+    {
+     "lines": [
+      "Survival Legendary",
+      "Increases Max Energy Shield, Mana Restoration, and XP bonus",
+      "+14% additional Max Energy Shield",
+      "+8% Energy Shield Charge Speed",
+      "+16% Energy Shield Charge Speed",
+      "-4% additional damage taken"
+     ],
+     "name": "Spirit Bless",
+     "key": "Spirit_Bless",
+     "icon": "UIPetSSRLingYou201116"
+    },
+    {
+     "lines": [
+      "Survival Magic",
+      "Increases Elemental Resistance, damage avoidance, and XP protection",
+      "-6% additional damage taken",
+      "+5% Movement Speed",
+      "-4% additional damage taken"
+     ],
+     "name": "Explorer Otter - Quicksand",
+     "key": "Explorer_Otter_-_Quicksand",
+     "icon": "UIPetRTanXianXiaoTa203116"
+    },
+    {
+     "lines": [
+      "Survival Rare",
+      "Increases Elemental Resistance, damage avoidance, and XP protection",
+      "-6% additional damage taken",
+      "+10% Movement Speed",
+      "-4% additional damage taken"
+     ],
+     "name": "Traveling Lizard - Flower",
+     "key": "Traveling_Lizard_-_Flower",
+     "icon": "UIPetSRLvXingXiaoXi204116"
+    },
+    {
+     "lines": [
+      "Survival Legendary",
+      "Increases Elemental Resistance, damage avoidance, and XP protection",
+      "+40% Movement Speed if you haven't been hit recently",
+      "+8% Movement Speed",
+      "+20% Movement Speed",
+      "-4% additional damage taken"
+     ],
+     "name": "Preserver of Eternity",
+     "key": "Preserver_of_Eternity",
+     "icon": "UIPetSSRYongHengHuHuan202116"
+    },
+    {
+     "lines": [
+      "Survival Magic",
+      "Increases Elemental Resistance, damage mitigation, and XP bonus",
+      "-6% additional damage taken",
+      "-2% additional damage taken",
+      "-4% additional damage taken"
+     ],
+     "name": "Spiny Snail - Cloudless Sky",
+     "key": "Spiny_Snail_-_Cloudless_Sky",
+     "icon": "UIPetRCiTouXiaoWo201116"
+    },
+    {
+     "lines": [
+      "Survival Rare",
+      "Increases Elemental Resistance, damage mitigation, and XP bonus",
+      "-6% additional damage taken",
+      "-4% additional damage taken",
+      "-4% additional damage taken"
+     ],
+     "name": "Hell Cavalry",
+     "key": "Hell_Cavalry",
+     "icon": "UIPetSRYouYuQingQi201116"
+    },
+    {
+     "lines": [
+      "Survival Legendary",
+      "Increases Elemental Resistance, damage mitigation, and XP bonus",
+      "-55% additional Physical Damage taken when there are only 1 enemies Nearby",
+      "-4% additional damage taken",
+      "-8% additional damage taken",
+      "-4% additional damage taken"
+     ],
+     "name": "Knight of Pale Blue",
+     "key": "Knight_of_Pale_Blue",
+     "icon": "UIPetSSRCangLanQiShi201116"
+    },
+    {
+     "lines": [
+      "Drop Magic",
+      "Increases Drop Quantity",
+      "+8% Drop Quantity",
+      "+4% additional Ember Drop Quantity",
+      "+6% Drop Quantity"
+     ],
+     "name": "Idling Weasel - Cherry Blossom",
+     "key": "Idling_Weasel_-_Cherry_Blossom",
+     "icon": "UIPetRXianYouXiaoYou204116"
+    },
+    {
+     "lines": [
+      "Drop Rare",
+      "Increases Drop Quantity",
+      "+8% Drop Quantity",
+      "+8% additional Ember Drop Quantity",
+      "+6% Drop Quantity"
+     ],
+     "name": "Cloudgatherer - Sky",
+     "key": "Cloudgatherer_-_Sky",
+     "icon": "UIPetSRCaiYunZhe203116"
+    },
+    {
+     "lines": [
+      "Drop Legendary",
+      "Increases Drop Quantity",
+      "Bosses defeated: 80% chance to drop 1-3 additional random Embers",
+      "+16% additional Ember Drop Quantity",
+      "+6% Drop Quantity"
+     ],
+     "name": "Captain Shadow",
+     "key": "Captain_Shadow",
+     "icon": "UIPetSSRYouLingJianZhang201116"
+    },
+    {
+     "lines": [
+      "Drop Magic",
+      "Increases Drop Quantity",
+      "+8% Drop Quantity",
+      "16% chance to unlock 1 additional reward type(s) when the Dark Surge is initiated for the first time on a map",
+      "+6% Drop Quantity"
+     ],
+     "name": "Luluri - Green Leaf",
+     "key": "Luluri_-_Green_Leaf",
+     "icon": "UIPetRLuLuLi202116"
+    },
+    {
+     "lines": [
+      "Drop Rare",
+      "Increases Drop Quantity",
+      "+8% Drop Quantity",
+      "30% chance to unlock 1 additional reward type(s) when the Dark Surge is initiated for the first time on a map",
+      "+6% Drop Quantity"
+     ],
+     "name": "Plaintive Ball of Thread - Flower",
+     "key": "Plaintive_Ball_of_Thread_-_Flower",
+     "icon": "UIPetSRAiYuanXianQiu204116"
+    },
+    {
+     "lines": [
+      "Drop Legendary",
+      "Increases Drop Quantity",
+      "60% chance to unlock 2 additional reward type(s) when the Dark Surge is initiated for the first time on a map",
+      "60% chance to unlock 1 additional reward type(s) when the Dark Surge is initiated for the first time on a map",
+      "+6% Drop Quantity"
+     ],
+     "name": "Eternity Summoner",
+     "key": "Eternity_Summoner",
+     "icon": "UIPetSSRYongHengHuHuan201116"
+    },
+    {
+     "lines": [
+      "Drop Magic",
+      "Increases Drop Quantity",
+      "+8% Drop Quantity",
+      "+5% additional Flame Fuel Drop Quantity",
+      "+6% Drop Quantity"
+     ],
+     "name": "Happy Chonky",
+     "key": "Happy_Chonky",
+     "icon": "UIPetRKuaiLeXiaoFei201116"
+    },
+    {
+     "lines": [
+      "Drop Rare",
+      "Increases Drop Quantity",
+      "+8% Drop Quantity",
+      "+10% additional Flame Fuel Drop Quantity",
+      "+6% Drop Quantity"
+     ],
+     "name": "Cloudgatherer - Surging Gold",
+     "key": "Cloudgatherer_-_Surging_Gold",
+     "icon": "UIPetSRCaiYunZhe204116"
+    },
+    {
+     "lines": [
+      "Drop Legendary",
+      "Increases Drop Quantity",
+      "1.3% chance for defeated monsters to drop 1 additional set(s) of random Flame Fuel",
+      "+20% additional Flame Fuel Drop Quantity",
+      "+6% Drop Quantity"
+     ],
+     "name": "Chalk Spirit",
+     "key": "Chalk_Spirit",
+     "icon": "UIPetSSRBaiEZhiLing201116"
+    },
+    {
+     "lines": [
+      "Fire Magic",
+      "+ Fire Damage; + Fire Penetration; + Fire Area",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+3% additional Fire Damage",
+      "+4% additional damage"
+     ],
+     "name": "Happy Chonky - Ember",
+     "key": "Happy_Chonky_-_Ember",
+     "icon": "UIPetRKuaiLeXiaoFei04116"
+    },
+    {
+     "lines": [
+      "Fire Rare",
+      "+ Fire Damage; + Fire Penetration; + Fire Area",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+6% additional Fire Damage",
+      "+4% additional damage"
+     ],
+     "name": "Winter Darer - Lava",
+     "key": "Winter_Darer_-_Lava",
+     "icon": "UIPetSRLinDongMangHan04116"
+    },
+    {
+     "lines": [
+      "Fire Legendary",
+      "+ Fire Damage; + Fire Penetration; + Fire Area",
+      "Covers targets within a 5m radius with flames and debuffs enemies within the area.",
+      "Debuff: + 35% additional Fire Damage taken by the enemy for 3s.",
+      "Cooldown: 5 s.",
+      "+12% additional Fire Damage",
+      "+4% additional damage"
+     ],
+     "name": "Melting Flames",
+     "key": "Melting_Flames",
+     "icon": "UIPetSSRRongHuo01116"
+    },
+    {
+     "lines": [
+      "Cold Magic",
+      "Increases Cold Damage, Cold Penetration, and Max Frostbite Rating",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+3% additional Cold Damage",
+      "+4% additional damage"
+     ],
+     "name": "Awooawoo - White Mist",
+     "key": "Awooawoo_-_White_Mist",
+     "icon": "UIPetRAWuAWu03116"
+    },
+    {
+     "lines": [
+      "Cold Rare",
+      "Increases Cold Damage, Cold Penetration, and Max Frostbite Rating",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+6% additional Cold Damage",
+      "+4% additional damage"
+     ],
+     "name": "Hell Cavalry - Crushed Ice",
+     "key": "Hell_Cavalry_-_Crushed_Ice",
+     "icon": "UIPetSRYouYuQingQi02116"
+    },
+    {
+     "lines": [
+      "Cold Legendary",
+      "Increases Cold Damage, Cold Penetration, and Max Frostbite Rating",
+      "Focus energy to create an ice prison Near yourself and the Pact Holder, which debuffs Frostbitten enemies inside every second and makes them take +13% additional Cold Damage, up to 4 stacks, for 6s.",
+      "Cooldown: 10s",
+      "+12% additional Cold Damage",
+      "+4% additional damage"
+     ],
+     "name": "Ice Puppet",
+     "key": "Ice_Puppet",
+     "icon": "UIPetSSRKuiBing01116"
+    },
+    {
+     "lines": [
+      "Lightning Magic",
+      "+ Lightning Damage; + Lightning Penetration; + Attack and Cast Speed",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+3% additional Lightning Damage",
+      "+4% additional damage"
+     ],
+     "name": "Happy Chonky - Electrify",
+     "key": "Happy_Chonky_-_Electrify",
+     "icon": "UIPetRKuaiLeXiaoFei02116"
+    },
+    {
+     "lines": [
+      "Lightning Rare",
+      "+ Lightning Damage; + Lightning Penetration; + Attack and Cast Speed",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+6% additional Lightning Damage",
+      "+4% additional damage"
+     ],
+     "name": "Hell Cavalry - Muffled Thunder",
+     "key": "Hell_Cavalry_-_Muffled_Thunder",
+     "icon": "UIPetSRYouYuQingQi03116"
+    },
+    {
+     "lines": [
+      "Lightning Legendary",
+      "+ Lightning Damage; + Lightning Penetration; + Attack and Cast Speed",
+      "Bestows the surging power of lightning to the pact holder, granting + 19% additional Lightning Damage and + 20% additional Max Damage for 5s.",
+      "Cooldown: 10s.",
+      "+12% additional Lightning Damage",
+      "+4% additional damage"
+     ],
+     "name": "Bitter Thunder",
+     "key": "Bitter_Thunder",
+     "icon": "UIPetSSRLingLei01116"
+    },
+    {
+     "lines": [
+      "Drop Magic",
+      "Increases Drop Quantity",
+      "+8% Drop Quantity",
+      "+2% additional Drop Quantity",
+      "+6% Drop Quantity"
+     ],
+     "name": "Happy Chonky - Emerald",
+     "key": "Happy_Chonky_-_Emerald",
+     "icon": "UIPetRKuaiLeXiaoFei03116"
+    },
+    {
+     "lines": [
+      "Drop Rare",
+      "Increases Drop Quantity",
+      "+8% Drop Quantity",
+      "+4% additional Drop Quantity",
+      "+6% Drop Quantity"
+     ],
+     "name": "Plaintive Ball of Thread - Gold Leaf",
+     "key": "Plaintive_Ball_of_Thread_-_Gold_Leaf",
+     "icon": "UIPetSRAiYuanXianQiu02116"
+    },
+    {
+     "lines": [
+      "Drop Legendary",
+      "Increases Drop Quantity",
+      "27% chance to double the effect of the Seal Whisper revealed when defeating Void Pirates",
+      "+8% additional Drop Quantity",
+      "+6% Drop Quantity"
+     ],
+     "name": "Starfish Chanter",
+     "key": "Starfish_Chanter",
+     "icon": "UIPetSSRHuanHaiXingKui01116"
+    },
+    {
+     "lines": [
+      "Drop Magic",
+      "Increases Drop Quantity",
+      "+8% Drop Quantity",
+      "Fluorescent Memories dropped have a 5% chance to be replicated 1 time(s)",
+      "+6% Drop Quantity"
+     ],
+     "name": "Idling Weasel - Sparkle",
+     "key": "Idling_Weasel_-_Sparkle",
+     "icon": "UIPetRXianYouXiaoYou05116"
+    },
+    {
+     "lines": [
+      "Drop Rare",
+      "Increases Drop Quantity",
+      "+8% Drop Quantity",
+      "Fluorescent Memories dropped have a 10% chance to be replicated 1 time(s)",
+      "+6% Drop Quantity"
+     ],
+     "name": "Cloudgatherer - Sky's Dome",
+     "key": "Cloudgatherer_-_Skys_Dome",
+     "icon": "UIPetSRCaiYunZhe05116"
+    },
+    {
+     "lines": [
+      "Drop Legendary",
+      "Increases Drop Quantity",
+      "Fluorescent Memories dropped have a 13% chance to be replicated 2 time(s)",
+      "Fluorescent Memories dropped have a 20% chance to be replicated 1 time(s)",
+      "+6% Drop Quantity"
+     ],
+     "name": "Kong",
+     "key": "Kong",
+     "icon": "UIPetSSRAKong01116"
+    },
+    {
+     "lines": [
+      "Drop Magic",
+      "Increases Drop Quantity",
+      "+3% additional Gear Drop Quantity",
+      "+6% Drop Quantity"
+     ],
+     "name": "Happy Chonky - Sun",
+     "key": "Happy_Chonky_-_Sun",
+     "icon": "UIPetRKuaiLeXiaoFei05116"
+    },
+    {
+     "lines": [
+      "Drop Rare",
+      "Increases Drop Quantity",
+      "+6% additional Gear Drop Quantity",
+      "+6% Drop Quantity"
+     ],
+     "name": "Plaintive Ball of Thread - Frost",
+     "key": "Plaintive_Ball_of_Thread_-_Frost",
+     "icon": "UIPetSRAiYuanXianQiu05116"
+    },
+    {
+     "lines": [
+      "Drop Legendary",
+      "Increases Drop Quantity",
+      "+5% additional Drop Quantity",
+      "The Star of Calamity boss has a 1.2% chance to drop an additional 1 Proof(s) of Star Hunter",
+      "The Star of Calamity boss on the map has a 100% chance to replicate 1 times",
+      "The Star of Calamity boss has a 0.45% chance to drop an additional Tidemaster's Exclusive Drop (Only effective in stages at Timemark 5 and above)",
+      "The Star of Calamity boss has a 0.45% chance to drop an additional Lord of the Void Sea's Exclusive Drop (Only effective in stages at Timemark 5 and above)",
+      "The Star of Calamity boss has a 0.45% chance to drop an additional the Law Bearer's Exclusive Drop (Only effective in stages at Timemark 5 and above)",
+      "The Star of Calamity boss has a 0.45% chance to drop an additional Lone King of Aeterna's Exclusive Drop (Only effective in stages at Timemark 5 and above)"
+     ],
+     "name": "Corgi Fighter No.32",
+     "key": "Corgi_Fighter_No.32",
+     "icon": "UIPetSSRZhanDouJi01116"
+    },
+    {
+     "lines": [
+      "Drop Magic",
+      "Increases Drop Quantity",
+      "+8% Drop Quantity",
+      "+10% Divinity Stone Drop Quantity.",
+      "+6% Drop Quantity"
+     ],
+     "name": "Spiny Snail - Cloud",
+     "key": "Spiny_Snail_-_Cloud",
+     "icon": "UIPetRCiTouXiaoWo04116"
+    },
+    {
+     "lines": [
+      "Drop Rare",
+      "Increases Drop Quantity",
+      "+8% Drop Quantity",
+      "+18% Divinity Stone Drop Quantity.",
+      "+6% Drop Quantity"
+     ],
+     "name": "Hell Cavalry - Sea",
+     "key": "Hell_Cavalry_-_Sea",
+     "icon": "UIPetSRYouYuQingQi05116"
+    },
+    {
+     "lines": [
+      "Drop Legendary",
+      "Increases Drop Quantity"
+     ],
+     "name": "Heart-binding Rose",
+     "key": "Heart-binding_Rose",
+     "icon": "UIPetSSRZangAiMingQing01116"
+    },
+    {
+     "lines": [
+      "Survival Magic",
+      "Increases Elemental Resistance, Mana Restoration, and XP bonus",
+      "-6% additional damage taken",
+      "Converts 2% of Physical Damage taken to random Elemental Damage",
+      "-4% additional damage taken"
+     ],
+     "name": "Spiny Snail - Green",
+     "key": "Spiny_Snail_-_Green",
+     "icon": "UIPetRCiTouXiaoWo05116"
+    },
+    {
+     "lines": [
+      "Survival Rare",
+      "Increases Elemental Resistance, Mana Restoration, and XP bonus",
+      "-6% additional damage taken",
+      "Converts 4% of Physical Damage taken to random Elemental Damage",
+      "-4% additional damage taken"
+     ],
+     "name": "Winter Darer - Rock",
+     "key": "Winter_Darer_-_Rock",
+     "icon": "UIPetSRLinDongMangHan03116"
+    },
+    {
+     "lines": [
+      "Survival Legendary",
+      "Increases Elemental Resistance, Mana Restoration, and XP bonus",
+      "+14% Elemental Resistance",
+      "Converts 3% of Physical Damage taken to random Elemental Damage",
+      "Converts 8% of Physical Damage taken to random Elemental Damage",
+      "-4% additional damage taken"
+     ],
+     "name": "Warbler of Plum Blossoms",
+     "key": "Warbler_of_Plum_Blossoms",
+     "icon": "UIPetSSRXianMeiZhiYing01116"
+    },
+    {
+     "lines": [
+      "Attack Magic",
+      "Increases damage, weakens the Cursed enemies, and has a Curse effect",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+4% additional damage against Cursed enemies",
+      "+4% additional damage"
+     ],
+     "name": "Spiny Snail - Flame",
+     "key": "Spiny_Snail_-_Flame",
+     "icon": "UIPetRCiTouXiaoWo06116"
+    },
+    {
+     "lines": [
+      "Attack Rare",
+      "Increases damage, weakens the Cursed enemies, and has a Curse effect",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+8% additional damage against Cursed enemies",
+      "+4% additional damage"
+     ],
+     "name": "Winter Darer - Sky",
+     "key": "Winter_Darer_-_Sky",
+     "icon": "UIPetSRLinDongMangHan05116"
+    },
+    {
+     "lines": [
+      "Attack Legendary",
+      "Increases damage, weakens the Cursed enemies, and has a Curse effect",
+      "You can cast 1 additional Curses",
+      "6.5% Movement Speed if you have cast a Curse Skill recently",
+      "+16% additional damage against Cursed enemies",
+      "+4% additional damage"
+     ],
+     "name": "Poisoned Omen",
+     "key": "Poisoned_Omen",
+     "icon": "UIPetSSRGaoSiZhiZhen01116"
+    },
+    {
+     "lines": [
+      "Drop Magic",
+      "Increases Drop Quantity",
+      "There is a 4% chance for rewards to be doubled when the player enters the reward gameplay in the City of Aeterna",
+      "+8% Drop Quantity"
+     ],
+     "name": "Shocket",
+     "key": "Shocket",
+     "icon": "UIPetRYiDongDianZi01116"
+    },
+    {
+     "lines": [
+      "Drop Rare",
+      "Increases Drop Quantity",
+      "There is a 8% chance for rewards to be doubled when the player enters the reward gameplay in the City of Aeterna",
+      "+8% Drop Quantity"
+     ],
+     "name": "Letice",
+     "key": "Letice",
+     "icon": "UIPetSRChunKunXiaoWo01116"
+    },
+    {
+     "lines": [
+      "Drop Legendary",
+      "Increases Drop Quantity",
+      "Every time the player completes the Candelabrum gameplay in the Ruins of Aeterna, there is a 21% chance to increase the number of reward spots in the Aeterna Map by 1, up to 15 extra spot(s). After the City of Aeterna is rebuilt, all additional reward spots will be randomly assigned in traversable areas of the Aeterna Map.",
+      "There is a 16% chance for rewards to be doubled when the player enters the reward gameplay in the City of Aeterna"
+     ],
+     "name": "Monument Knight",
+     "key": "Monument_Knight",
+     "icon": "UIPetSSRFengBeiQiShi01116"
+    },
+    {
+     "lines": [
+      "Persistent Magic",
+      "Increases Reaping Cooldown, Damage Over Time, and Damage Affliction.",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+5% Movement Speed if you have caused Reaping recently",
+      "+4% additional damage"
+     ],
+     "name": "Shocket - Violet",
+     "key": "Shocket_-_Violet",
+     "icon": "UIPetRYiDongDianZi02116"
+    },
+    {
+     "lines": [
+      "Persistent Rare",
+      "Increases Reaping Cooldown, Damage Over Time, and Damage Affliction.",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+10% Movement Speed if you have caused Reaping recently",
+      "+4% additional damage"
+     ],
+     "name": "Letice - Flame",
+     "key": "Letice_-_Flame",
+     "icon": "UIPetSRChunKunXiaoWo03116"
+    },
+    {
+     "lines": [
+      "Persistent Legendary",
+      "Increases Reaping Cooldown, Damage Over Time, and Damage Affliction.",
+      "50% chance for Damage Over Time to spread to targets in Proximity",
+      "+35% additional Reaping Recovery Speed",
+      "+20% Movement Speed if you have caused Reaping recently",
+      "+4% additional damage"
+     ],
+     "name": "Abyssal King Soul",
+     "key": "Abyssal_King_Soul",
+     "icon": "UIPetSSRShenYuanWangHun01116"
+    },
+    {
+     "lines": [
+      "Summon Magic",
+      "Increases Spirit Magus seal removal, damage, and skill duration.",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+28% Spirit Magus Skill Damage",
+      "+4% additional Minion Damage"
+     ],
+     "name": "Shocket - Pale",
+     "key": "Shocket_-_Pale",
+     "icon": "UIPetRYiDongDianZi04116"
+    },
+    {
+     "lines": [
+      "Summon Rare",
+      "Increases Spirit Magus seal removal, damage, and skill duration.",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+56% Spirit Magus Skill Damage",
+      "+4% additional Minion Damage"
+     ],
+     "name": "Letice - Amethyst",
+     "key": "Letice_-_Amethyst",
+     "icon": "UIPetSRChunKunXiaoWo04116"
+    },
+    {
+     "lines": [
+      "Summon Legendary",
+      "Increases Spirit Magus seal removal, damage, and skill duration.",
+      "+53% additional Spirit Magus Ultimate Damage and Ailment Damage dealt by Ultimate when any two of Strength, Dexterity, and Intelligence are equal",
+      "+2 Spirit Magus Skill Level",
+      "+4% additional Minion Damage"
+     ],
+     "name": "Scale of Original Sin",
+     "key": "Scale_of_Original_Sin",
+     "icon": "UIPetSSREYuShiTu01116"
+    },
+    {
+     "lines": [
+      "Drop Magic",
+      "Increases Drop Quantity",
+      "Fluorescent Memories dropped have a 5% chance to be replicated 1 time(s)"
+     ],
+     "icon": "UIPetRXianYouXiaoYou05116"
+    },
+    {
+     "lines": [
+      "Drop Rare",
+      "Increases Drop Quantity",
+      "Fluorescent Memories dropped have a 10% chance to be replicated 1 time(s)"
+     ],
+     "icon": "UIPetSRCaiYunZhe05116"
+    },
+    {
+     "lines": [
+      "Drop Legendary",
+      "Increases Drop Quantity",
+      "+5% additional Drop Quantity\\n$+sp1$% chance for 2 additional Gladiator(s) to appear in the stage (Only effective in the Invincible Champion Season-exclusive gameplay)"
+     ],
+     "name": "Fluffhead Hare",
+     "key": "Fluffhead_Hare",
+     "icon": "UIPetSSRHuLiHuTu01116"
+    },
+    {
+     "lines": [
+      "Drop Magic",
+      "Increases Drop Quantity",
+      "While escaping from the Nightmare, whenever you remove Nightmare Roots, there is a 2% chance that all Dream Bubbles you have obtained will drop 1 additional time.",
+      "+8% Drop Quantity"
+     ],
+     "name": "Shocket - Dark Night",
+     "key": "Shocket_-_Dark_Night",
+     "icon": "UIPetRYiDongDianZi03116"
+    },
+    {
+     "lines": [
+      "Drop Rare",
+      "Increases Drop Quantity",
+      "While escaping from the Nightmare, whenever you remove Nightmare Roots, there is a 3% chance that all Dream Bubbles you have obtained will drop 1 additional time.",
+      "+8% Drop Quantity"
+     ],
+     "name": "Letice - Frost",
+     "key": "Letice_-_Frost",
+     "icon": "UIPetSRChunKunXiaoWo02116"
+    },
+    {
+     "lines": [
+      "Drop Legendary",
+      "Increases Drop Quantity",
+      "While escaping from the Nightmare, whenever you remove Nightmare Roots, there is a 13% chance that all Dream Bubbles you have obtained will drop 1 additional time.",
+      "Upon entering a Nightmare, there is a 100% chance to trigger 1 additional Sweet Dream Omen selection (this selection will not be accompanied by a Nightmare Omen)",
+      "During each round of Twinightmare, gain 2 chance(s) to re-roll the current Dream Omens"
+     ],
+     "name": "Shepherd",
+     "key": "Shepherd",
+     "icon": "UIPetSSRMuLingRen01116"
+    },
+    {
+     "lines": [
+      "Attack Magic",
+      "Increases Damage, Attack Block, Spell Block",
+      "+7% additional damage; +7% additional Minion Damage",
+      "1.6% Block Ratio when there is a Boss Nearby",
+      "+4% additional damage"
+     ],
+     "name": "Shocket - Green Leaf",
+     "key": "Shocket_-_Green_Leaf",
+     "icon": "UIPetRYiDongDianZi05116"
+    },
+    {
+     "lines": [
+      "Attack Rare",
+      "Increases Damage, Attack Block, Spell Block",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+3% Block Ratio when there is a Boss Nearby",
+      "+4% additional damage"
+     ],
+     "name": "Letice - Withered Leaf",
+     "key": "Letice_-_Withered_Leaf",
+     "icon": "UIPetSRChunKunXiaoWo05116"
+    },
+    {
+     "lines": [
+      "Attack Legendary",
+      "Increases Damage, Attack Block, Spell Block",
+      "Attacks eliminate enemies under 20% Life on hit if you have Blocked recently",
+      "+6% Block Ratio when there is a Boss Nearby",
+      "+4% additional damage"
+     ],
+     "name": "Raging Sands of Eternal Night",
+     "key": "Raging_Sands_of_Eternal_Night",
+     "icon": "UIPetSSRYongYeKuangSha01116"
+    },
+    {
+     "lines": [
+      "Attack Magic",
+      "Increases Damage, Erosion Resistance, and Crowd Control Effects",
+      "+7% additional damage; +7% additional Minion Damage",
+      "For every type of crowd control effect the enemy has, you and your Minions deal 0.8% additional damage to them",
+      "+4% additional damage"
+     ],
+     "name": "Awooawoo - Blue Sky",
+     "key": "Awooawoo_-_Blue_Sky",
+     "icon": "UIPetRAWuAWu05116"
+    },
+    {
+     "lines": [
+      "Attack Rare",
+      "Increases Damage, Erosion Resistance, and Crowd Control Effects",
+      "+7% additional damage; +7% additional Minion Damage",
+      "For every type of crowd control effect the enemy has, you and your Minions deal 1.6% additional damage to them",
+      "+4% additional damage"
+     ],
+     "name": "Hell Cavalry - Twilight",
+     "key": "Hell_Cavalry_-_Twilight",
+     "icon": "UIPetSRYouYuQingQi06116"
+    },
+    {
+     "lines": [
+      "Attack Legendary",
+      "Increases Damage, Erosion Resistance, and Crowd Control Effects",
+      "Inflicts Paralysis or Weaken on enemies within 10m in turn. Cooldown: 4 s",
+      "For every type of crowd control effect the enemy has, you and your Minions deal +3% additional damage to them",
+      "+4% additional damage"
+     ],
+     "name": "Witch Antelope of Lust",
+     "key": "Witch_Antelope_of_Lust",
+     "icon": "UIPetSSRMeiYuSiJi01116"
+    },
+    {
+     "lines": [
+      "Drop Magic",
+      "Increases Drop Quantity",
+      "When opening a Chest of Folklores, there is a 2.5% chance that 1 additional Chest of Folklores will appear (this can only be triggered once)",
+      "+8% Drop Quantity"
+     ],
+     "name": "Happy Chonky - Violet",
+     "key": "Happy_Chonky_-_Violet",
+     "icon": "UIPetRKuaiLeXiaoFei06116"
+    },
+    {
+     "lines": [
+      "Drop Rare",
+      "Increases Drop Quantity",
+      "When opening a Chest of Folklores, there is a 5% chance that 1 additional Chest of Folklores will appear (this can only be triggered once)",
+      "+8% Drop Quantity"
+     ],
+     "name": "First Mate of the Furious Sea - Silent Night",
+     "key": "First_Mate_of_the_Furious_Sea_-_Silent_Night",
+     "icon": "UIPetSRNuHaiDaFu03116"
+    },
+    {
+     "lines": [
+      "Drop Legendary",
+      "Increases Drop Quantity",
+      "In each round of the Whispering Mist gameplay, additionally gain 3 chance(s) to refresh the items for free at the Mistville Trader (only takes effect if you are carrying this Pactspirit when you enter Mistville)",
+      "When going to the Clock Tower, there is a 13% chance to skip the battle and enter the Misty Lake, gaining 3 Chests of Folklores at the same time",
+      "When opening a Chest of Folklores, there is a 10% chance that 1 additional Chest of Folklores will appear (this can only be triggered once)"
+     ],
+     "name": "Mistville Orphan",
+     "key": "Mistville_Orphan",
+     "icon": "UIPetSSRShuangMianYeCha01116"
+    },
+    {
+     "lines": [
+      "Attack Magic",
+      "Increases Attack and Cast Speed, Lightning Damage, and Movement Speed",
+      "+7% additional damage; +7% additional Minion Damage",
+      "When inflicting Numbed, restores 1.5% Missing Life and Energy Shield. Interval: 0.8 s",
+      "3.75% Movement Speed if you have inflicted Numbed recently",
+      "+4% additional damage"
+     ],
+     "name": "Idling Weasel - Sandstone",
+     "key": "Idling_Weasel_-_Sandstone",
+     "icon": "UIPetRXianYouXiaoYou06116"
+    },
+    {
+     "lines": [
+      "Attack Rare",
+      "Increases Attack and Cast Speed, Lightning Damage, and Movement Speed",
+      "+7% additional damage; +7% additional Minion Damage",
+      "When inflicting Numbed, restores 1.5% Missing Life and Energy Shield. Interval: 0.4 s",
+      "7.5% Movement Speed if you have inflicted Numbed recently",
+      "+4% additional damage"
+     ],
+     "name": "First Mate of the Furious Sea - Rock",
+     "key": "First_Mate_of_the_Furious_Sea_-_Rock",
+     "icon": "UIPetSRNuHaiDaFu01116"
+    },
+    {
+     "lines": [
+      "Attack Legendary",
+      "Increases Attack and Cast Speed, Lightning Damage, and Movement Speed",
+      "+45% Numbed Effect",
+      "When inflicting Numbed, restores 3% Missing Life and Energy Shield. Interval: 0.2 s",
+      "+30% Movement Speed if you have inflicted Numbed recently"
+     ],
+     "name": "Backup Power",
+     "key": "Backup_Power",
+     "icon": "UIPetSSRDianNengChuBeiLiang01116"
+    },
+    {
+     "lines": [
+      "Attack Magic",
+      "Warcry Duration, Warcry Skill Cooldown, Warcry Effect",
+      "+7% additional damage; +7% additional Minion Damage",
+      "5.5% Warcry Cooldown Recovery Speed",
+      "+4% additional damage"
+     ],
+     "name": "Luluri - Shallow Sea",
+     "key": "Luluri_-_Shallow_Sea",
+     "icon": "UIPetRLuLuLi05116"
+    },
+    {
+     "lines": [
+      "Attack Rare",
+      "Warcry Duration, Warcry Skill Cooldown, Warcry Effect",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+11% Warcry Cooldown Recovery Speed",
+      "+4% additional damage"
+     ],
+     "name": "First Mate of the Furious Sea - Sky",
+     "key": "First_Mate_of_the_Furious_Sea_-_Sky",
+     "icon": "UIPetSRNuHaiDaFu02116"
+    },
+    {
+     "lines": [
+      "Attack Legendary",
+      "Warcry Duration, Warcry Skill Cooldown, Warcry Effect",
+      "Immediately casts Warcry. +25% additional Warcry Skill Effect",
+      "+22% Warcry Cooldown Recovery Speed",
+      "+2 Max Warcry Skill Charges"
+     ],
+     "name": "Captain Kitty of the Furious Sea",
+     "key": "Captain_Kitty_of_the_Furious_Sea",
+     "icon": "UIPetSSRNuHaiMiaoWang116"
+    },
+    {
+     "lines": [
+      "Attack Magic",
+      "Knockback Distance, Projectile Speed, Projectile Damage",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+2% additional Attack and Cast Speed when no enemies are in proximity",
+      "+4% additional damage"
+     ],
+     "name": "Feasting Samurai - Honey",
+     "key": "Feasting_Samurai_-_Honey",
+     "icon": "UIPetRGanFanWuShi05116"
+    },
+    {
+     "lines": [
+      "Attack Rare",
+      "Knockback Distance, Projectile Speed, Projectile Damage",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+4% additional Attack and Cast Speed when no enemies are in proximity",
+      "+4% additional damage"
+     ],
+     "name": "Dragon Plant - Truffle",
+     "key": "Dragon_Plant_-_Truffle",
+     "icon": "UIPetSRQingLongCaiCai05116"
+    },
+    {
+     "lines": [
+      "Attack Legendary",
+      "Knockback Distance, Projectile Speed, Projectile Damage",
+      "Projectile Quantity +2",
+      "+8% additional Attack and Cast Speed when no enemies are in proximity",
+      "+48% Knockback distance",
+      "+14% Projectile Speed"
+     ],
+     "name": "Iron Lion",
+     "key": "Iron_Lion",
+     "icon": "UIPetSSRTieZhuXiongShi01116"
+    },
+    {
+     "lines": [
+      "Drop Magic",
+      "Increases Drop Quantity",
+      "All Member Services gain an additional effect: Each time after completing Operation Cogwheel, there is a 4% chance to get 1 additional Cogwheel Voucher (takes effect immediately after selecting Member Services and lasts for the duration of this game)",
+      "+8% Drop Quantity"
+     ],
+     "name": "Feasting Samurai",
+     "key": "Feasting_Samurai",
+     "icon": "UIPetRGanFanWuShi01116"
+    },
+    {
+     "lines": [
+      "Drop Rare",
+      "Increases Drop Quantity",
+      "All Member Services gain an additional effect: Each time after completing Operation Cogwheel, there is a 8% chance to get 1 additional Cogwheel Voucher (takes effect immediately after selecting Member Services and lasts for the duration of this game)",
+      "+8% Drop Quantity"
+     ],
+     "name": "Dragon Plant",
+     "key": "Dragon_Plant",
+     "icon": "UIPetSRQingLongCaiCai01116"
+    },
+    {
+     "lines": [
+      "Drop Legendary",
+      "Increases Drop Quantity",
+      "All Member Services gain an additional effect: When settling Clockwork Ballet Games, there is a 33% chance to settle the rewards 1 additional time. This can only be triggered once (takes effect immediately after selecting Member Services and lasts for the duration of this game)",
+      "All Member Services gain an additional effect: Each time after completing Operation Cogwheel, there is a 16% chance to get 1 additional Cogwheel Voucher (takes effect immediately after selecting Member Services and lasts for the duration of this game)",
+      "Member Services refresh attempts +2"
+     ],
+     "name": "Alice 1",
+     "key": "Alice_1",
+     "icon": "UIPetSSRZhiXieYiGu01116"
+    },
+    {
+     "lines": [
+      "Drop Magic",
+      "Increases Drop Quantity",
+      "There is a 25% chance that 2 additional Splendor Egg(s) of random color will appear when entering the Frozen Canvas map.",
+      "In the Paint phase of each round, you gain Brushstroke Effect refresh attempt(s). (Only takes effect if you are carrying this Pactspirit before starting a painting)",
+      "+8% Drop Quantity"
+     ],
+     "name": "Feasting Samurai - Mint",
+     "key": "Feasting_Samurai_-_Mint",
+     "icon": "UIPetRGanFanWuShi03116"
+    },
+    {
+     "lines": [
+      "Drop Rare",
+      "Increases Drop Quantity",
+      "There is a 50% chance that 2 additional Splendor Egg(s) of random color will appear when entering the Frozen Canvas map.",
+      "In the Paint phase of each round, you gain Brushstroke Effect refresh attempt(s). (Only takes effect if you are carrying this Pactspirit before starting a painting)",
+      "+8% Drop Quantity"
+     ],
+     "name": "Dragon Plant - Lettuce",
+     "key": "Dragon_Plant_-_Lettuce",
+     "icon": "UIPetSRQingLongCaiCai02116"
+    },
+    {
+     "lines": [
+      "Drop Legendary",
+      "Increases Drop Quantity",
+      "When the painting is completed, randomly transforms 2-5 Cells to Pactspirit Exclusive Cells that do not require combat and grant double rewards.",
+      "There is a 100% chance that 2 additional Splendor Egg(s) of random color will appear when entering the Frozen Canvas map.",
+      "In the Paint phase of each round, you gain 2 Brushstroke Effect refresh attempt(s). (Only takes effect if you are carrying this Pactspirit before starting a painting)"
+     ],
+     "name": "Rainbowpaint Owl",
+     "key": "Rainbowpaint_Owl",
+     "icon": "UIPetSSRXueGuoYeXiao116"
+    },
+    {
+     "lines": [
+      "Attack Magic",
+      "Increases Attack and Cast Speed, Channeled Damage, and Movement Speed",
+      "+7% additional damage; +7% additional Minion Damage",
+      "At max channeled stacks, +2% additional damage for Channeled Skills for 4 s",
+      "+4% additional damage"
+     ],
+     "name": "Feasting Samurai - Orange",
+     "key": "Feasting_Samurai_-_Orange",
+     "icon": "UIPetRGanFanWuShi02116"
+    },
+    {
+     "lines": [
+      "Attack Rare",
+      "Increases Attack and Cast Speed, Channeled Damage, and Movement Speed",
+      "+7% additional damage; +7% additional Minion Damage",
+      "At max channeled stacks, +4% additional damage for Channeled Skills for 4 s",
+      "+4% additional damage"
+     ],
+     "name": "Dragon Plant - Kale",
+     "key": "Dragon_Plant_-_Kale",
+     "icon": "UIPetSRQingLongCaiCai04116"
+    },
+    {
+     "lines": [
+      "Attack Legendary",
+      "Increases Attack and Cast Speed, Channeled Damage, and Movement Speed",
+      "+2 to Max Channeled Stacks",
+      "At max channeled stacks, +12% additional damage for Channeled Skills for 4 s",
+      "For every 4 channeled stacks, inflicts Weaken on enemies within 20 m"
+     ],
+     "name": "Swaying Bonnie",
+     "key": "Swaying_Bonnie",
+     "icon": "UIPetSSRBangNiYaoBai01116"
+    },
+    {
+     "lines": [
+      "Summon Magic",
+      "Servant Damage, Servant Damage, Servant Speed",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+3% Movement Speed when a Spirit Magus is nearby",
+      "+4% additional Minion Damage"
+     ],
+     "name": "Feasting Samurai - Garlic",
+     "key": "Feasting_Samurai_-_Garlic",
+     "icon": "UIPetRGanFanWuShi04116"
+    },
+    {
+     "lines": [
+      "Summon Rare",
+      "Servant Damage, Servant Damage, Servant Speed",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+6% Movement Speed when a Spirit Magus is nearby",
+      "+4% additional Minion Damage"
+     ],
+     "name": "Dragon Plant - Onion",
+     "key": "Dragon_Plant_-_Onion",
+     "icon": "UIPetSRQingLongCaiCai03116"
+    },
+    {
+     "lines": [
+      "Summon Legendary",
+      "Servant Damage, Servant Damage, Servant Speed",
+      "+75 initial Growth for Spirit Magi",
+      "+12% Movement Speed when a Spirit Magus is nearby",
+      "For every 20 Growth a Spirit Magus has, it deals +1% additional damage, up to +10% additional damage"
+     ],
+     "name": "Sprite of Silent Vale",
+     "key": "Sprite_of_Silent_Vale",
+     "icon": "UIPetSSRYouGuHuaLing116"
+    },
+    {
+     "lines": [
+      "Drop Magic",
+      "Increases Drop Quantity",
+      "When opening a Chest of Destiny in Fateful Contest, there is a 1% chance to double the Chest of Destiny rewards (takes effect immediately after entering Fateful Contest)",
+      "+8% Drop Quantity"
+     ],
+     "name": "Sprouting Grass",
+     "key": "Sprouting_Grass",
+     "icon": "UIPetRZhongCaoXiaoYa116"
+    },
+    {
+     "lines": [
+      "Drop Rare",
+      "Increases Drop Quantity",
+      "When opening a Chest of Destiny in Fateful Contest, there is a 2% chance to double the Chest of Destiny rewards (takes effect immediately after entering Fateful Contest)",
+      "+8% Drop Quantity"
+     ],
+     "name": "Benign Bug - Barbie Pink",
+     "key": "Benign_Bug_-_Barbie_Pink",
+     "icon": "UIPetSRLiangXingBaGe02116"
+    },
+    {
+     "lines": [
+      "Drop Legendary",
+      "Increases Drop Quantity",
+      "When opening a Chest of Destiny in Fateful Contest, there is a 38% chance to double the Chest of Destiny rewards (takes effect immediately after entering Fateful Contest)",
+      "When entering the Tarot Path, there is a 100% chance to gain 1 additional Note of Arcana",
+      "When opening a Chest of Destiny in Fateful Contest, doubled Chest of Destiny rewards have a 100% chance to be tripled instead (takes effect immediately after entering Fateful Contest)"
+     ],
+     "name": "Jestress",
+     "key": "Jestress",
+     "icon": "UIPetSSRHongTaoHuangNv01116"
+    },
+    {
+     "lines": [
+      "Drop Magic",
+      "Increases Drop Quantity",
+      "+8% Drop Quantity",
+      "+5% additional Compass Drop Quantity",
+      "+6% Drop Quantity"
+     ],
+     "name": "Sprouting Grass - Purple Sand",
+     "key": "Sprouting_Grass_-_Purple_Sand",
+     "icon": "UIPetRZhongCaoXiaoYa02116"
+    },
+    {
+     "lines": [
+      "Drop Rare",
+      "Increases Drop Quantity",
+      "+8% Drop Quantity",
+      "+9% additional Compass Drop Quantity",
+      "+6% Drop Quantity"
+     ],
+     "name": "Benign Bug",
+     "key": "Benign_Bug",
+     "icon": "UIPetSRLiangXingBaGe116"
+    },
+    {
+     "lines": [
+      "Drop Legendary",
+      "Increases Drop Quantity",
+      "In Netherrealm stages, when a Compass drops, there is a 5% chance for a Doro-Doro Supply containing 5-10 Compasses to drop. There is a 34% chance for 1 additional Doro-Doro Supply to drop.",
+      "+18% additional Compass Drop Quantity"
+     ],
+     "name": "Doro-Doro Dorothy",
+     "key": "Doro-Doro_Dorothy",
+     "icon": "UIPetSSRTLS007116"
+    },
+    {
+     "lines": [
+      "Drop Magic",
+      "Increases Drop Quantity",
+      "+8% Drop Quantity",
+      "When returning from a raid, there is a 2.5% chance to bring back 1 laborer",
+      "When returning from a trade, there is a 2.5% chance to bring back 1 laborer"
+     ],
+     "name": "Sprouting Grass - White Porcelain",
+     "key": "Sprouting_Grass_-_White_Porcelain",
+     "icon": "UIPetRZhongCaoXiaoYa05116"
+    },
+    {
+     "lines": [
+      "Drop Rare",
+      "Increases Drop Quantity",
+      "+8% Drop Quantity",
+      "When returning from a raid, there is a 5% chance to bring back 1 laborer",
+      "When returning from a trade, there is a 5% chance to bring back 1 laborer"
+     ],
+     "name": "Benign Bug - Merciless Silver",
+     "key": "Benign_Bug_-_Merciless_Silver",
+     "icon": "UIPetSRLiangXingBaGe03116"
+    },
+    {
+     "lines": [
+      "Drop Legendary",
+      "Increases Drop Quantity",
+      "When completing a raid or a trade, or settling an order, there is a 24% chance for all rewards to be replicated 1 time",
+      "There is a 16% chance to +100% additional Drop Quantity during raids",
+      "When returning from a trade, there is a 10% chance to bring back 1 laborer",
+      "When starting a trade, there is a 16% chance to regain the invested resources and immediately settle the rewards",
+      "When returning from a raid, there is a 10% chance to bring back 1 laborer"
+     ],
+     "name": "Moonshadow Guide",
+     "key": "Moonshadow_Guide",
+     "icon": "UIPetSSRShaHaiMiaoMiao116"
+    },
+    {
+     "lines": [
+      "Erosion Magic",
+      "Erosion Damage, Erosion Damage, Erosion Penetration",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+14% Erosion Damage",
+      "+4% additional damage"
+     ],
+     "name": "Sprouting Grass - Green Porcelain",
+     "key": "Sprouting_Grass_-_Green_Porcelain",
+     "icon": "UIPetRZhongCaoXiaoYa04116"
+    },
+    {
+     "lines": [
+      "Erosion Rare",
+      "Erosion Damage, Erosion Damage, Erosion Penetration",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+28% Erosion Damage",
+      "+4% additional damage"
+     ],
+     "name": "Benign Bug - Ghost Light Yellow",
+     "key": "Benign_Bug_-_Ghost_Light_Yellow",
+     "icon": "UIPetSRLiangXingBaGe05116"
+    },
+    {
+     "lines": [
+      "Erosion Legendary",
+      "Erosion Damage, Erosion Damage, Erosion Penetration",
+      "Gains 1 stack of Repentance when gaining any Blessing",
+      "+3 Max Repentance Stacks",
+      "+3% Erosion Resistance per stack of Repentance"
+     ],
+     "name": "Portrait of a Fallen Saintess",
+     "key": "Portrait_of_a_Fallen_Saintess",
+     "icon": "UIPetSSRXieDuShengNvDeXiaoXiang01116"
+    },
+    {
+     "lines": [
+      "Drop Magic",
+      "Increases Drop Quantity",
+      "1% chance for all reward units from Carjack or TOWER Co. Central Vault in a Netherrealm stage to be recoded by Prof. SOURCE when they appear, replicating their rewards 1 time (takes effect immediately after starting Carjack and lasts for the duration of the operation; must be carried at all times in TOWER Co. Central Vault)",
+      "+8% Drop Quantity"
+     ],
+     "name": "Lumidrake",
+     "key": "Lumidrake",
+     "icon": "UIPetRXiaoDengLong01116"
+    },
+    {
+     "lines": [
+      "Drop Rare",
+      "Increases Drop Quantity",
+      "2% chance for all reward units from Carjack or TOWER Co. Central Vault in a Netherrealm stage to be recoded by Prof. SOURCE when they appear, replicating their rewards 1 time (takes effect immediately after starting Carjack and lasts for the duration of the operation; must be carried at all times in TOWER Co. Central Vault)",
+      "+8% Drop Quantity"
+     ],
+     "name": "Shro-Shroom",
+     "key": "Shro-Shroom",
+     "icon": "UIPetSRXiaoGuGuGu01116"
+    },
+    {
+     "lines": [
+      "Drop Legendary",
+      "Increases Drop Quantity",
+      "28% chance for all reward units from Carjack or TOWER Co. Central Vault in a Netherrealm stage to be recoded by Prof. SOURCE when they appear, replicating their rewards 1 time (takes effect immediately after starting Carjack and lasts for the duration of the operation; must be carried at all times in TOWER Co. Central Vault)",
+      "100% chance for all reward units from Carjack or TOWER Co. Central Vault that have been recoded in a Netherrealm stage to be replicated 1 time again (takes effect immediately after starting Carjack and lasts for the duration of the operation; must be carried at all times in TOWER Co. Central Vault)",
+      "After revealing a Bounty Order, gains 2 chance(s) to refresh Bounty Orders"
+     ],
+     "name": "Prof. SOURCE",
+     "key": "Prof._SOURCE",
+     "icon": "UIPetSSRYuanBoShi01116"
+    },
+    {
+     "lines": [
+      "Attack Magic",
+      "Attack Damage, Attack Critical Strike, and Attack Speed",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+14% Elemental Damage",
+      "+4% additional damage"
+     ],
+     "name": "Sprouting Grass - Black Porcelain",
+     "key": "Sprouting_Grass_-_Black_Porcelain",
+     "icon": "UIPetRZhongCaoXiaoYa03116"
+    },
+    {
+     "lines": [
+      "Attack Rare",
+      "Attack Damage, Attack Critical Strike, and Attack Speed",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+28% Elemental Damage",
+      "+4% additional damage"
+     ],
+     "name": "Shro-Shroom - Boletus",
+     "key": "Shro-Shroom_-_Boletus",
+     "icon": "UIPetSRXiaoGuGuGu02116"
+    },
+    {
+     "lines": [
+      "Attack Legendary",
+      "Attack Damage, Attack Critical Strike, and Attack Speed",
+      "Gains 1 stack of Valkyrie's Hymn for every 2% Max Mana consumed",
+      "+2 Max Valkyrie's Hymn Stacks",
+      "+8% Elemental Damage for every stack of Valkyrie's Hymn",
+      "Upon reaching Max Valkyrie's Hymn Stacks, +10% Elemental Resistance Penetration"
+     ],
+     "name": "Valkyrie's Night Patrol",
+     "key": "Valkyries_Night_Patrol",
+     "icon": "UIPetSSRNvWuShenDeYeXun01116"
+    },
+    {
+     "lines": [
+      "Attack Magic",
+      "Attack Damage, Attack Critical Strike, and Attack Speed",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+14% Attack Damage",
+      "+4% additional damage"
+     ],
+     "name": "Lumidrake - Fluorescence",
+     "key": "Lumidrake_-_Fluorescence",
+     "icon": "UIPetRXiaoDengLong02116"
+    },
+    {
+     "lines": [
+      "Attack Rare",
+      "Attack Damage, Attack Critical Strike, and Attack Speed",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+28% Attack Damage",
+      "+4% additional damage"
+     ],
+     "name": "Benign Bug - Tolerant Green",
+     "key": "Benign_Bug_-_Tolerant_Green",
+     "icon": "UIPetSRLiangXingBaGe04116"
+    },
+    {
+     "lines": [
+      "Attack Legendary",
+      "Attack Damage, Attack Critical Strike, and Attack Speed",
+      "Gains 1 stack of Pure Heart when using an Attack Mobility Skill",
+      "When gaining Pure Heart, there is a 100% chance to gain 1 additional stack of Pure Heart",
+      "-8% additional damage taken when Pure Heart is active",
+      "+1 Max Pure Heart Stacks",
+      "+100% Pure Heart Duration"
+     ],
+     "name": "Azure Gunslinger",
+     "key": "Azure_Gunslinger",
+     "icon": "UIPetSSRLanXinHuoChong01116"
+    },
+    {
+     "lines": [
+      "Drop Magic",
+      "Increases Drop Quantity",
+      "+8% Drop Quantity",
+      "+6% Drop Quantity",
+      "All items dropped in the Overrealm have a 1% chance to be replicated 1 additional time(s)"
+     ],
+     "name": "Lumidrake - Glow",
+     "key": "Lumidrake_-_Glow",
+     "icon": "UIPetRXiaoDengLong03116"
+    },
+    {
+     "lines": [
+      "Drop Rare",
+      "Increases Drop Quantity",
+      "+8% Drop Quantity",
+      "+6% Drop Quantity",
+      "All items dropped in the Overrealm have a 2% chance to be replicated 1 additional time(s)"
+     ],
+     "name": "Shro-Shroom - Lurid Bolete",
+     "key": "Shro-Shroom_-_Lurid_Bolete",
+     "icon": "UIPetSRXiaoGuGuGu03116"
+    },
+    {
+     "lines": [
+      "Drop Legendary",
+      "Increases Drop Quantity",
+      "All items dropped in the Overrealm have a",
+      "27",
+      "% chance to be replicated",
+      "1",
+      "additional time. Upon triggering a replication, they have a",
+      "100",
+      "% chance to be replicated",
+      "1",
+      "additional time again",
+      "When entering the first level of the Overrealm, there is a 24% chance for an additional Bottled Shadow to appear on the Containment Progress bar"
+     ],
+     "name": "Key of Overrealm",
+     "key": "Key_of_Overrealm",
+     "icon": "UIPetSSRWeiTeLuWei01116"
+    },
+    {
+     "lines": [
+      "Spell Magic",
+      "Spell Damage, Spell Critical Strike, Cast Speed",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+14% Spell Damage",
+      "+4% additional damage"
+     ],
+     "name": "Lumidrake - Aurora",
+     "key": "Lumidrake_-_Aurora",
+     "icon": "UIPetRXiaoDengLong04116"
+    },
+    {
+     "lines": [
+      "Spell Rare",
+      "Spell Damage, Spell Critical Strike, Cast Speed",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+28% Spell Damage",
+      "+4% additional damage"
+     ],
+     "name": "Shro-Shroom - Oyster Mushroom",
+     "key": "Shro-Shroom_-_Oyster_Mushroom",
+     "icon": "UIPetSRXiaoGuGuGu04116"
+    },
+    {
+     "lines": [
+      "Spell Legendary",
+      "Spell Damage, Spell Critical Strike, Cast Speed",
+      "Consuming Spell Burst with at least 4 stack(s) of Max Spell Burst grants 1 stack of Squidnova",
+      "+50% Squidnova Effect",
+      "+8% additional Spell Damage when having Squidnova",
+      "+1 to Max Spell Burst when having Squidnova"
+     ],
+     "name": "Squiddle",
+     "key": "Squiddle",
+     "icon": "UIPetSSRCaiMoDuoDuo01116"
+    },
+    {
+     "lines": [
+      "Attack Magic",
+      "Attack Damage, Attack Critical Strike, and Attack Speed",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+14% Attack Damage",
+      "+4% additional damage"
+     ],
+     "name": "Lumidrake - Candlelight",
+     "key": "Lumidrake_-_Candlelight",
+     "icon": "UIPetRXiaoDengLong05116"
+    },
+    {
+     "lines": [
+      "Attack Rare",
+      "Attack Damage, Attack Critical Strike, and Attack Speed",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+28% Attack Damage",
+      "+4% additional damage"
+     ],
+     "name": "Shro-Shroom - Gloom Shroom",
+     "key": "Shro-Shroom_-_Gloom_Shroom",
+     "icon": "UIPetSRXiaoGuGuGu05116"
+    },
+    {
+     "lines": [
+      "Attack Legendary",
+      "Attack Damage, Attack Critical Strike, and Attack Speed",
+      "Gains 1 stack of Feline Stimulant when triggering a Main Skill",
+      "+2 to Max Feline Stimulant stacks",
+      "+8% additional Attack Damage when having Feline Stimulant",
+      "Has Attack Aggression when reaching Max Feline Stimulant stacks"
+     ],
+     "name": "Kitty Express",
+     "key": "Kitty_Express",
+     "icon": "UIPetSSRKuMaoZhaiJiSong01116"
+    },
+    {
+     "lines": [
+      "Drop Magic",
+      "Increases Drop Quantity",
+      "When opening an Antidote Vial, it has a 1% chance to be reopened once (this can only be triggered once; must be carried at all times in Shelley's Operating Theater)",
+      "+8% Drop Quantity"
+     ],
+     "name": "Lumidrake - Flare",
+     "key": "Lumidrake_-_Flare",
+     "icon": "UIPetRXiaoDengLong06116"
+    },
+    {
+     "lines": [
+      "Drop Rare",
+      "Increases Drop Quantity",
+      "When opening an Antidote Vial, it has a 2% chance to be reopened once (this can only be triggered once; must be carried at all times in Shelley's Operating Theater)",
+      "+8% Drop Quantity"
+     ],
+     "name": "Bird Nest",
+     "key": "Bird_Nest",
+     "icon": "UIPetSRNiaoWoTouTou01116"
+    },
+    {
+     "lines": [
+      "Drop Legendary",
+      "Increases Drop Quantity",
+      "When opening an Antidote Vial, all items dropped from it have a 28% chance to be replicated 1 additional time (must be carried at all times in Shelley's Operating Theater)",
+      "During the Surgical Preparation phase, Surgical Instrument refresh attempts +2 (takes effect immediately after entering the Surgical Preparation screen)",
+      "When opening an Antidote Vial, it has a 20% chance to be reopened once (this can only be triggered once; must be carried at all times in Shelley's Operating Theater)"
+     ],
+     "name": "Intern Shelley",
+     "key": "Intern_Shelley",
+     "icon": "UIPetSSRShiXiYiShengXueLai01116"
+    },
+    {
+     "lines": [
+      "Elixir Magic",
+      "Damage, Damage, Movement Speed",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+4% additional damage and Minion Damage while an Elixir Skill is active",
+      "+4% additional damage"
+     ],
+     "name": "Meowth",
+     "key": "Meowth",
+     "icon": "UIPetRMaoEZi01116"
+    },
+    {
+     "lines": [
+      "Elixir Rare",
+      "Damage, Damage, Movement Speed",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+4% additional damage and Minion Damage while an Elixir Skill is active",
+      "+4% additional damage"
+     ],
+     "name": "Miss Melancholy",
+     "key": "Miss_Melancholy",
+     "icon": "UIPetSRGuYingYouYou01116"
+    },
+    {
+     "lines": [
+      "Elixir Legendary",
+      "Damage, Damage, Movement Speed",
+      "+35% Elixir Skill Effect",
+      "+8% additional damage and Minion Damage while an Elixir Skill is active",
+      "+10% Movement Speed while an Elixir Skill is active",
+      "1.5% Elixir Skill Effect for every Elixir Skill cast recently. Stacks up to 12 time(s)"
+     ],
+     "name": "Elixir Fairies",
+     "key": "Elixir_Fairies",
+     "icon": "UIPetSSRYaoXianZi01116"
+    },
+    {
+     "lines": [
+      "Drop Magic",
+      "Increases Drop Quantity",
+      "Upon entering the gameplay area, Avatar of Moon has a 2.5% chance to bless several random statues, increasing its Drop Quantity by an additional 100%",
+      "+8% Drop Quantity"
+     ],
+     "name": "Meowth - Violet",
+     "key": "Meowth_-_Violet",
+     "icon": "UIPetRMaoEZi02116"
+    },
+    {
+     "lines": [
+      "Drop Rare",
+      "Increases Drop Quantity",
+      "Upon entering the gameplay area, Avatar of Moon has a 5% chance to bless several random statues, increasing its Drop Quantity by an additional 100%",
+      "+8% Drop Quantity"
+     ],
+     "name": "Miss Melancholy - Cyan",
+     "key": "Miss_Melancholy_-_Cyan",
+     "icon": "UIPetSRGuYingYouYou02116"
+    },
+    {
+     "lines": [
+      "Drop Legendary",
+      "Increases Drop Quantity",
+      "When Strumming, there is a 25% chance to buff all activated units, replicating their drops 1 additional time",
+      "When replicated, all items dropped have a 100% chance to be replicated 1 additional time",
+      "Upon entering the gameplay area, Avatar of Moon has a 10% chance to bless several random statues, increasing its Drop Quantity by an additional 100%"
+     ],
+     "name": "Avatar of Moon",
+     "key": "Avatar_of_Moon",
+     "icon": "UIPetSSRJiaoYueHuaShen01116"
+    },
+    {
+     "lines": [
+      "Drop Magic",
+      "Increases Drop Quantity",
+      "+8% Drop Quantity",
+      "+6% Drop Quantity",
+      "+2% Drop Quantity"
+     ],
+     "name": "Meowth - Nightfire",
+     "key": "Meowth_-_Nightfire",
+     "icon": "UIPetRMaoEZi03116"
+    },
+    {
+     "lines": [
+      "Drop Rare",
+      "Increases Drop Quantity",
+      "+8% Drop Quantity",
+      "+6% Drop Quantity",
+      "+4% Drop Quantity"
+     ],
+     "name": "Miss Melancholy - Pink",
+     "key": "Miss_Melancholy_-_Pink",
+     "icon": "UIPetSRGuYingYouYou03116"
+    },
+    {
+     "lines": [
+      "Drop Legendary",
+      "Increases Drop Quantity",
+      "+13% additional Drop Quantity",
+      "+6% Drop Quantity",
+      "+3% additional Drop Quantity"
+     ],
+     "name": "Twilight Sparks",
+     "key": "Twilight_Sparks",
+     "icon": "UIPetSSRHuaXinXiaoMan116"
+    },
+    {
+     "lines": [
+      "Spell Magic",
+      "Terra Damage, Terra Charge, Terra Area",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+12% Terra Skill Damage",
+      "+4% additional damage"
+     ],
+     "name": "Meowth - Jade",
+     "key": "Meowth_-_Jade",
+     "icon": "UIPetRMaoEZi04116"
+    },
+    {
+     "lines": [
+      "Spell Rare",
+      "Terra Damage, Terra Charge, Terra Area",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+24% Terra Skill Damage",
+      "+4% additional damage"
+     ],
+     "name": "Miss Melancholy - Bone",
+     "key": "Miss_Melancholy_-_Bone",
+     "icon": "UIPetSRGuYingYouYou04116"
+    },
+    {
+     "lines": [
+      "Spell Legendary",
+      "Terra Damage, Terra Charge, Terra Area",
+      "Gains 1 stack of Mirrored Shade every 1 s while standing on a Terra Skill",
+      "+2 to Max Mirrored Shade Stacks",
+      "+8% additional Terra Skill Damage while having Mirrored Shade",
+      "+1 to Max Terra Charge Stacks when Mirrored Shade reaches max stacks"
+     ],
+     "name": "Icemirror",
+     "key": "Icemirror",
+     "icon": "UIPetSSRShuangJing01116"
+    },
+    {
+     "lines": [
+      "Drop Magic",
+      "Increases Drop Quantity",
+      "+8% Drop Quantity"
+     ],
+     "name": "Meowth - Aurora",
+     "key": "Meowth_-_Aurora",
+     "icon": "UIPetRMaoEZi05116"
+    },
+    {
+     "lines": [
+      "Drop Rare",
+      "Increases Drop Quantity",
+      "+8% Drop Quantity"
+     ],
+     "name": "Miss Melancholy - Azure",
+     "key": "Miss_Melancholy_-_Azure",
+     "icon": "UIPetSRGuYingYouYou05116"
+    },
+    {
+     "lines": [
+      "Drop Legendary",
+      "Increases Drop Quantity",
+      "In the Vigil, whenever a wave of Wraiths spawns, there is a 25% chance to trigger Elegy, replicating rewards from all reward units spawned this wave 1 time",
+      "In the Vigil, rewards from all reward units under the influence of Elegy have a 100% chance to be replicated 1 time again"
+     ],
+     "name": "Lady Obituary",
+     "key": "Lady_Obituary",
+     "icon": "UIPetSSRFuGaoFuRen01116"
+    },
+    {
+     "lines": [
+      "Spell Magic",
+      "Spell Damage, Spell Critical Strike, Cast Speed",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+12% Spell Damage",
+      "+4% additional damage"
+     ],
+     "name": "Ripplepop",
+     "key": "Ripplepop",
+     "icon": "UIPetRHaiLangPaoPao01116"
+    },
+    {
+     "lines": [
+      "Spell Rare",
+      "Spell Damage, Spell Critical Strike, Cast Speed",
+      "+7% additional damage; +7% additional Minion Damage",
+      "+24% Spell Damage",
+      "+4% additional damage"
+     ],
+     "name": "Heartbloom",
+     "key": "Heartbloom",
+     "icon": "UIPetSRFangXinXiaoHua01116"
+    },
+    {
+     "lines": [
+      "Spell Legendary",
+      "Spell Damage, Spell Critical Strike, Cast Speed",
+      "Gains 1 stack of Night Feather Entanglement for every 1 active Tangle",
+      "+50% Night Feather Entanglement Effect",
+      "+8% additional Spell Damage when having Night Feather Entanglement",
+      "Gains 1 stack of Focus Blessing every 1 s when Night Feather Entanglement reaches max stacks"
+     ],
+     "name": "Witch of the Night",
+     "key": "Witch_of_the_Night",
+     "icon": "UIPetSSRHeiYeMoNv01116"
+    },
+    {
+     "lines": [
+      "Drop Magic",
+      "Increases Drop Quantity",
+      "When opening a Warden's Cache, it has a 1% chance to be reopened once (this can only be triggered once)",
+      "+8% Drop Quantity"
+     ],
+     "name": "Ripplepop - Taro",
+     "key": "Ripplepop_-_Taro",
+     "icon": "UIPetRHaiLangPaoPao02116"
+    },
+    {
+     "lines": [
+      "Drop Rare",
+      "Increases Drop Quantity",
+      "When opening a Warden's Cache, it has a 2% chance to be reopened once (this can only be triggered once)",
+      "+8% Drop Quantity"
+     ],
+     "name": "Heartbloom - Iris",
+     "key": "Heartbloom_-_Iris",
+     "icon": "UIPetSRFangXinXiaoHua02116"
+    },
+    {
+     "lines": [
+      "Drop Legendary",
+      "Increases Drop Quantity",
+      "When opening a Warden's Cache, all items dropped from it have a 28% chance to be replicated 1 additional time",
+      "There is a 100% chance to gain 1 Torture Instrument refresh count(s) during the Warden's Duty phase",
+      "When opening a Warden's Cache, it has a 16% chance to be reopened once (this can only be triggered once)"
+     ],
+     "name": "Twin Inquisitors",
+     "key": "Twin_Inquisitors",
+     "icon": "UIPetSSRShuangShengYuZu01116"
+    }
+   ]
+  },
+  {
+   "card": "Pactspirit",
+   "tab": "Pactspirit_ManualRule",
+   "text": [
+    "Pactspirits will change Pact Point effects. One Pactspirit can follow you around and automatically loot some items.",
+    "Pactspirit installation will change the effects of Pact Nodes in the current area: You can switch to the original Pact Nodes anytime.",
+    "Pactspirits of different rarity can cause different scopes of change. Legendary Pactspirits will change all the Pact Nodes in the area.",
+    "Pactspirits that are not installed can follow you around in the scene but can only automatically loot some drops."
+   ]
+  },
+  {
+   "card": "Pactspirit - Help",
+   "tab": "Pactspirit-Help",
+   "text": [
+    "About Pactspirits:",
+    "1. Pactspirits come in two main types: Battle Pactspirits and Drop Pactspirits, and 3 of each type can be installed.",
+    "2. Installed Battle Pactspirits have their own exclusive Pact Pages.",
+    "3. Installed Rare Pactspirits can unlock Pact Points in advance.",
+    "4. No allocations are required for Drop Pactspirits as all their Talent Node effects are activated upon installation.",
+    "5. Any Pactspirit, installed or not, can be selected to follow you and automatically pick up some loot.",
+    "About Destinies:",
+    "1. Destinies can be installed in Talent Nodes where you've already allocated points in the Pact Page to replace the original effects of the Talent Nodes.",
+    "2. Installing a Destiny doesn't cost anything. When removing a Destiny, it is possible to select 2 different types of materials, each yielding a different outcome.",
+    "3. Destinies are divided into Micro and Medium Destinies, and each type of Destiny has a separate installation quantity limit, which is gradually unlocked by completing specific quests. Refer to [Installation Limit] on the right side of the Pact Page for details.",
+    "4. Undetermined Fates are installed in Undetermined Fate Slots, granting a number of additional Destiny Slots that do not count toward the installation limit of Destinies. Undetermined Fates do not count toward the total number of installed Destinies."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1256 @@
+{
+ "page": "Modularization_Skill",
+ "cards": [
+  {
+   "card": "Tag",
+   "tab": "Tag",
+   "entries": [
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Cold, Fire, Synthetic Troop, Strength, Intelligence"
+     ],
+     "name": "Module: Goblin Priest",
+     "key": "Module_Goblin_Priest",
+     "icon": "UISkillModularGeBuLinJiSiIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Physical, Synthetic Troop, Strength, Intelligence"
+     ],
+     "name": "Module: Trog 2nd General",
+     "key": "Module_Trog_2nd_General",
+     "icon": "UISkillModularDiMoErJiangJunIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Physical, Fire, Synthetic Troop, Strength, Intelligence"
+     ],
+     "name": "Module: Dwarven Automaton",
+     "key": "Module_Dwarven_Automaton",
+     "icon": "UISkillModularAiRenJiJiaIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Physical, Synthetic Troop, Intelligence"
+     ],
+     "name": "Module: Trog Mage",
+     "key": "Module_Trog_Mage",
+     "icon": "UISkillModularDiMoFaShiIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Lightning, Synthetic Troop, Intelligence"
+     ],
+     "name": "Module: Goblin Priest of Elements",
+     "key": "Module_Goblin_Priest_of_Elements",
+     "icon": "UISkillModularGeBuLinYuanSuDaZhangLaoIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Physical, Synthetic Troop, Strength, Intelligence"
+     ],
+     "name": "Module: Medium Ember Automaton",
+     "key": "Module_Medium_Ember_Automaton",
+     "icon": "UISkillModularZhongXingHuiJinJiJiaIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Physical, Fire, Synthetic Troop, Strength, Intelligence"
+     ],
+     "name": "Module: Huge Ember Automaton",
+     "key": "Module_Huge_Ember_Automaton",
+     "icon": "UISkillModularJuXingHuiJinJiJiaIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Erosion, Synthetic Troop, Intelligence"
+     ],
+     "name": "Module: Ent Great Elder",
+     "key": "Module_Ent_Great_Elder",
+     "icon": "UISkillModularShuJingDaZhangLaoIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Physical, Fire, Synthetic Troop, Strength, Intelligence"
+     ],
+     "name": "Module: Ratlin Stormer Captain",
+     "key": "Module_Ratlin_Stormer_Captain",
+     "icon": "UISkillModularShuRenQiangXiDuiZhangIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Fire, Synthetic Troop, Intelligence"
+     ],
+     "name": "Module: Chief Machinist",
+     "key": "Module_Chief_Machinist",
+     "icon": "UISkillModularShouXiJiXieShiIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Physical, Erosion, Synthetic Troop, Dexterity, Intelligence"
+     ],
+     "name": "Module: Lean Phantom",
+     "key": "Module_Lean_Phantom",
+     "icon": "UISkillModularLaiAnHuanYingIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Physical, Synthetic Troop, Dexterity, Intelligence"
+     ],
+     "name": "Module: God of Swords",
+     "key": "Module_God_of_Swords",
+     "icon": "UISkillModularJianShenIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Physical, Synthetic Troop, Strength, Intelligence"
+     ],
+     "name": "Module: Tyrant",
+     "key": "Module_Tyrant",
+     "icon": "UISkillModularBaoNueZheIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Physical, Synthetic Troop, Dexterity, Intelligence"
+     ],
+     "name": "Module: Ichi Storm",
+     "key": "Module_Ichi_Storm",
+     "icon": "UISkillModularYiJiKuangFengIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Physical, Synthetic Troop, Strength, Intelligence"
+     ],
+     "name": "Module: Sand Giant",
+     "key": "Module_Sand_Giant",
+     "icon": "UISkillModularShaJuRenIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Lightning, Synthetic Troop, Intelligence"
+     ],
+     "name": "Module: Einherjar Elder Sage",
+     "key": "Module_Einherjar_Elder_Sage",
+     "icon": "UISkillModularYingLingDaXianZheIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Physical, Cold, Synthetic Troop, Dexterity, Intelligence"
+     ],
+     "name": "Module: Aember Winged Beast",
+     "key": "Module_Aember_Winged_Beast",
+     "icon": "UISkillModularZaiJinYiShouIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Physical, Synthetic Troop, Strength, Intelligence"
+     ],
+     "name": "Module: Punisher",
+     "key": "Module_Punisher",
+     "icon": "UISkillModularChengFaZheIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Cold, Fire, Synthetic Troop, Strength, Intelligence"
+     ],
+     "name": "Module: Goblin Priest",
+     "key": "Module_Goblin_Priest",
+     "icon": "UISkillModularGeBuLinJiSiIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Physical, Synthetic Troop, Strength, Intelligence"
+     ],
+     "name": "Module: Trog 2nd General",
+     "key": "Module_Trog_2nd_General",
+     "icon": "UISkillModularDiMoErJiangJunIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Physical, Fire, Synthetic Troop, Strength, Intelligence"
+     ],
+     "name": "Module: Dwarven Automaton",
+     "key": "Module_Dwarven_Automaton",
+     "icon": "UISkillModularAiRenJiJiaIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Physical, Synthetic Troop, Intelligence"
+     ],
+     "name": "Module: Trog Mage",
+     "key": "Module_Trog_Mage",
+     "icon": "UISkillModularDiMoFaShiIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Lightning, Synthetic Troop, Intelligence"
+     ],
+     "name": "Module: Goblin Priest of Elements",
+     "key": "Module_Goblin_Priest_of_Elements",
+     "icon": "UISkillModularGeBuLinYuanSuDaZhangLaoIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Physical, Synthetic Troop, Strength, Intelligence"
+     ],
+     "name": "Module: Medium Ember Automaton",
+     "key": "Module_Medium_Ember_Automaton",
+     "icon": "UISkillModularZhongXingHuiJinJiJiaIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Physical, Fire, Synthetic Troop, Strength, Intelligence"
+     ],
+     "name": "Module: Huge Ember Automaton",
+     "key": "Module_Huge_Ember_Automaton",
+     "icon": "UISkillModularJuXingHuiJinJiJiaIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Erosion, Synthetic Troop, Intelligence"
+     ],
+     "name": "Module: Ent Great Elder",
+     "key": "Module_Ent_Great_Elder",
+     "icon": "UISkillModularShuJingDaZhangLaoIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Physical, Fire, Synthetic Troop, Strength, Intelligence"
+     ],
+     "name": "Module: Ratlin Stormer Captain",
+     "key": "Module_Ratlin_Stormer_Captain",
+     "icon": "UISkillModularShuRenQiangXiDuiZhangIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Fire, Synthetic Troop, Intelligence"
+     ],
+     "name": "Module: Chief Machinist",
+     "key": "Module_Chief_Machinist",
+     "icon": "UISkillModularShouXiJiXieShiIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Physical, Erosion, Synthetic Troop, Dexterity, Intelligence"
+     ],
+     "name": "Module: Lean Phantom",
+     "key": "Module_Lean_Phantom",
+     "icon": "UISkillModularLaiAnHuanYingIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Physical, Synthetic Troop, Dexterity, Intelligence"
+     ],
+     "name": "Module: God of Swords",
+     "key": "Module_God_of_Swords",
+     "icon": "UISkillModularJianShenIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Physical, Synthetic Troop, Strength, Intelligence"
+     ],
+     "name": "Module: Tyrant",
+     "key": "Module_Tyrant",
+     "icon": "UISkillModularBaoNueZheIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Physical, Synthetic Troop, Dexterity, Intelligence"
+     ],
+     "name": "Module: Ichi Storm",
+     "key": "Module_Ichi_Storm",
+     "icon": "UISkillModularYiJiKuangFengIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Physical, Synthetic Troop, Strength, Intelligence"
+     ],
+     "name": "Module: Sand Giant",
+     "key": "Module_Sand_Giant",
+     "icon": "UISkillModularShaJuRenIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Lightning, Synthetic Troop, Intelligence"
+     ],
+     "name": "Module: Einherjar Elder Sage",
+     "key": "Module_Einherjar_Elder_Sage",
+     "icon": "UISkillModularYingLingDaXianZheIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Physical, Cold, Synthetic Troop, Dexterity, Intelligence"
+     ],
+     "name": "Module: Aember Winged Beast",
+     "key": "Module_Aember_Winged_Beast",
+     "icon": "UISkillModularZaiJinYiShouIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Physical, Synthetic Troop, Strength, Intelligence"
+     ],
+     "name": "Module: Punisher",
+     "key": "Module_Punisher",
+     "icon": "UISkillModularChengFaZheIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Cold, Fire, Synthetic Troop, Strength, Intelligence"
+     ],
+     "name": "Module: Goblin Priest",
+     "key": "Module_Goblin_Priest",
+     "icon": "UISkillModularGeBuLinJiSiIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Physical, Synthetic Troop, Strength, Intelligence"
+     ],
+     "name": "Module: Trog 2nd General",
+     "key": "Module_Trog_2nd_General",
+     "icon": "UISkillModularDiMoErJiangJunIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Physical, Fire, Synthetic Troop, Strength, Intelligence"
+     ],
+     "name": "Module: Dwarven Automaton",
+     "key": "Module_Dwarven_Automaton",
+     "icon": "UISkillModularAiRenJiJiaIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Physical, Synthetic Troop, Intelligence"
+     ],
+     "name": "Module: Trog Mage",
+     "key": "Module_Trog_Mage",
+     "icon": "UISkillModularDiMoFaShiIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Lightning, Synthetic Troop, Intelligence"
+     ],
+     "name": "Module: Goblin Priest of Elements",
+     "key": "Module_Goblin_Priest_of_Elements",
+     "icon": "UISkillModularGeBuLinYuanSuDaZhangLaoIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Physical, Synthetic Troop, Strength, Intelligence"
+     ],
+     "name": "Module: Medium Ember Automaton",
+     "key": "Module_Medium_Ember_Automaton",
+     "icon": "UISkillModularZhongXingHuiJinJiJiaIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Physical, Fire, Synthetic Troop, Strength, Intelligence"
+     ],
+     "name": "Module: Huge Ember Automaton",
+     "key": "Module_Huge_Ember_Automaton",
+     "icon": "UISkillModularJuXingHuiJinJiJiaIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Erosion, Synthetic Troop, Intelligence"
+     ],
+     "name": "Module: Ent Great Elder",
+     "key": "Module_Ent_Great_Elder",
+     "icon": "UISkillModularShuJingDaZhangLaoIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Physical, Fire, Synthetic Troop, Strength, Intelligence"
+     ],
+     "name": "Module: Ratlin Stormer Captain",
+     "key": "Module_Ratlin_Stormer_Captain",
+     "icon": "UISkillModularShuRenQiangXiDuiZhangIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Fire, Synthetic Troop, Intelligence"
+     ],
+     "name": "Module: Chief Machinist",
+     "key": "Module_Chief_Machinist",
+     "icon": "UISkillModularShouXiJiXieShiIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Physical, Erosion, Synthetic Troop, Dexterity, Intelligence"
+     ],
+     "name": "Module: Lean Phantom",
+     "key": "Module_Lean_Phantom",
+     "icon": "UISkillModularLaiAnHuanYingIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Physical, Synthetic Troop, Dexterity, Intelligence"
+     ],
+     "name": "Module: God of Swords",
+     "key": "Module_God_of_Swords",
+     "icon": "UISkillModularJianShenIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Physical, Synthetic Troop, Strength, Intelligence"
+     ],
+     "name": "Module: Tyrant",
+     "key": "Module_Tyrant",
+     "icon": "UISkillModularBaoNueZheIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Physical, Synthetic Troop, Dexterity, Intelligence"
+     ],
+     "name": "Module: Ichi Storm",
+     "key": "Module_Ichi_Storm",
+     "icon": "UISkillModularYiJiKuangFengIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Physical, Synthetic Troop, Strength, Intelligence"
+     ],
+     "name": "Module: Sand Giant",
+     "key": "Module_Sand_Giant",
+     "icon": "UISkillModularShaJuRenIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Lightning, Synthetic Troop, Intelligence"
+     ],
+     "name": "Module: Einherjar Elder Sage",
+     "key": "Module_Einherjar_Elder_Sage",
+     "icon": "UISkillModularYingLingDaXianZheIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Physical, Cold, Synthetic Troop, Dexterity, Intelligence"
+     ],
+     "name": "Module: Aember Winged Beast",
+     "key": "Module_Aember_Winged_Beast",
+     "icon": "UISkillModularZaiJinYiShouIcon128"
+    },
+    {
+     "lines": [
+      "Spell, Summon, Persistent, Physical, Synthetic Troop, Strength, Intelligence"
+     ],
+     "name": "Module: Punisher",
+     "key": "Module_Punisher",
+     "icon": "UISkillModularChengFaZheIcon128"
+    }
+   ]
+  },
+  {
+   "card": "Modularization Skill",
+   "tab": "ModularizationSkill",
+   "entries": [
+    {
+     "lines": [
+      "Minion Skill: Frostclaw, Firebird",
+      "Casts this skill and summons 1 Goblin Priest to the target spot.",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Goblin Priest:",
+      "Summons 1 Goblin Priest",
+      "This skill summons up to 4 Minions",
+      "<Random Module-Related Affix>",
+      "<Random Module-Related Affix>"
+     ],
+     "name": "Module: Goblin Priest",
+     "key": "Module_Goblin_Priest"
+    },
+    {
+     "lines": [
+      "Minion Skill: Earthshatter",
+      "Casts this skill and summons 1 Trog 2nd General to the target spot",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Trog 2nd General:",
+      "Summons 1 Trog 2nd General",
+      "This skill summons up to 4 Minions",
+      "+1% additional damage for Minions summoned by this skill for every 5 Strength the summoner has",
+      "<Random Module-Related Affix>",
+      "<Random Module-Related Affix>"
+     ],
+     "name": "Module: Trog 2nd General",
+     "key": "Module_Trog_2nd_General"
+    },
+    {
+     "lines": [
+      "Minion Skill: Molten Barrage, All-Out Volley",
+      "Casts this skill and summons 1 Dwarven Automaton to the target spot",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Dwarven Automaton:",
+      "Summons 1 Dwarven Automaton",
+      "This skill summons up to 4 Minions",
+      "+1 Horizontal Projectile Penetration(s) for Minions summoned by this skill for every 10 Command",
+      "Converts 100% of Physical Damage dealt by Minions summoned by this skill to Fire Damage",
+      "<Random Module-Related Affix>",
+      "<Random Module-Related Affix>"
+     ],
+     "name": "Module: Dwarven Automaton",
+     "key": "Module_Dwarven_Automaton"
+    },
+    {
+     "lines": [
+      "Minion Skill: Rockfall",
+      "Casts this skill and summons 1 Trog Mage to the target spot",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Trog Mage:",
+      "Summons 1 Trog Mage",
+      "This skill summons up to 4 Minions",
+      "+1 to Barrage Skill Total Waves for Minions summoned by this skill",
+      "<Random Module-Related Affix>",
+      "<Random Module-Related Affix>"
+     ],
+     "name": "Module: Trog Mage",
+     "key": "Module_Trog_Mage"
+    },
+    {
+     "lines": [
+      "Minion Skill: Thunderfall",
+      "Casts this skill and summons 1 Goblin Priest of Elements to the target spot.",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Goblin Priest of Elements:",
+      "Summons 1 Goblin Priest of Elements",
+      "This skill summons up to 4 Minions",
+      "<Random Module-Related Affix>",
+      "<Random Module-Related Affix>"
+     ],
+     "name": "Module: Goblin Priest of Elements",
+     "key": "Module_Goblin_Priest_of_Elements"
+    },
+    {
+     "lines": [
+      "Minion Skill: Kinetic Thrust, Groundslam",
+      "Casts this skill and summons 1 Medium Ember Automaton to the target spot",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Medium Ember Automaton:",
+      "Summons 1 Medium Ember Automaton",
+      "This skill summons up to 4 Minions",
+      "0.5% Skill Area for Minions summoned by this skill for every 1 Command",
+      "<Random Module-Related Affix>",
+      "<Random Module-Related Affix>"
+     ],
+     "name": "Module: Medium Ember Automaton",
+     "key": "Module_Medium_Ember_Automaton"
+    },
+    {
+     "lines": [
+      "Minion Skill: Overstrike, Searing Crush",
+      "Casts this skill and summons 1 Huge Ember Automaton to the target spot",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Huge Ember Automaton:",
+      "Summons 1 Huge Ember Automaton",
+      "This skill summons up to 4 Minions",
+      "0.5% Skill Area for Minions summoned by this skill for every 1 Command",
+      "Converts 100% of Physical Damage dealt by Minions summoned by this skill to Fire Damage",
+      "<Random Module-Related Affix>",
+      "<Random Module-Related Affix>"
+     ],
+     "name": "Module: Huge Ember Automaton",
+     "key": "Module_Huge_Ember_Automaton"
+    },
+    {
+     "lines": [
+      "Minion Skill: Sweep, Rootsurge",
+      "Casts this skill and summons 1 Ent Great Elder to the target spot",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Ent Great Elder:",
+      "Summons 1 Ent Great Elder",
+      "This skill summons up to 4 Minions",
+      "Minions summoned by this skill gain Profane on hit. Interval: 1s",
+      "<Random Module-Related Affix>",
+      "<Random Module-Related Affix>"
+     ],
+     "name": "Module: Ent Great Elder",
+     "key": "Module_Ent_Great_Elder"
+    },
+    {
+     "lines": [
+      "Minion Skill: Blitz Strike, Burst Hammer",
+      "Casts this skill and summons 1 Ratlin Stormer Captain to the target spot",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Ratlin Stormer Captain:",
+      "Summons 1 Ratlin Stormer Captain",
+      "This skill summons up to 4 Minions",
+      "Converts 100% of Physical Damage dealt by Minions summoned by this skill to Fire Damage",
+      "<Random Module-Related Affix>",
+      "<Random Module-Related Affix>"
+     ],
+     "name": "Module: Ratlin Stormer Captain",
+     "key": "Module_Ratlin_Stormer_Captain"
+    },
+    {
+     "lines": [
+      "Minion Skill: Firebomb, Pyromania",
+      "Casts this skill and summons 1 Chief Machinist to the target spot",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Chief Machinist:",
+      "Summons 1 Chief Machinist",
+      "This skill summons up to 4 Minions",
+      "<Random Module-Related Affix>",
+      "<Random Module-Related Affix>"
+     ],
+     "name": "Module: Chief Machinist",
+     "key": "Module_Chief_Machinist"
+    },
+    {
+     "lines": [
+      "Minion Skill: Flickering Shadow, Sin of the Fallen",
+      "Casts this skill and summons 1 Lean Phantom to the target spot",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Phantom Lean:",
+      "Summons 1 Lean Phantom",
+      "This skill summons up to 4 Minions",
+      "Converts 100% of Physical Damage dealt by Minions summoned by this skill to Erosion Damage",
+      "<Random Module-Related Affix>",
+      "<Random Module-Related Affix>"
+     ],
+     "name": "Module: Lean Phantom",
+     "key": "Module_Lean_Phantom"
+    },
+    {
+     "lines": [
+      "Minion Skill: Blade of Glory, High Court Covenant",
+      "Casts this skill and summons 1 God of Swords to the target spot",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon God of Swords:",
+      "Summons 1 God of Swords",
+      "This skill summons up to 4 Minions",
+      "+3% Attack Speed for every Critical Strike landed by Minions summoned by this skill recently. Stacks up to 30 time(s)",
+      "<Random Module-Related Affix>",
+      "<Random Module-Related Affix>"
+     ],
+     "name": "Module: God of Swords",
+     "key": "Module_God_of_Swords"
+    },
+    {
+     "lines": [
+      "Minion Skill: Ravaging Slash",
+      "Casts this skill and summons 1 Tyrant to the target spot",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Tyrant:",
+      "Summons 1 Tyrant",
+      "This skill summons up to 4 Minions",
+      "+1% additional damage for Minions summoned by this skill for every +1% Steep Strike chance the summoner has",
+      "<Random Module-Related Affix>",
+      "<Random Module-Related Affix>"
+     ],
+     "name": "Module: Tyrant",
+     "key": "Module_Tyrant"
+    },
+    {
+     "lines": [
+      "Minion Skill: Auric Shot",
+      "Casts this skill and summons 1 Ichi Storm to the target spot",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Ichi Storm:",
+      "Summons 1 Ichi Storm",
+      "This skill summons up to 4 Minions",
+      "+1% Projectile Speed for Minions summoned by this skill for every +1% Projectile Speed",
+      "45% of the Projectile Speed bonus of Minions summoned by this skill is also applied to the additional bonus for Projectile Damage",
+      "<Random Module-Related Affix>",
+      "<Random Module-Related Affix>"
+     ],
+     "name": "Module: Ichi Storm",
+     "key": "Module_Ichi_Storm"
+    },
+    {
+     "lines": [
+      "Minion Skill: Gravelshot",
+      "Casts this skill and summons 1 Sand Giant to the target spot",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Sand Giant:",
+      "Summons 1 Sand Giant",
+      "This skill summons up to 4 Minions",
+      "+2 to Parabolic Projectile Split Quantity for Minions summoned by this skill",
+      "<Random Module-Related Affix>",
+      "<Random Module-Related Affix>"
+     ],
+     "name": "Module: Sand Giant",
+     "key": "Module_Sand_Giant"
+    },
+    {
+     "lines": [
+      "Minion Skill: Divine Judgment, Javelin of Judgment",
+      "Casts this skill and summons 1 Einherjar Elder Sage to the target spot",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Einherjar Elder Sage:",
+      "Summons 1 Einherjar Elder Sage",
+      "This skill summons up to 4 Minions",
+      "<Random Module-Related Affix>",
+      "<Random Module-Related Affix>"
+     ],
+     "name": "Module: Einherjar Elder Sage",
+     "key": "Module_Einherjar_Elder_Sage"
+    },
+    {
+     "lines": [
+      "Minion Skill: Spikeburst, Tailsweep",
+      "Casts this skill and summons 1 Aember Winged Beast to the target spot",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Aember Winged Beast:",
+      "Summons 1 Aember Winged Beast",
+      "This skill summons up to 4 Minions",
+      "Converts 100% of Physical Damage dealt by Minions summoned by this skill to Cold Damage",
+      "<Random Module-Related Affix>",
+      "<Random Module-Related Affix>"
+     ],
+     "name": "Module: Aember Winged Beast",
+     "key": "Module_Aember_Winged_Beast"
+    },
+    {
+     "lines": [
+      "Minion Skill: Impaling Thrust, Twinstrike",
+      "Casts this skill and summons 1 Punisher to the target spot",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Punisher:",
+      "Summons 1 Punisher",
+      "This skill summons up to 4 Minions",
+      "+2% additional damage for every +5% Skill Area of Minions summoned by this skill",
+      "<Random Module-Related Affix>",
+      "<Random Module-Related Affix>"
+     ],
+     "name": "Module: Punisher",
+     "key": "Module_Punisher"
+    },
+    {
+     "lines": [
+      "Minion Skill: Frostclaw, Firebird",
+      "Casts this skill and summons 1 Goblin Priest to the target spot.",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Goblin Priest:",
+      "Summons 1 Goblin Priest",
+      "This skill summons up to 4 Minions",
+      "<Random Module-Related Ultimate Affix>",
+      "<Random Module-Related Ultimate Affix>",
+      "<Random Module-Related Ultimate Affix>"
+     ],
+     "name": "Module: Goblin Priest",
+     "key": "Module_Goblin_Priest"
+    },
+    {
+     "lines": [
+      "Minion Skill: Earthshatter",
+      "Casts this skill and summons 1 Trog 2nd General to the target spot",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Trog 2nd General:",
+      "Summons 1 Trog 2nd General",
+      "This skill summons up to 4 Minions",
+      "+1% additional damage for Minions summoned by this skill for every 5 Strength the summoner has",
+      "<Random Module-Related Ultimate Affix>",
+      "<Random Module-Related Ultimate Affix>",
+      "<Random Module-Related Ultimate Affix>"
+     ],
+     "name": "Module: Trog 2nd General",
+     "key": "Module_Trog_2nd_General"
+    },
+    {
+     "lines": [
+      "Minion Skill: Molten Barrage, All-Out Volley",
+      "Casts this skill and summons 1 Dwarven Automaton to the target spot",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Dwarven Automaton:",
+      "Summons 1 Dwarven Automaton",
+      "This skill summons up to 4 Minions",
+      "+1 Horizontal Projectile Penetration(s) for Minions summoned by this skill for every 10 Command",
+      "Converts 100% of Physical Damage dealt by Minions summoned by this skill to Fire Damage",
+      "<Random Module-Related Ultimate Affix>",
+      "<Random Module-Related Ultimate Affix>",
+      "<Random Module-Related Ultimate Affix>"
+     ],
+     "name": "Module: Dwarven Automaton",
+     "key": "Module_Dwarven_Automaton"
+    },
+    {
+     "lines": [
+      "Minion Skill: Rockfall",
+      "Casts this skill and summons 1 Trog Mage to the target spot",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Trog Mage:",
+      "Summons 1 Trog Mage",
+      "This skill summons up to 4 Minions",
+      "+1 to Barrage Skill Total Waves for Minions summoned by this skill",
+      "<Random Module-Related Ultimate Affix>",
+      "<Random Module-Related Ultimate Affix>",
+      "<Random Module-Related Ultimate Affix>"
+     ],
+     "name": "Module: Trog Mage",
+     "key": "Module_Trog_Mage"
+    },
+    {
+     "lines": [
+      "Minion Skill: Thunderfall",
+      "Casts this skill and summons 1 Goblin Priest of Elements to the target spot.",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Goblin Priest of Elements:",
+      "Summons 1 Goblin Priest of Elements",
+      "This skill summons up to 4 Minions",
+      "<Random Module-Related Ultimate Affix>",
+      "<Random Module-Related Ultimate Affix>",
+      "<Random Module-Related Ultimate Affix>"
+     ],
+     "name": "Module: Goblin Priest of Elements",
+     "key": "Module_Goblin_Priest_of_Elements"
+    },
+    {
+     "lines": [
+      "Minion Skill: Kinetic Thrust, Groundslam",
+      "Casts this skill and summons 1 Medium Ember Automaton to the target spot",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Medium Ember Automaton:",
+      "Summons 1 Medium Ember Automaton",
+      "This skill summons up to 4 Minions",
+      "0.5% Skill Area for Minions summoned by this skill for every 1 Command",
+      "<Random Module-Related Ultimate Affix>",
+      "<Random Module-Related Ultimate Affix>",
+      "<Random Module-Related Ultimate Affix>"
+     ],
+     "name": "Module: Medium Ember Automaton",
+     "key": "Module_Medium_Ember_Automaton"
+    },
+    {
+     "lines": [
+      "Minion Skill: Overstrike, Searing Crush",
+      "Casts this skill and summons 1 Huge Ember Automaton to the target spot",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Huge Ember Automaton:",
+      "Summons 1 Huge Ember Automaton",
+      "This skill summons up to 4 Minions",
+      "0.5% Skill Area for Minions summoned by this skill for every 1 Command",
+      "Converts 100% of Physical Damage dealt by Minions summoned by this skill to Fire Damage",
+      "<Random Module-Related Ultimate Affix>",
+      "<Random Module-Related Ultimate Affix>",
+      "<Random Module-Related Ultimate Affix>"
+     ],
+     "name": "Module: Huge Ember Automaton",
+     "key": "Module_Huge_Ember_Automaton"
+    },
+    {
+     "lines": [
+      "Minion Skill: Sweep, Rootsurge",
+      "Casts this skill and summons 1 Ent Great Elder to the target spot",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Ent Great Elder:",
+      "Summons 1 Ent Great Elder",
+      "This skill summons up to 4 Minions",
+      "Minions summoned by this skill gain Profane on hit. Interval: 1s",
+      "<Random Module-Related Ultimate Affix>",
+      "<Random Module-Related Ultimate Affix>",
+      "<Random Module-Related Ultimate Affix>"
+     ],
+     "name": "Module: Ent Great Elder",
+     "key": "Module_Ent_Great_Elder"
+    },
+    {
+     "lines": [
+      "Minion Skill: Blitz Strike, Burst Hammer",
+      "Casts this skill and summons 1 Ratlin Stormer Captain to the target spot",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Ratlin Stormer Captain:",
+      "Summons 1 Ratlin Stormer Captain",
+      "This skill summons up to 4 Minions",
+      "Converts 100% of Physical Damage dealt by Minions summoned by this skill to Fire Damage",
+      "<Random Module-Related Ultimate Affix>",
+      "<Random Module-Related Ultimate Affix>",
+      "<Random Module-Related Ultimate Affix>"
+     ],
+     "name": "Module: Ratlin Stormer Captain",
+     "key": "Module_Ratlin_Stormer_Captain"
+    },
+    {
+     "lines": [
+      "Minion Skill: Firebomb, Pyromania",
+      "Casts this skill and summons 1 Chief Machinist to the target spot",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Chief Machinist:",
+      "Summons 1 Chief Machinist",
+      "This skill summons up to 4 Minions",
+      "<Random Module-Related Ultimate Affix>",
+      "<Random Module-Related Ultimate Affix>",
+      "<Random Module-Related Ultimate Affix>"
+     ],
+     "name": "Module: Chief Machinist",
+     "key": "Module_Chief_Machinist"
+    },
+    {
+     "lines": [
+      "Minion Skill: Flickering Shadow, Sin of the Fallen",
+      "Casts this skill and summons 1 Lean Phantom to the target spot",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Phantom Lean:",
+      "Summons 1 Lean Phantom",
+      "This skill summons up to 4 Minions",
+      "Converts 100% of Physical Damage dealt by Minions summoned by this skill to Erosion Damage",
+      "<Random Module-Related Ultimate Affix>",
+      "<Random Module-Related Ultimate Affix>",
+      "<Random Module-Related Ultimate Affix>"
+     ],
+     "name": "Module: Lean Phantom",
+     "key": "Module_Lean_Phantom"
+    },
+    {
+     "lines": [
+      "Minion Skill: Blade of Glory, High Court Covenant",
+      "Casts this skill and summons 1 God of Swords to the target spot",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon God of Swords:",
+      "Summons 1 God of Swords",
+      "This skill summons up to 4 Minions",
+      "+3% Attack Speed for every Critical Strike landed by Minions summoned by this skill recently. Stacks up to 30 time(s)",
+      "<Random Module-Related Ultimate Affix>",
+      "<Random Module-Related Ultimate Affix>",
+      "<Random Module-Related Ultimate Affix>"
+     ],
+     "name": "Module: God of Swords",
+     "key": "Module_God_of_Swords"
+    },
+    {
+     "lines": [
+      "Minion Skill: Ravaging Slash",
+      "Casts this skill and summons 1 Tyrant to the target spot",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Tyrant:",
+      "Summons 1 Tyrant",
+      "This skill summons up to 4 Minions",
+      "+1% additional damage for Minions summoned by this skill for every +1% Steep Strike chance the summoner has",
+      "<Random Module-Related Ultimate Affix>",
+      "<Random Module-Related Ultimate Affix>",
+      "<Random Module-Related Ultimate Affix>"
+     ],
+     "name": "Module: Tyrant",
+     "key": "Module_Tyrant"
+    },
+    {
+     "lines": [
+      "Minion Skill: Auric Shot",
+      "Casts this skill and summons 1 Ichi Storm to the target spot",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Ichi Storm:",
+      "Summons 1 Ichi Storm",
+      "This skill summons up to 4 Minions",
+      "+1% Projectile Speed for Minions summoned by this skill for every +1% Projectile Speed",
+      "45% of the Projectile Speed bonus of Minions summoned by this skill is also applied to the additional bonus for Projectile Damage",
+      "<Random Module-Related Ultimate Affix>",
+      "<Random Module-Related Ultimate Affix>",
+      "<Random Module-Related Ultimate Affix>"
+     ],
+     "name": "Module: Ichi Storm",
+     "key": "Module_Ichi_Storm"
+    },
+    {
+     "lines": [
+      "Minion Skill: Gravelshot",
+      "Casts this skill and summons 1 Sand Giant to the target spot",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Sand Giant:",
+      "Summons 1 Sand Giant",
+      "This skill summons up to 4 Minions",
+      "+2 to Parabolic Projectile Split Quantity for Minions summoned by this skill",
+      "<Random Module-Related Ultimate Affix>",
+      "<Random Module-Related Ultimate Affix>",
+      "<Random Module-Related Ultimate Affix>"
+     ],
+     "name": "Module: Sand Giant",
+     "key": "Module_Sand_Giant"
+    },
+    {
+     "lines": [
+      "Minion Skill: Divine Judgment, Javelin of Judgment",
+      "Casts this skill and summons 1 Einherjar Elder Sage to the target spot",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Einherjar Elder Sage:",
+      "Summons 1 Einherjar Elder Sage",
+      "This skill summons up to 4 Minions",
+      "<Random Module-Related Ultimate Affix>",
+      "<Random Module-Related Ultimate Affix>",
+      "<Random Module-Related Ultimate Affix>"
+     ],
+     "name": "Module: Einherjar Elder Sage",
+     "key": "Module_Einherjar_Elder_Sage"
+    },
+    {
+     "lines": [
+      "Minion Skill: Spikeburst, Tailsweep",
+      "Casts this skill and summons 1 Aember Winged Beast to the target spot",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Aember Winged Beast:",
+      "Summons 1 Aember Winged Beast",
+      "This skill summons up to 4 Minions",
+      "Converts 100% of Physical Damage dealt by Minions summoned by this skill to Cold Damage",
+      "<Random Module-Related Ultimate Affix>",
+      "<Random Module-Related Ultimate Affix>",
+      "<Random Module-Related Ultimate Affix>"
+     ],
+     "name": "Module: Aember Winged Beast",
+     "key": "Module_Aember_Winged_Beast"
+    },
+    {
+     "lines": [
+      "Minion Skill: Impaling Thrust, Twinstrike",
+      "Casts this skill and summons 1 Punisher to the target spot",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Punisher:",
+      "Summons 1 Punisher",
+      "This skill summons up to 4 Minions",
+      "+2% additional damage for every +5% Skill Area of Minions summoned by this skill",
+      "<Random Module-Related Ultimate Affix>",
+      "<Random Module-Related Ultimate Affix>",
+      "<Random Module-Related Ultimate Affix>"
+     ],
+     "name": "Module: Punisher",
+     "key": "Module_Punisher"
+    },
+    {
+     "lines": [
+      "Minion Skill: Frostclaw, Firebird",
+      "Casts this skill and summons 1 Goblin Priest to the target spot.",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Goblin Priest:",
+      "Summons 1 Goblin Priest",
+      "This skill summons up to 4 Minions",
+      "<Random Module-Related Affix>"
+     ],
+     "name": "Module: Goblin Priest",
+     "key": "Module_Goblin_Priest"
+    },
+    {
+     "lines": [
+      "Minion Skill: Earthshatter",
+      "Casts this skill and summons 1 Trog 2nd General to the target spot",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Trog 2nd General:",
+      "Summons 1 Trog 2nd General",
+      "This skill summons up to 4 Minions",
+      "+1% additional damage for Minions summoned by this skill for every 5 Strength the summoner has",
+      "<Random Module-Related Affix>"
+     ],
+     "name": "Module: Trog 2nd General",
+     "key": "Module_Trog_2nd_General"
+    },
+    {
+     "lines": [
+      "Minion Skill: Molten Barrage, All-Out Volley",
+      "Casts this skill and summons 1 Dwarven Automaton to the target spot",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Dwarven Automaton:",
+      "Summons 1 Dwarven Automaton",
+      "This skill summons up to 4 Minions",
+      "+1 Horizontal Projectile Penetration(s) for Minions summoned by this skill for every 10 Command",
+      "Converts 100% of Physical Damage dealt by Minions summoned by this skill to Fire Damage",
+      "<Random Module-Related Affix>"
+     ],
+     "name": "Module: Dwarven Automaton",
+     "key": "Module_Dwarven_Automaton"
+    },
+    {
+     "lines": [
+      "Minion Skill: Rockfall",
+      "Casts this skill and summons 1 Trog Mage to the target spot",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Trog Mage:",
+      "Summons 1 Trog Mage",
+      "This skill summons up to 4 Minions",
+      "+1 to Barrage Skill Total Waves for Minions summoned by this skill",
+      "<Random Module-Related Affix>"
+     ],
+     "name": "Module: Trog Mage",
+     "key": "Module_Trog_Mage"
+    },
+    {
+     "lines": [
+      "Minion Skill: Thunderfall",
+      "Casts this skill and summons 1 Goblin Priest of Elements to the target spot.",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Goblin Priest of Elements:",
+      "Summons 1 Goblin Priest of Elements",
+      "This skill summons up to 4 Minions",
+      "<Random Module-Related Affix>"
+     ],
+     "name": "Module: Goblin Priest of Elements",
+     "key": "Module_Goblin_Priest_of_Elements"
+    },
+    {
+     "lines": [
+      "Minion Skill: Kinetic Thrust, Groundslam",
+      "Casts this skill and summons 1 Medium Ember Automaton to the target spot",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Medium Ember Automaton:",
+      "Summons 1 Medium Ember Automaton",
+      "This skill summons up to 4 Minions",
+      "0.5% Skill Area for Minions summoned by this skill for every 1 Command",
+      "<Random Module-Related Affix>"
+     ],
+     "name": "Module: Medium Ember Automaton",
+     "key": "Module_Medium_Ember_Automaton"
+    },
+    {
+     "lines": [
+      "Minion Skill: Overstrike, Searing Crush",
+      "Casts this skill and summons 1 Huge Ember Automaton to the target spot",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Huge Ember Automaton:",
+      "Summons 1 Huge Ember Automaton",
+      "This skill summons up to 4 Minions",
+      "0.5% Skill Area for Minions summoned by this skill for every 1 Command",
+      "Converts 100% of Physical Damage dealt by Minions summoned by this skill to Fire Damage",
+      "<Random Module-Related Affix>"
+     ],
+     "name": "Module: Huge Ember Automaton",
+     "key": "Module_Huge_Ember_Automaton"
+    },
+    {
+     "lines": [
+      "Minion Skill: Sweep, Rootsurge",
+      "Casts this skill and summons 1 Ent Great Elder to the target spot",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Ent Great Elder:",
+      "Summons 1 Ent Great Elder",
+      "This skill summons up to 4 Minions",
+      "Minions summoned by this skill gain Profane on hit. Interval: 1s",
+      "<Random Module-Related Affix>"
+     ],
+     "name": "Module: Ent Great Elder",
+     "key": "Module_Ent_Great_Elder"
+    },
+    {
+     "lines": [
+      "Minion Skill: Blitz Strike, Burst Hammer",
+      "Casts this skill and summons 1 Ratlin Stormer Captain to the target spot",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Ratlin Stormer Captain:",
+      "Summons 1 Ratlin Stormer Captain",
+      "This skill summons up to 4 Minions",
+      "Converts 100% of Physical Damage dealt by Minions summoned by this skill to Fire Damage",
+      "<Random Module-Related Affix>"
+     ],
+     "name": "Module: Ratlin Stormer Captain",
+     "key": "Module_Ratlin_Stormer_Captain"
+    },
+    {
+     "lines": [
+      "Minion Skill: Firebomb, Pyromania",
+      "Casts this skill and summons 1 Chief Machinist to the target spot",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Chief Machinist:",
+      "Summons 1 Chief Machinist",
+      "This skill summons up to 4 Minions",
+      "<Random Module-Related Affix>"
+     ],
+     "name": "Module: Chief Machinist",
+     "key": "Module_Chief_Machinist"
+    },
+    {
+     "lines": [
+      "Minion Skill: Flickering Shadow, Sin of the Fallen",
+      "Casts this skill and summons 1 Lean Phantom to the target spot",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Phantom Lean:",
+      "Summons 1 Lean Phantom",
+      "This skill summons up to 4 Minions",
+      "Converts 100% of Physical Damage dealt by Minions summoned by this skill to Erosion Damage",
+      "<Random Module-Related Affix>"
+     ],
+     "name": "Module: Lean Phantom",
+     "key": "Module_Lean_Phantom"
+    },
+    {
+     "lines": [
+      "Minion Skill: Blade of Glory, High Court Covenant",
+      "Casts this skill and summons 1 God of Swords to the target spot",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon God of Swords:",
+      "Summons 1 God of Swords",
+      "This skill summons up to 4 Minions",
+      "+3% Attack Speed for every Critical Strike landed by Minions summoned by this skill recently. Stacks up to 30 time(s)",
+      "<Random Module-Related Affix>"
+     ],
+     "name": "Module: God of Swords",
+     "key": "Module_God_of_Swords"
+    },
+    {
+     "lines": [
+      "Minion Skill: Ravaging Slash",
+      "Casts this skill and summons 1 Tyrant to the target spot",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Tyrant:",
+      "Summons 1 Tyrant",
+      "This skill summons up to 4 Minions",
+      "+1% additional damage for Minions summoned by this skill for every +1% Steep Strike chance the summoner has",
+      "<Random Module-Related Affix>"
+     ],
+     "name": "Module: Tyrant",
+     "key": "Module_Tyrant"
+    },
+    {
+     "lines": [
+      "Minion Skill: Auric Shot",
+      "Casts this skill and summons 1 Ichi Storm to the target spot",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Ichi Storm:",
+      "Summons 1 Ichi Storm",
+      "This skill summons up to 4 Minions",
+      "+1% Projectile Speed for Minions summoned by this skill for every +1% Projectile Speed",
+      "45% of the Projectile Speed bonus of Minions summoned by this skill is also applied to the additional bonus for Projectile Damage",
+      "<Random Module-Related Affix>"
+     ],
+     "name": "Module: Ichi Storm",
+     "key": "Module_Ichi_Storm"
+    },
+    {
+     "lines": [
+      "Minion Skill: Gravelshot",
+      "Casts this skill and summons 1 Sand Giant to the target spot",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Sand Giant:",
+      "Summons 1 Sand Giant",
+      "This skill summons up to 4 Minions",
+      "+2 to Parabolic Projectile Split Quantity for Minions summoned by this skill",
+      "<Random Module-Related Affix>"
+     ],
+     "name": "Module: Sand Giant",
+     "key": "Module_Sand_Giant"
+    },
+    {
+     "lines": [
+      "Minion Skill: Divine Judgment, Javelin of Judgment",
+      "Casts this skill and summons 1 Einherjar Elder Sage to the target spot",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Einherjar Elder Sage:",
+      "Summons 1 Einherjar Elder Sage",
+      "This skill summons up to 4 Minions",
+      "<Random Module-Related Affix>"
+     ],
+     "name": "Module: Einherjar Elder Sage",
+     "key": "Module_Einherjar_Elder_Sage"
+    },
+    {
+     "lines": [
+      "Minion Skill: Spikeburst, Tailsweep",
+      "Casts this skill and summons 1 Aember Winged Beast to the target spot",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Aember Winged Beast:",
+      "Summons 1 Aember Winged Beast",
+      "This skill summons up to 4 Minions",
+      "Converts 100% of Physical Damage dealt by Minions summoned by this skill to Cold Damage",
+      "<Random Module-Related Affix>"
+     ],
+     "name": "Module: Aember Winged Beast",
+     "key": "Module_Aember_Winged_Beast"
+    },
+    {
+     "lines": [
+      "Minion Skill: Impaling Thrust, Twinstrike",
+      "Casts this skill and summons 1 Punisher to the target spot",
+      "No more Minions will be summoned by this skill after reaching its Max Minion Quantity.",
+      "Summon Punisher:",
+      "Summons 1 Punisher",
+      "This skill summons up to 4 Minions",
+      "+2% additional damage for every +5% Skill Area of Minions summoned by this skill",
+      "<Random Module-Related Affix>"
+     ],
+     "name": "Module: Punisher",
+     "key": "Module_Punisher"
+    }
+   ]
+  }
+ ]
+}

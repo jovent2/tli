@@ -1,0 +1,43 @@
+{
+ "page": "Season_Compass",
+ "cards": [
+  {
+   "card": "Season Compass",
+   "tab": null,
+   "entries": [
+    {
+     "lines": [
+      "+10% additional Drop Quantity for all Warden's Caches in Tartarus in Riot",
+      "This Compass effect does not stack",
+      "Add it to a Caged Beast Gameplay Compass slot to increase rewards granted in the gameplay endgame.",
+      "Added Season Compasses are consumed once the endgame stage begins."
+     ],
+     "name": "Darkiron Shackles",
+     "key": "Darkiron_Shackles"
+    },
+    {
+     "lines": [
+      "+30% additional Drop Quantity for all Warden's Caches in Tartarus in Riot",
+      "Monsters take -45% additional damage in Tartarus in Riot",
+      "This Compass effect does not stack",
+      "Add it to a Caged Beast Gameplay Compass slot to increase rewards granted in the gameplay endgame.",
+      "Added Season Compasses are consumed once the endgame stage begins."
+     ],
+     "name": "Mercury Shackles",
+     "key": "Mercury_Shackles"
+    },
+    {
+     "lines": [
+      "+80% additional Drop Quantity for all Warden's Caches in Tartarus in Riot",
+      "Monsters take -70% additional damage in Tartarus in Riot",
+      "This Compass effect does not stack",
+      "Add it to a Caged Beast Gameplay Compass slot to increase rewards granted in the gameplay endgame.",
+      "Added Season Compasses are consumed once the endgame stage begins."
+     ],
+     "name": "Redgold Shackles",
+     "key": "Redgold_Shackles"
+    }
+   ]
+  }
+ ]
+}

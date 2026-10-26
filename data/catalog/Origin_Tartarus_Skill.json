@@ -1,0 +1,1181 @@
+{
+ "page": "Origin_Tartarus_Skill",
+ "cards": [
+  {
+   "card": "Origin Tartarus Skill Tag",
+   "tab": "OriginTartarusSkillTag",
+   "entries": [
+    {
+     "lines": [
+      "Witch Rat, Spell, Area, Persistent, Physical, Empower"
+     ],
+     "name": "Origin Tartarus: Black Hole I",
+     "key": "Origin_Tartarus_Black_Hole_I",
+     "icon": "UISkillBlackHolemercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Witch Rat, Spell, Area, Persistent, Physical, Empower"
+     ],
+     "name": "Origin Tartarus: Black Hole II",
+     "key": "Origin_Tartarus_Black_Hole_II",
+     "icon": "UISkillBlackHolemercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Witch Rat, Spell, Area, Persistent, Physical, Empower"
+     ],
+     "name": "Origin Tartarus: Black Hole III",
+     "key": "Origin_Tartarus_Black_Hole_III",
+     "icon": "UISkillBlackHolemercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Witch Rat, Spell, Area, Fire"
+     ],
+     "name": "Origin Tartarus: Scorching Pulse I",
+     "key": "Origin_Tartarus_Scorching_Pulse_I",
+     "icon": "UISkillBurningWavemercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Witch Rat, Spell, Area, Fire"
+     ],
+     "name": "Origin Tartarus: Scorching Pulse II",
+     "key": "Origin_Tartarus_Scorching_Pulse_II",
+     "icon": "UISkillBurningWavemercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Witch Rat, Spell, Area, Fire"
+     ],
+     "name": "Origin Tartarus: Scorching Pulse III",
+     "key": "Origin_Tartarus_Scorching_Pulse_III",
+     "icon": "UISkillBurningWavemercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Mammoth, Attack, Melee, Area, Physical, Slash-Strike"
+     ],
+     "name": "Origin Tartarus: Focused Slash I",
+     "key": "Origin_Tartarus_Focused_Slash_I",
+     "icon": "UISkillFocusedStrikemercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Mammoth, Attack, Melee, Area, Physical, Slash-Strike"
+     ],
+     "name": "Origin Tartarus: Focused Slash II",
+     "key": "Origin_Tartarus_Focused_Slash_II",
+     "icon": "UISkillFocusedStrikemercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Mammoth, Attack, Melee, Area, Physical, Slash-Strike"
+     ],
+     "name": "Origin Tartarus: Focused Slash III",
+     "key": "Origin_Tartarus_Focused_Slash_III",
+     "icon": "UISkillFocusedStrikemercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Lion Queen, Spell, Projectile, Fire, Area, Horizontal"
+     ],
+     "name": "Origin Tartarus: Split Firebolt I",
+     "key": "Origin_Tartarus_Split_Firebolt_I",
+     "icon": "UISkillFireballmercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Lion Queen, Spell, Projectile, Fire, Area, Horizontal"
+     ],
+     "name": "Origin Tartarus: Split Firebolt II",
+     "key": "Origin_Tartarus_Split_Firebolt_II",
+     "icon": "UISkillFireballmercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Lion Queen, Spell, Projectile, Fire, Area, Horizontal"
+     ],
+     "name": "Origin Tartarus: Split Firebolt III",
+     "key": "Origin_Tartarus_Split_Firebolt_III",
+     "icon": "UISkillFireballmercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Mammoth, Attack, Melee, Area, Physical, Slash-Strike, Persistent"
+     ],
+     "name": "Origin Tartarus: Berserking Blade I",
+     "key": "Origin_Tartarus_Berserking_Blade_I",
+     "icon": "UISkillViolentSweepmercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Mammoth, Attack, Melee, Area, Physical, Slash-Strike, Persistent"
+     ],
+     "name": "Origin Tartarus: Berserking Blade II",
+     "key": "Origin_Tartarus_Berserking_Blade_II",
+     "icon": "UISkillViolentSweepmercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Mammoth, Attack, Melee, Area, Physical, Slash-Strike, Persistent"
+     ],
+     "name": "Origin Tartarus: Berserking Blade III",
+     "key": "Origin_Tartarus_Berserking_Blade_III",
+     "icon": "UISkillViolentSweepmercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Witch Rat, Spell, Erosion, Chain, Area"
+     ],
+     "name": "Origin Tartarus: Shackles of Malice I",
+     "key": "Origin_Tartarus_Shackles_of_Malice_I",
+     "icon": "UISkillEvilChainmercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Witch Rat, Spell, Erosion, Chain, Area"
+     ],
+     "name": "Origin Tartarus: Shackles of Malice II",
+     "key": "Origin_Tartarus_Shackles_of_Malice_II",
+     "icon": "UISkillEvilChainmercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Witch Rat, Spell, Erosion, Chain, Area"
+     ],
+     "name": "Origin Tartarus: Shackles of Malice III",
+     "key": "Origin_Tartarus_Shackles_of_Malice_III",
+     "icon": "UISkillEvilChainmercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Mammoth, Attack, Lightning, Area, Melee, Slash-Strike"
+     ],
+     "name": "Origin Tartarus: Thunder Slash I",
+     "key": "Origin_Tartarus_Thunder_Slash_I",
+     "icon": "UISkillThunderSlashmercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Mammoth, Attack, Lightning, Area, Melee, Slash-Strike"
+     ],
+     "name": "Origin Tartarus: Thunder Slash II",
+     "key": "Origin_Tartarus_Thunder_Slash_II",
+     "icon": "UISkillThunderSlashmercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Mammoth, Attack, Lightning, Area, Melee, Slash-Strike"
+     ],
+     "name": "Origin Tartarus: Thunder Slash III",
+     "key": "Origin_Tartarus_Thunder_Slash_III",
+     "icon": "UISkillThunderSlashmercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Lone Wolf, Attack, Melee, Projectile, Shadow Strike, Cold, Area, Horizontal"
+     ],
+     "name": "Origin Tartarus: Frost Spike I",
+     "key": "Origin_Tartarus_Frost_Spike_I",
+     "icon": "UISkillFrostStabmercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Lone Wolf, Attack, Melee, Projectile, Shadow Strike, Cold, Area, Horizontal"
+     ],
+     "name": "Origin Tartarus: Frost Spike II",
+     "key": "Origin_Tartarus_Frost_Spike_II",
+     "icon": "UISkillFrostStabmercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Lone Wolf, Attack, Melee, Projectile, Shadow Strike, Cold, Area, Horizontal"
+     ],
+     "name": "Origin Tartarus: Frost Spike III",
+     "key": "Origin_Tartarus_Frost_Spike_III",
+     "icon": "UISkillFrostStabmercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Witch Rat, Cold, Projectile, Attack, Ranged, Area, Horizontal"
+     ],
+     "name": "Origin Tartarus: Ice Shot I",
+     "key": "Origin_Tartarus_Ice_Shot_I",
+     "icon": "UISkillIceshotmercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Witch Rat, Cold, Projectile, Attack, Ranged, Area, Horizontal"
+     ],
+     "name": "Origin Tartarus: Ice Shot II",
+     "key": "Origin_Tartarus_Ice_Shot_II",
+     "icon": "UISkillIceshotmercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Witch Rat, Cold, Projectile, Attack, Ranged, Area, Horizontal"
+     ],
+     "name": "Origin Tartarus: Ice Shot III",
+     "key": "Origin_Tartarus_Ice_Shot_III",
+     "icon": "UISkillIceshotmercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Lone Wolf, Warcry, Area, Persistent"
+     ],
+     "name": "Origin Tartarus: Fearless Warcry I",
+     "key": "Origin_Tartarus_Fearless_Warcry_I",
+     "icon": "UISkillWildCrymercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Lone Wolf, Warcry, Area, Persistent"
+     ],
+     "name": "Origin Tartarus: Fearless Warcry II",
+     "key": "Origin_Tartarus_Fearless_Warcry_II",
+     "icon": "UISkillWildCrymercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Lone Wolf, Warcry, Area, Persistent"
+     ],
+     "name": "Origin Tartarus: Fearless Warcry III",
+     "key": "Origin_Tartarus_Fearless_Warcry_III",
+     "icon": "UISkillWildCrymercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Mammoth, Warcry, Area, Spell, Persistent"
+     ],
+     "name": "Origin Tartarus: Raging Warcry I",
+     "key": "Origin_Tartarus_Raging_Warcry_I",
+     "icon": "UISkillRageCrymercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Mammoth, Warcry, Area, Spell, Persistent"
+     ],
+     "name": "Origin Tartarus: Raging Warcry II",
+     "key": "Origin_Tartarus_Raging_Warcry_II",
+     "icon": "UISkillRageCrymercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Mammoth, Warcry, Area, Spell, Persistent"
+     ],
+     "name": "Origin Tartarus: Raging Warcry III",
+     "key": "Origin_Tartarus_Raging_Warcry_III",
+     "icon": "UISkillRageCrymercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Lion Queen, Spell, Persistent, Area, Empower"
+     ],
+     "name": "Origin Tartarus: Arcane Circle I",
+     "key": "Origin_Tartarus_Arcane_Circle_I",
+     "icon": "UISkillSoulStealAreamercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Lion Queen, Spell, Persistent, Area, Empower"
+     ],
+     "name": "Origin Tartarus: Arcane Circle II",
+     "key": "Origin_Tartarus_Arcane_Circle_II",
+     "icon": "UISkillSoulStealAreamercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Lion Queen, Spell, Persistent, Area, Empower"
+     ],
+     "name": "Origin Tartarus: Arcane Circle III",
+     "key": "Origin_Tartarus_Arcane_Circle_III",
+     "icon": "UISkillSoulStealAreamercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Lion Queen, Spell, Area, Fire, Persistent, Sentry"
+     ],
+     "name": "Origin Tartarus: Flame Core I",
+     "key": "Origin_Tartarus_Flame_Core_I",
+     "icon": "UISkillFirePilemercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Lion Queen, Spell, Area, Fire, Persistent, Sentry"
+     ],
+     "name": "Origin Tartarus: Flame Core II",
+     "key": "Origin_Tartarus_Flame_Core_II",
+     "icon": "UISkillFirePilemercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Lion Queen, Spell, Area, Fire, Persistent, Sentry"
+     ],
+     "name": "Origin Tartarus: Flame Core III",
+     "key": "Origin_Tartarus_Flame_Core_III",
+     "icon": "UISkillFirePilemercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Lone Wolf, Spell, Mobility, Persistent, Erosion"
+     ],
+     "name": "Origin Tartarus: Shadow Dash I",
+     "key": "Origin_Tartarus_Shadow_Dash_I",
+     "icon": "UISkillShadowDashmercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Lone Wolf, Spell, Mobility, Persistent, Erosion"
+     ],
+     "name": "Origin Tartarus: Shadow Dash II",
+     "key": "Origin_Tartarus_Shadow_Dash_II",
+     "icon": "UISkillShadowDashmercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Lone Wolf, Spell, Mobility, Persistent, Erosion"
+     ],
+     "name": "Origin Tartarus: Shadow Dash III",
+     "key": "Origin_Tartarus_Shadow_Dash_III",
+     "icon": "UISkillShadowDashmercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Lion Queen, Spell, Area, Persistent, Sentry, Defensive"
+     ],
+     "name": "Origin Tartarus: Safeguard Ring I",
+     "key": "Origin_Tartarus_Safeguard_Ring_I",
+     "icon": "UISkillDesperateFormationmercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Lion Queen, Spell, Area, Persistent, Sentry, Defensive"
+     ],
+     "name": "Origin Tartarus: Safeguard Ring II",
+     "key": "Origin_Tartarus_Safeguard_Ring_II",
+     "icon": "UISkillDesperateFormationmercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Lion Queen, Spell, Area, Persistent, Sentry, Defensive"
+     ],
+     "name": "Origin Tartarus: Safeguard Ring III",
+     "key": "Origin_Tartarus_Safeguard_Ring_III",
+     "icon": "UISkillDesperateFormationmercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Witch Rat, Spell, Area, Persistent, Sentry, Empower"
+     ],
+     "name": "Origin Tartarus: Bond of Archery I",
+     "key": "Origin_Tartarus_Bond_of_Archery_I",
+     "icon": "UISkillShootFettersmercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Witch Rat, Spell, Area, Persistent, Sentry, Empower"
+     ],
+     "name": "Origin Tartarus: Bond of Archery II",
+     "key": "Origin_Tartarus_Bond_of_Archery_II",
+     "icon": "UISkillShootFettersmercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Witch Rat, Spell, Area, Persistent, Sentry, Empower"
+     ],
+     "name": "Origin Tartarus: Bond of Archery III",
+     "key": "Origin_Tartarus_Bond_of_Archery_III",
+     "icon": "UISkillShootFettersmercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Lion Queen, Spell, Persistent, Cold, Defensive"
+     ],
+     "name": "Origin Tartarus: Frost Shield I",
+     "key": "Origin_Tartarus_Frost_Shield_I",
+     "icon": "UISkillIceShieldmercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Lion Queen, Spell, Persistent, Cold, Defensive"
+     ],
+     "name": "Origin Tartarus: Frost Shield II",
+     "key": "Origin_Tartarus_Frost_Shield_II",
+     "icon": "UISkillIceShieldmercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Lion Queen, Spell, Persistent, Cold, Defensive"
+     ],
+     "name": "Origin Tartarus: Frost Shield III",
+     "key": "Origin_Tartarus_Frost_Shield_III",
+     "icon": "UISkillIceShieldmercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Lone Wolf, Attack, Erosion, Area, Melee, Mobility, Dexterity"
+     ],
+     "name": "Origin Tartarus: Spiral Strike I",
+     "key": "Origin_Tartarus_Spiral_Strike_I",
+     "icon": "UISkillWhirlingBlademercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Lone Wolf, Attack, Erosion, Area, Melee, Mobility, Dexterity"
+     ],
+     "name": "Origin Tartarus: Spiral Strike II",
+     "key": "Origin_Tartarus_Spiral_Strike_II",
+     "icon": "UISkillWhirlingBlademercenaryFuwenIcon128"
+    },
+    {
+     "lines": [
+      "Lone Wolf, Attack, Erosion, Area, Melee, Mobility, Dexterity"
+     ],
+     "name": "Origin Tartarus: Spiral Strike III",
+     "key": "Origin_Tartarus_Spiral_Strike_III",
+     "icon": "UISkillWhirlingBlademercenaryFuwenIcon128"
+    }
+   ]
+  },
+  {
+   "card": "Origin Tartarus Skill",
+   "tab": "OriginTartarusSkill",
+   "entries": [
+    {
+     "lines": [
+      "Casts this skill to create a black hole at the target location, dealing 100-100 Persistent Physical Damage per second to enemies within a certain area and periodically Reverse Knocking Back enemies inside for 4s",
+      "While Black Hole is active, gains Synergy Shift",
+      "Black Hole:",
+      "Deals 100-100 Persistent Physical Damage per second",
+      "Reverse Knocks Back enemies every 0.3s",
+      "Lasts 4s",
+      "While this skill lasts, gains Synergy Shift",
+      "Knockback effect from this skill is reversed",
+      "Gains Synergy Shift while this skill lasts"
+     ],
+     "name": "Origin Tartarus: Black Hole I",
+     "key": "Origin_Tartarus_Black_Hole_I"
+    },
+    {
+     "lines": [
+      "Casts this skill to create a black hole at the target location, dealing 100-100 Persistent Physical Damage per second to enemies within a certain area and periodically Reverse Knocking Back enemies inside for 4s",
+      "While Black Hole is active, gains Synergy Shift",
+      "Black Hole:",
+      "Deals 100-100 Persistent Physical Damage per second",
+      "Reverse Knocks Back enemies every 0.3s",
+      "Lasts 4s",
+      "While this skill lasts, gains Synergy Shift",
+      "Knockback effect from this skill is reversed",
+      "Gains Synergy Shift while this skill lasts",
+      "<Random Support Skill>"
+     ],
+     "name": "Origin Tartarus: Black Hole II",
+     "key": "Origin_Tartarus_Black_Hole_II"
+    },
+    {
+     "lines": [
+      "Casts this skill to create a black hole at the target location, dealing 100-100 Persistent Physical Damage per second to enemies within a certain area and periodically Reverse Knocking Back enemies inside for 4s",
+      "While Black Hole is active, gains Synergy Shift",
+      "Black Hole:",
+      "Deals 100-100 Persistent Physical Damage per second",
+      "Reverse Knocks Back enemies every 0.3s",
+      "Lasts 4s",
+      "While this skill lasts, gains Synergy Shift",
+      "Knockback effect from this skill is reversed",
+      "Gains Synergy Shift while this skill lasts",
+      "<Random Support Skill>",
+      "<Random Support Skill>",
+      "<Empty Support Skill Slot or Random Support Skill>"
+     ],
+     "name": "Origin Tartarus: Black Hole III",
+     "key": "Origin_Tartarus_Black_Hole_III"
+    },
+    {
+     "lines": [
+      "Casts this skill to release a fire pulse, dealing 50-50 Spell Fire Damage to enemies within a certain area, and reaps 1s of Damage Over Time",
+      "For every 1 time Reaped recently, 30% Reaping Duration for you and allies. Stacks up to 10 time(s)",
+      "Scorching Pulse:",
+      "Deals 50-50 Spell Fire Damage.",
+      "Reaps 1 s of all Damage Over Time when this skill hits",
+      "+30% Reaping Duration for the Follower and allies for each Reaping dealt recently. Stacks up to 10 time(s)"
+     ],
+     "name": "Origin Tartarus: Scorching Pulse I",
+     "key": "Origin_Tartarus_Scorching_Pulse_I"
+    },
+    {
+     "lines": [
+      "Casts this skill to release a fire pulse, dealing 50-50 Spell Fire Damage to enemies within a certain area, and reaps 1s of Damage Over Time",
+      "For every 1 time Reaped recently, 30% Reaping Duration for you and allies. Stacks up to 10 time(s)",
+      "Scorching Pulse:",
+      "Deals 50-50 Spell Fire Damage.",
+      "Reaps 1 s of all Damage Over Time when this skill hits",
+      "+30% Reaping Duration for the Follower and allies for each Reaping dealt recently. Stacks up to 10 time(s)",
+      "<Random Support Skill>"
+     ],
+     "name": "Origin Tartarus: Scorching Pulse II",
+     "key": "Origin_Tartarus_Scorching_Pulse_II"
+    },
+    {
+     "lines": [
+      "Casts this skill to release a fire pulse, dealing 50-50 Spell Fire Damage to enemies within a certain area, and reaps 1s of Damage Over Time",
+      "For every 1 time Reaped recently, 30% Reaping Duration for you and allies. Stacks up to 10 time(s)",
+      "Scorching Pulse:",
+      "Deals 50-50 Spell Fire Damage.",
+      "Reaps 1 s of all Damage Over Time when this skill hits",
+      "+30% Reaping Duration for the Follower and allies for each Reaping dealt recently. Stacks up to 10 time(s)",
+      "<Random Support Skill>",
+      "<Random Support Skill>",
+      "<Empty Support Skill Slot or Random Support Skill>"
+     ],
+     "name": "Origin Tartarus: Scorching Pulse III",
+     "key": "Origin_Tartarus_Scorching_Pulse_III"
+    },
+    {
+     "lines": [
+      "Cooldown: 3s",
+      "Deals 50-50 Attack Physical Damage",
+      "You gain 8 stack(s) of Fortify after 1 s when this skill casts a Steep Strike",
+      "You lose 3 stack(s) of Fortify when a skill is cast",
+      "This skill +30% Steep Strike chance.",
+      "-70% additional Attack Speed for this skill",
+      "You gain 8 stack(s) of Fortify after 1 s when this skill casts a Steep Strike",
+      "You lose 3 stack(s) of Fortify when a skill is cast",
+      "This skill +30% Steep Strike chance.",
+      "-70% additional Attack Speed for this skill"
+     ],
+     "name": "Origin Tartarus: Focused Slash I",
+     "key": "Origin_Tartarus_Focused_Slash_I"
+    },
+    {
+     "lines": [
+      "Cooldown: 3s",
+      "Deals 50-50 Attack Physical Damage",
+      "You gain 8 stack(s) of Fortify after 1 s when this skill casts a Steep Strike",
+      "You lose 3 stack(s) of Fortify when a skill is cast",
+      "This skill +30% Steep Strike chance.",
+      "-70% additional Attack Speed for this skill",
+      "You gain 8 stack(s) of Fortify after 1 s when this skill casts a Steep Strike",
+      "You lose 3 stack(s) of Fortify when a skill is cast",
+      "This skill +30% Steep Strike chance.",
+      "-70% additional Attack Speed for this skill",
+      "<Random Support Skill>"
+     ],
+     "name": "Origin Tartarus: Focused Slash II",
+     "key": "Origin_Tartarus_Focused_Slash_II"
+    },
+    {
+     "lines": [
+      "Cooldown: 3s",
+      "Deals 50-50 Attack Physical Damage",
+      "You gain 8 stack(s) of Fortify after 1 s when this skill casts a Steep Strike",
+      "You lose 3 stack(s) of Fortify when a skill is cast",
+      "This skill +30% Steep Strike chance.",
+      "-70% additional Attack Speed for this skill",
+      "You gain 8 stack(s) of Fortify after 1 s when this skill casts a Steep Strike",
+      "You lose 3 stack(s) of Fortify when a skill is cast",
+      "This skill +30% Steep Strike chance.",
+      "-70% additional Attack Speed for this skill",
+      "<Random Support Skill>",
+      "<Random Support Skill>",
+      "<Empty Support Skill Slot or Random Support Skill>"
+     ],
+     "name": "Origin Tartarus: Focused Slash III",
+     "key": "Origin_Tartarus_Focused_Slash_III"
+    },
+    {
+     "lines": [
+      "Deals 50-50 Spell Fire Damage.",
+      "+1 Penetration for the small fireballs split off from this skill",
+      "Gains a type of Elemental Resonance when inflicting Ignite, landing a Critical Strike with Lightning Damage, or inflicting Cold Infiltration",
+      "While having 3 types of Elemental Resonance, inflicts Elemental Infiltration when this skill hits",
+      "+1 Penetration for the small fireballs split off from this skill",
+      "Gains a type of Elemental Resonance when inflicting Ignite, landing a Critical Strike with Lightning Damage, or inflicting Cold Infiltration",
+      "While having 3 types of Elemental Resonance, inflicts Elemental Infiltration when this skill hits"
+     ],
+     "name": "Origin Tartarus: Split Firebolt I",
+     "key": "Origin_Tartarus_Split_Firebolt_I"
+    },
+    {
+     "lines": [
+      "Deals 50-50 Spell Fire Damage.",
+      "+1 Penetration for the small fireballs split off from this skill",
+      "Gains a type of Elemental Resonance when inflicting Ignite, landing a Critical Strike with Lightning Damage, or inflicting Cold Infiltration",
+      "While having 3 types of Elemental Resonance, inflicts Elemental Infiltration when this skill hits",
+      "+1 Penetration for the small fireballs split off from this skill",
+      "Gains a type of Elemental Resonance when inflicting Ignite, landing a Critical Strike with Lightning Damage, or inflicting Cold Infiltration",
+      "While having 3 types of Elemental Resonance, inflicts Elemental Infiltration when this skill hits",
+      "<Random Support Skill>"
+     ],
+     "name": "Origin Tartarus: Split Firebolt II",
+     "key": "Origin_Tartarus_Split_Firebolt_II"
+    },
+    {
+     "lines": [
+      "Deals 50-50 Spell Fire Damage.",
+      "+1 Penetration for the small fireballs split off from this skill",
+      "Gains a type of Elemental Resonance when inflicting Ignite, landing a Critical Strike with Lightning Damage, or inflicting Cold Infiltration",
+      "While having 3 types of Elemental Resonance, inflicts Elemental Infiltration when this skill hits",
+      "+1 Penetration for the small fireballs split off from this skill",
+      "Gains a type of Elemental Resonance when inflicting Ignite, landing a Critical Strike with Lightning Damage, or inflicting Cold Infiltration",
+      "While having 3 types of Elemental Resonance, inflicts Elemental Infiltration when this skill hits",
+      "<Random Support Skill>",
+      "<Random Support Skill>",
+      "<Empty Support Skill Slot or Random Support Skill>"
+     ],
+     "name": "Origin Tartarus: Split Firebolt III",
+     "key": "Origin_Tartarus_Split_Firebolt_III"
+    },
+    {
+     "lines": [
+      "Sweep Slash:",
+      "50-50 Attack Physical Damage",
+      "+30% additional Physical Damage taken by the target for 4s when this skill hits an enemy with Trauma",
+      "Deals 50-50 Attack Physical Damage.",
+      "Grant a stack of buff when this skill defeats an enemy or hits an Elite",
+      "The skill has a 50% chance to obtain an additional stack of buff upon hitting an Elite with Steep Strikes",
+      "This skill +20% Steep Strike chance.",
+      "The target takes +30% additional Physical Damage for 4s when this skill hits an enemy with Trauma"
+     ],
+     "name": "Origin Tartarus: Berserking Blade I",
+     "key": "Origin_Tartarus_Berserking_Blade_I"
+    },
+    {
+     "lines": [
+      "Sweep Slash:",
+      "50-50 Attack Physical Damage",
+      "+30% additional Physical Damage taken by the target for 4s when this skill hits an enemy with Trauma",
+      "Deals 50-50 Attack Physical Damage.",
+      "Grant a stack of buff when this skill defeats an enemy or hits an Elite",
+      "The skill has a 50% chance to obtain an additional stack of buff upon hitting an Elite with Steep Strikes",
+      "This skill +20% Steep Strike chance.",
+      "The target takes +30% additional Physical Damage for 4s when this skill hits an enemy with Trauma",
+      "<Random Support Skill>"
+     ],
+     "name": "Origin Tartarus: Berserking Blade II",
+     "key": "Origin_Tartarus_Berserking_Blade_II"
+    },
+    {
+     "lines": [
+      "Sweep Slash:",
+      "50-50 Attack Physical Damage",
+      "+30% additional Physical Damage taken by the target for 4s when this skill hits an enemy with Trauma",
+      "Deals 50-50 Attack Physical Damage.",
+      "Grant a stack of buff when this skill defeats an enemy or hits an Elite",
+      "The skill has a 50% chance to obtain an additional stack of buff upon hitting an Elite with Steep Strikes",
+      "This skill +20% Steep Strike chance.",
+      "The target takes +30% additional Physical Damage for 4s when this skill hits an enemy with Trauma",
+      "<Random Support Skill>",
+      "<Random Support Skill>",
+      "<Empty Support Skill Slot or Random Support Skill>"
+     ],
+     "name": "Origin Tartarus: Berserking Blade III",
+     "key": "Origin_Tartarus_Berserking_Blade_III"
+    },
+    {
+     "lines": [
+      "Deals 50-50 Spell Erosion Damage.",
+      "Inflicts 1 stack of Ill Will for each Crowd Control Effect the target has when this skill hits. Interval: 1s",
+      "Inflicts 1 stack of Ill Will for each Crowd Control Effect the target has when this skill hits. Interval: 1s"
+     ],
+     "name": "Origin Tartarus: Shackles of Malice I",
+     "key": "Origin_Tartarus_Shackles_of_Malice_I"
+    },
+    {
+     "lines": [
+      "Deals 50-50 Spell Erosion Damage.",
+      "Inflicts 1 stack of Ill Will for each Crowd Control Effect the target has when this skill hits. Interval: 1s",
+      "Inflicts 1 stack of Ill Will for each Crowd Control Effect the target has when this skill hits. Interval: 1s",
+      "<Random Support Skill>"
+     ],
+     "name": "Origin Tartarus: Shackles of Malice II",
+     "key": "Origin_Tartarus_Shackles_of_Malice_II"
+    },
+    {
+     "lines": [
+      "Deals 50-50 Spell Erosion Damage.",
+      "Inflicts 1 stack of Ill Will for each Crowd Control Effect the target has when this skill hits. Interval: 1s",
+      "Inflicts 1 stack of Ill Will for each Crowd Control Effect the target has when this skill hits. Interval: 1s",
+      "<Random Support Skill>",
+      "<Random Support Skill>",
+      "<Empty Support Skill Slot or Random Support Skill>"
+     ],
+     "name": "Origin Tartarus: Shackles of Malice III",
+     "key": "Origin_Tartarus_Shackles_of_Malice_III"
+    },
+    {
+     "lines": [
+      "Sweep Slash:",
+      "Deals 50-50 Attack Lightning Damage",
+      "+7% additional Steep Strike Damage (multiplies) for the Follower and nearby allies for each Steep Strike cast recently. Stacks up to 8 time(s)",
+      "Deals 50-50 Attack Lightning Damage.",
+      "+7% additional Steep Strike Damage (multiplies) for the Follower and nearby allies for each Steep Strike cast recently. Stacks up to 8 time(s)"
+     ],
+     "name": "Origin Tartarus: Thunder Slash I",
+     "key": "Origin_Tartarus_Thunder_Slash_I"
+    },
+    {
+     "lines": [
+      "Sweep Slash:",
+      "Deals 50-50 Attack Lightning Damage",
+      "+7% additional Steep Strike Damage (multiplies) for the Follower and nearby allies for each Steep Strike cast recently. Stacks up to 8 time(s)",
+      "Deals 50-50 Attack Lightning Damage.",
+      "+7% additional Steep Strike Damage (multiplies) for the Follower and nearby allies for each Steep Strike cast recently. Stacks up to 8 time(s)",
+      "<Random Support Skill>"
+     ],
+     "name": "Origin Tartarus: Thunder Slash II",
+     "key": "Origin_Tartarus_Thunder_Slash_II"
+    },
+    {
+     "lines": [
+      "Sweep Slash:",
+      "Deals 50-50 Attack Lightning Damage",
+      "+7% additional Steep Strike Damage (multiplies) for the Follower and nearby allies for each Steep Strike cast recently. Stacks up to 8 time(s)",
+      "Deals 50-50 Attack Lightning Damage.",
+      "+7% additional Steep Strike Damage (multiplies) for the Follower and nearby allies for each Steep Strike cast recently. Stacks up to 8 time(s)",
+      "<Random Support Skill>",
+      "<Random Support Skill>",
+      "<Empty Support Skill Slot or Random Support Skill>"
+     ],
+     "name": "Origin Tartarus: Thunder Slash III",
+     "key": "Origin_Tartarus_Thunder_Slash_III"
+    },
+    {
+     "lines": [
+      "Thrust:",
+      "Deals 50-50 Attack Cold Damage",
+      "0.9% additional Shadow Damage (multiplies) for the Follower and nearby allies for each hit recently. Stacks up to 60 time(s)",
+      "+1 to Shadow Quantity for this skill",
+      "0.9% additional Shadow Damage (multiplies) for the Follower and nearby allies for each hit recently. Stacks up to 60 time(s)",
+      "+1 to Shadow Quantity for this skill"
+     ],
+     "name": "Origin Tartarus: Frost Spike I",
+     "key": "Origin_Tartarus_Frost_Spike_I"
+    },
+    {
+     "lines": [
+      "Thrust:",
+      "Deals 50-50 Attack Cold Damage",
+      "0.9% additional Shadow Damage (multiplies) for the Follower and nearby allies for each hit recently. Stacks up to 60 time(s)",
+      "+1 to Shadow Quantity for this skill",
+      "0.9% additional Shadow Damage (multiplies) for the Follower and nearby allies for each hit recently. Stacks up to 60 time(s)",
+      "+1 to Shadow Quantity for this skill",
+      "<Random Support Skill>"
+     ],
+     "name": "Origin Tartarus: Frost Spike II",
+     "key": "Origin_Tartarus_Frost_Spike_II"
+    },
+    {
+     "lines": [
+      "Thrust:",
+      "Deals 50-50 Attack Cold Damage",
+      "0.9% additional Shadow Damage (multiplies) for the Follower and nearby allies for each hit recently. Stacks up to 60 time(s)",
+      "+1 to Shadow Quantity for this skill",
+      "0.9% additional Shadow Damage (multiplies) for the Follower and nearby allies for each hit recently. Stacks up to 60 time(s)",
+      "+1 to Shadow Quantity for this skill",
+      "<Random Support Skill>",
+      "<Random Support Skill>",
+      "<Empty Support Skill Slot or Random Support Skill>"
+     ],
+     "name": "Origin Tartarus: Frost Spike III",
+     "key": "Origin_Tartarus_Frost_Spike_III"
+    },
+    {
+     "lines": [
+      "Deals 50-50 Attack Cold Damage.",
+      "This unit and nearby allies gain 1 stack of Projectile Amplification for each Projectile fired recently",
+      "Deals 50-50 Attack Cold Damage.",
+      "This unit and nearby allies gain 1 stack of Projectile Amplification for each Projectile fired recently",
+      "Ice Lances:",
+      "Deals 50-50 Attack Cold Damage",
+      "Fires 1 Projectile in its base state",
+      "Explosion:",
+      "Deals 50-50 Attack Cold Damage."
+     ],
+     "name": "Origin Tartarus: Ice Shot I",
+     "key": "Origin_Tartarus_Ice_Shot_I"
+    },
+    {
+     "lines": [
+      "Deals 50-50 Attack Cold Damage.",
+      "This unit and nearby allies gain 1 stack of Projectile Amplification for each Projectile fired recently",
+      "Deals 50-50 Attack Cold Damage.",
+      "This unit and nearby allies gain 1 stack of Projectile Amplification for each Projectile fired recently",
+      "Ice Lances:",
+      "Deals 50-50 Attack Cold Damage",
+      "Fires 1 Projectile in its base state",
+      "Explosion:",
+      "Deals 50-50 Attack Cold Damage.",
+      "<Random Support Skill>"
+     ],
+     "name": "Origin Tartarus: Ice Shot II",
+     "key": "Origin_Tartarus_Ice_Shot_II"
+    },
+    {
+     "lines": [
+      "Deals 50-50 Attack Cold Damage.",
+      "This unit and nearby allies gain 1 stack of Projectile Amplification for each Projectile fired recently",
+      "Deals 50-50 Attack Cold Damage.",
+      "This unit and nearby allies gain 1 stack of Projectile Amplification for each Projectile fired recently",
+      "Ice Lances:",
+      "Deals 50-50 Attack Cold Damage",
+      "Fires 1 Projectile in its base state",
+      "Explosion:",
+      "Deals 50-50 Attack Cold Damage.",
+      "<Random Support Skill>",
+      "<Random Support Skill>",
+      "<Empty Support Skill Slot or Random Support Skill>"
+     ],
+     "name": "Origin Tartarus: Ice Shot III",
+     "key": "Origin_Tartarus_Ice_Shot_III"
+    },
+    {
+     "lines": [
+      "Casts this skill to unleash a Warcry: +6% additional Attack Damage and Ailment Damage dealt by attacks for allies for each Warcry Skill cast. Stacks up to 6 times",
+      "Lasts 5s",
+      "Casts this skill to unleash a Warcry: +6% additional Attack Damage and Ailment Damage dealt by attacks for allies for each Warcry Skill cast. Stacks up to 6 times"
+     ],
+     "name": "Origin Tartarus: Fearless Warcry I",
+     "key": "Origin_Tartarus_Fearless_Warcry_I"
+    },
+    {
+     "lines": [
+      "Casts this skill to unleash a Warcry: +6% additional Attack Damage and Ailment Damage dealt by attacks for allies for each Warcry Skill cast. Stacks up to 6 times",
+      "Lasts 5s",
+      "Casts this skill to unleash a Warcry: +6% additional Attack Damage and Ailment Damage dealt by attacks for allies for each Warcry Skill cast. Stacks up to 6 times",
+      "<Random Support Skill>"
+     ],
+     "name": "Origin Tartarus: Fearless Warcry II",
+     "key": "Origin_Tartarus_Fearless_Warcry_II"
+    },
+    {
+     "lines": [
+      "Casts this skill to unleash a Warcry: +6% additional Attack Damage and Ailment Damage dealt by attacks for allies for each Warcry Skill cast. Stacks up to 6 times",
+      "Lasts 5s",
+      "Casts this skill to unleash a Warcry: +6% additional Attack Damage and Ailment Damage dealt by attacks for allies for each Warcry Skill cast. Stacks up to 6 times",
+      "<Random Support Skill>",
+      "<Random Support Skill>",
+      "<Empty Support Skill Slot or Random Support Skill>"
+     ],
+     "name": "Origin Tartarus: Fearless Warcry III",
+     "key": "Origin_Tartarus_Fearless_Warcry_III"
+    },
+    {
+     "lines": [
+      "Casts this skill to unleash a Warcry: Deals 50-50 Spell Physical Damage to affected enemies and inflicts 5 stack(s) of debuff: +50% additional Attack Hit Damage taken for 4s while the debuff effect exists. Loses 1 stack of debuff when hit by an attack"
+     ],
+     "name": "Origin Tartarus: Raging Warcry I",
+     "key": "Origin_Tartarus_Raging_Warcry_I"
+    },
+    {
+     "lines": [
+      "Casts this skill to unleash a Warcry: Deals 50-50 Spell Physical Damage to affected enemies and inflicts 5 stack(s) of debuff: +50% additional Attack Hit Damage taken for 4s while the debuff effect exists. Loses 1 stack of debuff when hit by an attack",
+      "<Random Support Skill>"
+     ],
+     "name": "Origin Tartarus: Raging Warcry II",
+     "key": "Origin_Tartarus_Raging_Warcry_II"
+    },
+    {
+     "lines": [
+      "Casts this skill to unleash a Warcry: Deals 50-50 Spell Physical Damage to affected enemies and inflicts 5 stack(s) of debuff: +50% additional Attack Hit Damage taken for 4s while the debuff effect exists. Loses 1 stack of debuff when hit by an attack",
+      "<Random Support Skill>",
+      "<Random Support Skill>",
+      "<Empty Support Skill Slot or Random Support Skill>"
+     ],
+     "name": "Origin Tartarus: Raging Warcry III",
+     "key": "Origin_Tartarus_Raging_Warcry_III"
+    },
+    {
+     "lines": [
+      "Grants 1 stack of Mystic Spread to allies when casting this skill. There is a 50% chance for allies within this skill's area to gain 1 additional stack of Mystic Spread for each stack of Spell Burst this unit consume",
+      "Grants 1 stack of Mystic Spread to allies when casting this skill. There is a 50% chance for allies within this skill's area to gain 1 additional stack of Mystic Spread for each stack of Spell Burst this unit consume"
+     ],
+     "name": "Origin Tartarus: Arcane Circle I",
+     "key": "Origin_Tartarus_Arcane_Circle_I"
+    },
+    {
+     "lines": [
+      "Grants 1 stack of Mystic Spread to allies when casting this skill. There is a 50% chance for allies within this skill's area to gain 1 additional stack of Mystic Spread for each stack of Spell Burst this unit consume",
+      "Grants 1 stack of Mystic Spread to allies when casting this skill. There is a 50% chance for allies within this skill's area to gain 1 additional stack of Mystic Spread for each stack of Spell Burst this unit consume",
+      "<Random Support Skill>"
+     ],
+     "name": "Origin Tartarus: Arcane Circle II",
+     "key": "Origin_Tartarus_Arcane_Circle_II"
+    },
+    {
+     "lines": [
+      "Grants 1 stack of Mystic Spread to allies when casting this skill. There is a 50% chance for allies within this skill's area to gain 1 additional stack of Mystic Spread for each stack of Spell Burst this unit consume",
+      "Grants 1 stack of Mystic Spread to allies when casting this skill. There is a 50% chance for allies within this skill's area to gain 1 additional stack of Mystic Spread for each stack of Spell Burst this unit consume",
+      "<Random Support Skill>",
+      "<Random Support Skill>",
+      "<Empty Support Skill Slot or Random Support Skill>"
+     ],
+     "name": "Origin Tartarus: Arcane Circle III",
+     "key": "Origin_Tartarus_Arcane_Circle_III"
+    },
+    {
+     "lines": [
+      "Casts this skill to place 1 Fire Sentry at the target location. The sentry releases a shockwave every 1s. Releases 1 additional shockwave for each Spell Skill cast. Shockwaves deal 498-925 Spell Fire Damage and inflict 1 random type of Crowd Control Effect",
+      "Skill's max base Sentry quantity is 1",
+      "Inflicts a random Crowd Control Effect when this skill hits",
+      "Sentries unleash 1 additional shockwave each time a Spell Skill is cast"
+     ],
+     "name": "Origin Tartarus: Flame Core I",
+     "key": "Origin_Tartarus_Flame_Core_I"
+    },
+    {
+     "lines": [
+      "Casts this skill to place 1 Fire Sentry at the target location. The sentry releases a shockwave every 1s. Releases 1 additional shockwave for each Spell Skill cast. Shockwaves deal 498-925 Spell Fire Damage and inflict 1 random type of Crowd Control Effect",
+      "Skill's max base Sentry quantity is 1",
+      "Inflicts a random Crowd Control Effect when this skill hits",
+      "Sentries unleash 1 additional shockwave each time a Spell Skill is cast",
+      "<Random Support Skill>"
+     ],
+     "name": "Origin Tartarus: Flame Core II",
+     "key": "Origin_Tartarus_Flame_Core_II"
+    },
+    {
+     "lines": [
+      "Casts this skill to place 1 Fire Sentry at the target location. The sentry releases a shockwave every 1s. Releases 1 additional shockwave for each Spell Skill cast. Shockwaves deal 498-925 Spell Fire Damage and inflict 1 random type of Crowd Control Effect",
+      "Skill's max base Sentry quantity is 1",
+      "Inflicts a random Crowd Control Effect when this skill hits",
+      "Sentries unleash 1 additional shockwave each time a Spell Skill is cast",
+      "<Random Support Skill>",
+      "<Random Support Skill>",
+      "<Empty Support Skill Slot or Random Support Skill>"
+     ],
+     "name": "Origin Tartarus: Flame Core III",
+     "key": "Origin_Tartarus_Flame_Core_III"
+    },
+    {
+     "lines": [
+      "Inflicts 1 stack of debuff on enemies in proximity to the starting point, path, and landing point when casting this skill: +10% additional damage taken. Lasts 4s. Stacks up to 5 times.",
+      "+20% Cooldown Recovery Speed for this skill for each cast of a Mobility Skill other than this skill recently. Stacks up to 10 times",
+      "+20% Cooldown Recovery Speed for this skill for each cast of a Mobility Skill other than this skill recently. Stacks up to 10 times"
+     ],
+     "name": "Origin Tartarus: Shadow Dash I",
+     "key": "Origin_Tartarus_Shadow_Dash_I"
+    },
+    {
+     "lines": [
+      "Inflicts 1 stack of debuff on enemies in proximity to the starting point, path, and landing point when casting this skill: +10% additional damage taken. Lasts 4s. Stacks up to 5 times.",
+      "+20% Cooldown Recovery Speed for this skill for each cast of a Mobility Skill other than this skill recently. Stacks up to 10 times",
+      "+20% Cooldown Recovery Speed for this skill for each cast of a Mobility Skill other than this skill recently. Stacks up to 10 times",
+      "<Random Support Skill>"
+     ],
+     "name": "Origin Tartarus: Shadow Dash II",
+     "key": "Origin_Tartarus_Shadow_Dash_II"
+    },
+    {
+     "lines": [
+      "Inflicts 1 stack of debuff on enemies in proximity to the starting point, path, and landing point when casting this skill: +10% additional damage taken. Lasts 4s. Stacks up to 5 times.",
+      "+20% Cooldown Recovery Speed for this skill for each cast of a Mobility Skill other than this skill recently. Stacks up to 10 times",
+      "+20% Cooldown Recovery Speed for this skill for each cast of a Mobility Skill other than this skill recently. Stacks up to 10 times",
+      "<Random Support Skill>",
+      "<Random Support Skill>",
+      "<Empty Support Skill Slot or Random Support Skill>"
+     ],
+     "name": "Origin Tartarus: Shadow Dash III",
+     "key": "Origin_Tartarus_Shadow_Dash_III"
+    },
+    {
+     "lines": [
+      "Casts this skill to place a Safeguard Sentry at the enemy's and your location for 6s, periodically dealing 50-50 Spell Physical Damage to enemies within the area",
+      "Skill's max base Sentry quantity is 2",
+      "Also inflicts Curses on you when inflicting Curses",
+      "Followers can inflict 4 additional Curse(s)",
+      "Removes Tenacity Blessing from all units within Sentry range when this skill releases a shockwave, inflicting Timid Curse on all units upon successful removal. Removes Ignite, Numbed, Frostbite, and Wilt from all units within Sentry range, inflicting the corresponding Curses on all units upon successful removal",
+      "Skill's max base Sentry quantity is 2",
+      "Also inflicts Curses on you when inflicting Curses",
+      "Followers can inflict 4 additional Curse(s)"
+     ],
+     "name": "Origin Tartarus: Safeguard Ring I",
+     "key": "Origin_Tartarus_Safeguard_Ring_I"
+    },
+    {
+     "lines": [
+      "Casts this skill to place a Safeguard Sentry at the enemy's and your location for 6s, periodically dealing 50-50 Spell Physical Damage to enemies within the area",
+      "Skill's max base Sentry quantity is 2",
+      "Also inflicts Curses on you when inflicting Curses",
+      "Followers can inflict 4 additional Curse(s)",
+      "Removes Tenacity Blessing from all units within Sentry range when this skill releases a shockwave, inflicting Timid Curse on all units upon successful removal. Removes Ignite, Numbed, Frostbite, and Wilt from all units within Sentry range, inflicting the corresponding Curses on all units upon successful removal",
+      "Skill's max base Sentry quantity is 2",
+      "Also inflicts Curses on you when inflicting Curses",
+      "Followers can inflict 4 additional Curse(s)",
+      "<Random Support Skill>"
+     ],
+     "name": "Origin Tartarus: Safeguard Ring II",
+     "key": "Origin_Tartarus_Safeguard_Ring_II"
+    },
+    {
+     "lines": [
+      "Casts this skill to place a Safeguard Sentry at the enemy's and your location for 6s, periodically dealing 50-50 Spell Physical Damage to enemies within the area",
+      "Skill's max base Sentry quantity is 2",
+      "Also inflicts Curses on you when inflicting Curses",
+      "Followers can inflict 4 additional Curse(s)",
+      "Removes Tenacity Blessing from all units within Sentry range when this skill releases a shockwave, inflicting Timid Curse on all units upon successful removal. Removes Ignite, Numbed, Frostbite, and Wilt from all units within Sentry range, inflicting the corresponding Curses on all units upon successful removal",
+      "Skill's max base Sentry quantity is 2",
+      "Also inflicts Curses on you when inflicting Curses",
+      "Followers can inflict 4 additional Curse(s)",
+      "<Random Support Skill>",
+      "<Random Support Skill>",
+      "<Empty Support Skill Slot or Random Support Skill>"
+     ],
+     "name": "Origin Tartarus: Safeguard Ring III",
+     "key": "Origin_Tartarus_Safeguard_Ring_III"
+    },
+    {
+     "lines": [
+      "Casts this skill to place 1 Sentry(ies) that lasts 4s. 1 to Max Sentry Quantity for this unit and you while the Sentries last.",
+      "While this unit is within a Sentry's area, +15% additional damage dealt by skills cast by your Spell Burst for each Sentry you and your Followers have. Stacks up to 5 time(s)",
+      "-50% additional Non-Sentry Skill Damage for you",
+      "Bond of Archery:",
+      "Sentries last 4s",
+      "Skill's max base Sentry quantity is 1",
+      "-50% additional Non-Sentry Skill Damage for you",
+      "+1 to Max Sentry Quantity for the caster and you if there is a Sentry placed by this skill",
+      "While this unit is within a Sentry's area, +15% additional damage to skills cast by your Spell Burst for each Sentry this unit and you have. Stacks up to 5 time(s)"
+     ],
+     "name": "Origin Tartarus: Bond of Archery I",
+     "key": "Origin_Tartarus_Bond_of_Archery_I"
+    },
+    {
+     "lines": [
+      "Casts this skill to place 1 Sentry(ies) that lasts 4s. 1 to Max Sentry Quantity for this unit and you while the Sentries last.",
+      "While this unit is within a Sentry's area, +15% additional damage dealt by skills cast by your Spell Burst for each Sentry you and your Followers have. Stacks up to 5 time(s)",
+      "-50% additional Non-Sentry Skill Damage for you",
+      "Bond of Archery:",
+      "Sentries last 4s",
+      "Skill's max base Sentry quantity is 1",
+      "-50% additional Non-Sentry Skill Damage for you",
+      "+1 to Max Sentry Quantity for the caster and you if there is a Sentry placed by this skill",
+      "While this unit is within a Sentry's area, +15% additional damage to skills cast by your Spell Burst for each Sentry this unit and you have. Stacks up to 5 time(s)",
+      "<Random Support Skill>"
+     ],
+     "name": "Origin Tartarus: Bond of Archery II",
+     "key": "Origin_Tartarus_Bond_of_Archery_II"
+    },
+    {
+     "lines": [
+      "Casts this skill to place 1 Sentry(ies) that lasts 4s. 1 to Max Sentry Quantity for this unit and you while the Sentries last.",
+      "While this unit is within a Sentry's area, +15% additional damage dealt by skills cast by your Spell Burst for each Sentry you and your Followers have. Stacks up to 5 time(s)",
+      "-50% additional Non-Sentry Skill Damage for you",
+      "Bond of Archery:",
+      "Sentries last 4s",
+      "Skill's max base Sentry quantity is 1",
+      "-50% additional Non-Sentry Skill Damage for you",
+      "+1 to Max Sentry Quantity for the caster and you if there is a Sentry placed by this skill",
+      "While this unit is within a Sentry's area, +15% additional damage to skills cast by your Spell Burst for each Sentry this unit and you have. Stacks up to 5 time(s)",
+      "<Random Support Skill>",
+      "<Random Support Skill>",
+      "<Empty Support Skill Slot or Random Support Skill>"
+     ],
+     "name": "Origin Tartarus: Bond of Archery III",
+     "key": "Origin_Tartarus_Bond_of_Archery_III"
+    },
+    {
+     "lines": [
+      "Casts this skill to grant allies a defensive effect:",
+      "When taking damage, +100% chance to count Max Elemental and Erosion Resistance as Effective Elemental and Erosion Resistance",
+      "-10% Max Elemental and Erosion Resistance",
+      "Lasts 4s",
+      "Generates three Frost Shields orbiting around you while this skill lasts, dealing 50-50 Spell Cold Damage",
+      "Casts this skill to grant allies a defensive effect: when taking damage, there is a +100% chance to count Max Elemental and Erosion Resistance as Effective Elemental and Erosion Resistance, and -10% all Max Resistances for 4s",
+      "Generates three Frost Shields orbiting around you while this skill lasts, dealing 50-50 Spell Cold Damage"
+     ],
+     "name": "Origin Tartarus: Frost Shield I",
+     "key": "Origin_Tartarus_Frost_Shield_I"
+    },
+    {
+     "lines": [
+      "Casts this skill to grant allies a defensive effect:",
+      "When taking damage, +100% chance to count Max Elemental and Erosion Resistance as Effective Elemental and Erosion Resistance",
+      "-10% Max Elemental and Erosion Resistance",
+      "Lasts 4s",
+      "Generates three Frost Shields orbiting around you while this skill lasts, dealing 50-50 Spell Cold Damage",
+      "Casts this skill to grant allies a defensive effect: when taking damage, there is a +100% chance to count Max Elemental and Erosion Resistance as Effective Elemental and Erosion Resistance, and -10% all Max Resistances for 4s",
+      "Generates three Frost Shields orbiting around you while this skill lasts, dealing 50-50 Spell Cold Damage",
+      "<Random Support Skill>"
+     ],
+     "name": "Origin Tartarus: Frost Shield II",
+     "key": "Origin_Tartarus_Frost_Shield_II"
+    },
+    {
+     "lines": [
+      "Casts this skill to grant allies a defensive effect:",
+      "When taking damage, +100% chance to count Max Elemental and Erosion Resistance as Effective Elemental and Erosion Resistance",
+      "-10% Max Elemental and Erosion Resistance",
+      "Lasts 4s",
+      "Generates three Frost Shields orbiting around you while this skill lasts, dealing 50-50 Spell Cold Damage",
+      "Casts this skill to grant allies a defensive effect: when taking damage, there is a +100% chance to count Max Elemental and Erosion Resistance as Effective Elemental and Erosion Resistance, and -10% all Max Resistances for 4s",
+      "Generates three Frost Shields orbiting around you while this skill lasts, dealing 50-50 Spell Cold Damage",
+      "<Random Support Skill>",
+      "<Random Support Skill>",
+      "<Empty Support Skill Slot or Random Support Skill>"
+     ],
+     "name": "Origin Tartarus: Frost Shield III",
+     "key": "Origin_Tartarus_Frost_Shield_III"
+    },
+    {
+     "lines": [
+      "Spiral Strike:",
+      "Deals 50-50 Attack Erosion Damage",
+      "Gains Ashen Shroud when this skill hits",
+      "Loses Ashen Shroud when inflicting Non-Wilt Ailments while in Ashen Shroud state",
+      "The caster and you gain 1 stack of Stealth when inflicting Wilt while in Ashen Shroud state",
+      "Spiral Strike:",
+      "Deals 50-50 Attack Erosion Damage",
+      "The caster's Attack Speed increases the number of this skill's damage instances",
+      "Gains Ashen Shroud when this skill hits",
+      "Loses Ashen Shroud when inflicting Non-Wilt Ailments while in Ashen Shroud state",
+      "The caster and you gain 1 stack of Stealth when inflicting Wilt while in Ashen Shroud state",
+      "Gains Ashen Shroud when this skill hits\\nLoses Ashen Shroud when inflicting Non-Wilt Ailments while in Ashen Shroud state\\nThe caster and you gain 1 stack of Stealth when inflicting Wilt while in Ashen Shroud state"
+     ],
+     "name": "Origin Tartarus: Spiral Strike I",
+     "key": "Origin_Tartarus_Spiral_Strike_I"
+    },
+    {
+     "lines": [
+      "Spiral Strike:",
+      "Deals 50-50 Attack Erosion Damage",
+      "Gains Ashen Shroud when this skill hits",
+      "Loses Ashen Shroud when inflicting Non-Wilt Ailments while in Ashen Shroud state",
+      "The caster and you gain 1 stack of Stealth when inflicting Wilt while in Ashen Shroud state",
+      "Spiral Strike:",
+      "Deals 50-50 Attack Erosion Damage",
+      "The caster's Attack Speed increases the number of this skill's damage instances",
+      "Gains Ashen Shroud when this skill hits",
+      "Loses Ashen Shroud when inflicting Non-Wilt Ailments while in Ashen Shroud state",
+      "The caster and you gain 1 stack of Stealth when inflicting Wilt while in Ashen Shroud state",
+      "Gains Ashen Shroud when this skill hits\\nLoses Ashen Shroud when inflicting Non-Wilt Ailments while in Ashen Shroud state\\nThe caster and you gain 1 stack of Stealth when inflicting Wilt while in Ashen Shroud state",
+      "<Random Support Skill>"
+     ],
+     "name": "Origin Tartarus: Spiral Strike II",
+     "key": "Origin_Tartarus_Spiral_Strike_II"
+    },
+    {
+     "lines": [
+      "Spiral Strike:",
+      "Deals 50-50 Attack Erosion Damage",
+      "Gains Ashen Shroud when this skill hits",
+      "Loses Ashen Shroud when inflicting Non-Wilt Ailments while in Ashen Shroud state",
+      "The caster and you gain 1 stack of Stealth when inflicting Wilt while in Ashen Shroud state",
+      "Spiral Strike:",
+      "Deals 50-50 Attack Erosion Damage",
+      "The caster's Attack Speed increases the number of this skill's damage instances",
+      "Gains Ashen Shroud when this skill hits",
+      "Loses Ashen Shroud when inflicting Non-Wilt Ailments while in Ashen Shroud state",
+      "The caster and you gain 1 stack of Stealth when inflicting Wilt while in Ashen Shroud state",
+      "Gains Ashen Shroud when this skill hits\\nLoses Ashen Shroud when inflicting Non-Wilt Ailments while in Ashen Shroud state\\nThe caster and you gain 1 stack of Stealth when inflicting Wilt while in Ashen Shroud state",
+      "<Random Support Skill>",
+      "<Random Support Skill>",
+      "<Empty Support Skill Slot or Random Support Skill>"
+     ],
+     "name": "Origin Tartarus: Spiral Strike III",
+     "key": "Origin_Tartarus_Spiral_Strike_III"
+    }
+   ]
+  }
+ ]
+}

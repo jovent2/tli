@@ -1,0 +1,1503 @@
+{
+ "page": "Corrosion",
+ "cards": [
+  {
+   "card": "Corrosion Effect",
+   "tab": "CorrosionEffect",
+   "entries": [
+    {
+     "lines": [
+      "Mutation",
+      "Removes all Base affixes from the gear, then adds 1 Aember Base affix and turns the gear into Corroded gear."
+     ],
+     "icon": "UICorIconHong"
+    },
+    {
+     "lines": [
+      "Chaos",
+      "Re-rolls the values of all pre-fixes/suffixes without changing affix tiers, and sets the gear to Corroded.",
+      "Binds the gear."
+     ],
+     "icon": "UICorIconFen"
+    },
+    {
+     "lines": [
+      "Desecration",
+      "Upgrades 2 pre-fixes/suffixes by 1 tier and sets the gear to Corroded."
+     ],
+     "icon": "UICorIconZi"
+    },
+    {
+     "lines": [
+      "Arrogance",
+      "Upgrades 1 pre-fix/suffix by 1 tier and sets the gear to Corroded."
+     ],
+     "icon": "UICorIconLan"
+    },
+    {
+     "lines": [
+      "Void",
+      "Sets the gear to Corroded.",
+      "Binds the gear."
+     ],
+     "icon": "UICorIconQing"
+    },
+    {
+     "lines": [
+      "Mutation",
+      "Removes all Base affixes from the gear, then adds 1 Aember Base affix and sets the gear to Corroded.",
+      "Binds the gear."
+     ],
+     "icon": "UICorIconHong"
+    },
+    {
+     "lines": [
+      "Hyperplastic",
+      "Upgrade 1 random affix by 1-2 tiers"
+     ],
+     "icon": "UICorIconHong"
+    },
+    {
+     "lines": [
+      "Limb-Stitched",
+      "Upgrade 2 random affixes by 1-2 tiers"
+     ],
+     "icon": "UICorIconFen"
+    },
+    {
+     "lines": [
+      "Festered",
+      "Sets the gear to Corroded.",
+      "Binds the gear."
+     ],
+     "icon": "UICorIconZi"
+    },
+    {
+     "lines": [
+      "Metamorphosized",
+      "Upgrade all pre-fixes by 1-2 tiers"
+     ],
+     "icon": "UICorIconLan"
+    },
+    {
+     "lines": [
+      "Derived",
+      "Upgrade all suffixes by 1-2 tiers"
+     ],
+     "icon": "UICorIconQing"
+    },
+    {
+     "lines": [
+      "Mutation",
+      "Does not remove Base Affixes on gear, and adds 1 Aember Base Affix, up to 4. Sets the gear to Corroded."
+     ],
+     "icon": "UICorIconHong"
+    },
+    {
+     "lines": [
+      "Mutation",
+      "Does not remove Base Affixes on gear, and adds 2 Aember Base Affixes, up to 4. Sets the gear to Corroded."
+     ],
+     "icon": "UICorIconHong"
+    },
+    {
+     "lines": [
+      "Chaos",
+      "There is a 100% chance to randomly remove an affix from this gear and set the gear to Corroded."
+     ],
+     "icon": "UICorIconFen"
+    },
+    {
+     "lines": [
+      "Chaos",
+      "There is a 50% chance to randomly remove an affix from this gear and set the gear to Corroded."
+     ],
+     "icon": "UICorIconFen"
+    },
+    {
+     "lines": [
+      "Desecration",
+      "Retains Aember Base Affixes and randomly replaces the gear with a pair of Matchless Legendary Gloves. Sets the gear to Corroded."
+     ],
+     "icon": "UICorIconZi"
+    },
+    {
+     "lines": [
+      "Desecration",
+      "Retains Aember Base Affixes and randomly replaces the gear with a pair of Matchless Legendary Gloves, randomly upgrading 3 of those affixes by 1 tier. Sets the gear to Corroded."
+     ],
+     "icon": "UICorIconZi"
+    },
+    {
+     "lines": [
+      "Arrogance",
+      "Upgrades 2 pre-fixes/suffixes by 1 tier and sets the gear to Corroded"
+     ],
+     "icon": "UICorIconLan"
+    },
+    {
+     "lines": [
+      "Void",
+      "Puts gear into the Corroded state"
+     ],
+     "icon": "UICorIconQing"
+    }
+   ]
+  },
+  {
+   "card": "Corrosion Base Affix",
+   "tab": "CorrosionBaseAffix",
+   "tables": [
+    {
+     "header": [
+      "tier",
+      "modifier",
+      "type"
+     ],
+     "rows": [
+      {
+       "cells": [
+        "0",
+        "+1 to Max Tenacity Blessing Stacks",
+        "Claw"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+1 to Max Agility Blessing Stacks",
+        "Claw"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+1 to Max Focus Blessing Stacks",
+        "Claw"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Main Skill is supported by Lv. 10 Quick Decision",
+        "Claw"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Main Skill is supported by Lv. 10 Dual Onslaught",
+        "Claw"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+1 to Max Tenacity Blessing Stacks",
+        "Cane"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+1 to Max Agility Blessing Stacks",
+        "Cane"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+1 to Max Focus Blessing Stacks",
+        "Cane"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Main Skill is supported by Lv. 10 Quick Decision",
+        "Cane"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "The Main Skill is supported by Lv. 10 Wind Projectiles.",
+        "Cane"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+1 to Max Tenacity Blessing Stacks",
+        "One-Handed Hammer"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+1 to Max Agility Blessing Stacks",
+        "One-Handed Hammer"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+1 to Max Focus Blessing Stacks",
+        "One-Handed Hammer"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Main Skill is supported by Lv. 10 Quick Return",
+        "One-Handed Hammer"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Main Skill is supported by Lv. 10 Increased Area",
+        "One-Handed Hammer"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+1 to Max Tenacity Blessing Stacks",
+        "One-Handed Sword"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+1 to Max Agility Blessing Stacks",
+        "One-Handed Sword"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+1 to Max Focus Blessing Stacks",
+        "One-Handed Sword"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Main Skill is supported by Lv. 10 Quick Decision",
+        "One-Handed Sword"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Main Skill is supported by Lv. 10 Elemental Impact",
+        "One-Handed Sword"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+1 to Max Tenacity Blessing Stacks",
+        "One-Handed Axe"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+1 to Max Agility Blessing Stacks",
+        "One-Handed Axe"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+1 to Max Focus Blessing Stacks",
+        "One-Handed Axe"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Main Skill is supported by Lv. 10 Quick Decision",
+        "One-Handed Axe"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Main Skill is supported by Lv. 10 Tendonslicer",
+        "One-Handed Axe"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+1 to Max Tenacity Blessing Stacks",
+        "Dagger"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+1 to Max Agility Blessing Stacks",
+        "Dagger"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+1 to Max Focus Blessing Stacks",
+        "Dagger"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Main Skill is supported by Lv. 10 Quick Decision",
+        "Dagger"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Main Skill is supported by Lv. 10 Critical Strike Damage Increase",
+        "Dagger"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+2 to Max Tenacity Blessing Stacks",
+        "Bow"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+2 to Max Agility Blessing Stacks",
+        "Bow"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+2 to Max Focus Blessing Stacks",
+        "Bow"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Lucky Critical Strike / (-50–-40)% Critical Strike Rating",
+        "Bow"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Enemies have a (20–25)% chance to explode when defeated by an Attack or Spell, dealing True Damage equal to (250–300)% of their Max Life to enemies within a 6 m radius",
+        "Bow"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Main Skill is supported by Lv. 10 Quick Decision / The Main Skill is supported by Lv. 10 Wind Projectiles.",
+        "Bow"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Main Skill is supported by Lv. 10 Hunting Tempo / Main Skill is supported by Lv. 10 Projectile Penetration",
+        "Bow"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+2 to Max Tenacity Blessing Stacks",
+        "Two-Handed Sword"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+2 to Max Agility Blessing Stacks",
+        "Two-Handed Sword"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+2 to Max Focus Blessing Stacks",
+        "Two-Handed Sword"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Lucky Critical Strike / (-50–-40)% Critical Strike Rating",
+        "Two-Handed Sword"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Main Skill is supported by Lv. 10 Quick Decision / Main Skill is supported by Lv. 10 Weakness Infiltration",
+        "Two-Handed Sword"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Main Skill is supported by Lv. 10 Melee Knockback / Main Skill is supported by Lv. 10 Increased Area",
+        "Two-Handed Sword"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+2 to Max Tenacity Blessing Stacks",
+        "Two-Handed Hammer"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+2 to Max Agility Blessing Stacks",
+        "Two-Handed Hammer"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+2 to Max Focus Blessing Stacks",
+        "Two-Handed Hammer"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Lucky Critical Strike / (-50–-40)% Critical Strike Rating",
+        "Two-Handed Hammer"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Enemies have a (20–25)% chance to explode when defeated by an Attack or Spell, dealing True Damage equal to (250–300)% of their Max Life to enemies within a 6 m radius",
+        "Two-Handed Hammer"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Main Skill is supported by Lv. 10 Quick Return / Main Skill is supported by Lv. 10 Critical Strike Damage Increase",
+        "Two-Handed Hammer"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Main Skill is supported by Lv. 10 Melee Knockback / Main Skill is supported by Lv. 10 Increased Area",
+        "Two-Handed Hammer"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+2 to Max Tenacity Blessing Stacks",
+        "Tin Staff"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+2 to Max Agility Blessing Stacks",
+        "Tin Staff"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+2 to Max Focus Blessing Stacks",
+        "Tin Staff"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Enemies have a (20–25)% chance to explode when defeated by an Attack or Spell, dealing True Damage equal to (250–300)% of their Max Life to enemies within a 6 m radius",
+        "Tin Staff"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Main Skill is supported by Lv. 10 Quick Decision / Main Skill is supported by Lv. 10 Empowered Insight",
+        "Tin Staff"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Main Skill is supported by Lv. 10 Grudge / Main Skill is supported by Lv. 10 Critical Strike Damage Increase",
+        "Tin Staff"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+2 to Max Tenacity Blessing Stacks",
+        "Two-Handed Axe"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+2 to Max Agility Blessing Stacks",
+        "Two-Handed Axe"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+2 to Max Focus Blessing Stacks",
+        "Two-Handed Axe"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Lucky Critical Strike / (-50–-40)% Critical Strike Rating",
+        "Two-Handed Axe"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Main Skill is supported by Lv. 10 Quick Decision / Main Skill is supported by Lv. 10 Weakness Infiltration",
+        "Two-Handed Axe"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Main Skill is supported by Lv. 10 Tendonslicer / Main Skill is supported by Lv. 10 Increased Area",
+        "Two-Handed Axe"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+2 to Max Tenacity Blessing Stacks",
+        "Cudgel"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+2 to Max Agility Blessing Stacks",
+        "Cudgel"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+2 to Max Focus Blessing Stacks",
+        "Cudgel"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Lucky Critical Strike / (-50–-40)% Critical Strike Rating",
+        "Cudgel"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Main Skill is supported by Lv. 10 Quick Decision / Main Skill is supported by Lv. 10 Weakness Infiltration",
+        "Cudgel"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Main Skill is supported by Lv. 10 Channel Preparation / Main Skill is supported by Lv. 10 Empowered Channeling",
+        "Cudgel"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Triggers Lv. 20 Vulnerability Curse upon dealing damage to enemies. Cooldown: 0.2 s",
+        "Necklace"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Triggers Lv. 20 Scorch Curse upon dealing damage to enemies. Cooldown: 0.2 s",
+        "Necklace"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Triggers Lv. 20 Biting Cold Curse upon dealing damage to enemies. Cooldown: 0.2 s",
+        "Necklace"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Triggers Lv. 20 Electrocute Curse upon dealing damage to enemies. Cooldown: 0.2 s",
+        "Necklace"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Triggers Lv. 20 Corruption Curse upon dealing damage to enemies. Cooldown: 0.2 s",
+        "Necklace"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Immune to Frostbite",
+        "Necklace"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+1 to Max Tenacity Blessing Stacks",
+        "Ring"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+1 to Max Agility Blessing Stacks",
+        "Ring"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+1 to Max Focus Blessing Stacks",
+        "Ring"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Nearby enemies within 15 m are cursed by Lv. 20 Ominous",
+        "Ring"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Triggers Lv. 20 Timid Curse upon dealing damage to enemies. Cooldown: 0.2 s",
+        "Ring"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Triggers Lv. 20 Entangled Pain Curse upon dealing damage to enemies. Cooldown: 0.2 s",
+        "Ring"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Immune to curse",
+        "Ring"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Adds (18–20)% of Physical Damage as Fire Damage",
+        "Ring"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Adds (18–20)% of Physical Damage to Cold Damage",
+        "Ring"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Adds (18–20)% of Physical Damage as Lightning Damage",
+        "Ring"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Adds (18–20)% of Physical Damage as Erosion Damage",
+        "Ring"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+(20–25)% Cooldown Recovery Speed",
+        "Belt"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+(20–25)% Skill Effect Duration",
+        "Belt"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Gains 1 stack(s) of all Blessings when casting an Elixir Skill",
+        "Belt"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Has Hasten",
+        "Belt"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+1 to Max Tenacity Blessing Stacks",
+        "Pistol"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+1 to Max Agility Blessing Stacks",
+        "Pistol"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+1 to Max Focus Blessing Stacks",
+        "Pistol"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Main Skill is supported by Lv. 10 Quick Decision",
+        "Pistol"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "The Main Skill is supported by Lv. 10 Wind Projectiles.",
+        "Pistol"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+2 to Max Tenacity Blessing Stacks",
+        "Musket"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+2 to Max Agility Blessing Stacks",
+        "Musket"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+2 to Max Focus Blessing Stacks",
+        "Musket"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Lucky Critical Strike / (-50–-40)% Critical Strike Rating",
+        "Musket"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Main Skill is supported by Lv. 10 Quick Decision / The Main Skill is supported by Lv. 10 Wind Projectiles.",
+        "Musket"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Main Skill is supported by Lv. 10 Elemental Impact / Main Skill is supported by Lv. 10 Elemental Fusion",
+        "Musket"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+2 to Max Tenacity Blessing Stacks",
+        "Fire Cannon"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+2 to Max Agility Blessing Stacks",
+        "Fire Cannon"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+2 to Max Focus Blessing Stacks",
+        "Fire Cannon"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Lucky Critical Strike / (-50–-40)% Critical Strike Rating",
+        "Fire Cannon"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Enemies have a (20–25)% chance to explode when defeated by an Attack or Spell, dealing True Damage equal to (250–300)% of their Max Life to enemies within a 6 m radius",
+        "Fire Cannon"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Main Skill is supported by Lv. 10 Quick Decision / The Main Skill is supported by Lv. 10 Wind Projectiles.",
+        "Fire Cannon"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Main Skill is supported by Lv. 10 Increased Area / Main Skill is supported by Lv. 10 Projectile Split",
+        "Fire Cannon"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+2 to Max Tenacity Blessing Stacks",
+        "Crossbow"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+2 to Max Agility Blessing Stacks",
+        "Crossbow"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+2 to Max Focus Blessing Stacks",
+        "Crossbow"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Lucky Critical Strike / (-50–-40)% Critical Strike Rating",
+        "Crossbow"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Main Skill is supported by Lv. 10 Quick Decision / The Main Skill is supported by Lv. 10 Wind Projectiles.",
+        "Crossbow"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Main Skill is supported by Lv. 10 Hunting Tempo / Main Skill is supported by Lv. 10 Tendonslicer",
+        "Crossbow"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+1 to Max Tenacity Blessing Stacks",
+        "Wand"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+1 to Max Agility Blessing Stacks",
+        "Wand"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+1 to Max Focus Blessing Stacks",
+        "Wand"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Main Skill is supported by Lv. 10 Quick Decision",
+        "Wand"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Main Skill is supported by Lv. 10 Grudge",
+        "Wand"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+1 to Max Focus Blessing Stacks",
+        "Rod"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Main Skill is supported by Lv. 10 Quick Decision",
+        "Rod"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Main Skill is supported by Lv. 10 Ailment Termination",
+        "Rod"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+1 to Max Agility Blessing Stacks",
+        "Scepter"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+(36–40)% Blur Effect",
+        "Scepter"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+1 to Max Focus Blessing Stacks",
+        "Scepter"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+1 to Max Tenacity Blessing Stacks",
+        "Scepter"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Main Skill is supported by Lv. 10 Pain Amplification",
+        "Scepter"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Main Skill is supported by Lv. 10 Ailment Termination",
+        "Scepter"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+(3–5)% Max Elemental Resistance",
+        "STR Gloves"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+(3–5)% Max Elemental Resistance",
+        "DEX Gloves"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+2 Max Deflection stacks",
+        "DEX Gloves"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+(3–5)% Max Elemental Resistance",
+        "INT Gloves"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+(20–25)% Movement Speed",
+        "STR Boots"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Converts (36–45)% of Erosion Damage taken to Fire Damage",
+        "STR Boots"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+(17–24)% Cooldown Recovery Speed",
+        "STR Boots"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+(3–5)% Max Elemental Resistance",
+        "STR Boots"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Converts (16–20)% of Physical Damage taken to Fire Damage",
+        "STR Boots"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+(20–25)% Movement Speed",
+        "DEX Boots"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Converts (36–45)% of Erosion Damage taken to Lightning Damage",
+        "DEX Boots"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+(17–24)% Cooldown Recovery Speed",
+        "DEX Boots"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+(3–5)% Max Elemental Resistance",
+        "DEX Boots"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Converts (16–20)% of Physical Damage taken to Lightning Damage",
+        "DEX Boots"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+2 Max Deflection stacks",
+        "DEX Boots"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+(20–25)% Movement Speed",
+        "INT Boots"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Converts (36–45)% of Erosion Damage taken to Cold Damage",
+        "INT Boots"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+(17–24)% Cooldown Recovery Speed",
+        "INT Boots"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+(3–5)% Max Elemental Resistance",
+        "INT Boots"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Converts (16–20)% of Physical Damage taken to Cold Damage",
+        "INT Boots"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+(3–5)% Max Elemental Resistance",
+        "STR Chest Armor"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Converts (16–20)% of Physical Damage taken to Fire Damage",
+        "STR Chest Armor"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Converts (36–45)% of Erosion Damage taken to Fire Damage",
+        "STR Chest Armor"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+(13–14)% Armor Effective Rate for Non-Physical Damage",
+        "STR Chest Armor"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+(2–3) Max Fortitude Stacks",
+        "STR Chest Armor"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+(3–5)% Max Elemental Resistance",
+        "DEX Chest Armor"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Converts (16–20)% of Physical Damage taken to Lightning Damage",
+        "DEX Chest Armor"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Converts (36–45)% of Erosion Damage taken to Lightning Damage",
+        "DEX Chest Armor"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+2 Max Deflection stacks",
+        "DEX Chest Armor"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+(2–3) Max Fortitude Stacks",
+        "DEX Chest Armor"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+(3–5)% Max Elemental Resistance",
+        "INT Chest Armor"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Converts (16–20)% of Physical Damage taken to Cold Damage",
+        "INT Chest Armor"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Converts (36–45)% of Erosion Damage taken to Cold Damage",
+        "INT Chest Armor"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+(2–3) Max Fortitude Stacks",
+        "INT Chest Armor"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+(3–5)% Max Elemental Resistance",
+        "STR Helmet"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Converts (16–20)% of Physical Damage taken to Fire Damage",
+        "STR Helmet"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Converts (36–45)% of Erosion Damage taken to Fire Damage",
+        "STR Helmet"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+(13–14)% Armor Effective Rate for Non-Physical Damage",
+        "STR Helmet"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+(3–5)% Max Elemental Resistance",
+        "DEX Helmet"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Converts (16–20)% of Physical Damage taken to Lightning Damage",
+        "DEX Helmet"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Converts (36–45)% of Erosion Damage taken to Lightning Damage",
+        "DEX Helmet"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+2 Max Deflection stacks",
+        "DEX Helmet"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+(3–5)% Max Elemental Resistance",
+        "INT Helmet"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Converts (16–20)% of Physical Damage taken to Cold Damage",
+        "INT Helmet"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Converts (36–45)% of Erosion Damage taken to Cold Damage",
+        "INT Helmet"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+(4–5)% Max Elemental and Erosion Resistance",
+        "STR Shield"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Converts (16–20)% of Physical Damage taken to Fire Damage",
+        "STR Shield"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Converts (36–45)% of Erosion Damage taken to Fire Damage",
+        "STR Shield"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+(4–5)% Max Elemental and Erosion Resistance",
+        "DEX Shield"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Converts (16–20)% of Physical Damage taken to Lightning Damage",
+        "DEX Shield"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Converts (36–45)% of Erosion Damage taken to Lightning Damage",
+        "DEX Shield"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+(4–5)% Max Elemental and Erosion Resistance",
+        "INT Shield"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Converts (16–20)% of Physical Damage taken to Cold Damage",
+        "INT Shield"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Converts (36–45)% of Erosion Damage taken to Cold Damage",
+        "INT Shield"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+1 to Max Tenacity Blessing Stacks",
+        "Spirit Ring"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+1 to Max Focus Blessing Stacks",
+        "Spirit Ring"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Nearby enemies within 15 m are cursed by Lv. 20 Ominous",
+        "Spirit Ring"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Triggers Lv. 20 Timid Curse when Minions deal damage to enemies. Cooldown: 0.2 s",
+        "Spirit Ring"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Triggers Lv. 20 Entangled Pain Curse when Minions deal damage to enemies. Cooldown: 0.2 s",
+        "Spirit Ring"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "Immune to curse",
+        "Spirit Ring"
+       ]
+      },
+      {
+       "cells": [
+        "0",
+        "+1 Max Bond Stacks",
+        "Spirit Ring"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "card": "Corrosion",
+   "tab": "Corrosion",
+   "text": [
+    "A special crafting that generates an unknown effect.",
+    "After the Corrosion feature is unlocked as you progress through the main story, you can Corrode gear at [The Lightless - Zenoth] in the Town.",
+    "Corrosion is divided into Darkness Corrosion and Darkest Corrosion.",
+    "Each Corrosion grants the Corroded gear one of the following effects:",
+    "Mutate: Replaces Base Affixes with random Aember Base Affixes and sets the gear to Corroded.",
+    "Chaos: Re-rolls the values of all affixes without changing affix tiers and sets the gear to Corroded.",
+    "Arrogant: Upgrades 1 pre-fixe/suffix by 1 - 2 tiers and sets the gear to Corroded.",
+    "Void: Sets the gear to Corroded.",
+    "The following Corrosion effects could appear if the Corrosion is Darkest Corrosion:",
+    "Desecration: Upgrades 2 pre-fixes/suffixes by 1 - 2 tiers and sets the gear to Corroded.",
+    "Vorax Corrosion can be performed on Vorax Gear.",
+    "Each Corrosion grants the Corroded Vorax Gear one of the following effects:",
+    "Hyperplastic: Upgrades 1 random affix by 1 - 2 tiers and sets the gear to Corroded.",
+    "Limb-Stitched: Upgrades 2 random affixes by 1 - 2 tiers and sets the gear to Corroded.",
+    "Metamorphosized: Upgrades all pre-fixes by 1 - 2 tiers and sets the gear to Corroded.",
+    "Derived: Upgrades all suffixes by 1 - 2 tiers and sets the gear to Corroded.",
+    "Festered: Sets the gear to Corroded and binds the gear.",
+    "Gear can only be Corroded once. If the Corroded gear gains Chaos, Void, or Fester, it will become bound."
+   ]
+  }
+ ]
+}

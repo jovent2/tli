@@ -1,0 +1,2157 @@
+{
+ "page": "Confusion_Card_Library",
+ "cards": [
+  {
+   "card": "Confusion Card Library",
+   "tab": null,
+   "entries": [
+    {
+     "lines": [
+      "Sad - Blacksail",
+      "Attempts: (0/2)",
+      "Bosses drop 0-1 additional Hero Memories",
+      "Appears at Timemark 2, 3, 4, 5, 6, 7, 8",
+      "Blacksail"
+     ]
+    },
+    {
+     "lines": [
+      "Sad - Blacksail",
+      "Attempts: (0/2)",
+      "Bosses drop 0-2 additional Hero Memories",
+      "Appears at Timemark 3, 4, 5, 6, 7, 8",
+      "Blacksail"
+     ]
+    },
+    {
+     "lines": [
+      "Malice - Cube",
+      "Attempts: (0/2)",
+      "Bosses drop 0-2 additional Divinity Slates",
+      "Appears at Timemark 4, 5, 6, 7, 8",
+      "Cube"
+     ]
+    },
+    {
+     "lines": [
+      "Malice - Cube",
+      "Attempts: (0/2)",
+      "Bosses drop 1-2 additional Divinity Slates",
+      "Appears at Timemark 5, 6, 7, 8",
+      "Cube"
+     ]
+    },
+    {
+     "lines": [
+      "Jealous",
+      "Attempts: (0/4)",
+      "+30% additional Gear Drop Quantity",
+      "Appears at Timemark 6, 7, 8",
+      "Other"
+     ],
+     "icon": "UISpCardMarkBasic01108"
+    },
+    {
+     "lines": [
+      "Jealous",
+      "Attempts: (0/4)",
+      "+50% additional Gear Drop Quantity",
+      "Appears at Timemark 6, 7, 8",
+      "Other"
+     ],
+     "icon": "UISpCardMarkBasic01108"
+    },
+    {
+     "lines": [
+      "Fallen - Blacksail",
+      "Attempts: (0/4)",
+      "There are 1 group(s) of Void Sea Disciples in the stage, and they have a 25% chance to drop 1 additional Hero Memory(ies)",
+      "Appears at Timemark 3, 4, 5, 6, 7, 8",
+      "Blacksail"
+     ],
+     "icon": "UISpCardMarkMonster03108"
+    },
+    {
+     "lines": [
+      "Depraved - Blacksail",
+      "Attempts: (0/4)",
+      "There are 1 group(s) of Void Sea Disciples in stages, and they have a 25% chance to drop 1 additional Memory enhancement item(s)",
+      "Appears at Timemark 3, 4, 5, 6, 7, 8",
+      "Blacksail"
+     ],
+     "icon": "UISpCardMarkMonster03108"
+    },
+    {
+     "lines": [
+      "Suspicious - Cube",
+      "Attempts: (0/4)",
+      "There are 2 group(s) of Malice Incarnation Disciples in the stage, and they have a 15% chance to drop 1 additional Divinity Slate(s)",
+      "Appears at Timemark 5, 6, 7, 8",
+      "Cube"
+     ],
+     "icon": "UISpCardMarkMonster03108"
+    },
+    {
+     "lines": [
+      "Covet - Cube",
+      "Attempts: (0/4)",
+      "There are 2 group(s) of Malice Incarnation Disciples in the stage, and they have a 15% chance to drop 1 additional Transcendence Wedge(s)",
+      "Appears at Timemark 5, 6, 7, 8",
+      "Cube"
+     ],
+     "icon": "UISpCardMarkMonster03108"
+    },
+    {
+     "lines": [
+      "Stingy",
+      "Attempts: (0/2)",
+      "Bosses drop 0-2 additional pieces of Legendary gear",
+      "Appears at Timemark 2, 3, 4, 5, 6, 7, 8",
+      "Legendary Gear"
+     ]
+    },
+    {
+     "lines": [
+      "Stingy",
+      "Attempts: (0/2)",
+      "Bosses drop 1-2 additional pieces of Legendary gear",
+      "Appears at Timemark 3, 4, 5, 6, 7, 8",
+      "Legendary Gear"
+     ]
+    },
+    {
+     "lines": [
+      "Stingy",
+      "Attempts: (0/2)",
+      "Bosses drop 2-4 additional pieces of Legendary gear",
+      "Appears at Timemark 7, 8",
+      "Legendary Gear"
+     ]
+    },
+    {
+     "lines": [
+      "Alarmed",
+      "Attempts: (0/2)",
+      "There is a 20% chance that a Rift Portal will appear when Rare Netherrealm monsters in the stage are defeated, and the monsters in the portal have a 50% chance to drop 6 additional piece(s) of Legendary gear",
+      "Appears at Timemark 7, 8",
+      "Legendary Gear"
+     ],
+     "icon": "UISpCardMarkMonster03108"
+    },
+    {
+     "lines": [
+      "Anger - Weapon",
+      "Attempts: (0/2)",
+      "Bosses drop 1-2 additional weapons used by the Recommended for Beginners build. These weapons have at least 5 T$P5$ affix(es)",
+      "Appears at Timemark 1, 2",
+      "Other"
+     ],
+     "icon": "UISpCardMarkGear05108"
+    },
+    {
+     "lines": [
+      "Anger - Weapon",
+      "Attempts: (0/2)",
+      "Bosses drop 2-2 additional weapons used by the Recommended for Beginners build. These weapons have at least 4 T$P5$ affix(es)",
+      "Appears at Timemark 3, 4",
+      "Other"
+     ],
+     "icon": "UISpCardMarkGear04108"
+    },
+    {
+     "lines": [
+      "Anger - Weapon",
+      "Attempts: (0/2)",
+      "Bosses drop 2-2 additional weapons used by the Recommended for Beginners build. These weapons have at least 3 T$P5$ affix(es)",
+      "Appears at Timemark 5, 6, 7, 8",
+      "Other"
+     ],
+     "icon": "UISpCardMarkGear03108"
+    },
+    {
+     "lines": [
+      "Anger - Weapon",
+      "Attempts: (0/2)",
+      "Bosses drop 2-2 additional weapons used by the Recommended for Beginners build. These weapons have at least 5 T$P5$ affix(es)",
+      "Appears at Timemark 2",
+      "Other"
+     ],
+     "icon": "UISpCardMarkGear05108"
+    },
+    {
+     "lines": [
+      "Anger - Weapon",
+      "Attempts: (0/2)",
+      "Bosses drop 2-2 additional weapons used by the Recommended for Beginners build. These weapons have at least 4 T$P5$ affix(es)",
+      "Appears at Timemark 3, 4",
+      "Other"
+     ],
+     "icon": "UISpCardMarkGear04108"
+    },
+    {
+     "lines": [
+      "Anger - Weapon",
+      "Attempts: (0/2)",
+      "Bosses drop 4-2 additional weapons used by the Recommended for Beginners build. These weapons have at least 3 T$P5$ affix(es)",
+      "Appears at Timemark 5, 6, 7, 8",
+      "Other"
+     ],
+     "icon": "UISpCardMarkGear03108"
+    },
+    {
+     "lines": [
+      "Hypocritical - Fuel",
+      "Attempts: (0/2)",
+      "Bosses drop 1-1 additional sets of Flame Sand",
+      "Appears at Timemark 1, 2, 3, 4, 5, 6, 7, 8",
+      "Commodity"
+     ]
+    },
+    {
+     "lines": [
+      "Hypocritical - Fuel",
+      "Attempts: (0/2)",
+      "Bosses drop 1-2 additional sets of Flame Sand",
+      "Appears at Timemark 3, 4, 5, 6, 7, 8",
+      "Commodity"
+     ]
+    },
+    {
+     "lines": [
+      "Hesitate",
+      "Attempts: (0/4)",
+      "+20% additional Fuel Drop Quantity",
+      "Appears at Timemark 6, 7, 8",
+      "Commodity"
+     ],
+     "icon": "UISpCardMarkBasic01108"
+    },
+    {
+     "lines": [
+      "Hesitate",
+      "Attempts: (0/4)",
+      "+30% additional Fuel Drop Quantity",
+      "Appears at Timemark 6, 7, 8",
+      "Commodity"
+     ],
+     "icon": "UISpCardMarkBasic01108"
+    },
+    {
+     "lines": [
+      "Hypocritical - Ember",
+      "Attempts: (0/2)",
+      "Bosses drop 1-1 additional Embers",
+      "Appears at Timemark 1, 2, 3, 4, 5, 6, 7, 8",
+      "Commodity"
+     ]
+    },
+    {
+     "lines": [
+      "Hypocritical - Ember",
+      "Attempts: (0/2)",
+      "Bosses drop 1-2 additional Embers",
+      "Appears at Timemark 3, 4, 5, 6, 7, 8",
+      "Commodity"
+     ]
+    },
+    {
+     "lines": [
+      "Hypocritical - Ember",
+      "Attempts: (0/2)",
+      "Bosses drop 1-1 additional Embers",
+      "Appears at Timemark 7, 8",
+      "Commodity"
+     ]
+    },
+    {
+     "lines": [
+      "Reluctant",
+      "Attempts: (0/4)",
+      "+16% additional Ember Drop Quantity",
+      "Appears at Timemark 6, 7, 8",
+      "Commodity"
+     ],
+     "icon": "UISpCardMarkBasic01108"
+    },
+    {
+     "lines": [
+      "Reluctant",
+      "Attempts: (0/4)",
+      "+24% additional Ember Drop Quantity",
+      "Appears at Timemark 6, 7, 8",
+      "Commodity"
+     ],
+     "icon": "UISpCardMarkBasic01108"
+    },
+    {
+     "lines": [
+      "Depressed",
+      "Attempts: (0/4)",
+      "Replaces Magic Netherrealm monsters in the stage with War Disciples that have a 3% chance to drop 1 additional Ember(s)",
+      "Appears at Timemark 4, 5, 6, 7, 8",
+      "Commodity"
+     ],
+     "icon": "UISpCardMarkMonster02108"
+    },
+    {
+     "lines": [
+      "Depressed",
+      "Attempts: (0/4)",
+      "Replaces Magic Netherrealm monsters in the stage with War Disciples that have a 7% chance to drop 1 additional Ember(s)",
+      "Appears at Timemark 7, 8",
+      "Commodity"
+     ],
+     "icon": "UISpCardMarkMonster02108"
+    },
+    {
+     "lines": [
+      "Hypocritical - Core",
+      "Attempts: (0/2)",
+      "Bosses drop 1-3 additional Energy Cores",
+      "Appears at Timemark 1, 2, 3, 4, 5, 6, 7, 8",
+      "Commodity"
+     ]
+    },
+    {
+     "lines": [
+      "Hypocritical - Core",
+      "Attempts: (0/2)",
+      "Bosses drop 2-4 additional Energy Cores",
+      "Appears at Timemark 3, 4, 5, 6, 7, 8",
+      "Commodity"
+     ]
+    },
+    {
+     "lines": [
+      "Hypocritical - Core",
+      "Attempts: (0/2)",
+      "Bosses drop 5-7 additional Energy Cores",
+      "Appears at Timemark 7, 8",
+      "Commodity"
+     ]
+    },
+    {
+     "lines": [
+      "Bewildered",
+      "Attempts: (0/4)",
+      "Replaces Normal Netherrealm monsters in the stage with Machine Disciples that have a 1% chance to drop 1 additional Energy Core(s)",
+      "Appears at Timemark 4, 5, 6, 7, 8",
+      "Commodity"
+     ],
+     "icon": "UISpCardMarkMonster01108"
+    },
+    {
+     "lines": [
+      "Bewildered",
+      "Attempts: (0/4)",
+      "Replaces Normal Netherrealm monsters in the stage with Machine Disciples that have a 2% chance to drop 1 additional Energy Core(s)",
+      "Appears at Timemark 7, 8",
+      "Commodity"
+     ],
+     "icon": "UISpCardMarkMonster01108"
+    },
+    {
+     "lines": [
+      "Hypocritical - Beacon",
+      "Attempts: (0/2)",
+      "Bosses drop 0-1 additional Beacons",
+      "Appears at Timemark 1, 2, 3, 4, 5, 6, 7, 8",
+      "Netherrealm"
+     ]
+    },
+    {
+     "lines": [
+      "Hypocritical - Beacon",
+      "Attempts: (0/2)",
+      "Bosses drop 1-2 additional Beacons",
+      "Appears at Timemark 3, 4, 5, 6, 7, 8",
+      "Netherrealm"
+     ]
+    },
+    {
+     "lines": [
+      "Hypocritical - Beacon",
+      "Attempts: (0/2)",
+      "Bosses drop 2-4 additional Beacons",
+      "Appears at Timemark 7, 8",
+      "Netherrealm"
+     ]
+    },
+    {
+     "lines": [
+      "Distressed",
+      "Attempts: (0/4)",
+      "1 group(s) of Queen's Disciples appear in the stage, and they have a chance to drop Beacons when defeated",
+      "Appears at Timemark 7, 8",
+      "Netherrealm"
+     ],
+     "icon": "UISpCardMarkMonster03108"
+    },
+    {
+     "lines": [
+      "Hypocritical - Echo",
+      "Attempts: (0/2)",
+      "Bosses drop 3-7 additional Netherrealm Resonances",
+      "Appears at Timemark 4, 5, 6, 7, 8",
+      "Netherrealm"
+     ]
+    },
+    {
+     "lines": [
+      "Hypocritical - Echo",
+      "Attempts: (0/2)",
+      "Bosses drop 6-10 additional Netherrealm Resonances",
+      "Appears at Timemark 4, 5, 6, 7, 8",
+      "Netherrealm"
+     ]
+    },
+    {
+     "lines": [
+      "Dispirited",
+      "Attempts: (0/2)",
+      "+10% Attack, Cast, and Movement Speed for bosses",
+      "Bosses drop 20-28 additional Netherrealm Resonances",
+      "Appears at Timemark 6, 7, 8",
+      "Netherrealm"
+     ]
+    },
+    {
+     "lines": [
+      "Piteous",
+      "Attempts: (0/2)",
+      "Starshards dropped have a 40% chance to replicate 1 time(s)",
+      "Appears at Timemark 4, 5, 6, 7, 8",
+      "Netherrealm"
+     ]
+    },
+    {
+     "lines": [
+      "Disheartened",
+      "Attempts: (0/2)",
+      "The boss gains Giantism",
+      "Starshards dropped have a 100% chance to replicate 1 time(s)",
+      "Appears at Timemark 6, 7, 8",
+      "Netherrealm"
+     ]
+    },
+    {
+     "lines": [
+      "Hypocritical - Fluorescence",
+      "Attempts: (0/2)",
+      "Stage Final Bosses drop 1-1 additional Fluorescent Memory(ies)",
+      "Appears at Timemark 5, 6, 7, 8",
+      "Memory Fragment"
+     ]
+    },
+    {
+     "lines": [
+      "Hypocritical - Fluorescence",
+      "Attempts: (0/2)",
+      "Stage Final Bosses drop 1-3 additional Fluorescent Memory(ies)",
+      "Appears at Timemark 7, 8",
+      "Memory Fragment"
+     ]
+    },
+    {
+     "lines": [
+      "Melancholy",
+      "Attempts: (0/4)",
+      "Fluorescent Memories dropped have a 20% chance to be replicated once",
+      "Appears at Timemark 6, 7, 8",
+      "Memory Fragment"
+     ]
+    },
+    {
+     "lines": [
+      "Melancholy",
+      "Attempts: (0/4)",
+      "Fluorescent Memories dropped have a 30% chance to be replicated once",
+      "Appears at Timemark 6, 7, 8",
+      "Memory Fragment"
+     ]
+    },
+    {
+     "lines": [
+      "Arrogance",
+      "Attempts: (0/2)",
+      "4-6 Mystery Chests will appear in the stage",
+      "Appears at Timemark 6, 7, 8",
+      "Global Drops"
+     ]
+    },
+    {
+     "lines": [
+      "Frivolous",
+      "Attempts: (0/4)",
+      "+20% Drop Quantity",
+      "Appears at Timemark 7, 8",
+      "Global Drops"
+     ]
+    },
+    {
+     "lines": [
+      "Frivolous",
+      "Attempts: (0/4)",
+      "+30% Drop Quantity",
+      "Appears at Timemark 7, 8",
+      "Global Drops"
+     ]
+    },
+    {
+     "lines": [
+      "Impetuous",
+      "Attempts: (0/4)",
+      "1 additional Blessed monster(s) in the stage",
+      "Appears at Timemark 7, 8",
+      "Global Drops"
+     ],
+     "icon": "UISpCardMarkBasic01108"
+    },
+    {
+     "lines": [
+      "Rash",
+      "Attempts: (0/4)",
+      "+30% drop Rarity",
+      "Appears at Timemark 7, 8",
+      "Global Drops"
+     ]
+    },
+    {
+     "lines": [
+      "Rash",
+      "Attempts: (0/4)",
+      "+45% drop Rarity",
+      "Appears at Timemark 7, 8",
+      "Global Drops"
+     ]
+    },
+    {
+     "lines": [
+      "Impulsive",
+      "Attempts: (0/4)",
+      "Rare Netherrealm monsters have a 80% chance to have 1 additional affix and +80% Drop Rarity",
+      "Appears at Timemark 7, 8",
+      "Global Drops"
+     ],
+     "icon": "UISpCardMarkBasic02108"
+    },
+    {
+     "lines": [
+      "Scornful",
+      "Attempts: (0/4)",
+      "10 additional groups of Normal monster(s)",
+      "Appears at Timemark 1, 2, 3, 4, 5, 6, 7, 8",
+      "Global Drops"
+     ]
+    },
+    {
+     "lines": [
+      "Scornful",
+      "Attempts: (0/4)",
+      "15 additional groups of Normal monster(s)",
+      "Appears at Timemark 1, 2, 3, 4, 5, 6, 7, 8",
+      "Global Drops"
+     ]
+    },
+    {
+     "lines": [
+      "Contemptuous",
+      "Attempts: (0/4)",
+      "3 additional groups of Magic monster(s)",
+      "Appears at Timemark 1, 2, 3, 4, 5, 6, 7, 8",
+      "Global Drops"
+     ]
+    },
+    {
+     "lines": [
+      "Contemptuous",
+      "Attempts: (0/4)",
+      "5 additional groups of Magic monster(s)",
+      "Appears at Timemark 1, 2, 3, 4, 5, 6, 7, 8",
+      "Global Drops"
+     ]
+    },
+    {
+     "lines": [
+      "Despicable",
+      "Attempts: (0/4)",
+      "1 additional Rare monsters",
+      "Appears at Timemark 1, 2, 3, 4, 5, 6, 7, 8",
+      "Global Drops"
+     ]
+    },
+    {
+     "lines": [
+      "Despicable",
+      "Attempts: (0/4)",
+      "2 additional Rare monsters",
+      "Appears at Timemark 1, 2, 3, 4, 5, 6, 7, 8",
+      "Global Drops"
+     ]
+    },
+    {
+     "lines": [
+      "Narrow",
+      "Attempts: (0/4)",
+      "+20% additional Compass Drop Quantity",
+      "Appears at Timemark 6, 7, 8",
+      "Netherrealm"
+     ],
+     "icon": "UISpCardMarkBasic01108"
+    },
+    {
+     "lines": [
+      "Narrow",
+      "Attempts: (0/4)",
+      "+30% additional Compass Drop Quantity",
+      "Appears at Timemark 6, 7, 8",
+      "Netherrealm"
+     ],
+     "icon": "UISpCardMarkBasic01108"
+    },
+    {
+     "lines": [
+      "Brutal - War",
+      "Attempts: (0/4)",
+      "In Trial: God of War (Berserk), +5 to Max Trial Stacks",
+      "Appears at Timemark 1",
+      "God of War"
+     ],
+     "icon": "UISpCardMarkBasic03108"
+    },
+    {
+     "lines": [
+      "Brutal - War",
+      "Attempts: (0/4)",
+      "In Trial: God of War (Berserk), +10 to Max Trial Stacks",
+      "Appears at Timemark 1",
+      "God of War"
+     ],
+     "icon": "UISpCardMarkBasic03108"
+    },
+    {
+     "lines": [
+      "Berserk - War",
+      "Attempts: (0/4)",
+      "In Trial: God of War (Berserk), conversion ratio of native Magic monsters to Berserkers +5%",
+      "Appears at Timemark 1",
+      "God of War"
+     ],
+     "icon": "UISpCardMarkMonster02108"
+    },
+    {
+     "lines": [
+      "Berserk - War",
+      "Attempts: (0/4)",
+      "In Trial: God of War (Berserk), conversion ratio of native Magic monsters to Berserkers +10%",
+      "Appears at Timemark 1",
+      "God of War"
+     ],
+     "icon": "UISpCardMarkMonster02108"
+    },
+    {
+     "lines": [
+      "Berserk - War",
+      "Attempts: (0/4)",
+      "In Trial: God of War (Berserk), conversion ratio of native Magic monsters to Berserkers +15%",
+      "Appears at Timemark 1",
+      "God of War"
+     ],
+     "icon": "UISpCardMarkMonster02108"
+    },
+    {
+     "lines": [
+      "Berserk - War",
+      "Attempts: (0/1)",
+      "In Trial: God of War (Berserk), conversion ratio of native Magic monsters to Berserkers +15%",
+      "Berserkers have a 8% chance to drop 1 additional Deep Space Beacon(s)",
+      "Appears at Timemark 1",
+      "God of War"
+     ],
+     "icon": "UISpCardMarkMonster02108"
+    },
+    {
+     "lines": [
+      "Irritable - Might",
+      "Attempts: (0/4)",
+      "Embers dropped during Trial: God of Might have a 15% chance to be replicated once",
+      "Appears at Timemark 1",
+      "God of Might"
+     ],
+     "icon": "UISpCardMarkAsh01108"
+    },
+    {
+     "lines": [
+      "Irritable - Might",
+      "Attempts: (0/4)",
+      "Embers dropped during Trial: God of Might have a 20% chance to be replicated once",
+      "Appears at Timemark 1",
+      "God of Might"
+     ],
+     "icon": "UISpCardMarkAsh01108"
+    },
+    {
+     "lines": [
+      "Irritable - Might",
+      "Attempts: (0/4)",
+      "Embers dropped during Trial: God of Might have a 40% chance to be replicated once",
+      "Appears at Timemark 1",
+      "God of Might"
+     ],
+     "icon": "UISpCardMarkAsh01108"
+    },
+    {
+     "lines": [
+      "Willful - Might",
+      "Attempts: (0/1)",
+      "+100% additional Drop Quantity during Trial: God of Might",
+      "Appears at Timemark 1",
+      "God of Might"
+     ],
+     "icon": "UISpCardMarkBasic01108"
+    },
+    {
+     "lines": [
+      "Indignant - Might",
+      "Attempts: (0/4)",
+      "Dwarven Automatons +30% Drop Rarity during Trial: God of Might",
+      "Appears at Timemark 1",
+      "God of Might"
+     ],
+     "icon": "UISpCardMarkBasic02108"
+    },
+    {
+     "lines": [
+      "Indignant - Might",
+      "Attempts: (0/4)",
+      "Dwarven Automatons +50% Drop Rarity during Trial: God of Might",
+      "Appears at Timemark 1",
+      "God of Might"
+     ],
+     "icon": "UISpCardMarkBasic02108"
+    },
+    {
+     "lines": [
+      "Indignant - Might",
+      "Attempts: (0/4)",
+      "Dwarven Automatons +100% Drop Rarity during Trial: God of Might",
+      "Appears at Timemark 1",
+      "God of Might"
+     ],
+     "icon": "UISpCardMarkBasic02108"
+    },
+    {
+     "lines": [
+      "Enraged - Might",
+      "Attempts: (0/1)",
+      "Legendary Gear dropped by Dwarven Automatons has a 100% chance to be replicated once during Trial: God of Might",
+      "Appears at Timemark 1",
+      "God of Might"
+     ],
+     "icon": "UISpCardMarkGear01108"
+    },
+    {
+     "lines": [
+      "Mania - Might",
+      "Attempts: (0/4)",
+      "+10% additional Drop Quantity during Trial: God of Might",
+      "+10% additional Drop Quantity for Dwarven Automatons during Trial: God of Might",
+      "Appears at Timemark 1",
+      "God of Might"
+     ],
+     "icon": "UISpCardMarkBasic01108"
+    },
+    {
+     "lines": [
+      "Mania - Might",
+      "Attempts: (0/4)",
+      "+15% additional Drop Quantity during Trial: God of Might",
+      "+15% additional Drop Quantity for Dwarven Automatons during Trial: God of Might",
+      "Appears at Timemark 1",
+      "God of Might"
+     ],
+     "icon": "UISpCardMarkBasic01108"
+    },
+    {
+     "lines": [
+      "Mad - Might",
+      "Attempts: (0/1)",
+      "Embers dropped during Trial: God of Might have a 3% chance to become Ultimate Embers",
+      "Appears at Timemark 1",
+      "God of Might"
+     ],
+     "icon": "UISpCardMarkAsh02108"
+    },
+    {
+     "lines": [
+      "Obstinate - Machine",
+      "Attempts: (0/4)",
+      "+10% chance for non-Legendary Trinkets to drop in Trial: God of Machines",
+      "Appears at Timemark 1",
+      "God of Machines"
+     ],
+     "icon": "UISpCardMarkGear02108"
+    },
+    {
+     "lines": [
+      "Obstinate - Machine",
+      "Attempts: (0/4)",
+      "+20% chance for non-Legendary Trinkets to drop in Trial: God of Machines",
+      "Appears at Timemark 1",
+      "God of Machines"
+     ],
+     "icon": "UISpCardMarkGear02108"
+    },
+    {
+     "lines": [
+      "Obstinate - Machine",
+      "Attempts: (0/4)",
+      "+50% chance for non-Legendary Trinkets to drop in Trial: God of Machines",
+      "Appears at Timemark 1",
+      "God of Machines"
+     ],
+     "icon": "UISpCardMarkGear02108"
+    },
+    {
+     "lines": [
+      "Paranoid - Machine",
+      "Attempts: (0/4)",
+      "+8% chance to have 1 additional attack round during Trial: God of Machines",
+      "Appears at Timemark 1",
+      "God of Machines"
+     ],
+     "icon": "UISpCardMarkBasic03108"
+    },
+    {
+     "lines": [
+      "Paranoid - Machine",
+      "Attempts: (0/4)",
+      "+12% chance to have 1 additional attack round during Trial: God of Machines",
+      "Appears at Timemark 1",
+      "God of Machines"
+     ],
+     "icon": "UISpCardMarkBasic03108"
+    },
+    {
+     "lines": [
+      "Conservative - Machine",
+      "Attempts: (0/4)",
+      "+10% additional Drop Quantity during Trial: God of Machines",
+      "Appears at Timemark 1",
+      "God of Machines"
+     ],
+     "icon": "UISpCardMarkBasic01108"
+    },
+    {
+     "lines": [
+      "Conservative - Machine",
+      "Attempts: (0/4)",
+      "+15% additional Drop Quantity during Trial: God of Machines",
+      "Appears at Timemark 1",
+      "God of Machines"
+     ],
+     "icon": "UISpCardMarkBasic01108"
+    },
+    {
+     "lines": [
+      "Rigid - Machine",
+      "Attempts: (0/1)",
+      "Encounter 1 wealthy Mechanical Boxer every round in Trial: God of Machines",
+      "Appears at Timemark 1",
+      "God of Machines"
+     ],
+     "icon": "UISpCardMarkMonster04108"
+    },
+    {
+     "lines": [
+      "Obtuse - Machine",
+      "Attempts: (0/4)",
+      "+10% additional Drop Quantity for Drones during Trial: God of Machines",
+      "Appears at Timemark 1",
+      "God of Machines"
+     ],
+     "icon": "UISpCardMarkMonster01108"
+    },
+    {
+     "lines": [
+      "Obtuse - Machine",
+      "Attempts: (0/4)",
+      "+15% additional Drop Quantity for Drones during Trial: God of Machines",
+      "Appears at Timemark 1",
+      "God of Machines"
+     ],
+     "icon": "UISpCardMarkMonster01108"
+    },
+    {
+     "lines": [
+      "Obtuse - Machine",
+      "Attempts: (0/4)",
+      "+30% additional Drop Quantity for Drones during Trial: God of Machines",
+      "Appears at Timemark 1",
+      "God of Machines"
+     ],
+     "icon": "UISpCardMarkMonster01108"
+    },
+    {
+     "lines": [
+      "Dull - Machine",
+      "Attempts: (0/1)",
+      "Attacking monsters have a 0.2% chance to drop 1 additional plane-exclusive Fluorescent Memories during Trial: God of Machines",
+      "2 additional attack round(s) during Trial: God of Machines",
+      "Appears at Timemark 1",
+      "God of Machines"
+     ],
+     "icon": "UISpCardMarkMemoryCard01108"
+    },
+    {
+     "lines": [
+      "Insidious - Hunting",
+      "Attempts: (0/4)",
+      "+10% additional Drop Quantity for Safari bosses' Hunting Rewards",
+      "+10% additional Drop Quantity for the Stage Final Boss's Hunting Rewards",
+      "Appears at Timemark 1",
+      "Goddess of Hunting"
+     ],
+     "icon": "UISpCardMarkBasic01108"
+    },
+    {
+     "lines": [
+      "Insidious - Hunting",
+      "Attempts: (0/4)",
+      "+15% additional Drop Quantity for Safari bosses' Hunting Rewards",
+      "+15% additional Drop Quantity for the Stage Final Boss's Hunting Rewards",
+      "Appears at Timemark 1",
+      "Goddess of Hunting"
+     ],
+     "icon": "UISpCardMarkBasic01108"
+    },
+    {
+     "lines": [
+      "Insidious - Hunting",
+      "Attempts: (0/4)",
+      "+30% additional Drop Quantity for Safari bosses' Hunting Rewards",
+      "+30% additional Drop Quantity for the Stage Final Boss's Hunting Rewards",
+      "Appears at Timemark 1",
+      "Goddess of Hunting"
+     ],
+     "icon": "UISpCardMarkBasic01108"
+    },
+    {
+     "lines": [
+      "Mistrustful - Hunting",
+      "Attempts: (0/1)",
+      "$P2$ Safari Boss(es) will appear in the stage after starting Trial: Goddess of Hunting (Safari)",
+      "Appears at Timemark 1",
+      "Goddess of Hunting"
+     ],
+     "icon": "UISpCardMarkMonster04108"
+    },
+    {
+     "lines": [
+      "Cunning - Hunting",
+      "Attempts: (0/4)",
+      "Stage Final Bosses' Hunting Rewards have a 36% chance to drop 1 additional Compass(es)",
+      "Appears at Timemark 1",
+      "Goddess of Hunting"
+     ],
+     "icon": "UISpCardMarkCompass01108"
+    },
+    {
+     "lines": [
+      "Cunning - Hunting",
+      "Attempts: (0/4)",
+      "Stage Final Bosses' Hunting Rewards have a 54% chance to drop 1 additional Compass(es)",
+      "Appears at Timemark 1",
+      "Goddess of Hunting"
+     ],
+     "icon": "UISpCardMarkCompass01108"
+    },
+    {
+     "lines": [
+      "Crafty - Hunting",
+      "Attempts: (0/4)",
+      "When a Stage Final Boss affected by Trial: Goddess of Hunting is defeated, there is a 11% chance to spawn 1 Plane Watcher Chest",
+      "Appears at Timemark 1",
+      "Goddess of Hunting"
+     ],
+     "icon": "UISpCardMarkBasic06108"
+    },
+    {
+     "lines": [
+      "Crafty - Hunting",
+      "Attempts: (0/4)",
+      "When a Stage Final Boss affected by Trial: Goddess of Hunting is defeated, there is a 16% chance to spawn 1 Plane Watcher Chest",
+      "Appears at Timemark 1",
+      "Goddess of Hunting"
+     ],
+     "icon": "UISpCardMarkBasic06108"
+    },
+    {
+     "lines": [
+      "Crafty - Hunting",
+      "Attempts: (0/4)",
+      "When a Stage Final Boss affected by Trial: Goddess of Hunting is defeated, there is a 32% chance to spawn 1 Plane Watcher Chest",
+      "Appears at Timemark 1",
+      "Goddess of Hunting"
+     ],
+     "icon": "UISpCardMarkBasic06108"
+    },
+    {
+     "lines": [
+      "Deceitful - Hunting",
+      "Attempts: (0/4)",
+      "Stage Final Bosses affected by Trial: Goddess of Hunting have a 20% chance to be assisted by the Traveler and will spawn 1 Traveler Chest on defeat",
+      "Appears at Timemark 1",
+      "Goddess of Hunting"
+     ],
+     "icon": "UISpCardMarkBasic06108"
+    },
+    {
+     "lines": [
+      "Slanderous - Dark Surge",
+      "Attempts: (0/4)",
+      "Corrosion Energy granted by monsters Corroded by Dark Surge +20%",
+      "Appears at Timemark 1",
+      "Dark Surge"
+     ],
+     "icon": "UISpCardMarkBasic03108"
+    },
+    {
+     "lines": [
+      "Slanderous - Dark Surge",
+      "Attempts: (0/4)",
+      "Corrosion Energy granted by monsters Corroded by Dark Surge +30%",
+      "Appears at Timemark 1",
+      "Dark Surge"
+     ],
+     "icon": "UISpCardMarkBasic03108"
+    },
+    {
+     "lines": [
+      "Slanderous - Dark Surge",
+      "Attempts: (0/4)",
+      "Corrosion Energy granted by monsters Corroded by Dark Surge +60%",
+      "Appears at Timemark 1",
+      "Dark Surge"
+     ],
+     "icon": "UISpCardMarkBasic03108"
+    },
+    {
+     "lines": [
+      "Disgraceful - Dark Surge",
+      "Attempts: (0/4)",
+      "The chance of getting Legendary gear rewards from Dark Surge Eruption is increased",
+      "Appears at Timemark 1",
+      "Dark Surge"
+     ],
+     "icon": "UISpCardMarkGear01108"
+    },
+    {
+     "lines": [
+      "Disgraceful - Dark Surge",
+      "Attempts: (0/4)",
+      "The chance of getting Legendary gear rewards from Dark Surge Eruption is increased",
+      "Appears at Timemark 1",
+      "Dark Surge"
+     ],
+     "icon": "UISpCardMarkGear01108"
+    },
+    {
+     "lines": [
+      "Disgraceful - Dark Surge",
+      "Attempts: (0/4)",
+      "The chance of getting Legendary gear rewards from Dark Surge Eruption is increased",
+      "Appears at Timemark 1",
+      "Dark Surge"
+     ],
+     "icon": "UISpCardMarkGear01108"
+    },
+    {
+     "lines": [
+      "Humiliated - Dark Surge",
+      "Attempts: (0/1)",
+      "There is an extremely high chance of getting Legendary gear from Dark Surge Eruption rewards",
+      "Appears at Timemark 1",
+      "Dark Surge"
+     ],
+     "icon": "UISpCardMarkGear01108"
+    },
+    {
+     "lines": [
+      "Resentful - Dark Surge",
+      "Attempts: (0/4)",
+      "The reward monsters in Dark Surge Eruption have a 50% chance to drop 1 additional Aemberon Core(s)",
+      "Appears at Timemark 1",
+      "Dark Surge"
+     ],
+     "icon": "UISpCardMarkCorrosion01108"
+    },
+    {
+     "lines": [
+      "Resentful - Dark Surge",
+      "Attempts: (0/4)",
+      "The reward monsters in Dark Surge Eruption have a 75% chance to drop 1 additional Aemberon Core(s)",
+      "Appears at Timemark 1",
+      "Dark Surge"
+     ],
+     "icon": "UISpCardMarkCorrosion01108"
+    },
+    {
+     "lines": [
+      "Resentful - Dark Surge",
+      "Attempts: (0/4)",
+      "The reward monsters in Dark Surge Eruption have a 75% chance to drop 2 additional Aemberon Core(s)",
+      "Appears at Timemark 1",
+      "Dark Surge"
+     ],
+     "icon": "UISpCardMarkCorrosion01108"
+    },
+    {
+     "lines": [
+      "Remorseful - Dark Surge",
+      "Attempts: (0/4)",
+      "The chance of getting boss rewards from Dark Surge Eruption is increased",
+      "Appears at Timemark 1",
+      "Dark Surge"
+     ],
+     "icon": "UISpCardMarkMonster04108"
+    },
+    {
+     "lines": [
+      "Remorseful - Dark Surge",
+      "Attempts: (0/4)",
+      "The chance of getting boss rewards from Dark Surge Eruption is increased",
+      "Appears at Timemark 1",
+      "Dark Surge"
+     ],
+     "icon": "UISpCardMarkMonster04108"
+    },
+    {
+     "lines": [
+      "Remorseful - Dark Surge",
+      "Attempts: (0/4)",
+      "The chance of getting boss rewards from Dark Surge Eruption is increased",
+      "Appears at Timemark 1",
+      "Dark Surge"
+     ],
+     "icon": "UISpCardMarkMonster04108"
+    },
+    {
+     "lines": [
+      "Heretical - Dark Surge",
+      "Attempts: (0/1)",
+      "There is an extremely high chance of getting boss rewards from Dark Surge Eruption rewards",
+      "Appears at Timemark 1",
+      "Dark Surge"
+     ],
+     "icon": "UISpCardMarkMonster04108"
+    },
+    {
+     "lines": [
+      "Brazen - Blacksail",
+      "Attempts: (0/4)",
+      "There is a 50% chance for 14 additional Memory Scrap(s) to drop from the stage's Plane Anchor",
+      "Appears at Timemark 1",
+      "Blacksail"
+     ],
+     "icon": "UISpCardMarkBlackSail01108"
+    },
+    {
+     "lines": [
+      "Brazen - Blacksail",
+      "Attempts: (0/4)",
+      "There is a 50% chance for 20 additional Memory Scrap(s) to drop from the stage's Plane Anchor",
+      "Appears at Timemark 1",
+      "Blacksail"
+     ],
+     "icon": "UISpCardMarkBlackSail01108"
+    },
+    {
+     "lines": [
+      "Brazen - Blacksail",
+      "Attempts: (0/4)",
+      "There is a 50% chance for 40 additional Memory Scrap(s) to drop from the stage's Plane Anchor",
+      "Appears at Timemark 1",
+      "Blacksail"
+     ],
+     "icon": "UISpCardMarkBlackSail01108"
+    },
+    {
+     "lines": [
+      "Domineering - Blacksail",
+      "Attempts: (0/1)",
+      "There is a 100% chance for 2 additional Void Sea Invitation(s) to drop from the stage's Plane Anchor",
+      "+50% chance for the stage's Plane Anchor to be activated 1 additional time",
+      "Appears at Timemark 1",
+      "Blacksail"
+     ],
+     "icon": "UISpCardMarkBlackSail02108"
+    },
+    {
+     "lines": [
+      "Desire Incarnation - Cube",
+      "Attempts: (0/4)",
+      "Malice Incarnations have a 8% chance to drop 1 additional set(s) of Desire Crystals",
+      "Appears at Timemark 1",
+      "Cube"
+     ],
+     "icon": "UISpCardMarkCube01108"
+    },
+    {
+     "lines": [
+      "Desire Incarnation - Cube",
+      "Attempts: (0/4)",
+      "Malice Incarnations have a 12% chance to drop 1 additional set(s) of Desire Crystals",
+      "Appears at Timemark 1",
+      "Cube"
+     ],
+     "icon": "UISpCardMarkCube01108"
+    },
+    {
+     "lines": [
+      "Desire Incarnation - Cube",
+      "Attempts: (0/4)",
+      "Malice Incarnations have a 24% chance to drop 1 additional set(s) of Desire Crystals",
+      "Appears at Timemark 1",
+      "Cube"
+     ],
+     "icon": "UISpCardMarkCube01108"
+    },
+    {
+     "lines": [
+      "Spiteful - Cube",
+      "Attempts: (0/1)",
+      "When Malice is accumulating in a stage, there's a 100% chance for 6 additional Malice Judge(s) to appear",
+      "Appears at Timemark 1",
+      "Cube"
+     ],
+     "icon": "UISpCardMarkMonster04108"
+    },
+    {
+     "lines": [
+      "Foolish - Cube",
+      "Attempts: (0/4)",
+      "There is a 0.02% chance that 1 A Corner of Divinity will drop with Desire Crystals",
+      "Appears at Timemark 1",
+      "Cube"
+     ],
+     "icon": "UISpCardMarkCube02108"
+    },
+    {
+     "lines": [
+      "Foolish - Cube",
+      "Attempts: (0/4)",
+      "There is a 0.03% chance that 1 A Corner of Divinity will drop with Desire Crystals",
+      "Appears at Timemark 1",
+      "Cube"
+     ],
+     "icon": "UISpCardMarkCube02108"
+    },
+    {
+     "lines": [
+      "Foolish - Cube",
+      "Attempts: (0/4)",
+      "There is a 0.07% chance that 1 A Corner of Divinity will drop with Desire Crystals",
+      "Appears at Timemark 1",
+      "Cube"
+     ],
+     "icon": "UISpCardMarkCube02108"
+    },
+    {
+     "lines": [
+      "Fallacious - Cube",
+      "Attempts: (0/4)",
+      "Desire Crystals dropped by Malice Incarnations have a 10% chance to be replicated once",
+      "Appears at Timemark 1",
+      "Cube"
+     ],
+     "icon": "UISpCardMarkCube01108"
+    },
+    {
+     "lines": [
+      "Fallacious - Cube",
+      "Attempts: (0/4)",
+      "Desire Crystals dropped by Malice Incarnations have a 15% chance to be replicated once",
+      "Appears at Timemark 1",
+      "Cube"
+     ],
+     "icon": "UISpCardMarkCube01108"
+    },
+    {
+     "lines": [
+      "Fallacious - Cube",
+      "Attempts: (0/4)",
+      "Desire Crystals dropped by Malice Incarnations have a 30% chance to be replicated once",
+      "Appears at Timemark 1",
+      "Cube"
+     ],
+     "icon": "UISpCardMarkCube01108"
+    },
+    {
+     "lines": [
+      "Covetous - Cube",
+      "Attempts: (0/1)",
+      "When Malice is accumulating in a stage, there's a 100% chance for all monsters to be replaced with Malice Incarnations. Cube of Rapacity's max Coveting attempt limit is 500",
+      "Appears at Timemark 1",
+      "Cube"
+     ],
+     "icon": "UISpCardMarkMonster01108"
+    },
+    {
+     "lines": [
+      "Weary - Aeterna",
+      "Attempts: (0/4)",
+      "Pages of Aeterna dropped by Kin of Aeterna have a 20% chance to become Aeterna Reverberations",
+      "Appears at Timemark 1",
+      "Aeterna"
+     ],
+     "icon": "UISpCardMarkBasic04108"
+    },
+    {
+     "lines": [
+      "Weary - Aeterna",
+      "Attempts: (0/4)",
+      "Pages of Aeterna dropped by Kin of Aeterna have a 30% chance to become Aeterna Reverberations",
+      "Appears at Timemark 1",
+      "Aeterna"
+     ],
+     "icon": "UISpCardMarkBasic04108"
+    },
+    {
+     "lines": [
+      "Weary - Aeterna",
+      "Attempts: (0/4)",
+      "Pages of Aeterna dropped by Kin of Aeterna have a 60% chance to become Aeterna Reverberations",
+      "Appears at Timemark 1",
+      "Aeterna"
+     ],
+     "icon": "UISpCardMarkBasic04108"
+    },
+    {
+     "lines": [
+      "Lazy - Aeterna",
+      "Attempts: (0/1)",
+      "Gear drops have a 7% chance to become Aeterna Reverberations",
+      "Appears at Timemark 1",
+      "Aeterna"
+     ],
+     "icon": "UISpCardMarkBasic04108"
+    },
+    {
+     "lines": [
+      "Negligent - Aeterna",
+      "Attempts: (0/4)",
+      "In stages, there's a 40% chance for an additional Blade of Aeternal's Obsession to appear",
+      "Appears at Timemark 1",
+      "Aeterna"
+     ],
+     "icon": "UISpCardMarkMonster04108"
+    },
+    {
+     "lines": [
+      "Negligent - Aeterna",
+      "Attempts: (0/4)",
+      "In stages, there's a 60% chance for an additional Blade of Aeternal's Obsession to appear",
+      "Appears at Timemark 1",
+      "Aeterna"
+     ],
+     "icon": "UISpCardMarkMonster04108"
+    },
+    {
+     "lines": [
+      "Negligent - Aeterna",
+      "Attempts: (0/4)",
+      "In stages, there's a 100% chance for an additional Blade of Aeternal's Obsession to appear",
+      "Appears at Timemark 1",
+      "Aeterna"
+     ],
+     "icon": "UISpCardMarkMonster04108"
+    },
+    {
+     "lines": [
+      "Indolent - Aeterna",
+      "Attempts: (0/1)",
+      "Bosses have a 100% chance to drop 1 additional Queen's Wick(s)",
+      "Appears at Timemark 1",
+      "Aeterna"
+     ]
+    },
+    {
+     "lines": [
+      "Disappointed - Nightmare",
+      "Attempts: (0/4)",
+      "In stages, +8% chance for an additional Sweet Dream Mist to appear in a Sweet Dream",
+      "Appears at Timemark 1",
+      "Nightmare"
+     ],
+     "icon": "UISpCardMarkBasic06108"
+    },
+    {
+     "lines": [
+      "Disappointed - Nightmare",
+      "Attempts: (0/4)",
+      "In stages, +12% chance for an additional Sweet Dream Mist to appear in a Sweet Dream",
+      "Appears at Timemark 1",
+      "Nightmare"
+     ],
+     "icon": "UISpCardMarkBasic06108"
+    },
+    {
+     "lines": [
+      "Disappointed - Nightmare",
+      "Attempts: (0/4)",
+      "In stages, +24% chance for an additional Sweet Dream Mist to appear in a Sweet Dream",
+      "Appears at Timemark 1",
+      "Nightmare"
+     ],
+     "icon": "UISpCardMarkBasic06108"
+    },
+    {
+     "lines": [
+      "Hopeless - Nightmare",
+      "Attempts: (0/4)",
+      "-10% chance to enter a Nightmare when you are not at the max Dream level",
+      "Appears at Timemark 1",
+      "Nightmare"
+     ]
+    },
+    {
+     "lines": [
+      "Hopeless - Nightmare",
+      "Attempts: (0/4)",
+      "-15% chance to enter a Nightmare when you are not at the max Dream level",
+      "Appears at Timemark 1",
+      "Nightmare"
+     ]
+    },
+    {
+     "lines": [
+      "Hopeless - Nightmare",
+      "Attempts: (0/4)",
+      "-30% chance to enter a Nightmare when you are not at the max Dream level",
+      "Appears at Timemark 1",
+      "Nightmare"
+     ]
+    },
+    {
+     "lines": [
+      "Disillusioned - Nightmare",
+      "Attempts: (0/1)",
+      "When selecting a Dream Omen, there is a 100% chance that all Nightmare Omens become: +70% additional Drop Quantity (stacks up to 2 times)",
+      "-30% chance to enter a Nightmare when you are not at the max Dream level",
+      "Appears at Timemark 1",
+      "Nightmare"
+     ],
+     "icon": "UISpCardMarkBasic01108"
+    },
+    {
+     "lines": [
+      "Sorrowful - Whispering Mist",
+      "Attempts: (0/4)",
+      "Resident's Eyes dropped by Mistville \"Residents\" have a 30% chance to be replicated once",
+      "Appears at Timemark 1",
+      "Folklores"
+     ]
+    },
+    {
+     "lines": [
+      "Sorrowful - Whispering Mist",
+      "Attempts: (0/4)",
+      "Resident's Eyes dropped by Mistville \"Residents\" have a 45% chance to be replicated once",
+      "Appears at Timemark 1",
+      "Folklores"
+     ]
+    },
+    {
+     "lines": [
+      "Sorrowful - Whispering Mist",
+      "Attempts: (0/4)",
+      "Resident's Eyes dropped by Mistville \"Residents\" have a 100% chance to be replicated once",
+      "Appears at Timemark 1",
+      "Folklores"
+     ]
+    },
+    {
+     "lines": [
+      "Shivering - Whispering Mist",
+      "Attempts: (0/1)",
+      "Bosses have a 100% chance to drop 1 additional Mist Essence(s)",
+      "Appears at Timemark 1",
+      "Folklores"
+     ]
+    },
+    {
+     "lines": [
+      "Terrified - Whispering Mist",
+      "Attempts: (0/4)",
+      "Mistville Residents have a 50% chance to drop 1 additional Resident's Eye(s)",
+      "Appears at Timemark 1",
+      "Folklores"
+     ]
+    },
+    {
+     "lines": [
+      "Terrified - Whispering Mist",
+      "Attempts: (0/4)",
+      "Mistville Residents have a 75% chance to drop 1 additional Resident's Eye(s)",
+      "Appears at Timemark 1",
+      "Folklores"
+     ]
+    },
+    {
+     "lines": [
+      "Terrified - Whispering Mist",
+      "Attempts: (0/4)",
+      "Mistville Residents have a 75% chance to drop 2 additional Resident's Eye(s)",
+      "Appears at Timemark 1",
+      "Folklores"
+     ]
+    },
+    {
+     "lines": [
+      "Indulgent - Doll",
+      "Attempts: (0/4)",
+      "In Clockwork Ballet Games, when a Booster Drink is triggered, +20% additional Compass Drop Quantity for the final rewards. Stacks up to 1 time(s)",
+      "Appears at Timemark 1",
+      "Doll"
+     ],
+     "icon": "UISpCardMarkCompass01108"
+    },
+    {
+     "lines": [
+      "Indulgent - Doll",
+      "Attempts: (0/4)",
+      "In Clockwork Ballet Games, when a Booster Drink is triggered, +30% additional Compass Drop Quantity for the final rewards. Stacks up to 1 time(s)",
+      "Appears at Timemark 1",
+      "Doll"
+     ],
+     "icon": "UISpCardMarkCompass01108"
+    },
+    {
+     "lines": [
+      "Indulgent - Doll",
+      "Attempts: (0/4)",
+      "In Clockwork Ballet Games, when a Booster Drink is triggered, +50% additional Compass Drop Quantity for the final rewards. Stacks up to 1 time(s)",
+      "Appears at Timemark 1",
+      "Doll"
+     ],
+     "icon": "UISpCardMarkCompass01108"
+    },
+    {
+     "lines": [
+      "Vain - Doll",
+      "Attempts: (0/4)",
+      "In Clockwork Ballet Games, when a Time Extender is triggered, +20% additional Compass Drop Quantity for the final rewards. Stacks up to 1 time(s)",
+      "Appears at Timemark 1",
+      "Doll"
+     ],
+     "icon": "UISpCardMarkCompass01108"
+    },
+    {
+     "lines": [
+      "Vain - Doll",
+      "Attempts: (0/4)",
+      "In Clockwork Ballet Games, when a Time Extender is triggered, +30% additional Compass Drop Quantity for the final rewards. Stacks up to 1 time(s)",
+      "Appears at Timemark 1",
+      "Doll"
+     ],
+     "icon": "UISpCardMarkCompass01108"
+    },
+    {
+     "lines": [
+      "Vain - Doll",
+      "Attempts: (0/4)",
+      "In Clockwork Ballet Games, when a Time Extender is triggered, +50% additional Compass Drop Quantity for the final rewards. Stacks up to 1 time(s)",
+      "Appears at Timemark 1",
+      "Doll"
+     ],
+     "icon": "UISpCardMarkCompass01108"
+    },
+    {
+     "lines": [
+      "Ostentatious - Doll",
+      "Attempts: (0/1)",
+      "When putting Cogwheel Vouchers into the Clockwork Ballet Podium, if there is more than 60s remaining, there is a 100% chance to get 1 additional Rainbow or better Cogwheel Voucher(s)",
+      "Appears at Timemark 1",
+      "Doll"
+     ],
+     "icon": "UISpCardMarkBasic05108"
+    },
+    {
+     "lines": [
+      "Wasteful - Doll",
+      "Attempts: (0/1)",
+      "When putting Cogwheel Vouchers into the Clockwork Ballet Podium, if there is less than 60s remaining, there is a 100% chance to get 1 additional Rainbow or better Cogwheel Voucher(s)",
+      "Appears at Timemark 1",
+      "Doll"
+     ],
+     "icon": "UISpCardMarkBasic05108"
+    },
+    {
+     "lines": [
+      "Extravagant - Doll",
+      "Attempts: (0/4)",
+      "You gain +20% Drop Quantity when starting Clockwork Ballet Games",
+      "Appears at Timemark 1",
+      "Doll"
+     ],
+     "icon": "UISpCardMarkBasic01108"
+    },
+    {
+     "lines": [
+      "Extravagant - Doll",
+      "Attempts: (0/4)",
+      "You gain +30% Drop Quantity when starting Clockwork Ballet Games",
+      "Appears at Timemark 1",
+      "Doll"
+     ],
+     "icon": "UISpCardMarkBasic01108"
+    },
+    {
+     "lines": [
+      "Extravagant - Doll",
+      "Attempts: (0/4)",
+      "You gain +50% Drop Quantity when starting Clockwork Ballet Games",
+      "Appears at Timemark 1",
+      "Doll"
+     ],
+     "icon": "UISpCardMarkBasic01108"
+    },
+    {
+     "lines": [
+      "Cold - The Frozen Canvas",
+      "Attempts: (0/4)",
+      "$P2$ additional Snowpaper Fragment will drop when completing Netherrealm stages",
+      "Appears at Timemark 1",
+      "The Frozen Canvas"
+     ],
+     "icon": "UISpCardMarkFrozenCanvas01108"
+    },
+    {
+     "lines": [
+      "Cold - The Frozen Canvas",
+      "Attempts: (0/4)",
+      "$P2$ additional Snowpaper Fragment will drop when completing Netherrealm stages",
+      "Appears at Timemark 1",
+      "The Frozen Canvas"
+     ],
+     "icon": "UISpCardMarkFrozenCanvas01108"
+    },
+    {
+     "lines": [
+      "Cold - The Frozen Canvas",
+      "Attempts: (0/4)",
+      "$P2$ additional Snowpaper Fragment will drop when completing Netherrealm stages",
+      "Appears at Timemark 1",
+      "The Frozen Canvas"
+     ],
+     "icon": "UISpCardMarkFrozenCanvas01108"
+    },
+    {
+     "lines": [
+      "Severe - The Frozen Canvas",
+      "Attempts: (0/4)",
+      "1 additional Dyed Snow Monster(s) appear in the stage",
+      "Appears at Timemark 1",
+      "The Frozen Canvas"
+     ],
+     "icon": "UISpCardMarkMonster03108"
+    },
+    {
+     "lines": [
+      "Severe - The Frozen Canvas",
+      "Attempts: (0/4)",
+      "2 additional Dyed Snow Monster(s) appear in the stage",
+      "Appears at Timemark 1",
+      "The Frozen Canvas"
+     ],
+     "icon": "UISpCardMarkMonster03108"
+    },
+    {
+     "lines": [
+      "Severe - The Frozen Canvas",
+      "Attempts: (0/4)",
+      "4 additional Dyed Snow Monster(s) appear in the stage",
+      "Appears at Timemark 1",
+      "The Frozen Canvas"
+     ],
+     "icon": "UISpCardMarkMonster03108"
+    },
+    {
+     "lines": [
+      "Harsh - The Frozen Canvas",
+      "Attempts: (0/1)",
+      "3 additional Rare monsters",
+      "In Netherrealm stages, Rare Netherrealm monsters have a 100% chance to be replaced with Dyed Snow Monsters",
+      "Appears at Timemark 1",
+      "The Frozen Canvas"
+     ],
+     "icon": "UISpCardMarkMonster03108"
+    },
+    {
+     "lines": [
+      "Bizarre - Arcana",
+      "Attempts: (0/4)",
+      "When completing a Tarot Trial, for every point of Tarot Trial progress gained, there is a slightly higher chance for a Secret Path to appear in the Tarot Path",
+      "Appears at Timemark 1",
+      "Arcana"
+     ],
+     "icon": "UISpCardMarkBasic06108"
+    },
+    {
+     "lines": [
+      "Bizarre - Arcana",
+      "Attempts: (0/4)",
+      "When completing a Tarot Trial, for every point of Tarot Trial progress gained, there is a moderately higher chance for a Secret Path to appear in the Tarot Path",
+      "Appears at Timemark 1",
+      "Arcana"
+     ],
+     "icon": "UISpCardMarkBasic06108"
+    },
+    {
+     "lines": [
+      "Bizarre - Arcana",
+      "Attempts: (0/4)",
+      "When completing a Tarot Trial, for every point of Tarot Trial progress gained, there is a significantly higher chance for a Secret Path to appear in the Tarot Path",
+      "Appears at Timemark 1",
+      "Arcana"
+     ],
+     "icon": "UISpCardMarkBasic06108"
+    },
+    {
+     "lines": [
+      "Secretive - Arcana",
+      "Attempts: (0/1)",
+      "When completing a Tarot Trial, a Secret Path is guaranteed to appear in the Tarot Path",
+      "Appears at Timemark 1",
+      "Arcana"
+     ],
+     "icon": "UISpCardMarkBasic06108"
+    },
+    {
+     "lines": [
+      "Persuasive - Arcana",
+      "Attempts: (0/4)",
+      "When completing a Tarot Trial, +33% chance for the rarity of dropped Notes of Arcana to increase",
+      "Appears at Timemark 1",
+      "Arcana"
+     ],
+     "icon": "UISpCardMarkTaro01108"
+    },
+    {
+     "lines": [
+      "Persuasive - Arcana",
+      "Attempts: (0/4)",
+      "When completing a Tarot Trial, +50% chance for the rarity of dropped Notes of Arcana to increase",
+      "Appears at Timemark 1",
+      "Arcana"
+     ],
+     "icon": "UISpCardMarkTaro01108"
+    },
+    {
+     "lines": [
+      "Persuasive - Arcana",
+      "Attempts: (0/4)",
+      "When completing a Tarot Trial, +100% chance for the rarity of dropped Notes of Arcana to increase",
+      "Appears at Timemark 1",
+      "Arcana"
+     ],
+     "icon": "UISpCardMarkTaro01108"
+    },
+    {
+     "lines": [
+      "Bewitching - Arcana",
+      "Attempts: (0/1)",
+      "When completing a Tarot Trial, +100% chance to drop 1 additional Auspicious Note: Increase",
+      "Appears at Timemark 1",
+      "Arcana"
+     ],
+     "icon": "UISpCardMarkTaro01108"
+    },
+    {
+     "lines": [
+      "Abashed - Sandlord",
+      "Attempts: (0/4)",
+      "A Sand Pirate that has a 2% chance to drop lots of additional Oasis Coins",
+      "Appears at Timemark 1",
+      "Sandlord"
+     ]
+    },
+    {
+     "lines": [
+      "Abashed - Sandlord",
+      "Attempts: (0/4)",
+      "A Sand Pirate that has a 3% chance to drop lots of additional Oasis Coins",
+      "Appears at Timemark 1",
+      "Sandlord"
+     ]
+    },
+    {
+     "lines": [
+      "Abashed - Sandlord",
+      "Attempts: (0/4)",
+      "A Sand Pirate that has a 6% chance to drop lots of additional Oasis Coins",
+      "Appears at Timemark 1",
+      "Sandlord"
+     ]
+    },
+    {
+     "lines": [
+      "Uptight - Sandlord",
+      "Attempts: (0/1)",
+      "When Sand Pirates appear in a stage, 5 additional Empowered Sand Pirate(s) appear",
+      "Appears at Timemark 1",
+      "Sandlord"
+     ],
+     "icon": "UISpCardMarkMonster03108"
+    },
+    {
+     "lines": [
+      "Oppressive - Outlaw",
+      "Attempts: (0/4)",
+      "+10% additional Drop Quantity for all Security personnel",
+      "Appears at Timemark 1",
+      "Outlaw"
+     ],
+     "icon": "UISpCardMarkBasic01108"
+    },
+    {
+     "lines": [
+      "Oppressive - Outlaw",
+      "Attempts: (0/4)",
+      "+15% additional Drop Quantity for all Security personnel",
+      "Appears at Timemark 1",
+      "Outlaw"
+     ],
+     "icon": "UISpCardMarkBasic01108"
+    },
+    {
+     "lines": [
+      "Oppressive - Outlaw",
+      "Attempts: (0/4)",
+      "+30% additional Drop Quantity for all Security personnel",
+      "Appears at Timemark 1",
+      "Outlaw"
+     ],
+     "icon": "UISpCardMarkBasic01108"
+    },
+    {
+     "lines": [
+      "Imperious - Outlaw",
+      "Attempts: (0/1)",
+      "Rare monsters are guaranteed to appear in reinforcements",
+      "Appears at Timemark 1",
+      "Outlaw"
+     ],
+     "icon": "UISpCardMarkMonster03108"
+    },
+    {
+     "lines": [
+      "Dogmatic - Outlaw",
+      "Attempts: (0/4)",
+      "In Netherrealm stages, Bounty Order Probability +10%",
+      "There is a +10% chance for an additional Bounty Chest to appear after Bounty Orders end",
+      "Appears at Timemark 1",
+      "Outlaw"
+     ],
+     "icon": "UISpCardMarkBasic06108"
+    },
+    {
+     "lines": [
+      "Dogmatic - Outlaw",
+      "Attempts: (0/4)",
+      "In Netherrealm stages, Bounty Order Probability +10%",
+      "There is a +15% chance for an additional Bounty Chest to appear after Bounty Orders end",
+      "Appears at Timemark 1",
+      "Outlaw"
+     ],
+     "icon": "UISpCardMarkBasic06108"
+    },
+    {
+     "lines": [
+      "Dogmatic - Outlaw",
+      "Attempts: (0/4)",
+      "In Netherrealm stages, Bounty Order Probability +10%",
+      "There is a +30% chance for an additional Bounty Chest to appear after Bounty Orders end",
+      "Appears at Timemark 1",
+      "Outlaw"
+     ],
+     "icon": "UISpCardMarkBasic06108"
+    },
+    {
+     "lines": [
+      "Conceited - Outlaw",
+      "Attempts: (0/1)",
+      "In Netherrealm stages, Bounty Order Probability +30%",
+      "Bounty Orders are guaranteed to be Astronomical",
+      "Appears at Timemark 1",
+      "Outlaw"
+     ],
+     "icon": "UISpCardMarkBasic06108"
+    },
+    {
+     "lines": [
+      "Punitive - Cage",
+      "Attempts: (0/4)",
+      "+10% additional Drop Quantity for Cages of Original Sin and the monsters they release",
+      "Appears at Timemark 1",
+      "Cage"
+     ],
+     "icon": "UISpCardMarkBasic01108"
+    },
+    {
+     "lines": [
+      "Punitive - Cage",
+      "Attempts: (0/4)",
+      "+15% additional Drop Quantity for Cages of Original Sin and the monsters they release",
+      "Appears at Timemark 1",
+      "Cage"
+     ],
+     "icon": "UISpCardMarkBasic01108"
+    },
+    {
+     "lines": [
+      "Punitive - Cage",
+      "Attempts: (0/4)",
+      "+30% additional Drop Quantity for Cages of Original Sin and the monsters they release",
+      "Appears at Timemark 1",
+      "Cage"
+     ],
+     "icon": "UISpCardMarkBasic01108"
+    },
+    {
+     "lines": [
+      "Guilty - Cage",
+      "Attempts: (0/1)",
+      "When Cages of Original Sin release monsters, they release an additional monster",
+      "Appears at Timemark 1",
+      "Cage"
+     ],
+     "icon": "UISpCardMarkMonster03108"
+    },
+    {
+     "lines": [
+      "Restrained - Overrealm",
+      "Attempts: (0/4)",
+      "+10% additional gear Drop Quantity in the Overrealm",
+      "Appears at Timemark 1",
+      "Overrealm"
+     ],
+     "icon": "UISpCardMarkBasic01108"
+    },
+    {
+     "lines": [
+      "Restrained - Overrealm",
+      "Attempts: (0/4)",
+      "+15% additional gear Drop Quantity in the Overrealm",
+      "Appears at Timemark 1",
+      "Overrealm"
+     ],
+     "icon": "UISpCardMarkBasic01108"
+    },
+    {
+     "lines": [
+      "Assertive - Overrealm",
+      "Attempts: (0/4)",
+      "In the Overrealm, the quality of the first Bottled Shadow obtained is guaranteed to be Red or better",
+      "Appears at Timemark 1",
+      "Overrealm"
+     ],
+     "icon": "UISpCardMarkOverrealm01108"
+    },
+    {
+     "lines": [
+      "Assertive - Overrealm",
+      "Attempts: (0/1)",
+      "In the Overrealm, the quality of the first Bottled Shadow obtained is guaranteed to be Rainbow",
+      "Appears at Timemark 1",
+      "Overrealm"
+     ],
+     "icon": "UISpCardMarkOverrealm01108"
+    },
+    {
+     "lines": [
+      "Unhinged - Overrealm",
+      "Attempts: (0/4)",
+      "In the Overrealm, the chance for Floating Skull, Antimemetic Cage, and \"Doorhunter\" to appear increases",
+      "Appears at Timemark 1",
+      "Overrealm"
+     ],
+     "icon": "UISpCardMarkOverrealm02108"
+    },
+    {
+     "lines": [
+      "Unhinged - Overrealm",
+      "Attempts: (0/1)",
+      "In the Overrealm, the chance for Floating Skull, Antimemetic Cage, and \"Doorhunter\" to appear significantly increases",
+      "Appears at Timemark 1",
+      "Overrealm"
+     ],
+     "icon": "UISpCardMarkOverrealm02108"
+    },
+    {
+     "lines": [
+      "Appalling - Vorax",
+      "Attempts: (0/4)",
+      "In Netherrealm stages, +1% Drop Quantity to the Antidote Vials in Shelley's Operating Theater for every 1 group(s) of Vorax monsters cleared",
+      "Appears at Timemark 1",
+      "Vorax"
+     ],
+     "icon": "UISpCardMarkBasic01108"
+    },
+    {
+     "lines": [
+      "Appalling - Vorax",
+      "Attempts: (0/4)",
+      "In Netherrealm stages, +2% Drop Quantity to the Antidote Vials in Shelley's Operating Theater for every 1 group(s) of Vorax monsters cleared",
+      "Appears at Timemark 1",
+      "Vorax"
+     ],
+     "icon": "UISpCardMarkBasic01108"
+    },
+    {
+     "lines": [
+      "Appalling - Vorax",
+      "Attempts: (0/4)",
+      "In Netherrealm stages, +3% Drop Quantity to the Antidote Vials in Shelley's Operating Theater for every 1 group(s) of Vorax monsters cleared",
+      "Appears at Timemark 1",
+      "Vorax"
+     ],
+     "icon": "UISpCardMarkBasic01108"
+    },
+    {
+     "lines": [
+      "Insane - Vorax",
+      "Attempts: (0/1)",
+      "1 additional Scavenger(s) appear in stages",
+      "In Netherrealm stages, +16% Drop Quantity to the Antidote Vials in Shelley's Operating Theater for every 1 Scavenger(s) defeated (stacks up to 12 time(s))",
+      "Appears at Timemark 1",
+      "Vorax"
+     ],
+     "icon": "UISpCardMarkMonster04108"
+    },
+    {
+     "lines": [
+      "Simple - Creation",
+      "Attempts: (0/4)",
+      "+10% additional Creation Engine Drop Quantity",
+      "Appears at Timemark 1",
+      "Creation"
+     ],
+     "icon": "UISpCardMarkBasic01108"
+    },
+    {
+     "lines": [
+      "Simple - Creation",
+      "Attempts: (0/4)",
+      "+15% additional Creation Engine Drop Quantity",
+      "Appears at Timemark 1",
+      "Creation"
+     ],
+     "icon": "UISpCardMarkBasic01108"
+    },
+    {
+     "lines": [
+      "Simple - Creation",
+      "Attempts: (0/4)",
+      "+30% additional Creation Engine Drop Quantity",
+      "Appears at Timemark 1",
+      "Creation"
+     ],
+     "icon": "UISpCardMarkBasic01108"
+    },
+    {
+     "lines": [
+      "Ignorant - Creation",
+      "Attempts: (0/1)",
+      "100% chance to activate 1 additional Creation Crystal(s) when activating Creation Crystals",
+      "Appears at Timemark 1",
+      "Creation"
+     ],
+     "icon": "UISpCardAncientDevice5Icon"
+    },
+    {
+     "lines": [
+      "Hushed - Lunaria",
+      "Attempts: (0/4)",
+      "Lunaria Gameplay +10% additional Drop Quantity",
+      "Appears at Timemark 1",
+      "Lunaria"
+     ],
+     "icon": "UISpCardMarkBasic01108"
+    },
+    {
+     "lines": [
+      "Hushed - Lunaria",
+      "Attempts: (0/4)",
+      "Lunaria Gameplay +15% additional Drop Quantity",
+      "Appears at Timemark 1",
+      "Lunaria"
+     ],
+     "icon": "UISpCardMarkBasic01108"
+    },
+    {
+     "lines": [
+      "Hushed - Lunaria",
+      "Attempts: (0/4)",
+      "Lunaria Gameplay +30% additional Drop Quantity",
+      "Appears at Timemark 1",
+      "Lunaria"
+     ],
+     "icon": "UISpCardMarkBasic01108"
+    },
+    {
+     "lines": [
+      "Desolate - Lunaria",
+      "Attempts: (0/1)",
+      "Lunaria Gameplay +30% additional Drop Quantity",
+      "In the Lunaria gameplay, a Scarlet Moon Boss appears when activating a statue for the first time",
+      "Appears at Timemark 1",
+      "Lunaria"
+     ],
+     "icon": "UISpCardMarkMonster04108"
+    },
+    {
+     "lines": [
+      "Grief - Afterlight",
+      "Attempts: (0/4)",
+      "+10% additional Drop Quantity for the Vigil",
+      "Appears at Timemark 1",
+      "Afterlight"
+     ],
+     "icon": "UISpCardMarkBasic01108"
+    },
+    {
+     "lines": [
+      "Grief - Afterlight",
+      "Attempts: (0/4)",
+      "+15% additional Drop Quantity for the Vigil",
+      "Appears at Timemark 1",
+      "Afterlight"
+     ],
+     "icon": "UISpCardMarkBasic01108"
+    },
+    {
+     "lines": [
+      "Grief - Afterlight",
+      "Attempts: (0/4)",
+      "+30% additional Drop Quantity for the Vigil",
+      "Appears at Timemark 1",
+      "Afterlight"
+     ],
+     "icon": "UISpCardMarkBasic01108"
+    },
+    {
+     "lines": [
+      "Lament - Afterlight",
+      "Attempts: (0/1)",
+      "A Vigil Goblin is guaranteed to appear in Netherrealm stages",
+      "Appears at Timemark 1",
+      "Afterlight"
+     ],
+     "icon": "UISpCardMarkMonster04108"
+    }
+   ]
+  }
+ ]
+}

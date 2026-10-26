@@ -2,7 +2,7 @@
 
 Built by `tools/build_data.py` from the tlidb crawl (`tools/crawl.py`). Search with `tools/find.py`.
 
-- Pages crawled: **3944**
+- Pages crawled: **5109**
 - Gear slots with craft pools: **48** → `data/affixes/<Slot>.json`
 - Legendaries: **344** → `data/legendaries.json`
 - Talent panels: **32** → `data/talents.json`
@@ -14,41 +14,41 @@ Built by `tools/build_data.py` from the tlidb crawl (`tools/crawl.py`). Search w
 
 ## Catalog pages
 
-- **Hero** — Hero (28), Hero Trait - Help (0)
-- **Talent** — Profession (32), Core Talent Node (163), Talent (1236), Talent - Help (0), Core Talent Node - Help (0), Talents - Help (0)
-- **Ethereal Prism** — Ethereal Prism Affix (393), Item (31), Calibrate Prism - Help (0)
-- **Pactspirit** — Pactspirit (0), Pactspirit - Help (0)
+- **Hero** — Hero (28)
+- **Talent** — Profession (32), Core Talent Node (163), Talent (1236)
+- **Ethereal Prism** — Ethereal Prism Affix (393), Item (31)
+- **Pactspirit** — Pactspirit (183)
 - **Destiny** — Destiny (193), Item (2)
-- **Inventory** — Skill (0), Gear (0), Stash (0)
-- **Legendary Gear** — Gear (0), Legendary Gear (0)
+- **Inventory** — 
+- **Legendary Gear** — Legendary Gear (346)
 - **Follower** — Item (32)
-- **Active Skill** — Active Skill Tag (214), Active Skill (214), Skill Level (0), Skill - Help (0)
-- **Support Skill** — Support Skill Tag (155), Support Skill (155), Skill - Support Skill - Help (0)
-- **Passive Skill** — Passive Skill Tag (55), Passive Skill (55), Skill - Passive - Help (0)
+- **Active Skill** — Active Skill Tag (214), Active Skill (214)
+- **Support Skill** — Support Skill Tag (155), Support Skill (155)
+- **Passive Skill** — Passive Skill Tag (55), Passive Skill (55)
 - **Activation Medium Skill** — Activation Medium Skill Tag (29), Activation Medium Skill (29)
 - **Magnificent Support Skill** — Exclusive Support Skill Tag (148), Magnificent Support Skill (148)
 - **Noble Support Skill** — Exclusive Support Skill Tag (165), Noble Support Skill (165)
 - **Modularization Skill** — Tag (54), Modularization Skill (54)
-- **Tartarus Skill** — Tartarus Skill Tag (81), Tartarus Skill (0)
+- **Tartarus Skill** — Tartarus Skill Tag (81), Tartarus Skill (81)
 - **Origin Tartarus Skill** — Origin Tartarus Skill Tag (54), Origin Tartarus Skill (54)
-- **Craft** — Gear (0), Affix (9889), Craft (0)
-- **Corrosion** — Corrosion Effect (19), Corrosion Base Affix (188), Corrosion (0)
-- **Blending Rituals** — Blending Rituals (97), Blending Rituals - Help (0)
-- **TOWER Sequence** — TOWER Sequence (0), TOWER Sequence - Help (0)
-- **Graft** — Affix (1061), Item (10), Graft (0), Graft - Help (0)
-- **Memory Revival** — Memory Revival Affix (83), Memory Revival (0), Memory Revival - Help (0)
-- **Nether Kings Divinity** — Nether King (116), Nether King's Divinity (3), Nether Kings Divinity (0)
-- **Netherrealm** — Unlock (8), Drops everywhere in Netherrealm (900), Area (6), Netherrealm - Help (0), Netherrealm - Beacon - Help (0), Netherrealm - Map Affix - Help (0), Netherrealm - Plane Watcher - Help (0), Netherrealm - Exclusive Drop - Help (0), Netherrealm - Plane Difficulty - Help (0), Netherrealm - Unlock Plane - Help (0), Netherrealm - Netherrealm Compass - Help (0), Netherrealm - Chaos Invasion - Help (0), Netherrealm - Trait Card - Help (0), Netherrealm - Confusion Card - Help (0), Netherrealm - Card Inheritance - Help (0), Netherrealm - Card Awakening - Help (0), Netherrealm - Traveler - Help (0), Netherrealm - Path of Achievements (48)
+- **Craft** — Affix (9889)
+- **Corrosion** — Corrosion Effect (19), Corrosion Base Affix (188)
+- **Blending Rituals** — Blending Rituals (97)
+- **TOWER Sequence** — TOWER Sequence (111)
+- **Graft** — Affix (1061), Item (10)
+- **Memory Revival** — Memory Revival Affix (83)
+- **Nether Kings Divinity** — Nether King (116), Nether King's Divinity (3)
+- **Netherrealm** — Unlock (8), Drops everywhere in Netherrealm (900), Area (6), Netherrealm - Path of Achievements (87)
 - **Confusion Card Library** — Confusion Card Library (218)
-- **Void Chart** — Void Chart (0), Nodes (1574)
-- **Compass** — Compass (0), Item (12)
+- **Void Chart** — Void Chart (27), Nodes (1574)
+- **Compass** — Compass (79), Item (12)
 - **Probe** — Probe (15)
 - **Season Compass** — Season Compass (3)
 - **Path of the Brave** — Path of the Brave exclusive drop (16), Item (5), Path of the Brave (45)
 - **Tip** — Tip (150), Hyperlink (1852)
-- **Path of Progression** — Path of Progression (7), Path of Progression - Help (0)
-- **Help** — Help (72), Help - Help (0)
-- **Divinity Slate** — Legendary Divinity Slate (163), Non-Legendary Divinity Slate (1236), Item (36), Legendary Gear (7), Obtained when recycling a Divinity Slate (2), Divinity Slate (0), Divinity Slate - Path of Progression (36), Brand Divinity Slate (0), Lv1 - 100 (7)
+- **Path of Progression** — Path of Progression (7)
+- **Help** — Help (287)
+- **Divinity Slate** — Legendary Divinity Slate (163), Non-Legendary Divinity Slate (1236), Item (36), Legendary Gear (7), Obtained when recycling a Divinity Slate (2), Divinity Slate - Path of Progression (36), Lv1 - 100 (7)
 - **Hero Memories** — Affix (234), Hero Memories (3), Base Stats (15), Fixed Affix (231), Random Affix (432), Hero Memories - Path of Progression (36)
 
 ## Gear slots

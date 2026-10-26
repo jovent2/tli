@@ -40,7 +40,7 @@ def fetch(key, refresh=False, delay=0.15):
     p = raw_path(key)
     if p.exists() and not refresh:
         return p.read_text(encoding="utf-8"), False
-    url = "https://tlidb.com/en/" + urllib.parse.quote(key, safe="_%-().'")
+    url = "https://tlidb.com/en/" + urllib.parse.quote(key, safe="_-().'")
     last = None
     for attempt in range(4):
         try:
@@ -118,6 +118,8 @@ def main(argv=None):
                     print(f"[{time.time() - t0:6.0f}s] done {len(done)} fetched {fetched_n} "
                           f"queued {len(frontier)} failed {len(failed)}", flush=True)
     print(f"FINISHED done {len(done)} fetched {fetched_n} failed {len(failed)} in {time.time() - t0:.0f}s")
+    if a.only:
+        return
     (ROOT / "data" / "crawl_report.json").write_text(json.dumps(
         {"done": len(done), "failed": failed, "depth": a.depth,
          "depth_of": depth_of}, ensure_ascii=False, indent=1), encoding="utf-8")

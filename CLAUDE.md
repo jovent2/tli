@@ -39,6 +39,11 @@ Every new session starts by reading this file, then the files listed under "Read
 
 ## Layout
 - `docs/` — mechanics, tlidb notes, crafting/costs.
-- `tools/` — `tlidb.py` (raw page reader), `value.py` (marginal-value calculator).
-- `data/` — scraped game data (JSON). `data/raw/` is the page cache, gitignored.
-- `ss14/` — season 14 (Tartarus). `ss14/thea/` is the current character.
+- `tools/`
+  - `find.py` — search all game data (start here)
+  - `value.py` — what a line is worth on the character's sheet (`ss14/thea/stats.json`)
+  - `tree.py` — validate a talent allocation (`ss14/thea/trees.json`) against tlidb and total its stats
+  - `tlidb.py` — read one live tlidb page raw
+  - `crawl.py`, `tlidb_parse.py`, `build_data.py` — rebuild `data/` from tlidb
+- `data/` — the whole of tlidb as JSON (see `data/README.md`, `data/INDEX.md`). `data/raw/`, `data/pages/` are caches, gitignored.
+- `ss14/` — season 14 (Tartarus). `ss14/thea/` is the current character: `build.md`, `stats.json`, `trees.json`, `plans.md`, `tests.md`, `history.md`.

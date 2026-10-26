@@ -61,10 +61,11 @@ DPS = Base
 - +0.5% additional damage per point of STR+DEX+INT; Lightchaser raises it to 0.75%/point.
 
 ### Enemy side
-- **Frostbite** [tlidb]: base rating 10; each rating point = +1% additional cold taken; Frostbite Effect scales that per-point bonus → factor 1 + rating × (1 + effect%)/100. **Frozen above 100 rating.** Frozen non-legendary bosses get Frost-Sealed 1 s every 3 s.
+- **Frostbite** [tlidb]: base rating 10; each rating point = +1% additional cold taken; Frostbite Effect scales that per-point bonus → factor 1 + rating × (1 + effect%)/100. **Frozen above 100 rating. Max Frostbite Rating is capped at 120** — any max-frostbite source past 120 is wasted. Frozen non-legendary bosses get Frost-Sealed 1 s every 3 s.
 - **Freeze** counts as its own ailment type for Dirty Tricks.
 - **Dirty Tricks** [tlidb]: +12% additional hit damage (multiplies) per ailment type on the enemy. Ailments: Ignite, Frostbite, Freeze, Shock, Numbed, Trauma, Wilt. Frail/Weaken/Slow/Curse/Paralysis are NOT ailments.
-- **Mark / Enhanced Mark** [tlidb]: Mark = +10% additional crit damage taken; Enhanced Mark (Target Projection) = +X% additional projectile damage taken (Target Projection's per-level value), counts as Mark.
+- **Mark / Enhanced Mark** [tlidb]: Mark = −20% evasion, +10% additional crit damage taken. Enhanced Mark = +15% additional projectile damage taken for 3 s, counts as Mark (so also the +10% crit taken).
+- **Target Projection** [tlidb]: inflicts Enhanced Mark on hit AND "the supported skill deals +X% additional damage to Marked enemies" (lv20 14.5%, lv29 16.6%, lv36 18%). On paper ×1.166 × 1.15 × 1.095 = ×1.47 at lv29. **[tested] it measured ~×1.25** (9.9 T replacing Lightchaser, which is worth ×1.14) — one part is not applying in game; unresolved which.
 - **Resistance**: bosses 30% all res [Vlad]; penetration subtracts.
 - **Armor** [tlidb]: monster reduction = Armor / (0.9 × Armor + 30000), monster armor up to 27,273 → **50%** max. Only **60%** of armor reduction applies to non-physical damage → 30% vs a cold hit. Armor DMG Mitigation Penetration is treated as subtracting from that (10% pen → ×0.80). Vlad: use the 60% rule. **[model]** for exactly how pen interacts.
 

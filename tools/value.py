@@ -80,9 +80,11 @@ def critdmg(s, pct):
 
 
 def frostbite(s, d_rating=0.0, d_effect=0.0):
-    r, e = s["frostbite_rating"], s["frostbite_effect_pct"]
+    """Max Frostbite Rating caps at 120 (tlidb glossary)."""
+    cap = s.get("frostbite_cap", 120)
+    r, e = min(cap, s["frostbite_rating"]), s["frostbite_effect_pct"]
     old = 1 + r * (1 + e / 100) / 100
-    new = 1 + (r + d_rating) * (1 + (e + d_effect) / 100) / 100
+    new = 1 + min(cap, r + d_rating) * (1 + (e + d_effect) / 100) / 100
     return ratio(new, old)
 
 

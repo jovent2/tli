@@ -40,7 +40,7 @@ def page_key(page: str) -> str:
 
 
 def page_url(page: str) -> str:
-    return BASE + "en/" + urllib.parse.quote(page_key(page), safe="_%-().'")
+    return BASE + "en/" + urllib.parse.quote(page_key(page), safe="_-().'")
 
 
 def cache_path(url: str) -> Path:

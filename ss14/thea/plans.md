@@ -16,14 +16,19 @@ All multipliers on the sheet in `stats.json` unless dated. FE per 1% = expected 
 4. Crit rating 166 → T0: ~226 FE/1% and worse after crit changes — skip; eventually replace with spell crit dmg.
 - Vlad will not put armor pen on wands. Keeps spell damage % over flat cold on future rolls (phys/weapon-amp options).
 
+## Frostbite cap (found 2026-10-27 in the tlidb glossary)
+- **Max Frostbite Rating caps at 120.** At 101 there are only 19 useful points left (×1.127 total at 104.8% effect). Everything below is priced with the cap; earlier quotes that went past 120 were wrong.
+
 ## Rings
-- **Ring L**: two ultimate slots. INT 52 → **armor pen** (×1.13 net, ~90 FE/1%) first; second ult either damage → **+1 Max Focus** (×1.076) or crit → **max frostbite** (×1.07). Ring total ×1.22 for ~2,300 FE → ~105 FE/1%.
+- **Ring L**: two ultimate slots. INT 52 → **armor pen** (×1.13 net, ~90 FE/1%) first; second ult **damage → +1 Max Focus** (×1.076). Crit → max frostbite is now only ×1.01 net (the +30 is capped at +19) — dead option.
+- **Heart of Magic** (ring, graft): base ×1.24 < Ring L ×1.28; corroded ×1.44 (+12% over Ring L) but −57 res. Buy only cheap.
 - Ring L res → T1 crit dmg (advanced, ×1.108) after freeing the res with kismets: needs 16 more lightning res (3 micros or medium + micro, ~40 INT → net ×1.05).
-- **Ring R**: max frostbite T2 20 → T1 ~32 (×1.07, ~166 FE/1%); arp T2 10 → T1 ~15 (×1.06 on the 60% armor rule, ~185 FE/1%).
+- **Ring R**: max frostbite T2 20 → T1 ~32 (+12 → 113, under the cap: ×1.07, ~166 FE/1%); arp T2 10 → T1 ~15 (×1.06 on the 60% armor rule, ~185 FE/1%).
+- Frostbite headroom is shared: Ring R T1 (+12) + slate +5 line (+7.7) already fills it to ~121. Cage corrosion's +20 max frostbite is then worth nothing.
 
 ## Big buys
 - **Pantheon's Elegy** (~13k + ~2.5k for Gale): Hunting dirge (Precise: Swiftness +120% atk/cast, scales with aura effect) ≈ ×1.33 now; + Steel Vanguard (Swiftness Dew + Resistance Dew); third dirge decides it (God of Machines +2–4 main skill ×1.17–1.36, Prophet +40% frostbite effect, God of War +15–20% additional on crit). Loses 47% dmg, 31 INT, 220 ES, 52 res. ×1.37–1.48 with a real third dirge → 320–420 FE/1%. Good mapping belt (MS, area dirge option).
-- **Corrosion** (values only, no budget): I Am Truth +4 → +7 levels ×1.32 · Israfel 14 → 19 per Focus ×1.21 · Malign corroded +20% additional spell ×1.20 · Cage +20 max frostbite ×1.13.
+- **Corrosion** (values only, no budget): I Am Truth corroded is +7–8 all skills (tlidb) → +3–4 levels ×1.26–1.33 · Israfel corroded 18–19 per Focus (and +4% crit dmg per Focus) ×1.21 · Malign corroded +12–20% additional spell ×1.12–1.20 · Cage +20 max frostbite ≤ ×1.127 and 0 once the cap is filled elsewhere.
 - **Immolating World** (neck): Vlad thinks it's the strongest Thea unique. With 40% CDR you instantly gain full Focus and Tenacity; +4 Tenacity → 8/8 → True Flame Immolation base 3,728 vs Chromatic's ~2,390 effective. **Not priced yet — do it properly.**
 
 ## Defense plan (after DPS is enough; target ≥ 15 T)

@@ -146,8 +146,12 @@ def build_catalog(pages):
             cards.append(item)
         (out_dir / f"{src}.json").write_text(json.dumps({"page": src, "cards": cards}, ensure_ascii=False, indent=1),
                                              encoding="utf-8")
-        counts[src] = {cards_["card"]: len(cards_.get("entries", [])) + sum(len(t["rows"]) for t in cards_.get("tables", []))
-                       for cards_ in cards}
+        cs = {}
+        for cc in cards:
+            n = len(cc.get("entries", [])) + sum(len(t["rows"]) for t in cc.get("tables", []))
+            if n:
+                cs[cc["card"]] = cs.get(cc["card"], 0) + n
+        counts[src] = cs
     return counts
 
 

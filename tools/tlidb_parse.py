@@ -141,11 +141,28 @@ def _svgs(soup) -> list[dict]:
             n = {k: float(im.get(k)) for k in ("x", "y", "width", "height") if im.get(k) is not None}
             if title:
                 tip = BeautifulSoup(title, "lxml")
-                nm = tip.find(class_="sp-node-name")
+                root = tip.body or tip
+                # alternate versions (e.g. Prophecy of Revelation swaps) sit in div.mt-2 blocks
+                alts = []
+                for mt in root.find_all("div", class_="mt-2"):
+                    anm = mt.find(class_="sp-node-name")
+                    src = mt.find(class_="prophecy")
+                    alt = {"name": anm.get_text(" ", strip=True) if anm else None,
+                           "source": src.get_text(" ", strip=True).replace("Source:", "").strip() if src else None}
+                    if anm:
+                        anm.decompose()
+                    if src:
+                        src.decompose()
+                    alt["lines"] = text_lines(mt)
+                    alts.append(alt)
+                    mt.decompose()
+                nm = root.find(class_="sp-node-name")
                 n["name"] = nm.get_text(" ", strip=True) if nm else None
                 if nm:
                     nm.decompose()
-                n["lines"] = text_lines(tip.body or tip)
+                n["lines"] = text_lines(root)
+                if alts:
+                    n["alt"] = alts
             href = im.get("xlink:href") or im.get("href")
             if href:
                 n["icon"] = href.rsplit("/", 1)[-1]

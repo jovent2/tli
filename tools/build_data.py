@@ -305,8 +305,11 @@ def build_talents(pages, cats):
                 if "x" not in n:
                     continue
                 cx, cy = n["x"] + n.get("width", 64) / 2, n["y"] + n.get("height", 64) / 2
-                pos.append({"cx": cx, "cy": cy, "name": n.get("name"), "lines": n.get("lines", []),
-                            "icon": n.get("icon")})
+                rec = {"cx": cx, "cy": cy, "name": n.get("name"), "lines": n.get("lines", []),
+                       "icon": n.get("icon")}
+                if n.get("alt"):
+                    rec["alt"] = n["alt"]
+                pos.append(rec)
             xs = sorted({p["cx"] for p in pos if p["cy"] > 0})
             ys = sorted({p["cy"] for p in pos if p["cy"] > 0})
             colpts = [0, 3, 6, 9, 12, 15, 18]

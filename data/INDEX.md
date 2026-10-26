@@ -2,7 +2,7 @@
 
 Built by `tools/build_data.py` from the tlidb crawl (`tools/crawl.py`). Search with `tools/find.py`.
 
-- Pages crawled: **2539**
+- Pages crawled: **3944**
 - Gear slots with craft pools: **48** → `data/affixes/<Slot>.json`
 - Legendaries: **344** → `data/legendaries.json`
 - Talent panels: **32** → `data/talents.json`

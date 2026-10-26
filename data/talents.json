@@ -5808,13 +5808,19 @@
     "name": "Legendary Medium Talent",
     "lines": [
      "+5% Block Ratio when holding a Shield",
-     "(Max Active Divinity: 1)",
-     "Legendary Medium Talent",
-     "+5% Max Block Ratio while having at least 10 stack(s) of Tenacity Blessing",
-     "(Max Active Divinity: 1)",
-     "Source:Hero Trait -Prophecy of Revelation"
+     "(Max Active Divinity: 1)"
     ],
     "icon": "JL_DmgPhys_64.webp",
+    "alt": [
+     {
+      "name": "Legendary Medium Talent",
+      "source": "Hero Trait -Prophecy of Revelation",
+      "lines": [
+       "+5% Max Block Ratio while having at least 10 stack(s) of Tenacity Blessing",
+       "(Max Active Divinity: 1)"
+      ]
+     }
+    ],
     "column_points": 18,
     "row": 2,
     "id": "864_176",
@@ -5927,14 +5933,20 @@
     "name": "Legendary Medium Talent",
     "lines": [
      "+4 to the minimum number of enemies affected by Warcry",
-     "(Max Active Divinity: 1)",
-     "Legendary Medium Talent",
-     "+4 to the minimum number of enemies affected by Warcry",
-     "When casting a Warcry Skill, gains 1 stack of Tenacity Blessing for each enemy affected",
-     "(Max Active Divinity: 1)",
-     "Source:Hero Trait -Prophecy of Revelation"
+     "(Max Active Divinity: 1)"
     ],
     "icon": "JL_Crossbow02_64.webp",
+    "alt": [
+     {
+      "name": "Legendary Medium Talent",
+      "source": "Hero Trait -Prophecy of Revelation",
+      "lines": [
+       "+4 to the minimum number of enemies affected by Warcry",
+       "When casting a Warcry Skill, gains 1 stack of Tenacity Blessing for each enemy affected",
+       "(Max Active Divinity: 1)"
+      ]
+     }
+    ],
     "column_points": 18,
     "row": 3,
     "id": "864_272",
@@ -6094,12 +6106,18 @@
     "cy": 464.0,
     "name": "Legendary Medium Talent",
     "lines": [
-     "+40% Defense gained from Chest Armor",
-     "Legendary Medium Talent",
-     "100% of Attack Block Chance bonuses also applies to Spell Block Chance while having at least 10 stack(s) of Tenacity Blessing",
-     "Source:Hero Trait -Prophecy of Revelation"
+     "+40% Defense gained from Chest Armor"
     ],
     "icon": "JL_Armor_64.webp",
+    "alt": [
+     {
+      "name": "Legendary Medium Talent",
+      "source": "Hero Trait -Prophecy of Revelation",
+      "lines": [
+       "100% of Attack Block Chance bonuses also applies to Spell Block Chance while having at least 10 stack(s) of Tenacity Blessing"
+      ]
+     }
+    ],
     "column_points": 9,
     "row": 5,
     "id": "480_464",
@@ -6131,12 +6149,18 @@
     "name": "Legendary Medium Talent",
     "lines": [
      "0.5% Elemental Resistance per 3000 Armor. Stacks up to 6%",
-     "0.5% Erosion Resistance per 3000 Armor. Stacks up to 6%",
-     "Legendary Medium Talent",
-     "1.5% Elemental Resistance and Erosion Resistance for each stack of Tenacity Blessing. Stacks up to 18 time(s)",
-     "Source:Hero Trait -Prophecy of Revelation"
+     "0.5% Erosion Resistance per 3000 Armor. Stacks up to 6%"
     ],
     "icon": "JL_DmgExtra_64.webp",
+    "alt": [
+     {
+      "name": "Legendary Medium Talent",
+      "source": "Hero Trait -Prophecy of Revelation",
+      "lines": [
+       "1.5% Elemental Resistance and Erosion Resistance for each stack of Tenacity Blessing. Stacks up to 18 time(s)"
+      ]
+     }
+    ],
     "column_points": 18,
     "row": 5,
     "id": "864_464",
@@ -6686,12 +6710,18 @@
     "cy": 80.0,
     "name": "Legendary Medium Talent",
     "lines": [
-     "+10% additional Base Damage for Two-Handed Weapons",
-     "Legendary Medium Talent",
-     "1.5% Strength per stack of Tenacity Blessing while wielding a Two-Handed Weapon. Stacks up to 18 time(s)",
-     "Source:Hero Trait -Prophecy of Revelation"
+     "+10% additional Base Damage for Two-Handed Weapons"
     ],
     "icon": "JL_AtkSpeed_64.webp",
+    "alt": [
+     {
+      "name": "Legendary Medium Talent",
+      "source": "Hero Trait -Prophecy of Revelation",
+      "lines": [
+       "1.5% Strength per stack of Tenacity Blessing while wielding a Two-Handed Weapon. Stacks up to 18 time(s)"
+      ]
+     }
+    ],
     "column_points": 18,
     "row": 1,
     "id": "864_80",
@@ -6756,13 +6786,19 @@
     "cy": 176.0,
     "name": "Legendary Medium Talent",
     "lines": [
-     "+80% inflicted Paralysis Effect when holding a Two-Handed Weapon",
-     "Legendary Medium Talent",
-     "-10% additional Attack and Cast Speed while wielding a Two-Handed Weapon",
-     "+3% chance for Attack Skills to deal Double Damage per stack of Tenacity Blessing while wielding a Two-Handed Weapon. Stacks up to 18 time(s)",
-     "Source:Hero Trait -Prophecy of Revelation"
+     "+80% inflicted Paralysis Effect when holding a Two-Handed Weapon"
     ],
     "icon": "JL_AtkSpeed_64.webp",
+    "alt": [
+     {
+      "name": "Legendary Medium Talent",
+      "source": "Hero Trait -Prophecy of Revelation",
+      "lines": [
+       "-10% additional Attack and Cast Speed while wielding a Two-Handed Weapon",
+       "+3% chance for Attack Skills to deal Double Damage per stack of Tenacity Blessing while wielding a Two-Handed Weapon. Stacks up to 18 time(s)"
+      ]
+     }
+    ],
     "column_points": 18,
     "row": 2,
     "id": "864_176",
@@ -6924,13 +6960,19 @@
     "name": "Legendary Medium Talent",
     "lines": [
      "Gains 1 stack(s) of Tenacity Blessing per second when at Full Life",
-     "(Max Active Divinity: 1)",
-     "Legendary Medium Talent",
-     "+1 Max Tenacity Blessing stacks at Full Life",
-     "(Max Active Divinity: 1)",
-     "Source:Hero Trait -Prophecy of Revelation"
+     "(Max Active Divinity: 1)"
     ],
     "icon": "JL_Dagger01_64.webp",
+    "alt": [
+     {
+      "name": "Legendary Medium Talent",
+      "source": "Hero Trait -Prophecy of Revelation",
+      "lines": [
+       "+1 Max Tenacity Blessing stacks at Full Life",
+       "(Max Active Divinity: 1)"
+      ]
+     }
+    ],
     "column_points": 12,
     "row": 4,
     "id": "608_368",
@@ -6960,13 +7002,19 @@
     "cy": 368.0,
     "name": "Legendary Medium Talent",
     "lines": [
-     "+12% Strength",
-     "Legendary Medium Talent",
-     "+12% Strength",
-     "+12% Strength when the Main Skill has the Strength tag, but lacks both Dexterity and Intelligence tags",
-     "Source:Hero Trait -Prophecy of Revelation"
+     "+12% Strength"
     ],
     "icon": "JL_DmgExtra_64.webp",
+    "alt": [
+     {
+      "name": "Legendary Medium Talent",
+      "source": "Hero Trait -Prophecy of Revelation",
+      "lines": [
+       "+12% Strength",
+       "+12% Strength when the Main Skill has the Strength tag, but lacks both Dexterity and Intelligence tags"
+      ]
+     }
+    ],
     "column_points": 18,
     "row": 4,
     "id": "864_368",
@@ -7061,13 +7109,19 @@
     "name": "Legendary Medium Talent",
     "lines": [
      "+40% Skill Area if Main Skill is not used in the last 2 s",
-     "(Max Active Divinity: 1)",
-     "Legendary Medium Talent",
-     "+6% Skill Area for each stack of Tenacity Blessing. Stacks up to 18 time(s)",
-     "(Max Active Divinity: 1)",
-     "Source:Hero Trait -Prophecy of Revelation"
+     "(Max Active Divinity: 1)"
     ],
     "icon": "JL_DmgExtra_64.webp",
+    "alt": [
+     {
+      "name": "Legendary Medium Talent",
+      "source": "Hero Trait -Prophecy of Revelation",
+      "lines": [
+       "+6% Skill Area for each stack of Tenacity Blessing. Stacks up to 18 time(s)",
+       "(Max Active Divinity: 1)"
+      ]
+     }
+    ],
     "column_points": 15,
     "row": 5,
     "id": "736_464",
@@ -7695,12 +7749,18 @@
     "name": "Legendary Medium Talent",
     "lines": [
      "+4% additional Fire Damage",
-     "+8% chance to Ignite targets",
-     "Legendary Medium Talent",
-     "+3% Ignite Chance per stack of Tenacity Blessing. Stacks up to 18 time(s)",
-     "Source:Hero Trait -Prophecy of Revelation"
+     "+8% chance to Ignite targets"
     ],
     "icon": "JL_DmgAll_64.webp",
+    "alt": [
+     {
+      "name": "Legendary Medium Talent",
+      "source": "Hero Trait -Prophecy of Revelation",
+      "lines": [
+       "+3% Ignite Chance per stack of Tenacity Blessing. Stacks up to 18 time(s)"
+      ]
+     }
+    ],
     "column_points": 12,
     "row": 2,
     "id": "608_176",
@@ -7732,14 +7792,20 @@
     "lines": [
      "+1% Fire Damage per 12 Strength",
      "+1% Minion Fire Damage per 12 Strength",
-     "(Max Active Divinity: 1)",
-     "Legendary Medium Talent",
-     "Gains 1 stack of Tenacity Blessing when dealing damage to Ignited enemies. Interval: 0.1s",
-     "+10 Affliction per second for each stack of Tenacity Blessing. Stacks up to 18 time(s)",
-     "(Max Active Divinity: 1)",
-     "Source:Hero Trait -Prophecy of Revelation"
+     "(Max Active Divinity: 1)"
     ],
     "icon": "JL_DmgEle_64.webp",
+    "alt": [
+     {
+      "name": "Legendary Medium Talent",
+      "source": "Hero Trait -Prophecy of Revelation",
+      "lines": [
+       "Gains 1 stack of Tenacity Blessing when dealing damage to Ignited enemies. Interval: 0.1s",
+       "+10 Affliction per second for each stack of Tenacity Blessing. Stacks up to 18 time(s)",
+       "(Max Active Divinity: 1)"
+      ]
+     }
+    ],
     "column_points": 18,
     "row": 2,
     "id": "864_176",
@@ -7923,13 +7989,19 @@
     "name": "Legendary Medium Talent",
     "lines": [
      "+40% Ignite Chance against enemies that haven't been Ignited",
-     "(Max Active Divinity: 1)",
-     "Legendary Medium Talent",
-     "The inflicted Ignite is replaced with Scorch while having at least 10 stack(s) of Tenacity Blessing",
-     "(Max Active Divinity: 1)",
-     "Source:Hero Trait -Prophecy of Revelation"
+     "(Max Active Divinity: 1)"
     ],
     "icon": "JL_DmgAll_64.webp",
+    "alt": [
+     {
+      "name": "Legendary Medium Talent",
+      "source": "Hero Trait -Prophecy of Revelation",
+      "lines": [
+       "The inflicted Ignite is replaced with Scorch while having at least 10 stack(s) of Tenacity Blessing",
+       "(Max Active Divinity: 1)"
+      ]
+     }
+    ],
     "column_points": 18,
     "row": 4,
     "id": "864_368",
@@ -8050,12 +8122,18 @@
     "cy": 464.0,
     "name": "Legendary Medium Talent",
     "lines": [
-     "Inflicts 1 additional stack(s) of Ignite",
-     "Legendary Medium Talent",
-     "+1 to Max Ignite Stacks while having at least 10 stack(s) of Tenacity Blessing",
-     "Source:Hero Trait -Prophecy of Revelation"
+     "Inflicts 1 additional stack(s) of Ignite"
     ],
     "icon": "JL_Dot_64.webp",
+    "alt": [
+     {
+      "name": "Legendary Medium Talent",
+      "source": "Hero Trait -Prophecy of Revelation",
+      "lines": [
+       "+1 to Max Ignite Stacks while having at least 10 stack(s) of Tenacity Blessing"
+      ]
+     }
+    ],
     "column_points": 18,
     "row": 5,
     "id": "864_464",
@@ -8616,13 +8694,19 @@
     "name": "Legendary Medium Talent",
     "lines": [
      "+25% additional damage against Low Life enemies",
-     "(Max Active Divinity: 1)",
-     "Legendary Medium Talent",
-     "+60% additional damage against enemies at Low Life or Full Life while having at least 10 stack(s) of Tenacity Blessing",
-     "(Max Active Divinity: 1)",
-     "Source:Hero Trait -Prophecy of Revelation"
+     "(Max Active Divinity: 1)"
     ],
     "icon": "JL_DmgAll_64.webp",
+    "alt": [
+     {
+      "name": "Legendary Medium Talent",
+      "source": "Hero Trait -Prophecy of Revelation",
+      "lines": [
+       "+60% additional damage against enemies at Low Life or Full Life while having at least 10 stack(s) of Tenacity Blessing",
+       "(Max Active Divinity: 1)"
+      ]
+     }
+    ],
     "column_points": 18,
     "row": 1,
     "id": "864_80",
@@ -8820,14 +8904,20 @@
     "name": "Legendary Medium Talent",
     "lines": [
      "Gains a stack of Fortitude when using a Melee Skill",
-     "(Max Active Divinity: 1)",
-     "Legendary Medium Talent",
-     "Gains a stack of Fortitude when using a Melee Skill",
-     "Gains 1 stack(s) of Tenacity Blessing when casting a Melee Skill",
-     "(Max Active Divinity: 1)",
-     "Source:Hero Trait -Prophecy of Revelation"
+     "(Max Active Divinity: 1)"
     ],
     "icon": "JL_Armor_64.webp",
+    "alt": [
+     {
+      "name": "Legendary Medium Talent",
+      "source": "Hero Trait -Prophecy of Revelation",
+      "lines": [
+       "Gains a stack of Fortitude when using a Melee Skill",
+       "Gains 1 stack(s) of Tenacity Blessing when casting a Melee Skill",
+       "(Max Active Divinity: 1)"
+      ]
+     }
+    ],
     "column_points": 18,
     "row": 3,
     "id": "864_272",
@@ -8891,13 +8981,19 @@
     "name": "Legendary Medium Talent",
     "lines": [
      "Restores 3% of Life on defeat",
-     "(Max Active Divinity: 1)",
-     "Legendary Medium Talent",
-     "-30% additional Life Regain Interval while having at least 3 stack(s) of Tenacity Blessing",
-     "(Max Active Divinity: 1)",
-     "Source:Hero Trait -Prophecy of Revelation"
+     "(Max Active Divinity: 1)"
     ],
     "icon": "JL_Es_64.webp",
+    "alt": [
+     {
+      "name": "Legendary Medium Talent",
+      "source": "Hero Trait -Prophecy of Revelation",
+      "lines": [
+       "-30% additional Life Regain Interval while having at least 3 stack(s) of Tenacity Blessing",
+       "(Max Active Divinity: 1)"
+      ]
+     }
+    ],
     "column_points": 12,
     "row": 4,
     "id": "608_368",
@@ -9587,13 +9683,19 @@
     "name": "Legendary Medium Talent",
     "lines": [
      "+8% Projectile Speed",
-     "Projectile Damage increases with the distance traveled, dealing up to +48% damage to Distant enemies",
-     "Legendary Medium Talent",
-     "Projectile Damage increases with the distance traveled, dealing up to +60% damage to Distant enemies",
-     "Gains 1 stack of Agility Blessing when a Projectile Skill hits a distant enemy",
-     "Source:Hero Trait -Prophecy of Revelation"
+     "Projectile Damage increases with the distance traveled, dealing up to +48% damage to Distant enemies"
     ],
     "icon": "SL_DmgExtra_64.webp",
+    "alt": [
+     {
+      "name": "Legendary Medium Talent",
+      "source": "Hero Trait -Prophecy of Revelation",
+      "lines": [
+       "Projectile Damage increases with the distance traveled, dealing up to +60% damage to Distant enemies",
+       "Gains 1 stack of Agility Blessing when a Projectile Skill hits a distant enemy"
+      ]
+     }
+    ],
     "column_points": 12,
     "row": 1,
     "id": "608_80",
@@ -9608,13 +9710,19 @@
     "name": "Legendary Medium Talent",
     "lines": [
      "+1 to Parabolic Projectile Splits quantity",
-     "(Max Active Divinity: 1)",
-     "Legendary Medium Talent",
-     "+70% Skill Area for Projectile Skills if Agility Blessing was consumed recently",
-     "(Max Active Divinity: 1)",
-     "Source:Hero Trait -Prophecy of Revelation"
+     "(Max Active Divinity: 1)"
     ],
     "icon": "SL_DmgExtra_64.webp",
+    "alt": [
+     {
+      "name": "Legendary Medium Talent",
+      "source": "Hero Trait -Prophecy of Revelation",
+      "lines": [
+       "+70% Skill Area for Projectile Skills if Agility Blessing was consumed recently",
+       "(Max Active Divinity: 1)"
+      ]
+     }
+    ],
     "column_points": 18,
     "row": 1,
     "id": "864_80",
@@ -9677,13 +9785,19 @@
     "cy": 176.0,
     "name": "Legendary Medium Talent",
     "lines": [
-     "+60% Projectile Damage against enemies in proximity",
-     "Legendary Medium Talent",
-     "There is a 50% chance to consume 1 stack of Agility Blessing when casting a Projectile Skill",
-     "+140% Critical Strike Rating when a Projectile Skill consumes Agility Blessing",
-     "Source:Hero Trait -Prophecy of Revelation"
+     "+60% Projectile Damage against enemies in proximity"
     ],
     "icon": "SL_DmgExtra_64.webp",
+    "alt": [
+     {
+      "name": "Legendary Medium Talent",
+      "source": "Hero Trait -Prophecy of Revelation",
+      "lines": [
+       "There is a 50% chance to consume 1 stack of Agility Blessing when casting a Projectile Skill",
+       "+140% Critical Strike Rating when a Projectile Skill consumes Agility Blessing"
+      ]
+     }
+    ],
     "column_points": 12,
     "row": 2,
     "id": "608_176",
@@ -9715,12 +9829,18 @@
     "cy": 176.0,
     "name": "Legendary Medium Talent",
     "lines": [
-     "+1 Jumps",
-     "Legendary Medium Talent",
-     "If Agility Blessing was consumed recently, +32% Projectile Speed for every +1 Jump(s). Stacks up to 4 time(s)",
-     "Source:Hero Trait -Prophecy of Revelation"
+     "+1 Jumps"
     ],
     "icon": "SL_DmgExtra_64.webp",
+    "alt": [
+     {
+      "name": "Legendary Medium Talent",
+      "source": "Hero Trait -Prophecy of Revelation",
+      "lines": [
+       "If Agility Blessing was consumed recently, +32% Projectile Speed for every +1 Jump(s). Stacks up to 4 time(s)"
+      ]
+     }
+    ],
     "column_points": 18,
     "row": 2,
     "id": "864_176",
@@ -9831,12 +9951,18 @@
     "cy": 272.0,
     "name": "Legendary Medium Talent",
     "lines": [
-     "+2 Horizontal Projectile Penetration(s)",
-     "Legendary Medium Talent",
-     "+12% Armor DMG Mitigation Penetration for Projectile Skills if Agility Blessing was consumed recently",
-     "Source:Hero Trait -Prophecy of Revelation"
+     "+2 Horizontal Projectile Penetration(s)"
     ],
     "icon": "SL_DmgExtra_64.webp",
+    "alt": [
+     {
+      "name": "Legendary Medium Talent",
+      "source": "Hero Trait -Prophecy of Revelation",
+      "lines": [
+       "+12% Armor DMG Mitigation Penetration for Projectile Skills if Agility Blessing was consumed recently"
+      ]
+     }
+    ],
     "column_points": 18,
     "row": 3,
     "id": "864_272",
@@ -9898,12 +10024,18 @@
     "cy": 368.0,
     "name": "Legendary Medium Talent",
     "lines": [
-     "+50% Evasion gained from Helmet",
-     "Legendary Medium Talent",
-     "When hit while having at least 10 stack(s) of Agility Blessing, consumes 10 stack(s) of Agility Blessing instead of losing Deflection. Interval: 3 s",
-     "Source:Hero Trait -Prophecy of Revelation"
+     "+50% Evasion gained from Helmet"
     ],
     "icon": "SL_Evasion_64.webp",
+    "alt": [
+     {
+      "name": "Legendary Medium Talent",
+      "source": "Hero Trait -Prophecy of Revelation",
+      "lines": [
+       "When hit while having at least 10 stack(s) of Agility Blessing, consumes 10 stack(s) of Agility Blessing instead of losing Deflection. Interval: 3 s"
+      ]
+     }
+    ],
     "column_points": 12,
     "row": 4,
     "id": "608_368",
@@ -10592,14 +10724,20 @@
     "name": "Legendary Medium Talent",
     "lines": [
      "+6% additional Attack Speed while Dual Wielding",
-     "(Max Active Divinity: 1)",
-     "Legendary Medium Talent",
-     "Consumes 1 stack of Agility Blessing when casting an Attack Skill",
-     "90% of Multistrike Chance also applies to Attack Damage bonuses when an Attack Skill consumes Agility Blessing",
-     "(Max Active Divinity: 1)",
-     "Source:Hero Trait -Prophecy of Revelation"
+     "(Max Active Divinity: 1)"
     ],
     "icon": "SL_DmgLightning_64.webp",
+    "alt": [
+     {
+      "name": "Legendary Medium Talent",
+      "source": "Hero Trait -Prophecy of Revelation",
+      "lines": [
+       "Consumes 1 stack of Agility Blessing when casting an Attack Skill",
+       "90% of Multistrike Chance also applies to Attack Damage bonuses when an Attack Skill consumes Agility Blessing",
+       "(Max Active Divinity: 1)"
+      ]
+     }
+    ],
     "column_points": 18,
     "row": 1,
     "id": "864_80",
@@ -10647,14 +10785,20 @@
     "name": "Legendary Medium Talent",
     "lines": [
      "25% chance to gain Attack Aggression on defeat",
-     "(Max Active Divinity: 1)",
-     "Legendary Medium Talent",
-     "Gains Attack Aggression on hit",
-     "+100% Attack Aggression Effect if Agility Blessing was consumed recently",
-     "(Max Active Divinity: 1)",
-     "Source:Hero Trait -Prophecy of Revelation"
+     "(Max Active Divinity: 1)"
     ],
     "icon": "SL_Agi_64.webp",
+    "alt": [
+     {
+      "name": "Legendary Medium Talent",
+      "source": "Hero Trait -Prophecy of Revelation",
+      "lines": [
+       "Gains Attack Aggression on hit",
+       "+100% Attack Aggression Effect if Agility Blessing was consumed recently",
+       "(Max Active Divinity: 1)"
+      ]
+     }
+    ],
     "column_points": 9,
     "row": 2,
     "id": "480_176",
@@ -10805,14 +10949,20 @@
     "name": "Legendary Medium Talent",
     "lines": [
      "Gains a stack Agility Blessing when using Mobility Skills",
-     "(Max Active Divinity: 1)",
-     "Legendary Medium Talent",
-     "Gains a stack Agility Blessing when using Mobility Skills",
-     "Gains max stacks of Agility Blessing and +6% additional Attack Speed for 4s upon reaching Max Multistrike Count",
-     "(Max Active Divinity: 1)",
-     "Source:Hero Trait -Prophecy of Revelation"
+     "(Max Active Divinity: 1)"
     ],
     "icon": "SL_Agi_64.webp",
+    "alt": [
+     {
+      "name": "Legendary Medium Talent",
+      "source": "Hero Trait -Prophecy of Revelation",
+      "lines": [
+       "Gains a stack Agility Blessing when using Mobility Skills",
+       "Gains max stacks of Agility Blessing and +6% additional Attack Speed for 4s upon reaching Max Multistrike Count",
+       "(Max Active Divinity: 1)"
+      ]
+     }
+    ],
     "column_points": 18,
     "row": 3,
     "id": "864_272",
@@ -10892,13 +11042,19 @@
     "cy": 368.0,
     "name": "Legendary Medium Talent",
     "lines": [
-     "Multistrikes deal 16% increasing damage",
-     "Legendary Medium Talent",
-     "Multistrike will not be interrupted if Agility Blessing was consumed recently",
-     "Multistrikes deal 16% increasing damage",
-     "Source:Hero Trait -Prophecy of Revelation"
+     "Multistrikes deal 16% increasing damage"
     ],
     "icon": "SL_Atk_64.webp",
+    "alt": [
+     {
+      "name": "Legendary Medium Talent",
+      "source": "Hero Trait -Prophecy of Revelation",
+      "lines": [
+       "Multistrike will not be interrupted if Agility Blessing was consumed recently",
+       "Multistrikes deal 16% increasing damage"
+      ]
+     }
+    ],
     "column_points": 18,
     "row": 4,
     "id": "864_368",
@@ -11524,14 +11680,20 @@
     "name": "Legendary Medium Talent",
     "lines": [
      "+2% additional Attack Speed for each time you have Regained in the last 8s. Stacks up to 4 time(s)",
-     "(Max Active Divinity: 1)",
-     "Legendary Medium Talent",
-     "+2% additional Attack Speed for each time you have Regained in the last 8s. Stacks up to 4 time(s)",
-     "+3% Attack Speed for each time Agility Blessing was consumed recently. Stacks up to 12 time(s)",
-     "(Max Active Divinity: 1)",
-     "Source:Hero Trait -Prophecy of Revelation"
+     "(Max Active Divinity: 1)"
     ],
     "icon": "SL_CastSpeed_64.webp",
+    "alt": [
+     {
+      "name": "Legendary Medium Talent",
+      "source": "Hero Trait -Prophecy of Revelation",
+      "lines": [
+       "+2% additional Attack Speed for each time you have Regained in the last 8s. Stacks up to 4 time(s)",
+       "+3% Attack Speed for each time Agility Blessing was consumed recently. Stacks up to 12 time(s)",
+       "(Max Active Divinity: 1)"
+      ]
+     }
+    ],
     "column_points": 18,
     "row": 1,
     "id": "864_80",
@@ -11577,13 +11739,19 @@
     "cy": 176.0,
     "name": "Legendary Medium Talent",
     "lines": [
-     "-16% additional Regain Interval",
-     "Legendary Medium Talent",
-     "-16% additional Regain Interval",
-     "Gains 1 stack of Agility Blessing upon Regaining",
-     "Source:Hero Trait -Prophecy of Revelation"
+     "-16% additional Regain Interval"
     ],
     "icon": "SL_Es_64.webp",
+    "alt": [
+     {
+      "name": "Legendary Medium Talent",
+      "source": "Hero Trait -Prophecy of Revelation",
+      "lines": [
+       "-16% additional Regain Interval",
+       "Gains 1 stack of Agility Blessing upon Regaining"
+      ]
+     }
+    ],
     "column_points": 12,
     "row": 2,
     "id": "608_176",
@@ -11615,14 +11783,20 @@
     "name": "Legendary Medium Talent",
     "lines": [
      "+2% additional Cast Speed for each time you have Regained in the last 8s. Stacks up to 4 time(s)",
-     "(Max Active Divinity: 1)",
-     "Legendary Medium Talent",
-     "+2% additional Cast Speed for each time you have Regained in the last 8s. Stacks up to 4 time(s)",
-     "+3% Cast Speed for each time Agility Blessing was consumed recently. Stacks up to 12 time(s)",
-     "(Max Active Divinity: 1)",
-     "Source:Hero Trait -Prophecy of Revelation"
+     "(Max Active Divinity: 1)"
     ],
     "icon": "SL_CastSpeed_64.webp",
+    "alt": [
+     {
+      "name": "Legendary Medium Talent",
+      "source": "Hero Trait -Prophecy of Revelation",
+      "lines": [
+       "+2% additional Cast Speed for each time you have Regained in the last 8s. Stacks up to 4 time(s)",
+       "+3% Cast Speed for each time Agility Blessing was consumed recently. Stacks up to 12 time(s)",
+       "(Max Active Divinity: 1)"
+      ]
+     }
+    ],
     "column_points": 18,
     "row": 2,
     "id": "864_176",
@@ -11742,13 +11916,19 @@
     "name": "Legendary Medium Talent",
     "lines": [
      "When Regaining, inflicts Paralysis on enemies within 10m",
-     "(Max Active Divinity: 1)",
-     "Legendary Medium Talent",
-     "Upon Regaining, consumes 1 stack of Agility Blessing to inflict Paralysis, Weaken, Slow, and Taunt on enemies within 10m",
-     "(Max Active Divinity: 1)",
-     "Source:Hero Trait -Prophecy of Revelation"
+     "(Max Active Divinity: 1)"
     ],
     "icon": "SL_Es_64.webp",
+    "alt": [
+     {
+      "name": "Legendary Medium Talent",
+      "source": "Hero Trait -Prophecy of Revelation",
+      "lines": [
+       "Upon Regaining, consumes 1 stack of Agility Blessing to inflict Paralysis, Weaken, Slow, and Taunt on enemies within 10m",
+       "(Max Active Divinity: 1)"
+      ]
+     }
+    ],
     "column_points": 18,
     "row": 3,
     "id": "864_272",
@@ -12408,13 +12588,19 @@
     "name": "Legendary Medium Talent",
     "lines": [
      "+20% Numbed Effect",
-     "(Max Active Divinity: 1)",
-     "Legendary Medium Talent",
-     "+50% Numbed Effect if Agility Blessing was consumed recently",
-     "(Max Active Divinity: 1)",
-     "Source:Hero Trait -Prophecy of Revelation"
+     "(Max Active Divinity: 1)"
     ],
     "icon": "SL_DmgAll_64.webp",
+    "alt": [
+     {
+      "name": "Legendary Medium Talent",
+      "source": "Hero Trait -Prophecy of Revelation",
+      "lines": [
+       "+50% Numbed Effect if Agility Blessing was consumed recently",
+       "(Max Active Divinity: 1)"
+      ]
+     }
+    ],
     "column_points": 18,
     "row": 1,
     "id": "864_80",
@@ -12515,14 +12701,20 @@
     "lines": [
      "-4% to the Max Life and Energy Shield thresholds for inflicting Numbed",
      "Inflicts 1 additional stack(s) of Numbed",
-     "(Max Active Divinity: 1)",
-     "Legendary Medium Talent",
-     "Consumes 3 stack(s) of Agility Blessing when dealing Lightning Damage to inflict 2 stack(s) of Numbed on enemies within 10m around the target. Interval: 1 s",
-     "Inflicts 1 additional stack(s) of Numbed",
-     "(Max Active Divinity: 1)",
-     "Source:Hero Trait -Prophecy of Revelation"
+     "(Max Active Divinity: 1)"
     ],
     "icon": "SL_DmgAll_64.webp",
+    "alt": [
+     {
+      "name": "Legendary Medium Talent",
+      "source": "Hero Trait -Prophecy of Revelation",
+      "lines": [
+       "Consumes 3 stack(s) of Agility Blessing when dealing Lightning Damage to inflict 2 stack(s) of Numbed on enemies within 10m around the target. Interval: 1 s",
+       "Inflicts 1 additional stack(s) of Numbed",
+       "(Max Active Divinity: 1)"
+      ]
+     }
+    ],
     "column_points": 18,
     "row": 2,
     "id": "864_176",
@@ -12588,13 +12780,19 @@
     "lines": [
      "Immune to Numbed",
      "Minions are immune to Lightning Damage",
-     "(Max Active Divinity: 1)",
-     "Legendary Medium Talent",
-     "While having Lucky Damage, consumes 1 stack of Agility Blessing every 4s, making Hit Damage Very Lucky for the next 4s",
-     "(Max Active Divinity: 1)",
-     "Source:Hero Trait -Prophecy of Revelation"
+     "(Max Active Divinity: 1)"
     ],
     "icon": "SL_Defence02_64.webp",
+    "alt": [
+     {
+      "name": "Legendary Medium Talent",
+      "source": "Hero Trait -Prophecy of Revelation",
+      "lines": [
+       "While having Lucky Damage, consumes 1 stack of Agility Blessing every 4s, making Hit Damage Very Lucky for the next 4s",
+       "(Max Active Divinity: 1)"
+      ]
+     }
+    ],
     "column_points": 9,
     "row": 3,
     "id": "480_272",
@@ -12624,13 +12822,19 @@
     "cy": 272.0,
     "name": "Legendary Medium Talent",
     "lines": [
-     "Inflicts Numbed when dealing Hit Lightning Damage",
-     "Legendary Medium Talent",
-     "Inflicts Numbed when dealing Hit Lightning Damage",
-     "Gains 1 stack(s) of Agility Blessing when dealing damage to a Numbed enemy",
-     "Source:Hero Trait -Prophecy of Revelation"
+     "Inflicts Numbed when dealing Hit Lightning Damage"
     ],
     "icon": "SL_DmgAll_64.webp",
+    "alt": [
+     {
+      "name": "Legendary Medium Talent",
+      "source": "Hero Trait -Prophecy of Revelation",
+      "lines": [
+       "Inflicts Numbed when dealing Hit Lightning Damage",
+       "Gains 1 stack(s) of Agility Blessing when dealing damage to a Numbed enemy"
+      ]
+     }
+    ],
     "column_points": 18,
     "row": 3,
     "id": "864_272",
@@ -13579,15 +13783,21 @@
     "lines": [
      "When consuming Spell Burst, immediately starts Charging Energy Shield. Interval: 2 s",
      "Immediately starts Charging Energy Shield when Tangle casts a skill. Interval: 2 s",
-     "(Max Active Divinity: 1)",
-     "Legendary Medium Talent",
-     "When consuming Spell Burst, immediately starts Charging Energy Shield. Interval: 2 s",
-     "Immediately starts Charging Energy Shield when Tangle casts a skill. Interval: 2 s",
-     "+2% Energy Shield Charge Speed for each stack of Max Focus Blessing. Stacks up to 18 time(s)",
-     "(Max Active Divinity: 1)",
-     "Source:Hero Trait -Prophecy of Revelation"
+     "(Max Active Divinity: 1)"
     ],
     "icon": "ZS_Es_64.webp",
+    "alt": [
+     {
+      "name": "Legendary Medium Talent",
+      "source": "Hero Trait -Prophecy of Revelation",
+      "lines": [
+       "When consuming Spell Burst, immediately starts Charging Energy Shield. Interval: 2 s",
+       "Immediately starts Charging Energy Shield when Tangle casts a skill. Interval: 2 s",
+       "+2% Energy Shield Charge Speed for each stack of Max Focus Blessing. Stacks up to 18 time(s)",
+       "(Max Active Divinity: 1)"
+      ]
+     }
+    ],
     "column_points": 9,
     "row": 3,
     "id": "480_272",
@@ -13617,12 +13827,18 @@
     "cy": 272.0,
     "name": "Legendary Medium Talent",
     "lines": [
-     "+12% Intelligence",
-     "Legendary Medium Talent",
-     "+1 to Max Focus Blessing Stacks while having at least 500 Intelligence",
-     "Source:Hero Trait -Prophecy of Revelation"
+     "+12% Intelligence"
     ],
     "icon": "ZS_Blind_64.webp",
+    "alt": [
+     {
+      "name": "Legendary Medium Talent",
+      "source": "Hero Trait -Prophecy of Revelation",
+      "lines": [
+       "+1 to Max Focus Blessing Stacks while having at least 500 Intelligence"
+      ]
+     }
+    ],
     "column_points": 15,
     "row": 3,
     "id": "736_272",
@@ -13718,14 +13934,20 @@
     "name": "Legendary Medium Talent",
     "lines": [
      "Inflicts Frail when dealing Spell Damage",
-     "(Max Active Divinity: 1)",
-     "Legendary Medium Talent",
-     "Inflicts Frail when dealing Spell Damage",
-     "+8% Frail Effect for each stack of Max Focus Blessing. Stacks up to 18 time(s)",
-     "(Max Active Divinity: 1)",
-     "Source:Hero Trait -Prophecy of Revelation"
+     "(Max Active Divinity: 1)"
     ],
     "icon": "ZS_DmgExtra_64.webp",
+    "alt": [
+     {
+      "name": "Legendary Medium Talent",
+      "source": "Hero Trait -Prophecy of Revelation",
+      "lines": [
+       "Inflicts Frail when dealing Spell Damage",
+       "+8% Frail Effect for each stack of Max Focus Blessing. Stacks up to 18 time(s)",
+       "(Max Active Divinity: 1)"
+      ]
+     }
+    ],
     "column_points": 18,
     "row": 4,
     "id": "864_368",
@@ -14344,12 +14566,18 @@
     "name": "Legendary Medium Talent",
     "lines": [
      "+10% Attack and Cast Speed when at Full Mana",
-     "+15% Max Mana",
-     "Legendary Medium Talent",
-     "+3% Attack and Cast Speed for each stack of Max Focus Blessing while at Full Mana. Stacks up to 18 time(s)",
-     "Source:Hero Trait -Prophecy of Revelation"
+     "+15% Max Mana"
     ],
     "icon": "ZS_Defence03_64.webp",
+    "alt": [
+     {
+      "name": "Legendary Medium Talent",
+      "source": "Hero Trait -Prophecy of Revelation",
+      "lines": [
+       "+3% Attack and Cast Speed for each stack of Max Focus Blessing while at Full Mana. Stacks up to 18 time(s)"
+      ]
+     }
+    ],
     "column_points": 12,
     "row": 1,
     "id": "608_80",
@@ -14379,13 +14607,19 @@
     "cy": 80.0,
     "name": "Legendary Medium Talent",
     "lines": [
-     "8% of damage is taken from Mana before life",
-     "Legendary Medium Talent",
-     "8% of damage is taken from Mana before life",
-     "Gains 1 stack(s) of Focus Blessing for every 10% Mana consumed. Interval: 0.3s",
-     "Source:Hero Trait -Prophecy of Revelation"
+     "8% of damage is taken from Mana before life"
     ],
     "icon": "ZS_Defence03_64.webp",
+    "alt": [
+     {
+      "name": "Legendary Medium Talent",
+      "source": "Hero Trait -Prophecy of Revelation",
+      "lines": [
+       "8% of damage is taken from Mana before life",
+       "Gains 1 stack(s) of Focus Blessing for every 10% Mana consumed. Interval: 0.3s"
+      ]
+     }
+    ],
     "column_points": 18,
     "row": 1,
     "id": "864_80",
@@ -15564,13 +15798,19 @@
     "cy": 272.0,
     "name": "Legendary Medium Talent",
     "lines": [
-     "+1 Fire Skill Level",
-     "Legendary Medium Talent",
-     "+1 Fire Skill Level",
-     "If you have dealt Fire Damage recently, 0.6% additional Lightning and Cold Damage for each stack of Max Focus Blessing. Stacks up to 18 time(s)",
-     "Source:Hero Trait -Prophecy of Revelation"
+     "+1 Fire Skill Level"
     ],
     "icon": "ZS_Atk_64.webp",
+    "alt": [
+     {
+      "name": "Legendary Medium Talent",
+      "source": "Hero Trait -Prophecy of Revelation",
+      "lines": [
+       "+1 Fire Skill Level",
+       "If you have dealt Fire Damage recently, 0.6% additional Lightning and Cold Damage for each stack of Max Focus Blessing. Stacks up to 18 time(s)"
+      ]
+     }
+    ],
     "column_points": 18,
     "row": 3,
     "id": "864_272",
@@ -15637,13 +15877,19 @@
     "cy": 368.0,
     "name": "Legendary Medium Talent",
     "lines": [
-     "+1 Lightning Skill Level",
-     "Legendary Medium Talent",
-     "+1 Lightning Skill Level",
-     "If you have dealt Lightning Damage recently, 0.6% additional Cold and Fire Damage for each stack of Max Focus Blessing. Stacks up to 18 time(s)",
-     "Source:Hero Trait -Prophecy of Revelation"
+     "+1 Lightning Skill Level"
     ],
     "icon": "ZS_Atk_64.webp",
+    "alt": [
+     {
+      "name": "Legendary Medium Talent",
+      "source": "Hero Trait -Prophecy of Revelation",
+      "lines": [
+       "+1 Lightning Skill Level",
+       "If you have dealt Lightning Damage recently, 0.6% additional Cold and Fire Damage for each stack of Max Focus Blessing. Stacks up to 18 time(s)"
+      ]
+     }
+    ],
     "column_points": 18,
     "row": 4,
     "id": "864_368",
@@ -15705,13 +15951,19 @@
     "cy": 464.0,
     "name": "Legendary Medium Talent",
     "lines": [
-     "Upon inflicting damage, penetrates 3% of Elemental Resistance for each type of Elemental Ailment the enemy has",
-     "Legendary Medium Talent",
-     "Gains 1 stack of Focus Blessing when hitting an enemy with Elemental Ailments",
-     "Upon inflicting damage, penetrates 3% of Elemental Resistance for each type of Elemental Ailment the enemy has",
-     "Source:Hero Trait -Prophecy of Revelation"
+     "Upon inflicting damage, penetrates 3% of Elemental Resistance for each type of Elemental Ailment the enemy has"
     ],
     "icon": "ZS_DmgEle_64.webp",
+    "alt": [
+     {
+      "name": "Legendary Medium Talent",
+      "source": "Hero Trait -Prophecy of Revelation",
+      "lines": [
+       "Gains 1 stack of Focus Blessing when hitting an enemy with Elemental Ailments",
+       "Upon inflicting damage, penetrates 3% of Elemental Resistance for each type of Elemental Ailment the enemy has"
+      ]
+     }
+    ],
     "column_points": 9,
     "row": 5,
     "id": "480_464",
@@ -15742,13 +15994,19 @@
     "name": "Legendary Medium Talent",
     "lines": [
      "-5% additional Elemental Damage taken for every type of Elemental Damage recently received",
-     "(Max Active Divinity: 1)",
-     "Legendary Medium Talent",
-     "Converts 1% of Physical Damage taken and 2% of Erosion Damage taken to random Elemental Damage for each stack of Max Focus Blessing. Stacks up to 18 time(s)",
-     "(Max Active Divinity: 1)",
-     "Source:Hero Trait -Prophecy of Revelation"
+     "(Max Active Divinity: 1)"
     ],
     "icon": "ZS_DmgEle_64.webp",
+    "alt": [
+     {
+      "name": "Legendary Medium Talent",
+      "source": "Hero Trait -Prophecy of Revelation",
+      "lines": [
+       "Converts 1% of Physical Damage taken and 2% of Erosion Damage taken to random Elemental Damage for each stack of Max Focus Blessing. Stacks up to 18 time(s)",
+       "(Max Active Divinity: 1)"
+      ]
+     }
+    ],
     "column_points": 15,
     "row": 5,
     "id": "736_464",
@@ -15762,13 +16020,19 @@
     "cy": 464.0,
     "name": "Legendary Medium Talent",
     "lines": [
-     "+1 Cold Skill Level",
-     "Legendary Medium Talent",
-     "+1 Cold Skill Level",
-     "If you have dealt Cold Damage recently, 0.6% additional Fire and Lightning Damage for each stack of Max Focus Blessing. Stacks up to 18 time(s)",
-     "Source:Hero Trait -Prophecy of Revelation"
+     "+1 Cold Skill Level"
     ],
     "icon": "ZS_Atk_64.webp",
+    "alt": [
+     {
+      "name": "Legendary Medium Talent",
+      "source": "Hero Trait -Prophecy of Revelation",
+      "lines": [
+       "+1 Cold Skill Level",
+       "If you have dealt Cold Damage recently, 0.6% additional Fire and Lightning Damage for each stack of Max Focus Blessing. Stacks up to 18 time(s)"
+      ]
+     }
+    ],
     "column_points": 18,
     "row": 5,
     "id": "864_464",
@@ -16348,12 +16612,18 @@
     "cy": 80.0,
     "name": "Legendary Medium Talent",
     "lines": [
-     "+10% additional damage against Frozen enemies",
-     "Legendary Medium Talent",
-     "+4 Max Frostbite Rating per stack of Max Focus Blessing. Stacks up to 18 time(s)",
-     "Source:Hero Trait -Prophecy of Revelation"
+     "+10% additional damage against Frozen enemies"
     ],
     "icon": "ZS_Bow02_64.webp",
+    "alt": [
+     {
+      "name": "Legendary Medium Talent",
+      "source": "Hero Trait -Prophecy of Revelation",
+      "lines": [
+       "+4 Max Frostbite Rating per stack of Max Focus Blessing. Stacks up to 18 time(s)"
+      ]
+     }
+    ],
     "column_points": 18,
     "row": 1,
     "id": "864_80",
@@ -16403,14 +16673,20 @@
     "name": "Legendary Medium Talent",
     "lines": [
      "Inflicts Frostbite when dealing Hit Cold Damage",
-     "(Max Active Divinity: 1)",
-     "Legendary Medium Talent",
-     "Inflicts Frostbite when dealing Hit Cold Damage",
-     "+5% Frost-Seal Duration for each stack of Max Focus Blessing. Stacks up to 18 time(s)",
-     "(Max Active Divinity: 1)",
-     "Source:Hero Trait -Prophecy of Revelation"
+     "(Max Active Divinity: 1)"
     ],
     "icon": "ZS_Atk_64.webp",
+    "alt": [
+     {
+      "name": "Legendary Medium Talent",
+      "source": "Hero Trait -Prophecy of Revelation",
+      "lines": [
+       "Inflicts Frostbite when dealing Hit Cold Damage",
+       "+5% Frost-Seal Duration for each stack of Max Focus Blessing. Stacks up to 18 time(s)",
+       "(Max Active Divinity: 1)"
+      ]
+     }
+    ],
     "column_points": 9,
     "row": 2,
     "id": "480_176",
@@ -16526,13 +16802,19 @@
      "+18% Cold Resistance",
      "Minions are immune to Cold Damage",
      "Minions are immune to Frostbite and Freeze",
-     "(Max Active Divinity: 1)",
-     "Legendary Medium Talent",
-     "Immune to Frostbite while having at least 10 stack(s) of Max Focus Blessing",
-     "(Max Active Divinity: 1)",
-     "Source:Hero Trait -Prophecy of Revelation"
+     "(Max Active Divinity: 1)"
     ],
     "icon": "ZS_Dual03_64.webp",
+    "alt": [
+     {
+      "name": "Legendary Medium Talent",
+      "source": "Hero Trait -Prophecy of Revelation",
+      "lines": [
+       "Immune to Frostbite while having at least 10 stack(s) of Max Focus Blessing",
+       "(Max Active Divinity: 1)"
+      ]
+     }
+    ],
     "column_points": 9,
     "row": 3,
     "id": "480_272",
@@ -16730,14 +17012,20 @@
     "name": "Legendary Medium Talent",
     "lines": [
      "Inflicts Cold Infiltration when dealing damage to Frostbitten enemies",
-     "(Max Active Divinity: 1)",
-     "Legendary Medium Talent",
-     "Inflicts Cold Infiltration when dealing damage to Frostbitten enemies",
-     "+5 Critical Strike Rating against Frostbitten enemies for each stack of Max Focus Blessing. Stacks up to 18 time(s)",
-     "(Max Active Divinity: 1)",
-     "Source:Hero Trait -Prophecy of Revelation"
+     "(Max Active Divinity: 1)"
     ],
     "icon": "ZS_Es_64.webp",
+    "alt": [
+     {
+      "name": "Legendary Medium Talent",
+      "source": "Hero Trait -Prophecy of Revelation",
+      "lines": [
+       "Inflicts Cold Infiltration when dealing damage to Frostbitten enemies",
+       "+5 Critical Strike Rating against Frostbitten enemies for each stack of Max Focus Blessing. Stacks up to 18 time(s)",
+       "(Max Active Divinity: 1)"
+      ]
+     }
+    ],
     "column_points": 12,
     "row": 5,
     "id": "608_464",

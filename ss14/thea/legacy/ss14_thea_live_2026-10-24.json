@@ -1,0 +1,266 @@
+{
+  "status": "User-confirmed current sheet and screenshot allocations; recommendations below have NOT been applied",
+  "date": "2026-10-24",
+  "points": 110,
+  "attributes": {
+    "strength": 107,
+    "intelligence": 588,
+    "dexterity_assumed": 0
+  },
+  "damage_bonus": 699,
+  "cold_damage_bonus": 142,
+  "cast_speed_bonus": 137,
+  "additional_cast_speed": 7,
+  "spell_crit_chance": 75.49,
+  "spell_crit_rating_bonus": 832,
+  "critical_damage": 514,
+  "cold_penetration": 25,
+  "armor_mitigation_penetration": 10,
+  "frostbite_effect": 56,
+  "max_frostbite_rating": 101,
+  "increased_max_es": 72,
+  "max_es": 5882,
+  "skill_effect_duration": 60,
+  "cooldown_recovery": 26,
+  "max_focus": 8,
+  "active_tangles": 2,
+  "max_tangles": 4,
+  "chromatic_level": 36,
+  "lightchaser": true,
+  "lightchaser_main_attribute_coefficient_observed": 0.0075,
+  "malign_more_damage_on_crit_per_active_tangle": 21,
+  "increased_projectile_speed": 181,
+  "follower_cold_infiltration": true,
+  "frail_on_slate": true,
+  "combat_buffs_active": true,
+  "prism": "Haze: +12% additional spell damage with Spell Aggression; original location Lich column15 top row",
+  "original_tree_points": {
+    "Goddess of Knowledge": 29,
+    "Magister": 24,
+    "Prophet": 30,
+    "Lich": 27
+  },
+  "original_allocation": [
+    {
+      "tree": "Goddess of Knowledge",
+      "node": "224_176",
+      "rank": 3
+    },
+    {
+      "tree": "Goddess of Knowledge",
+      "node": "352_176",
+      "rank": 3
+    },
+    {
+      "tree": "Goddess of Knowledge",
+      "node": "736_176",
+      "rank": 3
+    },
+    {
+      "tree": "Goddess of Knowledge",
+      "node": "864_176",
+      "rank": 1
+    },
+    {
+      "tree": "Goddess of Knowledge",
+      "node": "96_272",
+      "rank": 3
+    },
+    {
+      "tree": "Goddess of Knowledge",
+      "node": "224_272",
+      "rank": 3
+    },
+    {
+      "tree": "Goddess of Knowledge",
+      "node": "352_272",
+      "rank": 3
+    },
+    {
+      "tree": "Goddess of Knowledge",
+      "node": "736_368",
+      "rank": 3
+    },
+    {
+      "tree": "Goddess of Knowledge",
+      "node": "864_368",
+      "rank": 1
+    },
+    {
+      "tree": "Goddess of Knowledge",
+      "node": "352_464",
+      "rank": 3
+    },
+    {
+      "tree": "Goddess of Knowledge",
+      "node": "480_464",
+      "rank": 3
+    },
+    {
+      "tree": "Magister",
+      "node": "96_80",
+      "rank": 3
+    },
+    {
+      "tree": "Magister",
+      "node": "224_80",
+      "rank": 3
+    },
+    {
+      "tree": "Magister",
+      "node": "480_176",
+      "rank": 3
+    },
+    {
+      "tree": "Magister",
+      "node": "608_176",
+      "rank": 1
+    },
+    {
+      "tree": "Magister",
+      "node": "736_176",
+      "rank": 3
+    },
+    {
+      "tree": "Magister",
+      "node": "864_176",
+      "rank": 1
+    },
+    {
+      "tree": "Magister",
+      "node": "608_272",
+      "rank": 3
+    },
+    {
+      "tree": "Magister",
+      "node": "736_272",
+      "rank": 1
+    },
+    {
+      "tree": "Magister",
+      "node": "96_464",
+      "rank": 3
+    },
+    {
+      "tree": "Magister",
+      "node": "224_464",
+      "rank": 3
+    },
+    {
+      "tree": "Prophet",
+      "node": "608_80",
+      "rank": 3
+    },
+    {
+      "tree": "Prophet",
+      "node": "736_80",
+      "rank": 3
+    },
+    {
+      "tree": "Prophet",
+      "node": "864_80",
+      "rank": 1
+    },
+    {
+      "tree": "Prophet",
+      "node": "224_176",
+      "rank": 3
+    },
+    {
+      "tree": "Prophet",
+      "node": "352_176",
+      "rank": 3
+    },
+    {
+      "tree": "Prophet",
+      "node": "608_176",
+      "rank": 3
+    },
+    {
+      "tree": "Prophet",
+      "node": "736_176",
+      "rank": 3
+    },
+    {
+      "tree": "Prophet",
+      "node": "864_176",
+      "rank": 1
+    },
+    {
+      "tree": "Prophet",
+      "node": "96_272",
+      "rank": 3
+    },
+    {
+      "tree": "Prophet",
+      "node": "224_272",
+      "rank": 3
+    },
+    {
+      "tree": "Prophet",
+      "node": "352_272",
+      "rank": 3
+    },
+    {
+      "tree": "Prophet",
+      "node": "480_272",
+      "rank": 1
+    },
+    {
+      "tree": "Lich",
+      "node": "96_80",
+      "rank": 3
+    },
+    {
+      "tree": "Lich",
+      "node": "224_80",
+      "rank": 3
+    },
+    {
+      "tree": "Lich",
+      "node": "352_80",
+      "rank": 3
+    },
+    {
+      "tree": "Lich",
+      "node": "480_80",
+      "rank": 3
+    },
+    {
+      "tree": "Lich",
+      "node": "864_80",
+      "rank": 1
+    },
+    {
+      "tree": "Lich",
+      "node": "736_176",
+      "rank": 3
+    },
+    {
+      "tree": "Lich",
+      "node": "864_176",
+      "rank": 1
+    },
+    {
+      "tree": "Lich",
+      "node": "736_368",
+      "rank": 3
+    },
+    {
+      "tree": "Lich",
+      "node": "864_368",
+      "rank": 1
+    },
+    {
+      "tree": "Lich",
+      "node": "608_464",
+      "rank": 3
+    },
+    {
+      "tree": "Lich",
+      "node": "736_464",
+      "rank": 3
+    }
+  ],
+  "recommended_result_file": "ss14_thea_tree_movement_2026-10-24.json"
+}

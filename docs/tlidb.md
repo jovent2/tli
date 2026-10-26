@@ -1,7 +1,8 @@
 # tlidb.com — how to read it
 
 tlidb is accurate (when something looked wrong it was us reading the wrong level/rank).
-Read it raw from the shell; never through WebFetch.
+The whole site is already crawled into `data/` — search there first with `tools/find.py`
+(see `data/README.md`). Read live pages raw from the shell; never through WebFetch.
 
 ```
 python3 tools/tlidb.py Gale                       # page text

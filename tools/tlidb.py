@@ -29,17 +29,23 @@ CACHE = ROOT / "data" / "raw"
 BASE = "https://tlidb.com/"
 
 
-def page_url(page: str) -> str:
+def page_key(page: str) -> str:
+    """'Israfel's Laws' / 'en/Israfels_Laws' / full URL -> 'Israfels_Laws' (English page key)."""
     if page.startswith("http"):
-        return page
-    page = page.strip().replace("'", "").replace("’", "").replace(" ", "_")
-    return BASE + urllib.parse.quote(page, safe="/_%-().:")
+        page = urllib.parse.urlparse(page).path
+    page = urllib.parse.unquote(page).strip().strip("/")
+    if page.startswith("en/"):
+        page = page[3:]
+    return page.replace("'", "").replace("’", "").replace(" ", "_")
+
+
+def page_url(page: str) -> str:
+    return BASE + "en/" + urllib.parse.quote(page_key(page), safe="_%-().'")
 
 
 def cache_path(url: str) -> Path:
-    name = url.replace(BASE, "").replace("/", "__") or "index"
-    name = re.sub(r"[^A-Za-z0-9_.%()-]", "_", name)
-    return CACHE / f"{name}.html"
+    # same naming as tools/crawl.py so both share the cache
+    return CACHE / f"en__{page_key(url)}.html"
 
 
 def fetch(page: str, refresh: bool = False) -> str:

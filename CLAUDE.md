@@ -17,10 +17,18 @@ Every new session starts by reading this file, then the files listed under "Read
 - Direct, no hedging, no "in/out of water" style double numbers unless he asks. State a confidence when something is a read, not a proof. Disagree once, then drop it. Own mistakes in one line and fix them.
 - Casual tone, he's an engineer (C++), plays a lot, knows the game better than tlidb does in places.
 
-## tlidb access
-The shell reaches tlidb.com directly. Use `python3 tools/tlidb.py PAGE [--tables|--grep REGEX]`.
-Do NOT use WebFetch for tlidb (it paraphrases, truncates and sometimes invents text). WebSearch with
-`allowed_domains: ["tlidb.com"]` is fine for finding a page name.
+## Game data
+- The whole of tlidb is already in `data/` (see `data/README.md`). Start every lookup with
+  `python3 tools/find.py <words>` — it searches every page, list entry and table row.
+- Structured sets for pricing: `data/affixes/<Slot>.json` (craft pools with tiers and weights),
+  `data/legendaries.json`, `data/talents.json` (with node pairing), `data/skills.json`, `data/heroes.json`,
+  `data/glossary.json`, `data/catalog/<Page>.json` (pacts, destinies, prisms, slates, memories, corrosion...).
+- Proactive scans: when pricing a slot, walk its whole pool in `data/affixes/` through `tools/value.py`, not just
+  the lines Vlad mentioned.
+- Live page if something seems missing or outdated: `python3 tools/tlidb.py PAGE [--tables|--grep REGEX] --refresh`.
+  The shell reaches tlidb.com directly. Do NOT use WebFetch for tlidb (it paraphrases, truncates and sometimes
+  invents text). WebSearch with `allowed_domains: ["tlidb.com"]` is fine for finding a page name.
+- Data is a snapshot; tlidb updates with patches. Re-crawl at the start of a new season (`data/README.md`).
 
 ## Keeping the repo current
 - When Vlad changes gear/tree/slates/skills or reports stats: update `ss14/<char>/build.md` and add a dated line to `history.md`.

@@ -25,3 +25,14 @@ Expected cost to hit = cost / odds. Price per 1% = expected cost / (gain − 1) 
 - Nether King slate with "+10% effect for non-legendary slates on the line" brand: ~4,000–4,500 FE.
 - Pantheon's Elegy belt ~13,000 FE, + ~2,500 FE to put Gale on it.
 - Slate +1 spell line: ~3% odds per roll.
+
+## Divinity slates [Vlad + tlidb Brand Divinity Slate help]
+- A base slate (e.g. GoK's Divinity with fixed +1 Spell Skill Level and +8% additional spell) ~300 FE. It drops with 1-3 Divinity Slots: Magic (blue) micro only, Rare (purple) up to medium, Legendary (gold/orange) up to legendary medium.
+- **Inscribe** adds a micro, then upgrades micro -> medium -> legendary medium. Branding to full rare (mediums) costs ~0.
+- **Medium -> legendary**: 2 Transcendence Wedge (Legendary) = ~14 FE. The legendary is random from the slate god's pool:
+  GoK slate = Goddess of Knowledge + Magister + Prophet + Arcanist + Elementalist legendary mediums (36 nodes in tlidb; Vlad sees 2.96% per node ~ 1/34). ~75% read on the exact pool.
+- **Divinity Pact - <Panel>** forces the branded node to come from that panel (GoK 5 legendaries, Magister 10, Prophet 7, Arcanist 6, Elementalist 8). Pacts exist for all 30 panels; which ones a GoK slate accepts is unconfirmed.
+- **Overwrite** re-rolls micro/medium nodes. **Legendary nodes and New God nodes can't be overwritten.**
+- **Restore** (Unifying Wedge, ~16 FE each) wipes ALL brands. Wedges per restore escalate 1, 1, 2, 4, 8, 16 — nobody restores at 16.
+- Branded slates (and restored ones) become untradeable.
+- Max Active Divinity 1: the same node on two divinity slates only counts once (e.g. GoK's "+1 to Max Focus" is already GoK #1's fixed node; Arcanist's "+1 Max Focus / regen 0.4% mana" is a different node and stacks).

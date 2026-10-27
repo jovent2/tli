@@ -171,7 +171,7 @@ def sheet(build, trees):
     sh["increased_pool"] = sh["damage_bonus"] + sh["cold_bonus"] + t["inc.area"]
     # buffs that show on the sheet while hitting the dummy
     aim_lv = sh["level_empower"]
-    sou_cast = skill_value("Secret_Origin_Unleash", aim_lv, r"\+?([\d.]+)% Cast Speed for every stack") * min(ctx["focus"], 8)
+    sou_cast = skill_value("Secret_Origin_Unleash", aim_lv, r"\+?([\d.]+)% Cast Speed for every stack") * min(4 + t["focus.max"], 8)
     sh["empower_effect"] = empower_effect(sh)
     dis = set(ctx.get("disabled", []))
     if "Secret Origin Unleash" in dis:
@@ -185,7 +185,8 @@ def sheet(build, trees):
     sh["crit_flat"] = 500 + t["crit.flat"]
     sh["crit_rating_bonus"] = t["crit.rating_inc"]
     sh["crit_chance"] = min(100.0, sh["crit_flat"] * (1 + sh["crit_rating_bonus"] / 100) / 100)
-    sh["crit_damage"] = 150 + t["crit.dmg"] + t["crit.dmg_per_focus"] * ctx["focus"]
+    sh["max_focus"] = 4 + t["focus.max"]
+    sh["crit_damage"] = 150 + t["crit.dmg"] + t["crit.dmg_per_focus"] * sh["max_focus"]
     sh["max_focus"] = 4 + t["focus.max"]
     sh["frostbite_rating"] = min(120, 10 + t["frost.max"])
     sh["frostbite_effect"] = t["frost.effect"]
@@ -243,7 +244,7 @@ def dps(build, trees, verbose=False):
     m["NFE"] = 1 + 0.07 * 1.5 * ctx["nfe_stacks"]
     m["Tangle Damage Enhancement"] = 1 + t["enh.tangle"] / 100
     # blessings and boon
-    f = ctx["focus"]
+    f = sh["max_focus"]   # Thea sits at max Focus while hitting (Boon refills in <1 s)
     m["Focus Blessing"] = 1 + 0.05 * f
     m["Israfel per Focus"] = 1 + t["add.cold_per_focus"] * f / 100
     m["Bunch per Focus"] = 1 + t["add.spell_per_focus"] * f / 100

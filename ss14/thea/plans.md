@@ -62,3 +62,10 @@ All multipliers on the sheet in `stats.json` unless dated. FE per 1% = expected 
 - Max Active Divinity 1 on the Corner's crit dmg per Focus does not block the Magister tree copy: both are needed to reach the sheet's crit dmg.
 - Prism slot 3: Vlad wants Immune to Crowd Control there, not the mutate-core affix.
 - Ideas welcome without prices, but no double-corrosion / Vaal-style suggestions on expensive bases.
+
+## GoK #2 slate rebrand (2026-10-27 11:31)
+- Vlad restored GoK #2 and re-branded: purple +2.5% ES regain, orange +20/5 spell crit, orange +20/5 crit. That dropped the Arcanist +1 Focus brand (+2 on the line): **x0.815 vs the old slate** until it's back.
+- Order: both orange slots go for **Arcanist +1 Max Focus** first with an **Arcanist Divinity Pact** (1 in 6 per slot vs 1 in 36 random; two slots = 31% to land it before any restore). That alone is x1.28 from now (x1.044 vs the old slate, keeping one crit medium).
+- Second orange, only after Focus lands: **GoK pact -> +1 Spell Skill Level** (1 in 5). Hit = x1.224 vs the old slate; miss = the slot is a dead legendary (x~1.0) — EV is about break-even vs keeping the crit medium (x1.044), so it's an upside gamble, not a must.
+- Purple: overwrite ES regain -> +12% proj speed or +5 max frostbite (x1.05). Best case all three: x1.283 vs the old GoK #2.
+- Need: Arcanist pact price, GoK pact price, purple overwrite cost, how many restores this slate has had.

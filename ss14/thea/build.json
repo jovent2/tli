@@ -20,7 +20,7 @@
   "slates_on_line": 3,
   "mass_effect_charges": 3,
   "periodic_burst": 20,
-  "_mass_effect_note": "2026-10-27 SOU cast-speed test (Vlad): both out 231, WFB x3 only 240 (229->233->236->240), ME only 247, both 256 -> SOU's 24% cast x1.375 / x1.667 / x2.04. Mass Effect is at full (3 charges), WFB 3 stacks ~+37.5%. Model empower 2.042 matches."
+  "_mass_effect_note": "2026-10-27 13:07 sheet test (10 Focus, 4 Agility): no SOU 207, SOU bare 231 (+24), WFB 1/2/3 casts 234/237/240 (+12.5%/stack), ME only 247 (+66.7% = full, 3 charges), both 256 (x2.04). Mass Effect is full. Periodic Burst (follower Tartarus version) = +20."
  },
  "hero": {
   "name": "Thea",

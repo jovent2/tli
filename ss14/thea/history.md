@@ -22,3 +22,4 @@
 - **2026-10-27 12:54** Pull: standing still (no SP/SSR), belt + Ring L off 6.8 T. Weakness Infiltration modeled. Mass Effect charges made a parameter; 1 charge fits both pulls (9.61/6.63 vs 9.4/6.8), 3 charges doesn't (12.70/8.07). Waiting on buff tooltips.
 - **2026-10-27 12:57** Standing-still test fixed: only Speed Phantom off (Swift Shadow Raid is the follower's). Periodic Burst +30 (tlidb). Context set to Mass Effect 1 charge: model 9.88 / 7.25 vs 9.4 / 6.8, sheet cast 255 vs 256. 3 charges would be 12.70 / 8.55.
 - **2026-10-27 13:03** SOU cast-speed test confirms Mass Effect at full (empower 2.04). Reverted to 3 charges and follower Periodic Burst +20. Absolute scale still +26..35% high — one constant, open.
+- **2026-10-27 13:07** Vlad's SOU cast-speed test proves Mass Effect is full (3 charges) and WFB +12.5%/cast; Periodic Burst back to +20 (follower version). Model back to +35% / +26% on the two pulls; next: aura/empower toggle pulls, Precise first.

@@ -244,3 +244,9 @@ Vlad's plan: Lich out, Warlock in (Dirty Tricks core), Pedigree -> 2-core Pedigr
 - Why Prophet: Frostbite is the biggest enemy-side multiplier (x3.2-3.5). Prophet's +44% frostbite effect (x1.17), +21 rating (to the 120 cap; without it
   rating 107 with ring T1), +10% additional vs Frozen, 4.5% cold pen, INT nodes, and 30 cold res (saves 3 kismet slots for block).
 - Ring R frostbite T2 20 -> T1 32 on the current build: rating 116.4 -> 120 cap, x1.02 only. Without Prophet it's what keeps enemies Frozen.
+- Re-run 19:17 (Vlad: SV's "8% additional damage applied to Life" = 8% additional; now parsed as add.damage). Zero memory rolls everywhere:
+  **Prophet 26.8 T** vs Steel Vanguard 23.5 T (26 pts: ES 6, ele res 6, crit 6, aura effect 6, 736_176 + 8% legendary 2; the optimizer sends the other 4 to GoK)
+  vs Sentinel full block 22.4 T (ring INT 60 kept, belt block, 4 res micros) vs Arcanist 23.1 (needs 2 memory rolls: no cold res).
+  Node value on the block-plan tree: Prophet frostbite package 8 pts x1.390 (effect 44% x1.180, rating +12 to the cap x1.077, +10% vs Frozen x1.100),
+  INT 4 pts x1.106, cold pen 3 pts x1.047, crit 6 pts x1.128 · SV aura effect 6 pts x1.171, 8% legendary path 2 pts x1.090, crit x1.128, ele res x1.000.
+  Sentinel's 21 block points cost x0.66 of tree damage; external block (fates, orange, ring) is cheaper per block point.

@@ -225,3 +225,10 @@ Vlad's plan: Lich out, Warlock in (Dirty Tricks core), Pedigree -> 2-core Pedigr
   - Block (avg rolls): attack belt 19 + ring 19 + orange 11 + medium 13.5 + 2 micros 7 + 1 memory roll 28 = 104.5; spell belt 19 + ring 19 + orange 11 + medium 13.5
     + 1 memory roll 28 + Magister micro x3 12 = 102.5. Memory rolls: Discipline 41% spell crit (attack) + Progress 104% crit rating (spell); keeps both proj speeds,
     47% cold crit, 54% spell crit. Vlad's version with 1 micro attack fate: 19.7 T (belt 47%, no Double) but attack 97.5-99 at average rolls.
+- **Layout v3 (Vlad 17:08: fates maxed and cheap, avoid main-memory rolls; belt basic prefix ES vs damage)**:
+  - Fate maxes: block micro 8 / medium 15 (2 smalls > 1 big), INT 15 / 30 and res 7 / 14 (even). Block goes in micro slots, INT stays in mediums.
+  - Kismets: 7 micros -> block (5 INT micros + 2 freed lightning micros); 3 INT mediums (incl. the reserved one) 90 INT; crit dmg micro, 1 lightning micro, crit mitigation medium stay.
+  - Attack = belt 19 + ring 19 + orange 11 + 3 micros 24 + one memory roll 28 (Discipline 41% spell crit) = 101; spell = belt 19 + ring 19 + orange 11 + 4 micros 32
+    + Magister 24 (4 pts) = 105. **23.1 T** with the belt's 80% damage, **21.1 T** with 440 ES instead (damage line x1.095 vs +12% ES base).
+  - Zero main-memory rolls: 2 INT mediums -> block instead of the memory roll (attack 103 / spell 105): 22.5 T (dmg belt) / 20.5 T (ES belt).
+  - Margins need belt + ring >= 37 combined (T0 16-20 each); if they roll low, the crit dmg micro becomes the 8th block micro.

@@ -244,7 +244,19 @@ def _parse_part(part):
     return None
 
 
+from functools import lru_cache
+
+
+@lru_cache(maxsize=None)
+def _parse_cached(line):
+    return tuple(_parse_uncached(line))
+
+
 def parse(line: str) -> list[Stat]:
+    return [Stat(**asdict(s)) for s in _parse_cached(line)]
+
+
+def _parse_uncached(line: str) -> list[Stat]:
     """Stats in a line. ' / '-separated parts (two-line affixes) and 'X and Y' lines are split.
     Unparsed parts are dropped; use special() to find lines that need hand pricing."""
     out = []

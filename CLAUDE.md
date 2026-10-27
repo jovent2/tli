@@ -9,6 +9,13 @@ Every new session starts by reading this file, then the files listed under "Read
 2. The active character folder (right now `ss14/thea/`): `build.md` (current state), `plans.md`, the latest entries of `tests.md` and `history.md`.
 3. `docs/tlidb.md` before touching tlidb, `docs/crafting.md` before pricing any craft.
 
+## Session start routine
+1. `python3 tools/engine.py --belt-off` — computed sheet vs his last in-game sheet, every multiplier, DPS.
+2. `python3 tools/engine.py --test` — regression against his pulls (tests.json). If a model change breaks a test, fix the model, not the test.
+3. `python3 tools/scan.py` → `ss14/thea/scan.md` — every pool ranked against the current build. Lead with what it finds.
+4. When he changes something: edit `build.json` / `trees.json` (lines as game text), rerun 1–3, log in `history.md`;
+   when he reports a pull, add it to `tests.json` (before/after as changes to the current build) and `tests.md`.
+
 ## How to work with Vlad
 - He wants the math done, not discussed. Price things as multipliers on HIS current sheet, give the number, then the decision.
 - He gives in-game numbers; those are ground truth. tlidb is accurate too (check the level/rank you're reading — e.g. Wisdom of the Gods is 52% at L5 but he has L4 = 44%).
@@ -41,7 +48,10 @@ Every new session starts by reading this file, then the files listed under "Read
 - `docs/` — mechanics, tlidb notes, crafting/costs.
 - `tools/`
   - `find.py` — search all game data (start here)
-  - `value.py` — what a line is worth on the character's sheet (`ss14/thea/stats.json`)
+  - `engine.py` — the DPS model (build.json + trees.json + data → sheet → DPS), `--test` runs the regression suite
+  - `scan.py` — ranks every craft line / legendary / kismet / slate node / memory / prism affix / talent node
+  - `sources.py` — "where do I get X" (`data/sources/<stat>.md`); `stats.py` — game text → stat keys
+  - `value.py` — quick single-line marginal value on `ss14/thea/stats.json` (older, simpler than engine.py)
   - `tree.py` — validate a talent allocation (`ss14/thea/trees.json`) against tlidb and total its stats
   - `tlidb.py` — read one live tlidb page raw
   - `crawl.py`, `tlidb_parse.py`, `build_data.py` — rebuild `data/` from tlidb

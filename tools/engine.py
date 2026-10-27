@@ -40,7 +40,7 @@ def skill_value(key, level, rx, idx=0):
     """Number captured by rx in a skill's level-`level` text (levels capped at 40 in tlidb tables)."""
     s = skills()[key]
     lv = str(max(1, min(40, int(level))))
-    text = " / ".join(s["levels"][lv])
+    text = re.sub(r"\+(?=[\d(])", "", " / ".join(s["levels"][lv]))  # tlidb writes "+69%" on some levels, "69%" on others
     m = re.search(rx, text)
     if not m:
         raise KeyError(f"{key} L{lv}: /{rx}/ not in: {text[:200]}")
@@ -56,8 +56,18 @@ def level_mult(lv):
 
 # --------------------------------------------------------------------------- collect stats
 
+_PANELS = None
+
+
+def panels_data():
+    global _PANELS
+    if _PANELS is None:
+        _PANELS = {p["key"]: p for p in json.loads((DATA / "talents.json").read_text(encoding="utf-8"))}
+    return _PANELS
+
+
 def tree_lines(trees):
-    panels = {p["key"]: p for p in json.loads((DATA / "talents.json").read_text(encoding="utf-8"))}
+    panels = panels_data()
     out = []
     for pa in trees["panels"]:
         lay = {n["id"]: n for n in panels[pa["panel"]]["layout"]}
@@ -288,7 +298,8 @@ def dps(build, trees, verbose=False):
     dbl_c = sh["double_on_person"] + (20 if ctx["in_tidewell"] else 0) + (6 * 8 * stacks if tl["Farewell Prophecy"] >= 3 else 0)
     dbl = 1 + dbl_c / 100 if dbl_c <= 100 else 2 * (1 + min(1.0, dbl_c / 100 - 1))
     proj = 1 + 0.8 + 0.8 ** 2
-    casts = 1.54 * (1 + sh["cast_speed"] / 100) * (1.07 if ctx["spell_aggression"] else 1) * (1.08 if ctx["hasten"] else 1)
+    casts = (1.54 * (1 + sh["cast_speed"] / 100) * (1.07 if ctx["spell_aggression"] else 1) * (1.08 if ctx["hasten"] else 1)
+             * (1 + t["cast.add"] / 100))
     ripple = 1.5
     hit = base * math.prod(m.values()) * math.prod(e.values())
     per_cast = hit * crit * dbl * proj * ripple
@@ -320,6 +331,27 @@ def apply(build, trees, change):
             b["pacts"] = [p for p in b["pacts"] if p["name"] != name]
         elif kind == "memory":
             b["memories"] = [m for m in b["memories"] if str(m["slot"]) != name]
+    for slot, lines in change.get("add_items", []):
+        b["gear"].append({"slot": slot, "name": "candidate", "lines": list(lines)})
+    if change.get("replace_kismet"):
+        ref, lines = change["replace_kismet"]
+        ks = b["kismets"]["lines"]
+        if ref in ks:
+            ks.remove(ref)
+        ks.extend(lines)
+    if change.get("add_slate"):
+        lines, eff = change["add_slate"]
+        b["slates"].append({"name": "candidate", "effect_pct": eff, "lines": list(lines)})
+    if change.get("add_memory_line"):
+        b["memories"].append({"slot": "candidate", "name": "candidate", "lines": [change["add_memory_line"]]})
+    if change.get("remove_memory_line"):
+        slot, line = change["remove_memory_line"]
+        m = next(x for x in b["memories"] if str(x["slot"]) == slot)
+        m["lines"].remove(line)
+    if change.get("tree_remove"):
+        panel, nid = change["tree_remove"]
+        pa = next(x for x in t["panels"] if x["panel"] == panel)
+        pa["nodes"].pop(nid, None)
     for sname, line in change.get("remove_slate_lines", []):
         sl = next(x for x in b["slates"] if x["name"] == sname)
         sl["lines"].remove(line)

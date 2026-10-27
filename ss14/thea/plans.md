@@ -74,3 +74,6 @@ All multipliers on the sheet in `stats.json` unless dated. FE per 1% = expected 
 - Owned S+A slate: same Arcanist plan only reaches x1.049 (F + medium), ~290 FE for +2.9% expected. Fallback only.
 - S+F (900, worth <= 361), C+F (750, <= 211), F+A, F+Z, F+B, C+A: don't buy.
 - 3-leg bases (need price + whether they also have a rare slot): worth up to S+C 1,780 · S+Z 1,176 · S+F 974 · C+F 771 · S+A 751. 2-leg S+Z worth up to 385 (no price yet).
+- **2026-10-27 12:18 — Arcanist Focus landed on the first try** (S+C base, lv86): fixed +1 Cold, +1 Spell; brands purple +6% life/+6% ES, orange Arcanist Focus, orange +2.5% ES regain (medium). Spent 400 + 84 = 484 FE.
+  Orange 2 options (expected gain vs keeping its medium at +10.5%): Prophet pact +9.0% (194 FE) · Arcanist +8.0% (84) · naked +7.0% (14) · Magister +6.4% · Elementalist +6.2%. Any miss drops to x1.054 and only a restore (which wipes Focus) undoes it. **Decision: stop. Free-overwrite the mediums to +5 frostbite and +12% proj speed, equip in GoK #2's spot.**
+  Prediction vs the current build: x1.159 with the belt; belt-off 12.12 -> 13.40 T (x1.105; proj speed only feeds Gale, invisible belt-off).

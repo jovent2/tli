@@ -304,3 +304,7 @@ ES nodes free, EHP = ES vs elemental hits (res x0.40, block 55% x0.45, Low Mana 
 - **Belt base decided (Vlad 21:19): Has Hasten.** With Hasten on the belt the boots' "Has Hasten" suffix rolls to +60% Critical Strike Damage (Advanced suffix, T1 max;
   T0 61-78): TANK-1 23.4 -> **26.6 T (x1.136)**, T0 78% -> 27.5 T (x1.177). Aura-effect base was x1.089. After LW the belt keeps Hasten (x1.08 cast + 8% additional MS).
   Boon margin back to today's 1.03 (Lich CDR, no belt CDR). Gale not on any belt yet.
+- Hasten alternatives (22:24): follower support Synchronized Haste (Hasten 4 s on cast, permanent like Periodic Burst) sits in SSR's pool; an SSR III with Periodic Burst +
+  Deep Wounds + Synchronized Haste = 9k on the market (= aura belt possible: x1.09 -> ~1,000 FE/1%, no). Tempering a 3rd slot: 500 FE, 20% success, random support (~21),
+  failure bricks the slot -> ~1%/try, ~50k expected. Other skills with it (Blink, Frigid Transmission, Speed Phantom, Star Stalker, Life Tonic, Lone Wolf melee "Swift Phantom")
+  would replace Tidewell/Lightning Storm and lose Dirty Tricks ailments. Decision: Hasten belt; SSR only if one shows up under ~3k.

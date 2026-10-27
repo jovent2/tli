@@ -158,3 +158,15 @@ Vlad's plan: Lich out, Warlock in (Dirty Tricks core), Pedigree -> 2-core Pedigr
   - Trees first: x1.035 for 10.5k (mana fits: 3 auras x 55% / 1.75 = 94%), then LW x1.50.
 - Glass reference: LW + Precise WA in Spell Amp's slot on the current trees x1.851 for 15.1k (163 FE/1%), ES ~5.2k (-22%).
 - Checked: Precise WA in Domain Expansion's slot of the tank plan is x1.04 only (DE is x1.64 there: "additional Area Damage" counts on Chromatic).
+
+## TOWER Sequences on the wands (priced 2026-10-27; one per wand, `docs/crafting.md`)
+- Now: wand M "+8% additional Spell Damage", wand S "+16% Cast Speed" (both already in build.json).
+- Intermediate, replacing S's 16% cast (current build / after the LW tank plan): 8% additional Spell x1.031 / x1.011 · 6% ARP x1.027 / x1.007 ·
+  10% additional on Crit x1.018 / x1.001 (adds into the on-crit bucket with Malign's 42%) · 8% All Stats x1.015 / x0.993 · +55 Spell Crit x1.008 / x1.005 ·
+  8% Cold pen x1.007 / x0.993 (res floored at 0; ~x1.035 if res can go negative). M's 8% additional Spell is already the best Intermediate.
+  Under the 5T cap (LW plan) all Intermediates are within 1% of 16% cast speed: cast speed isn't capped.
+- Advanced (In-Depth R&D), in place of S's 16% cast: Lv20 Overload x1.261 / x1.160 (+4% per Focus, 8 stacks = +32%) · Lv25 Control Spell x1.213 / x1.117
+  (read: its -50% crit rating is the additive kind, 754 -> 704%) · +35% / -10% cast x1.160 / x1.058 · +1 Focus +1 Agility x1.128 / x1.083.
+  Pairs: Overload + Control Spell x1.482 / x1.242 · Overload + 35% x1.418 / x1.173 · Overload + Focus x1.378 / x1.227.
+  Dead: Spell Burst +25% (no Spell Burst), 200-220 cold (needs 800 INT, have 543), +120% Spell Amp (-20% its compensation; doesn't fit at 97% sealed).
+- Need from Vlad: In-Depth R&D cost (Expansion Mod - Warlock price, mods per try) and chip odds.

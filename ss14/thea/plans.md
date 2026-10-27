@@ -209,3 +209,10 @@ Vlad's plan: Lich out, Warlock in (Dirty Tricks core), Pedigree -> 2-core Pedigr
   Fixes: **Discipline fixed +10% CDR + block** (instead of cast + block): margin 1.01, 19.0 T sustained (best) · Discipline fixed +10% duration + block: margin 0.989, 18.8 T ·
   Prophecy of Purity L4 (+15% dur vs +5) 0.989, L5 (+25%) 1.047 · Kismet: Scorpion Stinger +3-5% dur 0.959 (x0.955) · Pedigree micro/medium slot Lich +4% dur 0.954 ·
   I Am Truth CDR variant instead of its 40% duration: 0.934 (no). Belt/boots CDR are Ultimate suffixes (not on rares).
+- **Vlad's order (2026-10-27 16:20)**: 1) Pedigree Defensiveness + OTBT 3.5k first (only 3 on the market); 2) Arcanist Girdle with 20% CDR implicit (150 FE) + Gale (4,200 FE);
+  3) roll memories. Belt base-affix pool also has 20-25% duration, 6-8% sealed comp, 7-8% aura effect, Has Hasten (tlidb).
+  - Belt CDR 20 -> CDR 37, Boon margin **1.089** (fixed). Belt Advanced prefix -> Attack and Spell Block T0 16-20 (tier upgrade from T1).
+  - The new belt must rebuild the old one's +47% damage (x1.055) and the 3 res lines (19/17/16); +220 ES is defence only.
+  - Result (sustained, Boon full): current memories **19.0 T** mid rolls (memory 28, ring T1 13.5, belt T0 18, 3 block fates) / 20.0 T max rolls;
+    + Discipline cast + block 3,333: 20.9 T (x1.100, 333 FE per 1%). Converts: Discipline 41% spell crit, Progress 104% crit rating, orange 18% x2, belt + ring INT.
+  - Tip: buy the Pedigree now but slot it (and respec Lich -> Warlock) when the belt is ready: in between the Boon dip makes it 30.5 T sustained.

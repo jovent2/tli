@@ -175,3 +175,6 @@ Vlad's plan: Lich out, Warlock in (Dirty Tricks core), Pedigree -> 2-core Pedigr
   (220 / 380 if an offer never repeats a number).
 - Vlad takes 8% Cold pen on S now (cheap). vs cold pen: Overload +21.7%, Control +17.1%, +35% +12.0%, Focus +8.9% -> optimal picks EV +1.77%/try,
   **361 FE per 1%**, stop at the first hit (pick table in docs/crafting.md).
+- Vlad 2026-10-27 14:42: in the tank plan the memories get re-rolled to block (every mod -> T0 attack/spell block, 3 attack + 3 spell, to cap block).
+  Their damage lines go, so hits drop well under 5T: the cap haircuts above ("after the LW plan") mostly vanish, and the x1.553 for the tank
+  package assumed the current memories. Price the block re-roll when Vlad brings it up (parked by him).

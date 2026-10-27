@@ -25,6 +25,9 @@ DPS = Base
 
 ### Skill levels [tlidb]
 - Past lv20 base damage stops; each level **21–30: +10% additional (multiplies)**, **31+: +8% additional (multiplies)**. lv36 = 1.1^10 × 1.08^6 = ×4.116.
+  tlidb Skill Level help (verbatim): "After the skill exceeds Lv. 20, its Base Damage and the Base Damage of its Minions will no longer change. However, for every level beyond this level, this skill and its Minions will gain additional damage. At Lv. 21 - 30, each level +10% additional damage (multiplies) At Lv. 31 or higher, each level +8% additional damage (multiplies)."
+  **No cap at 40**: skill tables on tlidb stop at 40, but the rule says 31 or higher. Lv41 = another x1.08 (~85% confident; no 41+ pull yet). Ignore the old loading-screen Tip #1044 ("+6% past Lv. 30"), it contradicts the help page and Chromatic's own table (base stops at 20).
+  Chromatic is Lv40 in game with the S+C slate (model 40, 2026-10-27).
 - Level sources stack by tag: all-skills, spell, cold, physical, projectile, main-skill. Supports and auras get their own levels (support +X levels, Off The Beaten Track +4 support levels).
 
 ### Increased vs additional [Vlad][tested]

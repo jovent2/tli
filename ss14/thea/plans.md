@@ -96,11 +96,12 @@ All multipliers on the sheet in `stats.json` unless dated. FE per 1% = expected 
 - Order: Precise Frigid -> Precise WA in DE's place -> Precise Spell Amp -> Precise Proj -> Stand as One. Engine now reads auras (incl. Precise: and Stand as One) from build.skills.others.
 - One Stand as One copy (best on Frigid): 4 auras x1.077 (316 FE/1%), 5 auras x1.097 (253 FE/1%).
 
-## Lone Walker's Boots (priced 2026-10-27)
-- tlidb: +1615 evasion · granted random Lv20 Precise bonus-damage aura (want: Precise Spell Amplification) · +50% MS · +(15-30)% aura effect at 4-5+ auras · +2% aura effect per +3% sealed mana compensation.
-- Plan (Vlad): granted Precise Spell Amp frees the Spell Amp slot. Loses Hasten (x1.08 additional cast + 7% cast), boots ES (~720), crit mitigation 58% (-> one ~25 INT kismet), fire res 22% (-> more INT kismets; assumed 4 micros ~54 INT).
-- Engine (roll 27% + 12% from 18% compensation = +39% aura effect on every aura): auras Spell Amp 1.455 -> 1.556 (granted, no AA), Frigid 1.46 -> 1.62, Precise Proj 1.427 -> 1.575, DE 1.404 -> 1.544.
-  - Freed slot = Precise Energy Fortress: x1.18 (-79 INT) to x1.27 (-25 INT). EF lv25: +346 ES and +19.3% additional ES, x1.51 aura effect -> +523 ES and +29% additional ES.
-  - Freed slot = Weapon Amp: x1.79-1.93 · Precise WA: x1.87-2.01 (no ES recovery).
-  - Boots roll sensitivity (EF, -79 INT): 15% -> x1.04, 30% -> x1.21.
-- Need: LW price, his roll, global sealed mana compensation (assumed 18%), current max ES.
+## Lone Walker's Boots (priced 2026-10-27, from the build)
+- tlidb: +1615 evasion · granted random Lv20 Precise bonus-damage aura (want: Precise Spell Amplification) · +50% MS · +(15-30)% aura effect at 4-5+ auras · +2% aura effect per +3% Sealed Mana Compensation.
+- **Global Sealed Mana Compensation in the build = 0** (Restrain's is local to its aura; the 18% on the sheet is sealed mana). So LW = its roll only. Every +3% global compensation would add +2% aura effect (Lich comp nodes, prism "+2% comp per medium in area").
+- Costs from the build: Hasten (x1.08 additional cast + 7% cast). Crit mitigation 118% now (cap 100) -> 60% without boots -> one medium fate (-27 INT). Fire res 61% now (boots 22 + rings 12/27, cap 60) -> 39% -> +21% needed = 1 medium + 2 micro fire fates or 2 mediums (-54 INT). Total -81 INT.
+- ES (build): gear items 1,904 (helmet 347, chest 508, gloves 469, boots 720 per Vlad) + flat 1,293 (belt, rings, Discipline) x (1 + 126.4%: trees 90, slate 9.2, INT 0.05%/pt 27.2) ~7,550. Boots' 720 = ~1,630 on the sheet.
+- Results (roll 15 / 27 / 30%):
+  - Freed slot = Precise Energy Fortress (lv25: +346 ES, +19.3% additional, x1.39 aura effect -> +482 ES, +26.9%): x0.92 / **x1.04** / x1.07 damage, ES ~7.55k -> ~8.74k (+16%).
+  - Freed slot = Weapon Amp: x1.32 / **x1.54** / x1.60, ES ~5.82k (-23%). Precise WA: x1.38 / x1.60 / x1.67.
+- Need: LW price and roll.

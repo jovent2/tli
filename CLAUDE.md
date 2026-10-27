@@ -52,6 +52,7 @@ Every new session starts by reading this file, then the files listed under "Read
   - `scan.py` — ranks every craft line / legendary / kismet / slate node / memory / prism affix / talent node
   - `sources.py` — "where do I get X" (`data/sources/<stat>.md`); `stats.py` — game text → stat keys
   - `value.py` — quick single-line marginal value on `ss14/thea/stats.json` (older, simpler than engine.py)
+  - `slate_plan.py` — plan a divinity slate craft (base, naked vs pact rolls, restores)
   - `tree.py` — validate a talent allocation (`ss14/thea/trees.json`) against tlidb and total its stats
   - `tlidb.py` — read one live tlidb page raw
   - `crawl.py`, `tlidb_parse.py`, `build_data.py` — rebuild `data/` from tlidb

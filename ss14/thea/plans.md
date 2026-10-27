@@ -203,3 +203,9 @@ Vlad's plan: Lich out, Warlock in (Dirty Tricks core), Pedigree -> 2-core Pedigr
   4 medium INT kismets, Magister +24% spell block. Keeps Origin 47% cold crit + 40% proj speed, Discipline 40% proj speed, Progress 54% spell crit dmg.
   Max rolls (31 / 15): 20.0 T with 2 kismets (spell exactly 100). New Discipline cast + block (3,333): 20.0 T mid (x1.105, 316 FE/1%) / 20.9 T max (699 FE/1%).
   ~1,000 Discipline (block + minion) is worse than keeping the current one.
+- **Boon (Prophecy of Purity 2nd stack) without Lich** (2026-10-27 15:46): margin = 0.5 x (1 + duration) x (1 + CDR) = 0.5 x 1.59 x 1.17 = 0.93 ->
+  2nd stack up 86% -> **x0.923 sustained** (2 stacks are x2.23 vs 1). The block-plan T above assume full Boon: real 18.1 -> 16.7 T, 20.0 -> 18.5 T.
+  Need (1+dur)(1+CDR) >= 2: +8.8% CDR or +12.7% duration. No CDR/duration nodes on GoK/Magister/Prophet/Warlock.
+  Fixes: **Discipline fixed +10% CDR + block** (instead of cast + block): margin 1.01, 19.0 T sustained (best) · Discipline fixed +10% duration + block: margin 0.989, 18.8 T ·
+  Prophecy of Purity L4 (+15% dur vs +5) 0.989, L5 (+25%) 1.047 · Kismet: Scorpion Stinger +3-5% dur 0.959 (x0.955) · Pedigree micro/medium slot Lich +4% dur 0.954 ·
+  I Am Truth CDR variant instead of its 40% duration: 0.934 (no). Belt/boots CDR are Ultimate suffixes (not on rares).

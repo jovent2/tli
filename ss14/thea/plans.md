@@ -81,3 +81,8 @@ All multipliers on the sheet in `stats.json` unless dated. FE per 1% = expected 
 ## Pactspirits (scanned 2026-10-27 from the pact page screenshot + tlidb)
 - Board matches the encoded setup: Witch r6 (3 free spell crit nodes, 6 kismets), Iron Lion r1 (6 free proj speed/dmg nodes, 3 kismets on knockback), Dreamweaver r6 (5 free pen/ele nodes, 4 kismets). 13 kismets = 9 micro + 4 medium.
 - Only spell legendary worth a look: **The Bone worm's Daughter** (L6: +140 flat spell crit rating at 2 ailments, +14% +36% crit dmg, +4% additional; ring Spell Dmg / Crit Dmg nodes). Engine: in Iron Lion's slot x1.31 (L6) / x1.14 (L1), but that loses Sword Rain's +2 projectiles (~x0.62) -> net loss. In Witch's slot x1.22 on paper, but Witch's NFE is 9% CDR and the Boon 2-stack margin is only 1.03 (without it 0.958 -> Boon breaks). In Dreamweaver's slot x0.85. **Keep all three.**
+
+## Model open items (2026-10-27)
+- Speed Phantom now has **Mass Effect** (Exhaustion was +17% for Speed Phantom's own hits only, dead for Chromatic). Engine still models Euphoria as 8 stacks x 3.25% without ME. Unknowns: Euphoria stacks on a single dummy (1 per enemy hit per Remnant), and ME charges (ME +1, Fallen Starlight +1 max charges, Lich +1). Test: belt off + Ring L off, no Speed Phantom casts.
+- Periodic Burst (tlidb now): +30% atk/cast speed for 2 s after a mobility skill, a stack every 6 s. Engine uses a permanent +20 cast speed.
+- Memory Revival (tlidb): revival adds a revived affix (Young Moon), raises base stats (Wax and Wane) or fixed affix tiers (Rising Moon); only 1 revived memory can be installed. Vlad's revived Origin shows no other affixes; INT 543 and the 9.4 T pull both fit that.

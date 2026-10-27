@@ -1,6 +1,6 @@
 {
  "_about": "Thea build as data. Every line is game text (parsed by tools/stats.py) unless it is an explicit effect. Lines marked '?' in 'unknown' are not confirmed by a screenshot. tools/sheet.py turns this into the stat sheet; tools/engine.py into DPS.",
- "updated": "2026-10-27 11:20 (trees + slates re-read from screenshots)",
+ "updated": "2026-10-27 12:38 (skills, memories, traits, followers re-read)",
  "context": {
   "_about": "State while measuring on the boss dummy (Vlad's standard test)",
   "tangles_active": 2,
@@ -227,14 +227,11 @@
  "memories": [
   {
    "slot": 1,
-   "name": "Memory of Origin",
+   "name": "Memory of Origin (revived)",
    "lines": [
-    "+110 Intelligence",
-    "+16% Cast Speed",
-    "+18% Minion Critical Strike Damage",
-    "+47% Cold Skill Critical Strike Damage",
-    "+40% Projectile Speed"
-   ]
+    "+176 Intelligence"
+   ],
+   "note": "2026-10-27 tooltip: lv86, 50/50, trait level +3, revived (count 1, no limit). Base stat +176 INT (+60% from Wax and Wane). Revived affix: Base Trait slot (Epic or lower Progress memory, -58%). No other affixes on the tooltip; before revival it had +110 INT, +16% cast, +18% minion crit dmg, +47% cold skill crit dmg, +40% proj speed."
   },
   {
    "slot": 2,
@@ -452,11 +449,11 @@
    "Aim [Preparation, Well-Fought Battle, Mass Effect]",
    "Secret Origin Unleash [Preparation, Mass Effect, Well-Fought Battle, Resurgence]",
    "Biting Cold [Preparation, Terrain of Malice, Deepened Curse, Increased Area]",
-   "Speed Phantom [Quick Mobility, Weakness Infiltration, Exhaustion]",
    "Precise Projectiles [Restrain, Increased Area, Aura Amplification]",
    "Spell Amplification [Aura Amplification, Increased Area, Restrain]",
-   "Frigid Domain [Restrain, Cooldown Reduction, Aura Amplification]",
-   "Domain Expansion [Aura Amplification, Seal Conversion]"
+   "Speed Phantom [Quick Mobility, Weakness Infiltration, Mass Effect]",
+   "Frigid Domain [Seal Conversion, Aura Amplification]",
+   "Domain Expansion [Aura Amplification, Restrain, Cooldown Reduction]"
   ]
  },
  "follower": [

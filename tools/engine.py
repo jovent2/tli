@@ -345,6 +345,9 @@ def apply(build, trees, change):
     if change.get("add_slate"):
         lines, eff = change["add_slate"]
         b["slates"].append({"name": "candidate", "effect_pct": eff, "lines": list(lines)})
+    for slot, lines in change.get("set_memory", {}).items():
+        m = next(x for x in b["memories"] if str(x["slot"]) == str(slot))
+        m["lines"] = list(lines)
     if change.get("add_memory_line"):
         b["memories"].append({"slot": "candidate", "name": "candidate", "lines": [change["add_memory_line"]]})
     if change.get("remove_memory_line"):
@@ -413,11 +416,15 @@ def run_tests(build, trees):
     for tc in tests["tests"]:
         if tc.get("skip"):
             continue
-        b1, t1 = apply(build, trees, tc.get("after", {}))
+        if tc.get("common"):   # era state applied under both before and after (e.g. pre-revival Memory of Origin)
+            build_e, trees_e = apply(build, trees, tc["common"])
+        else:
+            build_e, trees_e = build, trees
+        b1, t1 = apply(build_e, trees_e, tc.get("after", {}))
         if "measured" in tc:   # absolute pull on the current build (T), e.g. belt off + ring off under the 10 T display cap
             pred, meas = dps(b1, t1)["dps"] / 1e12, tc["measured"]
         else:
-            b0, t0 = apply(build, trees, tc.get("before", {}))
+            b0, t0 = apply(build_e, trees_e, tc.get("before", {}))
             pred = dps(b1, t1)["dps"] / dps(b0, t0)["dps"]
             meas = tc["measured_after"] / tc["measured_before"]
         err = pred / meas - 1

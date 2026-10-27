@@ -1,5 +1,5 @@
 {
- "_about": "Regression tests for tools/engine.py --test. Each test: 'before' and 'after' are changes applied to the CURRENT build (build.json); measured_before/after are Vlad's pulls (T). 'era' = which build the pull was made on; 'historical' tests were measured on an older build, so expect drift (they check the shape of the model, not exact numbers). Keep tests.md as the human log. Tests with 'measured' (no before) are absolute pulls in T on the current build (group 'absolute').",
+ "_about": "Regression tests for tools/engine.py --test. Each test: 'before' and 'after' are changes applied to the CURRENT build (build.json); measured_before/after are Vlad's pulls (T). 'era' = which build the pull was made on; 'historical' tests were measured on an older build, so expect drift (they check the shape of the model, not exact numbers). Keep tests.md as the human log. Tests with 'measured' (no before) are absolute pulls in T on the current build (group 'absolute'). 'common' = era state applied under both before and after.",
  "tests": [
   {
    "name": "Belt off + Ring L (INT ring) off, new Spell+Cold GoK #2",
@@ -81,7 +81,18 @@
     ]
    },
    "measured_before": 9.0,
-   "measured_after": 5.5
+   "measured_after": 5.5,
+   "common": {
+    "set_memory": {
+     "1": [
+      "+110 Intelligence",
+      "+16% Cast Speed",
+      "+18% Minion Critical Strike Damage",
+      "+47% Cold Skill Critical Strike Damage",
+      "+40% Projectile Speed"
+     ]
+    }
+   }
   },
   {
    "name": "Precise Projectiles off",
@@ -94,7 +105,18 @@
     ]
    },
    "measured_before": 9.0,
-   "measured_after": 7.1
+   "measured_after": 7.1,
+   "common": {
+    "set_memory": {
+     "1": [
+      "+110 Intelligence",
+      "+16% Cast Speed",
+      "+18% Minion Critical Strike Damage",
+      "+47% Cold Skill Critical Strike Damage",
+      "+40% Projectile Speed"
+     ]
+    }
+   }
   },
   {
    "name": "Purity off",
@@ -118,7 +140,18 @@
     ]
    },
    "measured_before": 9.0,
-   "measured_after": 4.4
+   "measured_after": 4.4,
+   "common": {
+    "set_memory": {
+     "1": [
+      "+110 Intelligence",
+      "+16% Cast Speed",
+      "+18% Minion Critical Strike Damage",
+      "+47% Cold Skill Critical Strike Damage",
+      "+40% Projectile Speed"
+     ]
+    }
+   }
   },
   {
    "name": "Secret Origin Unleash off",
@@ -131,7 +164,18 @@
     ]
    },
    "measured_before": 9.0,
-   "measured_after": 5.4
+   "measured_after": 5.4,
+   "common": {
+    "set_memory": {
+     "1": [
+      "+110 Intelligence",
+      "+16% Cast Speed",
+      "+18% Minion Critical Strike Damage",
+      "+47% Cold Skill Critical Strike Damage",
+      "+40% Projectile Speed"
+     ]
+    }
+   }
   },
   {
    "name": "Lightchaser off (with Multiple Projectiles then)",
@@ -144,7 +188,18 @@
     }
    },
    "measured_before": 9.0,
-   "measured_after": 7.9
+   "measured_after": 7.9,
+   "common": {
+    "set_memory": {
+     "1": [
+      "+110 Intelligence",
+      "+16% Cast Speed",
+      "+18% Minion Critical Strike Damage",
+      "+47% Cold Skill Critical Strike Damage",
+      "+40% Projectile Speed"
+     ]
+    }
+   }
   },
   {
    "name": "Frostbite effect -20%",
@@ -157,7 +212,18 @@
     }
    },
    "measured_before": 9.0,
-   "measured_after": 8.4
+   "measured_after": 8.4,
+   "common": {
+    "set_memory": {
+     "1": [
+      "+110 Intelligence",
+      "+16% Cast Speed",
+      "+18% Minion Critical Strike Damage",
+      "+47% Cold Skill Critical Strike Damage",
+      "+40% Projectile Speed"
+     ]
+    }
+   }
   },
   {
    "name": "Lightning Storm off (-Numbed, -Wilt, -Paralysis)",
@@ -170,7 +236,18 @@
     }
    },
    "measured_before": 9.0,
-   "measured_after": 5.5
+   "measured_after": 5.5,
+   "common": {
+    "set_memory": {
+     "1": [
+      "+110 Intelligence",
+      "+16% Cast Speed",
+      "+18% Minion Critical Strike Damage",
+      "+47% Cold Skill Critical Strike Damage",
+      "+40% Projectile Speed"
+     ]
+    }
+   }
   },
   {
    "name": "Ring R off (arp, frostbite -20 -> no Freeze, Spell Aggression, 81% dmg)",
@@ -186,7 +263,18 @@
     }
    },
    "measured_before": 9.0,
-   "measured_after": 4.45
+   "measured_after": 4.45,
+   "common": {
+    "set_memory": {
+     "1": [
+      "+110 Intelligence",
+      "+16% Cast Speed",
+      "+18% Minion Critical Strike Damage",
+      "+47% Cold Skill Critical Strike Damage",
+      "+40% Projectile Speed"
+     ]
+    }
+   }
   },
   {
    "name": "Belt off (Gale)",
@@ -199,7 +287,18 @@
     ]
    },
    "measured_before": 9.0,
-   "measured_after": 3.3
+   "measured_after": 3.3,
+   "common": {
+    "set_memory": {
+     "1": [
+      "+110 Intelligence",
+      "+16% Cast Speed",
+      "+18% Minion Critical Strike Damage",
+      "+47% Cold Skill Critical Strike Damage",
+      "+40% Projectile Speed"
+     ]
+    }
+   }
   }
  ]
 }

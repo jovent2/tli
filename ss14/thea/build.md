@@ -109,3 +109,11 @@ Tree crit total 315% (Magister/Prophet/Lich 105 each).
 
 ## Kismets (2026-10-27, Vlad's totals)
 - 13 destinies: +152 INT · +14% crit dmg · +20% lightning res · +60% crit strike damage mitigation. Slots: Witch 6 (Spell Dmg I x2, Spell Dmg II, Cast I x2, Cast II positions), Iron Lion 3 (knockback positions), Dreamweaver 4 (Ele Dmg I, Cast I x2, Cast II).
+
+## Skills / memories / followers re-read (2026-10-27 12:38)
+- Chromatic Shot: Spell Tangle, Manifold Entanglement, Lightchaser (Magnificent) T1, Target Projection, Condensed Cold (Noble) T1.
+- Aim [Preparation, Well-Fought Battle, Mass Effect] · SOU [Preparation, Mass Effect, Well-Fought Battle, Resurgence] · Biting Cold [Preparation, Terrain of Malice, Deepened Curse, Increased Area] · **Speed Phantom [Quick Mobility, Weakness Infiltration, Mass Effect]** (Exhaustion out).
+- Auras: Precise Projectiles [AA, Restrain, Increased Area] · Spell Amplification [Restrain, AA, Increased Area] · Domain Expansion [AA, Restrain, CDR] · Frigid Domain [Seal Conversion, AA].
+- Memories: slot 1 **Memory of Origin, revived**: +176 INT only (+60% base stat) + revived affix "Base Trait slots" (the old cast/cold crit dmg/proj speed lines are gone) · slot 2 Discipline +642 ES, 16% cast, 28% minion dmg, 41% spell crit dmg, 40% proj speed · slot 3 Progress lv89: 30% MS, 10% duration, 40% minion crit, 104% spell crit rating, 54% spell crit dmg · base trait slot: Epic Progress lv86 40/40 (cut 58%): 15% cast, 10% minion AS, +2 hero trait level, 18% spell crit dmg, 18% cold crit dmg.
+- Traits: Wisdom of The Gods L4; Predicted Reincarnation, Farewell Prophecy, Prophecy of Purity L3.
+- Followers: Tidewell III [Additional Ignite, Glacial Freeze] · Lightning Storm III [Improved Corrosion, Coercion (Paralysis)] · Swift Shadow Raid III [Periodic Burst, Deep Wounds].

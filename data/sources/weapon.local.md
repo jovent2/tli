@@ -1,0 +1,387 @@
+# weapon.local
+
+392 sources. 
+
+## corrosion base (52)
+
+- **Bow** — +(15–25)% Gear Physical Damage
+- **Claw** — +(15–25)% Gear Physical Damage
+- **Crossbow** — +(15–25)% Gear Physical Damage
+- **Dagger** — +(15–25)% Gear Physical Damage
+- **Fire_Cannon** — +(15–25)% Gear Physical Damage
+- **Musket** — +(15–25)% Gear Physical Damage
+- **One-Handed_Axe** — +(15–25)% Gear Physical Damage
+- **One-Handed_Hammer** — +(15–25)% Gear Physical Damage
+- **One-Handed_Sword** — +(15–25)% Gear Physical Damage
+- **Pistol** — +(15–25)% Gear Physical Damage
+- **Two-Handed_Axe** — +(15–25)% Gear Physical Damage
+- **Two-Handed_Hammer** — +(15–25)% Gear Physical Damage
+- **Two-Handed_Sword** — +(15–25)% Gear Physical Damage
+- **Bow** — Adds (7–10) - (14–17) Physical Damage to the gear
+- **Crossbow** — Adds (7–10) - (14–17) Physical Damage to the gear
+- **Fire_Cannon** — Adds (7–10) - (14–17) Physical Damage to the gear
+- **Musket** — Adds (7–10) - (14–17) Physical Damage to the gear
+- **Two-Handed_Axe** — Adds (7–10) - (14–17) Physical Damage to the gear
+- **Two-Handed_Hammer** — Adds (7–10) - (14–17) Physical Damage to the gear
+- **Two-Handed_Sword** — Adds (7–10) - (14–17) Physical Damage to the gear
+- **Bow** — +(5–8)% gear Attack Speed
+- **Claw** — +(5–8)% gear Attack Speed
+- **Crossbow** — +(5–8)% gear Attack Speed
+- **Dagger** — +(5–8)% gear Attack Speed
+- **Fire_Cannon** — +(5–8)% gear Attack Speed
+- **Musket** — +(5–8)% gear Attack Speed
+- **One-Handed_Axe** — +(5–8)% gear Attack Speed
+- **One-Handed_Hammer** — +(5–8)% gear Attack Speed
+- **One-Handed_Sword** — +(5–8)% gear Attack Speed
+- **Pistol** — +(5–8)% gear Attack Speed
+- **Two-Handed_Axe** — +(5–8)% gear Attack Speed
+- **Two-Handed_Hammer** — +(5–8)% gear Attack Speed
+- **Two-Handed_Sword** — +(5–8)% gear Attack Speed
+- **Bow** — +(3–6)% Attack Critical Strike Rating for this gear
+- **Claw** — +(3–6)% Attack Critical Strike Rating for this gear
+- **Crossbow** — +(3–6)% Attack Critical Strike Rating for this gear
+- **Dagger** — +(3–6)% Attack Critical Strike Rating for this gear
+- **Fire_Cannon** — +(3–6)% Attack Critical Strike Rating for this gear
+- **Musket** — +(3–6)% Attack Critical Strike Rating for this gear
+- **One-Handed_Axe** — +(3–6)% Attack Critical Strike Rating for this gear
+- **One-Handed_Hammer** — +(3–6)% Attack Critical Strike Rating for this gear
+- **One-Handed_Sword** — +(3–6)% Attack Critical Strike Rating for this gear
+- **Pistol** — +(3–6)% Attack Critical Strike Rating for this gear
+- **Two-Handed_Axe** — +(3–6)% Attack Critical Strike Rating for this gear
+- **Two-Handed_Hammer** — +(3–6)% Attack Critical Strike Rating for this gear
+- **Two-Handed_Sword** — +(3–6)% Attack Critical Strike Rating for this gear
+- **Claw** — Adds (2–4) - (8–10) Physical Damage to the gear
+- **Dagger** — Adds (2–4) - (8–10) Physical Damage to the gear
+- **One-Handed_Axe** — Adds (2–4) - (8–10) Physical Damage to the gear
+- **One-Handed_Hammer** — Adds (2–4) - (8–10) Physical Damage to the gear
+- **One-Handed_Sword** — Adds (2–4) - (8–10) Physical Damage to the gear
+- **Pistol** — Adds (2–4) - (8–10) Physical Damage to the gear
+
+## craft (163)
+
+- **Bow prefix (Basic Affix)** — Adds (165–167) - (193–195) Erosion Damage to the gear  · T0: Adds (214–216) - (252–254) Erosion Damage to the gear
+- **Crossbow prefix (Basic Affix)** — Adds (165–167) - (193–195) Erosion Damage to the gear  · T0: Adds (214–216) - (252–254) Erosion Damage to the gear
+- **Cudgel prefix (Basic Affix)** — Adds (165–167) - (193–195) Erosion Damage to the gear  · T0: Adds (214–216) - (252–254) Erosion Damage to the gear
+- **Fire_Cannon prefix (Basic Affix)** — Adds (165–167) - (193–195) Erosion Damage to the gear  · T0: Adds (214–216) - (252–254) Erosion Damage to the gear
+- **Musket prefix (Basic Affix)** — Adds (165–167) - (193–195) Erosion Damage to the gear  · T0: Adds (214–216) - (252–254) Erosion Damage to the gear
+- **Two-Handed_Axe prefix (Basic Affix)** — Adds (165–167) - (193–195) Erosion Damage to the gear  · T0: Adds (214–216) - (252–254) Erosion Damage to the gear
+- **Two-Handed_Hammer prefix (Basic Affix)** — Adds (165–167) - (193–195) Erosion Damage to the gear  · T0: Adds (214–216) - (252–254) Erosion Damage to the gear
+- **Two-Handed_Sword prefix (Basic Affix)** — Adds (165–167) - (193–195) Erosion Damage to the gear  · T0: Adds (214–216) - (252–254) Erosion Damage to the gear
+- **Bow prefix (Basic Affix)** — Adds (154–156) - (204–206) Cold Damage to the gear  · T0: Adds (200–202) - (266–268) Cold Damage to the gear
+- **Crossbow prefix (Basic Affix)** — Adds (154–156) - (204–206) Cold Damage to the gear  · T0: Adds (200–202) - (266–268) Cold Damage to the gear
+- **Cudgel prefix (Basic Affix)** — Adds (154–156) - (204–206) Cold Damage to the gear  · T0: Adds (200–202) - (266–268) Cold Damage to the gear
+- **Fire_Cannon prefix (Basic Affix)** — Adds (154–156) - (204–206) Cold Damage to the gear  · T0: Adds (200–202) - (266–268) Cold Damage to the gear
+- **Musket prefix (Basic Affix)** — Adds (154–156) - (204–206) Cold Damage to the gear  · T0: Adds (200–202) - (266–268) Cold Damage to the gear
+- **Two-Handed_Axe prefix (Basic Affix)** — Adds (154–156) - (204–206) Cold Damage to the gear  · T0: Adds (200–202) - (266–268) Cold Damage to the gear
+- **Two-Handed_Hammer prefix (Basic Affix)** — Adds (154–156) - (204–206) Cold Damage to the gear  · T0: Adds (200–202) - (266–268) Cold Damage to the gear
+- **Two-Handed_Sword prefix (Basic Affix)** — Adds (154–156) - (204–206) Cold Damage to the gear  · T0: Adds (200–202) - (266–268) Cold Damage to the gear
+- **Bow prefix (Basic Affix)** — Adds (152–154) - (197–208) Fire Damage to the gear  · T0: Adds (198–200) - (256–270) Fire Damage to the gear
+- **Crossbow prefix (Basic Affix)** — Adds (152–154) - (197–208) Fire Damage to the gear  · T0: Adds (198–200) - (256–270) Fire Damage to the gear
+- **Cudgel prefix (Basic Affix)** — Adds (152–154) - (197–208) Fire Damage to the gear  · T0: Adds (198–200) - (256–270) Fire Damage to the gear
+- **Fire_Cannon prefix (Basic Affix)** — Adds (152–154) - (197–208) Fire Damage to the gear  · T0: Adds (198–200) - (256–270) Fire Damage to the gear
+- **Musket prefix (Basic Affix)** — Adds (152–154) - (197–208) Fire Damage to the gear  · T0: Adds (198–200) - (256–270) Fire Damage to the gear
+- **Two-Handed_Axe prefix (Basic Affix)** — Adds (152–154) - (197–208) Fire Damage to the gear  · T0: Adds (198–200) - (256–270) Fire Damage to the gear
+- **Two-Handed_Hammer prefix (Basic Affix)** — Adds (152–154) - (197–208) Fire Damage to the gear  · T0: Adds (198–200) - (256–270) Fire Damage to the gear
+- **Two-Handed_Sword prefix (Basic Affix)** — Adds (152–154) - (197–208) Fire Damage to the gear  · T0: Adds (198–200) - (256–270) Fire Damage to the gear
+- **Cane prefix (Basic Affix)** — Adds (133–135) - (157–159) Erosion Damage to the gear  · T0: Adds (174–176) - (204–206) Erosion Damage to the gear
+- **Claw prefix (Basic Affix)** — Adds (133–135) - (157–159) Erosion Damage to the gear  · T0: Adds (174–176) - (204–206) Erosion Damage to the gear
+- **Dagger prefix (Basic Affix)** — Adds (133–135) - (157–159) Erosion Damage to the gear  · T0: Adds (174–176) - (204–206) Erosion Damage to the gear
+- **One-Handed_Axe prefix (Basic Affix)** — Adds (133–135) - (157–159) Erosion Damage to the gear  · T0: Adds (174–176) - (204–206) Erosion Damage to the gear
+- **One-Handed_Hammer prefix (Basic Affix)** — Adds (133–135) - (157–159) Erosion Damage to the gear  · T0: Adds (174–176) - (204–206) Erosion Damage to the gear
+- **One-Handed_Sword prefix (Basic Affix)** — Adds (133–135) - (157–159) Erosion Damage to the gear  · T0: Adds (174–176) - (204–206) Erosion Damage to the gear
+- **Pistol prefix (Basic Affix)** — Adds (133–135) - (157–159) Erosion Damage to the gear  · T0: Adds (174–176) - (204–206) Erosion Damage to the gear
+- **Cane prefix (Basic Affix)** — Adds (125–127) - (165–167) Cold Damage to the gear  · T0: Adds (162–164) - (216–218) Cold Damage to the gear
+- **Claw prefix (Basic Affix)** — Adds (125–127) - (165–167) Cold Damage to the gear  · T0: Adds (162–164) - (216–218) Cold Damage to the gear
+- **Dagger prefix (Basic Affix)** — Adds (125–127) - (165–167) Cold Damage to the gear  · T0: Adds (162–164) - (216–218) Cold Damage to the gear
+- **One-Handed_Axe prefix (Basic Affix)** — Adds (125–127) - (165–167) Cold Damage to the gear  · T0: Adds (162–164) - (216–218) Cold Damage to the gear
+- **One-Handed_Hammer prefix (Basic Affix)** — Adds (125–127) - (165–167) Cold Damage to the gear  · T0: Adds (162–164) - (216–218) Cold Damage to the gear
+- **One-Handed_Sword prefix (Basic Affix)** — Adds (125–127) - (165–167) Cold Damage to the gear  · T0: Adds (162–164) - (216–218) Cold Damage to the gear
+- **Pistol prefix (Basic Affix)** — Adds (125–127) - (165–167) Cold Damage to the gear  · T0: Adds (162–164) - (216–218) Cold Damage to the gear
+- **Cane prefix (Basic Affix)** — Adds (123–125) - (160–169) Fire Damage to the gear  · T0: Adds (161–163) - (208–220) Fire Damage to the gear
+- **Claw prefix (Basic Affix)** — Adds (123–125) - (160–169) Fire Damage to the gear  · T0: Adds (161–163) - (208–220) Fire Damage to the gear
+- **Dagger prefix (Basic Affix)** — Adds (123–125) - (160–169) Fire Damage to the gear  · T0: Adds (161–163) - (208–220) Fire Damage to the gear
+- **One-Handed_Axe prefix (Basic Affix)** — Adds (123–125) - (160–169) Fire Damage to the gear  · T0: Adds (161–163) - (208–220) Fire Damage to the gear
+- **One-Handed_Hammer prefix (Basic Affix)** — Adds (123–125) - (160–169) Fire Damage to the gear  · T0: Adds (161–163) - (208–220) Fire Damage to the gear
+- **One-Handed_Sword prefix (Basic Affix)** — Adds (123–125) - (160–169) Fire Damage to the gear  · T0: Adds (161–163) - (208–220) Fire Damage to the gear
+- **Pistol prefix (Basic Affix)** — Adds (123–125) - (160–169) Fire Damage to the gear  · T0: Adds (161–163) - (208–220) Fire Damage to the gear
+- **Bow prefix (Ultimate Affix)** — Adds (59–61) - (337–339) Elemental Damage to the gear / -100% Gear Physical Damage  · T0: Adds (77–79) - (438–440) Elemental Damage to the gear / -100% Gear Physical Damage
+- **Cane prefix (Ultimate Affix)** — Adds (47–49) - (272–274) Elemental Damage to the gear / -100% Gear Physical Damage  · T0: Adds (62–64) - (356–358) Elemental Damage to the gear / -100% Gear Physical Damage
+- **Claw prefix (Ultimate Affix)** — Adds (47–49) - (272–274) Elemental Damage to the gear / -100% Gear Physical Damage  · T0: Adds (62–64) - (356–358) Elemental Damage to the gear / -100% Gear Physical Damage
+- **Crossbow prefix (Ultimate Affix)** — Adds (59–61) - (337–339) Elemental Damage to the gear / -100% Gear Physical Damage  · T0: Adds (77–79) - (438–440) Elemental Damage to the gear / -100% Gear Physical Damage
+- **Cudgel prefix (Ultimate Affix)** — Adds (59–61) - (337–339) Elemental Damage to the gear / -100% Gear Physical Damage  · T0: Adds (77–79) - (438–440) Elemental Damage to the gear / -100% Gear Physical Damage
+- **Dagger prefix (Ultimate Affix)** — Adds (47–49) - (272–274) Elemental Damage to the gear / -100% Gear Physical Damage  · T0: Adds (62–64) - (356–358) Elemental Damage to the gear / -100% Gear Physical Damage
+- **Fire_Cannon prefix (Ultimate Affix)** — Adds (59–61) - (337–339) Elemental Damage to the gear / -100% Gear Physical Damage  · T0: Adds (77–79) - (438–440) Elemental Damage to the gear / -100% Gear Physical Damage
+- **Musket prefix (Ultimate Affix)** — Adds (59–61) - (337–339) Elemental Damage to the gear / -100% Gear Physical Damage  · T0: Adds (77–79) - (438–440) Elemental Damage to the gear / -100% Gear Physical Damage
+- **One-Handed_Axe prefix (Ultimate Affix)** — Adds (47–49) - (272–274) Elemental Damage to the gear / -100% Gear Physical Damage  · T0: Adds (62–64) - (356–358) Elemental Damage to the gear / -100% Gear Physical Damage
+- **One-Handed_Hammer prefix (Ultimate Affix)** — Adds (47–49) - (272–274) Elemental Damage to the gear / -100% Gear Physical Damage  · T0: Adds (62–64) - (356–358) Elemental Damage to the gear / -100% Gear Physical Damage
+- **One-Handed_Sword prefix (Ultimate Affix)** — Adds (47–49) - (272–274) Elemental Damage to the gear / -100% Gear Physical Damage  · T0: Adds (62–64) - (356–358) Elemental Damage to the gear / -100% Gear Physical Damage
+- **Pistol prefix (Ultimate Affix)** — Adds (47–49) - (272–274) Elemental Damage to the gear / -100% Gear Physical Damage  · T0: Adds (62–64) - (356–358) Elemental Damage to the gear / -100% Gear Physical Damage
+- **Two-Handed_Axe prefix (Ultimate Affix)** — Adds (59–61) - (337–339) Elemental Damage to the gear / -100% Gear Physical Damage  · T0: Adds (77–79) - (438–440) Elemental Damage to the gear / -100% Gear Physical Damage
+- **Two-Handed_Hammer prefix (Ultimate Affix)** — Adds (59–61) - (337–339) Elemental Damage to the gear / -100% Gear Physical Damage  · T0: Adds (77–79) - (438–440) Elemental Damage to the gear / -100% Gear Physical Damage
+- **Two-Handed_Sword prefix (Ultimate Affix)** — Adds (59–61) - (337–339) Elemental Damage to the gear / -100% Gear Physical Damage  · T0: Adds (77–79) - (438–440) Elemental Damage to the gear / -100% Gear Physical Damage
+- **Bow prefix (Ultimate Affix)** — +(77–110)% Gear Physical Damage / Adds (53–55) - (65–67) Physical Damage to the gear  · T0: +(111–145)% Gear Physical Damage / Adds (69–71) - (85–87) Physical Damage to the gear
+- **Crossbow prefix (Ultimate Affix)** — +(77–110)% Gear Physical Damage / Adds (53–55) - (65–67) Physical Damage to the gear  · T0: +(111–145)% Gear Physical Damage / Adds (69–71) - (85–87) Physical Damage to the gear
+- **Cudgel prefix (Ultimate Affix)** — +(77–110)% Gear Physical Damage / Adds (53–55) - (65–67) Physical Damage to the gear  · T0: +(111–145)% Gear Physical Damage / Adds (69–71) - (85–87) Physical Damage to the gear
+- **Fire_Cannon prefix (Ultimate Affix)** — +(77–110)% Gear Physical Damage / Adds (53–55) - (65–67) Physical Damage to the gear  · T0: +(111–145)% Gear Physical Damage / Adds (69–71) - (85–87) Physical Damage to the gear
+- **Musket prefix (Ultimate Affix)** — +(77–110)% Gear Physical Damage / Adds (53–55) - (65–67) Physical Damage to the gear  · T0: +(111–145)% Gear Physical Damage / Adds (69–71) - (85–87) Physical Damage to the gear
+- **Two-Handed_Axe prefix (Ultimate Affix)** — +(77–110)% Gear Physical Damage / Adds (53–55) - (65–67) Physical Damage to the gear  · T0: +(111–145)% Gear Physical Damage / Adds (69–71) - (85–87) Physical Damage to the gear
+- **Two-Handed_Hammer prefix (Ultimate Affix)** — +(77–110)% Gear Physical Damage / Adds (53–55) - (65–67) Physical Damage to the gear  · T0: +(111–145)% Gear Physical Damage / Adds (69–71) - (85–87) Physical Damage to the gear
+- **Two-Handed_Sword prefix (Ultimate Affix)** — +(77–110)% Gear Physical Damage / Adds (53–55) - (65–67) Physical Damage to the gear  · T0: +(111–145)% Gear Physical Damage / Adds (69–71) - (85–87) Physical Damage to the gear
+- **Cane prefix (Advanced Affix)** — +(56–100)% Gear Physical Damage  · T0: +(101–130)% Gear Physical Damage
+- **Claw prefix (Advanced Affix)** — +(56–100)% Gear Physical Damage  · T0: +(101–130)% Gear Physical Damage
+- **Dagger prefix (Advanced Affix)** — +(56–100)% Gear Physical Damage  · T0: +(101–130)% Gear Physical Damage
+- **One-Handed_Axe prefix (Advanced Affix)** — +(56–100)% Gear Physical Damage  · T0: +(101–130)% Gear Physical Damage
+- **One-Handed_Hammer prefix (Advanced Affix)** — +(56–100)% Gear Physical Damage  · T0: +(101–130)% Gear Physical Damage
+- **One-Handed_Sword prefix (Advanced Affix)** — +(56–100)% Gear Physical Damage  · T0: +(101–130)% Gear Physical Damage
+- **Pistol prefix (Advanced Affix)** — +(56–100)% Gear Physical Damage  · T0: +(101–130)% Gear Physical Damage
+- **Bow prefix (Basic Affix)** — Adds (71–73) - (87–89) Physical Damage to the gear  · T0: Adds (93–95) - (113–115) Physical Damage to the gear
+- **Crossbow prefix (Basic Affix)** — Adds (71–73) - (87–89) Physical Damage to the gear  · T0: Adds (93–95) - (113–115) Physical Damage to the gear
+- **Cudgel prefix (Basic Affix)** — Adds (71–73) - (87–89) Physical Damage to the gear  · T0: Adds (93–95) - (113–115) Physical Damage to the gear
+- **Fire_Cannon prefix (Basic Affix)** — Adds (71–73) - (87–89) Physical Damage to the gear  · T0: Adds (93–95) - (113–115) Physical Damage to the gear
+- **Musket prefix (Basic Affix)** — Adds (71–73) - (87–89) Physical Damage to the gear  · T0: Adds (93–95) - (113–115) Physical Damage to the gear
+- **Two-Handed_Axe prefix (Basic Affix)** — Adds (71–73) - (87–89) Physical Damage to the gear  · T0: Adds (93–95) - (113–115) Physical Damage to the gear
+- **Two-Handed_Hammer prefix (Basic Affix)** — Adds (71–73) - (87–89) Physical Damage to the gear  · T0: Adds (93–95) - (113–115) Physical Damage to the gear
+- **Two-Handed_Sword prefix (Basic Affix)** — Adds (71–73) - (87–89) Physical Damage to the gear  · T0: Adds (93–95) - (113–115) Physical Damage to the gear
+- **Bow prefix (Advanced Affix)** — +(49–80)% Gear Physical Damage  · T0: +(81–104)% Gear Physical Damage
+- **Crossbow prefix (Advanced Affix)** — +(49–80)% Gear Physical Damage  · T0: +(81–104)% Gear Physical Damage
+- **Cudgel prefix (Advanced Affix)** — +(49–80)% Gear Physical Damage  · T0: +(81–104)% Gear Physical Damage
+- **Fire_Cannon prefix (Advanced Affix)** — +(49–80)% Gear Physical Damage  · T0: +(81–104)% Gear Physical Damage
+- **Musket prefix (Advanced Affix)** — +(49–80)% Gear Physical Damage  · T0: +(81–104)% Gear Physical Damage
+- **Two-Handed_Axe prefix (Advanced Affix)** — +(49–80)% Gear Physical Damage  · T0: +(81–104)% Gear Physical Damage
+- **Two-Handed_Hammer prefix (Advanced Affix)** — +(49–80)% Gear Physical Damage  · T0: +(81–104)% Gear Physical Damage
+- **Two-Handed_Sword prefix (Advanced Affix)** — +(49–80)% Gear Physical Damage  · T0: +(81–104)% Gear Physical Damage
+- **Bow suffix (Advanced Affix)** — +(36–50)% Attack Critical Strike Rating for this gear  · T0: +(51–65)% Attack Critical Strike Rating for this gear
+- **Cane suffix (Advanced Affix)** — +(36–50)% Attack Critical Strike Rating for this gear  · T0: +(51–64)% Attack Critical Strike Rating for this gear
+- **Claw suffix (Advanced Affix)** — +(36–50)% Attack Critical Strike Rating for this gear  · T0: +(51–64)% Attack Critical Strike Rating for this gear
+- **Crossbow suffix (Advanced Affix)** — +(36–50)% Attack Critical Strike Rating for this gear  · T0: +(51–65)% Attack Critical Strike Rating for this gear
+- **Cudgel suffix (Advanced Affix)** — +(36–50)% Attack Critical Strike Rating for this gear  · T0: +(51–65)% Attack Critical Strike Rating for this gear
+- **Dagger suffix (Advanced Affix)** — +(36–50)% Attack Critical Strike Rating for this gear  · T0: +(51–64)% Attack Critical Strike Rating for this gear
+- **Fire_Cannon suffix (Advanced Affix)** — +(36–50)% Attack Critical Strike Rating for this gear  · T0: +(51–65)% Attack Critical Strike Rating for this gear
+- **Musket suffix (Advanced Affix)** — +(36–50)% Attack Critical Strike Rating for this gear  · T0: +(51–65)% Attack Critical Strike Rating for this gear
+- **One-Handed_Axe suffix (Advanced Affix)** — +(36–50)% Attack Critical Strike Rating for this gear  · T0: +(51–64)% Attack Critical Strike Rating for this gear
+- **One-Handed_Hammer suffix (Advanced Affix)** — +(36–50)% Attack Critical Strike Rating for this gear  · T0: +(51–64)% Attack Critical Strike Rating for this gear
+- **One-Handed_Sword suffix (Advanced Affix)** — +(36–50)% Attack Critical Strike Rating for this gear  · T0: +(51–64)% Attack Critical Strike Rating for this gear
+- **Pistol suffix (Advanced Affix)** — +(36–50)% Attack Critical Strike Rating for this gear  · T0: +(51–64)% Attack Critical Strike Rating for this gear
+- **Two-Handed_Axe suffix (Advanced Affix)** — +(36–50)% Attack Critical Strike Rating for this gear  · T0: +(51–65)% Attack Critical Strike Rating for this gear
+- **Two-Handed_Hammer suffix (Advanced Affix)** — +(36–50)% Attack Critical Strike Rating for this gear  · T0: +(51–65)% Attack Critical Strike Rating for this gear
+- **Two-Handed_Sword suffix (Advanced Affix)** — +(36–50)% Attack Critical Strike Rating for this gear  · T0: +(51–65)% Attack Critical Strike Rating for this gear
+- **Cane prefix (Basic Affix)** — Adds (36–38) - (44–46) Physical Damage to the gear  · T0: Adds (47–49) - (57–59) Physical Damage to the gear
+- **Claw prefix (Basic Affix)** — Adds (36–38) - (44–46) Physical Damage to the gear  · T0: Adds (47–49) - (57–59) Physical Damage to the gear
+- **Dagger prefix (Basic Affix)** — Adds (36–38) - (44–46) Physical Damage to the gear  · T0: Adds (47–49) - (57–59) Physical Damage to the gear
+- **One-Handed_Axe prefix (Basic Affix)** — Adds (36–38) - (44–46) Physical Damage to the gear  · T0: Adds (47–49) - (57–59) Physical Damage to the gear
+- **One-Handed_Hammer prefix (Basic Affix)** — Adds (36–38) - (44–46) Physical Damage to the gear  · T0: Adds (47–49) - (57–59) Physical Damage to the gear
+- **One-Handed_Sword prefix (Basic Affix)** — Adds (36–38) - (44–46) Physical Damage to the gear  · T0: Adds (47–49) - (57–59) Physical Damage to the gear
+- **Pistol prefix (Basic Affix)** — Adds (36–38) - (44–46) Physical Damage to the gear  · T0: Adds (47–49) - (57–59) Physical Damage to the gear
+- **Bow suffix (Basic Affix)** — +(23–32)% gear Attack Speed  · T0: +(33–42)% gear Attack Speed
+- **Cane suffix (Basic Affix)** — +(23–32)% gear Attack Speed  · T0: +(33–41)% gear Attack Speed
+- **Crossbow suffix (Basic Affix)** — +(23–32)% gear Attack Speed  · T0: +(33–42)% gear Attack Speed
+- **Cudgel suffix (Basic Affix)** — +(23–32)% gear Attack Speed  · T0: +(33–42)% gear Attack Speed
+- **Dagger suffix (Basic Affix)** — +(23–32)% gear Attack Speed  · T0: +(33–41)% gear Attack Speed
+- **Fire_Cannon suffix (Basic Affix)** — +(23–32)% gear Attack Speed  · T0: +(33–42)% gear Attack Speed
+- **Musket suffix (Basic Affix)** — +(23–32)% gear Attack Speed  · T0: +(33–42)% gear Attack Speed
+- **One-Handed_Axe suffix (Basic Affix)** — +(23–32)% gear Attack Speed  · T0: +(33–41)% gear Attack Speed
+- **One-Handed_Sword suffix (Basic Affix)** — +(23–32)% gear Attack Speed  · T0: +(33–41)% gear Attack Speed
+- **Pistol suffix (Basic Affix)** — +(23–32)% gear Attack Speed  · T0: +(33–41)% gear Attack Speed
+- **Two-Handed_Axe suffix (Basic Affix)** — +(23–32)% gear Attack Speed  · T0: +(33–42)% gear Attack Speed
+- **Two-Handed_Sword suffix (Basic Affix)** — +(23–32)% gear Attack Speed  · T0: +(33–42)% gear Attack Speed
+- **Bow prefix (Basic Affix)** — Adds (17–19) - (341–343) Lightning Damage to the gear  · T0: Adds (22–24) - (444–446) Lightning Damage to the gear
+- **Crossbow prefix (Basic Affix)** — Adds (17–19) - (341–343) Lightning Damage to the gear  · T0: Adds (22–24) - (444–446) Lightning Damage to the gear
+- **Cudgel prefix (Basic Affix)** — Adds (17–19) - (341–343) Lightning Damage to the gear  · T0: Adds (22–24) - (444–446) Lightning Damage to the gear
+- **Fire_Cannon prefix (Basic Affix)** — Adds (17–19) - (341–343) Lightning Damage to the gear  · T0: Adds (22–24) - (444–446) Lightning Damage to the gear
+- **Musket prefix (Basic Affix)** — Adds (17–19) - (341–343) Lightning Damage to the gear  · T0: Adds (22–24) - (444–446) Lightning Damage to the gear
+- **Two-Handed_Axe prefix (Basic Affix)** — Adds (17–19) - (341–343) Lightning Damage to the gear  · T0: Adds (22–24) - (444–446) Lightning Damage to the gear
+- **Two-Handed_Hammer prefix (Basic Affix)** — Adds (17–19) - (341–343) Lightning Damage to the gear  · T0: Adds (22–24) - (444–446) Lightning Damage to the gear
+- **Two-Handed_Sword prefix (Basic Affix)** — Adds (17–19) - (341–343) Lightning Damage to the gear  · T0: Adds (22–24) - (444–446) Lightning Damage to the gear
+- **Cane prefix (Basic Affix)** — Adds (14–16) - (276–278) Lightning Damage to the gear  · T0: Adds (18–20) - (360–362) Lightning Damage to the gear
+- **Claw prefix (Basic Affix)** — Adds (14–16) - (276–278) Lightning Damage to the gear  · T0: Adds (18–20) - (360–362) Lightning Damage to the gear
+- **Dagger prefix (Basic Affix)** — Adds (14–16) - (276–278) Lightning Damage to the gear  · T0: Adds (18–20) - (360–362) Lightning Damage to the gear
+- **One-Handed_Axe prefix (Basic Affix)** — Adds (14–16) - (276–278) Lightning Damage to the gear  · T0: Adds (18–20) - (360–362) Lightning Damage to the gear
+- **One-Handed_Hammer prefix (Basic Affix)** — Adds (14–16) - (276–278) Lightning Damage to the gear  · T0: Adds (18–20) - (360–362) Lightning Damage to the gear
+- **One-Handed_Sword prefix (Basic Affix)** — Adds (14–16) - (276–278) Lightning Damage to the gear  · T0: Adds (18–20) - (360–362) Lightning Damage to the gear
+- **Pistol prefix (Basic Affix)** — Adds (14–16) - (276–278) Lightning Damage to the gear  · T0: Adds (18–20) - (360–362) Lightning Damage to the gear
+
+## legendary (81)
+
+- **Incorrect Arbitration (A Corner of Divinity)** — +(1000–2000)% Attack Critical Strike Rating for this gear
+- **King Lionheart's Ambition (Musket)** — +(250–300)% Gear Physical Damage
+- **Cursed Flame (Two-Handed_Sword)** — +(250–300)% Gear Physical Damage
+- **Circular Clearing (Two-Handed_Sword)** — +(150–300)% Gear Physical Damage
+- **Highest Glance (Two-Handed_Axe)** — +(180–220)% Gear Physical Damage
+- **Glacial Abyss Arrow (Bow)** — Adds (175–178) - (182–185) Cold Damage to the gear
+- **Frantic Shadow (Dagger)** — Adds (157–167) - (175–185) Physical Damage to the gear
+- **Sun-shooter Long Bow (Bow)** — +(120–200)% Gear Physical Damage
+- **Mountain Howling (Bow)** — +(120–150)% Gear Physical Damage
+- **Twisted Branch (Cane)** — +(120–150)% Gear Physical Damage
+- **Misube's Refusal (One-Handed_Hammer)** — +(120–150)% Gear Physical Damage
+- **Steel Stagnation (One-Handed_Hammer)** — +(120–140)% Gear Physical Damage
+- **Shadow of Thunderlight's Touch (Bow)** — +(100–150)% Gear Physical Damage
+- **Ominous Gift (One-Handed_Axe)** — +(110–130)% Gear Physical Damage
+- **Plain Echo (Crossbow)** — +(100–130)% Gear Physical Damage
+- **Farewell Desire (One-Handed_Sword)** — +(100–130)% Gear Physical Damage
+- **Gravel (Pistol)** — +(100–130)% Gear Physical Damage
+- **Arminius Guillotine (Two-Handed_Axe)** — +(100–125)% Gear Physical Damage
+- **Bow of Endless Dusk (Bow)** — Adds (107–112) - (116–121) Physical Damage to the gear
+- **Harbinger's Reversed Plumes (Two-Handed_Sword)** — -100% Attack Critical Strike Rating for this gear
+- **Fleeting Regret (One-Handed_Sword)** — +(75–120)% Gear Physical Damage
+- **Imploration Dagger (Dagger)** — +(90–100)% Gear Physical Damage
+- **Will (Two-Handed_Sword)** — Adds (88–98) - (110–120) Physical Damage to the gear
+- **Flying Bird (Claw)** — +(75–100)% Gear Physical Damage
+- **Buzzing (Pistol)** — Adds (56–59) - (64–67) Physical Damage to the gear
+- **Twisted Branch (Cane)** — +(40–50)% gear Attack Speed
+- **Steel Stagnation (One-Handed_Hammer)** — Adds (42–45) - (72–75) Physical Damage to the gear
+- **End Night Banquet (One-Handed_Axe)** — +40% gear Attack Speed
+- **Varagon's Attack (Two-Handed_Axe)** — +(30–50)% Gear Physical Damage
+- **Frozen Sight (Pistol)** — Adds (35–39) - (44–49) Cold Damage to the gear
+- **Bow of Endless Dusk (Bow)** — +(30–40)% Attack Critical Strike Rating for this gear
+- **King Lionheart's Ambition (Musket)** — +(30–40)% gear Attack Speed
+- **Buzzing (Pistol)** — +(30–40)% gear Attack Speed
+- **Highest Glance (Two-Handed_Axe)** — +(30–40)% Attack Critical Strike Rating for this gear
+- **Crosser (Two-Handed_Sword)** — +(30–40)% Gear Physical Damage
+- **Scorching Wave (Musket)** — Adds (32–37) - (41–45) Fire Damage to the gear
+- **Circular Clearing (Two-Handed_Sword)** — +(30–35)% Attack Critical Strike Rating for this gear
+- **Mountain Howling (Bow)** — +(25–35)% gear Attack Speed
+- **Dumb Voice (Crossbow)** — +30% Gear Physical Damage
+- **Ominous Gift (One-Handed_Axe)** — Adds (28–32) - (47–53) Physical Damage to the gear
+- **Farewell Desire (One-Handed_Sword)** — +(25–35)% Attack Critical Strike Rating for this gear
+- **Mountain Howling (Bow)** — Adds (26–29) - (32–36) Physical Damage to the gear
+- **Eternal Moon (Claw)** — Adds (25–30) - (40–52) Physical Damage to the gear
+- **Gravel (Pistol)** — +(25–30)% gear Attack Speed
+- **Oathkeeper (One-Handed_Sword)** — Adds (26–28) - (32–34) Cold Damage to the gear
+- **Fleeting Regret (One-Handed_Sword)** — Adds (24–27) - (36–40) Physical Damage to the gear
+- **Oathkeeper (One-Handed_Sword)** — Adds (25–26) - (33–36) Fire Damage to the gear
+- **Shadow of Thunderlight's Touch (Bow)** — +(20–30)% gear Attack Speed
+- **Throat-Slasher (Claw)** — +25% Gear Physical Damage
+- **Thunder Branch (One-Handed_Sword)** — +(20–30)% Attack Critical Strike Rating for this gear
+- **Harbinger's Reversed Plumes (Two-Handed_Sword)** — +(20–30)% gear Attack Speed
+- **Eternal Moon (Claw)** — +(20–25)% gear Attack Speed
+- **Frantic Shadow (Dagger)** — +(15–30)% Attack Critical Strike Rating for this gear
+- **Shamed (Two-Handed_Sword)** — (-30–-15)% Attack Critical Strike Rating for this gear
+- **Throat-Slasher (Claw)** — Adds (21–23) - (25–27) Physical Damage to the gear
+- **Arminius Guillotine (Two-Handed_Axe)** — Adds (20–24) - (30–36) Physical Damage to the gear
+- **Highest Glance (Two-Handed_Axe)** — Adds (19–23) - (27–31) Physical Damage to the gear
+- **Frantic Shadow (Dagger)** — +(14–26)% gear Attack Speed
+- **Farewell Desire (One-Handed_Sword)** — +(15–25)% gear Attack Speed
+- **Shamed (Two-Handed_Sword)** — +(10–30)% Gear Physical Damage
+- **Imploration Dagger (Dagger)** — +(15–20)% gear Attack Speed
+- **Frozen Will (One-Handed_Hammer)** — Adds (15–18) - (24–27) Physical Damage to the gear
+- **Shamed (Two-Handed_Sword)** — Adds (15–18) - (21–24) Physical Damage to the gear
+- **Bow of Endless Dusk (Bow)** — +(14–18)% gear Attack Speed
+- **Shadow of Thunderlight's Touch (Bow)** — Adds (15–17) - (23–25) Physical Damage to the gear
+- **Ralph's Ambition (Crossbow)** — Adds (15–17) - (23–25) Physical Damage to the gear
+- **Cursed Flame (Two-Handed_Sword)** — Adds (13–15) - (17–19) Physical Damage to the gear
+- **Plain Echo (Crossbow)** — +(10–15)% gear Attack Speed
+- **Ralph's Ambition (Crossbow)** — +(10–15)% gear Attack Speed
+- **Frozen Will (One-Handed_Hammer)** — +(10–15)% gear Attack Speed
+- **Frozen Sight (Pistol)** — +(10–15)% gear Attack Speed
+- **Varagon's Attack (Two-Handed_Axe)** — +(10–15)% gear Attack Speed
+- **Oathkeeper (One-Handed_Sword)** — +(11–13)% gear Attack Speed
+- **Dumb Voice (Crossbow)** — +(10–12)% Attack Critical Strike Rating for this gear
+- **Sun-shooter Long Bow (Bow)** — +(8–12)% gear Attack Speed
+- **Sun-shooter Long Bow (Bow)** — +(8–12)% Attack Critical Strike Rating for this gear
+- **Dumb Voice (Crossbow)** — +(8–10)% gear Attack Speed
+- **Scorching Words (One-Handed_Hammer)** — Adds (8–10) - (16–20) Fire Damage to the gear
+- **Oathkeeper (One-Handed_Sword)** — Adds (2–4) - (55–58) Lightning Damage to the gear
+- **Thunder Branch (One-Handed_Sword)** — Adds (1–2) - (90–96) Lightning Damage to the gear
+- **Elemental Whirl (Claw)** — Adds 1 - (150–200) Elemental Damage to the gear
+
+## legendary corroded (80)
+
+- **King Lionheart's Ambition (Musket)** — +(300–400)% Gear Physical Damage
+- **Cursed Flame (Two-Handed_Sword)** — +(300–400)% Gear Physical Damage
+- **Circular Clearing (Two-Handed_Sword)** — +(200–400)% Gear Physical Damage
+- **Highest Glance (Two-Handed_Axe)** — +(270–300)% Gear Physical Damage
+- **Sun-shooter Long Bow (Bow)** — +(220–300)% Gear Physical Damage
+- **Shadow of Thunderlight's Touch (Bow)** — +(200–300)% Gear Physical Damage
+- **Frantic Shadow (Dagger)** — Adds (239–251) - (258–272) Physical Damage to the gear
+- **Bow of Endless Dusk (Bow)** — Adds (207–214) - (219–226) Physical Damage to the gear
+- **Mountain Howling (Bow)** — +(180–240)% Gear Physical Damage
+- **Misube's Refusal (One-Handed_Hammer)** — +(160–250)% Gear Physical Damage
+- **Twisted Branch (Cane)** — +(180–220)% Gear Physical Damage
+- **Plain Echo (Crossbow)** — +(150–200)% Gear Physical Damage
+- **Farewell Desire (One-Handed_Sword)** — +(150–200)% Gear Physical Damage
+- **Gravel (Pistol)** — +(150–200)% Gear Physical Damage
+- **Flying Bird (Claw)** — +(160–180)% Gear Physical Damage
+- **Steel Stagnation (One-Handed_Hammer)** — +(160–180)% Gear Physical Damage
+- **Fleeting Regret (One-Handed_Sword)** — +(150–180)% Gear Physical Damage
+- **Ominous Gift (One-Handed_Axe)** — +(140–160)% Gear Physical Damage
+- **Arminius Guillotine (Two-Handed_Axe)** — +(130–155)% Gear Physical Damage
+- **Imploration Dagger (Dagger)** — +(110–150)% Gear Physical Damage
+- **Will (Two-Handed_Sword)** — Adds (125–130) - (150–160) Physical Damage to the gear
+- **Buzzing (Pistol)** — Adds (88–92) - (99–104) Physical Damage to the gear
+- **Steel Stagnation (One-Handed_Hammer)** — Adds (84–87) - (96–101) Physical Damage to the gear
+- **Crosser (Two-Handed_Sword)** — +(80–90)% Gear Physical Damage
+- **Varagon's Attack (Two-Handed_Axe)** — +(70–80)% Gear Physical Damage
+- **Twisted Branch (Cane)** — +(60–75)% gear Attack Speed
+- **End Night Banquet (One-Handed_Axe)** — +60% gear Attack Speed
+- **Bow of Endless Dusk (Bow)** — +(50–60)% Attack Critical Strike Rating for this gear
+- **Highest Glance (Two-Handed_Axe)** — +(50–60)% Attack Critical Strike Rating for this gear
+- **Scorching Wave (Musket)** — Adds (52–57) - (69–74) Fire Damage to the gear
+- **Frozen Sight (Pistol)** — Adds (52–57) - (69–74) Cold Damage to the gear
+- **Shamed (Two-Handed_Sword)** — +(40–60)% Gear Physical Damage
+- **Frozen Will (One-Handed_Hammer)** — Adds (45–50) - (62–64) Physical Damage to the gear
+- **Farewell Desire (One-Handed_Sword)** — +(45–50)% Attack Critical Strike Rating for this gear
+- **Circular Clearing (Two-Handed_Sword)** — +(45–50)% Attack Critical Strike Rating for this gear
+- **Mountain Howling (Bow)** — +(40–50)% gear Attack Speed
+- **Shadow of Thunderlight's Touch (Bow)** — +(40–50)% gear Attack Speed
+- **Dumb Voice (Crossbow)** — +45% Gear Physical Damage
+- **King Lionheart's Ambition (Musket)** — +(40–50)% gear Attack Speed
+- **Buzzing (Pistol)** — +(40–50)% gear Attack Speed
+- **Ominous Gift (One-Handed_Axe)** — Adds (42–47) - (71–79) Physical Damage to the gear
+- **Gravel (Pistol)** — +(40–45)% gear Attack Speed
+- **Frantic Shadow (Dagger)** — +(35–45)% Attack Critical Strike Rating for this gear
+- **Frozen Will (One-Handed_Hammer)** — +(35–45)% gear Attack Speed
+- **Thunder Branch (One-Handed_Sword)** — +(35–45)% Attack Critical Strike Rating for this gear
+- **Harbinger's Reversed Plumes (Two-Handed_Sword)** — (-50–-30)% Attack Critical Strike Rating for this gear
+- **Harbinger's Reversed Plumes (Two-Handed_Sword)** — +(35–45)% gear Attack Speed
+- **Eternal Moon (Claw)** — Adds (35–40) - (50–62) Physical Damage to the gear
+- **Arminius Guillotine (Two-Handed_Axe)** — Adds (35–40) - (55–60) Physical Damage to the gear
+- **Throat-Slasher (Claw)** — Adds (36–38) - (44–46) Physical Damage to the gear
+- **Ralph's Ambition (Crossbow)** — Adds (35–38) - (42–45) Physical Damage to the gear
+- **Mountain Howling (Bow)** — Adds (34–38) - (41–47) Physical Damage to the gear
+- **Fleeting Regret (One-Handed_Sword)** — Adds (34–37) - (55–60) Physical Damage to the gear
+- **Plain Echo (Crossbow)** — +(30–40)% gear Attack Speed
+- **Oathkeeper (One-Handed_Sword)** — Adds (34–35) - (42–44) Cold Damage to the gear
+- **Frantic Shadow (Dagger)** — +(27–40)% gear Attack Speed
+- **Oathkeeper (One-Handed_Sword)** — Adds (33–34) - (44–46) Fire Damage to the gear
+- **Highest Glance (Two-Handed_Axe)** — Adds (31–35) - (39–46) Physical Damage to the gear
+- **Throat-Slasher (Claw)** — +(30–35)% Gear Physical Damage
+- **Shadow of Thunderlight's Touch (Bow)** — Adds (30–32) - (48–50) Physical Damage to the gear
+- **Eternal Moon (Claw)** — +(26–35)% gear Attack Speed
+- **Farewell Desire (One-Handed_Sword)** — +(25–35)% gear Attack Speed
+- **Imploration Dagger (Dagger)** — +(25–30)% gear Attack Speed
+- **Scorching Words (One-Handed_Hammer)** — Adds (24–30) - (36–42) Fire Damage to the gear
+- **Shamed (Two-Handed_Sword)** — Adds (25–28) - (31–35) Physical Damage to the gear
+- **Bow of Endless Dusk (Bow)** — +(22–27)% gear Attack Speed
+- **Varagon's Attack (Two-Handed_Axe)** — +(20–25)% gear Attack Speed
+- **Glacial Abyss Arrow (Bow)** — Adds (19–24) - (216–221) Lightning Damage to the gear
+- **Cursed Flame (Two-Handed_Sword)** — Adds (19–22) - (27–30) Physical Damage to the gear
+- **Ralph's Ambition (Crossbow)** — +(17–22)% gear Attack Speed
+- **Frozen Sight (Pistol)** — +(16–20)% gear Attack Speed
+- **Dumb Voice (Crossbow)** — +(15–20)% Attack Critical Strike Rating for this gear
+- **Sun-shooter Long Bow (Bow)** — +(15–18)% gear Attack Speed
+- **Sun-shooter Long Bow (Bow)** — +(15–18)% Attack Critical Strike Rating for this gear
+- **Oathkeeper (One-Handed_Sword)** — +(13–16)% gear Attack Speed
+- **Dumb Voice (Crossbow)** — +(12–15)% gear Attack Speed
+- **Oathkeeper (One-Handed_Sword)** — Adds (4–6) - (73–74) Lightning Damage to the gear
+- **Thunder Branch (One-Handed_Sword)** — Adds (1–3) - (136–144) Lightning Damage to the gear
+- **Elemental Whirl (Claw)** — Adds 1 - (230–260) Elemental Damage to the gear
+- **Shamed (Two-Handed_Sword)** — +1% Attack Critical Strike Rating for this gear
+
+## priceless base (16)
+
+- **Bow** — Adds (64–68) - (80–84) Physical Damage to the gear
+- **Crossbow** — Adds (64–68) - (80–84) Physical Damage to the gear
+- **Cudgel** — Adds (64–68) - (80–84) Physical Damage to the gear
+- **Fire_Cannon** — Adds (64–68) - (80–84) Physical Damage to the gear
+- **Musket** — Adds (64–68) - (80–84) Physical Damage to the gear
+- **Two-Handed_Axe** — Adds (64–68) - (80–84) Physical Damage to the gear
+- **Two-Handed_Hammer** — Adds (64–68) - (80–84) Physical Damage to the gear
+- **Two-Handed_Sword** — Adds (64–68) - (80–84) Physical Damage to the gear
+- **Bow** — +(48–64)% Gear Physical Damage
+- **Crossbow** — +(48–64)% Gear Physical Damage
+- **Cudgel** — +(48–64)% Gear Physical Damage
+- **Fire_Cannon** — +(48–64)% Gear Physical Damage
+- **Musket** — +(48–64)% Gear Physical Damage
+- **Two-Handed_Axe** — +(48–64)% Gear Physical Damage
+- **Two-Handed_Hammer** — +(48–64)% Gear Physical Damage
+- **Two-Handed_Sword** — +(48–64)% Gear Physical Damage

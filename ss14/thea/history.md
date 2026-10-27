@@ -31,3 +31,4 @@
 - **2026-10-27 13:46-14:xx** Planned Lich -> Warlock / Phantasmagoria / Lone Walker's (plans.md). Engine: 5T hit cap, Impermanence, Spell Ripple / Dirty Tricks switches, vs-cursed, curse effect, Boon margin. tools/tree_opt added.
 - **2026-10-27 14:10** Phantasmagoria plan corrected (one comp type per prism, Vlad's area anchors): micro prism on Prophet 352_176 tank x1.57 / damage x2.40; medium prism on 608_176 x1.47 / x2.23.
 - **2026-10-27 14:19** Vlad priced the tank plan: LW 26% 15k, Phantasmagoria 4.5k, Pedigree Defensiveness + Impermanence 6k. At 26%: x1.553 (53.5 T), 461 FE/1%; LW first (x1.167, ES 8.1k), then trees + prism (x1.331).
+- **2026-10-27 14:44** Priced the block plan (Lich -> Warlock, Pedigree Defensiveness + OTBT, memories/ring L to block): Vlad's layout 16.5 T, junk-lines-first layout 22.9 T. Found a free tree reshuffle on the current build (x1.134, crit 69 -> 77%, cold pen 4.5%). Engine: res can go below 0 (Vlad).

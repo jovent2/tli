@@ -178,3 +178,19 @@ Vlad's plan: Lich out, Warlock in (Dirty Tricks core), Pedigree -> 2-core Pedigr
 - Vlad 2026-10-27 14:42: in the tank plan the memories get re-rolled to block (every mod -> T0 attack/spell block, 3 attack + 3 spell, to cap block).
   Their damage lines go, so hits drop well under 5T: the cap haircuts above ("after the LW plan") mostly vanish, and the x1.553 for the tank
   package assumed the current memories. Price the block re-roll when Vlad brings it up (parked by him).
+
+## Block plan: Lich -> Warlock, Pedigree Defensiveness + OTBT (3.5k), memories + ring L to block (priced 2026-10-27 14:44)
+- Free find first: **tree reshuffle on the CURRENT build (Lich kept) x1.134** (`plan_trees_reshuffle_now.json`): GoK +18% dmg 1->3, +20% spell crit 0->3,
+  +15% spell crit 0->1, +9% spell 3->1, +9% dmg 3->1; Magister +20% spell crit 1->3, Focus-on-Spell-Burst 1->0 (dead), +8 INT 3->1, Focus dur 3->2;
+  Prophet 1.5% cold pen 0->3 (pen goes negative), +15% crit 3->2, +2 max frostbite 3->1 (108.7 -> 104.7, still Frozen). Crit 69 -> 77%.
+- B1 = Lich -> Warlock (24, same as the tank plan) + 9 spare reshuffled, Pedigree Defensiveness + OTBT, Spell Ripple kept (`plan_trees_warlock_otbt.json`):
+  **x0.961 (33.1 T)**; mana 97.4% sealed (Restrain 14% at support lv28) fits; Boon margin 0.93 (parked); Mass Effect 2 charges; Chromatic lv39.
+- Memory lines read as fixed (cast / duration / minion) vs random (crit dmg, crit rating, proj speed), from the tlidb pools. Block T0: random 25-31, fixed 15-21,
+  trait slot x0.42 (-58%); ring "Attack and Spell Block" is an Advanced prefix (T1 12-15, T0 16-20) = the INT line's group (64% damage is Basic).
+- Line values on B1: 40% proj speed x1.11 each (feeds additional proj dmg) · 54% spell crit dmg x1.11 · 47% cold crit x1.097 · 104% spell crit rating x1.095 ·
+  26% cast x1.086 · 41% spell crit x1.083 · 16% cast x1.051 · ring INT x1.080 / 64% dmg x1.076 · trait 18% crit lines x1.035 each · minion lines and duration x1.000.
+- Vlad's version (6 random -> block, ring -> block): x0.499 on B1 -> **x0.480 (16.5 T)**.
+- Best (max rolls, fixed slots can roll block): attack = 3 minion lines (21 each) + trait minion AS (8.8) + Discipline 16% cast (21) + ring 15 = 107.8;
+  spell = Discipline 41% spell crit dmg (31) + Progress 104% crit rating (31) + trait 18% spell + 18% cold crit (13 each) + ring 15 = 103.
+  Keeps both 40% proj speed, 26% cast, 47% cold crit, 54% spell crit dmg, 10% duration. x0.690 on B1 -> **x0.664 (22.9 T)**.
+  Average rolls (28/18, ring 13.5): best x0.633 -> 21.0 T; ring T0 18: 21.8 T. Orange memory + ring untouched: 104/104 -> 21.7 T.

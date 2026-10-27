@@ -100,7 +100,7 @@ DPS = Base
 - **Pantheon's Elegy dirges** [Vlad]: Goddess of Hunting = Precise: Swiftness gains +120% attack and cast speed (scales with aura effect); Steel Vanguard = lv20 Swiftness Dew and Resistance Dew.
 
 ### Empower effect [tested 2026-10-27]
-- SOU cast-speed test (Vlad, 10 Focus): both supports out 231, Well-Fought Battle x3 only 240 (229 -> 233 -> 236 -> 240), Mass Effect only 247, both 256. SOU's 24% cast (3% x 8 Focus) scales x1.375 (WFB x3), x1.667 (ME), x2.04 (both). **Mass Effect is at full +67.5% (3 charges); empower effect 2.04 = model.**
+- SOU cast-speed test (Vlad, 10 Focus, 4 Agility): no SOU 207, both supports out 231, Well-Fought Battle only: casts 1/2/3/4 = 234/237/240/240 (+12.5% effect per cast, 3 stacks), Mass Effect only 247, both 256. SOU's 24% cast (3% x 8 Focus) scales x1.375 (WFB x3), x1.667 (ME), x2.04 (both). **Mass Effect is at full +67.5% (3 charges); empower effect 2.04 = model.**
 - Follower (Tartarus) Periodic Burst = +20% atk/cast speed [Vlad] (the player support's text is +30% for 2 s — different skill).
 - Weakness Infiltration on Speed Phantom: +30% Infiltration Effect taken -> Tartarus Cold Infiltration 13% -> 16.9% while Speed Phantom hits (modeled).
 - Absolute pulls (belt off + Ring L off): full 9.4 vs model 12.70 (+35%); standing still (no Speed Phantom) 6.8 vs 8.55 (+26%); Speed Phantom share x1.382 vs x1.485. Ratio tests are within ~5%, so the absolute scale is off by one constant (enemy res/armor, the fitted projectile factor 2.44, or tangles). Open.

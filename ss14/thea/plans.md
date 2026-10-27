@@ -98,10 +98,12 @@ All multipliers on the sheet in `stats.json` unless dated. FE per 1% = expected 
 
 ## Lone Walker's Boots (priced 2026-10-27, from the build)
 - tlidb: +1615 evasion · granted random Lv20 Precise bonus-damage aura (want: Precise Spell Amplification) · +50% MS · +(15-30)% aura effect at 4-5+ auras · +2% aura effect per +3% Sealed Mana Compensation.
-- **Global Sealed Mana Compensation in the build = 0** (Restrain's is local to its aura; the 18% on the sheet is sealed mana). So LW = its roll only. Every +3% global compensation would add +2% aura effect (Lich comp nodes, prism "+2% comp per medium in area").
-- Costs from the build: Hasten (x1.08 additional cast + 7% cast). Crit mitigation 118% now (cap 100) -> 60% without boots -> one medium fate (-27 INT). Fire res 61% now (boots 22 + rings 12/27, cap 60) -> 39% -> +21% needed = 1 medium + 2 micro fire fates or 2 mediums (-54 INT). Total -81 INT.
-- ES (build): gear items 1,904 (helmet 347, chest 508, gloves 469, boots 720 per Vlad) + flat 1,293 (belt, rings, Discipline) x (1 + 126.4%: trees 90, slate 9.2, INT 0.05%/pt 27.2) ~7,550. Boots' 720 = ~1,630 on the sheet.
-- Results (roll 15 / 27 / 30%):
-  - Freed slot = Precise Energy Fortress (lv25: +346 ES, +19.3% additional, x1.39 aura effect -> +482 ES, +26.9%): x0.92 / **x1.04** / x1.07 damage, ES ~7.55k -> ~8.74k (+16%).
-  - Freed slot = Weapon Amp: x1.32 / **x1.54** / x1.60, ES ~5.82k (-23%). Precise WA: x1.38 / x1.60 / x1.67.
-- Need: LW price and roll.
+- Compensation 18% (Vlad: from the prism): Spell Ripple prism gives +2% comp to the mediums in its area, 3 mediums x 3 ranks = 18% -> +12% aura effect. Not in build.json yet (prism lines missing; add them).
+- Costs: Hasten (x1.08 additional cast + 7% cast). Crit mitigation 118% now (58 boots + 60 Fluffy Ball) -> a second Fluffy Ball (medium 40-60%) in place of a medium INT (~25). Fire res 61% (boots 22 + rings 12/27) -> 39%; +21 needed; fire fates 5-7 / 10-14 = 2.25 INT per 1% -> ~50 INT. Total ~-77 INT.
+- ES (build): flat 3,337 (helmet 347, chest 508, gloves 469, boots 720, belt 220, rings 431, Discipline 642) x (1 + trees 90% + slate 9.24% + INT 0.05%/pt 27.2%) ~7.55k.
+- Precise Energy Fortress lv25: +346 ES, +19.3% additional, x aura effect (AA 12.25 + boots 39 at a 27% roll = x1.51) -> +524 ES, +29% additional.
+- Results at -77 INT (roll 15 / 27 / 30%):
+  - EF in Spell Amp's slot: x1.05 / **x1.18** / x1.21 damage, ES ~8.75k / 9.03k / 9.10k (+16-20%).
+  - Precise WA in Spell Amp's slot + EF in DE's slot: x1.08 / **x1.21** / x1.25, same ES (loses DE's area at 8+ enemies).
+  - Precise WA, no EF: x1.61 / **x1.87** / x1.95, ES ~5.82k (-23%).
+- Need: LW price for a Spell Amp + ~27% roll.

@@ -20,7 +20,9 @@
   "slates_on_line": 3,
   "mass_effect_charges": 3,
   "periodic_burst": 20,
-  "_mass_effect_note": "2026-10-27 13:07 sheet test (10 Focus, 4 Agility): no SOU 207, SOU bare 231 (+24), WFB 1/2/3 casts 234/237/240 (+12.5%/stack), ME only 247 (+66.7% = full, 3 charges), both 256 (x2.04). Mass Effect is full. Periodic Burst (follower Tartarus version) = +20."
+  "_mass_effect_note": "2026-10-27 13:07 sheet test (10 Focus, 4 Agility): no SOU 207, SOU bare 231 (+24), WFB 1/2/3 casts 234/237/240 (+12.5%/stack), ME only 247 (+66.7% = full, 3 charges), both 256 (x2.04). Mass Effect is full. Periodic Burst (follower Tartarus version) = +20.",
+  "dummy_scale": 0.767,
+  "_dummy_scale_note": "Geometric mean of 9.4/12.70 (full) and 6.8/8.55 (standing still), belt off + Ring L off, 2026-10-27. Absolute T only; ratios unaffected except pen/arp, whose value depends on what the constant really is (enemy res vs armor)."
  },
  "hero": {
   "name": "Thea",

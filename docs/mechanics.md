@@ -106,5 +106,5 @@ DPS = Base
 - Absolute pulls (belt off + Ring L off): full 9.4 vs model 12.70 (+35%); standing still (no Speed Phantom) 6.8 vs 8.55 (+26%); Speed Phantom share x1.382 vs x1.485. Ratio tests are within ~5%, so the absolute scale is off by one constant (enemy res/armor, the fitted projectile factor 2.44, or tangles). Open.
 
 ### Dummy calibration constant [fitted 2026-10-27]
-- Sheet = model on every stat, ratio tests within ~5%, but absolute pulls were +35% (full) / +26% (standing still). Vlad doesn't want more toggle pulls, so the engine carries one fitted enemy-side constant `dummy_scale` = 0.767.
-- Likely real cause: the dummy's resistance or armor (model assumes 30% ele res, armor at the 50% cap x 60% vs non-physical). If it's res (~50% instead of 30%), pen is worth ~1.3% per point instead of ~1.05%; if it's armor, arp is worth more. Treat pen/arp prices as +-25% until settled.
+- Sheet = model on every stat, ratio tests within ~5%, absolute pulls were +35% (full) / +26% (standing still). Engine carries one fitted constant `dummy_scale` = 0.767.
+- Vlad: res and armor are right; the gap is Chromatic shots flying off ("bolts into narnia"), i.e. a hit-rate constant. It scales everything equally, so it changes no upgrade price (pen/arp included).

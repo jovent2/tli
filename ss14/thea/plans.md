@@ -86,3 +86,10 @@ All multipliers on the sheet in `stats.json` unless dated. FE per 1% = expected 
 - Speed Phantom now has **Mass Effect** (Exhaustion was +17% for Speed Phantom's own hits only, dead for Chromatic). Engine still models Euphoria as 8 stacks x 3.25% without ME. Unknowns: Euphoria stacks on a single dummy (1 per enemy hit per Remnant), and ME charges (ME +1, Fallen Starlight +1 max charges, Lich +1). Test: belt off + Ring L off, no Speed Phantom casts.
 - Periodic Burst (tlidb now): +30% atk/cast speed for 2 s after a mobility skill, a stack every 6 s. Engine uses a permanent +20 cast speed.
 - Memory Revival (tlidb): revival adds a revived affix (Young Moon), raises base stats (Wax and Wane) or fixed affix tiers (Rising Moon); only 1 revived memory can be installed. Vlad's revived Origin shows no other affixes; INT 543 and the 9.4 T pull both fit that.
+
+## Auras: Precise versions, Weapon Amp, Stand as One (priced 2026-10-27, boss/dummy)
+- Prices (Vlad): Precise Frigid Domain 270 · Precise Spell Amplification 475 · Precise Precise Projectiles 950 · Precise Domain Expansion 470 · Precise Weapon Amplification 138 · Precise: Stand as One 2,450 each (one per aura).
+- Precise = +5 points of additional at the same level (x AA 12.25%): Frigid x1.038 (70 FE/1%) · Spell Amp x1.039 (123) · Precise Proj x1.039 (241) · Domain Expansion x1.000 on bosses (its extra is +4% additional area at 5+ enemies: x1.03 in packs).
+- **Precise Weapon Amp in Domain Expansion's place: x1.072 for 138 FE (~19 FE/1%)**, if additional physical damage applies to the converted hit (Vlad plans around it). Plain WA x1.032. Loses DE's +20% area at 8+ enemies (clear).
+- Stand as One: +6.9% aura effect per aura affecting you (lv29) x 4 = +27.6% on the supported aura. x1.071-1.081 each (300-350 FE/1%); all four x1.35 for 9,800 FE. Goes in the filler slot (Increased Area on Precise Proj / Spell Amp, CDR on DE; Frigid shows an open slot).
+- Order: Precise WA swap -> Precise Frigid -> Precise Spell Amp -> Precise Proj -> Stand as One. First four together x1.20 for ~1,830 FE (~92 FE/1%).

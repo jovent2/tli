@@ -24,3 +24,4 @@
 - **2026-10-27 13:03** SOU cast-speed test confirms Mass Effect at full (empower 2.04). Reverted to 3 charges and follower Periodic Burst +20. Absolute scale still +26..35% high — one constant, open.
 - **2026-10-27 13:07** Vlad's SOU cast-speed test proves Mass Effect is full (3 charges) and WFB +12.5%/cast; Periodic Burst back to +20 (follower version). Model back to +35% / +26% on the two pulls; next: aura/empower toggle pulls, Precise first.
 - **2026-10-27 13:10** Double is 193% (77 + 20 Tidewell + 96 Farewell): uncapped since the old Nether King's +11% double left; reaching 200 = x1.036. Fitted dummy_scale 0.767 for absolute T (Vlad: no more toggle tests). Model with belt now 34.44 T.
+- **2026-10-27 13:15** dummy_scale = shot hit rate (Vlad: res/armor right). Priced Precise auras, Weapon Amp swap and Stand as One (plans.md).

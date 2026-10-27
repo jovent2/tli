@@ -301,3 +301,6 @@ ES nodes free, EHP = ES vs elemental hits (res x0.40, block 55% x0.45, Low Mana 
   26.3 T; only if Gale isn't on the CDR belt yet. Lighter: L1+W+M only (26.9 T / 45.0k, `plan_trees_block_lich_mid.json`). Max DPS at block cap: 33.7 T / 27.0k (`_dps.json`).
 - Ring L replaced by a priceless INT ring (2B/2A/2U): best = block 20 + 26% ele/erosion pen + 22% armor pen | lightning 35 + 156% crit + 78% crit dmg -> **39.6 T at 47k EHP**
   on the TANK tree (pen goes negative; loses the ring's 323 ES). Ring Ultimate pool also has "+1 Max Focus / +5% additional" and "+30% additional vs Frozen". Price unknown.
+- **Belt base decided (Vlad 21:19): Has Hasten.** With Hasten on the belt the boots' "Has Hasten" suffix rolls to +60% Critical Strike Damage (Advanced suffix, T1 max;
+  T0 61-78): TANK-1 23.4 -> **26.6 T (x1.136)**, T0 78% -> 27.5 T (x1.177). Aura-effect base was x1.089. After LW the belt keeps Hasten (x1.08 cast + 8% additional MS).
+  Boon margin back to today's 1.03 (Lich CDR, no belt CDR). Gale not on any belt yet.

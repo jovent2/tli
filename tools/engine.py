@@ -172,7 +172,7 @@ def sheet(build, trees):
     # buffs that show on the sheet while hitting the dummy
     aim_lv = sh["level_empower"]
     sou_cast = skill_value("Secret_Origin_Unleash", aim_lv, r"\+?([\d.]+)% Cast Speed for every stack") * min(4 + t["focus.max"], 8)
-    sh["empower_effect"] = empower_effect(sh)
+    sh["empower_effect"] = empower_effect(sh, ctx.get("mass_effect_charges", 3))
     dis = set(ctx.get("disabled", []))
     if "Secret Origin Unleash" in dis:
         sou_cast = 0
@@ -209,11 +209,18 @@ def aura_amp(sh):
     return skill_value("Aura_Amplification", sh["level_support_plain"], r"([\d.]+)% Aura effect")
 
 
-def empower_effect(sh):
+def mass_effect(sh, charges=3):
+    # "+X% effect for the supported skill for every +1 Charge, up to +3X%" — charges = extra max charges the skill has
+    lv = sh["level_support_plain"]
+    per = skill_value("Mass_Effect", lv, r"([\d.]+)% effect for the supported skill for every")
+    cap = skill_value("Mass_Effect", lv, r"up to ([\d.]+)%")
+    return min(cap, per * charges)
+
+
+def empower_effect(sh, charges=3):
     lv = sh["level_support_plain"]
     wfb = skill_value("Well-Fought_Battle", lv, r"([\d.]+)% Effect every time") * 3
-    me = skill_value("Mass_Effect", lv, r"up to ([\d.]+)%")
-    return 1 + (wfb + me) / 100
+    return 1 + (wfb + mass_effect(sh, charges)) / 100
 
 
 # --------------------------------------------------------------------------- DPS
@@ -272,7 +279,7 @@ def dps(build, trees, verbose=False):
     m["Secret Origin Unleash"] = 1 + skill_value("Secret_Origin_Unleash", sh["level_empower"], r"([\d.]+)% additional Spell Damage") * ee / 100
     # Euphoria: 8 stacks in the best 1 s window; Mass Effect on Speed Phantom scales it (+3 charges: ME, Fallen Starlight, Lich -> full 'up to')
     sp_me = any(x.startswith("Speed Phantom") and "Mass Effect" in x for x in build.get("skills", {}).get("others", []))
-    sp_eff = 1 + (skill_value("Mass_Effect", sh["level_support_plain"], r"up to ([\d.]+)%") / 100 if sp_me else 0)
+    sp_eff = 1 + (mass_effect(sh, ctx.get("mass_effect_charges", 3)) / 100 if sp_me else 0)
     m["Speed Phantom Euphoria"] = 1 + skill_value("Speed_Phantom", sh["level_speed_phantom"], r"([\d.]+)% additional Spell Damage, up to") * 8 * sp_eff / 100
     m["Spell Aggression"] = 1.07 if ctx["spell_aggression"] else 1.0
     if t.get("special.judgment_slate_bonus"):
@@ -287,7 +294,9 @@ def dps(build, trees, verbose=False):
     e["Frostbite"] = 1 + sh["frostbite_rating"] * (1 + sh["frostbite_effect"] / 100) / 100
     e["Biting Cold"] = 1 + skill_value("Biting_Cold", sh["level_biting_cold"], r"\+?([\d.]+)% additional Cold Damage taken") / 100
     e["Deepened Curse"] = 1 + skill_value("Deepened_Curse", sh["level_support_plain"], r"([\d.]+)% additional damage") / 100
-    e["Cold Infiltration (Tartarus)"] = 1.13
+    # Weakness Infiltration on Speed Phantom: +30% Infiltration Effect taken for 4 s when it deals damage
+    sp_wi = any(x.startswith("Speed Phantom") and "Weakness Infiltration" in x for x in build.get("skills", {}).get("others", []))
+    e["Cold Infiltration (Tartarus)"] = 1 + 0.13 * (1.3 if sp_wi and "Speed Phantom" not in ctx.get("disabled", []) else 1.0)
     e["Paralysis"] = 1.15 if ls else 1.0
     e["Frail"] = 1.15 if t.get("enemy.frail") else 1.0
     e["Resistance"] = 1 - max(0.0, 30 - sh["res_pen"]) / 100

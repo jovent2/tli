@@ -67,6 +67,7 @@ DPS = Base
 ### Enemy side
 - **Frostbite** [tlidb]: base rating 10; each rating point = +1% additional cold taken; Frostbite Effect scales that per-point bonus → factor 1 + rating × (1 + effect%)/100. **Frozen above 100 rating. Max Frostbite Rating is capped at 120** — any max-frostbite source past 120 is wasted. Frozen non-legendary bosses get Frost-Sealed 1 s every 3 s.
 - **Freeze** counts as its own ailment type for Dirty Tricks.
+- Additional Ignite / Improved Corrosion (lit, T1) add 1-1 base Ignite / Wilt damage, so a cold Tidewell ignites and a lightning Storm wilts [Vlad]. Dirty Tricks counts 6 on the dummy.
 - **Dirty Tricks** [tlidb]: +12% additional hit damage (multiplies) per ailment type on the enemy. Ailments: Ignite, Frostbite, Freeze, Shock, Numbed, Trauma, Wilt. Frail/Weaken/Slow/Curse/Paralysis are NOT ailments.
 - **Mark / Enhanced Mark** [tlidb]: Mark = −20% evasion, +10% additional crit damage taken. Enhanced Mark = +15% additional projectile damage taken for 3 s, counts as Mark (so also the +10% crit taken).
 - **Target Projection** [tlidb]: inflicts Enhanced Mark on hit AND "the supported skill deals +X% additional damage to Marked enemies" (lv20 14.5%, lv29 16.6%, lv36 18%). On paper ×1.166 × 1.15 × 1.095 = ×1.47 at lv29. **[tested] it measured ~×1.25** (9.9 T replacing Lightchaser, which is worth ×1.14) — one part is not applying in game; unresolved which.
@@ -97,3 +98,9 @@ DPS = Base
 - **Hero memories**: a Base Trait slot takes an Epic-or-lower Progress memory at −58% base stats and random affixes (numbers shown in game are already cut).
 - **Kismets (Destinies)**: installed into pact-page minor nodes, replacing their effect.
 - **Pantheon's Elegy dirges** [Vlad]: Goddess of Hunting = Precise: Swiftness gains +120% attack and cast speed (scales with aura effect); Steel Vanguard = lv20 Swiftness Dew and Resistance Dew.
+
+### Mass Effect charges (open, 2026-10-27)
+- Mass Effect: "+22.5% effect for the supported skill for every +1 Charge, up to +67.5%" (lv29). Vlad: 3 charges (ME, Fallen Starlight, Lich) -> full.
+- Pulls (belt off + Ring L off): full 9.4, standing still 6.8. Model at 3 charges: 12.70 / 8.07 (+35% / +19%). At 1 charge: 9.61 / 6.63 (+2% / -2.5%).
+- But the sheet's 256 cast speed fits SOU at full effect (1 charge -> 245). Decider: buff tooltips in the fight — Aim +78.1% (3) vs +60.9% (1); SOU +37.2% / 6.13% cast per Focus vs +29.0% / 4.78%; Euphoria 5.44% vs 3.98% per stack.
+- Weakness Infiltration on Speed Phantom: +30% Infiltration Effect taken -> Tartarus Cold Infiltration 13% -> 16.9% while Speed Phantom hits (modeled).

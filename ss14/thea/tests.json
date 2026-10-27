@@ -14,6 +14,22 @@
    "measured": 9.4
   },
   {
+   "name": "Standing still (no Speed Phantom, no Swift Shadow Raid), belt off + Ring L off",
+   "era": "2026-10-27 12:54",
+   "group": "absolute",
+   "after": {
+    "remove": [
+     "gear:belt",
+     "gear:ring_l"
+    ],
+    "disable": [
+     "Speed Phantom",
+     "Swift Shadow Raid"
+    ]
+   },
+   "measured": 6.8
+  },
+  {
    "name": "Purity off (belt off, before trait memory)",
    "era": "2026-10-26 12:4x",
    "group": "current",

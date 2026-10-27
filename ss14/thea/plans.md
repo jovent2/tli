@@ -169,4 +169,7 @@ Vlad's plan: Lich out, Warlock in (Dirty Tricks core), Pedigree -> 2-core Pedigr
   (read: its -50% crit rating is the additive kind, 754 -> 704%) · +35% / -10% cast x1.160 / x1.058 · +1 Focus +1 Agility x1.128 / x1.083.
   Pairs: Overload + Control Spell x1.482 / x1.242 · Overload + 35% x1.418 / x1.173 · Overload + Focus x1.378 / x1.227.
   Dead: Spell Burst +25% (no Spell Burst), 200-220 cold (needs 800 INT, have 543), +120% Spell Amp (-20% its compensation; doesn't fit at 97% sealed).
-- Need from Vlad: In-Depth R&D cost (Expansion Mod - Warlock price, mods per try) and chip odds.
+- Vlad: pen can go negative -> 8% Cold pen is the best Intermediate for S: x1.036 (8% spell x1.031, ARP x1.027); after the LW plan x1.014.
+- In-Depth R&D 640 FE/try. Chasing one code: Overload ~17.2k FE (3.7%/try, x1.261 -> 659 FE/1%), Control Spell ~22.6k.
+  Taking the first useful hit (Overload/Control/+35%/Focus): 12.9%/try, ~4.9k FE to a hit, avg +17.8% -> **278 FE/1% now, 485 after the LW plan**
+  (220 / 380 if an offer never repeats a number).

@@ -361,7 +361,7 @@ def dps(build, trees, verbose=False):
     e["Cold Infiltration (Tartarus)"] = 1 + 0.13 * (1.3 if sp_wi and "Speed Phantom" not in ctx.get("disabled", []) else 1.0)
     e["Paralysis"] = 1.15 if ls else 1.0
     e["Frail"] = 1.15 if t.get("enemy.frail") else 1.0
-    e["Resistance"] = 1 - max(0.0, 30 - sh["res_pen"]) / 100
+    e["Resistance"] = 1 - (30 - sh["res_pen"]) / 100   # pen can take res below 0 [Vlad 2026-10-27]
     e["Armor (50% x 60% - pen)"] = 1 - max(0.0, 0.5 * 0.6 - sh["armor_pen"] / 100)
     # One fitted constant for the dummy: ratio tests are within ~5%, the absolute T scale was 26-35% high (2026-10-27).
     # Most likely the dummy's real res/armor; keep it separate so pen/arp pricing can be re-checked against it.

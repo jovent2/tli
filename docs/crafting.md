@@ -50,4 +50,8 @@ Expected cost to hit = cost / odds. Price per 1% = expected cost / (gain − 1) 
 - Wand Advanced: Lv20 Overload (5|5|6|6) · Lv25 Control Spell (2|2|2|4) · +35% additional dmg / -10% additional cast (4|4|5|6) ·
   +1 Focus +1 Agility -1 Tenacity (2|3|5|6) · +120% Spell Amp aura / -20% its compensation (3|3|6|7) · +25% Spell Burst hit (1|3|5|7) ·
   200-220 cold at 800 INT (1|1|1|5) · True-damage explode (1|4|5|7).
-- Unknown: In-Depth cost, chip offer odds, whether a failed R&D keeps the old sequence (ask Vlad).
+- In-Depth R&D [Vlad 2026-10-27]: **640 FE per try**. Chips are numbers 1-7; 4 picks, the 1st from 4 offered, then 2, 2, 2 (you don't see later offers).
+- Odds with optimal picks (`tools/tower_rnd.py`; iid offers / no repeats within an offer): Overload 3.7% / 5.3% · Control Spell 2.8% / 4.2% ·
+  +35% 6.2% / 8.6% · Spell Amp 6.2% / 8.6% · Focus/Agility 8.5% / 10.7% · any useful (Overload/Control/+35%/Focus) 12.9% / 16.0%.
+- Pick rule for "any useful": 1st 5 or 6 (else 2 > 4 > 3, never 1/7); then the other of 5/6 (else 4); then 5 or 6 (else 4, else 2/3); last one completes.
+- Unknown: whether a failed R&D keeps the old sequence (assumed yes), whether a success can be declined, Basic R&D cost/pick structure.

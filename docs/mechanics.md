@@ -71,7 +71,7 @@ DPS = Base
 - **Dirty Tricks** [tlidb]: +12% additional hit damage (multiplies) per ailment type on the enemy. Ailments: Ignite, Frostbite, Freeze, Shock, Numbed, Trauma, Wilt. Frail/Weaken/Slow/Curse/Paralysis are NOT ailments.
 - **Mark / Enhanced Mark** [tlidb]: Mark = −20% evasion, +10% additional crit damage taken. Enhanced Mark = +15% additional projectile damage taken for 3 s, counts as Mark (so also the +10% crit taken).
 - **Target Projection** [tlidb]: inflicts Enhanced Mark on hit AND "the supported skill deals +X% additional damage to Marked enemies" (lv20 14.5%, lv29 16.6%, lv36 18%). On paper ×1.166 × 1.15 × 1.095 = ×1.47 at lv29. **[tested] it measured ~×1.25** (9.9 T replacing Lightchaser, which is worth ×1.14) — one part is not applying in game; unresolved which.
-- **Resistance**: bosses 30% all res [Vlad]; penetration subtracts. Engine floors res at 0 (24.8 pen -> 5.2% left); tlidb's Resistance Penetration help doesn't say whether it can go negative (the ARP help does). **[open]**
+- **Resistance**: bosses 30% all res [Vlad]; penetration subtracts. **Penetration can take res below 0** [Vlad 2026-10-27] (tlidb's help only says so for ARP). 24.8 pen -> 5.2% left now.
 - **Armor** [tlidb]: monster reduction = Armor / (0.9 × Armor + 30000), monster armor up to 27,273 → **50%** max. Only **60%** of armor reduction applies to non-physical damage → 30% vs a cold hit. Armor DMG Mitigation Penetration subtracts from that reduction and **can take it below 0** (extra damage taken) [tlidb Armor DMG Mitigation Penetration help] (10% pen → ×0.80). Vlad: use the 60% rule. **[model]** whether pen comes off before or after the 60%.
 
 ### Hit cap [Vlad]

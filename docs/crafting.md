@@ -35,4 +35,7 @@ Expected cost to hit = cost / odds. Price per 1% = expected cost / (gain − 1) 
 - **Overwrite** re-rolls micro/medium nodes. **Legendary nodes and New God nodes can't be overwritten.**
 - **Restore** (Unifying Wedge, ~16 FE each) wipes ALL brands. Wedges per restore escalate 1, 1, 2, 4, 8, 16 — nobody restores at 16.
 - Branded slates (and restored ones) become untradeable.
+- Restores are the scarce resource: 1 + 6 tries per slate. A legendary miss in a slot can only be undone by a restore, which also wipes the hits in the other slots, so brand the slot that sets the floor first (e.g. a Focus node), and overwrite purple mediums last.
+- Pact pricing rule: one pact try = p(target) x gain(target). FE per 1% = (14 + pact + restore before the try) / (p x gain%). Random wedges only win when pacts cost more than ~2-3x the wedges (see ss14/thea/plans.md, new GoK slate).
+- Divinity Pacts come from Divinity Pact Fragments (recycling slates), exchanged at the Heart of Rapacity [tlidb]; market price per pact: ask Vlad.
 - Max Active Divinity 1: the same node on two divinity slates only counts once (e.g. GoK's "+1 to Max Focus" is already GoK #1's fixed node; Arcanist's "+1 Max Focus / regen 0.4% mana" is a different node and stacks).

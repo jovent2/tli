@@ -63,9 +63,14 @@ All multipliers on the sheet in `stats.json` unless dated. FE per 1% = expected 
 - Prism slot 3: Vlad wants Immune to Crowd Control there, not the mutate-core affix.
 - Ideas welcome without prices, but no double-corrosion / Vaal-style suggestions on expensive bases.
 
-## GoK #2 slate rebrand (2026-10-27 11:31)
-- Vlad restored GoK #2 and re-branded: purple +2.5% ES regain, orange +20/5 spell crit, orange +20/5 crit. That dropped the Arcanist +1 Focus brand (+2 on the line): **x0.815 vs the old slate** until it's back.
-- Order: both orange slots go for **Arcanist +1 Max Focus** first with an **Arcanist Divinity Pact** (1 in 6 per slot vs 1 in 36 random; two slots = 31% to land it before any restore). That alone is x1.28 from now (x1.044 vs the old slate, keeping one crit medium).
-- Second orange, only after Focus lands: **GoK pact -> +1 Spell Skill Level** (1 in 5). Hit = x1.224 vs the old slate; miss = the slot is a dead legendary (x~1.0) — EV is about break-even vs keeping the crit medium (x1.044), so it's an upside gamble, not a must.
-- Purple: overwrite ES regain -> +12% proj speed or +5 max frostbite (x1.05). Best case all three: x1.283 vs the old GoK #2.
-- Need: Arcanist pact price, GoK pact price, purple overwrite cost, how many restores this slate has had.
+## New GoK slate to replace GoK #2 (2026-10-27)
+- Vlad bought a **fresh** GoK slate (fixed +1 Spell Skill Level, +8% additional spell; 0 restores used) and branded it to full rare: purple +2.5% ES regain, orange +20/5 spell crit, orange +20/5 crit. **GoK #2 is untouched** (Arcanist +1 Focus, dead Elementalist channeled legendary, dead purple Spell Burst 8%).
+- GoK #2's two orange slots are both legendary already (Focus + channeled) -> can't be overwritten; that's why the new slate exists.
+- Values of the new slate vs keeping GoK #2 (engine, 54% effect, on the line): F + crit medium x1.044 · F + S x1.224 · F + Cold x1.183 · F + vs Frozen x1.140 · F + FB effect x1.104 · F + INT x1.099 · without Focus only S + Cold beats GoK #2 (x1.082); S + medium x0.955. **Arcanist Focus is the gate.**
+  (F = Arcanist +1 Max Focus / mana regen, S = GoK +1 Spell Skill Level. Dead for us: GoK Focus = MAD1 dup of GoK #1, Magister crit dmg/Focus = MAD1 dup of the Corner, Magister Frail = tree has it, Prophet Cold Infiltration = GoK #1 has it, Arcanist mana-consume +8% treated as dead.)
+- Restores cap the tries: 1 + 6 restores (16, 16, 32, 64, 128, 256 FE). Random 2.96% -> 19% to ever land Focus; Arcanist pact 1/6 -> 72%.
+- **Per Arcanist-pact try** (slot 1, then keep the crit medium): EV +0.74% -> **FE per 1% = 1.35 x (14 + pact + restore before that try)**. Stop when that passes the FE/1% limit.
+- Slot 2 after Focus: GoK pact EV 1/5 x 22.4% = 4.47% vs keeping the medium 4.43% -> EV-neutral gamble that costs 14 + pact. Random (2.2%), Prophet (3.5%), Elementalist (2.3%), Magister (1.0%) are all worse than keeping the medium.
+- Break-even (`tools/slate_brand.py`, FE/1% tolerance 100-200): Arcanist pact first beats random while it costs under ~30-50 FE; above that, random slot 1 and pay the Arcanist pact only in slot 2 after slot 1 lands S/Cold/Frozen/FB/INT.
+- Purple: overwrite LAST (restores wipe it). Hold the GoK #2 purple overwrite until the new slate is decided (~50-70% the new slate replaces it).
+- Need: Arcanist pact price, GoK pact price, purple overwrite cost.

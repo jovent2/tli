@@ -308,3 +308,6 @@ ES nodes free, EHP = ES vs elemental hits (res x0.40, block 55% x0.45, Low Mana 
   Deep Wounds + Synchronized Haste = 9k on the market (= aura belt possible: x1.09 -> ~1,000 FE/1%, no). Tempering a 3rd slot: 500 FE, 20% success, random support (~21),
   failure bricks the slot -> ~1%/try, ~50k expected. Other skills with it (Blink, Frigid Transmission, Speed Phantom, Star Stalker, Life Tonic, Lone Wolf melee "Swift Phantom")
   would replace Tidewell/Lightning Storm and lose Dirty Tricks ailments. Decision: Hasten belt; SSR only if one shows up under ~3k.
+- Fallen Starlight (23:10): its "+1 Max Charges" = the 3rd Mass Effect charge = **x1.147** on the block layout (26.6 -> 23.2 T without it); a Starlight with Lich's
+  "+10% additional (sealed mana + life)" instead is x1.10 and would need Boon CDR from elsewhere (CDR-24 belt route 22.4 T, x0.84; Hasten belt with CDR Ultimate
+  suffix instead of Double 24.6 T, x0.93). Keep the current Starlight.

@@ -53,5 +53,8 @@ Expected cost to hit = cost / odds. Price per 1% = expected cost / (gain − 1) 
 - In-Depth R&D [Vlad 2026-10-27]: **640 FE per try**. Chips are numbers 1-7; 4 picks, the 1st from 4 offered, then 2, 2, 2 (you don't see later offers).
 - Odds with optimal picks (`tools/tower_rnd.py`; iid offers / no repeats within an offer): Overload 3.7% / 5.3% · Control Spell 2.8% / 4.2% ·
   +35% 6.2% / 8.6% · Spell Amp 6.2% / 8.6% · Focus/Agility 8.5% / 10.7% · any useful (Overload/Control/+35%/Focus) 12.9% / 16.0%.
-- Pick rule for "any useful": 1st 5 or 6 (else 2 > 4 > 3, never 1/7); then the other of 5/6 (else 4); then 5 or 6 (else 4, else 2/3); last one completes.
+- Picks are an exact expectimax (`tools/tower_policy.py`): every offer, every state, value = damage gain of the code vs what the wand holds; not greedy.
+  vs 8% Cold pen on S: pick 1: 5 = 6 > 2 > 4 > 3 (never 1/7). With a 2: take another 2 (Control path) over anything. With 5: 6 > 4 > 5 > 2/3.
+  With 4: 4 = 5 = 6 > 2. 5+6: 5/6 > 4 > 2/3. 2+2: 2 or 4. Then complete the code. EV +1.77%/try = 361 FE per 1%, stop at the first useful hit
+  (rolling on from Focus 986 FE/1%, from +35% 1,589, from Control 4,080). Chasing one code: 792-1,321 FE per 1%.
 - Unknown: whether a failed R&D keeps the old sequence (assumed yes), whether a success can be declined, Basic R&D cost/pick structure.

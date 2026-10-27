@@ -173,3 +173,5 @@ Vlad's plan: Lich out, Warlock in (Dirty Tricks core), Pedigree -> 2-core Pedigr
 - In-Depth R&D 640 FE/try. Chasing one code: Overload ~17.2k FE (3.7%/try, x1.261 -> 659 FE/1%), Control Spell ~22.6k.
   Taking the first useful hit (Overload/Control/+35%/Focus): 12.9%/try, ~4.9k FE to a hit, avg +17.8% -> **278 FE/1% now, 485 after the LW plan**
   (220 / 380 if an offer never repeats a number).
+- Vlad takes 8% Cold pen on S now (cheap). vs cold pen: Overload +21.7%, Control +17.1%, +35% +12.0%, Focus +8.9% -> optimal picks EV +1.77%/try,
+  **361 FE per 1%**, stop at the first hit (pick table in docs/crafting.md).

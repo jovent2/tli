@@ -54,6 +54,7 @@ Every new session starts by reading this file, then the files listed under "Read
   - `value.py` — quick single-line marginal value on `ss14/thea/stats.json` (older, simpler than engine.py)
   - `slate_plan.py` — plan a divinity slate craft (base, naked vs pact rolls, restores)
   - `tower_rnd.py` — TOWER Sequence R&D odds (optimal chip picks, single target or value-weighted)
+  - `tower_policy.py` — the full In-Depth pick table (expectimax on damage gain vs the held sequence)
   - `tree.py` — validate a talent allocation (`ss14/thea/trees.json`) against tlidb and total its stats
   - `tlidb.py` — read one live tlidb page raw
   - `crawl.py`, `tlidb_parse.py`, `build_data.py` — rebuild `data/` from tlidb

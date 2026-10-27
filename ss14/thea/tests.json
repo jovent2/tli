@@ -10,7 +10,7 @@
      "after": {},
      "measured_before": 5.5, "measured_after": 8.7},
     {"name": "Slate purple line +20% frostbite effect (x1.54)", "era": "2026-10-26 13:34", "group": "current",
-     "before": {"remove_slate_lines": [["Goddess of Knowledge's Divinity #2", "+20% Frostbite Effect"]]},
+     "before": {"remove_slate_lines": [["Goddess of Knowledge's Divinity #1 (L, lv89)", "+20% Frostbite Effect"]]},
      "after": {},
      "measured_before": 8.6, "measured_after": 10.0},
 

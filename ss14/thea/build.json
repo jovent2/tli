@@ -1,6 +1,6 @@
 {
  "_about": "Thea build as data. Every line is game text (parsed by tools/stats.py) unless it is an explicit effect. Lines marked '?' in 'unknown' are not confirmed by a screenshot. tools/sheet.py turns this into the stat sheet; tools/engine.py into DPS.",
- "updated": "2026-10-27 11:09 (gear re-read from screenshots: boots, rings, wands)",
+ "updated": "2026-10-27 11:20 (trees + slates re-read from screenshots)",
  "context": {
   "_about": "State while measuring on the boss dummy (Vlad's standard test)",
   "tangles_active": 2,
@@ -16,7 +16,8 @@
   "sealed_life": true,
   "enemy_frozen": true,
   "enemy_cursed": true,
-  "dashed_recently": true
+  "dashed_recently": true,
+  "slates_on_line": 3
  },
  "hero": {
   "name": "Thea",
@@ -271,44 +272,79 @@
  ],
  "slates": [
   {
-   "name": "Goddess of Knowledge's Divinity #1",
+   "name": "Goddess of Knowledge's Divinity #1 (L, lv89)",
    "effect_pct": 54,
+   "on_line": true,
    "lines": [
-    "+5% Spell Critical Strike Damage per stack of Focus Blessing owned",
+    "+1 Cold Skill Level",
     "+1 to Max Focus Blessing Stacks",
-    "+20% Critical Strike Rating / +5% Critical Strike Damage",
-    "+1 Spell Skill Level",
-    "Converts 100% of Physical Damage to Cold Damage"
+    "+5 to Max Frostbite Rating",
+    "+20% Frostbite Effect",
+    "Inflicts Cold Infiltration when dealing damage to Frostbitten enemies"
    ],
    "unknown": [
-    "exact current brand lines after the 2026-10-26 rolls"
+    "exact effect % (54 assumed from the 2026-10-26 tooltip)",
+    "whether this player Cold Infiltration (-10% cold res) stacks with the follower's Tartarus Cold Infiltration (+13% cold taken)"
    ]
   },
   {
-   "name": "Goddess of Knowledge's Divinity #2",
+   "name": "Goddess of Knowledge's Divinity #2 (F, lv86)",
    "effect_pct": 54,
+   "on_line": true,
    "lines": [
     "+1 Spell Skill Level",
     "+8% additional Spell Damage",
-    "+18% Spell Damage",
-    "+20% Frostbite Effect",
+    "+8% Spell Burst Charge Speed",
+    "At max channeled stacks, +8% additional damage for Channeled Skills for 4 s",
     "+1 to Max Focus Blessing Stacks"
+   ]
+  },
+  {
+   "name": "A Corner of Divinity (legendary, on line +40%, values shown post-boost)",
+   "effect_pct": 0,
+   "on_line": true,
+   "lines": [
+    "+7% Spell Critical Strike Damage per stack of Focus Blessing owned",
+    "+3 Horizontal Projectile Penetration(s)"
+   ]
+  },
+  {
+   "name": "Nether King's Divinity: Judgment",
+   "effect_pct": 0,
+   "lines": [
+    "+30% Frostbite Effect"
+   ],
+   "effects": [
+    {
+     "key": "special.judgment_slate_bonus",
+     "value": 3,
+     "why": "Offspring: +3% additional damage per Divinity Slate along the connecting line"
+    }
+   ],
+   "dead": [
+    "Source: 14% chance for Attack Horizontal Projectiles to return"
    ],
    "unknown": [
-    "which slate carries the rolled +18% spell dmg / +20% frostbite effect lines",
-    "whether a 20% crit / 5% crit dmg brand is still on it"
+    "how many slates count as 'along the connecting line' (3 assumed: both GoK + Corner)"
    ]
+  },
+  {
+   "name": "Sparks of Moth Fire",
+   "effect_pct": 0,
+   "lines": [],
+   "note": "copies the Nether King's +10% effect brand"
   },
   {
    "name": "Fallen Starlight",
    "effect_pct": 0,
+   "on_line": false,
    "lines": [
+    "+2% Max Life",
+    "+1.25% Life Regain",
+    "+9% Fire Damage Over Time",
     "+4% Skill Effect Duration",
     "+8% Cooldown Recovery Speed",
     "+1 Max Charges"
-   ],
-   "unknown": [
-    "whether it still gets any Judgment boost (Vlad: 59% duration / 30% CDR now)"
    ]
   },
   {
@@ -323,27 +359,9 @@
     {
      "key": "special.dirty_tricks",
      "value": 12,
-     "why": "Dirty Tricks core: +12% additional hit damage (multiplies) per ailment type"
+     "why": "Dirty Tricks core"
     }
    ]
-  },
-  {
-   "name": "Nether King's Divinity (Judgment + 10% effect brand)",
-   "lines": [],
-   "effects": [
-    {
-     "key": "special.judgment",
-     "value": 54,
-     "why": "Judgment line effect with Sparks copy"
-    }
-   ],
-   "unknown": [
-    "any other brand lines (INT? double?) — sheet INT went up ~79 flat after the swap"
-   ]
-  },
-  {
-   "name": "Sparks of Moth Fire",
-   "lines": []
   }
  ],
  "pacts": [

@@ -53,3 +53,12 @@ All multipliers on the sheet in `stats.json` unless dated. FE per 1% = expected 
 - **Keen Intellect alone vs Spell Ripple: x1.23** (3 Empower skills x1.443, Speed Phantom as Mobility +13% additional cast, Biting Cold as Curse +6% res pen / +6% arp) vs Ripple's measured x1.5.
 - **Slot 3 legendary affix "Mutated Core Talents no longer replace the original talent, but add [core]"** (cost -5% ele res / -30 all stats / -8% defense): Prophet keeps its own core (Mind Blade +25% additional cold with a wand). On the Ripple prism x1.25; on a Keen Intellect prism x1.54 total. ~70% read that each prism rolls only its own core's mutate. Need prices: Keen Intellect prism, Legendary Prism Gauge.
 - Frail on a slate vs the 7.7% crit dmg per Focus line (~77 crit dmg): x1.15 vs x1.149 — even, keep as is (and the +3 pen line for clear).
+
+## Slates (priced 2026-10-27 on the screenshot build)
+- **GoK #2 dead orange brand (channeled +8%) is the best slot on the board**: -> +1 Spell Skill Level (+2 on the line) x1.224 · +1 Cold Skill Level x1.183 · +5% crit dmg per Focus x1.147 · +10% vs Frozen x1.140 · +12% INT x1.099.
+- GoK #2 dead purple brand (Spell Burst charge): -> +12% proj speed or +5 max frostbite x1.049 (frostbite 108.7 -> 116.4, under the 120 cap) · crit/crit dmg x1.044 · frostbite effect x1.042.
+- A Corner of Divinity is worth x1.154 (77 crit dmg at 10 Focus) + 3 pen for clear. Replacing it with a non-legendary slate carrying +1 all skills on the line (+2) nets x1.11 and loses the pen — not first.
+- Fallen Starlight: 0 DPS, it is the Boon 2-stack margin (duration/CDR). Stays.
+- Max Active Divinity 1 on the Corner's crit dmg per Focus does not block the Magister tree copy: both are needed to reach the sheet's crit dmg.
+- Prism slot 3: Vlad wants Immune to Crowd Control there, not the mutate-core affix.
+- Ideas welcome without prices, but no double-corrosion / Vaal-style suggestions on expensive bases.

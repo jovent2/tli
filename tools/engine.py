@@ -271,6 +271,8 @@ def dps(build, trees, verbose=False):
     m["Secret Origin Unleash"] = 1 + skill_value("Secret_Origin_Unleash", sh["level_empower"], r"([\d.]+)% additional Spell Damage") * ee / 100
     m["Speed Phantom Euphoria"] = 1 + skill_value("Speed_Phantom", sh["level_speed_phantom"], r"([\d.]+)% additional Spell Damage, up to") * 8 / 100
     m["Spell Aggression"] = 1.07 if ctx["spell_aggression"] else 1.0
+    if t.get("special.judgment_slate_bonus"):
+        m["Judgment Offspring (+3% per slate on the line)"] = 1 + t["special.judgment_slate_bonus"] * ctx.get("slates_on_line", 0) / 100
     m["Cage (1.14^4)"] = 1.14 ** 4
     ls = ctx.get("follower_lightning_storm", True)
     ailments = 1 + (1 if frozen else 0) + 1 + (2 if ls else 0) + 1   # frostbite, freeze, ignite, numbed+wilt, trauma

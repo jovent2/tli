@@ -11,3 +11,4 @@
 - **2026-10-26** Slate purple line rolled: +30.8% frostbite effect. Belt off 10 T (~27 T with belt).
 - **2026-10-27** Repo created; everything above moved here.
 - **2026-10-27** Gear re-read from screenshots: wand M Tangle Damage Enhancement T1 47 (was 34), Ring L lightning res 22 (was 18), boots Hasten roll 7 replacing the lightning res line. Model belt-off 10.25 T vs measured 10.0.
+- **2026-10-27** Trees re-read: GoK 24 pts (224_272 3 -> 1), Magister 26 pts (480_80 3 -> 1; +736_368 x3 and 864_368 Frail), Prophet unchanged, Lich 224_272 1 -> 3 and 224_368 2 -> 0. Slates re-read: GoK #1 L (+1 cold lvl, +1 Focus, +5 max frostbite, +20% frostbite effect, Cold Infiltration), GoK #2 F (+1 spell lvl, +8% additional spell, Spell Burst + channeled dead, +1 Focus), Corner of Divinity (+7% crit dmg/Focus, +3 pen, +40%), Nether King fixed +30% frostbite effect, +3%/slate on the line. Model belt-off 12.1 T.

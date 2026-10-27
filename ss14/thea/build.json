@@ -1,135 +1,458 @@
 {
-  "_about": "Thea build as data. Every line is game text (parsed by tools/stats.py) unless it is an explicit effect. Lines marked '?' in 'unknown' are not confirmed by a screenshot. tools/sheet.py turns this into the stat sheet; tools/engine.py into DPS.",
-  "updated": "2026-10-27",
-
-  "context": {
-    "_about": "State while measuring on the boss dummy (Vlad's standard test)",
-    "tangles_active": 2, "tangles_dormant": 2, "focus": 10, "agility": 4, "boons": 2,
-    "nfe_stacks": 2, "hasten": true, "spell_aggression": true, "in_tidewell": true,
-    "sealed_mana": true, "sealed_life": true, "enemy_frozen": true, "enemy_cursed": true,
-    "dashed_recently": true
+ "_about": "Thea build as data. Every line is game text (parsed by tools/stats.py) unless it is an explicit effect. Lines marked '?' in 'unknown' are not confirmed by a screenshot. tools/sheet.py turns this into the stat sheet; tools/engine.py into DPS.",
+ "updated": "2026-10-27 11:09 (gear re-read from screenshots: boots, rings, wands)",
+ "context": {
+  "_about": "State while measuring on the boss dummy (Vlad's standard test)",
+  "tangles_active": 2,
+  "tangles_dormant": 2,
+  "focus": 10,
+  "agility": 4,
+  "boons": 2,
+  "nfe_stacks": 2,
+  "hasten": true,
+  "spell_aggression": true,
+  "in_tidewell": true,
+  "sealed_mana": true,
+  "sealed_life": true,
+  "enemy_frozen": true,
+  "enemy_cursed": true,
+  "dashed_recently": true
+ },
+ "hero": {
+  "name": "Thea",
+  "trait": "Wisdom of The Gods",
+  "trait_levels": {
+   "Wisdom of The Gods": 4,
+   "Predicted Reincarnation": 3,
+   "Farewell Prophecy": 3,
+   "Prophecy of Purity": 3
   },
-
-  "hero": {
-    "name": "Thea", "trait": "Wisdom of The Gods",
-    "trait_levels": {"Wisdom of The Gods": 4, "Predicted Reincarnation": 3, "Farewell Prophecy": 3, "Prophecy of Purity": 3},
-    "base_attributes": {"INT": 0, "STR": 0, "DEX": 0, "_note": "unknown; solved from sheet INT"}
+  "base_attributes": {
+   "INT": 0,
+   "STR": 0,
+   "DEX": 0,
+   "_note": "unknown; solved from sheet INT"
+  }
+ },
+ "gear": [
+  {
+   "slot": "helmet",
+   "name": "Malign Embrace",
+   "corroded": true,
+   "lines": [
+    "+347 gear Energy Shield",
+    "+2 Max Tangle Quantity",
+    "+155 Spell Critical Strike Rating and +21% additional damage on Critical Strike for each activated Tangle",
+    "Nearby enemies are guaranteed to land Critical Strikes"
+   ]
   },
-
-  "gear": [
-    {"slot": "helmet", "name": "Malign Embrace", "corroded": true, "lines": [
-      "+347 gear Energy Shield", "+2 Max Tangle Quantity",
-      "+155 Spell Critical Strike Rating and +21% additional damage on Critical Strike for each activated Tangle",
-      "Nearby enemies are guaranteed to land Critical Strikes"]},
-    {"slot": "chest", "name": "Iced Drinker's Cage", "corroded": true, "lines": [
-      "+170 gear Energy Shield", "+338 gear Energy Shield", "+0 Main Skill Level", "Extreme Coldness",
-      "Gains 1 stack(s) of Cage when inflicting Frostbite. Interval: 1 s", "Effects of Control Effects received +33%"],
-      "effects": [{"key": "frost.max", "value": 50, "why": "Extreme Coldness: +50 Max Frostbite Rating"},
-                  {"key": "buff.cage", "value": 4, "why": "4 Cage stacks: +14% additional cold (multiplies), -7% DoT taken each"}]},
-    {"slot": "neck", "name": "I Am Truth", "corroded": true, "lines": [
-      "+5 Intelligence", "+4 to All Skills' Levels", "+99 Strength", "+40% Skill Effect Duration"]},
-    {"slot": "gloves", "name": "Israfel's Laws", "corroded": true, "lines": [
-      "+120 gear Energy Shield", "+349 gear Energy Shield", "+25% Blessing Duration",
-      "+14% additional Cold Damage for every stack of Focus Blessing",
-      "+1% Critical Strike Damage per stack of Focus Blessing owned"]},
-    {"slot": "belt", "name": "Magic Girdle (rare)", "lines": [
-      "+31 Intelligence", "+220 Max Energy Shield", "+47% damage",
-      "+19% Lightning Resistance", "+17% Cold Resistance", "+16% Erosion Resistance"],
-      "effects": [{"key": "special.gale", "value": 60, "why": "base affix Gale: 60% of proj speed bonus as additional proj damage"}]},
-    {"slot": "boots", "name": "Long Night Sorcerer's Boots (rare)", "lines": [
-      "+58% Critical Strike Damage Mitigation", "+60% gear Energy Shield", "+304 gear Energy Shield",
-      "+40% Movement Speed", "Has Hasten", "+8% Attack Speed, Cast Speed, and Movement Speed when having Hasten",
-      "+22% Fire Resistance"],
-      "unknown": ["which res line Hasten replaced (fire 22 kept here as a guess)", "Hasten roll (5-8)"]},
-    {"slot": "ring_l", "name": "Perishing Inferno Flame Ring (rare)", "lines": [
-      "+12% Fire Resistance", "+52 Intelligence", "+221 Max Energy Shield", "+64% damage",
-      "+18% Lightning Resistance", "+27% Erosion Resistance", "+120% Critical Strike Rating"]},
-    {"slot": "ring_r", "name": "Eternal Sleep Ice Ring (Priceless)", "lines": [
-      "+12% Cold Resistance", "Gains Spell Aggression when casting a Spell Skill", "+210 Max Energy Shield",
-      "+81% damage", "+10% Armor DMG Mitigation Penetration", "+20 to Max Frostbite Rating", "+27% Fire Resistance",
-      "100% chance to gain Barrier for every 5 m moved"]},
-    {"slot": "weapon_m", "name": "Headless Cleric Wand (Priceless)", "lines": [
-      "+40% Spell Damage", "+8% additional Spell Damage",
-      "+2 Cold Skill Level", "+2 Physical Skill Level", "Adds 87 - 106 Physical Damage to Spells",
-      "+37% chance to deal Double Damage", "+34% Tangle Damage Enhancement", "+106% Elemental Damage"],
-      "tiers": {"+2 Cold Skill Level": "T1", "+2 Physical Skill Level": "T1", "Adds 87 - 106 Physical Damage to Spells": "T0",
-                "+37% chance to deal Double Damage": "T1", "+34% Tangle Damage Enhancement": "T2", "+106% Elemental Damage": "T1"}},
-    {"slot": "weapon_s", "name": "Headless Cleric Wand (Priceless)", "lines": [
-      "+40% Spell Damage", "+16% Cast Speed",
-      "+2 Spell Skill Level", "+2 Physical Skill Level", "Adds 84 - 112 Cold Damage to Spells",
-      "+166% Critical Strike Rating", "+47% Cast Speed", "+40% chance to deal Double Damage"],
-      "tiers": {"+2 Spell Skill Level": "T2", "+2 Physical Skill Level": "T1", "Adds 84 - 112 Cold Damage to Spells": "T0",
-                "+166% Critical Strike Rating": "T1", "+47% Cast Speed": "T0", "+40% chance to deal Double Damage": "T1"}}
-  ],
-
-  "memories": [
-    {"slot": 1, "name": "Memory of Origin", "lines": ["+110 Intelligence", "+16% Cast Speed", "+18% Minion Critical Strike Damage",
-      "+47% Cold Skill Critical Strike Damage", "+40% Projectile Speed"]},
-    {"slot": 2, "name": "Memory of Discipline", "lines": ["+642 Max Energy Shield", "+16% Cast Speed", "+28% Minion Damage",
-      "+41% Spell Critical Strike Damage", "+40% Projectile Speed"]},
-    {"slot": 3, "name": "Memory of Progress", "lines": ["+30% Movement Speed", "+10% Skill Effect Duration",
-      "+40% Minion Critical Strike Rating", "+104% Spell Critical Strike Rating", "+54% Spell Critical Strike Damage"]},
-    {"slot": "trait", "name": "Memory of Progress (Epic, Base Trait slot, values already cut 58%)", "lines": [
-      "+15% Cast Speed", "+10% Minion Attack Speed", "+2 to Hero Trait Level",
-      "+18% Spell Critical Strike Damage", "+18% Cold Skill Critical Strike Damage"]}
-  ],
-
-  "slates": [
-    {"name": "Goddess of Knowledge's Divinity #1", "effect_pct": 54, "lines": [
-      "+5% Spell Critical Strike Damage per stack of Focus Blessing owned", "+1 to Max Focus Blessing Stacks",
-      "+20% Critical Strike Rating / +5% Critical Strike Damage", "+1 Spell Skill Level", "Converts 100% of Physical Damage to Cold Damage"],
-      "unknown": ["exact current brand lines after the 2026-10-26 rolls"]},
-    {"name": "Goddess of Knowledge's Divinity #2", "effect_pct": 54, "lines": [
-      "+1 Spell Skill Level", "+8% additional Spell Damage", "+18% Spell Damage", "+20% Frostbite Effect",
-      "+1 to Max Focus Blessing Stacks"],
-      "unknown": ["which slate carries the rolled +18% spell dmg / +20% frostbite effect lines", "whether a 20% crit / 5% crit dmg brand is still on it"]},
-    {"name": "Fallen Starlight", "effect_pct": 0, "lines": ["+4% Skill Effect Duration", "+8% Cooldown Recovery Speed", "+1 Max Charges"],
-      "unknown": ["whether it still gets any Judgment boost (Vlad: 59% duration / 30% CDR now)"]},
-    {"name": "Pedigree of Gods", "lines": ["+10% Agility Blessing Duration", "+3% Attack Speed and Cast Speed when having Agility Blessing",
-      "+8 Strength", "Critical Strikes eliminate enemies under 8% Life"],
-      "effects": [{"key": "special.dirty_tricks", "value": 12, "why": "Dirty Tricks core: +12% additional hit damage (multiplies) per ailment type"}]},
-    {"name": "Nether King's Divinity (Judgment + 10% effect brand)", "lines": [],
-      "effects": [{"key": "special.judgment", "value": 54, "why": "Judgment line effect with Sparks copy"}],
-      "unknown": ["any other brand lines (INT? double?) — sheet INT went up ~79 flat after the swap"]},
-    {"name": "Sparks of Moth Fire", "lines": []}
-  ],
-
-  "pacts": [
-    {"name": "Witch of the Night", "rank": 6, "lines": ["+22% Spell Critical Strike Rating", "+22% Spell Critical Strike Rating",
-      "+45% Spell Critical Strike Rating", "+8% additional Spell Damage"],
-      "effects": [{"key": "buff.nfe", "value": 2, "why": "Night Feather Entanglement 2 stacks: +7% additional tangle dmg, +3% CDR each, x1.5 effect"},
-                  {"key": "inc.damage", "value": 18, "why": "6 destiny slots x +3% damage (notes 2026-10-25)"}]},
-    {"name": "Iron Lion", "rank": 1, "lines": ["+7% Projectile Speed", "+7% Projectile Speed", "+14% Projectile Speed",
-      "+10% Projectile Damage", "+10% Projectile Damage", "+20% Projectile Damage"]},
-    {"name": "Dreamweaver", "rank": 6, "lines": ["+2% Elemental and Erosion Resistance Penetration", "+2% Elemental and Erosion Resistance Penetration",
-      "+4% Elemental and Erosion Resistance Penetration", "+12% Elemental Damage", "+24% Elemental Damage", "+4% additional damage"],
-      "effects": [{"key": "add.elemental", "value": 19, "why": "+19% additional elemental damage for spell skills"},
-                  {"key": "pen.res", "value": 16.8, "why": "1.2% x4 per elemental hit + 3% x4 per recent elemental hit"}]}
-  ],
-
-  "kismets": {
-    "_about": "13 destiny slots. Originally all INT (9 micro 12-15, 4 medium 24-30). 2026-10-26: 4 micros swapped to lightning res (5-7). Current layout unknown.",
-    "lines": ["+13 Intelligence", "+13 Intelligence", "+13 Intelligence", "+13 Intelligence", "+13 Intelligence",
-              "+27 Intelligence", "+27 Intelligence", "+27 Intelligence", "+27 Intelligence",
-              "+6% Lightning Resistance", "+6% Lightning Resistance", "+6% Lightning Resistance", "+6% Lightning Resistance"],
-    "unknown": ["actual rolls and layout"]
+  {
+   "slot": "chest",
+   "name": "Iced Drinker's Cage",
+   "corroded": true,
+   "lines": [
+    "+170 gear Energy Shield",
+    "+338 gear Energy Shield",
+    "+0 Main Skill Level",
+    "Extreme Coldness",
+    "Gains 1 stack(s) of Cage when inflicting Frostbite. Interval: 1 s",
+    "Effects of Control Effects received +33%"
+   ],
+   "effects": [
+    {
+     "key": "frost.max",
+     "value": 50,
+     "why": "Extreme Coldness: +50 Max Frostbite Rating"
+    },
+    {
+     "key": "buff.cage",
+     "value": 4,
+     "why": "4 Cage stacks: +14% additional cold (multiplies), -7% DoT taken each"
+    }
+   ]
   },
-
-  "skills": {
-    "main": {"name": "Chromatic Shot", "supports": ["Spell Tangle", "Manifold Entanglement", "Chromatic Shot: Lightchaser (Magnificent) T1 -16%",
-              "Target Projection", "Chromatic Shot: Condensed Cold (Noble) T1 +20%"]},
-    "others": ["Aim [Preparation, Well-Fought Battle, Mass Effect]",
-               "Secret Origin Unleash [Preparation, Mass Effect, Well-Fought Battle, Resurgence]",
-               "Biting Cold [Preparation, Terrain of Malice, Deepened Curse, Increased Area]",
-               "Speed Phantom [Quick Mobility, Weakness Infiltration, Exhaustion]",
-               "Precise Projectiles [Restrain, Increased Area, Aura Amplification]",
-               "Spell Amplification [Aura Amplification, Increased Area, Restrain]",
-               "Frigid Domain [Restrain, Cooldown Reduction, Aura Amplification]",
-               "Domain Expansion [Aura Amplification, Seal Conversion]"]
+  {
+   "slot": "neck",
+   "name": "I Am Truth",
+   "corroded": true,
+   "lines": [
+    "+5 Intelligence",
+    "+4 to All Skills' Levels",
+    "+99 Strength",
+    "+40% Skill Effect Duration"
+   ]
   },
-
-  "follower": ["Tidewell III [Additional Ignite, Glacial Freeze]", "Lightning Storm III [Improved Corrosion, Coercion]",
-               "Swift Shadow Raid III [Periodic Burst, Deep Wounds]"],
-
-  "trees": "trees.json"
+  {
+   "slot": "gloves",
+   "name": "Israfel's Laws",
+   "corroded": true,
+   "lines": [
+    "+120 gear Energy Shield",
+    "+349 gear Energy Shield",
+    "+25% Blessing Duration",
+    "+14% additional Cold Damage for every stack of Focus Blessing",
+    "+1% Critical Strike Damage per stack of Focus Blessing owned"
+   ]
+  },
+  {
+   "slot": "belt",
+   "name": "Magic Girdle (rare)",
+   "lines": [
+    "+31 Intelligence",
+    "+220 Max Energy Shield",
+    "+47% damage",
+    "+19% Lightning Resistance",
+    "+17% Cold Resistance",
+    "+16% Erosion Resistance"
+   ],
+   "effects": [
+    {
+     "key": "special.gale",
+     "value": 60,
+     "why": "base affix Gale: 60% of proj speed bonus as additional proj damage"
+    }
+   ]
+  },
+  {
+   "slot": "boots",
+   "name": "Long Night Sorcerer's Boots (rare)",
+   "lines": [
+    "+58% Critical Strike Damage Mitigation",
+    "+60% gear Energy Shield",
+    "+304 gear Energy Shield",
+    "Has Hasten",
+    "+7% Attack Speed, Cast Speed, and Movement Speed when having Hasten",
+    "+22% Fire Resistance",
+    "+40% Movement Speed"
+   ],
+   "tiers": {
+    "+58% Critical Strike Damage Mitigation": "T1",
+    "+60% gear Energy Shield": "T1",
+    "+304 gear Energy Shield": "T1",
+    "Has Hasten": "T1",
+    "+7% Attack Speed, Cast Speed, and Movement Speed when having Hasten": "T1",
+    "+22% Fire Resistance": "T1",
+    "+40% Movement Speed": "T1"
+   }
+  },
+  {
+   "slot": "ring_l",
+   "name": "Perishing Inferno Flame Ring (rare)",
+   "lines": [
+    "+12% Fire Resistance",
+    "+52 Intelligence",
+    "+221 Max Energy Shield",
+    "+64% damage",
+    "+22% Lightning Resistance",
+    "+27% Erosion Resistance",
+    "+120% Critical Strike Rating"
+   ],
+   "tiers": {
+    "+52 Intelligence": "T1",
+    "+221 Max Energy Shield": "T2",
+    "+64% damage": "T1",
+    "+22% Lightning Resistance": "T1",
+    "+27% Erosion Resistance": "T1",
+    "+120% Critical Strike Rating": "T1"
+   }
+  },
+  {
+   "slot": "ring_r",
+   "name": "Eternal Sleep Ice Ring (Priceless)",
+   "lines": [
+    "+12% Cold Resistance",
+    "Gains Spell Aggression when casting a Spell Skill",
+    "+210 Max Energy Shield",
+    "+81% damage",
+    "+10% Armor DMG Mitigation Penetration",
+    "+20 to Max Frostbite Rating",
+    "+27% Fire Resistance",
+    "100% chance to gain Barrier for every 5 m moved"
+   ],
+   "tiers": {
+    "+210 Max Energy Shield": "T2",
+    "+81% damage": "T0",
+    "+10% Armor DMG Mitigation Penetration": "T2",
+    "+20 to Max Frostbite Rating": "T2",
+    "+27% Fire Resistance": "T1",
+    "100% chance to gain Barrier for every 5 m moved": "T1"
+   }
+  },
+  {
+   "slot": "weapon_m",
+   "name": "Headless Cleric Wand (Priceless)",
+   "lines": [
+    "+40% Spell Damage",
+    "+8% additional Spell Damage",
+    "+2 Cold Skill Level",
+    "+2 Physical Skill Level",
+    "Adds 87 - 106 Physical Damage to Spells",
+    "+37% chance to deal Double Damage",
+    "+47% Tangle Damage Enhancement",
+    "+106% Elemental Damage"
+   ],
+   "tiers": {
+    "+2 Cold Skill Level": "T1",
+    "+2 Physical Skill Level": "T1",
+    "Adds 87 - 106 Physical Damage to Spells": "T0",
+    "+37% chance to deal Double Damage": "T1",
+    "+106% Elemental Damage": "T1",
+    "+47% Tangle Damage Enhancement": "T1"
+   }
+  },
+  {
+   "slot": "weapon_s",
+   "name": "Headless Cleric Wand (Priceless)",
+   "lines": [
+    "+40% Spell Damage",
+    "+16% Cast Speed",
+    "+2 Spell Skill Level",
+    "+2 Physical Skill Level",
+    "Adds 84 - 112 Cold Damage to Spells",
+    "+166% Critical Strike Rating",
+    "+47% Cast Speed",
+    "+40% chance to deal Double Damage"
+   ],
+   "tiers": {
+    "+2 Spell Skill Level": "T2",
+    "+2 Physical Skill Level": "T1",
+    "Adds 84 - 112 Cold Damage to Spells": "T0",
+    "+166% Critical Strike Rating": "T1",
+    "+47% Cast Speed": "T0",
+    "+40% chance to deal Double Damage": "T1"
+   }
+  }
+ ],
+ "memories": [
+  {
+   "slot": 1,
+   "name": "Memory of Origin",
+   "lines": [
+    "+110 Intelligence",
+    "+16% Cast Speed",
+    "+18% Minion Critical Strike Damage",
+    "+47% Cold Skill Critical Strike Damage",
+    "+40% Projectile Speed"
+   ]
+  },
+  {
+   "slot": 2,
+   "name": "Memory of Discipline",
+   "lines": [
+    "+642 Max Energy Shield",
+    "+16% Cast Speed",
+    "+28% Minion Damage",
+    "+41% Spell Critical Strike Damage",
+    "+40% Projectile Speed"
+   ]
+  },
+  {
+   "slot": 3,
+   "name": "Memory of Progress",
+   "lines": [
+    "+30% Movement Speed",
+    "+10% Skill Effect Duration",
+    "+40% Minion Critical Strike Rating",
+    "+104% Spell Critical Strike Rating",
+    "+54% Spell Critical Strike Damage"
+   ]
+  },
+  {
+   "slot": "trait",
+   "name": "Memory of Progress (Epic, Base Trait slot, values already cut 58%)",
+   "lines": [
+    "+15% Cast Speed",
+    "+10% Minion Attack Speed",
+    "+2 to Hero Trait Level",
+    "+18% Spell Critical Strike Damage",
+    "+18% Cold Skill Critical Strike Damage"
+   ]
+  }
+ ],
+ "slates": [
+  {
+   "name": "Goddess of Knowledge's Divinity #1",
+   "effect_pct": 54,
+   "lines": [
+    "+5% Spell Critical Strike Damage per stack of Focus Blessing owned",
+    "+1 to Max Focus Blessing Stacks",
+    "+20% Critical Strike Rating / +5% Critical Strike Damage",
+    "+1 Spell Skill Level",
+    "Converts 100% of Physical Damage to Cold Damage"
+   ],
+   "unknown": [
+    "exact current brand lines after the 2026-10-26 rolls"
+   ]
+  },
+  {
+   "name": "Goddess of Knowledge's Divinity #2",
+   "effect_pct": 54,
+   "lines": [
+    "+1 Spell Skill Level",
+    "+8% additional Spell Damage",
+    "+18% Spell Damage",
+    "+20% Frostbite Effect",
+    "+1 to Max Focus Blessing Stacks"
+   ],
+   "unknown": [
+    "which slate carries the rolled +18% spell dmg / +20% frostbite effect lines",
+    "whether a 20% crit / 5% crit dmg brand is still on it"
+   ]
+  },
+  {
+   "name": "Fallen Starlight",
+   "effect_pct": 0,
+   "lines": [
+    "+4% Skill Effect Duration",
+    "+8% Cooldown Recovery Speed",
+    "+1 Max Charges"
+   ],
+   "unknown": [
+    "whether it still gets any Judgment boost (Vlad: 59% duration / 30% CDR now)"
+   ]
+  },
+  {
+   "name": "Pedigree of Gods",
+   "lines": [
+    "+10% Agility Blessing Duration",
+    "+3% Attack Speed and Cast Speed when having Agility Blessing",
+    "+8 Strength",
+    "Critical Strikes eliminate enemies under 8% Life"
+   ],
+   "effects": [
+    {
+     "key": "special.dirty_tricks",
+     "value": 12,
+     "why": "Dirty Tricks core: +12% additional hit damage (multiplies) per ailment type"
+    }
+   ]
+  },
+  {
+   "name": "Nether King's Divinity (Judgment + 10% effect brand)",
+   "lines": [],
+   "effects": [
+    {
+     "key": "special.judgment",
+     "value": 54,
+     "why": "Judgment line effect with Sparks copy"
+    }
+   ],
+   "unknown": [
+    "any other brand lines (INT? double?) — sheet INT went up ~79 flat after the swap"
+   ]
+  },
+  {
+   "name": "Sparks of Moth Fire",
+   "lines": []
+  }
+ ],
+ "pacts": [
+  {
+   "name": "Witch of the Night",
+   "rank": 6,
+   "lines": [
+    "+22% Spell Critical Strike Rating",
+    "+22% Spell Critical Strike Rating",
+    "+45% Spell Critical Strike Rating",
+    "+8% additional Spell Damage"
+   ],
+   "effects": [
+    {
+     "key": "buff.nfe",
+     "value": 2,
+     "why": "Night Feather Entanglement 2 stacks: +7% additional tangle dmg, +3% CDR each, x1.5 effect"
+    },
+    {
+     "key": "inc.damage",
+     "value": 18,
+     "why": "6 destiny slots x +3% damage (notes 2026-10-25)"
+    }
+   ]
+  },
+  {
+   "name": "Iron Lion",
+   "rank": 1,
+   "lines": [
+    "+7% Projectile Speed",
+    "+7% Projectile Speed",
+    "+14% Projectile Speed",
+    "+10% Projectile Damage",
+    "+10% Projectile Damage",
+    "+20% Projectile Damage"
+   ]
+  },
+  {
+   "name": "Dreamweaver",
+   "rank": 6,
+   "lines": [
+    "+2% Elemental and Erosion Resistance Penetration",
+    "+2% Elemental and Erosion Resistance Penetration",
+    "+4% Elemental and Erosion Resistance Penetration",
+    "+12% Elemental Damage",
+    "+24% Elemental Damage",
+    "+4% additional damage"
+   ],
+   "effects": [
+    {
+     "key": "add.elemental",
+     "value": 19,
+     "why": "+19% additional elemental damage for spell skills"
+    },
+    {
+     "key": "pen.res",
+     "value": 16.8,
+     "why": "1.2% x4 per elemental hit + 3% x4 per recent elemental hit"
+    }
+   ]
+  }
+ ],
+ "kismets": {
+  "_about": "13 destiny slots. Originally all INT (9 micro 12-15, 4 medium 24-30). 2026-10-26: 4 micros swapped to lightning res (5-7). Current layout unknown.",
+  "lines": [
+   "+13 Intelligence",
+   "+13 Intelligence",
+   "+13 Intelligence",
+   "+13 Intelligence",
+   "+13 Intelligence",
+   "+27 Intelligence",
+   "+27 Intelligence",
+   "+27 Intelligence",
+   "+27 Intelligence",
+   "+6% Lightning Resistance",
+   "+6% Lightning Resistance",
+   "+6% Lightning Resistance",
+   "+6% Lightning Resistance"
+  ],
+  "unknown": [
+   "actual rolls and layout"
+  ]
+ },
+ "skills": {
+  "main": {
+   "name": "Chromatic Shot",
+   "supports": [
+    "Spell Tangle",
+    "Manifold Entanglement",
+    "Chromatic Shot: Lightchaser (Magnificent) T1 -16%",
+    "Target Projection",
+    "Chromatic Shot: Condensed Cold (Noble) T1 +20%"
+   ]
+  },
+  "others": [
+   "Aim [Preparation, Well-Fought Battle, Mass Effect]",
+   "Secret Origin Unleash [Preparation, Mass Effect, Well-Fought Battle, Resurgence]",
+   "Biting Cold [Preparation, Terrain of Malice, Deepened Curse, Increased Area]",
+   "Speed Phantom [Quick Mobility, Weakness Infiltration, Exhaustion]",
+   "Precise Projectiles [Restrain, Increased Area, Aura Amplification]",
+   "Spell Amplification [Aura Amplification, Increased Area, Restrain]",
+   "Frigid Domain [Restrain, Cooldown Reduction, Aura Amplification]",
+   "Domain Expansion [Aura Amplification, Seal Conversion]"
+  ]
+ },
+ "follower": [
+  "Tidewell III [Additional Ignite, Glacial Freeze]",
+  "Lightning Storm III [Improved Corrosion, Coercion]",
+  "Swift Shadow Raid III [Periodic Burst, Deep Wounds]"
+ ],
+ "trees": "trees.json"
 }

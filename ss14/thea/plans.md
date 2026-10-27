@@ -47,3 +47,9 @@ All multipliers on the sheet in `stats.json` unless dated. FE per 1% = expected 
 - Max frostbite now (did the +5 frostbite slate line land?).
 - Wand S off test (1.4 vs 1.75 predicted) never resolved.
 - The 9.7 T "INT ring off" test — what was removed.
+
+## Prism (found 2026-10-27 in the raw prism affix pool)
+- Only one Ethereal Prism (+ one Inverse Image) can be installed.
+- **Keen Intellect alone vs Spell Ripple: x1.23** (3 Empower skills x1.443, Speed Phantom as Mobility +13% additional cast, Biting Cold as Curse +6% res pen / +6% arp) vs Ripple's measured x1.5.
+- **Slot 3 legendary affix "Mutated Core Talents no longer replace the original talent, but add [core]"** (cost -5% ele res / -30 all stats / -8% defense): Prophet keeps its own core (Mind Blade +25% additional cold with a wand). On the Ripple prism x1.25; on a Keen Intellect prism x1.54 total. ~70% read that each prism rolls only its own core's mutate. Need prices: Keen Intellect prism, Legendary Prism Gauge.
+- Frail on a slate vs the 7.7% crit dmg per Focus line (~77 crit dmg): x1.15 vs x1.149 — even, keep as is (and the +3 pen line for clear).

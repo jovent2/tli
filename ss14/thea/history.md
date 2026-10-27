@@ -10,3 +10,4 @@
 - **2026-10-26** Sparks of Moth Fire copying the +10% brand → slates on the line at +54%; both GoK slates moved onto the line (+2 Focus, +2 spell levels each); Hunting slate removed; lost Frail, +11% double, +12% INT from the old Nether King. Belt off 8.6 T.
 - **2026-10-26** Slate purple line rolled: +30.8% frostbite effect. Belt off 10 T (~27 T with belt).
 - **2026-10-27** Repo created; everything above moved here.
+- **2026-10-27** Gear re-read from screenshots: wand M Tangle Damage Enhancement T1 47 (was 34), Ring L lightning res 22 (was 18), boots Hasten roll 7 replacing the lightning res line. Model belt-off 10.25 T vs measured 10.0.

@@ -270,7 +270,10 @@ def dps(build, trees, verbose=False):
     ee = sh["empower_effect"]
     m["Aim"] = 1 + skill_value("Aim", sh["level_empower"], r"([\d.]+)% additional damage for Projectile") * ee / 100
     m["Secret Origin Unleash"] = 1 + skill_value("Secret_Origin_Unleash", sh["level_empower"], r"([\d.]+)% additional Spell Damage") * ee / 100
-    m["Speed Phantom Euphoria"] = 1 + skill_value("Speed_Phantom", sh["level_speed_phantom"], r"([\d.]+)% additional Spell Damage, up to") * 8 / 100
+    # Euphoria: 8 stacks in the best 1 s window; Mass Effect on Speed Phantom scales it (+3 charges: ME, Fallen Starlight, Lich -> full 'up to')
+    sp_me = any(x.startswith("Speed Phantom") and "Mass Effect" in x for x in build.get("skills", {}).get("others", []))
+    sp_eff = 1 + (skill_value("Mass_Effect", sh["level_support_plain"], r"up to ([\d.]+)%") / 100 if sp_me else 0)
+    m["Speed Phantom Euphoria"] = 1 + skill_value("Speed_Phantom", sh["level_speed_phantom"], r"([\d.]+)% additional Spell Damage, up to") * 8 * sp_eff / 100
     m["Spell Aggression"] = 1.07 if ctx["spell_aggression"] else 1.0
     if t.get("special.judgment_slate_bonus"):
         m["Judgment Offspring (+3% per slate on the line)"] = 1 + t["special.judgment_slate_bonus"] * ctx.get("slates_on_line", 0) / 100

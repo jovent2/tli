@@ -229,9 +229,13 @@
    "slot": 1,
    "name": "Memory of Origin (revived)",
    "lines": [
-    "+176 Intelligence"
+    "+176 Intelligence",
+    "+26% Cast Speed",
+    "+18% Minion Critical Strike Damage",
+    "+47% Cold Skill Critical Strike Damage",
+    "+40% Projectile Speed"
    ],
-   "note": "2026-10-27 tooltip: lv86, 50/50, trait level +3, revived (count 1, no limit). Base stat +176 INT (+60% from Wax and Wane). Revived affix: Base Trait slot (Epic or lower Progress memory, -58%). No other affixes on the tooltip; before revival it had +110 INT, +16% cast, +18% minion crit dmg, +47% cold skill crit dmg, +40% proj speed."
+   "note": "2026-10-27: revived (Base Trait slot revived affix). Vlad: +176 INT, 26% cast speed, 18% minion crit dmg, 47% cold skill crit dmg, 40% proj speed (the tooltip screenshot didn't show the affixes). Before revival: 110 INT, 16% cast."
   },
   {
    "slot": 2,

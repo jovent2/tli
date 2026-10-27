@@ -79,8 +79,13 @@ def main(argv=None):
                 problems.append(f"{key} {nid}: column {n['column_points']} pts, panel has {spent}")
             x, y = map(int, nid.split("_"))
             left = [c for c in n.get("connects", []) if int(c.split("_")[0]) < x]
-            if left and not any(c in pa["nodes"] or c == pa.get("prism_at") for c in left):
-                problems.append(f"{key} {nid}: needs {left} first")
+            # [Vlad 2026-10-27] the left (paired) node must be MAXED before the right one takes points; a prism cell counts as maxed
+            def maxed(c):
+                if c == pa.get("prism_at"): return True
+                ln = lay.get(c, {}); lmr = ln.get("max_rank") or (1 if "Legendary" in (ln.get("name") or "") else 3)
+                return pa["nodes"].get(c, 0) >= lmr
+            if left and not any(maxed(c) for c in left):
+                problems.append(f"{key} {nid}: needs {left} maxed first")
             lines = [l for l in n["lines"] if not l.startswith("(Max Active") and l != "Legendary Medium Talent"]
             if a.nodes:
                 print(f"  {nid} col{n.get('column_points')} {n['name']} x{rank}: " + " · ".join(lines))

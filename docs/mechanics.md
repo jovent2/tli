@@ -114,6 +114,9 @@ DPS = Base
 - Restrain's compensation is local to its aura; Lone Walker's "+2% aura effect per +3%" reads the global stat (assumed).
 - tlidb glossary says each INT gives +0.05% max ES; Vlad's character doesn't have it — don't count it.
 
+### Talent pairing [Vlad 2026-10-27]
+- A node paired to the one on its left needs that left node **maxed** (3/3, or 1/1 for a legendary) before it takes any point. A prism cell counts as maxed. `tools/tree.py` and `tools/tree_opt` enforce it; every plan tree before 19:28 on 2026-10-27 broke this rule.
+
 ### Hit cap, prisms, Pedigree [2026-10-27]
 - **5T per hit** [Vlad]: engine caps every projectile hit (crit x double/quad x damage roll) at 5e12; the real hit is the model hit / dummy_scale (hit-rate constant).
   Current build: biggest hit ~1.7T, no effect. Big multipliers past ~x2 start losing to the cap; variance (Impermanence) loses most.

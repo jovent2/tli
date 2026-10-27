@@ -252,3 +252,13 @@ Vlad's plan: Lich out, Warlock in (Dirty Tricks core), Pedigree -> 2-core Pedigr
   Sentinel's 21 block points cost x0.66 of tree damage; external block (fates, orange, ring) is cheaper per block point.
 - Ring R frostbite in the panel runs was T1 32 everywhere: Prophet's rating nodes already trimmed to +12 (608_80 x1, 736_80 x2), the rest moved to INT/pen.
   Prophet / SV tree ratio by ring frostbite: 20 (now) x1.355 · T1 32 x1.19 (final 26.8 vs 23.5) · T0 42 x1.13 (Prophet frees ~2 more points; final ~x1.08-1.10).
+
+## RE-RUN under the real pairing rule (left node maxed; Vlad 2026-10-27 19:28). Everything tree-based above this line is superseded.
+- Validator and optimizer were wrong (left node only needed 1 point). Current trees.json passes the real rule; every plan tree failed it.
+  `tools/tree_opt/opt3.py` = new search (pair moves, wider swaps). LW plan trees (plan_trees_{tank,damage}_{micro,medium}.json) are INVALID, redo when LW comes back.
+- **Reshuffle now (Lich kept): x1.066, 36.1 -> 38.5 T** (`plan_trees_reshuffle_now.json`): GoK +18% damage 1->3; Magister +20% spell crit 1->3,
+  Focus duration 480_176 3->0, Focus-on-Spell-Burst 1->0. (The x1.134 earlier was illegal.)
+- B1 (Lich -> Warlock, Def + OTBT, block-plan gear incl. ring T1 frostbite): **Prophet 33.4 T tree-only -> block plan 22.2 T** (zero memory rolls; 22.6 with 2).
+  Prophet now must run 608_80 3/3 -> 736_80 3/3 -> 864_80 for the +10% vs Frozen: 7 points, worth only x1.015 over the best other use of 7 points.
+- **Steel Vanguard instead: 31.3 T tree-only -> 22.0 T** (`plan_trees_warlock_sv.json`; SV 28 pts: ES 6, ele res 6, crit 6, aura effect 6, 736_176 3/3 + 8% legendary;
+  GoK 32). Within noise of Prophet; SV's 18% ele res covers lightning + cold with no res kismets.

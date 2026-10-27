@@ -31,7 +31,7 @@ def valid(alloc, prism=None):
             c = CELLS[k][nid]
             if r > c["mr"]: probs.append(f"{k} {nid} rank")
             if tot < c["gate"]: probs.append(f"{k} {nid} gate {c['gate']}")
-            if c["left"] and not any(l in nodes or (prism and prism[0] == k and prism[1] == l) for l in c["left"]):
+            if c["left"] and not any(nodes.get(l, 0) >= CELLS[k][l]["mr"] or (prism and prism[0] == k and prism[1] == l) for l in c["left"]):   # left must be MAXED [Vlad]
                 probs.append(f"{k} {nid} needs {c['left']}")
             if prism and prism[0] == k and prism[1] == nid: probs.append(f"{k} {nid} under prism")
     return probs

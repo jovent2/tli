@@ -108,3 +108,8 @@ DPS = Base
 ### Dummy calibration constant [fitted 2026-10-27]
 - Sheet = model on every stat, ratio tests within ~5%, absolute pulls were +35% (full) / +26% (standing still). Engine carries one fitted constant `dummy_scale` = 0.767.
 - Vlad: res and armor are right; the gap is Chromatic shots flying off ("bolts into narnia"), i.e. a hit-rate constant. It scales everything equally, so it changes no upgrade price (pen/arp included).
+
+### Sealed mana [tlidb]
+- Actual Sealed Mana = Initial Sealed Mana / (1 + Sealed Mana Compensation). Auras seal 50% each, times each support's Mana Cost Multiplier (AA 100%, Restrain 100%, Increased Area 110%, CDR 110%, Seal Conversion 100%; Off The Beaten Track fixes supports at 95%).
+- Restrain's compensation is local to its aura; Lone Walker's "+2% aura effect per +3%" reads the global stat (assumed).
+- tlidb glossary says each INT gives +0.05% max ES; Vlad's character doesn't have it — don't count it.

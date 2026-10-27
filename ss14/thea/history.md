@@ -27,3 +27,4 @@
 - **2026-10-27 13:15** dummy_scale = shot hit rate (Vlad: res/armor right). Priced Precise auras, Weapon Amp swap and Stand as One (plans.md).
 - **2026-10-27 13:19** Weapon Amp corrected to phys-origin share (86.7%): Precise WA in DE's place x1.024 (not x1.072); as a 5th aura x1.438. Engine auras now data-driven (Precise versions, Stand as One, WA split).
 - **2026-10-27 13:24** Engine: global aura effect (aura.effect), AA only where supported, granted auras (Lone Walker's). Lone Walker's priced (plans.md).
+- **2026-10-27 13:38** Lone Walker's compensation scaling priced; OTBT made a context switch; no INT->ES (Vlad).

@@ -100,10 +100,20 @@ All multipliers on the sheet in `stats.json` unless dated. FE per 1% = expected 
 - tlidb: +1615 evasion · granted random Lv20 Precise bonus-damage aura (want: Precise Spell Amplification) · +50% MS · +(15-30)% aura effect at 4-5+ auras · +2% aura effect per +3% Sealed Mana Compensation.
 - Compensation 18% (Vlad: from the prism): Spell Ripple prism gives +2% comp to the mediums in its area, 3 mediums x 3 ranks = 18% -> +12% aura effect. Not in build.json yet (prism lines missing; add them).
 - Costs: Hasten (x1.08 additional cast + 7% cast). Crit mitigation 118% now (58 boots + 60 Fluffy Ball) -> a second Fluffy Ball (medium 40-60%) in place of a medium INT (~25). Fire res 61% (boots 22 + rings 12/27) -> 39%; +21 needed; fire fates 5-7 / 10-14 = 2.25 INT per 1% -> ~50 INT. Total ~-77 INT.
-- ES (build): flat 3,337 (helmet 347, chest 508, gloves 469, boots 720, belt 220, rings 431, Discipline 642) x (1 + trees 90% + slate 9.24% + INT 0.05%/pt 27.2%) ~7.55k.
+- ES (build): flat 3,337 (helmet 347, chest 508, gloves 469, boots 720, belt 220, rings 431, Discipline 642) x (1 + trees 90% + slate 9.24%) ~6.65k (Vlad: no INT -> ES bonus on his character). LW + Precise EF ~8.1k (+22%); LW without EF ~5.2k (-22%).
 - Precise Energy Fortress lv25: +346 ES, +19.3% additional, x aura effect (AA 12.25 + boots 39 at a 27% roll = x1.51) -> +524 ES, +29% additional.
 - Results at -77 INT (roll 15 / 27 / 30%):
   - EF in Spell Amp's slot: x1.05 / **x1.18** / x1.21 damage, ES ~8.75k / 9.03k / 9.10k (+16-20%).
   - Precise WA in Spell Amp's slot + EF in DE's slot: x1.08 / **x1.21** / x1.25, same ES (loses DE's area at 8+ enemies).
   - Precise WA, no EF: x1.61 / **x1.87** / x1.95, ES ~5.82k (-23%).
 - Need: LW price for a Spell Amp + ~27% roll.
+
+### Lone Walker's as a compensation-scaling build (2026-10-27)
+- Rule [tlidb]: actual sealed mana = initial / (1 + compensation). Auras seal 50%. Support mana multipliers: AA 100%, Restrain 100%, Increased Area 110%, CDR 110%, Seal Conversion 100%; Off The Beaten Track fixes them at 95%.
+- Now: 3 mana auras x 50% x 0.95^3 / (1 + 18% + Restrain 14.5%) = 97.1% sealed.
+- Vlad's idea: drop the filler supports and OTBT, take +1 all skills -> supports lv26 (Restrain 13%). Global compensation needed:
+  all 4 auras on mana: 87% (91% keeping ~2% mana free) · keep OTBT instead: 66% · Frigid on life (Seal Conversion), 3 on mana: 37%.
+- LW then turns every +3% global compensation into +2% aura effect on all 5 auras (~0.75% damage per 1% compensation).
+- DPS vs now (LW, Precise WA in Spell Amp's slot, -77 INT, no Hasten, no OTBT, +1 all, 27% roll): comp 87% all on mana (loses Lich's +10% sealed mana+life) x3.09 · comp 87% Frigid on life x3.40 · comp 37% Frigid on life x2.29 · comp 60% x2.77.
+- Global compensation sources: Lich (legendary +8% MAD1, medium 3% x3, micro 1.5% x3), helmet ultimate prefix 15-20% + base 6-8% (or corrosion base 10-15%), necklace ultimate suffix 15-20% + base 6-8%, prism area +2% per rank on nodes (now 18%), Lich/Nether King slates +8% / +3%, Glacier Caster Shield (offhand, n/a).
+- Engine: `off_the_beaten_track` context switch added.

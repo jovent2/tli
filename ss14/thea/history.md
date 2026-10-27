@@ -16,3 +16,4 @@
 - **2026-10-27** Slate facts from Vlad: 2 leg + 1 rare on every base, brands can't duplicate slate nodes, free medium/purple overwrite, the 8% additional line is Arcanist's. Base and pact prices logged; plan = buy +1 Spell + +1 Cold base (400) and Arcanist-pact it (tools/slate_plan.py).
 - **2026-10-27** New S+C GoK slate: Arcanist Focus on the first pact (484 FE total). Keeping the second orange as a medium. Replaces GoK #2 (predicted x1.159 belt on, x1.105 belt off).
 - **2026-10-27 12:30** New GoK #2 equipped: fixed +1 Cold, +1 Spell; +6% life/+6% ES purple; Arcanist Focus; +12% area/+12% proj speed medium. Chromatic Lv40. Pull: belt off + Ring L off 9.4 T (model 9.55, +1.6%). Model with belt 34.0 T.
+- **2026-10-27 12:32** Pact page re-read (matches the encoded spirits). Kismets: 152 INT, 14% crit dmg, 20% lightning res, 60% crit mitigation (was 173 INT + 24 res guess). Model x0.997, INT 469, absolute pull now +0.8%.

@@ -54,6 +54,7 @@ DPS = Base
 
 ### Projectiles [tested]
 - Chromatic Shot fires 3 shots, shotgun falloff 80%. Lightchaser's tracking makes extra projectiles overlap (Multiple Projectiles was worth ~×1.33 with Lightchaser, not ×1.49).
+- **Open (2026-10-27):** Iron Lion r1 (Sword Rain, outer ring) gives Projectile Quantity +2 → Chromatic should fire 5, but the engine counts 3 (1 + 0.8 + 0.64). The absolute pull still matches (9.4 vs 9.5 T), so the projectile factor is effectively calibrated, not derived. tlidb wording: "-20% base damage coefficient for subsequent Projectiles of Shotgun Effect"; "Shotgun Effect takes effect when dealing damage to the same enemy more than once" → reads as each extra shot at 80% (linear: 5 shots = 4.2, 7 = 5.8 → MP ×1.38, close to the measured ×1.33). Price anything that changes projectile quantity from a pull, not the engine. Losing Iron Lion would cost ~×0.62 on that read.
 
 ### Gale (Marksman core / belt base affix) [tlidb][tested]
 - "60% of the Projectile Speed bonus is also applied to the additional bonus for Projectile Damage."

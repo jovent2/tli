@@ -429,24 +429,12 @@
   }
  ],
  "kismets": {
-  "_about": "13 destiny slots. Originally all INT (9 micro 12-15, 4 medium 24-30). 2026-10-26: 4 micros swapped to lightning res (5-7). Current layout unknown.",
+  "_about": "13 destiny slots (9 micro, 4 medium) on the pact board: 6 on Witch's Spell Dmg I x2 / Spell Dmg II / Cast I x2 / Cast II positions, 3 on Iron Lion's knockback positions, 4 on Dreamweaver's Ele Dmg I / Cast I x2 / Cast II positions. 2026-10-27: Vlad's totals 152 INT, 14% crit dmg, 20% lightning res, 60% crit strike damage mitigation. Per-slot split unknown (the gold medium on Iron Lion and the pink micro on Witch are the odd ones; likely the crit dmg / mitigation carriers).",
   "lines": [
-   "+13 Intelligence",
-   "+13 Intelligence",
-   "+13 Intelligence",
-   "+13 Intelligence",
-   "+13 Intelligence",
-   "+27 Intelligence",
-   "+27 Intelligence",
-   "+27 Intelligence",
-   "+27 Intelligence",
-   "+6% Lightning Resistance",
-   "+6% Lightning Resistance",
-   "+6% Lightning Resistance",
-   "+6% Lightning Resistance"
-  ],
-  "unknown": [
-   "actual rolls and layout"
+   "+152 Intelligence",
+   "+14% Critical Strike Damage",
+   "+20% Lightning Resistance",
+   "+60% Critical Strike Damage Mitigation"
   ]
  },
  "skills": {

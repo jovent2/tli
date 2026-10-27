@@ -250,3 +250,5 @@ Vlad's plan: Lich out, Warlock in (Dirty Tricks core), Pedigree -> 2-core Pedigr
   Node value on the block-plan tree: Prophet frostbite package 8 pts x1.390 (effect 44% x1.180, rating +12 to the cap x1.077, +10% vs Frozen x1.100),
   INT 4 pts x1.106, cold pen 3 pts x1.047, crit 6 pts x1.128 · SV aura effect 6 pts x1.171, 8% legendary path 2 pts x1.090, crit x1.128, ele res x1.000.
   Sentinel's 21 block points cost x0.66 of tree damage; external block (fates, orange, ring) is cheaper per block point.
+- Ring R frostbite in the panel runs was T1 32 everywhere: Prophet's rating nodes already trimmed to +12 (608_80 x1, 736_80 x2), the rest moved to INT/pen.
+  Prophet / SV tree ratio by ring frostbite: 20 (now) x1.355 · T1 32 x1.19 (final 26.8 vs 23.5) · T0 42 x1.13 (Prophet frees ~2 more points; final ~x1.08-1.10).

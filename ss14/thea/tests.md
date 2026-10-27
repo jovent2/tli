@@ -47,3 +47,5 @@ Quad-damage RNG gives roughly ±10% on a single pull.
 | Config | Measured (belt off) | Model | Notes |
 |---|---|---|---|
 | New GoK #2 (+1 Cold, +1 Spell, Arcanist Focus, +6% life/ES, +12% area/proj speed), belt off + Ring L (INT ring) off | 9.4 | 9.55 | -1.6%. Ring off to stay under the 10 T display cap. Model belt-off without the ring removal: 12.78 T; with belt 34.0 T. Ring assumed L (Ring R off would be 6.1). |
+| SOU cast-speed test (10 Focus): both out / WFB x3 / ME / both | 231 / 240 / 247 / 256 | 231 / 239.8 / 247.2 / 256 (empower 2.042) | Mass Effect full confirmed |
+| Standing still (Speed Phantom not cast), belt off + Ring L off | 6.8 | 8.55 | +26%: absolute scale off; Speed Phantom share x1.382 measured vs x1.485 |

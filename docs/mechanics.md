@@ -99,8 +99,8 @@ DPS = Base
 - **Kismets (Destinies)**: installed into pact-page minor nodes, replacing their effect.
 - **Pantheon's Elegy dirges** [Vlad]: Goddess of Hunting = Precise: Swiftness gains +120% attack and cast speed (scales with aura effect); Steel Vanguard = lv20 Swiftness Dew and Resistance Dew.
 
-### Mass Effect charges (open, 2026-10-27)
-- Mass Effect: "+22.5% effect for the supported skill for every +1 Charge, up to +67.5%" (lv29). Vlad: 3 charges (ME, Fallen Starlight, Lich) -> full.
-- Pulls (belt off + Ring L off): full 9.4, standing still 6.8 (SP off only; the follower keeps casting Swift Shadow Raid).
-- Model at 3 charges: 12.70 / 8.55 (+35% / +26%). At 1 charge with Periodic Burst +30 (tlidb value; was +20): 9.88 / 7.25 (+5% / +7%) and sheet cast 255 vs 256. Build context set to 1 charge until the tooltip says otherwise. Decider: buff tooltips in the fight — Aim +78.1% (3) vs +60.9% (1); SOU +37.2% / 6.13% cast per Focus vs +29.0% / 4.78%; Euphoria 5.44% vs 3.98% per stack.
+### Empower effect [tested 2026-10-27]
+- SOU cast-speed test (Vlad, 10 Focus): both supports out 231, Well-Fought Battle x3 only 240 (229 -> 233 -> 236 -> 240), Mass Effect only 247, both 256. SOU's 24% cast (3% x 8 Focus) scales x1.375 (WFB x3), x1.667 (ME), x2.04 (both). **Mass Effect is at full +67.5% (3 charges); empower effect 2.04 = model.**
+- Follower (Tartarus) Periodic Burst = +20% atk/cast speed [Vlad] (the player support's text is +30% for 2 s — different skill).
 - Weakness Infiltration on Speed Phantom: +30% Infiltration Effect taken -> Tartarus Cold Infiltration 13% -> 16.9% while Speed Phantom hits (modeled).
+- Absolute pulls (belt off + Ring L off): full 9.4 vs model 12.70 (+35%); standing still (no Speed Phantom) 6.8 vs 8.55 (+26%); Speed Phantom share x1.382 vs x1.485. Ratio tests are within ~5%, so the absolute scale is off by one constant (enemy res/armor, the fitted projectile factor 2.44, or tangles). Open.

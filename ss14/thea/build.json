@@ -18,9 +18,9 @@
   "enemy_cursed": true,
   "dashed_recently": true,
   "slates_on_line": 3,
-  "mass_effect_charges": 1,
-  "periodic_burst": 30,
-  "_mass_effect_note": "2026-10-27: 1 charge (+22.5%) fits both pulls (9.4 / 6.8) and, with Periodic Burst +30, the 256 cast speed sheet. Vlad expects 3 (ME + Fallen Starlight + Lich) -> +67.5%, which overshoots the pulls by 35%/26%. Confirm from the Aim buff tooltip (+60.9% at 1 charge, +78.1% at 3)."
+  "mass_effect_charges": 3,
+  "periodic_burst": 20,
+  "_mass_effect_note": "2026-10-27 SOU cast-speed test (Vlad): both out 231, WFB x3 only 240 (229->233->236->240), ME only 247, both 256 -> SOU's 24% cast x1.375 / x1.667 / x2.04. Mass Effect is at full (3 charges), WFB 3 stacks ~+37.5%. Model empower 2.042 matches."
  },
  "hero": {
   "name": "Thea",

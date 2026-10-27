@@ -177,7 +177,7 @@ def sheet(build, trees):
     if "Secret Origin Unleash" in dis:
         sou_cast = 0
     aim_pen = 0 if "Aim" in dis else -16
-    burst = 0 if "Swift Shadow Raid" in dis else ctx.get("periodic_burst", 30)   # tlidb: +30% atk/cast speed for 2 s (best-window reads include it)
+    burst = 0 if "Swift Shadow Raid" in dis else ctx.get("periodic_burst", 20)   # follower (Tartarus) Periodic Burst: +20% [Vlad]; the player support is +30% for 2 s
     cast = t["cast.inc"] + 4 * ctx["agility"] + sou_cast * sh["empower_effect"] + aim_pen + burst  # Agility, SOU, Aim -16 (flat), Periodic Burst +20
     sh["cast_speed"] = cast
     sh["proj_speed"] = t["proj.speed"] + (0 if "Swift Shadow Raid" in dis else 40) + (0 if "Precise Projectiles" in dis else

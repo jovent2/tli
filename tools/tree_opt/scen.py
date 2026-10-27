@@ -38,22 +38,21 @@ def valid(alloc, prism=None):
 def area(prism):
     k, nid, W, H, c0, r0 = prism
     return [cid for cid, c in CELLS[k].items() if c0 <= c["ci"] < c0 + W and r0 <= c["ri"] < r0 + H and cid != nid]
+KINDS = ("m",)   # which node kind the prism's compensation affix counts: ("m",) micro or ("M",) medium (Vlad: one or the other)
 def prism_stats(alloc, prism, per=3.5):
     k = prism[0]; nodes = alloc.get(k, {})
-    comp = sum(per * nodes.get(cid, 0) for cid in area(prism) if CELLS[k][cid]["kind"] in ("m", "M"))
+    comp = sum(per * nodes.get(cid, 0) for cid in area(prism) if CELLS[k][cid]["kind"] in KINDS)
     legs = sum(1 for cid in area(prism) if CELLS[k][cid]["kind"] == "L" and nodes.get(cid, 0) > 0)
     return comp, legs
-def placements(k, shapes=((4, 3), (3, 4))):
+def placements(k, shapes=("3x4", "4x3")):
+    """Vlad: 3x4 = 1 column left, 1 right, 1 row above, 2 below. 4x3 = 1 left, 2 right, 1 above, 1 below."""
     out = []
     for nid, c in CELLS[k].items():
-        for W, H in shapes:
-            # prism inside the rectangle, as central as possible: odd dim -> centred, even dim -> either middle cell
-            cos = [c["ci"] - W // 2] if W % 2 else [c["ci"] - W // 2, c["ci"] - W // 2 + 1]
-            ros = [c["ri"] - H // 2] if H % 2 else [c["ri"] - H // 2, c["ri"] - H // 2 + 1]
-            for c0 in cos:
-                for r0 in ros:
-                    if c0 < 0 or r0 < 0 or c0 + W > 7 or r0 + H > 5: continue
-                    out.append((k, nid, W, H, c0, r0))
+        for sh in shapes:
+            W, H = (3, 4) if sh == "3x4" else (4, 3)
+            c0, r0 = c["ci"] - 1, c["ri"] - 1
+            if c0 < 0 or r0 < 0 or c0 + W > 7 or r0 + H > 5: continue
+            out.append((k, nid, W, H, c0, r0))
     return out
 def current_alloc():
     tr = json.load(open(''+__import__('os').path.join(__import__('os').path.dirname(__file__), '..', '..', 'ss14', 'thea', 'trees.json')+''))

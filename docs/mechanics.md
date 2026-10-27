@@ -119,7 +119,7 @@ DPS = Base
   Current build: biggest hit ~1.7T, no effect. Big multipliers past ~x2 start losing to the cap; variance (Impermanence) loses most.
 - Ethereal Prism [tlidb]: installs on a non-core node (that node is lost; the slot still satisfies pairing for the next node). Area affixes
   ("All Micro/Medium/Legendary Medium Talent within the area also gain ...") scale per rank. Phantasmagoria: +75% to random affixes (2% -> 3.5% comp).
-  Area anchor for even sizes (4 wide) is unconfirmed — check which side the extra column goes in game.
+  Area anchors [Vlad]: 3x4 = 1 column left, 1 right, 1 row above, 2 below; 4x3 = 1 left, 2 right, 1 above, 1 below. A Phantasmagoria rolls ONE comp affix: micro OR medium.
 - Defense [tlidb glossary] = Armor + Evasion + Energy Shield.
 - Pedigree of Gods variants [tlidb]: <micro/medium> <micro/medium> <medium or Lv.1 core> | <micro/medium> <medium or Lv.1 core> <Lv.2 core>. Lv.1 = 12-pt god cores, Lv.2 = 24-pt cores.
 - Impermanence [tlidb]: phys min x0.1 / max x1.8, then all min x0.68 / max x1.32 -> average base x1.43 (modeled via the damage range).

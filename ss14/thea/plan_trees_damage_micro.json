@@ -1,5 +1,5 @@
 {
- "_about": "PLAN damage_left (not equipped): Lich -> Warlock (Dirty Tricks), Phantasmagoria on Prophet 608_176, area 4 wide x 3 tall starting at column index 2 (0 = x96), rows 80-272. Prophet core Frozen Lotus. Pedigree: Defensiveness + Insight. Freed aura slot: Precise: Weapon Amplification.",
+ "_about": "PLAN damage, micro-comp Phantasmagoria at Prophet 352_176 (4 wide x 3 tall, 1 left / 1 above). Lich -> Warlock (Dirty Tricks), Frozen Lotus. Not equipped.",
  "panels": [
   {
    "panel": "Goddess_of_Knowledge",
@@ -42,24 +42,24 @@
    "panel": "Prophet",
    "core": "Frozen Lotus",
    "nodes": {
-    "224_176": 1,
+    "224_176": 3,
     "224_272": 3,
-    "352_176": 3,
     "352_272": 3,
     "352_80": 3,
     "480_176": 1,
     "480_272": 1,
     "480_80": 3,
+    "608_176": 3,
     "608_272": 3,
     "608_80": 3,
-    "736_176": 3,
+    "736_176": 1,
     "736_272": 3,
     "736_80": 3,
     "864_176": 1,
     "864_80": 1,
     "96_272": 3
    },
-   "prism_at": "608_176"
+   "prism_at": "352_176"
   },
   {
    "panel": "Warlock",

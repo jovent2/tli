@@ -18,7 +18,7 @@ def setup(alloc, prism, n_leg=2):
     locks = dict(O.LOCKS)
     for cid in S.area(prism):
         c = S.CELLS[k][cid]
-        if c["kind"] in ("m", "M"):
+        if c["kind"] in S.KINDS:
             a[k][cid] = c["mr"]; locks[(k, cid)] = c["mr"]
             for ch in chain(k, cid, a, prism): a[k].setdefault(ch, 1); locks[(k, ch)] = max(1, locks.get((k, ch), 0))
     legs = [cid for cid in S.area(prism) if S.CELLS[k][cid]["kind"] == "L"]
@@ -92,3 +92,29 @@ if __name__ == "__main__":
         print(pr, "x", round(cur[1], 3), "comp", cur[2], "legs", cur[3], "valid", not S.valid(a, pr), {k: sum(v.values()) for k, v in a.items()}, flush=True)
         res.append({"prism": pr, "x": cur[1], "comp": cur[2], "legs": cur[3], "alloc": a})
     json.dump(res, open('/tmp/claude-0/-home-claude/51955565-d5d5-5a4a-a40e-88663b34fdef/scratchpad/wl/best2.json', 'w'))
+
+def run_pretrim(prism, start, kw, extra_locks, n_leg=2):
+    """Robust variant: measure how many ranks setup() adds, free that many first (lowest value, valid removals), then fill."""
+    base_locks = dict(O.defensive_locks()); base_locks.update(extra_locks)
+    a0 = copy.deepcopy(start)
+    for (k, n), r in extra_locks.items(): a0.setdefault(k, {})[n] = max(a0[k].get(n, 0), r)
+    filled, _ = setup(a0, prism, n_leg)
+    over = sum(sum(v.values()) for v in filled.values()) - 110
+    a = copy.deepcopy(a0); O.LOCKS = base_locks
+    area_cells = set(S.area(prism)) | {prism[1]}
+    for _ in range(max(0, over)):
+        best = None
+        for k in S.PANELS:
+            for nid, r in list(a.get(k, {}).items()):
+                if r <= base_locks.get((k, nid), 0): continue
+                if k == prism[0] and nid in area_cells: continue
+                a2 = copy.deepcopy(a); a2[k][nid] -= 1
+                if a2[k][nid] == 0: del a2[k][nid]
+                if S.valid(a2, None): continue
+                sc = O.score(a2, None, kw)[1]
+                if best is None or sc > best[0]: best = (sc, a2)
+        if best is None: break
+        a = best[1]
+    a, locks = setup(a, prism, n_leg); locks.update(base_locks); O.LOCKS = locks
+    a = trim(a, locks, prism, kw)
+    return search(a, locks, prism, kw)

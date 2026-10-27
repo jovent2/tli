@@ -29,3 +29,4 @@
 - **2026-10-27 13:24** Engine: global aura effect (aura.effect), AA only where supported, granted auras (Lone Walker's). Lone Walker's priced (plans.md).
 - **2026-10-27 13:38** Lone Walker's compensation scaling priced; OTBT made a context switch; no INT->ES (Vlad).
 - **2026-10-27 13:46-14:xx** Planned Lich -> Warlock / Phantasmagoria / Lone Walker's (plans.md). Engine: 5T hit cap, Impermanence, Spell Ripple / Dirty Tricks switches, vs-cursed, curse effect, Boon margin. tools/tree_opt added.
+- **2026-10-27 14:10** Phantasmagoria plan corrected (one comp type per prism, Vlad's area anchors): micro prism on Prophet 352_176 tank x1.57 / damage x2.40; medium prism on 608_176 x1.47 / x2.23.

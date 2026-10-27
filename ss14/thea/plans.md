@@ -118,7 +118,7 @@ All multipliers on the sheet in `stats.json` unless dated. FE per 1% = expected 
 - Global compensation sources: Lich (legendary +8% MAD1, medium 3% x3, micro 1.5% x3), helmet ultimate prefix 15-20% + base 6-8% (or corrosion base 10-15%), necklace ultimate suffix 15-20% + base 6-8%, prism area +2% per rank on nodes (now 18%), Lich/Nether King slates +8% / +3%, Glacier Caster Shield (offhand, n/a).
 - Engine: `off_the_beaten_track` context switch added.
 
-## Lich -> Warlock + Phantasmagoria + Lone Walker's (planned 2026-10-27, `tools/tree_opt/`, `plan_trees_*.json`)
+## Lich -> Warlock + Phantasmagoria + Lone Walker's — FIRST PASS, SUPERSEDED (counted micro AND medium comp; wrong area anchor)
 Vlad's plan: Lich out, Warlock in (Dirty Tricks core), Pedigree -> 2-core Pedigree (Defensiveness + a damage Lv.1 core), Spell Ripple prism out
 (Frozen Lotus core back), Ethereal Prism: Phantasmagoria (+75% random affixes: 3.5% sealed mana comp per micro/medium rank in area,
 "2 legendary mediums in area: Immune to CC / -25% Defense"), Lone Walker's (comp -> aura effect), Frigid on life.
@@ -136,3 +136,14 @@ Vlad's plan: Lich out, Warlock in (Dirty Tricks core), Pedigree -> 2-core Pedigr
 - Costs to fix: Boon margin 1.03 -> 0.93 (Lich's 12.5% CDR gone; needs +9% CDR or +12% duration, else 2nd stack ~86% uptime, ~x0.94 sustained);
   Mass Effect 3 -> 2 charges and +1 all skills (lvl 39) gone (both modeled); CC immune costs 25% Defense (= armor + evasion + ES).
 - Assumptions: Phantasmagoria has both the micro and medium 3.5% affix and it scales per rank (like Spell Ripple's 18%); LW roll 27%; Defense -25% added to the ES% pool.
+
+## Lich -> Warlock + Phantasmagoria + Lone Walker's — corrected 2026-10-27 14:10 (`plan_trees_{tank,damage}_{micro,medium}.json`)
+- Vlad: a Phantasmagoria has EITHER "3.5% comp per micro" OR "per medium" in its area (per rank, like Spell Ripple's 18%). Areas: 3x4 = 1 col left, 1 right,
+  1 row above, 2 below; 4x3 = 1 left, 2 right, 1 above, 1 below. Need 38% (Frigid on life, no OTBT) + 2 legendaries (CC).
+- **Micro prism (best): Prophet 352_176** (the empty +6% attack/cast medium), 4x3 = columns 224-608, rows 80-272. Micros counted: +15% crit (have),
+  +2 max frostbite (have), +3% attack/cast (new 3), +4% frostbite effect (new 3, Spell Ripple's old cell), +4% cold res (have), +8 INT (new 3) = 18 ranks = 63%.
+  Legendaries: cold res (have) + "Inflicts Frostbite" (1 pt, CC only). Tank x1.57 (Impermanence, 54 T, ES ~7.2k +8%) / damage x2.40 (Insight, 82 T, ES ~4.3k -35%).
+- **Medium prism: Prophet 608_176** (Spell Ripple's cell), 3x4 = columns 480-736, rows 80-368. Mediums: crit (have), +5 max frostbite (have), +8% frostbite effect (have),
+  +5% INT (new 3), 2.5% regain (new 3) = 15 ranks = 52.5%. Tank x1.47 (Impermanence, 51 T, ES ~7.0k) / damage x2.23 (Insight, 77 T).
+- Pedigree Lv.1 core: tank (Energy Fortress, hits stay under 5T) -> Impermanence; damage (Precise WA, cap bites) -> Insight. Third time's a charm last in both.
+- Warlock 24 is the same in every variant. Boon CDR (margin 0.93) parked by Vlad.

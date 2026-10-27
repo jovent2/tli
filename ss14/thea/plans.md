@@ -216,3 +216,12 @@ Vlad's plan: Lich out, Warlock in (Dirty Tricks core), Pedigree -> 2-core Pedigr
   - Result (sustained, Boon full): current memories **19.0 T** mid rolls (memory 28, ring T1 13.5, belt T0 18, 3 block fates) / 20.0 T max rolls;
     + Discipline cast + block 3,333: 20.9 T (x1.100, 333 FE per 1%). Converts: Discipline 41% spell crit, Progress 104% crit rating, orange 18% x2, belt + ring INT.
   - Tip: buy the Pedigree now but slot it (and respec Lich -> Warlock) when the belt is ready: in between the Boon dip makes it 30.5 T sustained.
+- **Full layout v2 (Vlad 16:27 + belt pool)** -> **21.7 T sustained** (Boon 1.089):
+  - Belt (Arcanist Girdle, 20% CDR base + Gale; 1 adv + 2 ult + basics): prefix = Adv Attack & Spell Block T0 · Ult -(16-18)% additional damage taken at Low Mana
+    (Low Mana = under 35% mana; 97% sealed -> always on) · Basic % damage T0 73-94 (+0.8 T vs 47%). Suffix = Ult Double Damage (only 7% counts, 193 -> 200 cap: x1.036)
+    · Basic lightning T0 + cold (T1 is enough). Loses the old belt's 220 ES and its 16% erosion (erosion 43 -> 27).
+  - Res: lightning ring 22 + belt ~31 + 1 kismet ~7 = 60; cold belt + ring 12 + Prophet 30 >= 60; fire 61 unchanged. Frees 2 lightning micro kismets.
+  - Kismets: 2 big INT -> medium attack + spell block; 1 small INT -> micro attack block; freed lightning micros -> 1 micro attack block + 1 INT. INT ~400.
+  - Block (avg rolls): attack belt 19 + ring 19 + orange 11 + medium 13.5 + 2 micros 7 + 1 memory roll 28 = 104.5; spell belt 19 + ring 19 + orange 11 + medium 13.5
+    + 1 memory roll 28 + Magister micro x3 12 = 102.5. Memory rolls: Discipline 41% spell crit (attack) + Progress 104% crit rating (spell); keeps both proj speeds,
+    47% cold crit, 54% spell crit. Vlad's version with 1 micro attack fate: 19.7 T (belt 47%, no Double) but attack 97.5-99 at average rolls.

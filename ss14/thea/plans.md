@@ -262,3 +262,42 @@ Vlad's plan: Lich out, Warlock in (Dirty Tricks core), Pedigree -> 2-core Pedigr
   Prophet now must run 608_80 3/3 -> 736_80 3/3 -> 864_80 for the +10% vs Frozen: 7 points, worth only x1.015 over the best other use of 7 points.
 - **Steel Vanguard instead: 31.3 T tree-only -> 22.0 T** (`plan_trees_warlock_sv.json`; SV 28 pts: ES 6, ele res 6, crit 6, aura effect 6, 736_176 3/3 + 8% legendary;
   GoK 32). Within noise of Prophet; SV's 18% ele res covers lightning + cold with no res kismets.
+
+## BLOCK PLAN — full run 2026-10-27 20:30 (`tools/tree_opt/blockplan.py` + `blockfit.py`; plan trees `plan_trees_block_lich_*.json`)
+Spec (Vlad): Lich -> Warlock (Dirty Tricks), Pedigree Defensiveness + OTBT, Spell Ripple prism (3x3 centred, +2% comp per medium rank, eaten cell counts
+as maxed for pairing) on any non-god panel, new Arcanist Girdle (20% CDR base + Gale, 2B/2A/2U over 3+3), block 100/100 from anything except boots,
+res 60/60/60/40, ring R frostbite T1, belt/ring/fates divined, memory block NOT divined (28), kismets 9 micro + 2 medium (2 mediums reserved = blank),
+ES nodes free, EHP = ES vs elemental hits (res x0.40, block 55% x0.45, Low Mana x0.82 = ES x6.78; now ES x2.5). Model ES pinned to the sheet (7.3k) with +129 flat.
+- Search: all 22 non-god panels x every prism cell with >= 9 medium ranks in its 3x3 (tree DPS only, real pairing rule) -> then ES packages, then the exact external fit.
+  Tree-only (max DPS, no ES nodes): **Lich (prism on 608_80, the +9% dmg micro) 40.9** · Prophet 37.3 · Arcanist 33.1 · Steel Vanguard 30.3 · Marksman 29.2 · Ranger 29.2 ·
+  Elementalist 28.8 · Shadowdancer 27.5 · Druid 27.2 · Warrior 26.5 · Sentinel 26.5 · ... · Artisan 19.8. Prism on Magister (Bunch dead, x1.46 incl. its Focus) loses everywhere.
+- **Lich stays and holds the prism; Prophet goes.** Lich keeps +1 all skills (Chromatic 40), the 3rd Mass Effect charge, +10% additional (sealed mana+life), 12.5% CDR,
+  crit and all-stats nodes; OTBT comes from the Pedigree. Frozen holds at 107 rating with ring R T1 (T2 would be 95 = NOT Frozen: the T1 is mandatory).
+  Lich also has the cheapest ES in the tree: 352_272 x3 + 480_272 legendary = +19% ES for 4 points.
+- Frontier, Lich (final T after the fit, 2 memory rolls):
+  | ES packages | tree pts | T | ES | EHP ele |
+  | none (Lich 736_368 path 9%) | - | 33.7 | 3,981 | 27.0k (x1.5) |
+  | + Lich 352_272/480_272 (19%) | 4 | 32.4 | 4,675 | 31.7k |
+  | + Warlock 96/224_272 (27%) | 10 | 29.4 | 5,661 | 38.4k |
+  | + Magister 96/224_464 (27%) | 16 | 26.9 | 6,647 | 45.0k (x2.5) |
+  | + Lich 96/224_272 (27%) = **TANK** | 22 | **24.1** | 7,633 | **51.7k (x2.8)** |
+  | + Magister 352_272 + 608_464 | 28 | 21.2 | 8,452 | 57.3k |
+  Same policy on the other panels (W+X+M ES): Prophet 23.6 T / 44.8k · Steel Vanguard 20.4 / 44.8k · Arcanist 20.1 / 47.0k. Max-DPS policy: Prophet 30.7, Arcanist 27.5, SV 25.2.
+- **TANK, one memory roll (recommended): 23.4 T (x0.65 vs 36.1), ES 7,633, EHP 51.7k ele / 20.7k phys / 23.3k DoT** (`plan_trees_block_lich_tank1.json`):
+  - Trees (110): GoK 24 (crit 352_80 x3 + 480_80 x1, cast x6, +9% spell x3, +1 spell lvl, Focus dur/dmg x3, +1 Focus, area/proj x6; drops +9%/+18% dmg), Magister 28
+    (crit x6, Focus dur x3, +5% crit dmg/Focus, +8 INT x3, +12% INT x1, +9% spell x3, Frail, ES 96/224_464 x6, spell block 352_464 x3 + 480_464; drops 480_176 Focus dur, Spell-Burst Focus),
+    Warlock 24 (vs cursed 352/480_80 x6, curse effect x3, +8% additional vs cursed, ES x6, +9% dmg x3, +15% per ailment, crit 352_464 x3 + 480_464 x1),
+    Lich 34 (crit x6, cast x3, +1 all skills, all stats x6, CDR x3 + legendary, ES 96/224_272 x6 + 352_272 x3 + 480_272, 736_368 x3, +10% additional; prism eats 608_80).
+  - Belt: 20% CDR base + Gale | Adv +20% block, Adv +78 INT, Ult -18% dmg taken at Low Mana | Basic cold 35, Basic lightning 35, Ult Double 34 (only 7 counts).
+  - Ring L: Advanced prefix 52 INT -> +20% Attack and Spell Block; everything else stays. Ring R frostbite T2 -> T1.
+  - Memories: Discipline random "+41% Spell Crit Dmg" -> attack block 28; orange memory both 18% crit lines -> block (11.8 each, spell side); nothing else.
+  - Kismets (11 free): 4 micros attack block (8), 1 medium spell block (15), 5 res micros (cold x2, lightning x1, erosion x2), 1 medium INT (30); the +14% crit dmg micro goes.
+    Block: attack = belt 20 + ring 20 + roll 28 + 4 micros 32 = 100; spell = 40 + Magister 24 + orange 23.6 + medium 15 = 102.6.
+    Res: fire 61 · cold 12 + 35 + 14 · lightning 22 + 35 + 7 · erosion 27 + 14 = 41.
+  - Sheet: INT 401, crit 74%/462%, cast 253, Chromatic 40, Focus 10, ME 3 charges, CDR 50, Boon margin 1.19, mana 97.1% sealed (Restrain 14.5 + prism 18).
+  - Two rolls (Discipline + Progress 104% crit rating) instead of Magister block + orange: 24.1 T (`plan_trees_block_lich_tank.json`). Zero rolls: infeasible with 2 reserved mediums
+    (needs a 3rd free medium or Prophet's cold res; Prophet zero-roll = 19.4 T).
+- Knobs: belt Adv +26% Defense instead of +78 INT: 21.1 T / 58.1k (same trade both ways). Belt base +8% Aura Effect instead of 20% CDR (Lich's CDR keeps Boon at 1.03): x1.09 ->
+  26.3 T; only if Gale isn't on the CDR belt yet. Lighter: L1+W+M only (26.9 T / 45.0k, `plan_trees_block_lich_mid.json`). Max DPS at block cap: 33.7 T / 27.0k (`_dps.json`).
+- Ring L replaced by a priceless INT ring (2B/2A/2U): best = block 20 + 26% ele/erosion pen + 22% armor pen | lightning 35 + 156% crit + 78% crit dmg -> **39.6 T at 47k EHP**
+  on the TANK tree (pen goes negative; loses the ring's 323 ES). Ring Ultimate pool also has "+1 Max Focus / +5% additional" and "+30% additional vs Frozen". Price unknown.

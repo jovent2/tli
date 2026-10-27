@@ -117,6 +117,14 @@ DPS = Base
 ### Talent pairing [Vlad 2026-10-27]
 - A node paired to the one on its left needs that left node **maxed** (3/3, or 1/1 for a legendary) before it takes any point. A prism cell counts as maxed. `tools/tree.py` and `tools/tree_opt` enforce it; every plan tree before 19:28 on 2026-10-27 broke this rule.
 
+### Block / EHP [2026-10-27]
+- Block [tlidb]: attack and spell block chance separate, cap 100%; block ratio 30% base (+25% Defensiveness = 55%), max 60% (80 with raisers). Hits only, not DoT.
+- Low Mana = current mana under 35% of max [glossary]; at 97% sealed it is always on, so the belt's "-X% additional damage taken at Low Mana" is permanent (read, ~90%).
+- Defense = Armor + Evasion + ES [glossary]: a "+X% Defense" line is +X% ES for Vlad.
+- ES model: gear/memory flat (boots (146 + 304) x 1.6 local = 720; belt base 80 / Arcanist 110) x (1 + tree/slate ES%); pinned to the sheet (7.3k) with +129 flat (legendary bases).
+- EHP vs elemental hits = ES / (0.40 res x (1 - block x ratio) x Low Mana). Now ES x 2.5; block cap + Defensiveness + Low Mana = ES x 6.78.
+- Spell Ripple prism [Vlad]: 3x3 centred area, +2% sealed mana compensation per medium RANK in the area (his 18% = 3 maxed mediums). Prisms never on god panels.
+
 ### Hit cap, prisms, Pedigree [2026-10-27]
 - **5T per hit** [Vlad]: engine caps every projectile hit (crit x double/quad x damage roll) at 5e12; the real hit is the model hit / dummy_scale (hit-rate constant).
   Current build: biggest hit ~1.7T, no effect. Big multipliers past ~x2 start losing to the cap; variance (Impermanence) loses most.

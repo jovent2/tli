@@ -147,7 +147,7 @@
    "lines": [
     "+12% Fire Resistance",
     "+52 Intelligence",
-    "+221 Max Energy Shield",
+    "+323 Max Energy Shield",
     "+64% damage",
     "+22% Lightning Resistance",
     "+27% Erosion Resistance",
@@ -155,11 +155,11 @@
    ],
    "tiers": {
     "+52 Intelligence": "T1",
-    "+221 Max Energy Shield": "T2",
     "+64% damage": "T1",
     "+22% Lightning Resistance": "T1",
     "+27% Erosion Resistance": "T1",
-    "+120% Critical Strike Rating": "T1"
+    "+120% Critical Strike Rating": "T1",
+    "+323 Max Energy Shield": "T1"
    }
   },
   {
@@ -168,7 +168,7 @@
    "lines": [
     "+12% Cold Resistance",
     "Gains Spell Aggression when casting a Spell Skill",
-    "+210 Max Energy Shield",
+    "+404 Max Energy Shield",
     "+81% damage",
     "+10% Armor DMG Mitigation Penetration",
     "+20 to Max Frostbite Rating",

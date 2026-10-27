@@ -85,7 +85,10 @@ rule(r"# ?% additional Hit Damage", "add.hit")
 rule(r"# ?% additional damage against Frozen enemies", "add.vs_frozen")
 rule(r"# ?% additional damage against Cursed enemies", "add.vs_cursed")
 rule(r"# ?% additional damage on Critical Strike", "add.on_crit")
-rule(r"# ?% additional damage applied to Life", "add.damage")   # Steel Vanguard legendary; bosses are all Life [Vlad: = 8% additional]
+rule(r"# ?% additional damage applied to Life", "add.damage")
+rule(r"# ?% Sealed Mana Compensation", "mana.comp")                    # global; "... for Steadfast" doesn't match (anchored)
+rule(r"# ?% Defense", "defense.pct")                                  # Defense = armor + evasion + ES [tlidb glossary]
+rule(r"# ?% additional damage taken at Low Mana", "taken.add_lowmana")  # belt ultimate prefix (negative = less taken)   # Steel Vanguard legendary; bosses are all Life [Vlad: = 8% additional]
 rule(r"# ?% additional damage when having both Sealed Mana and Life", "add.damage", "sealed_both")
 rule(r"# ?% additional Spell Damage when the Energy Shield is not low", "add.spell", "es_not_low")
 rule(r"# ?% additional Cast Speed", "cast.add")

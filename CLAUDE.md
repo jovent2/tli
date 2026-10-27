@@ -55,6 +55,7 @@ Every new session starts by reading this file, then the files listed under "Read
   - `slate_plan.py` — plan a divinity slate craft (base, naked vs pact rolls, restores)
   - `tower_rnd.py` — TOWER Sequence R&D odds (optimal chip picks, single target or value-weighted)
   - `tower_policy.py` — the full In-Depth pick table (expectimax on damage gain vs the held sequence)
+  - `tree_opt/` — tree search: `opt3.py` (real pairing rule), `blockplan.py` (panel x prism cell search), `blockfit.py` (belt/ring/kismet/memory block+res fit, ES/EHP)
   - `tree.py` — validate a talent allocation (`ss14/thea/trees.json`) against tlidb and total its stats
   - `tlidb.py` — read one live tlidb page raw
   - `crawl.py`, `tlidb_parse.py`, `build_data.py` — rebuild `data/` from tlidb

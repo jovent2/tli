@@ -284,11 +284,16 @@ def dps(build, trees, verbose=False):
             head = x.split(" [")[0].strip()
             if head in (name, "Precise: " + name):
                 present.append((name, ("Precise_" + key) if head.startswith("Precise: ") else key, lv, rx, x))
-    n_auras = min(5, len(present))
+        for g in build.get("granted_auras", []):   # e.g. Lone Walker's Boots: "You have a Lv. 20 Precise Spell Amplification" (no supports)
+            if g["name"] == name:
+                present.append((name, ("Precise_" + key) if g.get("precise") else key, g["level"], rx, "granted"))
+    other_auras = [x for x in others if x.split(" [")[0].strip().startswith(("Precise: Energy Fortress", "Energy Fortress"))]
+    n_auras = min(5, len(present) + len(other_auras))
     sao = skill_value("Precise_Stand_as_One", sh["level_support_plain"], r"([\d.]+)% Aura Effect for each Aura")
     phys_share = (664.5 + 1.23 * t["flat.physical"]) / base
     for name, key, lv, rx, raw in present:
-        eff = 1 + aura_amp(sh) / 100 + (sao * n_auras / 100 if "Stand as One" in raw else 0)
+        eff = (1 + (aura_amp(sh) / 100 if "Aura Amplification" in raw else 0) + t["aura.effect"] / 100
+               + (sao * n_auras / 100 if "Stand as One" in raw else 0))
         v = skill_value(key, lv, rx) * eff / 100
         if name == "Weapon Amplification":
             m[name] = phys_share * (1 + v) + (1 - phys_share)

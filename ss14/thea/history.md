@@ -26,3 +26,4 @@
 - **2026-10-27 13:10** Double is 193% (77 + 20 Tidewell + 96 Farewell): uncapped since the old Nether King's +11% double left; reaching 200 = x1.036. Fitted dummy_scale 0.767 for absolute T (Vlad: no more toggle tests). Model with belt now 34.44 T.
 - **2026-10-27 13:15** dummy_scale = shot hit rate (Vlad: res/armor right). Priced Precise auras, Weapon Amp swap and Stand as One (plans.md).
 - **2026-10-27 13:19** Weapon Amp corrected to phys-origin share (86.7%): Precise WA in DE's place x1.024 (not x1.072); as a 5th aura x1.438. Engine auras now data-driven (Precise versions, Stand as One, WA split).
+- **2026-10-27 13:24** Engine: global aura effect (aura.effect), AA only where supported, granted auras (Lone Walker's). Lone Walker's priced (plans.md).

@@ -11,7 +11,7 @@ import sys, functools, json
 sys.path.insert(0, 'tools')
 import engine as E
 b, t = E.load()
-G2 = "Goddess of Knowledge's Divinity #2 (F, lv86)"
+G2 = "Goddess of Knowledge's Divinity #2 (F, lv86, Spell+Cold)"
 g2 = next(s for s in b["slates"] if s["name"] == G2)
 g2["lines"] = [l for l in g2["lines"] if "Spell Burst" not in l] + ["+12% Projectile Speed"]   # free purple overwrite first
 BASE = E.dps(b, t)["dps"]

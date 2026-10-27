@@ -1,46 +1,205 @@
 {
-  "_about": "Regression tests for tools/engine.py --test. Each test: 'before' and 'after' are changes applied to the CURRENT build (build.json); measured_before/after are Vlad's pulls (T). 'era' = which build the pull was made on; 'historical' tests were measured on an older build, so expect drift (they check the shape of the model, not exact numbers). Keep tests.md as the human log.",
-  "tests": [
-    {"name": "Purity off (belt off, before trait memory)", "era": "2026-10-26 12:4x", "group": "current",
-     "before": {"trait_levels": {"Wisdom of The Gods": 1}, "remove": ["memory:trait"]},
-     "after": {"trait_levels": {"Wisdom of The Gods": 1, "Prophecy of Purity": 0}, "remove": ["memory:trait"]},
-     "measured_before": 5.5, "measured_after": 2.55},
-    {"name": "Base Trait slot memory -> Wisdom L4", "era": "2026-10-26 12:48", "group": "current",
-     "before": {"trait_levels": {"Wisdom of The Gods": 1}, "remove": ["memory:trait"]},
-     "after": {},
-     "measured_before": 5.5, "measured_after": 8.7},
-    {"name": "Slate purple line +20% frostbite effect (x1.54)", "era": "2026-10-26 13:34", "group": "current",
-     "before": {"remove_slate_lines": [["Goddess of Knowledge's Divinity #1 (L, lv89)", "+20% Frostbite Effect"]]},
-     "after": {},
-     "measured_before": 8.6, "measured_after": 10.0},
-
-    {"name": "Biting Cold off", "era": "2026-10-25 (old build)", "group": "historical",
-     "before": {}, "after": {"disable": ["Biting Cold", "Deepened Curse"]},
-     "measured_before": 9.0, "measured_after": 5.5},
-    {"name": "Precise Projectiles off", "era": "2026-10-25 (old build)", "group": "historical",
-     "before": {}, "after": {"disable": ["Precise Projectiles"]},
-     "measured_before": 9.0, "measured_after": 7.1},
-    {"name": "Purity off", "era": "2026-10-25 (old build)", "group": "historical",
-     "before": {"trait_levels": {"Wisdom of The Gods": 1}, "remove": ["memory:trait"]},
-     "after": {"trait_levels": {"Wisdom of The Gods": 1, "Prophecy of Purity": 0}, "remove": ["memory:trait"]},
-     "measured_before": 9.0, "measured_after": 4.4},
-    {"name": "Secret Origin Unleash off", "era": "2026-10-25 (old build)", "group": "historical",
-     "before": {}, "after": {"disable": ["Secret Origin Unleash"]},
-     "measured_before": 9.0, "measured_after": 5.4},
-    {"name": "Lightchaser off (with Multiple Projectiles then)", "era": "2026-10-25 (old build)", "group": "historical",
-     "before": {}, "after": {"context": {"lightchaser": false}},
-     "measured_before": 9.0, "measured_after": 7.9},
-    {"name": "Frostbite effect -20%", "era": "2026-10-25 (old build)", "group": "historical",
-     "before": {}, "after": {"stat_delta": {"frost.effect": -20}},
-     "measured_before": 9.0, "measured_after": 8.4},
-    {"name": "Lightning Storm off (-Numbed, -Wilt, -Paralysis)", "era": "2026-10-25 (old build)", "group": "historical",
-     "before": {}, "after": {"context": {"follower_lightning_storm": false}},
-     "measured_before": 9.0, "measured_after": 5.5},
-    {"name": "Ring R off (arp, frostbite -20 -> no Freeze, Spell Aggression, 81% dmg)", "era": "2026-10-25 (old build)", "group": "historical",
-     "before": {}, "after": {"remove": ["gear:ring_r"], "context": {"spell_aggression": false}},
-     "measured_before": 9.0, "measured_after": 4.45},
-    {"name": "Belt off (Gale)", "era": "2026-10-25 (old build, 247% proj speed then)", "group": "historical",
-     "before": {}, "after": {"remove": ["gear:belt"]},
-     "measured_before": 9.0, "measured_after": 3.3}
-  ]
+ "_about": "Regression tests for tools/engine.py --test. Each test: 'before' and 'after' are changes applied to the CURRENT build (build.json); measured_before/after are Vlad's pulls (T). 'era' = which build the pull was made on; 'historical' tests were measured on an older build, so expect drift (they check the shape of the model, not exact numbers). Keep tests.md as the human log. Tests with 'measured' (no before) are absolute pulls in T on the current build (group 'absolute').",
+ "tests": [
+  {
+   "name": "Belt off + Ring L (INT ring) off, new Spell+Cold GoK #2",
+   "era": "2026-10-27 12:30",
+   "group": "absolute",
+   "after": {
+    "remove": [
+     "gear:belt",
+     "gear:ring_l"
+    ]
+   },
+   "measured": 9.4
+  },
+  {
+   "name": "Purity off (belt off, before trait memory)",
+   "era": "2026-10-26 12:4x",
+   "group": "current",
+   "before": {
+    "trait_levels": {
+     "Wisdom of The Gods": 1
+    },
+    "remove": [
+     "memory:trait"
+    ]
+   },
+   "after": {
+    "trait_levels": {
+     "Wisdom of The Gods": 1,
+     "Prophecy of Purity": 0
+    },
+    "remove": [
+     "memory:trait"
+    ]
+   },
+   "measured_before": 5.5,
+   "measured_after": 2.55
+  },
+  {
+   "name": "Base Trait slot memory -> Wisdom L4",
+   "era": "2026-10-26 12:48",
+   "group": "current",
+   "before": {
+    "trait_levels": {
+     "Wisdom of The Gods": 1
+    },
+    "remove": [
+     "memory:trait"
+    ]
+   },
+   "after": {},
+   "measured_before": 5.5,
+   "measured_after": 8.7
+  },
+  {
+   "name": "Slate purple line +20% frostbite effect (x1.54)",
+   "era": "2026-10-26 13:34",
+   "group": "current",
+   "before": {
+    "remove_slate_lines": [
+     [
+      "Goddess of Knowledge's Divinity #1 (L, lv89)",
+      "+20% Frostbite Effect"
+     ]
+    ]
+   },
+   "after": {},
+   "measured_before": 8.6,
+   "measured_after": 10.0
+  },
+  {
+   "name": "Biting Cold off",
+   "era": "2026-10-25 (old build)",
+   "group": "historical",
+   "before": {},
+   "after": {
+    "disable": [
+     "Biting Cold",
+     "Deepened Curse"
+    ]
+   },
+   "measured_before": 9.0,
+   "measured_after": 5.5
+  },
+  {
+   "name": "Precise Projectiles off",
+   "era": "2026-10-25 (old build)",
+   "group": "historical",
+   "before": {},
+   "after": {
+    "disable": [
+     "Precise Projectiles"
+    ]
+   },
+   "measured_before": 9.0,
+   "measured_after": 7.1
+  },
+  {
+   "name": "Purity off",
+   "era": "2026-10-25 (old build)",
+   "group": "historical",
+   "before": {
+    "trait_levels": {
+     "Wisdom of The Gods": 1
+    },
+    "remove": [
+     "memory:trait"
+    ]
+   },
+   "after": {
+    "trait_levels": {
+     "Wisdom of The Gods": 1,
+     "Prophecy of Purity": 0
+    },
+    "remove": [
+     "memory:trait"
+    ]
+   },
+   "measured_before": 9.0,
+   "measured_after": 4.4
+  },
+  {
+   "name": "Secret Origin Unleash off",
+   "era": "2026-10-25 (old build)",
+   "group": "historical",
+   "before": {},
+   "after": {
+    "disable": [
+     "Secret Origin Unleash"
+    ]
+   },
+   "measured_before": 9.0,
+   "measured_after": 5.4
+  },
+  {
+   "name": "Lightchaser off (with Multiple Projectiles then)",
+   "era": "2026-10-25 (old build)",
+   "group": "historical",
+   "before": {},
+   "after": {
+    "context": {
+     "lightchaser": false
+    }
+   },
+   "measured_before": 9.0,
+   "measured_after": 7.9
+  },
+  {
+   "name": "Frostbite effect -20%",
+   "era": "2026-10-25 (old build)",
+   "group": "historical",
+   "before": {},
+   "after": {
+    "stat_delta": {
+     "frost.effect": -20
+    }
+   },
+   "measured_before": 9.0,
+   "measured_after": 8.4
+  },
+  {
+   "name": "Lightning Storm off (-Numbed, -Wilt, -Paralysis)",
+   "era": "2026-10-25 (old build)",
+   "group": "historical",
+   "before": {},
+   "after": {
+    "context": {
+     "follower_lightning_storm": false
+    }
+   },
+   "measured_before": 9.0,
+   "measured_after": 5.5
+  },
+  {
+   "name": "Ring R off (arp, frostbite -20 -> no Freeze, Spell Aggression, 81% dmg)",
+   "era": "2026-10-25 (old build)",
+   "group": "historical",
+   "before": {},
+   "after": {
+    "remove": [
+     "gear:ring_r"
+    ],
+    "context": {
+     "spell_aggression": false
+    }
+   },
+   "measured_before": 9.0,
+   "measured_after": 4.45
+  },
+  {
+   "name": "Belt off (Gale)",
+   "era": "2026-10-25 (old build, 247% proj speed then)",
+   "group": "historical",
+   "before": {},
+   "after": {
+    "remove": [
+     "gear:belt"
+    ]
+   },
+   "measured_before": 9.0,
+   "measured_after": 3.3
+  }
+ ]
 }

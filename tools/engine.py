@@ -413,17 +413,21 @@ def run_tests(build, trees):
     for tc in tests["tests"]:
         if tc.get("skip"):
             continue
-        b0, t0 = apply(build, trees, tc.get("before", {}))
         b1, t1 = apply(build, trees, tc.get("after", {}))
-        pred = dps(b1, t1)["dps"] / dps(b0, t0)["dps"]
-        meas = tc["measured_after"] / tc["measured_before"]
+        if "measured" in tc:   # absolute pull on the current build (T), e.g. belt off + ring off under the 10 T display cap
+            pred, meas = dps(b1, t1)["dps"] / 1e12, tc["measured"]
+        else:
+            b0, t0 = apply(build, trees, tc.get("before", {}))
+            pred = dps(b1, t1)["dps"] / dps(b0, t0)["dps"]
+            meas = tc["measured_after"] / tc["measured_before"]
         err = pred / meas - 1
         groups[tc.get("group", "current")].append((tc["name"], meas, pred, err))
     for g, rows in groups.items():
         print(f"\n## {g}")
         for name, meas, pred, err in rows:
             flag = "  <-- off" if abs(err) > 0.10 else ""
-            print(f"  {name[:62]:62s} measured x{meas:5.3f}  model x{pred:5.3f}  ({err:+.0%}){flag}")
+            unit = " T" if g == "absolute" else ""
+            print(f"  {name[:62]:62s} measured {'' if unit else 'x'}{meas:5.3f}{unit}  model {'' if unit else 'x'}{pred:5.3f}{unit}  ({err:+.0%}){flag}")
         rms = math.sqrt(sum(r[3] ** 2 for r in rows) / len(rows))
         print(f"  -> {len(rows)} tests, rms error {rms:.1%}")
 

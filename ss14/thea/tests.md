@@ -42,3 +42,8 @@ Quad-damage RNG gives roughly ±10% on a single pull.
 | New Nether King + Sparks, both GoK slates on the line (Hunting out, Frail/DD/INT lost) | 8.6 | 8.3 | Sparks copy escapes Judgment's −30% → +1 becomes +2 |
 | Slate roll: +30.8% frostbite effect | 10.0 | ~9.9 | |
 | Belt off + "INT ring" off | 9.7 | — | Vlad: "I'm way higher than 27.5 T". Ring L alone should be ~×1.2, so 10 → 9.7 means something else was meant, or the 10 was a lucky pull (?) |
+
+## 2026-10-27 — new Spell + Cold GoK slate
+| Config | Measured (belt off) | Model | Notes |
+|---|---|---|---|
+| New GoK #2 (+1 Cold, +1 Spell, Arcanist Focus, +6% life/ES, +12% area/proj speed), belt off + Ring L (INT ring) off | 9.4 | 9.55 | -1.6%. Ring off to stay under the 10 T display cap. Model belt-off without the ring removal: 12.78 T; with belt 34.0 T. Ring assumed L (Ring R off would be 6.1). |

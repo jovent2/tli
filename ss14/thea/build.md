@@ -89,8 +89,8 @@ Tree crit total 315% (Magister/Prophet/Lich 105 each).
 ## Divinity slates (layout changed 2026-10-26)
 - **Nether King's Divinity** (the 4.5k one): Judgment active; brand "+10% effect increase multiplier for non-legendary Divinity slates along the connecting line" (−30% from Judgment → 7%). Lost vs the old one: Frail on spell damage, the +11% double, +12% INT. Skull cells: top-left, top-right, bottom-right.
 - **Sparks of Moth Fire**: adjacent to the Nether King, copies the +10% brand at full value → slates on the line show **Effect +54%**, so "+1" lines are "+2".
-- **GoK slate #1** (on line): +1 Max Focus (→2) · +1 Spell Skill Level (→2) · purple +27.72% spell damage · purple +30.8% frostbite effect · purple 30.8% crit rating + 7.7% crit dmg (?) — which lines are on which slate (?)
-- **GoK slate #2** (on line): +1 Max Focus (→2) · +1 Spell Skill Level (→2) · 12.32% additional spell damage · 5% spell crit dmg per Focus (→7.7%) (?)
+- **GoK slate #1** (L, lv89, on line, 54%): +1 Cold Skill Level · +1 Max Focus (GoK node) · +5 Max Frostbite · +20% Frostbite Effect · Cold Infiltration (2026-10-27 re-read)
+- **GoK slate #2** (F, lv86, on line, 54%, new 2026-10-27): fixed +1 Cold Skill Level, +1 Spell Skill Level · purple +6% life / +6% ES · Arcanist +1 Max Focus (MAD1) · medium +12% area / +12% proj speed. Bought S+C base 400 + one Arcanist pact 84.
 - **Fallen Starlight**: +skill effect duration, +CDR +1 charge, fire DoT/ignite lines. Now off the boosted line (?).
 - **Pedigree of Gods** (core slot): Dirty Tricks · +10% Agility duration & +3% atk/cast w/ Agility · +8 STR · crits eliminate below 8% life.
 - Hunting slate removed. Three empty cells form a corner shape (unboosted).

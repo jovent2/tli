@@ -288,16 +288,20 @@
    ]
   },
   {
-   "name": "Goddess of Knowledge's Divinity #2 (F, lv86)",
+   "name": "Goddess of Knowledge's Divinity #2 (F, lv86, Spell+Cold)",
    "effect_pct": 54,
    "on_line": true,
    "lines": [
+    "+1 Cold Skill Level",
     "+1 Spell Skill Level",
-    "+8% additional Spell Damage",
-    "+8% Spell Burst Charge Speed",
-    "At max channeled stacks, +8% additional damage for Channeled Skills for 4 s",
-    "+1 to Max Focus Blessing Stacks"
-   ]
+    "+6% Max Life",
+    "+6% Max Energy Shield",
+    "+1 to Max Focus Blessing Stacks",
+    "Regenerates 0.4% Mana per second while Focus Blessing is active",
+    "+12% Skill Area",
+    "+12% Projectile Speed"
+   ],
+   "note": "2026-10-27 12:30. Fixed +1 Cold, +1 Spell; purple +6% life/+6% ES; orange Arcanist Focus (MAD1); orange medium +12% area/+12% proj speed. Replaced the old GoK #2 (+1 spell, Arcanist 8% additional, dead channeled, dead Spell Burst, Arcanist Focus)."
   },
   {
    "name": "A Corner of Divinity (legendary, on line +40%, values shown post-boost)",

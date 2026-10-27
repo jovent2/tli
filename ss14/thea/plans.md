@@ -194,3 +194,12 @@ Vlad's plan: Lich out, Warlock in (Dirty Tricks core), Pedigree -> 2-core Pedigr
   spell = Discipline 41% spell crit dmg (31) + Progress 104% crit rating (31) + trait 18% spell + 18% cold crit (13 each) + ring 15 = 103.
   Keeps both 40% proj speed, 26% cast, 47% cold crit, 54% spell crit dmg, 10% duration. x0.690 on B1 -> **x0.664 (22.9 T)**.
   Average rolls (28/18, ring 13.5): best x0.633 -> 21.0 T; ring T0 18: 21.8 T. Orange memory + ring untouched: 104/104 -> 21.7 T.
+- **CORRECTION (Vlad 14:56): fixed memory affixes can't be re-rolled** (fixed = fixed). The 22.9 T layout above is invalid. Options Vlad priced:
+  new Discipline with fixed cast + fixed block (+ES base) 3,333 FE; Discipline fixed block + minion (loses 16% cast) ~1,000; Progress duration + block: not obtainable.
+- Other block sources found: belt "+31 INT" is an Advanced prefix -> "Attack and Spell Block" (T1 12-15, T0 16-20); Magister 352_464 +4% spell block micro x3
+  + 480_464 legendary +12% spell block (4 pts: x0.956 on B1); INT kismets -> Medium Fate Spell/Attack Block 12-15 (for 24-30 INT) / Micro 6-8 (for 12-15 INT).
+- Re-priced (only random slots, orange memory random lines, ring INT, belt INT, INT kismets, Magister nodes):
+  mid rolls (28 / 13.5): **18.1 T** (x0.524): convert Discipline 41% spell crit, Progress 104% crit rating, both orange 18% crit lines, ring INT, belt INT,
+  4 medium INT kismets, Magister +24% spell block. Keeps Origin 47% cold crit + 40% proj speed, Discipline 40% proj speed, Progress 54% spell crit dmg.
+  Max rolls (31 / 15): 20.0 T with 2 kismets (spell exactly 100). New Discipline cast + block (3,333): 20.0 T mid (x1.105, 316 FE/1%) / 20.9 T max (699 FE/1%).
+  ~1,000 Discipline (block + minion) is worse than keeping the current one.

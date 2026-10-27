@@ -167,7 +167,7 @@ def sheet(build, trees):
     sh["STR"] = (base["STR"] + t["attr.str"] + all_ + t["attr.str_int"]) * (1 + t["attr.all_pct"] / 100)
     sh["DEX"] = (base["DEX"] + t["attr.dex"] + all_ + t["attr.dex_int"]) * (1 + t["attr.all_pct"] / 100)
     # damage pool as the in-game sheet shows it
-    sh["damage_bonus"] = t["inc.damage"] + t["inc.spell"] + t["inc.projectile"]
+    sh["damage_bonus"] = t["inc.damage"] + t["inc.spell"] + t["inc.projectile"] + (t["inc.vs_cursed"] if ctx.get("enemy_cursed", True) else 0)
     sh["cold_bonus"] = t["inc.cold"] + t["inc.elemental"]
     sh["increased_pool"] = sh["damage_bonus"] + sh["cold_bonus"] + t["inc.area"]
     # buffs that show on the sheet while hitting the dummy
@@ -196,6 +196,9 @@ def sheet(build, trees):
     sh["armor_pen"] = t["pen.armor"]
     sh["duration"] = t["dur"] + (5 if build["hero"]["trait_levels"].get("Prophecy of Purity", 0) >= 3 else 0)
     sh["cdr"] = t["cdr"] + 3 * ctx["nfe_stacks"] * 1.5  # NFE +3% CDR/stack x1.5 Witch
+    # God's Boon: 2 permanent stacks need duration >= 2 x cooldown (CD 15 s / (1.5 Reincarnation x (1 + CDR)))
+    boon_cd = 15 / (1.5 * (1 + sh["cdr"] / 100))
+    sh["boon_margin"] = 10 * (1 + sh["duration"] / 100) / (2 * boon_cd)
     sh["_totals"] = t
     sh["_recs"] = recs
     return sh
@@ -234,6 +237,32 @@ def dps(build, trees, verbose=False):
     m = {}  # name -> multiplier
 
     base = 664.5 + 1.23 * (t["flat.cold"] + t["flat.physical"])
+    base_phys = 664.5 + 1.23 * t["flat.physical"]
+    def _flat_minmax(key):
+        lo = hi = 0.0
+        for src, k2, v, cond, line in sh["_recs"]:
+            if k2 != key: continue
+            mm = re.search(r"Adds\s+([\d.]+)\s*[-–]\s*([\d.]+)", line)
+            a, b2 = (float(mm.group(1)), float(mm.group(2))) if mm else (v, v)
+            lo += a; hi += b2
+        return lo, hi
+    (fp_lo, fp_hi), (fc_lo, fc_hi) = _flat_minmax("flat.physical"), _flat_minmax("flat.cold")
+    base_min = 498 + 1.23 * (fp_lo + fc_lo); base_max = 831 + 1.23 * (fp_hi + fc_hi)
+    if t["special.impermanence"]:
+        base_min = 498 * 0.1 * 0.68 + 1.23 * (fp_lo * 0.1 * 0.68 + fc_lo * 0.68)
+        base_max = 831 * 1.8 * 1.32 + 1.23 * (fp_hi * 1.8 * 1.32 + fc_hi * 1.32)
+        base_phys = (498 * 0.1 * 0.68 + 831 * 1.8 * 1.32) / 2 + 1.23 * (fp_lo * 0.1 * 0.68 + fp_hi * 1.8 * 1.32) / 2
+    if t["special.impermanence"]:
+        rng = lambda lo, hi, phys: ((lo * (0.1 if phys else 1)) * 0.68 + (hi * (1.8 if phys else 1)) * 1.32) / 2
+        fp = [r for r in sh["_recs"] if r[1] == "flat.physical"]; fc = [r for r in sh["_recs"] if r[1] == "flat.cold"]
+        def flat_rng(rs, phys):
+            tot = 0.0
+            for src, key, v, cond, line in rs:
+                mm = re.search(r"Adds\s+([\d.]+)\s*[-–]\s*([\d.]+)", line)
+                lo, hi = (float(mm.group(1)), float(mm.group(2))) if mm else (v, v)
+                tot += rng(lo, hi, phys)
+            return tot
+        base = rng(498, 831, True) + 1.23 * (flat_rng(fp, True) + flat_rng(fc, False))
     m["level"] = level_mult(sh["level_chromatic"])
     m["increased"] = 1 + sh["increased_pool"] / 100
     attr = sh["INT"] + sh["STR"] + sh["DEX"]
@@ -264,7 +293,7 @@ def dps(build, trees, verbose=False):
     m["Boon: Reincarnation"] = 1 + rein * stacks / 100
     # additional damage lines from gear/tree/slates/pacts (each source its own multiplier)
     for src, key, v, cond, line in sh["_recs"]:
-        if key in ("add.damage", "add.spell", "add.cold", "add.elemental", "add.hit", "add.projectile"):
+        if key in ("add.damage", "add.spell", "add.cold", "add.elemental", "add.hit", "add.projectile") or (key == "add.vs_cursed" and ctx.get("enemy_cursed", True)):
             name = f"{line[:60]} [{src}]"
             m[name] = m.get(name, 1.0) * (1 + v / 100)
     frozen = sh["frostbite_rating"] > 100
@@ -291,7 +320,7 @@ def dps(build, trees, verbose=False):
     other_auras = [x for x in others if x.split(" [")[0].strip().startswith(("Precise: Energy Fortress", "Energy Fortress"))]
     n_auras = min(5, len(present) + len(other_auras))
     sao = skill_value("Precise_Stand_as_One", sh["level_support_plain"], r"([\d.]+)% Aura Effect for each Aura")
-    phys_share = (664.5 + 1.23 * t["flat.physical"]) / base
+    phys_share = base_phys / base
     for name, key, lv, rx, raw in present:
         eff = (1 + (aura_amp(sh) / 100 if "Aura Amplification" in raw else 0) + t["aura.effect"] / 100
                + (sao * n_auras / 100 if "Stand as One" in raw else 0))
@@ -313,12 +342,19 @@ def dps(build, trees, verbose=False):
     m["Cage (1.14^4)"] = 1.14 ** 4
     ls = ctx.get("follower_lightning_storm", True)
     ailments = 1 + (1 if frozen else 0) + 1 + (2 if ls else 0) + 1   # frostbite, freeze, ignite, numbed+wilt, trauma
-    m[f"Dirty Tricks ({ailments} ailments)"] = 1.12 ** ailments
+    has_dt = t["special.dirty_tricks"] > 0 or any(pa.get("core") == "Dirty Tricks" for pa in trees["panels"])
+    if has_dt:
+        m[f"Dirty Tricks ({ailments} ailments)"] = 1.12 ** ailments
+    if t["inc.hit_per_ailment"]:   # Warlock "+15% Hit Damage for every type of Ailment" -> increased pool
+        m["increased"] *= (1 + (sh["increased_pool"] + t["inc.hit_per_ailment"] * ailments) / 100) / (1 + sh["increased_pool"] / 100)
+    if t["add.physical"]:          # e.g. Blunt: additional physical only on the phys-origin part of the hit
+        ps = base_phys / base
+        m["additional Physical (phys-origin share)"] = ps * (1 + t["add.physical"] / 100) + (1 - ps)
     m["Gale"] = 1 + t["special.gale"] / 100 * sh["proj_speed"] / 100   # belt base affix; 0 without it
     # enemy side
     e = {}
     e["Frostbite"] = 1 + sh["frostbite_rating"] * (1 + sh["frostbite_effect"] / 100) / 100
-    e["Biting Cold"] = 1 + skill_value("Biting_Cold", sh["level_biting_cold"], r"\+?([\d.]+)% additional Cold Damage taken") / 100
+    e["Biting Cold"] = 1 + skill_value("Biting_Cold", sh["level_biting_cold"], r"\+?([\d.]+)% additional Cold Damage taken") * (1 + t["curse.effect"] / 100) / 100
     e["Deepened Curse"] = 1 + skill_value("Deepened_Curse", sh["level_support_plain"], r"([\d.]+)% additional damage") / 100
     # Weakness Infiltration on Speed Phantom: +30% Infiltration Effect taken for 4 s when it deals damage
     sp_wi = any(x.startswith("Speed Phantom") and "Weakness Infiltration" in x for x in build.get("skills", {}).get("others", []))
@@ -344,12 +380,31 @@ def dps(build, trees, verbose=False):
     proj = 1 + 0.8 + 0.8 ** 2
     casts = (1.54 * (1 + sh["cast_speed"] / 100) * (1.07 if ctx["spell_aggression"] else 1) * (1.08 if ctx["hasten"] else 1)
              * (1 + t["cast.add"] / 100))
-    ripple = 1.5
+    ripple = 1.5 if any(pa.get("core") == "Spell Ripple" for pa in trees["panels"]) else 1.0
     hit = base * math.prod(m.values()) * math.prod(e.values())
-    per_cast = hit * crit * dbl * proj * ripple
+    cap = ctx.get("hit_cap", 5e12)
+    real = hit / ctx.get("dummy_scale", 1.0)          # per-hit damage before crit/double, without the hit-rate constant
+    a_u, b_u = base_min / base, base_max / base         # damage roll range relative to the average
+    def e_min(K):                                       # E[min(cap, K*u)], u ~ U[a_u, b_u]
+        if K * b_u <= cap: return K
+        if K * a_u >= cap: return cap
+        tt = cap / K
+        return (K * (tt * tt - a_u * a_u) / 2 + cap * (b_u - tt)) / (b_u - a_u)
+    cd = sh["crit_damage"] / 100 * oncrit
+    q = min(1.0, max(0.0, dbl_c / 100 - 1)) if dbl_c > 100 else 0.0
+    dbl_states = [(4, q), (2, 1 - q)] if dbl_c > 100 else [(2, dbl_c / 100), (1, 1 - dbl_c / 100)]
+    capped = uncapped = 0.0
+    for w in (1.0, 0.8, 0.64):                          # shotgun falloff: each projectile is its own hit
+        for cm, pc in ((cd, p), (1.0, 1 - p)):
+            for dm, pd in dbl_states:
+                K = real * w * cm * dm
+                capped += pc * pd * e_min(K); uncapped += pc * pd * K
+    cap_factor = capped / uncapped if uncapped else 1.0
+    per_cast = hit * crit * dbl * proj * ripple * cap_factor
     total = per_cast * casts * ctx["tangles_active"]
     out = {"sheet": sh, "mult": m, "enemy": e, "base": base, "crit": crit, "double_chance": dbl_c, "double": dbl,
-           "proj": proj, "casts_per_tangle": casts, "ripple": ripple, "hit": hit, "dps": total}
+           "proj": proj, "casts_per_tangle": casts, "ripple": ripple, "hit": hit, "dps": total, "cap_factor": cap_factor,
+           "max_hit": real * cd * (4 if dbl_c > 100 else 2) * b_u}
     return out
 
 

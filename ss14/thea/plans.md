@@ -117,3 +117,22 @@ All multipliers on the sheet in `stats.json` unless dated. FE per 1% = expected 
 - DPS vs now (LW, Precise WA in Spell Amp's slot, -77 INT, no Hasten, no OTBT, +1 all, 27% roll): comp 87% all on mana (loses Lich's +10% sealed mana+life) x3.09 · comp 87% Frigid on life x3.40 · comp 37% Frigid on life x2.29 · comp 60% x2.77.
 - Global compensation sources: Lich (legendary +8% MAD1, medium 3% x3, micro 1.5% x3), helmet ultimate prefix 15-20% + base 6-8% (or corrosion base 10-15%), necklace ultimate suffix 15-20% + base 6-8%, prism area +2% per rank on nodes (now 18%), Lich/Nether King slates +8% / +3%, Glacier Caster Shield (offhand, n/a).
 - Engine: `off_the_beaten_track` context switch added.
+
+## Lich -> Warlock + Phantasmagoria + Lone Walker's (planned 2026-10-27, `tools/tree_opt/`, `plan_trees_*.json`)
+Vlad's plan: Lich out, Warlock in (Dirty Tricks core), Pedigree -> 2-core Pedigree (Defensiveness + a damage Lv.1 core), Spell Ripple prism out
+(Frozen Lotus core back), Ethereal Prism: Phantasmagoria (+75% random affixes: 3.5% sealed mana comp per micro/medium rank in area,
+"2 legendary mediums in area: Immune to CC / -25% Defense"), Lone Walker's (comp -> aura effect), Frigid on life.
+- Comp needed with Frigid on life, no OTBT (supports lv24, Restrain 12%): 38%.
+- **Best prism spot: Prophet 608_176** (same cell as Spell Ripple, the +4% frostbite effect micro), 4 wide x 3 tall, columns 352-736, rows 80-272:
+  9 micro/medium (27 ranks = 94.5% comp -> LW +62% aura effect, +89% with a 27% roll) + 2 legendaries (480_272 cold res, 480_176 "Inflicts Frostbite", 1 pt, CC only).
+  If the 4-wide area extends to the RIGHT of the prism instead, use Prophet 352_176 (columns 224-608), same 94.5% + CC.
+- Pedigree Lv.1 core (with the 5T hit cap modeled): Insight (+30% additional spell; Frozen Lotus kills the skill-cost downside) best and unconditional;
+  Third time's a charm ~equal in the damage build (+2%, needs movement); Blunt -1%; Impermanence worst (x1.43 uncapped, but crit+quad hits go far past 5T).
+- Results vs now (34.4 T with belt; dps with belt):
+  - tank, prism left-anchored: x1.84 (63 T), freed slot Precise Energy Fortress, Warlock life/ES 27% -> ES ~7.5k (+13%, after -25% Defense) 
+  - damage, left: x2.83 (98 T), Precise WA in the freed slot -> ES ~4.3k (-35%); hit cap factor 0.87
+  - tank, right-anchored (352_176): x1.67 (57.5 T) · damage right: x2.66 (91.5 T)
+- Steps (tank, left): Lich -> Warlock x0.94 · Spell Ripple -> Frozen Lotus x0.83 · LW (+89% aura effect) + EF, -77 INT, no Hasten x1.86 · Insight x1.30.
+- Costs to fix: Boon margin 1.03 -> 0.93 (Lich's 12.5% CDR gone; needs +9% CDR or +12% duration, else 2nd stack ~86% uptime, ~x0.94 sustained);
+  Mass Effect 3 -> 2 charges and +1 all skills (lvl 39) gone (both modeled); CC immune costs 25% Defense (= armor + evasion + ES).
+- Assumptions: Phantasmagoria has both the micro and medium 3.5% affix and it scales per rank (like Spell Ripple's 18%); LW roll 27%; Defense -25% added to the ES% pool.

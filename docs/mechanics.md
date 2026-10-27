@@ -113,3 +113,13 @@ DPS = Base
 - Actual Sealed Mana = Initial Sealed Mana / (1 + Sealed Mana Compensation). Auras seal 50% each, times each support's Mana Cost Multiplier (AA 100%, Restrain 100%, Increased Area 110%, CDR 110%, Seal Conversion 100%; Off The Beaten Track fixes supports at 95%).
 - Restrain's compensation is local to its aura; Lone Walker's "+2% aura effect per +3%" reads the global stat (assumed).
 - tlidb glossary says each INT gives +0.05% max ES; Vlad's character doesn't have it — don't count it.
+
+### Hit cap, prisms, Pedigree [2026-10-27]
+- **5T per hit** [Vlad]: engine caps every projectile hit (crit x double/quad x damage roll) at 5e12; the real hit is the model hit / dummy_scale (hit-rate constant).
+  Current build: biggest hit ~1.7T, no effect. Big multipliers past ~x2 start losing to the cap; variance (Impermanence) loses most.
+- Ethereal Prism [tlidb]: installs on a non-core node (that node is lost; the slot still satisfies pairing for the next node). Area affixes
+  ("All Micro/Medium/Legendary Medium Talent within the area also gain ...") scale per rank. Phantasmagoria: +75% to random affixes (2% -> 3.5% comp).
+  Area anchor for even sizes (4 wide) is unconfirmed — check which side the extra column goes in game.
+- Defense [tlidb glossary] = Armor + Evasion + Energy Shield.
+- Pedigree of Gods variants [tlidb]: <micro/medium> <micro/medium> <medium or Lv.1 core> | <micro/medium> <medium or Lv.1 core> <Lv.2 core>. Lv.1 = 12-pt god cores, Lv.2 = 24-pt cores.
+- Impermanence [tlidb]: phys min x0.1 / max x1.8, then all min x0.68 / max x1.32 -> average base x1.43 (modeled via the damage range).

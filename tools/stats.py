@@ -111,6 +111,9 @@ rule(r"# ?% (?:Spell )?Critical Strike Rating", "crit.rating_inc")
 rule(r"# ?% Critical Strike Rating, # ?% Minion Critical Strike Rating", "crit.rating_inc")
 rule(r"# (?:Spell |Attack and Spell )?Critical Strike Rating", "crit.flat")
 rule(r"# ?% (?:Spell |Cold Skill |Spell Skill )?Critical Strike Damage", "crit.dmg")
+rule(r"# ?% Critical Strike Damage against enemies", "crit.dmg")
+rule(r"Upon inflicting damage, # ?% Hit Damage for every type of Ailment the enemy has", "inc.hit_per_ailment")
+rule(r"# ?% additional Physical Damage", "add.physical")
 
 # --- speed
 rule(r"# ?% (?:Attack and )?Cast Speed", "cast.inc")

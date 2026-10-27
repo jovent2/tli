@@ -232,3 +232,6 @@ Vlad's plan: Lich out, Warlock in (Dirty Tricks core), Pedigree -> 2-core Pedigr
     + Magister 24 (4 pts) = 105. **23.1 T** with the belt's 80% damage, **21.1 T** with 440 ES instead (damage line x1.095 vs +12% ES base).
   - Zero main-memory rolls: 2 INT mediums -> block instead of the memory roll (attack 103 / spell 105): 22.5 T (dmg belt) / 20.5 T (ES belt).
   - Margins need belt + ring >= 37 combined (T0 16-20 each); if they roll low, the crit dmg micro becomes the 8th block micro.
+  - Why 22.5 T (from B1 33.1): new belt x1.027 · ring INT -> block x0.923 · orange crit lines x0.933 · kismets 152 -> 30 INT **x0.803** · Magister 4 pts x0.956. INT 556 -> 326.
+  - Wand "+2 Physical Skill Level" -> INT (same Advanced prefix group; T1 64-90, T0 91-117, T0+ 135-152): in the block plan break-even ~90 INT; one wand T0 104 x1.027,
+    117 x1.050; both wands x1.024 / x1.062 (the second barely pays). Current build (INT 556): a loss even at 117 (x0.977). The same line's tier upgrade +2 -> +3 is x1.08.

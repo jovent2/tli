@@ -27,7 +27,7 @@ import re
 import sys
 from dataclasses import dataclass, asdict
 
-RANGE = r"[+-]?\(?-?\d+(?:\.\d+)?(?:\s*[–-]\s*-?\d+(?:\.\d+)?)?\)?"
+RANGE = r"[+-]?\(?-?\d+(?:\.\d+)?(?:\s*–\s*-?\d+(?:\.\d+)?)?\)?"  # en dash = range; " - " separates min/max
 NUM_RX = re.compile(r"([+-]?)\(?(-?\d+(?:\.\d+)?)(?:\s*[–]\s*(-?\d+(?:\.\d+)?))?\)?")
 
 
@@ -116,6 +116,7 @@ rule(r"# ?% (?:Spell |Cold Skill |Spell Skill )?Critical Strike Damage", "crit.d
 rule(r"# ?% (?:Attack and )?Cast Speed", "cast.inc")
 rule(r"# ?% Cast Speed when Focus Blessing is active", "cast.inc", "focus")
 rule(r"# ?% Attack and Cast Speed, # ?% Minion Attack and Cast Speed", "cast.inc")
+rule(r"# ?% Attack Speed and Cast Speed when having Agility Blessing", "cast.inc", "agility")
 rule(r"# ?% Projectile Speed", "proj.speed")
 rule(r"# ?% additional Projectile Speed", "proj.speed_add")
 rule(r"# ?% Movement Speed", "ms")

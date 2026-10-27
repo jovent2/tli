@@ -30,3 +30,4 @@
 - **2026-10-27 13:38** Lone Walker's compensation scaling priced; OTBT made a context switch; no INT->ES (Vlad).
 - **2026-10-27 13:46-14:xx** Planned Lich -> Warlock / Phantasmagoria / Lone Walker's (plans.md). Engine: 5T hit cap, Impermanence, Spell Ripple / Dirty Tricks switches, vs-cursed, curse effect, Boon margin. tools/tree_opt added.
 - **2026-10-27 14:10** Phantasmagoria plan corrected (one comp type per prism, Vlad's area anchors): micro prism on Prophet 352_176 tank x1.57 / damage x2.40; medium prism on 608_176 x1.47 / x2.23.
+- **2026-10-27 14:19** Vlad priced the tank plan: LW 26% 15k, Phantasmagoria 4.5k, Pedigree Defensiveness + Impermanence 6k. At 26%: x1.553 (53.5 T), 461 FE/1%; LW first (x1.167, ES 8.1k), then trees + prism (x1.331).

@@ -147,3 +147,14 @@ Vlad's plan: Lich out, Warlock in (Dirty Tricks core), Pedigree -> 2-core Pedigr
   +5% INT (new 3), 2.5% regain (new 3) = 15 ranks = 52.5%. Tank x1.47 (Impermanence, 51 T, ES ~7.0k) / damage x2.23 (Insight, 77 T).
 - Pedigree Lv.1 core: tank (Energy Fortress, hits stay under 5T) -> Impermanence; damage (Precise WA, cap bites) -> Insight. Third time's a charm last in both.
 - Warlock 24 is the same in every variant. Boon CDR (margin 0.93) parked by Vlad.
+
+### Prices and buy order (Vlad 2026-10-27 14:19; model at LW roll 26%)
+- Prices: Lone Walker's 26% roll 15,000 · Phantasmagoria (micro) 4,500 · Pedigree Defensiveness + Impermanence 6,000 · kismets ~0 · Precise Energy Fortress: ask.
+- Tank micro plan at 26%: **x1.553 (53.5 T)**, ES ~7.2k (Precise EF) / ~6.8k (plain EF, same DPS). 25,500 FE -> **461 FE per 1%** (+ EF).
+- Roll: 15% x1.423 · 26% x1.553 · 30% x1.599 (each roll point ~0.75%; a 30% is worth <= ~1.4k more at the package rate).
+- Buy order (both end at x1.553):
+  - **LW first** (current trees, Spell Ripple prism 18% comp, Precise EF in Spell Amp's slot): x1.167 for 15k (898 FE/1%), ES ~8.1k (+21%);
+    then Warlock + Pedigree + Phantasmagoria 10.5k: x1.331 (317 FE/1%), ES -> 7.2k (CC immune -25% Defense).
+  - Trees first: x1.035 for 10.5k (mana fits: 3 auras x 55% / 1.75 = 94%), then LW x1.50.
+- Glass reference: LW + Precise WA in Spell Amp's slot on the current trees x1.851 for 15.1k (163 FE/1%), ES ~5.2k (-22%).
+- Checked: Precise WA in Domain Expansion's slot of the tank plan is x1.04 only (DE is x1.64 there: "additional Area Damage" counts on Chromatic).

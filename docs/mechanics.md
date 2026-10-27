@@ -101,6 +101,6 @@ DPS = Base
 
 ### Mass Effect charges (open, 2026-10-27)
 - Mass Effect: "+22.5% effect for the supported skill for every +1 Charge, up to +67.5%" (lv29). Vlad: 3 charges (ME, Fallen Starlight, Lich) -> full.
-- Pulls (belt off + Ring L off): full 9.4, standing still 6.8. Model at 3 charges: 12.70 / 8.07 (+35% / +19%). At 1 charge: 9.61 / 6.63 (+2% / -2.5%).
-- But the sheet's 256 cast speed fits SOU at full effect (1 charge -> 245). Decider: buff tooltips in the fight — Aim +78.1% (3) vs +60.9% (1); SOU +37.2% / 6.13% cast per Focus vs +29.0% / 4.78%; Euphoria 5.44% vs 3.98% per stack.
+- Pulls (belt off + Ring L off): full 9.4, standing still 6.8 (SP off only; the follower keeps casting Swift Shadow Raid).
+- Model at 3 charges: 12.70 / 8.55 (+35% / +26%). At 1 charge with Periodic Burst +30 (tlidb value; was +20): 9.88 / 7.25 (+5% / +7%) and sheet cast 255 vs 256. Build context set to 1 charge until the tooltip says otherwise. Decider: buff tooltips in the fight — Aim +78.1% (3) vs +60.9% (1); SOU +37.2% / 6.13% cast per Focus vs +29.0% / 4.78%; Euphoria 5.44% vs 3.98% per stack.
 - Weakness Infiltration on Speed Phantom: +30% Infiltration Effect taken -> Tartarus Cold Infiltration 13% -> 16.9% while Speed Phantom hits (modeled).

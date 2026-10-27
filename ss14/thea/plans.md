@@ -235,3 +235,12 @@ Vlad's plan: Lich out, Warlock in (Dirty Tricks core), Pedigree -> 2-core Pedigr
   - Why 22.5 T (from B1 33.1): new belt x1.027 · ring INT -> block x0.923 · orange crit lines x0.933 · kismets 152 -> 30 INT **x0.803** · Magister 4 pts x0.956. INT 556 -> 326.
   - Wand "+2 Physical Skill Level" -> INT (same Advanced prefix group; T1 64-90, T0 91-117, T0+ 135-152): in the block plan break-even ~90 INT; one wand T0 104 x1.027,
     117 x1.050; both wands x1.024 / x1.062 (the second barely pays). Current build (INT 556): a loss even at 117 (x0.977). The same line's tier upgrade +2 -> +3 is x1.08.
+
+## Prophet vs another panel (Spell Ripple prism moved onto it), block plan, no LW (2026-10-27 19:07)
+- Final T (block plan with the new belt, ring R frostbite T1 32, external block/res solved exactly; `scratchpad panels/pan.py + ext.py`):
+  **Prophet 26.8 T** (no memory rolls; 27.3 with 2) · Arcanist 23.1 (needs 2 memory rolls) · Steel Vanguard with ele res nodes 22.8 (1 roll; ~24.6 if its
+  "8% additional damage applied to Life" legendary counts as +8%) · Sentinel full block (42 attack / 60 spell from the tree) 22.8 (1 roll; its "+40% damage
+  if Blocked recently" x3 would be ~x1.13 on bosses that hit you, not on the dummy) · Marksman 22.8 · Druid 21.5.
+- Why Prophet: Frostbite is the biggest enemy-side multiplier (x3.2-3.5). Prophet's +44% frostbite effect (x1.17), +21 rating (to the 120 cap; without it
+  rating 107 with ring T1), +10% additional vs Frozen, 4.5% cold pen, INT nodes, and 30 cold res (saves 3 kismet slots for block).
+- Ring R frostbite T2 20 -> T1 32 on the current build: rating 116.4 -> 120 cap, x1.02 only. Without Prophet it's what keeps enemies Frozen.

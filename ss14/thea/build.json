@@ -300,14 +300,16 @@
    "lines": [
     "+1 Cold Skill Level",
     "+1 Spell Skill Level",
-    "+6% Max Life",
-    "+6% Max Energy Shield",
+    "+5 to Max Frostbite Rating",
     "+1 to Max Focus Blessing Stacks",
     "Regenerates 0.4% Mana per second while Focus Blessing is active",
     "+12% Skill Area",
     "+12% Projectile Speed"
    ],
-   "note": "2026-10-27 12:30. Fixed +1 Cold, +1 Spell; purple +6% life/+6% ES; orange Arcanist Focus (MAD1); orange medium +12% area/+12% proj speed. Replaced the old GoK #2 (+1 spell, Arcanist 8% additional, dead channeled, dead Spell Burst, Arcanist Focus)."
+   "note": "2026-10-27 12:30. Fixed +1 Cold, +1 Spell; purple +6% life/+6% ES; orange Arcanist Focus (MAD1); orange medium +12% area/+12% proj speed. Replaced the old GoK #2 (+1 spell, Arcanist 8% additional, dead channeled, dead Spell Burst, Arcanist Focus).",
+   "notes": [
+    "2026-10-27 19:07 Vlad: swapped an ES node for frostbite, 109 -> 117 rating. Read as the +6% life/+6% ES purple -> +5 Max Frostbite (x1.54 = 7.7). Node choice assumed."
+   ]
   },
   {
    "name": "A Corner of Divinity (legendary, on line +40%, values shown post-boost)",

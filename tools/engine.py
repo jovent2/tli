@@ -270,10 +270,30 @@ def dps(build, trees, verbose=False):
     vs_frozen = t["add.vs_frozen"] if frozen else 0
     m["vs Frozen (on-person, added)"] = 1 + vs_frozen / 100
     # auras and empowers
-    m["Spell Amplification"] = 1 + aura_value("Spell_Amplification", sh["level_aura_spell"], r"([\d.]+)% additional Spell Damage", sh) / 100
-    m["Frigid Domain"] = 1 + aura_value("Frigid_Domain", sh["level_aura_cold"], r"\+?([\d.]+)% additional Cold Damage", sh) / 100
-    m["Precise Projectiles"] = 1 + aura_value("Precise_Projectiles", sh["level_aura_proj"], r"\+?([\d.]+)% additional Projectile Damage", sh) / 100
-    m["Domain Expansion"] = 1 + aura_value("Domain_Expansion", sh["level_aura_plain"], r"\+?([\d.]+)% additional Area Damage", sh) / 100
+    # Auras come from build.skills.others ("Name [supports]"); "Precise: Name" uses the Precise table; Stand as One in the
+    # supports adds its per-aura effect x auras affecting you (max 5). Weapon Amp only hits the phys-origin part of the hit.
+    others = build.get("skills", {}).get("others", [])
+    aura_defs = [("Spell Amplification", "Spell_Amplification", sh["level_aura_spell"], r"([\d.]+)% additional Spell Damage"),
+                 ("Frigid Domain", "Frigid_Domain", sh["level_aura_cold"], r"\+?([\d.]+)% additional Cold Damage"),
+                 ("Precise Projectiles", "Precise_Projectiles", sh["level_aura_proj"], r"\+?([\d.]+)% additional Projectile Damage"),
+                 ("Domain Expansion", "Domain_Expansion", sh["level_aura_plain"], r"\+?([\d.]+)% additional Area Damage"),
+                 ("Weapon Amplification", "Weapon_Amplification", 20 + t["lvl.all"] + t["lvl.physical"], r"\+?([\d.]+)% additional Physical Damage")]
+    present = []
+    for name, key, lv, rx in aura_defs:
+        for x in others:
+            head = x.split(" [")[0].strip()
+            if head in (name, "Precise: " + name):
+                present.append((name, ("Precise_" + key) if head.startswith("Precise: ") else key, lv, rx, x))
+    n_auras = min(5, len(present))
+    sao = skill_value("Precise_Stand_as_One", sh["level_support_plain"], r"([\d.]+)% Aura Effect for each Aura")
+    phys_share = (664.5 + 1.23 * t["flat.physical"]) / base
+    for name, key, lv, rx, raw in present:
+        eff = 1 + aura_amp(sh) / 100 + (sao * n_auras / 100 if "Stand as One" in raw else 0)
+        v = skill_value(key, lv, rx) * eff / 100
+        if name == "Weapon Amplification":
+            m[name] = phys_share * (1 + v) + (1 - phys_share)
+        else:
+            m[name] = 1 + v
     ee = sh["empower_effect"]
     m["Aim"] = 1 + skill_value("Aim", sh["level_empower"], r"([\d.]+)% additional damage for Projectile") * ee / 100
     m["Secret Origin Unleash"] = 1 + skill_value("Secret_Origin_Unleash", sh["level_empower"], r"([\d.]+)% additional Spell Damage") * ee / 100

@@ -17,6 +17,8 @@ Every new session starts by reading this file, then the files listed under "Read
    when he reports a pull, add it to `tests.json` (before/after as changes to the current build) and `tests.md`.
 
 ## How to work with Vlad
+- `build.json` / `build.md` are his **boss setup** (pulls are on the boss dummy). For clearing he swaps about half the build
+  (Lightchaser, Swiftness, Blink, 2 different pets); not modeled. Boss upgrades carry over to clear, so optimize the boss setup.
 - He wants the math done, not discussed. Price things as multipliers on HIS current sheet, give the number, then the decision.
 - He gives in-game numbers; those are ground truth. tlidb is accurate too (check the level/rank you're reading — e.g. Wisdom of the Gods is 52% at L5 but he has L4 = 44%).
 - Anything he names (item, node, skill, prism, slate) gets looked up on tlidb BEFORE commenting. Never guess an item's text.

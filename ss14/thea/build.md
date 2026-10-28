@@ -1,5 +1,7 @@
 # Thea — SS14 Tartarus — current build
 
+**Boss setup** (Vlad 2026-10-28). For clearing he swaps about half of it: Lightchaser, Swiftness, Blink, 2 different pets. Not modeled; boss upgrades carry over.
+
 Wisdom of The Gods. Chromatic Shot cast through Spell Tangle, 100% phys → cold, dual Priceless wands,
 God's Boon held at 2 stacks permanently. Last full sync: 2026-10-26. Lines marked **(?)** need a fresh
 screenshot from Vlad.

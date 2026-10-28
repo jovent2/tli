@@ -335,7 +335,8 @@ def dps(build, trees, verbose=False):
     # Euphoria: 8 stacks in the best 1 s window; Mass Effect on Speed Phantom scales it (+3 charges: ME, Fallen Starlight, Lich -> full 'up to')
     sp_me = any(x.startswith("Speed Phantom") and "Mass Effect" in x for x in build.get("skills", {}).get("others", []))
     sp_eff = 1 + (mass_effect(sh, ctx.get("mass_effect_charges", 3)) / 100 if sp_me else 0)
-    m["Speed Phantom Euphoria"] = 1 + skill_value("Speed_Phantom", sh["level_speed_phantom"], r"([\d.]+)% additional Spell Damage, up to") * 8 * sp_eff / 100
+    sp_on = any(x.startswith("Speed Phantom") for x in build.get("skills", {}).get("others", []))
+    m["Speed Phantom Euphoria"] = (1 + skill_value("Speed_Phantom", sh["level_speed_phantom"], r"([\d.]+)% additional Spell Damage, up to") * 8 * sp_eff / 100) if sp_on else 1.0
     m["Spell Aggression"] = 1.07 if ctx["spell_aggression"] else 1.0
     if t.get("special.judgment_slate_bonus"):
         m["Judgment Offspring (+3% per slate on the line)"] = 1 + t["special.judgment_slate_bonus"] * ctx.get("slates_on_line", 0) / 100
@@ -359,6 +360,16 @@ def dps(build, trees, verbose=False):
     # Weakness Infiltration on Speed Phantom: +30% Infiltration Effect taken for 4 s when it deals damage
     sp_wi = any(x.startswith("Speed Phantom") and "Weakness Infiltration" in x for x in build.get("skills", {}).get("others", []))
     e["Cold Infiltration (Tartarus)"] = 1 + 0.13 * (1.3 if sp_wi and "Speed Phantom" not in ctx.get("disabled", []) else 1.0)
+    # Blizzard + "Blizzard: Freezing Point (Magnificent) N%" [tlidb]: it becomes an Empower; its "+10% additional Cold Damage taken" debuff (4 s, CD 2 s)
+    # is scaled by Empower Effect, and FP's "+N% additional Empower Effect" multiplies that (read: TLI "additional" multiplies). WFB / Mass Effect if supported.
+    for x in build.get("skills", {}).get("others", []):
+        if x.startswith("Blizzard") and "Freezing Point" in x:
+            mfp = re.search(r"Freezing Point[^\]]*?(\d+)%", x)
+            fp = float(mfp.group(1)) if mfp else 170.0
+            lv = sh["level_support_plain"]
+            wfb = skill_value("Well-Fought_Battle", lv, r"([\d.]+)% Effect every time") * 3 if "Well-Fought Battle" in x else 0
+            me = mass_effect(sh, ctx.get("mass_effect_charges", 3)) if "Mass Effect" in x else 0
+            e["Blizzard: Freezing Point"] = 1 + 0.10 * (1 + (wfb + me) / 100) * (1 + fp / 100)
     e["Paralysis"] = 1.15 if ls else 1.0
     e["Frail"] = 1.15 if t.get("enemy.frail") else 1.0
     e["Resistance"] = 1 - (30 - sh["res_pen"]) / 100   # pen can take res below 0 [Vlad 2026-10-27]

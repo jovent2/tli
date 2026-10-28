@@ -49,3 +49,13 @@ Quad-damage RNG gives roughly ±10% on a single pull.
 | New GoK #2 (+1 Cold, +1 Spell, Arcanist Focus, +6% life/ES, +12% area/proj speed), belt off + Ring L (INT ring) off | 9.4 | 9.55 | -1.6%. Ring off to stay under the 10 T display cap. Model belt-off without the ring removal: 12.78 T; with belt 34.0 T. Ring assumed L (Ring R off would be 6.1). |
 | SOU cast-speed test (10 Focus): both out / WFB x3 / ME / both | 231 / 240 / 247 / 256 | 231 / 239.8 / 247.2 / 256 (empower 2.042) | Mass Effect full confirmed |
 | Standing still (Speed Phantom not cast), belt off + Ring L off | 6.8 | 8.55 | +26%: absolute scale off; Speed Phantom share x1.382 measured vs x1.485 |
+
+## 2026-10-28 10:45 — Blizzard FP 246% in Speed Phantom's slot (assumed), boss dummy, display caps at 10 T
+| config | measured | model (DE x1.404, scale 0.767) | H1: DE dead, scale 1.077 | H2: DE works, all x1.39 |
+|---|---|---|---|---|
+| no belt, no ring L | >= 10 (cap) | 11.7 | 11.7 | 16.3 |
+| + no Domain Expansion | >= 10 (cap) | 8.4 | 11.7 | 11.6 |
+| + no Spell Amp | **8.0** | 5.75 | **8.1** | 8.0 |
+| decisive: no belt/ring/SA, DE ON | ? | 8.1 | **8.1** | **11.2 (cap)** |
+- H1 also reproduces yesterday's 9.4 / 6.8 exactly (DE x1.404 x 0.767 = 1.077 ~ the old constant was DE). H2 needs a new x1.39 that wasn't there yesterday.
+- Real full DPS: H1 41.5 T · H2 57.8 T. Pending the decisive pull (and confirmation that Blizzard is in).

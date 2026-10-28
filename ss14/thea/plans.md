@@ -328,8 +328,9 @@ ES nodes free, EHP = ES vs elemental hits (res x0.40, block 55% x0.45, Low Mana 
 - INT is worth ~7% less per point without Lightchaser (0.5%/pt attribute scaling instead of 0.75%) -> the block plan's INT losses shrink; re-run it on these supports.
 
 ## Hero trait comparison (2026-10-28 12:40, his gear with the trait swapped; core L4, others L3 unless noted)
-- **Thea 1 Wisdom of The Gods x7.50** (engine, trait off = 7.2 T): Wisdom x1.88 x Reincarnation x1.80 x Farewell x1.96 (all quad: 97% before it) x Agility x1.08.
-  Purity's 2nd stack alone x2.23. Tidewell's +20 double x1.116 (it's all quad). All L5: x9.84 (71 T).
+- **Thea 1 Wisdom of The Gods x7.50** (engine, trait off = 7.2 T): Wisdom x1.88 x Reincarnation x1.80 x Farewell x1.96 (all quad: 97% before it) x Agility x1.13
+  (4 stacks: +2% additional each = x1.08, and +4% cast each: 240 -> 256% cast = x1.047). Boon alone x6.63; if a Gemma gets 4 Agility elsewhere, Thea's edge over
+  Gemma 3 is x1.66 instead of x1.87. Purity's 2nd stack alone x2.23. Tidewell's +20 double x1.116 (it's all quad). All L5: x9.84 (71 T).
 - Gemma 2 Frostbitten Heart (FH4 / Deepfreeze 3 / Dance 3 / Blooming 3, exact tlidb values) **x3.62 (26 T)**: Cold Pulse +38% x1.38, Deepfreeze +10% x1.10,
   frostbite 116 -> 171 rating at 160% effect (Deepfreeze L3: cap 200, +55%) x1.61, Dance of Frost 4 x 12% x1.48. Frigid Infusion instead of Blooming x3.66.
   Rating stacked to 200 x4.11 (30 T). All L5 x5.19 (38 T). Frostbite is already x3.38 on his sheet, so the frostbite lines only add x1.6.

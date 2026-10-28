@@ -134,3 +134,10 @@ DPS = Base
 - Defense [tlidb glossary] = Armor + Evasion + Energy Shield.
 - Pedigree of Gods variants [tlidb]: <micro/medium> <micro/medium> <medium or Lv.1 core> | <micro/medium> <medium or Lv.1 core> <Lv.2 core>. Lv.1 = 12-pt god cores, Lv.2 = 24-pt cores.
 - Impermanence [tlidb]: phys min x0.1 / max x1.8, then all min x0.68 / max x1.32 -> average base x1.43 (modeled via the damage range).
+
+### Aura pulls 2026-10-28 [tested] (no belt / ring L / Spell Amp / Precise Proj, DE slot swapped; Swiftness = MS only = baseline)
+- Domain Expansion x1.377 (model 1.404): works on the whole hit, not only Spell Ripple pulses (that would be ~x1.17).
+- Precise Weapon Amp x1.547 (model with phys-origin share only 1.438; whole hit 1.505): **WA hits the whole Chromatic hit**, the wand's flat cold included. Engine changed.
+- Precise Projectiles ~x1.51 (from 8.0 / 7.3 x DE), model 1.427.
+- Blizzard + Freezing Point 246%: the six absolute pulls fit a debuff with **2 stacks** (4 s duration on a 2 s CD): x2.41 instead of x1.71. Read, decisive Blizzard-off pull pending.
+- dummy_scale refit to 0.739 on all six absolute pulls (rms 4.1%).

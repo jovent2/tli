@@ -11,7 +11,21 @@
      "gear:ring_l"
     ]
    },
-   "measured": 9.4
+   "measured": 9.4,
+   "common": {
+    "replace_skill": [
+     [
+      "Blizzard",
+      "Speed Phantom [Quick Mobility, Weakness Infiltration, Mass Effect]"
+     ]
+    ],
+    "remove_slate_lines": [
+     [
+      "Goddess of Knowledge's Divinity #2 (F, lv86, Spell+Cold)",
+      "+5 to Max Frostbite Rating"
+     ]
+    ]
+   }
   },
   {
    "name": "Standing still (no Speed Phantom; follower's Swift Shadow Raid still on), belt off + Ring L off",
@@ -26,7 +40,21 @@
      "Speed Phantom"
     ]
    },
-   "measured": 6.8
+   "measured": 6.8,
+   "common": {
+    "replace_skill": [
+     [
+      "Blizzard",
+      "Speed Phantom [Quick Mobility, Weakness Infiltration, Mass Effect]"
+     ]
+    ],
+    "remove_slate_lines": [
+     [
+      "Goddess of Knowledge's Divinity #2 (F, lv86, Spell+Cold)",
+      "+5 to Max Frostbite Rating"
+     ]
+    ]
+   }
   },
   {
    "name": "Purity off (belt off, before trait memory)",
@@ -50,7 +78,21 @@
     ]
    },
    "measured_before": 5.5,
-   "measured_after": 2.55
+   "measured_after": 2.55,
+   "common": {
+    "replace_skill": [
+     [
+      "Blizzard",
+      "Speed Phantom [Quick Mobility, Weakness Infiltration, Mass Effect]"
+     ]
+    ],
+    "remove_slate_lines": [
+     [
+      "Goddess of Knowledge's Divinity #2 (F, lv86, Spell+Cold)",
+      "+5 to Max Frostbite Rating"
+     ]
+    ]
+   }
   },
   {
    "name": "Base Trait slot memory -> Wisdom L4",
@@ -66,7 +108,21 @@
    },
    "after": {},
    "measured_before": 5.5,
-   "measured_after": 8.7
+   "measured_after": 8.7,
+   "common": {
+    "replace_skill": [
+     [
+      "Blizzard",
+      "Speed Phantom [Quick Mobility, Weakness Infiltration, Mass Effect]"
+     ]
+    ],
+    "remove_slate_lines": [
+     [
+      "Goddess of Knowledge's Divinity #2 (F, lv86, Spell+Cold)",
+      "+5 to Max Frostbite Rating"
+     ]
+    ]
+   }
   },
   {
    "name": "Slate purple line +20% frostbite effect (x1.54)",
@@ -82,7 +138,21 @@
    },
    "after": {},
    "measured_before": 8.6,
-   "measured_after": 10.0
+   "measured_after": 10.0,
+   "common": {
+    "replace_skill": [
+     [
+      "Blizzard",
+      "Speed Phantom [Quick Mobility, Weakness Infiltration, Mass Effect]"
+     ]
+    ],
+    "remove_slate_lines": [
+     [
+      "Goddess of Knowledge's Divinity #2 (F, lv86, Spell+Cold)",
+      "+5 to Max Frostbite Rating"
+     ]
+    ]
+   }
   },
   {
    "name": "Biting Cold off",
@@ -106,7 +176,19 @@
       "+47% Cold Skill Critical Strike Damage",
       "+40% Projectile Speed"
      ]
-    }
+    },
+    "replace_skill": [
+     [
+      "Blizzard",
+      "Speed Phantom [Quick Mobility, Weakness Infiltration, Mass Effect]"
+     ]
+    ],
+    "remove_slate_lines": [
+     [
+      "Goddess of Knowledge's Divinity #2 (F, lv86, Spell+Cold)",
+      "+5 to Max Frostbite Rating"
+     ]
+    ]
    }
   },
   {
@@ -130,7 +212,19 @@
       "+47% Cold Skill Critical Strike Damage",
       "+40% Projectile Speed"
      ]
-    }
+    },
+    "replace_skill": [
+     [
+      "Blizzard",
+      "Speed Phantom [Quick Mobility, Weakness Infiltration, Mass Effect]"
+     ]
+    ],
+    "remove_slate_lines": [
+     [
+      "Goddess of Knowledge's Divinity #2 (F, lv86, Spell+Cold)",
+      "+5 to Max Frostbite Rating"
+     ]
+    ]
    }
   },
   {
@@ -165,7 +259,19 @@
       "+47% Cold Skill Critical Strike Damage",
       "+40% Projectile Speed"
      ]
-    }
+    },
+    "replace_skill": [
+     [
+      "Blizzard",
+      "Speed Phantom [Quick Mobility, Weakness Infiltration, Mass Effect]"
+     ]
+    ],
+    "remove_slate_lines": [
+     [
+      "Goddess of Knowledge's Divinity #2 (F, lv86, Spell+Cold)",
+      "+5 to Max Frostbite Rating"
+     ]
+    ]
    }
   },
   {
@@ -189,7 +295,19 @@
       "+47% Cold Skill Critical Strike Damage",
       "+40% Projectile Speed"
      ]
-    }
+    },
+    "replace_skill": [
+     [
+      "Blizzard",
+      "Speed Phantom [Quick Mobility, Weakness Infiltration, Mass Effect]"
+     ]
+    ],
+    "remove_slate_lines": [
+     [
+      "Goddess of Knowledge's Divinity #2 (F, lv86, Spell+Cold)",
+      "+5 to Max Frostbite Rating"
+     ]
+    ]
    }
   },
   {
@@ -213,7 +331,19 @@
       "+47% Cold Skill Critical Strike Damage",
       "+40% Projectile Speed"
      ]
-    }
+    },
+    "replace_skill": [
+     [
+      "Blizzard",
+      "Speed Phantom [Quick Mobility, Weakness Infiltration, Mass Effect]"
+     ]
+    ],
+    "remove_slate_lines": [
+     [
+      "Goddess of Knowledge's Divinity #2 (F, lv86, Spell+Cold)",
+      "+5 to Max Frostbite Rating"
+     ]
+    ]
    }
   },
   {
@@ -237,7 +367,19 @@
       "+47% Cold Skill Critical Strike Damage",
       "+40% Projectile Speed"
      ]
-    }
+    },
+    "replace_skill": [
+     [
+      "Blizzard",
+      "Speed Phantom [Quick Mobility, Weakness Infiltration, Mass Effect]"
+     ]
+    ],
+    "remove_slate_lines": [
+     [
+      "Goddess of Knowledge's Divinity #2 (F, lv86, Spell+Cold)",
+      "+5 to Max Frostbite Rating"
+     ]
+    ]
    }
   },
   {
@@ -261,7 +403,19 @@
       "+47% Cold Skill Critical Strike Damage",
       "+40% Projectile Speed"
      ]
-    }
+    },
+    "replace_skill": [
+     [
+      "Blizzard",
+      "Speed Phantom [Quick Mobility, Weakness Infiltration, Mass Effect]"
+     ]
+    ],
+    "remove_slate_lines": [
+     [
+      "Goddess of Knowledge's Divinity #2 (F, lv86, Spell+Cold)",
+      "+5 to Max Frostbite Rating"
+     ]
+    ]
    }
   },
   {
@@ -288,7 +442,19 @@
       "+47% Cold Skill Critical Strike Damage",
       "+40% Projectile Speed"
      ]
-    }
+    },
+    "replace_skill": [
+     [
+      "Blizzard",
+      "Speed Phantom [Quick Mobility, Weakness Infiltration, Mass Effect]"
+     ]
+    ],
+    "remove_slate_lines": [
+     [
+      "Goddess of Knowledge's Divinity #2 (F, lv86, Spell+Cold)",
+      "+5 to Max Frostbite Rating"
+     ]
+    ]
    }
   },
   {
@@ -312,8 +478,96 @@
       "+47% Cold Skill Critical Strike Damage",
       "+40% Projectile Speed"
      ]
-    }
+    },
+    "replace_skill": [
+     [
+      "Blizzard",
+      "Speed Phantom [Quick Mobility, Weakness Infiltration, Mass Effect]"
+     ]
+    ],
+    "remove_slate_lines": [
+     [
+      "Goddess of Knowledge's Divinity #2 (F, lv86, Spell+Cold)",
+      "+5 to Max Frostbite Rating"
+     ]
+    ]
    }
+  },
+  {
+   "name": "No belt, ring L, DE, Spell Amp (Blizzard FP 246%)",
+   "era": "2026-10-28 10:45",
+   "group": "absolute",
+   "after": {
+    "remove": [
+     "gear:belt",
+     "gear:ring_l"
+    ],
+    "disable": [
+     "Domain Expansion",
+     "Spell Amplification"
+    ]
+   },
+   "measured": 8.0
+  },
+  {
+   "name": "No belt, ring L, Spell Amp, Precise Proj (DE on)",
+   "era": "2026-10-28 10:57",
+   "group": "absolute",
+   "after": {
+    "remove": [
+     "gear:belt",
+     "gear:ring_l"
+    ],
+    "disable": [
+     "Spell Amplification",
+     "Precise Projectiles"
+    ]
+   },
+   "measured": 7.3
+  },
+  {
+   "name": "... Swiftness in DE's slot",
+   "era": "2026-10-28 10:57",
+   "group": "absolute",
+   "after": {
+    "remove": [
+     "gear:belt",
+     "gear:ring_l"
+    ],
+    "disable": [
+     "Spell Amplification",
+     "Precise Projectiles"
+    ],
+    "replace_skill": [
+     [
+      "Domain Expansion",
+      "Swiftness [Aura Amplification, Restrain, Cooldown Reduction]"
+     ]
+    ]
+   },
+   "measured": 5.3
+  },
+  {
+   "name": "... Precise Weapon Amp in DE's slot",
+   "era": "2026-10-28 10:57",
+   "group": "absolute",
+   "after": {
+    "remove": [
+     "gear:belt",
+     "gear:ring_l"
+    ],
+    "disable": [
+     "Spell Amplification",
+     "Precise Projectiles"
+    ],
+    "replace_skill": [
+     [
+      "Domain Expansion",
+      "Precise: Weapon Amplification [Aura Amplification, Restrain, Cooldown Reduction]"
+     ]
+    ]
+   },
+   "measured": 8.2
   }
  ]
 }

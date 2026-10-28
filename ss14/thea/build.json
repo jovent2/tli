@@ -21,8 +21,10 @@
   "mass_effect_charges": 3,
   "periodic_burst": 20,
   "_mass_effect_note": "2026-10-27 13:07 sheet test (10 Focus, 4 Agility): no SOU 207, SOU bare 231 (+24), WFB 1/2/3 casts 234/237/240 (+12.5%/stack), ME only 247 (+66.7% = full, 3 charges), both 256 (x2.04). Mass Effect is full. Periodic Burst (follower Tartarus version) = +20.",
-  "dummy_scale": 0.767,
-  "_dummy_scale_note": "Hit-rate constant (shots missing), fitted to 9.4 / 6.8 belt off + Ring L off, 2026-10-27. Affects absolute T only."
+  "dummy_scale": 0.739,
+  "_dummy_scale_note": "Hit-rate / absolute constant, refit 2026-10-28 on 6 absolute pulls (9.4 / 6.8 Speed Phantom era + 8.0 / 7.3 / 5.3 / 8.2 Blizzard era).",
+  "blizzard_stacks": 2,
+  "_blizzard_note": "2026-10-28: Speed Phantom -> Blizzard + Freezing Point 246% (read from Vlad's pulls; he asked about it right before). 2 debuff stacks fit the 4 aura pulls; decisive Blizzard-off pull pending."
  },
  "hero": {
   "name": "Thea",
@@ -462,7 +464,7 @@
    "Biting Cold [Preparation, Terrain of Malice, Deepened Curse, Increased Area]",
    "Precise Projectiles [Restrain, Increased Area, Aura Amplification]",
    "Spell Amplification [Aura Amplification, Increased Area, Restrain]",
-   "Speed Phantom [Quick Mobility, Weakness Infiltration, Mass Effect]",
+   "Blizzard [Activation Medium: Elite, Well-Fought Battle, Blizzard: Freezing Point (Magnificent) 246%, Mass Effect]",
    "Frigid Domain [Seal Conversion, Aura Amplification]",
    "Domain Expansion [Aura Amplification, Restrain, Cooldown Reduction]"
   ]

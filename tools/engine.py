@@ -325,9 +325,9 @@ def dps(build, trees, verbose=False):
         eff = (1 + (aura_amp(sh) / 100 if "Aura Amplification" in raw else 0) + t["aura.effect"] / 100
                + (sao * n_auras / 100 if "Stand as One" in raw else 0))
         v = skill_value(key, lv, rx) * eff / 100
-        if name == "Weapon Amplification":
+        if name == "Weapon Amplification" and ctx.get("weapon_amp_phys_share_only", False):
             m[name] = phys_share * (1 + v) + (1 - phys_share)
-        else:
+        else:   # [tested 2026-10-28] Precise WA in DE's slot measured x1.547 vs Swiftness: it hits the whole Chromatic hit (x1.505), not only the phys share (x1.438)
             m[name] = 1 + v
     ee = sh["empower_effect"]
     m["Aim"] = 1 + skill_value("Aim", sh["level_empower"], r"([\d.]+)% additional damage for Projectile") * ee / 100
@@ -369,7 +369,8 @@ def dps(build, trees, verbose=False):
             lv = sh["level_support_plain"]
             wfb = skill_value("Well-Fought_Battle", lv, r"([\d.]+)% Effect every time") * 3 if "Well-Fought Battle" in x else 0
             me = mass_effect(sh, ctx.get("mass_effect_charges", 3)) if "Mass Effect" in x else 0
-            e["Blizzard: Freezing Point"] = 1 + 0.10 * (1 + (wfb + me) / 100) * (1 + fp / 100)
+            stacks = ctx.get("blizzard_stacks", 1)   # FP: 4 s debuff on a 2 s CD; 2026-10-28 pulls fit 2 stacks (read; decisive Blizzard-off pull pending)
+            e["Blizzard: Freezing Point"] = 1 + stacks * 0.10 * (1 + (wfb + me) / 100) * (1 + fp / 100)
     e["Paralysis"] = 1.15 if ls else 1.0
     e["Frail"] = 1.15 if t.get("enemy.frail") else 1.0
     e["Resistance"] = 1 - (30 - sh["res_pen"]) / 100   # pen can take res below 0 [Vlad 2026-10-27]
@@ -471,6 +472,8 @@ def apply(build, trees, change):
     if change.get("stat_delta"):
         b["gear"].append({"slot": "_delta", "name": "test delta", "lines": [],
                           "effects": [{"key": k, "value": v, "why": "test delta"} for k, v in change["stat_delta"].items()]})
+    for prefix, new in change.get("replace_skill", []):
+        b["skills"]["others"] = [(new if x.startswith(prefix) else x) for x in b["skills"]["others"]]
     if change.get("disable"):
         b["context"]["disabled"] = sorted(set(b["context"].get("disabled", [])) | set(change["disable"]))
     for slot, line in change.get("add_lines", []):

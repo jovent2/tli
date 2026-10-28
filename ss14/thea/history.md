@@ -45,3 +45,4 @@
 - **2026-10-28 12:12** Vlad: Skill Effect Duration does extend Tangles -> 8.9 s (my 5.6 s was wrong). Fallen Starlight's +1 Max Charges also works on God's Boon. Conclusion unchanged: Spell Tangle alone is out (Manifold = 1 cast), T0 medium x1.108 is the upgrade.
 - **2026-10-28 12:40** Trait comparison on his sheet: Thea 1 x7.50, Gemma 2 x3.60, Gemma 3 x1.76 (plans.md). Engine: Reincarnation and Farewell scale with trait level (tlidb tables; L3 values unchanged).
 - **2026-10-28 14:30** Trait comparison redone with exact per-level values: Gemma 2 (4/3/3/3) x3.62, Gemma 3 all-cold x2.96, Thea 1 x7.50.
+- **2026-10-28 14:40** Vlad: Gemma 1 = Ice-Fire Fusion, Gemma 3 = Flame of Pleasure. Gemma 3 (4/3/3/3, fire as cold) x4.01 sustained, x5.26 dummy peak; Thea 1 x7.50.

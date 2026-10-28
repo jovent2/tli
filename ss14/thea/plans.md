@@ -333,7 +333,11 @@ ES nodes free, EHP = ES vs elemental hits (res x0.40, block 55% x0.45, Low Mana 
 - Gemma 2 Frostbitten Heart (FH4 / Deepfreeze 3 / Dance 3 / Blooming 3, exact tlidb values) **x3.62 (26 T)**: Cold Pulse +38% x1.38, Deepfreeze +10% x1.10,
   frostbite 116 -> 171 rating at 160% effect (Deepfreeze L3: cap 200, +55%) x1.61, Dance of Frost 4 x 12% x1.48. Frigid Infusion instead of Blooming x3.66.
   Rating stacked to 200 x4.11 (30 T). All L5 x5.19 (38 T). Frostbite is already x3.38 on his sheet, so the frostbite lines only add x1.6.
-- Gemma 3 Ice-Fire Fusion, every fire line read as cold (Vlad): Fusion 4 / Embrace 3 / Restless 3 / Bone-piercing 3 **x2.96 (21 T)**: Rampage +30% x1.30 (7.7 s vs
+- Gemma 1 Ice-Fire Fusion (Vlad: Gemma 1, not 3), every fire line read as cold: Fusion 4 / Embrace 3 / Restless 3 / Bone-piercing 3 **x2.96 (21 T)**: Rampage +30% x1.30 (7.7 s vs
   5.9 s CD -> permanent), Embrace both lines x1.35, Restless 18% pen x1.19, Bone-piercing "42% of cold as extra cold" x1.42. All L5 x3.82 (28 T).
   (As written, fire on a cold sheet: x1.76.) Read: Gemma buffs at full uptime, her additional-cold lines multiply.
+- **Gemma 3 Flame of Pleasure** (FoP 4 / Groaning Echo 3 / Infernal Damnation 3 / Dress Licker 3, fire read as cold) **x4.01 sustained (29 T)**:
+  Purgatory +68% x Dress Licker +40% damage taken (enemy-side, multiply) x2.35, Dress Licker +30% fire -> cold x1.30, Infernal Damnation +8%/s ramp over a
+  10 s Purgatory (6.5 s x1.54 duration; CD 6.2 s, 2 charges, ~0.5 s auto-cast gap) avg x1.36 / peak x1.72. Dummy best second x5.26 (38 T): the ramp flatters pulls.
+  Fire as written x3.10; if Purgatory ignores skill duration x3.54. All L5 x4.93 (peak x6.52). Boss must stay inside Purgatory (~10 m with +70% area).
 - Hero memory upgrades: Predicted Reincarnation L3 -> L5 **x1.167**, Wisdom L4 -> L5 x1.085, Farewell L3 -> L5 x1.036 (quad caps at 200%), Purity L5 x1.00 (margin already >= 1).

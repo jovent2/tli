@@ -311,3 +311,7 @@ ES nodes free, EHP = ES vs elemental hits (res x0.40, block 55% x0.45, Low Mana 
 - Fallen Starlight (23:10): its "+1 Max Charges" = the 3rd Mass Effect charge = **x1.147** on the block layout (26.6 -> 23.2 T without it); a Starlight with Lich's
   "+10% additional (sealed mana + life)" instead is x1.10 and would need Boon CDR from elsewhere (CDR-24 belt route 22.4 T, x0.84; Hasten belt with CDR Ultimate
   suffix instead of Double 24.6 T, x0.93). Keep the current Starlight.
+- **Speed Phantom -> Blizzard [Activation Medium: Elite, Well-Fought Battle, Blizzard: Freezing Point, Mass Effect]** (2026-10-28): debuff 10% additional cold taken
+  x empower 2.04 x (1 + FP roll). FP 246% -> x1.707 = **x1.235 over Speed Phantom as measured** (9.4 / 6.8 = x1.382; the model's x1.485 overstates it 7%).
+  Ice Bond (lv34, 27.5% vs Frostbitten x 2.04) = x1.56; Blizzard beats it above FP ~175%. Read: "+X% additional Empower Effect" multiplies the empower effect (TLI "additional").
+  Elite-only (Activation Medium: Elite). Triggers cost no mana [Vlad].

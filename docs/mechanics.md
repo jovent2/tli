@@ -53,6 +53,9 @@ DPS = Base
 - Tangles cast the linked spell at the player's cast speed (not Activation Medium's 0.4 s).
 
 ### Projectiles [tested]
+- **Chromatic supports in the engine (2026-10-28)**: only what's slotted counts. Activation Medium: Tangle [tlidb]: "+(11-15)% additional" T1 (T2 1-5, T0 21-25),
+  auto-creates Tangles every 0.4 s below the cap, +1 Tangle per trigger. Overload: +4.7%/Focus stack at lv34, max 8 stacks. Multiple Projectiles: +18.6% at lv29
+  x a projectile part 1.256 fitted from the 2026-10-25 pull (MP x1.49 total without Lightchaser). Spell Tangle lv34 +29.4%, Manifold +27.5%.
 - Chromatic Shot fires 3 shots, shotgun falloff 80%. Lightchaser's tracking makes extra projectiles overlap (Multiple Projectiles was worth ~×1.33 with Lightchaser, not ×1.49).
 - **Open (2026-10-27):** Iron Lion r1 (Sword Rain, outer ring) gives Projectile Quantity +2 → Chromatic should fire 5, but the engine counts 3 (1 + 0.8 + 0.64). The absolute pull still matches (9.4 vs 9.5 T), so the projectile factor is effectively calibrated, not derived. tlidb wording: "-20% base damage coefficient for subsequent Projectiles of Shotgun Effect"; "Shotgun Effect takes effect when dealing damage to the same enemy more than once" → reads as each extra shot at 80% (linear: 5 shots = 4.2, 7 = 5.8 → MP ×1.38, close to the measured ×1.33). Price anything that changes projectile quantity from a pull, not the engine. Losing Iron Lion would cost ~×0.62 on that read.
 
@@ -143,6 +146,6 @@ DPS = Base
 - Blizzard + Freezing Point 246%: **1 debuff, no stacking** [tested 11:31: Blizzard off 5.2 -> 3.0 = x1.733, model x1.707]. Nothing in the text stacks it
   (Blizzard "+10% additional Cold Damage taken for 6s"; FP: CD 2 s, debuff 4 s, debuff scaled by Empower Effect); the 2-stack read was mine and wrong.
 - Precise Projectiles: x1.37-1.51 from the rounded pulls, model 1.427 - fine.
-- **Absolute scale**: today's six pulls fit the raw model with no constant (fit 1.01, rms 3.2%) -> dummy_scale = 1.0. Yesterday's two pulls (Speed Phantom era)
-  sit at x0.767 of the same model: the hit-rate gap ("bolts into narnia") was there yesterday and isn't today. Cause unproven (positioning? something else
-  that changed overnight). Yesterday's tests carry 0.767 as era context.
+- **Absolute scale (12:05)**: the overnight change was the **Chromatic supports** (Vlad's screenshot): Activation Medium: Tangle T1 11% / Overload / Condensed Cold /
+  Multiple Projectiles / Target Projection (repo had Spell Tangle / Manifold / Lightchaser / TP / CC). Modeled -> today's six pulls fit dummy_scale **0.851** (rms 3%).
+  Yesterday with Spell Tangle fits 0.767 (x1.11 unexplained); with the medium already in slot 1 it fits 0.895 and one constant 0.862 covers all 8 pulls (rms 3.9%).

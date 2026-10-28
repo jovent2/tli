@@ -266,16 +266,34 @@ def dps(build, trees, verbose=False):
     m["level"] = level_mult(sh["level_chromatic"])
     m["increased"] = 1 + sh["increased_pool"] / 100
     attr = sh["INT"] + sh["STR"] + sh["DEX"]
-    lc = ctx.get("lightchaser", True)
+    # supports: only what is slotted on Chromatic Shot (build.skills.main.supports, rolls written in the name)
+    sup = build["skills"]["main"]["supports"]
+    has = lambda name: any(x.startswith(name) for x in sup)
+    def roll(name, default):
+        mm = re.search(r"([+-]?\d+(?:\.\d+)?)%", next((x for x in sup if x.startswith(name)), ""))
+        return float(mm.group(1)) if mm else default
+    lc = has("Chromatic Shot: Lightchaser") and ctx.get("lightchaser", True)
     m["attributes (0.75%/pt w/ Lightchaser, else 0.5%)"] = 1 + (0.0075 if lc else 0.005) * attr
-    # supports
-    m["Spell Tangle"] = 1 + skill_value("Spell_Tangle", sh["level_support_spell"], r"([\d.]+)% additional damage") / 100
-    m["Manifold"] = 1 + skill_value("Manifold_Entanglement", sh["level_support_spell"], r"([\d.]+)% additional damage") / 100
-    m["Lightchaser roll [Vlad]"] = 0.84 if lc else 1.0
-    m["Condensed Cold roll [Vlad]"] = 1.20
-    tp = skill_value("Target_Projection", sh["level_support_proj"], r"([\d.]+)% additional damage to Marked")
-    m["Target Projection vs Marked"] = 1 + tp / 100
-    m["Enhanced Mark (proj taken) [measured: not applying]"] = 1.0
+    if has("Spell Tangle"):
+        m["Spell Tangle"] = 1 + skill_value("Spell_Tangle", sh["level_support_spell"], r"([\d.]+)% additional damage") / 100
+    if has("Activation Medium: Tangle"):     # [tlidb] T2 1-5 / T1 11-15 / T0 21-25% additional; auto-creates the Tangles (no Manifold needed)
+        m["Activation Medium: Tangle roll"] = 1 + roll("Activation Medium: Tangle", 11) / 100
+    if has("Manifold Entanglement"):
+        m["Manifold"] = 1 + skill_value("Manifold_Entanglement", sh["level_support_spell"], r"([\d.]+)% additional damage") / 100
+    if has("Overload"):                      # [tlidb] +X% additional per Focus Blessing stack, up to 8
+        m["Overload"] = 1 + skill_value("Overload", sh["level_support_spell"], r"([\d.]+)% additional damage") * min(8, sh["max_focus"]) / 100
+    proj_gain = 1.0
+    if has("Multiple Projectiles"):          # +2 projectiles. [tested 2026-10-25] MP x1.49 without Lightchaser (7.9 -> 5.3) = add% x projectile part 1.256
+        m["Multiple Projectiles"] = 1 + skill_value("Multiple_Projectiles", sh["level_support_proj"], r"([\d.]+)% additional damage") / 100
+        proj_gain = ctx.get("mp_projectile_gain", 1.256)
+    if lc:
+        m["Lightchaser roll [Vlad]"] = 1 + roll("Chromatic Shot: Lightchaser", -16) / 100
+    if has("Chromatic Shot: Condensed Cold"):
+        m["Condensed Cold roll [Vlad]"] = 1 + roll("Chromatic Shot: Condensed Cold", 20) / 100
+    if has("Target Projection"):
+        tp = skill_value("Target_Projection", sh["level_support_proj"], r"([\d.]+)% additional damage to Marked")
+        m["Target Projection vs Marked"] = 1 + tp / 100
+        m["Enhanced Mark (proj taken) [measured: not applying]"] = 1.0
     # tangles
     m["Dormant Entanglement"] = 1 + 0.40 * ctx["tangles_dormant"]
     m["NFE"] = 1 + 0.07 * 1.5 * ctx["nfe_stacks"]
@@ -388,7 +406,7 @@ def dps(build, trees, verbose=False):
     crit = (1 - p) + p * sh["crit_damage"] / 100 * oncrit
     dbl_c = sh["double_on_person"] + (20 if ctx["in_tidewell"] else 0) + (6 * 8 * stacks if tl["Farewell Prophecy"] >= 3 else 0)
     dbl = 1 + dbl_c / 100 if dbl_c <= 100 else 2 * (1 + min(1.0, dbl_c / 100 - 1))
-    proj = 1 + 0.8 + 0.8 ** 2
+    proj = (1 + 0.8 + 0.8 ** 2) * proj_gain
     casts = (1.54 * (1 + sh["cast_speed"] / 100) * (1.07 if ctx["spell_aggression"] else 1) * (1.08 if ctx["hasten"] else 1)
              * (1 + t["cast.add"] / 100))
     ripple = 1.5 if any(pa.get("core") == "Spell Ripple" for pa in trees["panels"]) else 1.0
@@ -471,6 +489,8 @@ def apply(build, trees, change):
     if change.get("stat_delta"):
         b["gear"].append({"slot": "_delta", "name": "test delta", "lines": [],
                           "effects": [{"key": k, "value": v, "why": "test delta"} for k, v in change["stat_delta"].items()]})
+    if change.get("main_supports") is not None:
+        b["skills"]["main"]["supports"] = list(change["main_supports"])
     for prefix, new in change.get("replace_skill", []):
         b["skills"]["others"] = [(new if x.startswith(prefix) else x) for x in b["skills"]["others"]]
     if change.get("disable"):

@@ -25,10 +25,18 @@
       "+5 to Max Frostbite Rating"
      ]
     ],
+    "main_supports": [
+     "Spell Tangle",
+     "Manifold Entanglement",
+     "Chromatic Shot: Lightchaser (Magnificent) T1 -16%",
+     "Target Projection",
+     "Chromatic Shot: Condensed Cold (Noble) T1 +20%"
+    ],
     "context": {
      "dummy_scale": 0.767
     }
-   }
+   },
+   "note": "Era constant 0.767 with Spell Tangle in slot 1 (as recorded). With the medium (T1 11%) instead it would be 0.895 = today's 0.851 within 5%."
   },
   {
    "name": "Standing still (no Speed Phantom; follower's Swift Shadow Raid still on), belt off + Ring L off",
@@ -57,10 +65,18 @@
       "+5 to Max Frostbite Rating"
      ]
     ],
+    "main_supports": [
+     "Spell Tangle",
+     "Manifold Entanglement",
+     "Chromatic Shot: Lightchaser (Magnificent) T1 -16%",
+     "Target Projection",
+     "Chromatic Shot: Condensed Cold (Noble) T1 +20%"
+    ],
     "context": {
      "dummy_scale": 0.767
     }
-   }
+   },
+   "note": "Era constant 0.767 with Spell Tangle in slot 1 (as recorded). With the medium (T1 11%) instead it would be 0.895 = today's 0.851 within 5%."
   },
   {
    "name": "Purity off (belt off, before trait memory)",
@@ -97,6 +113,13 @@
       "Goddess of Knowledge's Divinity #2 (F, lv86, Spell+Cold)",
       "+5 to Max Frostbite Rating"
      ]
+    ],
+    "main_supports": [
+     "Spell Tangle",
+     "Manifold Entanglement",
+     "Chromatic Shot: Lightchaser (Magnificent) T1 -16%",
+     "Target Projection",
+     "Chromatic Shot: Condensed Cold (Noble) T1 +20%"
     ]
    }
   },
@@ -127,6 +150,13 @@
       "Goddess of Knowledge's Divinity #2 (F, lv86, Spell+Cold)",
       "+5 to Max Frostbite Rating"
      ]
+    ],
+    "main_supports": [
+     "Spell Tangle",
+     "Manifold Entanglement",
+     "Chromatic Shot: Lightchaser (Magnificent) T1 -16%",
+     "Target Projection",
+     "Chromatic Shot: Condensed Cold (Noble) T1 +20%"
     ]
    }
   },
@@ -157,6 +187,13 @@
       "Goddess of Knowledge's Divinity #2 (F, lv86, Spell+Cold)",
       "+5 to Max Frostbite Rating"
      ]
+    ],
+    "main_supports": [
+     "Spell Tangle",
+     "Manifold Entanglement",
+     "Chromatic Shot: Lightchaser (Magnificent) T1 -16%",
+     "Target Projection",
+     "Chromatic Shot: Condensed Cold (Noble) T1 +20%"
     ]
    }
   },
@@ -194,6 +231,13 @@
       "Goddess of Knowledge's Divinity #2 (F, lv86, Spell+Cold)",
       "+5 to Max Frostbite Rating"
      ]
+    ],
+    "main_supports": [
+     "Spell Tangle",
+     "Manifold Entanglement",
+     "Chromatic Shot: Lightchaser (Magnificent) T1 -16%",
+     "Multiple Projectiles",
+     "Chromatic Shot: Condensed Cold (Noble) T1 +20%"
     ]
    }
   },
@@ -230,6 +274,13 @@
       "Goddess of Knowledge's Divinity #2 (F, lv86, Spell+Cold)",
       "+5 to Max Frostbite Rating"
      ]
+    ],
+    "main_supports": [
+     "Spell Tangle",
+     "Manifold Entanglement",
+     "Chromatic Shot: Lightchaser (Magnificent) T1 -16%",
+     "Multiple Projectiles",
+     "Chromatic Shot: Condensed Cold (Noble) T1 +20%"
     ]
    }
   },
@@ -277,6 +328,13 @@
       "Goddess of Knowledge's Divinity #2 (F, lv86, Spell+Cold)",
       "+5 to Max Frostbite Rating"
      ]
+    ],
+    "main_supports": [
+     "Spell Tangle",
+     "Manifold Entanglement",
+     "Chromatic Shot: Lightchaser (Magnificent) T1 -16%",
+     "Multiple Projectiles",
+     "Chromatic Shot: Condensed Cold (Noble) T1 +20%"
     ]
    }
   },
@@ -313,6 +371,13 @@
       "Goddess of Knowledge's Divinity #2 (F, lv86, Spell+Cold)",
       "+5 to Max Frostbite Rating"
      ]
+    ],
+    "main_supports": [
+     "Spell Tangle",
+     "Manifold Entanglement",
+     "Chromatic Shot: Lightchaser (Magnificent) T1 -16%",
+     "Multiple Projectiles",
+     "Chromatic Shot: Condensed Cold (Noble) T1 +20%"
     ]
    }
   },
@@ -349,6 +414,13 @@
       "Goddess of Knowledge's Divinity #2 (F, lv86, Spell+Cold)",
       "+5 to Max Frostbite Rating"
      ]
+    ],
+    "main_supports": [
+     "Spell Tangle",
+     "Manifold Entanglement",
+     "Chromatic Shot: Lightchaser (Magnificent) T1 -16%",
+     "Multiple Projectiles",
+     "Chromatic Shot: Condensed Cold (Noble) T1 +20%"
     ]
    }
   },
@@ -385,6 +457,13 @@
       "Goddess of Knowledge's Divinity #2 (F, lv86, Spell+Cold)",
       "+5 to Max Frostbite Rating"
      ]
+    ],
+    "main_supports": [
+     "Spell Tangle",
+     "Manifold Entanglement",
+     "Chromatic Shot: Lightchaser (Magnificent) T1 -16%",
+     "Multiple Projectiles",
+     "Chromatic Shot: Condensed Cold (Noble) T1 +20%"
     ]
    }
   },
@@ -421,6 +500,13 @@
       "Goddess of Knowledge's Divinity #2 (F, lv86, Spell+Cold)",
       "+5 to Max Frostbite Rating"
      ]
+    ],
+    "main_supports": [
+     "Spell Tangle",
+     "Manifold Entanglement",
+     "Chromatic Shot: Lightchaser (Magnificent) T1 -16%",
+     "Multiple Projectiles",
+     "Chromatic Shot: Condensed Cold (Noble) T1 +20%"
     ]
    }
   },
@@ -460,6 +546,13 @@
       "Goddess of Knowledge's Divinity #2 (F, lv86, Spell+Cold)",
       "+5 to Max Frostbite Rating"
      ]
+    ],
+    "main_supports": [
+     "Spell Tangle",
+     "Manifold Entanglement",
+     "Chromatic Shot: Lightchaser (Magnificent) T1 -16%",
+     "Multiple Projectiles",
+     "Chromatic Shot: Condensed Cold (Noble) T1 +20%"
     ]
    }
   },
@@ -496,6 +589,13 @@
       "Goddess of Knowledge's Divinity #2 (F, lv86, Spell+Cold)",
       "+5 to Max Frostbite Rating"
      ]
+    ],
+    "main_supports": [
+     "Spell Tangle",
+     "Manifold Entanglement",
+     "Chromatic Shot: Lightchaser (Magnificent) T1 -16%",
+     "Multiple Projectiles",
+     "Chromatic Shot: Condensed Cold (Noble) T1 +20%"
     ]
    }
   },

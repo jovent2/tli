@@ -21,8 +21,8 @@
   "mass_effect_charges": 3,
   "periodic_burst": 20,
   "_mass_effect_note": "2026-10-27 13:07 sheet test (10 Focus, 4 Agility): no SOU 207, SOU bare 231 (+24), WFB 1/2/3 casts 234/237/240 (+12.5%/stack), ME only 247 (+66.7% = full, 3 charges), both 256 (x2.04). Mass Effect is full. Periodic Burst (follower Tartarus version) = +20.",
-  "dummy_scale": 1.0,
-  "_dummy_scale_note": "1.0 since 2026-10-28 11:31: today's six absolute pulls fit the raw model (fit 1.01, rms 3%). Yesterday's pulls (Speed Phantom era) ran x0.767 of the model - Vlad's 'bolts into narnia' hit rate; their tests carry 0.767 as era context.",
+  "dummy_scale": 0.851,
+  "_dummy_scale_note": "0.851 since 2026-10-28 12:05: fit on today's six absolute pulls with the screenshot supports (medium T1 11% / Overload / Condensed Cold / MP / TP), rms 3%. Yesterday's era (repo had Spell Tangle / Manifold / Lightchaser / TP / CC) fits 0.767; if the medium was already there yesterday it fits 0.895 and one constant 0.862 covers both days (rms 3.9%). Asked Vlad.",
   "blizzard_stacks": 1,
   "_blizzard_note": "2026-10-28 11:31 Vlad: Blizzard off pull 5.2 -> 3.0 = x1.733 = 1 stack (model x1.707). The 2-stack read was wrong."
  },
@@ -451,11 +451,11 @@
   "main": {
    "name": "Chromatic Shot",
    "supports": [
-    "Spell Tangle",
-    "Manifold Entanglement",
-    "Chromatic Shot: Lightchaser (Magnificent) T1 -16%",
-    "Target Projection",
-    "Chromatic Shot: Condensed Cold (Noble) T1 +20%"
+    "Activation Medium: Tangle T1 +11%",
+    "Overload",
+    "Chromatic Shot: Condensed Cold (Noble) T1 +20%",
+    "Multiple Projectiles",
+    "Target Projection"
    ]
   },
   "others": [

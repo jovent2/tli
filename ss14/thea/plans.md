@@ -318,3 +318,10 @@ ES nodes free, EHP = ES vs elemental hits (res x0.40, block 55% x0.45, Low Mana 
 - ~~Domain Expansion may be dead~~ - it works (x1.377 measured). **Precise Weapon Amp in DE's slot = +12.3% measured (8.2 vs 7.3), model +7.2%: swap it.**
 - **Real DPS (2026-10-28 11:40, dummy_scale 1.0): 54.1 T full build; ~61 T with Precise WA in DE's slot** (measured ratio; model 58.0). Max hit 2.0 T, cap not binding.
   Blizzard is 1 stack (x1.733 measured). Plan T numbers above were at dummy 0.767: multiply them by 1.30 for absolute T (ratios unchanged).
+
+## Chromatic supports (2026-10-28 12:05, current build, model at dummy 0.851)
+- Now: Activation Medium: Tangle T1 11% / Overload / Condensed Cold / Multiple Projectiles / Target Projection = 54.3 T full.
+- Overload vs Manifold in its slot: Overload x1.079 (keep). MP vs Lightchaser: MP x1.27 (keep; MP x1.49 measured 10-25 vs Lightchaser x1.17).
+- **Medium T0 (21-25%)**: x1.108 at 23%; T1 max 15% x1.036.
+- **Spell Tangle (lv34 +29.4%) in the medium's slot: x1.166 on paper** - manual tangle casts, no auto-trigger. Unverified: pull it against the 5.2 T config (> 6.1 T = Spell Tangle wins).
+- INT is worth ~7% less per point without Lightchaser (0.5%/pt attribute scaling instead of 0.75%) -> the block plan's INT losses shrink; re-run it on these supports.

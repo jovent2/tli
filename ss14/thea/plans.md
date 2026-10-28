@@ -330,8 +330,10 @@ ES nodes free, EHP = ES vs elemental hits (res x0.40, block 55% x0.45, Low Mana 
 ## Hero trait comparison (2026-10-28 12:40, his gear with the trait swapped; core L4, others L3 unless noted)
 - **Thea 1 Wisdom of The Gods x7.50** (engine, trait off = 7.2 T): Wisdom x1.88 x Reincarnation x1.80 x Farewell x1.96 (all quad: 97% before it) x Agility x1.08.
   Purity's 2nd stack alone x2.23. Tidewell's +20 double x1.116 (it's all quad). All L5: x9.84 (71 T).
-- Gemma 2 Frostbitten Heart x3.60 (26 T): Cold Pulse +38% & Deepfreeze +10% cold, Deepfreeze +52.5% frostbite effect / cap 175, Dance of Frost x1.52 (pulse 2 s,
-  4 stacks), Blooming Frost Flower +55 rating (= Frigid Infusion -32.5% res). All L5 x5.05. Read: full Cold Pulse uptime, same-kind additional cold adds; +-20%.
-- Gemma 3 Ice-Fire Fusion x1.76 (13 T): Rampage +29.75% (100% uptime with Restless + duration) + Embrace +16% (ignite = fire dealt), Restless +18% pen.
-  Fire-side lines miss the x33.7 cold-only stack (Bone-piercing Heat ~+1%; Ice to Blaze would gut it). All L5 x1.97.
+- Gemma 2 Frostbitten Heart (FH4 / Deepfreeze 3 / Dance 3 / Blooming 3, exact tlidb values) **x3.62 (26 T)**: Cold Pulse +38% x1.38, Deepfreeze +10% x1.10,
+  frostbite 116 -> 171 rating at 160% effect (Deepfreeze L3: cap 200, +55%) x1.61, Dance of Frost 4 x 12% x1.48. Frigid Infusion instead of Blooming x3.66.
+  Rating stacked to 200 x4.11 (30 T). All L5 x5.19 (38 T). Frostbite is already x3.38 on his sheet, so the frostbite lines only add x1.6.
+- Gemma 3 Ice-Fire Fusion, every fire line read as cold (Vlad): Fusion 4 / Embrace 3 / Restless 3 / Bone-piercing 3 **x2.96 (21 T)**: Rampage +30% x1.30 (7.7 s vs
+  5.9 s CD -> permanent), Embrace both lines x1.35, Restless 18% pen x1.19, Bone-piercing "42% of cold as extra cold" x1.42. All L5 x3.82 (28 T).
+  (As written, fire on a cold sheet: x1.76.) Read: Gemma buffs at full uptime, her additional-cold lines multiply.
 - Hero memory upgrades: Predicted Reincarnation L3 -> L5 **x1.167**, Wisdom L4 -> L5 x1.085, Farewell L3 -> L5 x1.036 (quad caps at 200%), Purity L5 x1.00 (margin already >= 1).

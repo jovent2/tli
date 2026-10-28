@@ -44,3 +44,4 @@
 - **2026-10-28 12:10** Tangle duration 5.6 s (8 s base x 0.7 Peculiar Vibe, no Tangle Duration lines). Spell Tangle without Manifold scrapped (Vlad: suicide); Spell Tangle + Manifold x1.080, T0 medium x1.108 -> the T0 medium is the upgrade.
 - **2026-10-28 12:12** Vlad: Skill Effect Duration does extend Tangles -> 8.9 s (my 5.6 s was wrong). Fallen Starlight's +1 Max Charges also works on God's Boon. Conclusion unchanged: Spell Tangle alone is out (Manifold = 1 cast), T0 medium x1.108 is the upgrade.
 - **2026-10-28 12:40** Trait comparison on his sheet: Thea 1 x7.50, Gemma 2 x3.60, Gemma 3 x1.76 (plans.md). Engine: Reincarnation and Farewell scale with trait level (tlidb tables; L3 values unchanged).
+- **2026-10-28 14:30** Trait comparison redone with exact per-level values: Gemma 2 (4/3/3/3) x3.62, Gemma 3 all-cold x2.96, Thea 1 x7.50.

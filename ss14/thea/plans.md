@@ -326,3 +326,12 @@ ES nodes free, EHP = ES vs elemental hits (res x0.40, block 55% x0.45, Low Mana 
 - ~~Spell Tangle alone in the medium's slot (x1.166 on paper)~~ - scrapped: tangles last 8.9 s, so holding 4 needs a cast every ~2.2 s while bossing; each drop is -22%.
   Spell Tangle + Manifold (one cast per ~5 s, all 4 drop together if late) = x1.080 vs now. **A T0 medium beats it (x1.108) with no recasts.**
 - INT is worth ~7% less per point without Lightchaser (0.5%/pt attribute scaling instead of 0.75%) -> the block plan's INT losses shrink; re-run it on these supports.
+
+## Hero trait comparison (2026-10-28 12:40, his gear with the trait swapped; core L4, others L3 unless noted)
+- **Thea 1 Wisdom of The Gods x7.50** (engine, trait off = 7.2 T): Wisdom x1.88 x Reincarnation x1.80 x Farewell x1.96 (all quad: 97% before it) x Agility x1.08.
+  Purity's 2nd stack alone x2.23. Tidewell's +20 double x1.116 (it's all quad). All L5: x9.84 (71 T).
+- Gemma 2 Frostbitten Heart x3.60 (26 T): Cold Pulse +38% & Deepfreeze +10% cold, Deepfreeze +52.5% frostbite effect / cap 175, Dance of Frost x1.52 (pulse 2 s,
+  4 stacks), Blooming Frost Flower +55 rating (= Frigid Infusion -32.5% res). All L5 x5.05. Read: full Cold Pulse uptime, same-kind additional cold adds; +-20%.
+- Gemma 3 Ice-Fire Fusion x1.76 (13 T): Rampage +29.75% (100% uptime with Restless + duration) + Embrace +16% (ignite = fire dealt), Restless +18% pen.
+  Fire-side lines miss the x33.7 cold-only stack (Bone-piercing Heat ~+1%; Ice to Blaze would gut it). All L5 x1.97.
+- Hero memory upgrades: Predicted Reincarnation L3 -> L5 **x1.167**, Wisdom L4 -> L5 x1.085, Farewell L3 -> L5 x1.036 (quad caps at 200%), Purity L5 x1.00 (margin already >= 1).

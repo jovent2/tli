@@ -305,7 +305,7 @@ def dps(build, trees, verbose=False):
     m["Bunch per Focus"] = 1 + t["add.spell_per_focus"] * f / 100
     m["Agility Blessing"] = 1 + 0.02 * ctx["agility"]
     wis = {0: 0, 1: 20, 2: 28, 3: 36, 4: 44, 5: 52}[tl["Wisdom of The Gods"]]
-    rein = {0: 0, 1: 4, 2: 6, 3: 8, 4: 10, 5: 11}[tl["Predicted Reincarnation"]] * 5
+    rein = {0: 0, 1: 5, 2: 6.5, 3: 8, 4: 9.5, 5: 11}[tl["Predicted Reincarnation"]] * 5   # [tlidb] per Focus consumed, 5 stacks
     stacks = ctx["boons"] if tl["Prophecy of Purity"] > 0 else 1
     m["Boon: Wisdom"] = 1 + wis * stacks / 100
     m["Boon: Reincarnation"] = 1 + rein * stacks / 100
@@ -404,7 +404,7 @@ def dps(build, trees, verbose=False):
     p = sh["crit_chance"] / 100
     oncrit = 1 + t["add.on_crit"] / 100
     crit = (1 - p) + p * sh["crit_damage"] / 100 * oncrit
-    dbl_c = sh["double_on_person"] + (20 if ctx["in_tidewell"] else 0) + (6 * 8 * stacks if tl["Farewell Prophecy"] >= 3 else 0)
+    dbl_c = sh["double_on_person"] + (20 if ctx["in_tidewell"] else 0) + ({0: 0, 1: 4, 2: 5, 3: 6, 4: 7, 5: 8}[tl["Farewell Prophecy"]] * 8 * stacks)
     dbl = 1 + dbl_c / 100 if dbl_c <= 100 else 2 * (1 + min(1.0, dbl_c / 100 - 1))
     proj = (1 + 0.8 + 0.8 ** 2) * proj_gain
     casts = (1.54 * (1 + sh["cast_speed"] / 100) * (1.07 if ctx["spell_aggression"] else 1) * (1.08 if ctx["hasten"] else 1)

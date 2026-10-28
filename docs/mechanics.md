@@ -85,8 +85,9 @@ DPS = Base
 - **Focus Blessing** [tlidb]: +5% additional damage per stack (added), base max 4, 10 s, gaining a stack refreshes all.
 - **Agility Blessing**: +4% attack/cast and +2% additional damage per stack, base max 4.
 - **God's Boon** (Thea, Wisdom of The Gods) [tlidb][tested]: consumes all Focus. Bonus per stack: Wisdom (L1 20 / L2 28 / L3 36 / L4 44 / L5 52% additional if it consumed max Focus, 10 s, CD 15 s) + Predicted Reincarnation (+8% additional per Focus consumed at L3, max 5) + Farewell Prophecy (+6% double per Focus consumed at L3, max 8). **Prophecy of Purity** gives +1 max Boon stack (2 total; 3 is impossible). Each bonus adds across stacks; different bonuses multiply. Two stacks are permanent when duration ≥ 2 × cooldown. Cooldown = 15 / (1.5 Reincarnation × (1 + CDR)); duration = 10 × (1 + skill effect duration).
-- **Tangle duration** [tlidb Tangle rules]: base 8 s; at the cap a new Tangle replaces the oldest. Own stat "Tangle Duration" (Skill Effect Duration not listed as
-  applying - read). Vlad: Peculiar Vibe -30% additional, no Tangle Duration lines -> **5.6 s**. A dropped Tangle = Dormant x1.4 instead of x1.8 (-22%).
+- **Tangle duration** [tlidb Tangle rules]: base 8 s; at the cap a new Tangle replaces the oldest. Skill Effect Duration applies [Vlad 2026-10-28].
+  Vlad: 8 x 0.7 (Peculiar Vibe -30% additional) x 1.59 (duration +59%), no Tangle Duration lines -> **8.9 s**. A dropped Tangle = Dormant x1.4 instead of x1.8 (-22%).
+- Fallen Starlight's "+1 Max Charges" also works on God's Boon [Vlad]: a banked 2nd Boon for the opener; sustained it is still one Boon per cooldown (read: charges refill one at a time), so boon_margin is unchanged.
 - **Tangles** [tlidb][Vlad]: base max 2, cap 4; attach to the highest-rarity enemy within 8 m; Peculiar Vibe = +1 Tangle that can be applied to enemies (global count, not per enemy). Unattached tangles are dormant. **Dormant Entanglement**: +40% additional tangle damage per inactive tangle. 2 attached + 2 dormant = 2 casts × 1.8.
 
 ## Defense

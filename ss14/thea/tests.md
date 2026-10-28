@@ -59,3 +59,6 @@ Quad-damage RNG gives roughly ±10% on a single pull.
 | decisive: no belt/ring/SA, DE ON | ? | 8.1 | **8.1** | **11.2 (cap)** |
 - H1 also reproduces yesterday's 9.4 / 6.8 exactly (DE x1.404 x 0.767 = 1.077 ~ the old constant was DE). H2 needs a new x1.39 that wasn't there yesterday.
 - Real full DPS: H1 41.5 T · H2 57.8 T. Pending the decisive pull (and confirmation that Blizzard is in).
+- 10:51 Vlad: no belt / ring / Spell Amp with DE ON = >= 10 (cap) -> **DE works (>= x1.25); H1 rejected.** Real full DPS = 8 x 7.22 = **~58 T**.
+  The model is x1.39 low at these configs. Fits if Blizzard is worth ~x2.4, not the modeled x1.71 (2 debuff stacks: 4 s duration on a 2 s CD -> 1 + 2 x 70.7%);
+  needs >= x1.86 even at DE/SA floors. Decisive: the 8 T config with Blizzard off -> 4.7 T (1 stack) vs 3.3 T (2 stacks).

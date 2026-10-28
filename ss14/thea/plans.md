@@ -342,3 +342,7 @@ ES nodes free, EHP = ES vs elemental hits (res x0.40, block 55% x0.45, Low Mana 
   10 s Purgatory (6.5 s x1.54 duration; CD 6.2 s, 2 charges, ~0.5 s auto-cast gap) avg x1.36 / peak x1.72. Dummy best second x5.26 (38 T): the ramp flatters pulls.
   Fire as written x3.10; if Purgatory ignores skill duration x3.54. All L5 x4.93 (peak x6.52). Boss must stay inside Purgatory (~10 m with +70% area).
 - Hero memory upgrades: Predicted Reincarnation L3 -> L5 **x1.167**, Wisdom L4 -> L5 x1.085, Farewell L3 -> L5 x1.036 (quad caps at 200%), Purity L5 x1.00 (margin already >= 1).
+- **I Am Truth (+4 all / +99 STR / +40% duration) on his sheet: x1.85 burst, x2.47 sustained** (2026-10-28 14:50). +4 all skills x1.64 (Chromatic L36 -> 40 x1.36,
+  the rest is auras / Aim / SOU / Biting Cold / Blizzard / supports x1.205). 99 STR x1.12. 40% duration x1.00 on the dummy, **x1.34 sustained**: without it the Boon
+  margin is 0.77 and the 2nd stack is up 54% (sustained = u + (1-u) x 0.448, u = 2 x margin - 1). The CDR roll (40%) holds it too (margin 1.01).
+  Without the 40%: Thea trait x5.6 sustained vs Gemma 3 x3.7 (Purgatory 7.4 s). Replacing it: belt Ultimate +31% duration margin 0.97; + Purity L5 1.10; Purity L5 alone 0.90.

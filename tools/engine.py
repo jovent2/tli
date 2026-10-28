@@ -194,7 +194,7 @@ def sheet(build, trees):
     sh["double_on_person"] = t["double.chance"]
     sh["res_pen"] = t["pen.res"]
     sh["armor_pen"] = t["pen.armor"]
-    sh["duration"] = t["dur"] + (5 if build["hero"]["trait_levels"].get("Prophecy of Purity", 0) >= 3 else 0)
+    sh["duration"] = t["dur"] + {0: 0, 1: -15, 2: -5, 3: 5, 4: 15, 5: 25}[build["hero"]["trait_levels"].get("Prophecy of Purity", 0)]   # [tlidb] Purity's duration line
     sh["cdr"] = t["cdr"] + 3 * ctx["nfe_stacks"] * 1.5  # NFE +3% CDR/stack x1.5 Witch
     # God's Boon: 2 permanent stacks need duration >= 2 x cooldown (CD 15 s / (1.5 Reincarnation x (1 + CDR)))
     boon_cd = 15 / (1.5 * (1 + sh["cdr"] / 100))

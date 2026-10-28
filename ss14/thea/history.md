@@ -46,3 +46,4 @@
 - **2026-10-28 12:40** Trait comparison on his sheet: Thea 1 x7.50, Gemma 2 x3.60, Gemma 3 x1.76 (plans.md). Engine: Reincarnation and Farewell scale with trait level (tlidb tables; L3 values unchanged).
 - **2026-10-28 14:30** Trait comparison redone with exact per-level values: Gemma 2 (4/3/3/3) x3.62, Gemma 3 all-cold x2.96, Thea 1 x7.50.
 - **2026-10-28 14:40** Vlad: Gemma 1 = Ice-Fire Fusion, Gemma 3 = Flame of Pleasure. Gemma 3 (4/3/3/3, fire as cold) x4.01 sustained, x5.26 dummy peak; Thea 1 x7.50.
+- **2026-10-28 14:50** I Am Truth priced: x1.85 burst / x2.47 sustained (its 40% duration holds the 2nd Boon stack: x1.34). Engine: Purity duration by level (L3 +5 unchanged).

@@ -315,5 +315,6 @@ ES nodes free, EHP = ES vs elemental hits (res x0.40, block 55% x0.45, Low Mana 
   x empower 2.04 x (1 + FP roll). FP 246% -> x1.707 = **x1.235 over Speed Phantom as measured** (9.4 / 6.8 = x1.382; the model's x1.485 overstates it 7%).
   Ice Bond (lv34, 27.5% vs Frostbitten x 2.04) = x1.56; Blizzard beats it above FP ~175%. Read: "+X% additional Empower Effect" multiplies the empower effect (TLI "additional").
   Elite-only (Activation Medium: Elite). Triggers cost no mana [Vlad].
-- **Domain Expansion may be dead for Chromatic (2026-10-28 pulls, tests.md):** if so, Precise Weapon Amp in its slot = x1.438 (138 FE), or Precise Energy Fortress
-  there for free ES in the block plan. Decisive pull: no belt / ring / Spell Amp with DE ON: 8 T = dead, cap = works.
+- ~~Domain Expansion may be dead~~ - it works (x1.377 measured). **Precise Weapon Amp in DE's slot = +12.3% measured (8.2 vs 7.3), model +7.2%: swap it.**
+- **Real DPS (2026-10-28 11:40, dummy_scale 1.0): 54.1 T full build; ~61 T with Precise WA in DE's slot** (measured ratio; model 58.0). Max hit 2.0 T, cap not binding.
+  Blizzard is 1 stack (x1.733 measured). Plan T numbers above were at dummy 0.767: multiply them by 1.30 for absolute T (ratios unchanged).

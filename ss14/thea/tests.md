@@ -62,3 +62,10 @@ Quad-damage RNG gives roughly ±10% on a single pull.
 - 10:51 Vlad: no belt / ring / Spell Amp with DE ON = >= 10 (cap) -> **DE works (>= x1.25); H1 rejected.** Real full DPS = 8 x 7.22 = **~58 T**.
   The model is x1.39 low at these configs. Fits if Blizzard is worth ~x2.4, not the modeled x1.71 (2 debuff stacks: 4 s duration on a 2 s CD -> 1 + 2 x 70.7%);
   needs >= x1.86 even at DE/SA floors. Decisive: the 8 T config with Blizzard off -> 4.7 T (1 stack) vs 3.3 T (2 stacks).
+
+## 2026-10-28 11:31 — Blizzard stacks (no belt / ring L / Precise Proj / Spell Amp, Swiftness in DE's slot)
+| config | measured | model (1 stack, dummy 1.0) | notes |
+|---|---|---|---|
+| as above (repeat of 10:57) | 5.2 | 5.25 | 10:57 read 5.3 |
+| + Blizzard off | 3.0 | 3.08 | **Blizzard x1.733 = 1 stack** (model x1.707; 2 stacks would be x2.41 -> 2.2 T) |
+- Refit: today's six absolute pulls rms 3.2% with **no constant** (dummy_scale 1.0). Yesterday's 9.4 / 6.8 fit at 0.767 (kept as era context).

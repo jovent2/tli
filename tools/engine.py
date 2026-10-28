@@ -369,14 +369,13 @@ def dps(build, trees, verbose=False):
             lv = sh["level_support_plain"]
             wfb = skill_value("Well-Fought_Battle", lv, r"([\d.]+)% Effect every time") * 3 if "Well-Fought Battle" in x else 0
             me = mass_effect(sh, ctx.get("mass_effect_charges", 3)) if "Mass Effect" in x else 0
-            stacks = ctx.get("blizzard_stacks", 1)   # FP: 4 s debuff on a 2 s CD; 2026-10-28 pulls fit 2 stacks (read; decisive Blizzard-off pull pending)
-            e["Blizzard: Freezing Point"] = 1 + stacks * 0.10 * (1 + (wfb + me) / 100) * (1 + fp / 100)
+            bz_stacks = ctx.get("blizzard_stacks", 1)   # 1 [tested 2026-10-28: Blizzard off 5.2 -> 3.0 = x1.733, model x1.707]
+            e["Blizzard: Freezing Point"] = 1 + bz_stacks * 0.10 * (1 + (wfb + me) / 100) * (1 + fp / 100)
     e["Paralysis"] = 1.15 if ls else 1.0
     e["Frail"] = 1.15 if t.get("enemy.frail") else 1.0
     e["Resistance"] = 1 - (30 - sh["res_pen"]) / 100   # pen can take res below 0 [Vlad 2026-10-27]
     e["Armor (50% x 60% - pen)"] = 1 - max(0.0, 0.5 * 0.6 - sh["armor_pen"] / 100)
-    # One fitted constant for the dummy: ratio tests are within ~5%, the absolute T scale was 26-35% high (2026-10-27).
-    # Most likely the dummy's real res/armor; keep it separate so pen/arp pricing can be re-checked against it.
+    # Dummy hit-rate constant: 0.767 on 2026-10-27 (Speed Phantom era, shots missing), 1.0 since 2026-10-28 (six pulls fit the raw model).
     e["Dummy calibration (fitted, see mechanics.md)"] = ctx.get("dummy_scale", 1.0)
     for name in ctx.get("disabled", []):
         for d in (m, e):

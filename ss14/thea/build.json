@@ -21,10 +21,10 @@
   "mass_effect_charges": 3,
   "periodic_burst": 20,
   "_mass_effect_note": "2026-10-27 13:07 sheet test (10 Focus, 4 Agility): no SOU 207, SOU bare 231 (+24), WFB 1/2/3 casts 234/237/240 (+12.5%/stack), ME only 247 (+66.7% = full, 3 charges), both 256 (x2.04). Mass Effect is full. Periodic Burst (follower Tartarus version) = +20.",
-  "dummy_scale": 0.739,
-  "_dummy_scale_note": "Hit-rate / absolute constant, refit 2026-10-28 on 6 absolute pulls (9.4 / 6.8 Speed Phantom era + 8.0 / 7.3 / 5.3 / 8.2 Blizzard era).",
-  "blizzard_stacks": 2,
-  "_blizzard_note": "2026-10-28: Speed Phantom -> Blizzard + Freezing Point 246% (read from Vlad's pulls; he asked about it right before). 2 debuff stacks fit the 4 aura pulls; decisive Blizzard-off pull pending."
+  "dummy_scale": 1.0,
+  "_dummy_scale_note": "1.0 since 2026-10-28 11:31: today's six absolute pulls fit the raw model (fit 1.01, rms 3%). Yesterday's pulls (Speed Phantom era) ran x0.767 of the model - Vlad's 'bolts into narnia' hit rate; their tests carry 0.767 as era context.",
+  "blizzard_stacks": 1,
+  "_blizzard_note": "2026-10-28 11:31 Vlad: Blizzard off pull 5.2 -> 3.0 = x1.733 = 1 stack (model x1.707). The 2-stack read was wrong."
  },
  "hero": {
   "name": "Thea",

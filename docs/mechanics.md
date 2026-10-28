@@ -108,6 +108,7 @@ DPS = Base
 ### Dummy calibration constant [fitted 2026-10-27]
 - Sheet = model on every stat, ratio tests within ~5%, absolute pulls were +35% (full) / +26% (standing still). Engine carries one fitted constant `dummy_scale` = 0.767.
 - Vlad: res and armor are right; the gap is Chromatic shots flying off ("bolts into narnia"), i.e. a hit-rate constant. It scales everything equally, so it changes no upgrade price (pen/arp included).
+- **2026-10-28: gone.** Today's pulls match the raw model (rms 3.2%), dummy_scale = 1.0. Only yesterday's era tests keep 0.767.
 
 ### Sealed mana [tlidb]
 - Actual Sealed Mana = Initial Sealed Mana / (1 + Sealed Mana Compensation). Auras seal 50% each, times each support's Mana Cost Multiplier (AA 100%, Restrain 100%, Increased Area 110%, CDR 110%, Seal Conversion 100%; Off The Beaten Track fixes supports at 95%).
@@ -126,7 +127,7 @@ DPS = Base
 - Spell Ripple prism [Vlad]: 3x3 centred area, +2% sealed mana compensation per medium RANK in the area (his 18% = 3 maxed mediums). Prisms never on god panels.
 
 ### Hit cap, prisms, Pedigree [2026-10-27]
-- **5T per hit** [Vlad]: engine caps every projectile hit (crit x double/quad x damage roll) at 5e12; the real hit is the model hit / dummy_scale (hit-rate constant).
+- **5T per hit** [Vlad]: engine caps every projectile hit (crit x double/quad x damage roll) at 5e12; the real hit is the model hit / dummy_scale (hit-rate constant; 1.0 now).
   Current build: biggest hit ~1.7T, no effect. Big multipliers past ~x2 start losing to the cap; variance (Impermanence) loses most.
 - Ethereal Prism [tlidb]: installs on a non-core node (that node is lost; the slot still satisfies pairing for the next node). Area affixes
   ("All Micro/Medium/Legendary Medium Talent within the area also gain ...") scale per rank. Phantasmagoria: +75% to random affixes (2% -> 3.5% comp).
@@ -139,5 +140,9 @@ DPS = Base
 - Domain Expansion x1.377 (model 1.404): works on the whole hit, not only Spell Ripple pulses (that would be ~x1.17).
 - Precise Weapon Amp x1.547 (model with phys-origin share only 1.438; whole hit 1.505): **WA hits the whole Chromatic hit**, the wand's flat cold included. Engine changed.
 - Precise Projectiles ~x1.51 (from 8.0 / 7.3 x DE), model 1.427.
-- Blizzard + Freezing Point 246%: the six absolute pulls fit a debuff with **2 stacks** (4 s duration on a 2 s CD): x2.41 instead of x1.71. Read, decisive Blizzard-off pull pending.
-- dummy_scale refit to 0.739 on all six absolute pulls (rms 4.1%).
+- Blizzard + Freezing Point 246%: **1 debuff, no stacking** [tested 11:31: Blizzard off 5.2 -> 3.0 = x1.733, model x1.707]. Nothing in the text stacks it
+  (Blizzard "+10% additional Cold Damage taken for 6s"; FP: CD 2 s, debuff 4 s, debuff scaled by Empower Effect); the 2-stack read was mine and wrong.
+- Precise Projectiles: x1.37-1.51 from the rounded pulls, model 1.427 - fine.
+- **Absolute scale**: today's six pulls fit the raw model with no constant (fit 1.01, rms 3.2%) -> dummy_scale = 1.0. Yesterday's two pulls (Speed Phantom era)
+  sit at x0.767 of the same model: the hit-rate gap ("bolts into narnia") was there yesterday and isn't today. Cause unproven (positioning? something else
+  that changed overnight). Yesterday's tests carry 0.767 as era context.

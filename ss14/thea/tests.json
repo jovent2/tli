@@ -4,7 +4,7 @@
   {
    "name": "Belt off + Ring L (INT ring) off, new Spell+Cold GoK #2",
    "era": "2026-10-27 12:30",
-   "group": "absolute",
+   "group": "absolute (2026-10-27 era)",
    "after": {
     "remove": [
      "gear:belt",
@@ -24,13 +24,16 @@
       "Goddess of Knowledge's Divinity #2 (F, lv86, Spell+Cold)",
       "+5 to Max Frostbite Rating"
      ]
-    ]
+    ],
+    "context": {
+     "dummy_scale": 0.767
+    }
    }
   },
   {
    "name": "Standing still (no Speed Phantom; follower's Swift Shadow Raid still on), belt off + Ring L off",
    "era": "2026-10-27 12:54",
-   "group": "absolute",
+   "group": "absolute (2026-10-27 era)",
    "after": {
     "remove": [
      "gear:belt",
@@ -53,7 +56,10 @@
       "Goddess of Knowledge's Divinity #2 (F, lv86, Spell+Cold)",
       "+5 to Max Frostbite Rating"
      ]
-    ]
+    ],
+    "context": {
+     "dummy_scale": 0.767
+    }
    }
   },
   {
@@ -568,6 +574,51 @@
     ]
    },
    "measured": 8.2
+  },
+  {
+   "name": "No belt/ring/PP/SA, Swiftness in DE's slot (repeat)",
+   "era": "2026-10-28 11:31",
+   "group": "absolute",
+   "after": {
+    "remove": [
+     "gear:belt",
+     "gear:ring_l"
+    ],
+    "disable": [
+     "Spell Amplification",
+     "Precise Projectiles"
+    ],
+    "replace_skill": [
+     [
+      "Domain Expansion",
+      "Swiftness [Aura Amplification, Restrain, Cooldown Reduction]"
+     ]
+    ]
+   },
+   "measured": 5.2
+  },
+  {
+   "name": "... and Blizzard off",
+   "era": "2026-10-28 11:31",
+   "group": "absolute",
+   "after": {
+    "remove": [
+     "gear:belt",
+     "gear:ring_l"
+    ],
+    "disable": [
+     "Spell Amplification",
+     "Precise Projectiles",
+     "Blizzard"
+    ],
+    "replace_skill": [
+     [
+      "Domain Expansion",
+      "Swiftness [Aura Amplification, Restrain, Cooldown Reduction]"
+     ]
+    ]
+   },
+   "measured": 3.0
   }
  ]
 }

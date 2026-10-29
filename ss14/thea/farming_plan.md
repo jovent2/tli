@@ -68,3 +68,12 @@ gross 243, cost 81, **net 162 FE/map** (97 without the Gaze lottery).
 - Tree: Machine 39 = spoke 62-76 (echelons x2, +25%, Obtuse +40%) + Dull (77-80) + interval spoke 40-47 (3 s / 1 s) + attackers
   spoke 24-27 + Paranoid spoke 16-17/28-31; saturates after that (1 FE/pt). Rest: Commodities 15 "+1% quantity" micros (0.5/pt),
   Legendary Gear "Ultimate +32%" / "Precious+ 9%" mediums (~0.5/pt). Profound Prime 4: +30% major and 10% compass refund.
+- 19:10 correction (Vlad): Focus Fluorescent stays (x1.5 on the exclusive, +42 net for 5 FE; the 5-FE tie against Strength in Numbers
+  is noise). With Focus fixed: **Cruising + Focus + Colorful (Artifact) + Transgression = 157 net/map** (103 without Gaze) > + Strength
+  in Numbers 126 > + Colorful 119. Transgression at 15 stacks: gross +78, net +33, still ahead of SiN. Two fluorescent compasses stack
+  (CN ran Colorful + Colorful (Artifact) together).
+- Profound "+12% additional, 25 extra Star Talents": x1.12 on ~240 gross = **+29 FE/map for 26 points** - better than Commodities or
+  Legendary Gear leftovers (~0.5 FE/pt). Vlad runs it; I had wrongly dismissed it.
+- Vlad's tree: Machine 43 + Creation 24 (100% Creation Engines, Fluorescent crystals: "30% chance to duplicate fluorescent memories",
+  Gold crystal = guaranteed exclusive memory) + Profound 30% / 12%. Creation is unpriced: only 2 CN strategies used the constellation;
+  the Machines+Creation one took 4 Gaze in 89 maps (7x the usual rate). Need the crystal buff text/scope, crystals per map, time.

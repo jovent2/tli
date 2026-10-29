@@ -97,4 +97,27 @@ so to decode a strategy's allocation fully we need the Chinese node texts (tlidb
 - `chart.py` tree-knapsack over a constellation graph; `hunting_plan.py` node values for the Safari compass farm.
 - Quantity applies per gameplay as XD's pet matrix says (pet "+X% Drop Quantity" lines yes/no): see plan.py NQ_* sets.
 
+## Bottom-up model (2026-10-29 late; tools/farm/bottomup.py, plan2.py, search.py) — the one to use
+- `attrib.py` / `model.py`: first passes (lift per mechanic, family-level NNLS) — superseded, kept for reference.
+- `bottomup.py`: each CN strategy -> instance columns = every compass/astrolabe key it consumed per map (one column per key:
+  Revelation vs General Hunting are different products), mechanics forced by appearance nodes (`tree:<M>`), and `generic` (the
+  plane's own monsters). Per column and strategy the multiplier its setup gave that channel: generic pool (resonance curve,
+  Profound 30%/12% + micros, Commodities micros, Sinful compasses, Flourishing probe) x 2 card — only where XD says quantity applies
+  (NQ: Vorax, Sandlord, Mistville, Frozen Canvas, Overrealm, Disappearing Shadow); the mechanic's "+X% additional" nodes and compass
+  lines (`ADD_RULES`, incl. instance-count nodes: echelons, attack rounds, Safari bosses, Creation engines, Vorax groups, Might
+  levels, Dark Surge corrosion); class multipliers: compass drops (Compass constellation 1.4%x37, +4%, +2.5%/compass inserted,
+  Ecliptics, Compass probe, replication), fluorescent replication (capped sum), Focus x1.5 on exclusive memories, ember lines
+  (Might's only on Might columns), Gear probe; Transgression x1.9 on Machines, x1.54 on generic. Then NNLS per item (rows weighted
+  by sqrt(runs)) -> naked yield per instance with every multiplier at 1. Items with < 25 drops in 46k runs are lotteries: valued at
+  the shrunk observed rate per column (>= 5 drops there) or globally.
+  In-sample: weighted R2 0.78 on per-strategy gross, median error 18%, family means within ~10-30%.
+- `plan2.py`: `Plan(compasses, probes, nodes)` evaluated at Vlad's constraints: re-applies his multipliers, prices at today's list,
+  cost = beacon + 31 resonance + compasses (x0.9 with the Profound refund node) + probe, time = 40 s + per instance (his: Machines
+  180 s, Might 180 s, Hunting ~10-35 s, War 5 s; CN-fitted otherwise, floor 10 s). `best_tree` = chart.best_subtree per
+  constellation with linearized node values + knapsack over the budget split (92 - 25 Star; Profound 4 Prime fixed).
+- `search.py`: greedy over compass slots / probe with the tree re-optimized per candidate; one gameplay compass per family.
+- Not modeled: pets (not logged by etor -> yields carry CN's pets; Vlad's assumed comparable), the card pick itself (x2 assumed every
+  map), compass "more valuable type" nodes, Creation crystal choices, Clockwork rating/time play, anything a second same-family
+  compass adds on top of the first.
+
 ## Result -> ss14/thea/farming_plan.md (2026-10-29). Questions: ss14/thea/farming_questions.md

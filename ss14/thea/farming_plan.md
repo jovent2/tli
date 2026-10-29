@@ -45,6 +45,16 @@ Variance: a third of the value is a 3,789 FE blueprint every ~80 maps and a 9,78
 Why it beats compasses: Outlaw/Dark Surge/Vigil cost 0.3-29 FE per map and add 10-15 s each; compass farms cost 70-100 FE per map
 in astrolabes and probes and compass prices keep sliding.
 
+### 4th slot and pets (22:00)
+4th slot on Alert + Bandit + Phantom: Lunaria (0.3) +18 FE/map for ~7 s = flat per minute (172 either way; its value is FE/dust
+plus the Omni-Elixir Notes lottery, 9,788 FE per ~1,100 maps); Strength in Numbers (1) 165/min; Sinful (13.5) 165, Sinful (A) (40)
+150 - the pool is already +162%, more quantity is not worth a slot; Lunar Stele (27) 160; Creation (0.5) shows 183 but its column is
+5 CN strategies that happened to drop Blueprint Eternity - noise, not a reason. Nothing beats an empty slot per minute.
+Pets (XD matrix, rank 6; generic "+X% Drop Quantity" lines apply to Dark Surge, Vigil and Outlaw Security-personnel drops, not to
+Outlaw trade/order rewards): Twilight Sparks (+30 quantity, +3% and +13% additional ~ +29% at his pool), Corgi Fighter No.32 (+36,
++5% additional ~ +19%), Letice (+38 ~ +15%) or Miss Melancholy - Azure (+30 and Vigil +2.6% additional / +6% from Wraiths).
+Phantom Vigil Compass (etor name) = Phantom Afterlight Compass (tlidb).
+
 ## Plan B (Machines) — what the model says about Vlad's run
 - Correction (23:50): etor never logs the two echelon nodes (64 "2 echelons / -100%", 68 "2 additional echelons") and hashed
   Obtuse / Dull / Paranoid with another text join. By the graph (drone spoke 62->76, 77->80) every CN tree with +25% has both

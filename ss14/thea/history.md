@@ -48,3 +48,4 @@
 - **2026-10-28 14:40** Vlad: Gemma 1 = Ice-Fire Fusion, Gemma 3 = Flame of Pleasure. Gemma 3 (4/3/3/3, fire as cold) x4.01 sustained, x5.26 dummy peak; Thea 1 x7.50.
 - **2026-10-28 14:50** I Am Truth priced: x1.85 burst / x2.47 sustained (its 40% duration holds the 2nd Boon stack: x1.34). Engine: Purity duration by level (L3 +5 unchanged).
 - **2026-10-29 15:30** Farming project started (Vlad: "what should I farm in Profound"). Pulled etor CN prices (1,530 items, FE), etor item table, XD official pactspirit drop-effect matrix, etor strategy leaderboards (CN logged runs) into data/ext/; docs/farming.md; 14 questions in ss14/thea/farming_questions.md.
+- **2026-10-29 19:40** Farming model built on 629 CN Profound strategies (46k runs) re-valued at today's prices: Plan A Safari compass farm ~95 FE/min, Plan B Machines 40-75 FE/min depending on his Machines time (ss14/thea/farming_plan.md, tools/farm/).

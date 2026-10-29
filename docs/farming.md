@@ -74,4 +74,12 @@ so to decode a strategy's allocation fully we need the Chinese node texts (tlidb
   the etor key = md5("\n".join(Chinese lines)) — decodes the Void Chart allocation of any logged strategy.
 - `data/ext/etor_strategies_s14/details/`: strategy details (loot / cost tallies, Void Chart keys) for the Profound runs.
 
-## Open questions -> see ss14/thea/farming_questions.md (rounds 1-2 answered 2026-10-29)
+## Tools (tools/farm/)
+- `runs.py` loads the leaderboard entries + details, values loot at the latest price file (12.5% tax, FE untaxed), decodes trees.
+- `features.py` per-strategy quantity multiplier Q (resonance curve, plunder compasses, probe, Profound/Commodities micros, x2 card),
+  compass usage by family/tier, constellation points. `mech.py` compass -> mechanic. `groups.py` / `permech.py` grouped tables.
+- `fit.py` ridge regression (too collinear to trust alone). `plan.py` Vlad-rescaled per-mechanic combos.
+- `chart.py` tree-knapsack over a constellation graph; `hunting_plan.py` node values for the Safari compass farm.
+- Quantity applies per gameplay as XD's pet matrix says (pet "+X% Drop Quantity" lines yes/no): see plan.py NQ_* sets.
+
+## Result -> ss14/thea/farming_plan.md (2026-10-29). Questions: ss14/thea/farming_questions.md

@@ -48,7 +48,11 @@ FLUOR_REP = {"Fluorescent_Compass": 10, "Colorful_Fluorescent_Compass": 20, "Col
 EMBER_ADD = {"Ember_Compass": 30, "Bounty_Ember_Compass": 50, "Ember_Profound_Probe": 20}
 GEAR_ADD = {"Gear_Profound_Probe": 20}
 TRANSGRESSION = {"Transgression_Plunder_Compass": 90}      # +3% additional for Normal monsters x 30 stacks [Vlad: always 30]
-NON_INSTANCE = set(POOL_COMPASS) | set(COMPASS_ADD) | set(FLUOR_REP) | set(EMBER_ADD) | set(GEAR_ADD) | set(TRANSGRESSION) | {"Focus_Fluorescent_Compass", "Novel_Compass", "Lavish_Novel_Compass", "Conquering_Novel_Compass", "Renown_Edge_Compass", "Reserve_Ember_Compass", "Beacon_Profound_Probe"}
+# Elite compasses multiply the loot of mechanics whose drops come from Rare monsters [Vlad 2026-10-30: Outlaw, Afterlight, Lunaria]:
+# Generous +15% additional from Rares; Bountiful 30% of Rares enhanced +200% additional -> x1.6 average
+ELITE_MULT = {"Generous_Elite_Compass": 1.15, "Bountiful_Elite_Compass": 1.6}
+RARE_MECH = {"Outlaw", "Afterlight", "Lunaria"}
+NON_INSTANCE = set(POOL_COMPASS) | set(COMPASS_ADD) | set(FLUOR_REP) | set(EMBER_ADD) | set(GEAR_ADD) | set(TRANSGRESSION) | set(ELITE_MULT) | {"Focus_Fluorescent_Compass", "Novel_Compass", "Lavish_Novel_Compass", "Conquering_Novel_Compass", "Renown_Edge_Compass", "Reserve_Ember_Compass", "Beacon_Profound_Probe"}
 
 # --- mechanic "additional drop quantity" lines (nodes and compasses), per mechanic: list of (regex, kind) ---
 # kind 'add' -> multiplies (1 + x/100) per node; 'addper' -> x per stack * STACKS; 'inst' -> multiplies the instance count
@@ -194,8 +198,13 @@ class Setup:
     def excl_fluor_mult(self): return 1 + 0.5 * self.compasses.get("Focus_Fluorescent_Compass", 0)
     def transgression(self, M):
         t = sum(v * self.compasses.get(k, 0) for k, v in TRANSGRESSION.items())
-        if t <= 0: return 1.0
-        return 1 + t / 100 if M == "Machines" else (1 + 0.6 * t / 100 if M == "generic" else 1.0)
+        tm = 1.0 if t <= 0 else (1 + t / 100 if M == "Machines" else (1 + 0.6 * t / 100 if M == "generic" else 1.0))
+        em = 1.0
+        if M in RARE_MECH:
+            for k, v in ELITE_MULT.items(): em *= v ** self.compasses.get(k, 0)
+        elif M == "generic":
+            for k, v in ELITE_MULT.items(): em *= (1 + 0.3 * (v - 1)) ** self.compasses.get(k, 0)   # ~30% of plane loot is from Rares
+        return tm * em
     def ember_mult(self, M="generic"):
         a = 1.0
         for k, v in EMBER_ADD.items(): a *= (1 + v / 100) ** (self.compasses.get(k, 0) + self.probes.get(k, 0))

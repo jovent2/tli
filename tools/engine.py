@@ -299,6 +299,8 @@ def dps(build, trees, verbose=False):
         tp = skill_value("Target_Projection", sh["level_support_proj"], r"([\d.]+)% additional damage to Marked")
         m["Target Projection vs Marked"] = 1 + tp / 100
         m["Enhanced Mark (proj taken) [measured: not applying]"] = 1.0
+    if has("Projectile Penetration"):         # [tlidb] +2..4 Horizontal Projectile Penetrations, +X% additional (15% at lv20)
+        m["Projectile Penetration"] = 1 + skill_value("Projectile_Penetration", sh["level_support_proj"], r"([\d.]+)% additional damage for the supported skill") / 100
     # tangles
     m["Dormant Entanglement"] = 1 + 0.40 * ctx["tangles_dormant"]
     m["NFE"] = 1 + 0.07 * 1.5 * ctx["nfe_stacks"]

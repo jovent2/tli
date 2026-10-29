@@ -346,3 +346,12 @@ ES nodes free, EHP = ES vs elemental hits (res x0.40, block 55% x0.45, Low Mana 
   the rest is auras / Aim / SOU / Biting Cold / Blizzard / supports x1.205). 99 STR x1.12. 40% duration x1.00 on the dummy, **x1.34 sustained**: without it the Boon
   margin is 0.77 and the 2nd stack is up 54% (sustained = u + (1-u) x 0.448, u = 2 x margin - 1). The CDR roll (40%) holds it too (margin 1.01).
   Without the 40%: Thea trait x5.6 sustained vs Gemma 3 x3.7 (Purgatory 7.4 s). Replacing it: belt Ultimate +31% duration margin 0.97; + Purity L5 1.10; Purity L5 alone 0.90.
+
+## 2026-10-29 21:00 — Projectile Penetration support (proximity-shield mobs in Machines)
+No ignore for monster shield bubbles exists (scanned every tlidb page: legendaries, prisms, kismets, talents, slates, memories,
+pacts, supports, traits). Cheap mitigation: **Projectile Penetration** support (free, lv20) on Chromatic Shot in place of Target
+Projection: at support level 29 it is +4 Horizontal Projectile Penetrations and +19.5% additional vs TP's 16.6% vs Marked
+(Enhanced Mark measured not applying) -> 81.7 -> 83.7 T (x1.025) and the projectile survives the shielded mob. Overload stays
+(swapping it instead is x0.868). "Always Penetrate" exists only skill-specifically (Burning Shot Noble, Frost Spike Origin,
+Clockwork Core/Stasis Vault); other +2 sources are Marksman's Legendary Medium, Sweeping Fury prism/slate, Bow/Crossbow/Musket affix.
+Untested: whether a projectile that crossed a shield keeps 1 damage after penetrating.

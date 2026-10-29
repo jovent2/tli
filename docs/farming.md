@@ -49,7 +49,22 @@ so to decode a strategy's allocation fully we need the Chinese node texts (tlidb
   Star Talents extra), -50% additional drop quantity but no prerequisites in non-gameplay constellations, 10% chance
   to not consume Compasses, rarer Confusion Cards, +1 card drawn (30%), etc.
 - Plane Watcher Chest: not affected by Drop Quantity bonuses.
-- Drop quantity stacking (assumed, same convention as damage): "+X% Drop Quantity" sources add into one pool,
-  "+X% additional Drop Quantity" multiply. Unverified.
+- **Drop quantity** [tlidb Drop_quantity page, Vlad]: Final expected quantity = base x (1 + sum of "Drop Quantity" bonuses)
+  x prod(1 + each "additional Drop Quantity"). Quantity multiplies the number of drop INSTANCES only; each instance's
+  amount/tier rolls independently (FE stacks 1/5/10/50; legendary tiers) and quantity never improves the roll. Not every
+  gameplay reward scales (Cubes of Rapacity, Dream Bubbles, Chests of Folklores, Splendor Eggs...).
+- Resonance -> Drop Quantity [Vlad]: 0:+15%, 1:+30, 3:+45, 7:+60, 15:+75, 31:+100 (run 31; 3.4 FE at 0.11 each).
+- Card every map: pick 1 of 3 from the deck (Void Chart card nodes + timemark), +100% additional on top of the card's
+  effect; ~1 reroll per 12 maps [Vlad]. "Stage attempts" = lives per map [Vlad].
+- Slots [Vlad]: 4 compass slots, 1 Profound probe slot. Listing tax 1 FE per 8 (12.5%), nothing under 1 FE listable.
+- No Profound beacon item: Profound T8 opens with the plane's T8 beacon (GA T8 3.3 FE); Deep Space Beacons (24 FE) drop
+  in Profound T8 (tlidb), and the Beacon constellation can turn 10% of dropped beacons into them.
+- Prices: Vlad confirms the CN list matches his server.
 
-## Open questions -> see ss14/thea/farming_questions.md (asked 2026-10-29)
+## etor label decoding (from the bundle)
+- mapLabel: 0 ice (Glacial Abyss), 1 fire (Blistering Lava Sea), 2 steel, 3 thunder, 4 dark (Voidlands); 深空 Deep Space; 画雪 Frozen Canvas map,
+  迷城 Mistville map, 万界 Myriad; dogmatic/tidecaller = boss fights. timeLabel: K1..K8 timemarks (9/10 = 8-1/8-2 ...), **12 = Profound (U8)**, 13 = Deep Space.
+- Leaderboards hold 659 Profound runs (mostly day 2-4, before CN moved to Deep Space); avgEarnings is valued at the prices of the day
+  the runs happened, so re-value loot from `/api/strategy/detail` with current prices before comparing.
+
+## Open questions -> see ss14/thea/farming_questions.md (round 1 answered 2026-10-29; round 2 asked)

@@ -38,3 +38,18 @@ farming runs with their Void Chart allocation, compasses, loot and cost (docs/fa
     farm than buy?
 14. Season mechanic (Tartarus in Riot / Warden): do you run the endgame with Shackles compasses, and is it worth your time
     in your experience? Any season-exclusive loop I should know about.
+
+## Answers (Vlad, 2026-10-29 16:02)
+1. Same server economy as the CN list ("99.9% the same"; the quoted prices match his). CN price list is valid.
+2. Listing tax 1 FE per 8 FE (12.5%); can't list under 1 FE. Everything is value: list, use, or it stacks.
+3. Deck = Void Chart card nodes + timemark. Reroll: ~1 per 12 maps.
+4. Profound only, not Deep Space. Resonance -> drop quantity: 0:+15%, 1:+30, 3:+45, 7:+60, 15:+75, 31:+100 (don't model under 31).
+5. tlidb "Drop quantity" page: Final = base x (1 + sum of Drop Quantity bonuses) x prod(1 + each additional bonus).
+   Quantity = number of drop INSTANCES; the amount/tier of each instance rolls on its own (FE stack 1/5/10/50, legendary tier).
+   Quantity never improves the roll. Some gameplay rewards ignore quantity (Cubes of Rapacity, Dream Bubbles, Chests of Folklores, Splendor Eggs...).
+6. "Stage attempts" = lives per map. The Profound node is +30% quantity for 2 lives (tlidb says +25%); he never dies in Profound.
+7. 1 Profound probe slot, 4 compass slots.
+8. Void Chart reset is free; I design the allocation (92 Star + 4 Prime).
+9. Any drop pet at rank 6 is available (whale). 10. Liquid FE: whatever the strategy needs.
+11. Map time depends on the mechanics: God of Machines / Might slow, War / Hunting instant. 12. Any mechanic, no deaths.
+13. FE/hour, drops valued at market. 14. Tartarus (Warden) out of scope.

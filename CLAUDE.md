@@ -7,7 +7,8 @@ Every new session starts by reading this file, then the files listed under "Read
 ## Read first (every session)
 1. `docs/mechanics.md` — the damage chain and every rule we have proven in game. Use it; don't re-derive.
 2. The active character folder (right now `ss14/thea/`): `build.md` (current state), `plans.md`, the latest entries of `tests.md` and `history.md`.
-3. `docs/tlidb.md` before touching tlidb, `docs/crafting.md` before pricing any craft.
+3. `docs/tlidb.md` before touching tlidb, `docs/crafting.md` before pricing any craft, `docs/farming.md` for anything about
+   what to farm (prices, drop data, Void Chart, compasses, pets — sources and how to refresh them).
 
 ## Session start routine
 1. `python3 tools/engine.py --belt-off` — computed sheet vs his last in-game sheet, every multiplier, DPS.
@@ -62,4 +63,5 @@ Every new session starts by reading this file, then the files listed under "Read
   - `tlidb.py` — read one live tlidb page raw
   - `crawl.py`, `tlidb_parse.py`, `build_data.py` — rebuild `data/` from tlidb
 - `data/` — the whole of tlidb as JSON (see `data/README.md`, `data/INDEX.md`). `data/raw/`, `data/pages/` are caches, gitignored.
+  - `data/ext/` — outside sources for farming: etor CN prices + item table, etor strategy leaderboards, XD pactspirit drop-effect matrix (`docs/farming.md`).
 - `ss14/` — season 14 (Tartarus). `ss14/thea/` is the current character: `build.md`, `stats.json`, `trees.json`, `plans.md`, `tests.md`, `history.md`.

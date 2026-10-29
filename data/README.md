@@ -27,6 +27,10 @@ python3 tools/find.py cold --regex "\+\d+ to Max Frostbite"
 | `crawl_report.json` | Last crawl: pages, failures. |
 | `pages/`, `raw/` | Parsed page dumps and HTML cache (gitignored; rebuild with the tools). |
 
+## External (not tlidb) — `data/ext/`, see `docs/farming.md`
+`prices_etor_s14_<date>.json` (etor CN prices in FE), `etor_items.json` (etor id -> tlidb key), `etor_strategies_s14/` (crowdsourced
+farming runs), `pactspirit_drop_effects.json` (XD official: which drop-pet lines work in which gameplay).
+
 ## Rebuild
 ```
 python3 tools/crawl.py --depth 2      # fetch (cached pages are skipped; add --refresh to re-download)

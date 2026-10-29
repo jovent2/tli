@@ -100,6 +100,45 @@ def _norm(k): return k.replace("%28", "").replace("%29", "").replace("(", "").re
 COMPASS_TEXT = {_norm(k): v for k, v in COMPASS_TEXT.items()}
 def ctext(key): return COMPASS_TEXT.get(_norm(key), "")
 
+_PARENTS = {}
+def _parents(c):
+    """BFS parent map of a constellation (chart.graph), cached."""
+    if c not in _PARENTS:
+        import chart
+        nodes, adj, start = chart.graph(c)
+        parent = {start: None}; q = [start]
+        while q:
+            u = q.pop(0)
+            for v in adj[u]:
+                if v not in parent: parent[v] = u; q.append(v)
+        _PARENTS[c] = (nodes, parent, start)
+    return _PARENTS[c]
+
+def closed_nodes(node_list):
+    """etor logs nodes as md5(text) -> count, and some nodes are never logged (the two echelon nodes on the Machine drone spoke,
+    although every tree with +25%/Obtuse/Dull passes through them). Per constellation: required = union of the graph paths from
+    the Initial Node to every logged node; per node text, count = max(logged count, number of required nodes with that text)."""
+    out = []
+    by_c = collections.defaultdict(list)
+    for c, n, cnt in node_list: by_c[c].append((n, cnt))
+    for c, lst in by_c.items():
+        nodes, parent, start = _parents(c)
+        text = lambda n: " · ".join(n["lines"])
+        logged = collections.Counter(); rep = {}
+        for n, cnt in lst: logged[text(n)] += cnt; rep.setdefault(text(n), n)
+        required = set()
+        for n, cnt in lst:
+            i = next((j for j, m in enumerate(nodes) if m is n or m.get("md5") == n.get("md5")), None)
+            if i is None: continue
+            u = i
+            while u is not None and u != start: required.add(u); u = parent.get(u)
+        req_count = collections.Counter(text(nodes[i]) for i in required)
+        for t in set(logged) | set(req_count):
+            cnt = max(logged.get(t, 0), req_count.get(t, 0))
+            n = rep.get(t) or next(nodes[i] for i in required if text(nodes[i]) == t)
+            out.append((c, n, cnt))
+    return out
+
 class Setup:
     """Everything the multipliers need, for a CN strategy (from its logged cost + nodes) or for a planned setup."""
     def __init__(self, resonance=31, compasses=None, probes=None, nodes=None, prof_major_q=0):
@@ -113,7 +152,7 @@ class Setup:
             k = RN.name(i); t = RN.typ(i)
             if t in ("罗盘", "星盘"): comp[k] = comp.get(k, 0) + q
             elif t == "探针": prob[k] = prob.get(k, 0) + q
-        nodes = [(mech.CONSTELLATION.get(c, c), " · ".join(n["lines"]), cnt) for c, n, cnt in r["nodes"]]
+        nodes = [(mech.CONSTELLATION.get(c, c), " · ".join(n["lines"]), cnt) for c, n, cnt in closed_nodes(r["nodes"])]
         return Setup(resonance=r["cost"].get("5028", 0.0), compasses=comp, probes=prob, nodes=nodes)
     def all_lines(self):
         for m, txt, cnt in self.nodes: yield m, txt, cnt
@@ -197,8 +236,8 @@ class Setup:
                     elif kind == "inst_pct_q": inst *= (1 + x / 100 / 4) ** cnt
                     elif kind == "inst_plus_half": inst *= (1 + x / 2) ** cnt
                     elif kind == "inst_plus_1": inst *= (1 + x) ** cnt
-                    elif kind == "inst2": inst *= 1.0        # [unknown] echelon nodes: CN Machines farmers skip them; neutral until tested
-                    elif kind == "inst_dull": inst *= 1.0
+                    elif kind == "inst2": inst *= 2.0 ** cnt   # echelon nodes: in every CN Machines tree (etor just doesn't log them); x2 each [prior]
+                    elif kind == "inst_dull": inst *= 1.5 ** cnt
                     elif kind == "addfb": fb_add *= (1 + x / 100) ** cnt
                     elif kind == "addfb_stack": fb_stack += x * cnt
                     elif kind == "safari_n": safari += x * cnt

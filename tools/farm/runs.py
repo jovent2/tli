@@ -21,6 +21,22 @@ PRICES, PRICE_FILE = _latest_prices()
 ITEMS = {r["id"]: r for r in json.load(open(os.path.join(EXT, "etor_items.json")))}
 GRAPH = json.load(open(os.path.join(EXT, "void_chart_graph.json")))
 MD5 = {n["md5"]: (k, n) for k, v in GRAPH.items() for n in v["nodes"] if n["md5"]}
+# etor hashes multi-line nodes with other joins (no card line, "\n" literal, single line...): add every variant so Obtuse / Dull /
+# Extravagant / Oppressive ... decode (2026-10-29: 25 of 27 leftover keys were these)
+import hashlib as _h
+def _variants(lines):
+    L = [l for l in lines if l]; core = [l for l in L if not l.startswith("时刻")]
+    for sep in ("\n", "", " ", "\\n", "\r\n", "<br>", "\n\n", "；", ";"):
+        yield sep.join(L); yield sep.join(core)
+    yield "\n".join(L) + "\n"
+    for l in L: yield l
+for _k, _v in GRAPH.items():
+    for _n in _v["nodes"]:
+        _cn = _n.get("cn") or []
+        if isinstance(_cn, str): _cn = [_cn]
+        for _t in _variants(_cn):
+            _hh = _h.md5(_t.encode("utf-8")).hexdigest()
+            if _hh not in MD5: MD5[_hh] = (_k, _n)
 
 def price(i):
     r = PRICES.get(i)

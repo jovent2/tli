@@ -105,13 +105,14 @@ def best_tree(F, LA, plan, constellations, budget, prime=4):
     return per
 
 def apply_tree(plan, per, split):
-    nodes = list(plan.nodes)
+    nodes = list(plan.nodes); picked = {}
     for ck, k in split.items():
         res, gnodes = per[ck]
         if k in res:
-            for idx in res[k][1]:
-                if gnodes[idx]["name"] != "Initial Node": nodes.append(node_tuple(ck, gnodes[idx]))
-    return Plan(dict(plan.compasses), dict(plan.probes), nodes, plan.res)
+            picked[ck] = [idx for idx in res[k][1] if gnodes[idx]["name"] != "Initial Node"]
+            for idx in picked[ck]: nodes.append(node_tuple(ck, gnodes[idx]))
+    out = Plan(dict(plan.compasses), dict(plan.probes), nodes, plan.res); out.picked = picked
+    return out
 
 PROFOUND = [("Profound", "In Netherrealm stages, +2% Drop Quantity", 2), ("Profound", "In Netherrealm stages, +25% Drop Quantity · Netherrealm stage challenge attempts -4", 1),
             ("Profound", "In Netherrealm stages, +12% additional Drop Quantity · Activating of this node costs 25 additional Star Talent(s)", 1)]   # 4 Prime + 25 Star

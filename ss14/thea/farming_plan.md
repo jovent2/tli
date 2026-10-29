@@ -13,12 +13,12 @@ seconds x 40/58 (Vlad clears the plane 1.45x faster than CN; mechanic time scale
 ## Ranking (net FE/min, Vlad's times)
 | plan | FE/min | net/map | cost/map | s/map | what pays |
 |---|---|---|---|---|---|
-| **A. Alert Outlaw + Bandit Dark Surge + Phantom Vigil + Lunaria, Flourishing probe** | **156** | 183 | 51 | 70 | FE 54, Blueprint Eternity 43 (1 per ~80 maps), Warlock/Vanguard mods 39, Nether King's Divine Remnant 21, Edicts 16 |
+| **A. Alert Outlaw + Bandit Dark Surge + Phantom Vigil + Lunaria, Flourishing probe** | **172** | 202 | 51 | 70 | FE 58, Blueprint Eternity 43 (1 per ~80 maps), Warlock/Vanguard mods 50, Nether King's Divine Remnant 21, Edicts 16 |
 | A-cheap: Outlaw + Bandit + Vigil + Lunaria base compasses, Flourishing probe | 136 | 176 | 11 | 77 | blueprint lottery 82 (hot: 33-pt DS tree), FE 30 |
 | Alert + Bandit + Flourishing probe only (greedy optimum at CN times) | 145 | 136 | 39 | 56 | |
 | C. Clockwork: Collection Doll + Vast + Ecliptic + Sinful, Compass probe | 111 | 138 | 69 | 75 | compasses 139 (Consultation Vorax, Sinful (A), Fated Arcana, Containment...) |
 | D. Safari: Revelation + Vast + Ecliptic + Sinful (A), Compass probe | 76 | 96 | 99 | 75 | compasses 117 |
-| **B. Machines as run: Cruising + Focus + Colorful (A) + Transgression** | **45** | 164 | 86 | 220 | Disappearing Shadow 0.62/map = 132, Secrets 136 = 36, FE 24 |
+| **B. Machines as run: Cruising + Focus + Colorful (A) + Transgression** | **49** | 179 | 86 | 220 | Disappearing Shadow 0.66/map = 138, Secrets 148 = 39, FE 26 |
 | Machines + Outlaw + Dark Surge (Cruising + Focus + Alert + Bandit) | 37 | 152 | 64 | 244 | the 4-minute map kills whatever is bolted on |
 | single mechanics (+ tree): Bandit DS 105 · Alert Outlaw 94 · Outlaw 92 · Phantom Vigil 88 · Lunaria 69 · Lunar Stele 64 · Evernight 64 · Strength in Numbers 64 · Revelation 62 · Collection Doll 56 · Overrealm 28 · Fated Arcana 26 · Might <= 3 · Containment Overrealm, Mecha Might (A), Consultation Vorax, Bountiful Elite negative | | | | | CN-time version; Vlad-speed ~x1.15 |
 
@@ -34,24 +34,28 @@ Legendary chance +430% / no non-Legendary gear" (Humiliated). Afterlight 16 = 12
 "White Night Mode", "+12% during White Night", "+15% (Grief, Phantom Flames)". Outlaw 12 = 9x "+1% for Security personnel",
 "+6%", "reinforcements more likely Rare", "+30% after activating a Bounty Order" (Oppressive). Commodities 8 = "+1% Drop
 Quantity" micros (leftovers). Profound: 2 micros + 30% + 12%.
-Expected per map: FE 54, Blueprint Eternity 0.011 (3,789 each), Expansion Mod Warlock 0.40 (70), Vanguard 0.33 (51), Nether King's
+Expected per map: FE 58, Blueprint Eternity 0.011 (3,789 each), Expansion Mod Warlock 0.50 (70), Vanguard 0.42 (51), Nether King's
 Divine Remnant 0.33 (72), Edict Doom 0.68 (12), Edicts Dive/Ruin/Dart ~1.1 each (3), Tank mods, Omni-Elixir Notes lottery 8 FE EV.
+Click order (spokes from the Initial Node): Dark Surge 27 = three corrosion spokes (2 micros -> Disgraceful -> 4 micros; 2 micros
+-> +10% -> 4 micros -> +10%·-5% dmg -> +40%; 2 micros -> +10% -> 6 micros -> medium -> medium); Afterlight 16 = one spoke: 3 micros
+-> +8% -> 6 micros -> Grief +15% -> White Night -> 3 micros -> +12% White Night; Outlaw 16 = one spoke: 3 micros -> +6% -> 3 micros
+-> Rare reinforcements -> 3 micros -> Oppressive +30% -> 3 micros -> Imperious; Commodities 8 = +1% quantity micros (3/3/2).
 Variance: a third of the value is a 3,789 FE blueprint every ~80 maps and a 9,788 FE Omni-Elixir every ~1,100; the steady part
 (FE, mods, remnants, edicts) is ~120 net/map = 100 FE/min on its own.
 Why it beats compasses: Outlaw/Dark Surge/Vigil cost 0.3-29 FE per map and add 10-15 s each; compass farms cost 70-100 FE per map
 in astrolabes and probes and compass prices keep sliding.
 
 ## Plan B (Machines) — what the model says about Vlad's run
-- CN's logged Machines trees are 26x "+1% chance for 1 additional attack round" + "+25% for Drones" + attackers/intervals. **None of
-  the 555-run CN Machines strategies took the echelon nodes** ("2 echelons / -100%", "2 additional echelons", Dull) nor Obtuse.
-  Their effect with Cruising is unknown to the data -> modeled as neutral. If they double drones, Machines is ~90 FE/min; if the
-  "-100% additional during Trial" on the first one kills drone drops under Cruising (likely why CN skips it), it is a trap.
-- With his compasses and the CN-shaped tree: 0.62 Disappearing Shadow, 136 Secrets, 24 FE per map; the Fluorescent probe adds +18
-  net in the model but not in game (replication already capped by Creation 30 + Colorful (A) 50 + pets 30).
+- Correction (23:50): etor never logs the two echelon nodes (64 "2 echelons / -100%", 68 "2 additional echelons") and hashed
+  Obtuse / Dull / Paranoid with another text join. By the graph (drone spoke 62->76, 77->80) every CN tree with +25% has both
+  echelon nodes, and once decoded most CN Machines trees carry Obtuse + Dull too: **CN's Machines tree is Vlad's tree.** Trees are
+  now closed under path prerequisites and the extra md5 joins decode (runs.py / bottomup.closed_nodes). The echelon nodes are
+  modeled as the drone source (x2 each, Dull x1.5, a prior — their absolute effect is not identifiable because every CN tree has them).
+- With his compasses and tree: 0.66 Disappearing Shadow, 148 Secrets, 26 FE per map = 179 net at 220 s = 49 FE/min. The Fluorescent
+  probe adds +18 net in the model but not in game (replication already capped by Creation 30 + Colorful (A) 50 + pets 30).
 - Earlier slot answers stand (tools/farm/machines.py): Focus stays, Transgression > Strength in Numbers (time test pending), probe out.
 
 ## Open
-- Echelon nodes with Cruising (Vlad to test or recall): the only thing that could move Machines above 60 FE/min.
 - Plan A test: 10 maps, time per map and the counts of mods / edicts / remnants; expect ~70 s and ~120 net without a blueprint.
 - Pets for plan A (XD matrix, to do): the three that work on Outlaw/Dark Surge/Vigil loot.
 - Pets, card picks, Clockwork rating play and second-same-family compasses are not in the model.

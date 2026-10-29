@@ -51,3 +51,20 @@ Clockwork Ballet (compass prices), Afterlight (divinity items 72 FE and the Neth
 ## Tests before committing
 1. Plan A, 10 maps: count compasses and their listed value, time per map. Expect ~25 compasses / ~115 FE / ~1.3 min.
 2. Plan B, 5 maps with the Machines tree: time per map. Under 2 min makes it competitive, 3 min does not.
+
+## Plan B bottom-up (2026-10-29 evening, tools/farm/machines.py) - answers the slot question
+Drone memories split: common ones (Secret of the Glacial Abyss 105/map, Tomorrow's Direction 1, Gaze 1/159) take the Drop
+Quantity pool, all "additional", fluorescent "additional" and replications; the exclusive Disappearing Shadow (0.5/map, 241 FE)
+takes no pool and no fluorescent-specific additional (XD matrix), but generic additional and replications. CN full stack = base.
+Per map, taxed, Vlad's pool (31 res + Profound 30 + micros + pets 74 = 210): common+Gaze 110, exclusive 94, FE/generic 39 =
+gross 243, cost 81, **net 162 FE/map** (97 without the Gaze lottery).
+- Transgression Plunder (44.8): x1.9 on drone drops at 30 stacks -> +96 gross, **+56 net**. Needs ~30 rare kills before the drones
+  (check the stack counter when the trial starts; at 15 stacks it is +45 gross, break-even).
+- Colorful Fluorescent (Artifact) (8): 50% replicate on every memory incl. the exclusive -> +68 gross, **+61 net**.
+- Strength in Numbers Soldier (1): x1.2 on normals (drones) + 10 groups -> +40.
+- Fluorescent Profound Probe (6): 20% replicate -> +28. Focus Fluorescent (5): x1.5 exclusive -> +42 but needs a slot:
+  Cruising + Trans + SiN + ColA (162) > Trans + ColA + Focus (157) > Trans + SiN + Focus (128). Sinful Plunder: +7 / +3, no.
+- Pets: Kong 82 FE/map, Sky's Dome 45, Twilight Sparks 38 (next best replacement Idling Weasel - Sparkle: -12). Keep the three.
+- Tree: Machine 39 = spoke 62-76 (echelons x2, +25%, Obtuse +40%) + Dull (77-80) + interval spoke 40-47 (3 s / 1 s) + attackers
+  spoke 24-27 + Paranoid spoke 16-17/28-31; saturates after that (1 FE/pt). Rest: Commodities 15 "+1% quantity" micros (0.5/pt),
+  Legendary Gear "Ultimate +32%" / "Precious+ 9%" mediums (~0.5/pt). Profound Prime 4: +30% major and 10% compass refund.

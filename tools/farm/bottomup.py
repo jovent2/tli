@@ -96,7 +96,9 @@ def _load_compass_text():
             for e in c.get("entries", []):
                 COMPASS_TEXT[e["key"].replace("(", "%28").replace(")", "%29")] = " · ".join(e["lines"])
 _load_compass_text()
-def ctext(key): return COMPASS_TEXT.get(key, "")
+def _norm(k): return k.replace("%28", "").replace("%29", "").replace("(", "").replace(")", "").replace("%3A", "").replace(":", "")
+COMPASS_TEXT = {_norm(k): v for k, v in COMPASS_TEXT.items()}
+def ctext(key): return COMPASS_TEXT.get(_norm(key), "")
 
 class Setup:
     """Everything the multipliers need, for a CN strategy (from its logged cost + nodes) or for a planned setup."""
@@ -177,8 +179,8 @@ class Setup:
                 mm = re.search(rx, txt)
                 if mm: p += float(mm.group(1)) * cnt
         return min(100.0, p)
-    def mech_mult(self, M):
-        """(additional multiplier, instance multiplier) from this setup's nodes + compass lines for mechanic M."""
+    def mech_mult(self, M, key=None):
+        """(additional multiplier, instance multiplier) from this setup's nodes + compass lines for mechanic M (column key for modes)."""
         add = 1.0; inst = 1.0; fb_add = 1.0; fb_stack = 0.0; safari = 0.0; safari_mode = False; fb_rep = 0.0; cog = 0.0; notes = 0.0; rep = 0.0; lvl = 0
         for m, txt, cnt in self.all_lines():
             if m != M: continue
@@ -188,15 +190,15 @@ class Setup:
                     if kind == "add": add *= (1 + x / 100) ** cnt
                     elif kind == "add3": add *= (1 + 3 * x / 100) ** cnt
                     elif kind == "add8": add *= 1.08 ** cnt
-                    elif kind == "sub": add *= (1 - x / 100) ** cnt
+                    elif kind == "sub": add *= (max(0.5, 1 - x / 100)) ** cnt
                     elif kind == "inst_pct": inst *= (1 + x / 100) ** cnt
                     elif kind == "inst_pct3": inst *= (1 + x / 300) ** cnt
                     elif kind == "inst_pct_half": inst *= (1 + x / 200) ** cnt
                     elif kind == "inst_pct_q": inst *= (1 + x / 100 / 4) ** cnt
                     elif kind == "inst_plus_half": inst *= (1 + x / 2) ** cnt
                     elif kind == "inst_plus_1": inst *= (1 + x) ** cnt
-                    elif kind == "inst2": inst *= 2.0 ** cnt
-                    elif kind == "inst_dull": inst *= 1.6 ** cnt
+                    elif kind == "inst2": inst *= 1.0        # [unknown] echelon nodes: CN Machines farmers skip them; neutral until tested
+                    elif kind == "inst_dull": inst *= 1.0
                     elif kind == "addfb": fb_add *= (1 + x / 100) ** cnt
                     elif kind == "addfb_stack": fb_stack += x * cnt
                     elif kind == "safari_n": safari += x * cnt
@@ -212,16 +214,44 @@ class Setup:
                     elif kind == "lvl": lvl += x * cnt
                     elif kind == "ds_cap": inst *= 0.5
         if M == "Hunting":
-            # Safari mode (Mistrustful card / Revelation): rewards scale with the number of Safari bosses (4 = Revelation's base) x their
-            # additional; the final boss adds fb_add x (1 + stack% x min(15, bosses)) on top (weighted 1/4 of the column).
-            fb = fb_add * (1 + fb_stack / 100 * min(15, safari)) * (1 + min(1, fb_rep / 100))
-            self._hunt = dict(safari=safari, fb=fb, mode=safari_mode)
-            if safari > 0: inst *= (safari / 4) * 0.75 + 0.25 * fb / add
-            else: add *= fb
+            # Safari columns (Revelation / Siege astrolabes): rewards scale with the number of Safari bosses (4 = Revelation's base) x
+            # the Safari "additional" lines, plus the final boss (1/4 weight) with its stacks. Final-boss columns (Hunting / General):
+            # only final-boss lines and replication; Safari nodes do nothing there.
+            safari_col = key is not None and ("Revelation" in key or "Siege" in key)
+            if safari_col:
+                base = 4.0 if "Revelation" in key else 2.0
+                fb = fb_add * (1 + fb_stack / 100 * min(15, safari)) * (1 + min(1, fb_rep / 100))
+                inst *= (max(safari, base) / base) * 0.75 + 0.25 * fb / add
+            else:
+                add = fb_add * (1 + min(1, fb_rep / 100))
         if M == "ClockworkBallet": add *= (1 + cog / 100) ** 0.5   # cogwheel chance -> compass share of the final reward (concave, fitted shape)
         if rep: add *= 1 + min(1, rep / 100)
         if lvl: inst *= 1 + lvl / 10
         return add, inst
+
+ALLOWED = {
+    "Hunting": {"罗盘", "星盘", "探针", "燃料", "通用道具"},
+    "ClockworkBallet": {"罗盘", "星盘", "探针", "燃料", "通用道具", "记忆荧光"},
+    "Arcana": {"命运", "命运相关", "燃料", "通用道具", "灰烬"},
+    "Outlaw": {"元件", "高塔筹码", "燃料", "通用道具", "传奇装备", "装备蓝图"},
+    "Lunaria": {"复苏材料", "复苏材料（月相）", "传奇装备", "装备蓝图", "燃料", "通用道具", "记忆荧光"},
+    "Afterlight": {"神骸", "魂钉", "传奇装备", "装备蓝图", "燃料", "通用道具", "始源塔罗斯技"},
+    "DarkSurge": {"黑潮敕令", "传奇装备", "装备蓝图", "燃料", "通用道具", "高塔筹码"},
+    "Overrealm": {"特殊棱镜", "异度棱镜", "棱镜水平仪", "棱镜校尺", "辅助技能", "记忆荧光", "灰烬", "燃料", "通用道具"},
+    "Machines": {"记忆荧光", "燃料", "通用道具", "灰烬", "传奇装备", "装备蓝图", "探针"},
+    "Might": {"灰烬", "传奇装备", "装备蓝图", "燃料", "通用道具", "罗盘", "记忆荧光"},
+    "Gods": {"灰烬", "罗盘", "星盘", "神威纹章", "燃料", "通用道具", "记忆荧光", "雾都怪谈"},
+    "Creation": {"记忆荧光", "罗盘", "传奇装备", "装备蓝图", "燃料", "通用道具"},
+    "War": {"信标", "燃料", "通用道具", "灰烬"},
+    "Mistville": {"雾都怪谈", "命运", "燃料", "通用道具"},
+}
+NO_COMPASS = {"罗盘", "星盘", "探针"}   # mechanics not listed above may load anything but compasses
+
+def allowed(M, i):
+    t = RN.typ(i)
+    if M in ("generic", "generic:normals", "generic:magics", "generic:rares", "generic:bosses") or M.startswith("generic"): return True
+    if M in ALLOWED: return t in ALLOWED[M]
+    return t not in NO_COMPASS
 
 def columns(R):
     """Instance columns: compass keys used by >= 3 strategies, tree-forced mechanics, 'generic'."""
@@ -230,7 +260,7 @@ def columns(R):
         for i, q in r["cost"].items():
             k = RN.name(i)
             if RN.typ(i) in ("罗盘", "星盘") and k not in NON_INSTANCE and q >= 0.3: cnt[k] += 1
-    cols = ["generic"] + sorted(k for k, n in cnt.items() if n >= 3)
+    cols = ["generic"] + sorted(k for k, n in cnt.items() if n >= 5)
     cols += [f"tree:{M}" for M in APPEAR]
     return cols
 
@@ -250,7 +280,7 @@ def design(R, cols):
             else:
                 M = mech.compass_family(k) or "generic"; inst = st.compasses.get(k, 0)
                 if inst < 0.3: continue
-            add, im = st.mech_mult(M)
+            add, im = st.mech_mult(M, k)
             X[s, j] = inst * im * add * st.transgression(M) * (1.0 if M in NQ_MECH else Qg)
     return X, setups
 
@@ -277,9 +307,10 @@ def fit(R=None, min_runs_item=1):
     cm = {}
     for cls in ("compass", "fluor", "ember", "legendary", "other", "probe", "beacon"):
         cm[cls] = np.array([[st.class_mult(cls, M) for M in colM] for st in setups])
+    mask = {}
     for i in items:
         cls = item_class(i); y = np.array([r["loot"].get(i, 0.0) for r in R])
-        Xi = X * cm[cls]
+        Xi = X * cm[cls] * np.array([1.0 if allowed(M, i) else 0.0 for M in colM])[None, :]
         if RN.name(i) in NQ_ITEMS: Xi = Xi / np.array([st.Qg() for st in setups])[:, None]   # exclusive memory: pool does not apply
         if RN.name(i) in EXCL_MEMORIES: Xi = Xi * np.array([st.excl_fluor_mult() for st in setups])[:, None]
         b, _ = nnls(Xi * W[:, None], y * W)

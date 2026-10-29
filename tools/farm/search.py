@@ -77,19 +77,17 @@ def describe_tree(plan):
 if __name__ == "__main__":
     F, LA = load_fit()
     seeds = {
-        "Machines (Cruising)": Plan({"Cruising_Mechanical_Compass_%28Artifact%29": 1}, {}, PROFOUND),
-        "Safari (Revelation)": Plan({"Revelation_Hunting_Astrolabe": 1}, {}, PROFOUND),
-        "Clockwork (Collection A)": Plan({"Collection_Doll_Astrolabe_%28Artifact%29": 1}, {}, PROFOUND),
-        "Overrealm (Containment)": Plan({"Containment_Overrealm_Compass": 1}, {}, PROFOUND),
-        "Outlaw (Alert)": Plan({"Alert_Outlaw_Compass": 1}, {}, PROFOUND),
-        "Lunaria (Stele)": Plan({"Lunar_Stele_Lunaria_Compass": 1}, {}, PROFOUND),
-        "Afterlight (All-Evil)": Plan({"All-Evil_Vigil_Compass": 1}, {}, PROFOUND),
         "free (greedy from empty)": None,
+        "Machines (Cruising + Focus + Colorful A + Transgression)": Plan({"Cruising_Mechanical_Compass_%28Artifact%29": 1, "Focus_Fluorescent_Compass": 1, "Colorful_Fluorescent_Compass_%28Artifact%29": 1, "Transgression_Plunder_Compass": 1}, {}, PROFOUND),
+        "Machines (Cruising fixed, rest free)": Plan({"Cruising_Mechanical_Compass_%28Artifact%29": 1}, {}, PROFOUND),
+        "Safari (Revelation fixed)": Plan({"Revelation_Hunting_Astrolabe": 1}, {}, PROFOUND),
+        "Dark Surge (Bandit fixed)": Plan({"Bandit_Dark_Surge_Compass": 1}, {}, PROFOUND),
+        "Outlaw (Alert fixed)": Plan({"Alert_Outlaw_Compass": 1}, {}, PROFOUND),
     }
     results = []
     for name, seed in seeds.items():
         print(f"\n===== {name}", flush=True)
-        plan, split, cur, hist = greedy(F, LA, seed, steps=4, fixed=tuple(seed.compasses) if seed else ())
+        plan, split, cur, hist = greedy(F, LA, seed, steps=3, fixed=tuple(seed.compasses) if seed else ())
         results.append((cur["net_per_min"], name, plan, split, cur))
         e = report(F, LA, plan, name + " [optimized]")
         c, names = describe_tree(plan)

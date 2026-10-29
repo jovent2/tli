@@ -51,3 +51,6 @@
 - **2026-10-29 19:40** Farming model built on 629 CN Profound strategies (46k runs) re-valued at today's prices: Plan A Safari compass farm ~95 FE/min, Plan B Machines 40-75 FE/min depending on his Machines time (ss14/thea/farming_plan.md, tools/farm/).
 - **2026-10-29 19:13** Vlad: Lightchaser now -10% (T0) rank 5, Condensed Cold +29% (T0) rank 5 (rank 5 = the x1.2 base line each), Precise WA in DE's slot, "other shit" unnamed. Pull: no belt / ring L / SA / PP, WA -> Swiftness = 7.4 T (5.2 yesterday). Engine: support rank x1.2 ("r5"), kit updated; dummy_scale refit 0.917 (unnamed changes absorbed). Full kit = 7.4 x 11.05 = **82 T** (86 T with his measured WA ratio).
 - **2026-10-29 19:30** Replication stacking rule from Vlad (once-chances sum, cap 100%; Kong multiplies after). Machines plan: probe cut, 4th slot Transgression vs Strength in Numbers decided by the kill-time test (Transgression is -60% damage dealt on top of 1/117 effective damage).
+- 2026-10-29 23:05 — Farming: bottom-up model built (tools/farm/bottomup.py, plan2.py, search.py, vlad_plans.py; docs/farming.md). Verdict:
+  Outlaw (Alert) + Dark Surge (Bandit) + Vigil (Phantom) + Lunaria + Flourishing probe ≈ 156 FE/min at his speed vs Machines as run 45
+  FE/min (164 net/map but 220 s). Machines echelon nodes unknown (CN never takes them). ss14/thea/farming_plan.md rewritten.

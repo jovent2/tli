@@ -67,8 +67,9 @@ def evaluate(F, LA, plan, verbose=False):
     for k, n in inst.items():
         j = cols.index(k)
         M = "generic" if k == "generic" else (k[5:] if k.startswith("tree:") else (mech.compass_family(k) or "generic"))
-        add, im = (1.0, 1.0) if M == "generic" else plan.mech_mult(M)
+        add, im = (1.0, 1.0) if M == "generic" else plan.mech_mult(M, k)
         Xk = n * im * add * plan.transgression(M) * (1.0 if M in NQ_MECH else Qg)
+        if k != "generic" and F.get("xmax", {}).get(k, 0) > 0: Xk = min(Xk, XCAP * F["xmax"][k] * max(1.0, n))   # support cap: no extrapolation past CN
         cm = {cls: plan.class_mult(cls, M) for cls in ("compass", "fluor", "ember", "legendary", "other", "probe", "beacon")}
         if k != "generic": secs += n * max(MIN_TIME, VLAD_TIME.get(k, T.get(k, 0.0)))
         for i, y in F["colitems"][j]:
@@ -120,8 +121,11 @@ for _i in RN.ITEMS:
     if RN.name(_i) not in PRICE_BY_NAME or RN.price(_i): PRICE_BY_NAME[RN.name(_i)] = RN.price(_i) or 0.0
 def pname(k): return PRICE_BY_NAME.get(k, 0.0)
 
+XCAP = 1.2       # a column's multiplier may exceed the largest CN-observed multiplier for that column by at most this factor
+
 def load_fit():
     F = fit(); F["T"] = duration_fit(F); LA = lottery_attribution(F)
+    F["xmax"] = {k: float(F["X"][:, j].max()) for j, k in enumerate(F["cols"])}
     F["colitems"] = [[(i, F["Y"][i][j]) for i in F["items"] if F["Y"][i][j] > 0] for j in range(len(F["cols"]))]
     F["lot_by_col"] = collections.defaultdict(list)
     for i, (k, rate, drops) in LA.items(): F["lot_by_col"][k].append((i, rate))

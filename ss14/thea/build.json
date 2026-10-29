@@ -21,8 +21,8 @@
   "mass_effect_charges": 3,
   "periodic_burst": 20,
   "_mass_effect_note": "2026-10-27 13:07 sheet test (10 Focus, 4 Agility): no SOU 207, SOU bare 231 (+24), WFB 1/2/3 casts 234/237/240 (+12.5%/stack), ME only 247 (+66.7% = full, 3 charges), both 256 (x2.04). Mass Effect is full. Periodic Burst (follower Tartarus version) = +20.",
-  "dummy_scale": 0.851,
-  "_dummy_scale_note": "0.851 since 2026-10-28 12:05: fit on today's six absolute pulls with the screenshot supports (medium T1 11% / Overload / Condensed Cold / MP / TP), rms 3%. Yesterday's era (repo had Spell Tangle / Manifold / Lightchaser / TP / CC) fits 0.767; if the medium was already there yesterday it fits 0.895 and one constant 0.862 covers both days (rms 3.9%). Asked Vlad.",
+  "dummy_scale": 0.917,
+  "_dummy_scale_note": "0.917: refit 2026-10-29 19:13 on the 7.4 T pull (no belt / ring L / SA / PP, WA -> Swiftness) after Vlad's support changes (Lightchaser -10 r5, CC +29 r5, 'and other shit'); the unnamed changes are inside this constant.",
   "blizzard_stacks": 1,
   "_blizzard_note": "2026-10-28 11:31 Vlad: Blizzard off pull 5.2 -> 3.0 = x1.733 = 1 stack (model x1.707). The 2-stack read was wrong."
  },
@@ -453,8 +453,8 @@
    "supports": [
     "Activation Medium: Tangle T1 +11%",
     "Overload",
-    "Chromatic Shot: Condensed Cold (Noble) T1 +20%",
-    "Multiple Projectiles",
+    "Chromatic Shot: Condensed Cold (Noble) T0 +29% r5",
+    "Chromatic Shot: Lightchaser (Magnificent) T0 -10% r5",
     "Target Projection"
    ]
   },
@@ -466,7 +466,7 @@
    "Spell Amplification [Aura Amplification, Increased Area, Restrain]",
    "Blizzard [Activation Medium: Elite, Well-Fought Battle, Blizzard: Freezing Point (Magnificent) 246%, Mass Effect]",
    "Frigid Domain [Seal Conversion, Aura Amplification]",
-   "Domain Expansion [Aura Amplification, Restrain, Cooldown Reduction]"
+   "Precise: Weapon Amplification [Aura Amplification, Restrain, Cooldown Reduction]"
   ]
  },
  "follower": [

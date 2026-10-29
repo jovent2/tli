@@ -286,10 +286,15 @@ def dps(build, trees, verbose=False):
     if has("Multiple Projectiles"):          # +2 projectiles. [tested 2026-10-25] MP x1.49 without Lightchaser (7.9 -> 5.3) = add% x projectile part 1.256
         m["Multiple Projectiles"] = 1 + skill_value("Multiple_Projectiles", sh["level_support_proj"], r"([\d.]+)% additional damage") / 100
         proj_gain = ctx.get("mp_projectile_gain", 1.256)
+    def rank_mult(name):   # Magnificent/Noble base line "+20% additional damage" at rank 5 [Vlad 2026-10-29]: "r5" in the support name
+        mm = re.search(r"\br(\d)\b", next((x for x in sup if x.startswith(name)), ""))
+        return 1 + 0.04 * int(mm.group(1)) if mm else 1.0
     if lc:
         m["Lightchaser roll [Vlad]"] = 1 + roll("Chromatic Shot: Lightchaser", -16) / 100
+        if rank_mult("Chromatic Shot: Lightchaser") > 1: m["Lightchaser rank"] = rank_mult("Chromatic Shot: Lightchaser")
     if has("Chromatic Shot: Condensed Cold"):
         m["Condensed Cold roll [Vlad]"] = 1 + roll("Chromatic Shot: Condensed Cold", 20) / 100
+        if rank_mult("Chromatic Shot: Condensed Cold") > 1: m["Condensed Cold rank"] = rank_mult("Chromatic Shot: Condensed Cold")
     if has("Target Projection"):
         tp = skill_value("Target_Projection", sh["level_support_proj"], r"([\d.]+)% additional damage to Marked")
         m["Target Projection vs Marked"] = 1 + tp / 100

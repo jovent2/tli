@@ -602,7 +602,7 @@
   {
    "name": "No belt, ring L, DE, Spell Amp (Blizzard FP 246%)",
    "era": "2026-10-28 10:45",
-   "group": "absolute",
+   "group": "absolute (2026-10-28 era)",
    "after": {
     "remove": [
      "gear:belt",
@@ -613,12 +613,30 @@
      "Spell Amplification"
     ]
    },
-   "measured": 8.0
+   "measured": 8.0,
+   "common": {
+    "main_supports": [
+     "Activation Medium: Tangle T1 +11%",
+     "Overload",
+     "Chromatic Shot: Condensed Cold (Noble) T1 +20%",
+     "Multiple Projectiles",
+     "Target Projection"
+    ],
+    "context": {
+     "dummy_scale": 0.851
+    },
+    "replace_skill": [
+     [
+      "Precise: Weapon Amplification",
+      "Domain Expansion [Aura Amplification, Restrain, Cooldown Reduction]"
+     ]
+    ]
+   }
   },
   {
    "name": "No belt, ring L, Spell Amp, Precise Proj (DE on)",
    "era": "2026-10-28 10:57",
-   "group": "absolute",
+   "group": "absolute (2026-10-28 era)",
    "after": {
     "remove": [
      "gear:belt",
@@ -629,12 +647,30 @@
      "Precise Projectiles"
     ]
    },
-   "measured": 7.3
+   "measured": 7.3,
+   "common": {
+    "main_supports": [
+     "Activation Medium: Tangle T1 +11%",
+     "Overload",
+     "Chromatic Shot: Condensed Cold (Noble) T1 +20%",
+     "Multiple Projectiles",
+     "Target Projection"
+    ],
+    "context": {
+     "dummy_scale": 0.851
+    },
+    "replace_skill": [
+     [
+      "Precise: Weapon Amplification",
+      "Domain Expansion [Aura Amplification, Restrain, Cooldown Reduction]"
+     ]
+    ]
+   }
   },
   {
    "name": "... Swiftness in DE's slot",
    "era": "2026-10-28 10:57",
-   "group": "absolute",
+   "group": "absolute (2026-10-28 era)",
    "after": {
     "remove": [
      "gear:belt",
@@ -651,12 +687,30 @@
      ]
     ]
    },
-   "measured": 5.3
+   "measured": 5.3,
+   "common": {
+    "main_supports": [
+     "Activation Medium: Tangle T1 +11%",
+     "Overload",
+     "Chromatic Shot: Condensed Cold (Noble) T1 +20%",
+     "Multiple Projectiles",
+     "Target Projection"
+    ],
+    "context": {
+     "dummy_scale": 0.851
+    },
+    "replace_skill": [
+     [
+      "Precise: Weapon Amplification",
+      "Domain Expansion [Aura Amplification, Restrain, Cooldown Reduction]"
+     ]
+    ]
+   }
   },
   {
    "name": "... Precise Weapon Amp in DE's slot",
    "era": "2026-10-28 10:57",
-   "group": "absolute",
+   "group": "absolute (2026-10-28 era)",
    "after": {
     "remove": [
      "gear:belt",
@@ -673,12 +727,30 @@
      ]
     ]
    },
-   "measured": 8.2
+   "measured": 8.2,
+   "common": {
+    "main_supports": [
+     "Activation Medium: Tangle T1 +11%",
+     "Overload",
+     "Chromatic Shot: Condensed Cold (Noble) T1 +20%",
+     "Multiple Projectiles",
+     "Target Projection"
+    ],
+    "context": {
+     "dummy_scale": 0.851
+    },
+    "replace_skill": [
+     [
+      "Precise: Weapon Amplification",
+      "Domain Expansion [Aura Amplification, Restrain, Cooldown Reduction]"
+     ]
+    ]
+   }
   },
   {
    "name": "No belt/ring/PP/SA, Swiftness in DE's slot (repeat)",
    "era": "2026-10-28 11:31",
-   "group": "absolute",
+   "group": "absolute (2026-10-28 era)",
    "after": {
     "remove": [
      "gear:belt",
@@ -695,12 +767,30 @@
      ]
     ]
    },
-   "measured": 5.2
+   "measured": 5.2,
+   "common": {
+    "main_supports": [
+     "Activation Medium: Tangle T1 +11%",
+     "Overload",
+     "Chromatic Shot: Condensed Cold (Noble) T1 +20%",
+     "Multiple Projectiles",
+     "Target Projection"
+    ],
+    "context": {
+     "dummy_scale": 0.851
+    },
+    "replace_skill": [
+     [
+      "Precise: Weapon Amplification",
+      "Domain Expansion [Aura Amplification, Restrain, Cooldown Reduction]"
+     ]
+    ]
+   }
   },
   {
    "name": "... and Blizzard off",
    "era": "2026-10-28 11:31",
-   "group": "absolute",
+   "group": "absolute (2026-10-28 era)",
    "after": {
     "remove": [
      "gear:belt",
@@ -718,7 +808,47 @@
      ]
     ]
    },
-   "measured": 3.0
+   "measured": 3.0,
+   "common": {
+    "main_supports": [
+     "Activation Medium: Tangle T1 +11%",
+     "Overload",
+     "Chromatic Shot: Condensed Cold (Noble) T1 +20%",
+     "Multiple Projectiles",
+     "Target Projection"
+    ],
+    "context": {
+     "dummy_scale": 0.851
+    },
+    "replace_skill": [
+     [
+      "Precise: Weapon Amplification",
+      "Domain Expansion [Aura Amplification, Restrain, Cooldown Reduction]"
+     ]
+    ]
+   }
+  },
+  {
+   "era": "2026-10-29 19:13",
+   "name": "No belt/ring L/SA/PP, Precise WA -> Swiftness (new supports: Lightchaser -10 r5, CC +29 r5, more unnamed)",
+   "group": "absolute (2026-10-29)",
+   "after": {
+    "remove": [
+     "gear:belt",
+     "gear:ring_l"
+    ],
+    "disable": [
+     "Spell Amplification",
+     "Precise Projectiles"
+    ],
+    "replace_skill": [
+     [
+      "Precise: Weapon Amplification",
+      "Swiftness [Aura Amplification, Restrain, Cooldown Reduction]"
+     ]
+    ]
+   },
+   "measured": 7.4
   }
  ]
 }

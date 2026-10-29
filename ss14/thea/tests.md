@@ -69,3 +69,4 @@ Quad-damage RNG gives roughly ±10% on a single pull.
 | as above (repeat of 10:57) | 5.2 | 5.25 | 10:57 read 5.3 |
 | + Blizzard off | 3.0 | 3.08 | **Blizzard x1.733 = 1 stack** (model x1.707; 2 stacks would be x2.41 -> 2.2 T) |
 - Refit: today's six absolute pulls rms 3.2% with **no constant** (dummy_scale 1.0). Yesterday's 9.4 / 6.8 fit at 0.767 (kept as era context).
+| no belt / ring L / SA / PP, Precise WA -> Swiftness (Lightchaser -10 r5, CC +29 r5) | 7.4 | 6.86 at the old scale -> refit 0.917 | full kit 82 T |

@@ -153,3 +153,10 @@ DPS = Base
 - **Absolute scale (12:05)**: the overnight change was the **Chromatic supports** (Vlad's screenshot): Activation Medium: Tangle T1 11% / Overload / Condensed Cold /
   Multiple Projectiles / Target Projection (repo had Spell Tangle / Manifold / Lightchaser / TP / CC). Modeled -> today's six pulls fit dummy_scale **0.851** (rms 3%).
   Yesterday with Spell Tangle fits 0.767 (x1.11 unexplained); with the medium already in slot 1 it fits 0.895 and one constant 0.862 covers all 8 pulls (rms 3.9%).
+
+### Drop replication stacking [Vlad 2026-10-29, in-game observation]
+- Every "X% chance to be replicated once" source (compasses, probes, pets' "replicated 1 time" lines, Creation's Fluorescent crystal
+  buff) adds into ONE x2 chance, capped at 100%: a drop is never doubled twice. Kong's "replicated 2 times" (13%) rolls AFTER that, per
+  copy (x3): 4 = one of two copies tripled, 6 = both; 5 is impossible and 6 is the most ever seen. Expected copies = (1 + min(1, sum)) x 1.26.
+- Machines stack: Creation 30 + Colorful (Artifact) 50 + Kong 20 + Sky's Dome 10 = 110% -> capped; the Fluorescent probe's 20% and a
+  plain Colorful add nothing there.

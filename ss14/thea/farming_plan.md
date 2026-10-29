@@ -80,3 +80,7 @@ gross 243, cost 81, **net 162 FE/map** (97 without the Gaze lottery).
 - 19:30 (Vlad): replication = one summed once-chance capped at 100%, Kong x1.46 after. Machines re-run: 4th slot Transgression +69
   net (needs the time test; -60% damage dealt), Strength in Numbers +30, Colorful / Fluorescent Compass +6. Probe: Fluorescent +0
   (and -40% damage taken) -> cut; Flourishing +4. Creation's 30% is worth +19, Colorful (Artifact) +25, Focus +18 in this stack.
+- 19:35, replication rule applied exactly as Vlad states it (Kong's 20% inside the sum, his 13% x3 per copy after): base Cruising + Focus +
+  Colorful (Artifact) + Transgression, **no probe**, Creation 30%: gross 247, cost 79, **net 169/map** (114 without Gaze). x2 chance 110% ->
+  capped. Fluorescent probe -6 net (and -40% damage), plain Colorful -1: both out. Transgression -> Strength in Numbers -33 (before time).
+  Drop Colorful (Artifact) -36, drop Focus -36, lose Creation's buff -21.

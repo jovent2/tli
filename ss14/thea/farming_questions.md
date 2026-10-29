@@ -53,3 +53,13 @@ farming runs with their Void Chart allocation, compasses, loot and cost (docs/fa
 9. Any drop pet at rank 6 is available (whale). 10. Liquid FE: whatever the strategy needs.
 11. Map time depends on the mechanics: God of Machines / Might slow, War / Hunting instant. 12. Any mechanic, no deaths.
 13. FE/hour, drops valued at market. 14. Tartarus (Warden) out of scope.
+
+## Round 2 (asked 16:10, answered 16:24)
+1. Beacons are not self-sustaining unless you farm them -> cost a T8 beacon per map (GA T8 3.3 FE) or take Beacon nodes/compasses.
+2. Deep Space probes do not fit the Profound probe slot.
+3. Cage: Deep Space only. "Try it in Profound and you make -11k FE/hr." Cage constellation and Cage Astrolabes are out.
+4. 92 Star Talents and 4 Prime are the cap.
+5. The 1 FE listing minimum is per listing: stacks of cheap compasses are fine.
+6. Bare Profound Glacial map: 40 s. God of Machines: 3 min.
+7. Mechanics he doesn't force with the tree or a compass he doesn't do.
+8. Card pick: whatever fits the farm (Mystery Chests usually good, drop quantity, the farmed mechanic's card).

@@ -67,4 +67,11 @@ so to decode a strategy's allocation fully we need the Chinese node texts (tlidb
 - Leaderboards hold 659 Profound runs (mostly day 2-4, before CN moved to Deep Space); avgEarnings is valued at the prices of the day
   the runs happened, so re-value loot from `/api/strategy/detail` with current prices before comparing.
 
-## Open questions -> see ss14/thea/farming_questions.md (round 1 answered 2026-10-29; round 2 asked)
+- Scope [Vlad]: Profound T8 Glacial Abyss only. Cage (constellation + astrolabes) is Deep Space-only, never in Profound. Deep Space
+  probes don't fit the Profound probe slot. 92 Star / 4 Prime are the cap. Beacons cost a T8 beacon per map unless farmed.
+  Bare map 40 s, God of Machines +3 min; other mechanic times from the logged runs.
+- `data/ext/void_chart_graph.json`: all 27 constellations with node positions, edges (from tlidb's svg), English + Chinese text and
+  the etor key = md5("\n".join(Chinese lines)) — decodes the Void Chart allocation of any logged strategy.
+- `data/ext/etor_strategies_s14/details/`: strategy details (loot / cost tallies, Void Chart keys) for the Profound runs.
+
+## Open questions -> see ss14/thea/farming_questions.md (rounds 1-2 answered 2026-10-29)

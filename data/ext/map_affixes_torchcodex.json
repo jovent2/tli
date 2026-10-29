@@ -1,0 +1,1056 @@
+{
+"source": "https://legacy.torchcodex.com/latest/en/mapAffix.html (curl raw, 2026-10-29)",
+"columns": "id, target (timemark pool: 2 / 8 / 13), ItemRarity (0.15 or 0.25: weight or per-affix drop bonus, column meaning not documented), text",
+"affixes": [
+{
+"id": 5112001,
+"target": 2,
+"item_rarity": 0.15,
+"text": "-15% additional player damage"
+},
+{
+"id": 5112002,
+"target": 2,
+"item_rarity": 0.15,
+"text": "-23% additional Elemental Damage for you"
+},
+{
+"id": 5112003,
+"target": 2,
+"item_rarity": 0.15,
+"text": "-30% additional Fire Damage for you"
+},
+{
+"id": 5112004,
+"target": 2,
+"item_rarity": 0.15,
+"text": "-30% additional Lightning Damage for you"
+},
+{
+"id": 5112005,
+"target": 2,
+"item_rarity": 0.15,
+"text": "-30% additional Cold Damage for you"
+},
+{
+"id": 5112006,
+"target": 2,
+"item_rarity": 0.15,
+"text": "-30% additional Physical Damage for you"
+},
+{
+"id": 5112007,
+"target": 2,
+"item_rarity": 0.15,
+"text": "-30% additional Erosion Damage for you"
+},
+{
+"id": 5112008,
+"target": 2,
+"item_rarity": 0.15,
+"text": "-15% additional Attack and Cast Speed for you"
+},
+{
+"id": 5112009,
+"target": 2,
+"item_rarity": 0.15,
+"text": "-15% additional Projectile Damage for you"
+},
+{
+"id": 5112010,
+"target": 2,
+"item_rarity": 0.15,
+"text": "-15% additional Area Damage for you"
+},
+{
+"id": 5112011,
+"target": 2,
+"item_rarity": 0.15,
+"text": "The player -15% additional Aura Effect"
+},
+{
+"id": 5111001,
+"target": 2,
+"item_rarity": 0.15,
+"text": "-20% additional player Evasion"
+},
+{
+"id": 5111002,
+"target": 2,
+"item_rarity": 0.15,
+"text": "-26% additional player Armor"
+},
+{
+"id": 5111003,
+"target": 2,
+"item_rarity": 0.15,
+"text": "-6% Max Elemental Resistance for you"
+},
+{
+"id": 5111004,
+"target": 2,
+"item_rarity": 0.15,
+"text": "-12% Max Fire Resistance for you"
+},
+{
+"id": 5111005,
+"target": 2,
+"item_rarity": 0.15,
+"text": "-12% Max Lightning Resistance for you"
+},
+{
+"id": 5111006,
+"target": 2,
+"item_rarity": 0.15,
+"text": "-12% Max Cold Resistance for you"
+},
+{
+"id": 5111007,
+"target": 2,
+"item_rarity": 0.15,
+"text": "-12% Max Erosion Resistance for you"
+},
+{
+"id": 5212001,
+"target": 2,
+"item_rarity": 0.15,
+"text": "At Full Life, you deal -9% additional damage every 3s. Stacks up to 3 times."
+},
+{
+"id": 5212003,
+"target": 2,
+"item_rarity": 0.15,
+"text": "Upon leaving the Full Life status, you deal -23% additional damage for 3s. This effect persists even when you enter the Full Life status again."
+},
+{
+"id": 5212005,
+"target": 2,
+"item_rarity": 0.15,
+"text": "At Low Life, you deal -9% additional damage every 3s. Stacks up to 3 times."
+},
+{
+"id": 5212006,
+"target": 2,
+"item_rarity": 0.15,
+"text": "At Low Mana, you deal -8% additional damage every 3s. Stacks up to 3 times."
+},
+{
+"id": 5212007,
+"target": 2,
+"item_rarity": 0.15,
+"text": "Deal -17% additional damage for each Curse effect you have received"
+},
+{
+"id": 5212008,
+"target": 2,
+"item_rarity": 0.15,
+"text": "Upon receiving a Curse effect, you deal -12% additional damage every 2s. Stacks up to 3 times."
+},
+{
+"id": 5212009,
+"target": 2,
+"item_rarity": 0.15,
+"text": "Upon receiving Paralysis, you deal -46% additional damage"
+},
+{
+"id": 5212010,
+"target": 2,
+"item_rarity": 0.15,
+"text": "Upon being Blinded, you gain -46% additional Attack and Cast Speed"
+},
+{
+"id": 5212011,
+"target": 2,
+"item_rarity": 0.15,
+"text": "Gets Weakened for 8s if you have moved more than 17m recently"
+},
+{
+"id": 5212012,
+"target": 2,
+"item_rarity": 0.15,
+"text": "Gets Blinded for 8s when you have lost 20% of Life or taken damage greater than 20% of the sum of Life and Energy Shield recently"
+},
+{
+"id": 5212013,
+"target": 2,
+"item_rarity": 0.15,
+"text": "When having at least 70 Fervor Rating, you lose 20 Fervor Rating every second"
+},
+{
+"id": 5212014,
+"target": 2,
+"item_rarity": 0.15,
+"text": "-138% Fervor effect"
+},
+{
+"id": 5212015,
+"target": 2,
+"item_rarity": 0.15,
+"text": "Unable to gain Fervor for +1.5s after losing it"
+},
+{
+"id": 5212016,
+"target": 2,
+"item_rarity": 0.15,
+"text": "Every 3 stack(s) of Agility Blessing or Focus Blessing removes 2 stack(s) of this blessing."
+},
+{
+"id": 5212017,
+"target": 2,
+"item_rarity": 0.15,
+"text": "-58% Blessing Duration for you"
+},
+{
+"id": 5212019,
+"target": 2,
+"item_rarity": 0.15,
+"text": "You lose 4 stacks of Blessing every 2s"
+},
+{
+"id": 5311001,
+"target": 2,
+"item_rarity": 0.15,
+"text": "Upon leaving the Full Life status, you receive +58% additional damage for 5s. This effect persists even when you enter the Full Life status again."
+},
+{
+"id": 5311002,
+"target": 2,
+"item_rarity": 0.15,
+"text": "Upon entering the Low Life status, you receive +43% additional damage for 5s"
+},
+{
+"id": 5311003,
+"target": 2,
+"item_rarity": 0.15,
+"text": "Upon entering the Low Energy Shield status for the first time, the player -35% additional Max Energy Shield"
+},
+{
+"id": 5311004,
+"target": 2,
+"item_rarity": 0.15,
+"text": "Upon receiving damage beyond 20% Max Energy Shield recently, you have -12% additional Max Energy Shield. (Can be triggered up to 3 times.)"
+},
+{
+"id": 5311005,
+"target": 2,
+"item_rarity": 0.15,
+"text": "-46% Life Regeneration Speed for you"
+},
+{
+"id": 5311006,
+"target": 2,
+"item_rarity": 0.15,
+"text": "-50% additional Mana Regeneration Speed for you"
+},
+{
+"id": 5311007,
+"target": 2,
+"item_rarity": 0.15,
+"text": "+58% Energy Shield Charge Interval for you"
+},
+{
+"id": 5311008,
+"target": 2,
+"item_rarity": 0.15,
+"text": "Player -46% additional Energy Shield Charge Speed"
+},
+{
+"id": 5311009,
+"target": 2,
+"item_rarity": 0.15,
+"text": "-12% Life Regain and Energy Shield Regain for you"
+},
+{
+"id": 5311010,
+"target": 2,
+"item_rarity": 0.15,
+"text": "+29% additional Life Regain and Energy Shield Regain Interval for you"
+},
+{
+"id": 5311011,
+"target": 2,
+"item_rarity": 0.15,
+"text": "-20% Elemental Resistance within 2s when you receive damage"
+},
+{
+"id": 5311012,
+"target": 2,
+"item_rarity": 0.15,
+"text": "-5% Erosion Resistance within 5s when you receive damage. Stacks up to 5 times."
+},
+{
+"id": 5311013,
+"target": 2,
+"item_rarity": 0.15,
+"text": "-20% additional Armor within 5s when you receive damage."
+},
+{
+"id": 5311014,
+"target": 2,
+"item_rarity": 0.15,
+"text": "-25% Block Chance for you for 5s when you block"
+},
+{
+"id": 5311015,
+"target": 2,
+"item_rarity": 0.15,
+"text": "-18% Block Ratio for you for 5s when you block"
+},
+{
+"id": 5311016,
+"target": 2,
+"item_rarity": 0.15,
+"text": "Every 3 stack(s) of Tenacity Blessing removes 1 stack(s) of Tenacity Blessing."
+},
+{
+"id": 5311017,
+"target": 2,
+"item_rarity": 0.15,
+"text": "-60% Tenacity Blessing Duration for you"
+},
+{
+"id": 5311018,
+"target": 2,
+"item_rarity": 0.15,
+"text": "You lose 4 stacks of Tenacity Blessing every 2s"
+},
+{
+"id": 5311019,
+"target": 2,
+"item_rarity": 0.15,
+"text": "-40% additional Evasion for you for 2s when you are hit"
+},
+{
+"id": 5311020,
+"target": 2,
+"item_rarity": 0.15,
+"text": "-80% Evasion for you for 5s every 10 time(s) you evade"
+},
+{
+"id": 5311021,
+"target": 2,
+"item_rarity": 0.15,
+"text": "-25% Blur effect for you"
+},
+{
+"id": 5311022,
+"target": 2,
+"item_rarity": 0.15,
+"text": "You lose 12 Blur Rating every second"
+},
+{
+"id": 5311024,
+"target": 2,
+"item_rarity": 0.15,
+"text": "-29% Barrier Absorption Rate for you"
+},
+{
+"id": 5311025,
+"target": 2,
+"item_rarity": 0.15,
+"text": "-50% Barrier Shield for you"
+},
+{
+"id": 5311026,
+"target": 2,
+"item_rarity": 0.15,
+"text": "The player -20% additional Aura Effect"
+},
+{
+"id": 5521013,
+"target": 2,
+"item_rarity": 0.15,
+"text": "The player +58% additional damage taken when at Low Mana"
+},
+{
+"id": 5521014,
+"target": 2,
+"item_rarity": 0.15,
+"text": "The player +58% additional damage taken when at Full Mana"
+},
+{
+"id": 5521015,
+"target": 2,
+"item_rarity": 0.15,
+"text": "The player +58% additional damage taken when at Low Life"
+},
+{
+"id": 5521016,
+"target": 2,
+"item_rarity": 0.15,
+"text": "The player +58% additional damage taken when at Full Life"
+},
+{
+"id": 5690001,
+"target": 2,
+"item_rarity": 0.25,
+"text": "-58% Blessing Duration for you"
+},
+{
+"id": 5690002,
+"target": 2,
+"item_rarity": 0.25,
+"text": "You lose 12 Blur Rating every second"
+},
+{
+"id": 5690013,
+"target": 2,
+"item_rarity": 0.25,
+"text": "Rare monsters inflict a stack of Slow effect on targets within 8m of them for 3s every 2s. Stacks up to 3 times."
+},
+{
+"id": 5121001,
+"target": 8,
+"item_rarity": 0.15,
+"text": "+15% additional monster damage"
+},
+{
+"id": 5121002,
+"target": 8,
+"item_rarity": 0.15,
+"text": "+23% additional Elemental Damage for monsters"
+},
+{
+"id": 5121003,
+"target": 8,
+"item_rarity": 0.15,
+"text": "+30% additional Fire Damage for monsters"
+},
+{
+"id": 5121004,
+"target": 8,
+"item_rarity": 0.15,
+"text": "+30% additional Lightning Damage for monsters"
+},
+{
+"id": 5121005,
+"target": 8,
+"item_rarity": 0.15,
+"text": "+30% additional Cold Damage for monsters"
+},
+{
+"id": 5121006,
+"target": 8,
+"item_rarity": 0.15,
+"text": "+30% additional Physical Damage for monsters"
+},
+{
+"id": 5121007,
+"target": 8,
+"item_rarity": 0.15,
+"text": "+30% additional Erosion Damage for monsters"
+},
+{
+"id": 5121008,
+"target": 8,
+"item_rarity": 0.15,
+"text": "+20% Attack, Cast, and Movement Speed for monsters"
+},
+{
+"id": 5121009,
+"target": 8,
+"item_rarity": 0.15,
+"text": "Monsters deal +15% additional damage to Life"
+},
+{
+"id": 5121010,
+"target": 8,
+"item_rarity": 0.15,
+"text": "Monsters deal +15% additional damage to Energy Shield"
+},
+{
+"id": 5122001,
+"target": 8,
+"item_rarity": 0.15,
+"text": "+25% additional Armor for monsters"
+},
+{
+"id": 5122002,
+"target": 8,
+"item_rarity": 0.15,
+"text": "+23% Monster Elemental Resistance"
+},
+{
+"id": 5122003,
+"target": 8,
+"item_rarity": 0.15,
+"text": "+30% Monster Fire Resistance"
+},
+{
+"id": 5122004,
+"target": 8,
+"item_rarity": 0.15,
+"text": "+30% Monster Lightning Resistance"
+},
+{
+"id": 5122005,
+"target": 8,
+"item_rarity": 0.15,
+"text": "+30% Monster Cold Resistance"
+},
+{
+"id": 5122006,
+"target": 8,
+"item_rarity": 0.15,
+"text": "+30% Monster Erosion Resistance"
+},
+{
+"id": 5122007,
+"target": 8,
+"item_rarity": 0.15,
+"text": "+15% additional monster Life"
+},
+{
+"id": 5122008,
+"target": 8,
+"item_rarity": 0.15,
+"text": "-20% additional Curse Effect against monsters"
+},
+{
+"id": 5422001,
+"target": 8,
+"item_rarity": 0.15,
+"text": "+40% additional Monster Armor"
+},
+{
+"id": 5422002,
+"target": 8,
+"item_rarity": 0.15,
+"text": "+47% additional Monster Elemental Resistance"
+},
+{
+"id": 5422003,
+"target": 8,
+"item_rarity": 0.15,
+"text": "+47% Monster Erosion Resistance"
+},
+{
+"id": 5422005,
+"target": 8,
+"item_rarity": 0.15,
+"text": "Adds Energy Shield equal to 18% of Life to Magic and Rare monsters"
+},
+{
+"id": 5422006,
+"target": 8,
+"item_rarity": 0.15,
+"text": "Adds Energy Shield equal to 124% of Max Life to Magic monsters"
+},
+{
+"id": 5422007,
+"target": 8,
+"item_rarity": 0.15,
+"text": "Adds Energy Shield equal to 35% of Max Life to Rare monsters"
+},
+{
+"id": 5422008,
+"target": 8,
+"item_rarity": 0.15,
+"text": "-50% additional damage taken for Full Life Rare monsters"
+},
+{
+"id": 5422009,
+"target": 8,
+"item_rarity": 0.15,
+"text": "Rare monsters take -40% additional damage from attacks dealt from more than 6m away"
+},
+{
+"id": 5422010,
+"target": 8,
+"item_rarity": 0.15,
+"text": "+50% Injury Buffer for Rare monsters"
+},
+{
+"id": 5422011,
+"target": 8,
+"item_rarity": 0.15,
+"text": "Rare monsters take -40% additional damage for every 40% Energy Shield and Life lost."
+},
+{
+"id": 5422012,
+"target": 8,
+"item_rarity": 0.15,
+"text": "Rare monsters gain 46% Damage Avoidance Chance, which will be removed after 8 damage is received"
+},
+{
+"id": 5422013,
+"target": 8,
+"item_rarity": 0.15,
+"text": "Rare monsters gain 3% Damage Avoidance Chance (up to 10 time(s)) every 4s with - 3% Damage Avoidance Chance when hit"
+},
+{
+"id": 5422014,
+"target": 8,
+"item_rarity": 0.15,
+"text": "Rare monsters gain 3% Damage Avoidance Chance every after taking 1 hits. (Stacks up to 15 times.)"
+},
+{
+"id": 5422015,
+"target": 8,
+"item_rarity": 0.15,
+"text": "Rare monsters gain 50% Damage Avoidance Chance for 4s when entering the Low Life status for the first time."
+},
+{
+"id": 5422016,
+"target": 8,
+"item_rarity": 0.15,
+"text": "-60% Effect Duration for DoT Damage received by Rare monsters"
+},
+{
+"id": 5422017,
+"target": 8,
+"item_rarity": 0.15,
+"text": "Rare monsters lose 90 Affliction for every 10% Life lost"
+},
+{
+"id": 5422018,
+"target": 8,
+"item_rarity": 0.15,
+"text": "Rare monsters receive -60% additional DoT Damage for +2s when their Affliction reaches 100"
+},
+{
+"id": 5422019,
+"target": 8,
+"item_rarity": 0.15,
+"text": "Upon being hit for the first time, Rare monsters additionally restore 30% Max Life within 3s"
+},
+{
+"id": 5422020,
+"target": 8,
+"item_rarity": 0.15,
+"text": "-35% additional damage taken for Rare monsters affected by control effects"
+},
+{
+"id": 5422021,
+"target": 8,
+"item_rarity": 0.15,
+"text": "-35% additional damage taken for Rare monsters affected by control effects"
+},
+{
+"id": 5422023,
+"target": 8,
+"item_rarity": 0.15,
+"text": "Upon being hit for the first time, Rare monsters additionally restore 30% Max Life within 5s"
+},
+{
+"id": 5422024,
+"target": 8,
+"item_rarity": 0.15,
+"text": "When receiving damage over 40% Max Life within 2s, Rare monsters restore additional Life equal to 20% Max Life within 1s. (Can only be triggered once.)"
+},
+{
+"id": 5422025,
+"target": 8,
+"item_rarity": 0.15,
+"text": "Upon entering the Low Life status for the first time, Rare monsters restore 35% Max Life within 2s"
+},
+{
+"id": 5422028,
+"target": 8,
+"item_rarity": 0.15,
+"text": "-35% additional damage taken for Rare monsters affected by control effects"
+},
+{
+"id": 5422029,
+"target": 8,
+"item_rarity": 0.15,
+"text": "-34.5% additional damage taken for Cursed Rare monsters"
+},
+{
+"id": 5422031,
+"target": 8,
+"item_rarity": 0.15,
+"text": "Upon receiving Projectile Damage, Rare monsters gain a protective dome with a radius of 5m. (Enemies outside the protective dome cannot deal damage to targets in the dome.)"
+},
+{
+"id": 5422032,
+"target": 8,
+"item_rarity": 0.15,
+"text": "Upon receiving Area Hit Damage, Rare monsters gain 30% Damage Avoidance Chance for 5s. Cooldown: 10s."
+},
+{
+"id": 5422033,
+"target": 8,
+"item_rarity": 0.15,
+"text": "Upon receiving DoT Damage for the first time, Rare monsters have Life Restoration per Second equal to +20% Max Life for 4s"
+},
+{
+"id": 5422035,
+"target": 8,
+"item_rarity": 0.15,
+"text": "-35% additional damage taken for all Non- Elite enemies within 8m of a Rare monster."
+},
+{
+"id": 5422036,
+"target": 8,
+"item_rarity": 0.15,
+"text": "-40% additional Curse Effect against monsters"
+},
+{
+"id": 5521001,
+"target": 8,
+"item_rarity": 0.15,
+"text": "+36% additional Attack, Cast, and Movement Speed for Magic and Rare monsters"
+},
+{
+"id": 5521002,
+"target": 8,
+"item_rarity": 0.15,
+"text": "+56% additional Attack, Cast, and Movement Speed for Magic and Rare monsters. Removes the effect upon dealing damage."
+},
+{
+"id": 5521003,
+"target": 8,
+"item_rarity": 0.15,
+"text": "Rare monsters gain +37% Attack, Cast, and Movement Speed for 3s every time on hit"
+},
+{
+"id": 5521004,
+"target": 8,
+"item_rarity": 0.15,
+"text": "When Rare monsters are beyond 8m from the target, cast Frigid Transmission once. Cooldown: 3s"
+},
+{
+"id": 5521005,
+"target": 8,
+"item_rarity": 0.15,
+"text": "+30% Skill Area for Magic and Rare monsters"
+},
+{
+"id": 5521009,
+"target": 8,
+"item_rarity": 0.15,
+"text": "Rare monsters' next attack cannot be evaded every after 2s"
+},
+{
+"id": 5521011,
+"target": 8,
+"item_rarity": 0.15,
+"text": "When Magic and Rare monsters hit a target, they will give the target Unlucky Evasion for 8s"
+},
+{
+"id": 5521017,
+"target": 8,
+"item_rarity": 0.15,
+"text": "+13% Elemental Resistance Penetration for Rare monsters"
+},
+{
+"id": 5521018,
+"target": 8,
+"item_rarity": 0.15,
+"text": "+25% Erosion Resistance Penetration for Rare monsters"
+},
+{
+"id": 5521019,
+"target": 8,
+"item_rarity": 0.15,
+"text": "When Rare monsters hit a target, they reduce the target's Armor by -60 for 4s"
+},
+{
+"id": 5521021,
+"target": 8,
+"item_rarity": 0.15,
+"text": "Upon receiving damage, Rare monsters have a 50% chance to gain +50% Attack, Cast, and Movement Speed. Interval: 0.2s."
+},
+{
+"id": 5521022,
+"target": 8,
+"item_rarity": 0.15,
+"text": "Rare monsters deal +23% additional damage to Life for 4s when they take Attack Damage"
+},
+{
+"id": 5521023,
+"target": 8,
+"item_rarity": 0.15,
+"text": "Rare monsters deal +23% additional damage to Energy Shield for 4s when they take Spell Damage"
+},
+{
+"id": 5521026,
+"target": 8,
+"item_rarity": 0.15,
+"text": "Rare monsters inflict 50 Affliction inflicted per second"
+},
+{
+"id": 5521027,
+"target": 8,
+"item_rarity": 0.15,
+"text": "Magic monsters inflicts Lv. 15 Elemental Destruction and Corruption Curse on hit"
+},
+{
+"id": 5521028,
+"target": 8,
+"item_rarity": 0.15,
+"text": "Rare monsters inflict Lv. 15 Elemental Destruction and Corruption Curse to targets within 8m on hit"
+},
+{
+"id": 5521029,
+"target": 8,
+"item_rarity": 0.15,
+"text": "When Magic monsters deal damage to a target, they additionally increase the target's Energy Shield Charge Speed by -23% for 5s"
+},
+{
+"id": 5521030,
+"target": 8,
+"item_rarity": 0.15,
+"text": "When Magic monsters deal damage to a target, they additionally increase the target's Life Regeneration Speed by -35% for 6s"
+},
+{
+"id": 5521031,
+"target": 8,
+"item_rarity": 0.15,
+"text": "When Rare monsters hit a target, they additionally increase the target's Energy Shield Charge Speed by -46% for 4s"
+},
+{
+"id": 5521032,
+"target": 8,
+"item_rarity": 0.15,
+"text": "When Rare monsters hit a target, they additionally increase the target's Life Regain by -7% for 5s, up to 5 stacks"
+},
+{
+"id": 5521033,
+"target": 8,
+"item_rarity": 0.15,
+"text": "When Magic and Rare monsters deal damage to a target, they additionally increase the target's Energy Shield and Life Regain by -13.8% for 5s, up to 5 stacks."
+},
+{
+"id": 5521034,
+"target": 8,
+"item_rarity": 0.15,
+"text": "When Magic and Rare monsters deal damage to a target, they additionally increase the target's Energy Shield and Life Regain Interval by +10% for 4s"
+},
+{
+"id": 5521035,
+"target": 8,
+"item_rarity": 0.15,
+"text": "Rare monsters will be forced to Blink near you when they are within 8m of you; +50% chance for Magic and Rare monsters to inflict Blind and Paralysis for 4s on hit"
+},
+{
+"id": 5521036,
+"target": 8,
+"item_rarity": 0.15,
+"text": "Rare monsters inflict a stack of Slow effect on targets within 8m of them for 3s every 2s. Stacks up to 3 times."
+},
+{
+"id": 5521037,
+"target": 8,
+"item_rarity": 0.15,
+"text": "When Rare monsters hit a target, they reduce the target's Fervor Rating by 50"
+},
+{
+"id": 5521039,
+"target": 8,
+"item_rarity": 0.15,
+"text": "Magic and Rare monsters reduce the target's Focus Blessing, Agility Blessing, and Tenacity Blessing by 6 stack(s) on hit."
+},
+{
+"id": 5521040,
+"target": 8,
+"item_rarity": 0.15,
+"text": "Rare monsters reduce the target's Focus Blessing, Agility Blessing, and Tenacity Blessing by 3 stack(s) for 5s on hit"
+},
+{
+"id": 5521041,
+"target": 8,
+"item_rarity": 0.15,
+"text": "Magic and Rare monsters capture 5 stack(s) of Focus Blessing, Agility Blessing, and Tenacity Blessing from the target on hit."
+},
+{
+"id": 5521042,
+"target": 8,
+"item_rarity": 0.15,
+"text": "Magic monsters Reap 4s of DoT Damage when they hit a target. The effect has a 1s cooldown against the same target."
+},
+{
+"id": 5634001,
+"target": 8,
+"item_rarity": 0.25,
+"text": "Rare monsters will be forced to Blink near you when they are within 8m of you; +50% chance for Magic and Rare monsters to inflict Blind and Paralysis for 4s on hit"
+},
+{
+"id": 5634002,
+"target": 8,
+"item_rarity": 0.25,
+"text": "Rare monsters have a 50% chance to gain a 5-meter radius protective dome (Enemies outside the dome cannot deal Damage to those inside)"
+},
+{
+"id": 5634003,
+"target": 8,
+"item_rarity": 0.25,
+"text": "Magic monsters Reap 4s of DoT Damage when they hit a target. The effect has a 1s cooldown against the same target."
+},
+{
+"id": 5634004,
+"target": 8,
+"item_rarity": 0.25,
+"text": "Rare monsters inflict a stack of Slow effect on targets within 8m of them for 3s every 2s. Stacks up to 3 times."
+},
+{
+"id": 5634005,
+"target": 8,
+"item_rarity": 0.25,
+"text": "Rare monsters take -90% additional damage from attacks dealt from more than 6m away"
+},
+{
+"id": 5634006,
+"target": 8,
+"item_rarity": 0.25,
+"text": "Upon receiving damage, Rare monsters have a 50% chance to gain +77% Attack, Cast, and Movement Speed. Interval: 0.2s."
+},
+{
+"id": 5690003,
+"target": 8,
+"item_rarity": 0.25,
+"text": "Rare monsters take -30% additional damage to Energy Shield for 5s when they take damage"
+},
+{
+"id": 5690004,
+"target": 8,
+"item_rarity": 0.25,
+"text": "Rare monsters take -30% additional damage to Energy Shield for 5s when they take damage"
+},
+{
+"id": 5690005,
+"target": 8,
+"item_rarity": 0.25,
+"text": "Upon entering the Low Life status for the first time, Rare monsters restore 35% Max Life within 2s"
+},
+{
+"id": 5690006,
+"target": 8,
+"item_rarity": 0.25,
+"text": "Upon entering the Low Life status for the first time, Rare monsters restore 35% Max Life within 2s"
+},
+{
+"id": 5690007,
+"target": 8,
+"item_rarity": 0.25,
+"text": "+1000% additional Projectile Range for Magic and Rare monsters"
+},
+{
+"id": 5690008,
+"target": 8,
+"item_rarity": 0.25,
+"text": "Magic and Rare monsters can fire +3 additional Projectiles"
+},
+{
+"id": 5690009,
+"target": 8,
+"item_rarity": 0.25,
+"text": "+5 Jumps for Projectiles fired by Magic and Rare monsters"
+},
+{
+"id": 5690010,
+"target": 8,
+"item_rarity": 0.25,
+"text": "When Rare monsters hit a target, they reduce the target's Armor by -10000 for 4s"
+},
+{
+"id": 5690011,
+"target": 8,
+"item_rarity": 0.25,
+"text": "Rare monsters deal +23% additional damage to Energy Shield for 4s when they take Spell Damage"
+},
+{
+"id": 5690012,
+"target": 8,
+"item_rarity": 0.25,
+"text": "Rare monsters deal +23% additional damage to Energy Shield for 4s when they take Spell Damage"
+},
+{
+"id": 5690014,
+"target": 8,
+"item_rarity": 0.25,
+"text": "Rare monsters make the target take +58% additional damage for 4s. Stacks up to 3 times."
+},
+{
+"id": 5633001,
+"target": 13,
+"item_rarity": 0.25,
+"text": "The stage has 1 more Rare monsters with Cold Blessing"
+},
+{
+"id": 5633002,
+"target": 13,
+"item_rarity": 0.25,
+"text": "The stage has 1 more Rare monsters with Fire Blessing"
+},
+{
+"id": 5633003,
+"target": 13,
+"item_rarity": 0.25,
+"text": "The stage has 1 more Rare monsters with Lightning Blessing"
+},
+{
+"id": 5633004,
+"target": 13,
+"item_rarity": 0.25,
+"text": "The stage has 1 more Rare monsters with Erosion Blessing"
+},
+{
+"id": 5633005,
+"target": 13,
+"item_rarity": 0.25,
+"text": "The stage has 1 more Rare monsters with Physical Blessing"
+},
+{
+"id": 5633006,
+"target": 13,
+"item_rarity": 0.25,
+"text": "The stage has 1 more Queen's Disciples"
+},
+{
+"id": 5633007,
+"target": 13,
+"item_rarity": 0.25,
+"text": "The stage has 1 more Disciples of Order"
+},
+{
+"id": 5633008,
+"target": 13,
+"item_rarity": 0.25,
+"text": "The stage has 1 more Dark Surge Disciples"
+},
+{
+"id": 5633009,
+"target": 13,
+"item_rarity": 0.25,
+"text": "The stage has 1 more Void Sea Disciples"
+},
+{
+"id": 5633010,
+"target": 13,
+"item_rarity": 0.25,
+"text": "The stage has 1 more sets of Cooldown Speed-up Test Subject II"
+},
+{
+"id": 5633011,
+"target": 13,
+"item_rarity": 0.25,
+"text": "The stage has 1 more sets of huge Mountain Toxic Flowers"
+},
+{
+"id": 5633012,
+"target": 13,
+"item_rarity": 0.25,
+"text": "The stage has 1 more sets of Attack Speed-up Aember Shooters"
+},
+{
+"id": 5634007,
+"target": 13,
+"item_rarity": 0.25,
+"text": "The stage has 1 more sets of Cooldown Speed-up Test Subject II"
+},
+{
+"id": 5634008,
+"target": 13,
+"item_rarity": 0.25,
+"text": "The stage has 1 more sets of huge Mountain Toxic Flowers"
+},
+{
+"id": 5634009,
+"target": 13,
+"item_rarity": 0.25,
+"text": "The stage has 1 more sets of Attack Speed-up Aember Shooters"
+}
+]
+}

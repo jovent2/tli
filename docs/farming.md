@@ -74,6 +74,15 @@ so to decode a strategy's allocation fully we need the Chinese node texts (tlidb
   the etor key = md5("\n".join(Chinese lines)) — decodes the Void Chart allocation of any logged strategy.
 - `data/ext/etor_strategies_s14/details/`: strategy details (loot / cost tallies, Void Chart keys) for the Profound runs.
 
+- **Map base affixes** (torchcodex `mapAffix.html`, raw curl -> `data/ext/map_affixes_torchcodex.json`; tlidb has no pool): 175 affixes
+  in three timemark pools (target 2 / 8 / 13); the Timemark-8 pool is 94 lines (77 at "ItemRarity" 0.15, 17 at 0.25 — the column is
+  either the roll weight or the per-affix drop bonus, torchcodex doesn't say). The rare-monster **protective dome** ("proximity shield")
+  is a MAP affix, two variants: "Upon receiving Projectile Damage, Rare monsters gain a protective dome with a radius of 5m (enemies
+  outside cannot deal damage to targets in the dome)" and "Rare monsters have a 50% chance to gain a 5-meter radius protective dome".
+  Nothing on tlidb/torchcodex ignores it. 31 resonance = 5 rolled affixes (1/3/7/15/31 = one more affix per doubling) -> a dome line
+  on ~11% of maps; it is all-or-nothing per map, visible in the base-affix list before entering, and tlidb: "You may reset affixes on a
+  map to avoid dangerous harmful affixes" (re-rolling costs the 31 resonance again = 3.4 FE; ~0.4 FE/map on average).
+  Same pool, same counter: "-90% / -40% additional damage from attacks dealt from more than 6m away" (anti-ranged).
 - **Replication stacking** [Vlad 2026-10-29, seen in game]: every "X% chance to be replicated once" source (compasses, probe, pets'
   once-lines, Creation's Fluorescent crystal 30%) adds into ONE chance capped at 100% (so at most x2); Kong's "replicated 1 time
   (20%) / 2 times (13%)" is rolled afterwards on each memory (x1.46). 4 and 6 memories from one drop are seen, never more.

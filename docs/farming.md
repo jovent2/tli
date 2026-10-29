@@ -121,3 +121,11 @@ so to decode a strategy's allocation fully we need the Chinese node texts (tlidb
   compass adds on top of the first.
 
 ## Result -> ss14/thea/farming_plan.md (2026-10-29). Questions: ss14/thea/farming_questions.md
+
+## In-game notes from Vlad's runs (2026-10-30)
+- Afterlight: Grief's "Phantom Flames" trail on the ground does nothing to him; **White Night Mode spawns Weeping Osil, which hits
+  very hard (no number on the node)**. Phantom Afterlight: the phantoms must be escorted to the front of the procession for the next
+  one to spawn — done right it is 3 chests per Vigil.
+- Outlaw: there is no vehicle "cache"; all Carjack mods drop from the Security personnel mobs. First 20 maps with the Warlock /
+  Vanguard nodes: 1 Warlock, 0 Vanguard, 4 Tank, 3 Sniper (CN mix would be ~70% Warlock+Vanguard) — open question.
+- Machines (Cruising): the echelon nodes are the drone source; CN's logged trees are his tree.

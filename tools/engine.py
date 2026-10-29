@@ -298,6 +298,7 @@ def dps(build, trees, verbose=False):
     if has("Target Projection"):
         tp = skill_value("Target_Projection", sh["level_support_proj"], r"([\d.]+)% additional damage to Marked")
         m["Target Projection vs Marked"] = 1 + tp / 100
+        m["Mark: +10% additional crit damage taken [tested 2026-10-25: TP = x1.277 total]"] = 1.095
         m["Enhanced Mark (proj taken) [measured: not applying]"] = 1.0
     if has("Projectile Penetration"):         # [tlidb] +2..4 Horizontal Projectile Penetrations, +X% additional (15% at lv20)
         m["Projectile Penetration"] = 1 + skill_value("Projectile_Penetration", sh["level_support_proj"], r"([\d.]+)% additional damage for the supported skill") / 100

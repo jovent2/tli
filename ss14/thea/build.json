@@ -21,8 +21,8 @@
   "mass_effect_charges": 3,
   "periodic_burst": 20,
   "_mass_effect_note": "2026-10-27 13:07 sheet test (10 Focus, 4 Agility): no SOU 207, SOU bare 231 (+24), WFB 1/2/3 casts 234/237/240 (+12.5%/stack), ME only 247 (+66.7% = full, 3 charges), both 256 (x2.04). Mass Effect is full. Periodic Burst (follower Tartarus version) = +20.",
-  "dummy_scale": 0.917,
-  "_dummy_scale_note": "0.917: refit 2026-10-29 19:13 on the 7.4 T pull (no belt / ring L / SA / PP, WA -> Swiftness) after Vlad's support changes (Lightchaser -10 r5, CC +29 r5, 'and other shit'); the unnamed changes are inside this constant.",
+  "dummy_scale": 0.837,
+  "_dummy_scale_note": "0.837 (= 0.917 / 1.095 after Target Projection got its measured Mark factor back, 2026-10-29 20:45). 0.917: refit 2026-10-29 19:13 on the 7.4 T pull (no belt / ring L / SA / PP, WA -> Swiftness) after Vlad's support changes (Lightchaser -10 r5, CC +29 r5, 'and other shit'); the unnamed changes are inside this constant.",
   "blizzard_stacks": 1,
   "_blizzard_note": "2026-10-28 11:31 Vlad: Blizzard off pull 5.2 -> 3.0 = x1.733 = 1 stack (model x1.707). The 2-stack read was wrong."
  },

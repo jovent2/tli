@@ -33,7 +33,7 @@
      "Chromatic Shot: Condensed Cold (Noble) T1 +20%"
     ],
     "context": {
-     "dummy_scale": 0.767
+     "dummy_scale": 0.700
     }
    },
    "note": "Era constant 0.767 with Spell Tangle in slot 1 (as recorded). With the medium (T1 11%) instead it would be 0.895 = today's 0.851 within 5%."
@@ -73,7 +73,7 @@
      "Chromatic Shot: Condensed Cold (Noble) T1 +20%"
     ],
     "context": {
-     "dummy_scale": 0.767
+     "dummy_scale": 0.700
     }
    },
    "note": "Era constant 0.767 with Spell Tangle in slot 1 (as recorded). With the medium (T1 11%) instead it would be 0.895 = today's 0.851 within 5%."
@@ -623,7 +623,7 @@
      "Target Projection"
     ],
     "context": {
-     "dummy_scale": 0.851
+     "dummy_scale": 0.777
     },
     "replace_skill": [
      [
@@ -657,7 +657,7 @@
      "Target Projection"
     ],
     "context": {
-     "dummy_scale": 0.851
+     "dummy_scale": 0.777
     },
     "replace_skill": [
      [
@@ -697,7 +697,7 @@
      "Target Projection"
     ],
     "context": {
-     "dummy_scale": 0.851
+     "dummy_scale": 0.777
     },
     "replace_skill": [
      [
@@ -737,7 +737,7 @@
      "Target Projection"
     ],
     "context": {
-     "dummy_scale": 0.851
+     "dummy_scale": 0.777
     },
     "replace_skill": [
      [
@@ -777,7 +777,7 @@
      "Target Projection"
     ],
     "context": {
-     "dummy_scale": 0.851
+     "dummy_scale": 0.777
     },
     "replace_skill": [
      [
@@ -818,7 +818,7 @@
      "Target Projection"
     ],
     "context": {
-     "dummy_scale": 0.851
+     "dummy_scale": 0.777
     },
     "replace_skill": [
      [

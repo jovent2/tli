@@ -350,8 +350,9 @@ ES nodes free, EHP = ES vs elemental hits (res x0.40, block 55% x0.45, Low Mana 
 ## 2026-10-29 21:00 — Projectile Penetration support (proximity-shield mobs in Machines)
 No ignore for monster shield bubbles exists (scanned every tlidb page: legendaries, prisms, kismets, talents, slates, memories,
 pacts, supports, traits). Cheap mitigation: **Projectile Penetration** support (free, lv20) on Chromatic Shot in place of Target
-Projection: at support level 29 it is +4 Horizontal Projectile Penetrations and +19.5% additional vs TP's 16.6% vs Marked
-(Enhanced Mark measured not applying) -> 81.7 -> 83.7 T (x1.025) and the projectile survives the shielded mob. Overload stays
+Projection: at support level 29 it is +4 Horizontal Projectile Penetrations and +19.5% additional. CORRECTION 20:45: TP is x1.277
+measured (x1.47 on paper), so the swap is x0.936 (-6%; -19% by the text), not +2.5% - clear kit only, and only if the test shows
+penetrating projectiles keep their damage after crossing a shield. Overload stays
 (swapping it instead is x0.868). "Always Penetrate" exists only skill-specifically (Burning Shot Noble, Frost Spike Origin,
 Clockwork Core/Stasis Vault); other +2 sources are Marksman's Legendary Medium, Sweeping Fury prism/slate, Bow/Crossbow/Musket affix.
 Untested: whether a projectile that crossed a shield keeps 1 damage after penetrating.

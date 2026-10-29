@@ -56,7 +56,10 @@ ADD_RULES = {
     "Afterlight": [(r"\+(\d+)% additional Drop Quantity (?:for|in) the Vigil", "add"), (r"\+(\d+)% additional Drop Quantity in Vigil gameplay for each stack of Fright", "add3")],
     "Overrealm": [(r"\+([\d.]+)% additional Drop Quantity in the Overrealm", "add")],
     "Lunaria": [(r"\+(\d+)% additional Drop Quantity for Lunaria gameplay", "add"), (r"\+(\d+)% additional Drop Quantity when Combo reaches 11", "add"), (r"\+(\d+)% additional Drop Quantity for Lunari monsters", "add")],
-    "Outlaw": [(r"\+(\d+)% additional Drop Quantity for all Security personnel(?! after)", "add"), (r"\+(\d+)% additional Drop Quantity for all Security personnel after activating", "add"), (r"\+(\d+)% additional Drop Quantity for the Outlaw gameplay", "add"), (r"-(\d+)% additional Drop Quantity for all Security personnel", "sub")],
+    "Outlaw": [(r"\+(\d+)% additional Drop Quantity for all Security personnel(?! after)", "add"), (r"\+(\d+)% additional Drop Quantity for all Security personnel after activating", "add"), (r"\+(\d+)% additional Drop Quantity for the Outlaw gameplay", "add"), (r"-(\d+)% additional Drop Quantity for all Security personnel", "sub"),
+               # mod-mix nodes, valued from the CN Outlaw groups (2026-10-29): Expansion share x1.5 [prior, every CN farmer has it], Warlock node
+               # Warlock 0.137 -> 0.25/map (+38% mod value), Vanguard node +21% on top
+               (r"Mods dropped from Carjacks are more likely to be Expansion Mods$", "mul1.5"), (r"more likely to be Expansion Mod - Warlock", "mul1.38"), (r"more likely to be Expansion Mod - Vanguard", "mul1.21")],
     "Machines": [(r"\+(\d+)% additional Drop Quantity during Trial: God of Machines", "add"), (r"\+(\d+)% additional Drop Quantity at the start of each round", "add"), (r"\+(\d+)% additional Drop Quantity for Drones", "add"), (r"-(\d+)% additional Drop Quantity during Trial: God of Machines", "sub"),
                  (r"\+(\d+)% chance to have 1 additional attack round", "inst_pct3"), (r"number of attacking monsters during Trial: God of Machines \+([\d.]+)%", "inst_pct"), (r"2 echelon\(s\) of Drones will show up", "inst2"), (r"2 additional echelons of Drones", "inst2"), (r"several additional echelons of Drones", "inst_dull")],
     "Hunting": [(r"\+(\d+)% additional Drop Quantity for Safari bosses' Hunting Rewards", "add"), (r"\+(\d+)% additional Drop Quantity for Stage Final Boss's Hunting Rewards(?! for every)", "addfb"),
@@ -226,6 +229,7 @@ class Setup:
             for rx, kind in ADD_RULES.get(M, []):
                 for mm in re.finditer(rx, txt):
                     x = float(mm.group(1)) if mm.groups() else 0.0
+                    if kind.startswith("mul"): add *= float(kind[3:]) ** cnt; continue
                     if kind == "add": add *= (1 + x / 100) ** cnt
                     elif kind == "add3": add *= (1 + 3 * x / 100) ** cnt
                     elif kind == "add8": add *= 1.08 ** cnt

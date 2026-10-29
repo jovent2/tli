@@ -45,6 +45,13 @@ Variance: a third of the value is a 3,789 FE blueprint every ~80 maps and a 9,78
 Why it beats compasses: Outlaw/Dark Surge/Vigil cost 0.3-29 FE per map and add 10-15 s each; compass farms cost 70-100 FE per map
 in astrolabes and probes and compass prices keep sliding.
 
+### 22:50 — Outlaw mod-mix nodes (missed, now in)
+The model had no rule for "Mods dropped from Carjacks are more likely to be Expansion Mods / - Warlock / - Vanguard", so the
+optimizer gave them 0. CN Outlaw loot by group: with the Warlock node Warlock 0.25/map vs 0.137 without (+38% mod value), Vanguard
+node +21% on top; every serious CN Outlaw farmer has the Expansion node (valued x1.5 as a prior). Outlaw tree now 18 = micros ->
++6% -> Rare reinforcements -> Oppressive, and the side spoke to Expansion Mods -> Warlock, Vanguard (Imperious out). Stack 179 FE/min,
+211 net/map. Drawings in ss14/thea/trees/with_lunaria/.
+
 ### 4th slot and pets (22:00)
 4th slot on Alert + Bandit + Phantom: Lunaria (0.3) +18 FE/map for ~7 s = flat per minute (172 either way; its value is FE/dust
 plus the Omni-Elixir Notes lottery, 9,788 FE per ~1,100 maps); Strength in Numbers (1) 165/min; Sinful (13.5) 165, Sinful (A) (40)

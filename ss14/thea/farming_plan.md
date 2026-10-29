@@ -77,3 +77,6 @@ gross 243, cost 81, **net 162 FE/map** (97 without the Gaze lottery).
 - Vlad's tree: Machine 43 + Creation 24 (100% Creation Engines, Fluorescent crystals: "30% chance to duplicate fluorescent memories",
   Gold crystal = guaranteed exclusive memory) + Profound 30% / 12%. Creation is unpriced: only 2 CN strategies used the constellation;
   the Machines+Creation one took 4 Gaze in 89 maps (7x the usual rate). Need the crystal buff text/scope, crystals per map, time.
+- 19:30 (Vlad): replication = one summed once-chance capped at 100%, Kong x1.46 after. Machines re-run: 4th slot Transgression +69
+  net (needs the time test; -60% damage dealt), Strength in Numbers +30, Colorful / Fluorescent Compass +6. Probe: Fluorescent +0
+  (and -40% damage taken) -> cut; Flourishing +4. Creation's 30% is worth +19, Colorful (Artifact) +25, Focus +18 in this stack.

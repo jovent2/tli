@@ -74,6 +74,12 @@ so to decode a strategy's allocation fully we need the Chinese node texts (tlidb
   the etor key = md5("\n".join(Chinese lines)) — decodes the Void Chart allocation of any logged strategy.
 - `data/ext/etor_strategies_s14/details/`: strategy details (loot / cost tallies, Void Chart keys) for the Profound runs.
 
+- **Replication stacking** [Vlad 2026-10-29, seen in game]: every "X% chance to be replicated once" source (compasses, probe, pets'
+  once-lines, Creation's Fluorescent crystal 30%) adds into ONE chance capped at 100% (so at most x2); Kong's "replicated 1 time
+  (20%) / 2 times (13%)" is rolled afterwards on each memory (x1.46). 4 and 6 memories from one drop are seen, never more.
+  Consequence: once the once-chance is at 100% (Creation 30 + Colorful (Artifact) 50 + Sky's Dome 10 = 90, +anything), more
+  "replicate once" sources do nothing; the Fluorescent Profound Probe is worth ~0 there.
+
 ## Tools (tools/farm/)
 - `runs.py` loads the leaderboard entries + details, values loot at the latest price file (12.5% tax, FE untaxed), decodes trees.
 - `features.py` per-strategy quantity multiplier Q (resonance curve, plunder compasses, probe, Profound/Commodities micros, x2 card),

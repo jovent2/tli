@@ -27,8 +27,11 @@ def value(o):
     gen_add_cn = 1.9 * 1.2 * 2 * 1.25 * 1.4 * 1.164
     fl_add = (1.24 if o.get("pets", True) else 1) * (1.24 if o.get("pets", True) else 1)          # Kong + Dome, common only
     fl_add_cn = 1.24 * 1.24
-    rep = (1.46 * 1.1 if o.get("pets", True) else 1) * (1.5 if o.get("colorful_art") else 1) * (1.2 if o.get("colorful") else 1) * (1.1 if o.get("fluor_compass") else 1) * (1.2 if o.get("fluor_probe", True) else 1)
-    rep_cn = 1.46 * 1.1 * 1.35 * 1.2       # CN: half Focus half Colorful(Artifact) -> ~x1.35 average replication-equivalent
+    # Replication [Vlad 2026-10-29]: every "X% chance to be replicated once" source adds into ONE chance capped at 100% (max x2);
+    # Kong's "replicated 1 time (20%) / 2 times (13%)" rolls AFTER that on each memory (x1.46). Seen in game: 4 and 6 drops, never more.
+    once = (0.1 if o.get("pets", True) else 0) + (0.5 if o.get("colorful_art") else 0) + (0.2 if o.get("colorful") else 0) + (0.1 if o.get("fluor_compass") else 0) + (0.2 if o.get("fluor_probe", True) else 0) + o.get("creation_rep", 0.0)
+    rep = (1 + min(1.0, once)) * (1.46 if o.get("pets", True) else 1)
+    rep_cn = (1 + min(1.0, 0.1 + 0.25 + 0.2)) * 1.46     # CN: Dome 10 + half Colorful(Artifact) + Fluorescent probe 20
     excl_focus = (1.5 if o.get("focus") else 1); excl_focus_cn = 1.25
     drones = o.get("drones", 1.0)          # tree: extra rounds / attackers vs the CN tree
     common = (CN["secret"] + CN["tomdir"] + CN["other_common"] + (CN["gaze"] if o.get("gaze", True) else 0)) * drones * ((1 + pool / 100) / (1 + pool_cn / 100)) * (gen_add / gen_add_cn) * (fl_add / fl_add_cn) * (rep / rep_cn)

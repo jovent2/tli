@@ -194,8 +194,8 @@ rule(r"# Max Life", "life.flat")
 rule(r"# ?% Max Life", "life.pct")
 
 # --- more specific / conditional lines worth knowing about
-rule(r"# ?% additional Cold Damage and # ?% Cold Penetration when you have at least # stack\(s\) of Focus Blessing",
-     "add.cold", "focus>=N")
+# "+8% additional Cold Damage and +15% Cold Penetration when you have at least 8 stack(s) of Focus Blessing" (Vorax ultimate prefix):
+# no special rule — the "X and Y when ..." splitter yields add.cold AND pen.res (the pen was being dropped until 2026-10-30)
 rule(r"You can cast # additional Curses", "curse.extra")
 rule(r"# ?% chance to gain # stacks? of Focus Blessing on (?:defeat|hit)", "focus.gain")
 rule(r"# ?% Max Cold Resistance", "res.max_cold")

@@ -41,23 +41,21 @@ All multipliers on the sheet in `stats.json` unless dated. FE per 1% = expected 
 ## Hero memories
 - Shape is right (3 crit dmg, 1 crit rating, 2 proj speed). Real gains: T1 → T0 on the four T1 lines (×1.12 total); the three purple minion lines are dead slots — memories with a player line there (crit dmg 38–42, proj speed 30, crit 80, damage 44–52) would be up to ×1.25.
 
-## Vorax chest with a Core Organ (2026-10-30 17:40) — engine numbers, belt ON (the fight config; proj speed only pays through Gale)
-Baseline 81.7 T with belt (30.8 T off). Organ rules (Graft help): 2 Advanced + 2 Ultimate + 2 Legendary affixes per Vorax piece, legendary lines from ONE
-organ; organ affixes don't work while the matching legendary is worn. Organ: Double Rainbow = Exquisite Suture 424 + organ (~100); Cage 3,160 on the market.
-- The Cage chest is worth x1.689 (Cage stacks) AND x1.77 (Extreme Coldness: +50 max frostbite -> rating 116 vs 66, Frozen, Dirty Tricks ailment).
-  Losing Extreme Coldness is x0.566; Frozen Lotus (+25%) instead of it is x0.71 - never. Keep it: Blending Ritual "[Extreme Coldness] +50 Max Frostbite /
-  cold only" is a Core-Talent belt affix (goes on his Gale belt, no slate cell), or a Prophet non-legendary slate line. Max Active Divinity 1 either way.
-- Vorax chest, Extreme Coldness kept, vs the Cage: Rainbow 19% x1.19 (needs 2 of 3 elemental res identical) · +20% Aura Effect x1.245 · +45% Projectile
-  Speed x1.113 belt-on (x1.00 belt-off; +60 INT is x1.077 — proj speed wins with the belt) · +100 INT (his "20% block ratio" accounting, kismets/ring
-  back to INT) x1.128 · basic suffix +120% crit rating x1.115 (basic prefix +400 ES: 0 DPS, replaces the Cage's 508 gear ES) · ultimate prefix:
-  +2 Active Skill Level x1.166 (engine caps the table at 40; 1.08^2) > "+8% additional Cold +15% Cold Pen at 8 Focus" x1.08 on the dummy (pen is already
-  past the dummy's 30%; ~x1.14 on a 30%-res boss) > +20% Sealed Mana Comp (no DPS of its own; = the 7 Lich comp points freed) · adv suffix: +10% ele res
-  (defense, and what makes Rainbow's condition true) vs +18% INT x1.107 vs +60% crit dmg x1.114.
-  Package (Rainbow, aura, proj, 100 INT, +2 skill, crit rating): x1.43 over the Cage with the belt (x1.29 off); with the cold/pen line instead x1.33.
-- Better organ: his own Iced Drinker's Cage has one (Organ: Iced Drinker's Cage, Graft: Gloves/Chest). If the graft offers "Gains Cage stacks" (+ Extreme
-  Coldness or +2 Main Skill Level as the 2nd line), the Vorax keeps x1.69 instead of x1.19 -> x1.42 over the Rainbow version, and no belt ritual needed if
-  Extreme Coldness is the 2nd line. Open: are the 2 offered options chosen or rolled? Decides Cage-organ vs Rainbow.
-- Engine fix: Cage multiplier was hardcoded 1.14^4; now from the chest's buff.cage effect (0 without the chest). Tests unchanged.
+## Vorax chest with a Core Organ (2026-10-30 17:50, corrected after Vlad) — belt ON (proj speed pays through Gale)
+Vlad's rules that I had wrong: a belt Blending Ritual replaces Gale (no); Extreme Coldness on GEAR does not block the Frozen Lotus core — Max Active
+Divinity 1 is about slate/core divinities — so the real comparison is Cage chest + Frozen Lotus core (after the Spell Ripple -> aura-effect/CC-immune prism
+swap) vs Vorax chest + Extreme Coldness in the Prophet core (Frozen Lotus x1.25 lost); penetration takes res below 0 (parser was dropping the pen half of
+the "+8% cold +15% pen at 8 Focus" line — fixed in stats.py); Double Rainbow with all three elemental res identical = 3 pairs = 1.19^3 = x1.685 [Vlad];
+one pair = x1.19 (if the game counts floor(3/2), the package is x1.15 instead of x1.63 — check on the dummy).
+Engine, vs the Cage chest (Cage x1.69; Extreme Coldness kept via the core), then /1.25 for Frozen Lotus:
+  Rainbow x1.685 · +20% Aura Effect x1.245 · +45% proj speed x1.113 (belt on) · +100 INT (block-ratio base, kismets/ring back to INT) x1.128 ·
+  T1 crit rating x1.115 · ultimate prefix: "+8% add cold +15% cold pen" x1.18 (res 5% -> -10%) > +2 Active Skill Level x1.166 > 20% sealed comp (7 Lich pts)
+  = x2.04 engine -> **x1.63 over the Cage** (x1.57 belt off); Vlad's own count 1.55. Adv suffix: 10% ele res is what makes Rainbow's condition true;
+  18% INT or 60% crit dmg would be x1.11 each if the res were already equal. 2nd Rainbow line (-7% taken per pair, x0.80 taken) if both legendary lines come.
+- Organ: Iced Drinker's Cage (his own chest) as the alternative: Cage stacks x1.69 = Rainbow's x1.685, but if Extreme Coldness can be its 2nd line the
+  Prophet core stays Frozen Lotus -> x1.25 over the Rainbow version and no res balancing; costs the 3,160 chest instead of a 260 Rainbow. Open: are the
+  organ's 2 affix options picked or rolled?
+- Engine fixes 2026-10-30: Cage multiplier follows the chest's buff.cage effect (was hardcoded); the cold+pen Focus line now yields add.cold and pen.res.
 
 ## Open questions for Vlad
 - Which boots res line Hasten replaced; current kismet layout.

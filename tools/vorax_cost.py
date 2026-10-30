@@ -1,26 +1,24 @@
 #!/usr/bin/env python3
-"""Expected FE cost of a Vorax chest with a Core Organ (Vlad's crafting rules, 2026-10-30).
+"""Expected FE cost of a Vorax chest with a Core Organ (Vlad's crafting rules, 2026-10-30 18:10).
 
-Rules [Vlad]: a Vorax piece has 3 prefix + 3 suffix slots, at most 2 Advanced + 2 Ultimate + 2 Legendary affixes. A craft of a type lands on a
-random slot of that side but never makes the item illegal (so with 2 U already, an Ultimate craft overwrites the U). A Core Organ offers
-2 of the legendary's affixes (1 if it has only 2) and the chosen one lands on a random slot of the 6; if it lands on an Advanced or Ultimate
-slot the item is scrap. One uncorroded legendary disenchants into one organ; one Exquisite Suture per graft.
-
-Two regimes:
-  filled   = Vlad's: craft B A U B A U first, then the organ -> lands on a B with 2/6 (1st) and 1/5 (2nd, can't hit the L); wrong = new chest.
-  basics   = fill all six slots with Rotten Organ (Fine) basics first (0.5 FE each) -> every slot is a B, the organ can only land on a B;
-             the Advanced/Ultimate affixes are crafted afterwards (junk specials to fix the slot layout, then the real ones on top).
+Rules [Vlad]: 3 prefix + 3 suffix slots; at most 2 Advanced + 2 Ultimate + 2 Legendary affixes per item. A craft of a type lands on a
+random slot of that side among the slots that keep the item legal — a Legendary affix CAN be overwritten by a normal craft, which is why
+the layout must be B A U | B A U before the organ: then an A craft can only land on the A and a U craft only on the U (anything else
+would be a 3rd A / 3rd U). A Core Organ offers 2 of the legendary's affixes (1 if it only has 2); the chosen line lands on a random one
+of the 6 slots (the 2nd organ can't hit the 1st L). Landing on a B = done. Landing on an A or U: the side is L B U or L B A; the item
+is not lost, the chest is reset to B A U B A U with junk organs and the next organ is tried (Vlad), OR, before resetting, a junk craft
+of the missing type on that side: 1/3 lands on the B (done), 1/3 overwrites the L (organ lost), 1/3 flips L B U <-> L B A (try again)
+-> the organ is saved half the time ("walk"). Wrong landings never cost the chest.
 Usage: python3 tools/vorax_cost.py
 """
 CHEST = 4000.0            # Vorax chest with the +20% Block Ratio base [Vlad]
 SUTURE = 424.0            # Exquisite Suture, etor 2026-10-30
-RAINBOW = 400.0           # uncorroded Double Rainbow [Vlad]; list 260 for a corroded one
-CAGE = 3000.0             # uncorroded Iced Drinker's Cage [Vlad]; list 3,160
-JUNK = 2 * 0.54 + 2 * 1.57 + 2 * 13.0   # Rotten Fine x2 (basics), Rotten Matchless x2 (advanced), 2 cheapest specials (ultimates)
-BASICS6 = 6 * 0.54
+RAINBOW = 400.0           # uncorroded Double Rainbow [Vlad] (list: 260 corroded)
+CAGE = 3000.0             # uncorroded Iced Drinker's Cage [Vlad] (list 3,160)
+JUNK = 2 * 0.54 + 2 * 1.57 + 2 * 13.0   # B A U B A U with Rotten Fine / Rotten Matchless / the cheapest specials: ~30 FE per reset
 
-MODS = {"aura 20% (Nerve: Entwined)": 575, "cold/pen at 8 Focus (Tongue: Apathetic)": 18, "+2 Active (Nerve: Compelling)": 202,
-        "sealed comp prefix (Nerve: Unsealed)": 370, "proj speed: 1 of 5 adv prefixes x Vital Matchless 62.5": 5 * 62.5,
+MODS = {"aura 20% (Flawless Nerve: Entwined)": 575, "cold/pen at 8 Focus (Flawless Tongue: Apathetic)": 18, "+2 Active (Nerve: Compelling)": 202,
+        "sealed comp prefix (Nerve: Unsealed)": 370, "proj speed: 1 of 5 adv prefixes x Vital Organ Matchless 62.5": 5 * 62.5,
         "10% ele res: 1 of 10 adv suffixes x 62.5": 10 * 62.5, "basic (ES 2/10 or crit 1/8) x Vital Fine 22": 6 * 22}
 
 
@@ -34,41 +32,31 @@ def p_offered(pool, wanted):
     return 1 - comb(pool - wanted, 2) / comb(pool, 2)
 
 
-def one_line(attempt, p_off, p_land, restart):
-    """Expected cost to place one legendary line. Each attempt costs `attempt`; with p_off the wanted line is offered (else nothing);
-    if offered it lands right with p_land, else the item is scrap and `restart` (chest + work so far) is paid again."""
-    p_ok = p_off * p_land
-    p_ruin = p_off * (1 - p_land)
-    # E = attempt + (1 - p_off) E + p_ruin (restart + E)
-    return (attempt + p_ruin * restart) / (1 - (1 - p_off) - p_ruin)
+def one_line(attempt, p_off, p_land, walk):
+    """Expected cost to place one legendary line; a miss costs the organ + a reset (JUNK), never the chest."""
+    p_ok = p_off * (p_land + (1 - p_land) * (0.5 if walk else 0.0))
+    return (attempt + p_off * (1 - p_land) * JUNK) / p_ok
 
 
-def rainbow(regime):
-    attempt = RAINBOW + SUTURE
-    prep = CHEST + (JUNK if regime == "filled" else BASICS6)
-    land = 2 / 6 if regime == "filled" else 1.0
-    e = one_line(attempt, p_offered(4, 1), land, prep)
-    return prep + e
+def rainbow(walk):
+    return CHEST + JUNK + one_line(RAINBOW + SUTURE, p_offered(4, 1), 2 / 6, walk)
 
 
-def cage(regime, lines=2):
+def cage(walk, lines=2):
     attempt = CAGE + SUTURE
-    prep = CHEST + (JUNK if regime == "filled" else BASICS6)
-    land1 = 2 / 6 if regime == "filled" else 1.0
-    e1 = one_line(attempt, p_offered(5, 2), land1, prep)           # either wanted line (Cage stacks / Extreme Coldness)
     if lines == 1:
-        e1 = one_line(attempt, p_offered(5, 1), land1, prep)       # Cage stacks only
-        return prep + e1
-    land2 = 1 / 5 if regime == "filled" else 1.0
-    e2 = one_line(attempt, p_offered(4, 1), land2, prep + e1)      # the other wanted line; scrap = redo everything
-    return prep + e1 + e2
+        return CHEST + JUNK + one_line(attempt, p_offered(5, 1), 2 / 6, walk)
+    e1 = one_line(attempt, p_offered(5, 2), 2 / 6, walk)       # either wanted line (Cage stacks / Extreme Coldness)
+    e2 = one_line(attempt, p_offered(4, 1), 1 / 5, walk)       # the other one; can't hit the first L, the first L is never lost
+    return CHEST + JUNK + e1 + e2
 
 
 if __name__ == "__main__":
     mods = sum(MODS.values()) - MODS["+2 Active (Nerve: Compelling)"] - MODS["sealed comp prefix (Nerve: Unsealed)"]   # one ult prefix: cold/pen
-    print(f"mods after the organ (aura, cold/pen, proj speed, 10% res, one basic): ~{mods:,.0f} FE  ({', '.join(f'{k} {v:.0f}' for k, v in MODS.items())})")
-    for regime in ("filled", "basics"):
-        print(f"\n== regime: {regime}")
-        print(f"  Rainbow (+19% line):                 {rainbow(regime):10,.0f} FE  (+ mods {mods:,.0f})")
-        print(f"  Cage, Cage-stacks line only:          {cage(regime, 1):10,.0f} FE")
-        print(f"  Cage, stacks + Extreme Coldness:      {cage(regime, 2):10,.0f} FE")
+    print(f"mods after the organ (aura, cold/pen, proj speed, 10% res, one basic): ~{mods:,.0f} FE")
+    for k, v in MODS.items(): print(f"   {k}: {v:.0f}")
+    for walk in (False, True):
+        print(f"\n== {'reset after a wrong landing (Vlad)' if not walk else 'junk craft on the L side first: saves the organ 1/2 of the time'}")
+        print(f"  Rainbow (+19% line):                 {rainbow(walk):9,.0f} FE  (+ mods {mods:,.0f})")
+        print(f"  Cage, Cage-stacks line only:          {cage(walk, 1):9,.0f} FE")
+        print(f"  Cage, stacks + Extreme Coldness:      {cage(walk, 2):9,.0f} FE")

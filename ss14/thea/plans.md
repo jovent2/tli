@@ -177,6 +177,31 @@ hit is 3.3 T — if 5 T hits already show on the dummy, the scale is off and the
   ult suffix would be x1.255 but exists only at T0/T0+ (weight 0, no T1) — not rollable unless Vlad has seen it on a rare.
 - scan.py rerun on the re-synced build (72.1 T): nothing new above the plan; it only swaps same-group lines, so new-item ults (ring L) never show there.
 
+## Vorax ring L and the 5 T hit cap (2026-10-30 23:40, `tools/ring_plan.py`)
+Vlad's ring (Vorax Limb: Digits, L A U | L A U): base "+1 to Max Focus Blessing Stacks"; L "Have Fervor" + L "+1% additional damage per (2-3) Fervor
+Rating" (Organ: Dawn Break — Graft: Boots/Ring/Belt, **5 Tenacious Sutures** per graft (34 FE each) + Dawn Break 73 FE); A block T0 16-20, U ARP T0 18-22
+(Flawless Spine: Impalement 149) | A crit dmg T0 61-78, U CDR T0 27-34 (Flawless Ears: Echoing 45); belt keeps Hasten, its dead 18% Double -> duration.
+Fervor Rating: +1 per hit on an Elite (= rares and bosses) while Fervor is active, max 100, no base decay -> +200% crit rating; Dawn Break +50% at 1 per 2.
+**The ring pushes the top hits to ~8.5 T (Cage world) / ~15 T (robe world) against the 5 T per-hit cap.** Per-hit multipliers stop paying past the cap;
+hits per second keep paying (Hasten, cast speed, SA, attached tangles, Spell Ripple — its Pulse is a separate hit, "True Damage equal to 150% of Hit
+Damage", with its own cap).
+Ring L options (neck 2nd ult +2 Active; current ring row with neck Fervor):
+  world                  current ring   Vlad (2 DB L)   Fervor base + 1 DB L + B res   Fervor base, no organ (B ES + B res)
+  Cage chest + Ripple    126.7 T        289.3 T x2.28   275.0 T x2.17                   201.8 T x1.59
+  robe + Phantasmagoria  152.5 T        222.3 T x1.46   222.3 T x1.46                   216.0 T x1.42
+-> **robe + Phantasmagoria swap with this ring: x0.77** (x1.20 with the current ring). The Cage (x1.69), the +63% aura and Frozen Lotus are per-hit;
+   Ripple is hits. Keeping Cage + Ripple keeps the ring's value; going robe + prism makes the Dawn Break organs worth x1.03 (then: Fervor base, no organ).
+Single choices (Cage world, Vlad's ring): CDR ult x1.055 over "+15% ele / +15% erosion res" (2nd Boon stack uptime 85% without it) · belt duration
+x1.054 over its 18% Double · Trauma fix (ring R base SA -> Immune to Trauma, neck T0 INT -> "Gains Spell Aggression ... / +(40-60)% Spell Aggression
+Effect") x0.992 (robe world x1.008) — free at the cap · neck 2nd ult +2 Active = aura (x1.005), x1.10 over nothing · wand T0 Double x1.03 ·
+**4th tangle attached x1.33** (robe world x1.23): Vorax Limb: Head with Malign Embrace organs (Graft: Helmet/Necklace; Malign 2,187 FE + 1 Exquisite
+Suture per graft: +2 Max Tangle, crit rating/+21% per tangle; drops "Nearby enemies are guaranteed to land Critical Strikes") + ult prefix "You can apply
+1 additional Tangle(s) to enemies".
+Other Trauma sources found: Chaotic Ending (ring; "Immune to Trauma while Fervor is active" is 1 of ~30 random blessing affixes — organ odds tiny),
+Dual Kismet: Butterfly in a Bottle x2 (3,199 each, 2 medium slots, -8% ele res; also Wilt + Ignite), Shadowdancer slate legendary medium (Max Active 1),
+memory fixed affix "Immune to Trauma Damage" (Origin/Discipline/Progress), Iron Nest neck, Dragon Scale Shoes.
+Check: the model's top hit today is 3.3 T (crit, quad, top roll, first projectile) — Vlad's biggest numbers tell how far off the per-hit scale is.
+
 ## Open questions for Vlad
 - Which boots res line Hasten replaced; current kismet layout.
 - Exact lines on each GoK slate and where Fallen Starlight sits now.

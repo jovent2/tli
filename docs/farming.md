@@ -129,3 +129,20 @@ so to decode a strategy's allocation fully we need the Chinese node texts (tlidb
 - Outlaw: there is no vehicle "cache"; all Carjack mods drop from the Security personnel mobs. First 20 maps with the Warlock /
   Vanguard nodes: 1 Warlock, 0 Vanguard, 4 Tank, 3 Sniper (CN mix would be ~70% Warlock+Vanguard) — open question.
 - Machines (Cruising): the echelon nodes are the drone source; CN's logged trees are his tree.
+
+
+## 2026-10-30 — the column model failed on the stack (lesson)
+`bottomup.py`/`plan2.py` predicted 202-219 net/map for Alert Outlaw + Bandit + Phantom + Lunaria; Vlad's 25 maps gave ~25 non-lottery and
+the only CN Alert+Bandit stack -21. Cause: per-compass NNLS columns share items (FE, resonance, embers), each column is evaluated at the top
+CN multiplier (x1.2 cap), and the top-multiplier CN strategies are already over-predicted in-sample (linear-in-multiplier fails at the top:
+drop quantity does not scale the fixed-count drops like mods/remnants). Run-weighted obs/pred over 629 strategies = 1.5, R^2 < 0 (the 0.78
+reported earlier was per-column with shared items double-counted). Rule from now on: **rank plans on raw CN strategies with the same compass
+set (`runs.py`, run-weighted net/map and s/map), and on Vlad's own game log (`gamelog.py`)**; use the column model only for marginal
+questions inside one mechanic (which tree node, which card), never for cross-mechanic FE/min.
+
+## Game log (`tools/farm/gamelog.py`)
+TLI writes `<drive>:\TapTap\PC Games\TorchlightInfinite\UE_game\TorchLight\Saved\Logs\UE_game.log` (+ `UE_game-backup-<date>.log`
+rotations); etor reads the same file. Per map: `ItemChange@ ProtoName=Spv3Open start/end` lists what the map cost (beacon 400007, compasses
+by item id, probe, resonance 5028) -> a stack map is identified by its cost signature; `_JoinFightSuccess()` followed by `+maptype [Mystic]`
+= entered the map, followed by `+checkType [MainCity]` = back in town (map end); `FightResult@ Open FightFailureView` = a death (he revives
+and continues); `PickItems` blocks = loot, by stack guid deltas. Keep the raw log out of the repo (account ids).

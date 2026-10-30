@@ -1,5 +1,37 @@
 # Profound farming plan (2026-10-29 23:00, bottom-up model; prices of 2026-10-29)
 
+## CORRECTION 2026-10-30 10:30 — the stack numbers below are wrong; read this first
+Reality check against Vlad's own maps (game log, `tools/farm/gamelog.py`) and the raw CN strategies:
+- Vlad, 25 stack maps (22 on etor 10-29 night + 3 in today's log): ~25 net/map **non-lottery** at 1:45-2:05 per map (today: 129 s/145 s/105 s,
+  3 deaths; FE 23.7/map, edicts ~2/map, 0 Expansion mods in 3 maps, 3 God of Might remnants in one map). The 712 FE of Mercury Purged
+  (3 in 22 maps) is a 0.004/map CN lottery (4 drops in 1,036 Lunaria maps) = 1 FE/map EV, not income.
+- CN strategies that run Alert Outlaw (66 of them, incl. the Bountiful/Generous Elite + Sinful (A) stackers): gross 41-108, **net -178 to +31**
+  at today's prices (Alert 29 FE, Warlock 28). Warlock 0.19-0.49/map, Vanguard 0.15-0.49. Alert Outlaw is a loss at today's mod prices for
+  everyone; the only CN Alert+Bandit stack (61 runs, 102 s): gross 68, cost 90, net -21. Phantom + Lunaria (156 runs, 91 s, cost 20):
+  gross 79 non-lottery, net ~59 = 39 FE/min.
+- Why the model said 202-219 net/map: it sums per-compass NNLS columns, each evaluated at (1.2x) the largest multiplier any CN strategy
+  ran for that compass, all four at once; the top-multiplier CN strategies are themselves over-predicted by the fit (pred 95 for the Alert
+  column of a strategy whose whole gross was 80), the "generic" FE is shared between columns, and no CN strategy runs the four together.
+  Per-column obs/pred looked fine because each column's item list includes FE. Raw run-weighted obs/pred over all 629 strategies: 1.5 with
+  R^2 < 0, binned: strategies predicted > 200 gross observe 0.55x of it. The column model is retired for ranking; rank on raw CN strategies
+  (`runs.py`) scaled by Vlad's times, and on Vlad's own logs.
+
+### Corrected ranking (raw CN strategies, today's prices; "Vlad" = his measured or VLAD_TIME seconds)
+| plan | CN net/map | CN s | CN FE/min | Vlad s | Vlad FE/min |
+|---|---|---|---|---|---|
+| Bandit DS + Phantom Vigil + Lunaria + Flourishing probe (drop Alert) | ~45-60 (Phantom+Lunaria 59; Bandit adds edicts ~8, costs 0.9) | 91 | 39 | ~100 | 27-36 |
+| Machines: Cruising (A) + Sinful/Transgression etc. (7 CN strategies, 432 runs) | 74-99 (gross 160, cost 81) | 80-111 | 50-68 | 200 (bubbles) | 22-30 |
+| Safari: Revelation Hunting + Ecliptics (219 runs) | 38-65 (one Artifact-Sinful one: -19) | 54-68 | 43-58 | ? | ? |
+| Clockwork: Collection Doll + Ecliptics (3,514 runs) | 50-65 (gross 102-130, cost 60-70) | 93-131 | 30-38 | ? | ? |
+| Alert Outlaw + Bandit + Phantom + Lunaria (what he ran) | CN: -21; Vlad: ~25 non-lottery | 102 | <0 | 105-145 | ~13 + lottery EV ~17/map (1-in-1,000 tickets) |
+Lottery EV per map (items < 25 drops / 46k runs, shrunk): global 7, Lunaria 8 (Omni-Elixir Notes 9,788 at 0.0009/map), Bandit 2, Dark Surge 4.
+Next: his backup logs (`UE_game-backup-*.log`) for the 22-run session and any Machines/Safari sessions -> his own s/map and net/map
+per plan; then the table gets his columns and the recommendation is whichever of Phantom/Lunaria/Bandit vs Machines wins on HIS minutes.
+
+---
+### Superseded (2026-10-29 23:00) — kept for the trees and card priorities, which still hold; the FE/min numbers do not
+
+
 Model: `tools/farm/bottomup.py` + `plan2.py` + `search.py` + `vlad_plans.py` (method in `docs/farming.md`). 629 CN Profound
 strategies / 46k runs decoded item by item; every strategy's loot divided by the multipliers its own setup gave each drop channel
 (pool, card, mechanic "additional" nodes and compass lines, compass-class lines, fluorescent replication, Focus, Transgression),

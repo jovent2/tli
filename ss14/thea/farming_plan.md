@@ -1,5 +1,44 @@
 # Profound farming plan (2026-10-29 23:00, bottom-up model; prices of 2026-10-29)
 
+## Deep Space (2026-10-30 16:00) — raw etor strategies, today's prices, FE drops now counted
+Method: `tools/farm/deepspace.py` (docs/farming.md). 908 Deep Space strategies / 113k runs, no Cage, no Safari. Net = steady loot
+(items with >= 8 drops in the group, 12.5% tax, FE untaxed) minus everything the map consumed. CN seconds; Vlad's seconds unknown
+except "Machines 3 min, Might slow". Correction: every raw-strategy number before this message priced FE drops at 0 (bug in runs.py);
+all nets were 13-100/map low, order unchanged.
+
+| setup (4 compasses + probe) | cost/map | gross | net/map | CN s | CN FE/min | evidence |
+|---|---|---|---|---|---|---|
+| **Ember farm**: Onslaught Might 39 + Reserve Ember 5.7 + Bounty Ember 2.5 + Flourishing Gods 21 + Ember DS probe 5 | 108 | 219 | 111 | 86 | **77** | 1 player, 124 runs (day5). Tree Might+Commodities |
+| Machines: Cruising Mechanical (A) 23.5 + Colorful Fluorescent (A) 7 + Transgression Plunder 44 + Strength in Numbers 1 + Fluorescent DS probe 29 | 139-145 | 233-259 | 91-112 | 83-112 | 54-66 | 28 strategies, 3,500 runs; median player 56-68, best 89-94 |
+| Doll compass farm: Collection Doll (A) 110 + Ascendant Ecliptic 53 + Vast Ecliptic 16 + Sinful Plunder (A) 45 + Flourishing DS probe 29 (or Compass DS probe 115) | 270-350 | 369-424 | 87-100 | 117-123 | 43-51 | 190 strategies, 25k runs; median 34-49, best 95-194 |
+| Alert Outlaw stack: Alert 32 + All-Evil Vigil 62 + Generous Elite 16 + Sinful (A) 45 + Flourishing probe | 227 | 312 | 79 | 99 | 48 | 20 strategies, 2,477 runs; median player 30 |
+| Legendary Gear / Bountiful Elite / Might-gear hunts | 180-360 | | <= 0 steady | | | lotteries; not income |
+
+Ember farm, what it is (tlidb): Onslaught Might Compass forces Trial: God of Might and replaces the Statue with an Onslaught Automaton
+(invincible until the trial reaches max level, then "drastically" more drops when killed). Might node Mad - Might: embers dropped in the
+trial have 3.5% chance to become Ultimate Embers, -75% additional drop quantity in the trial. Reserve Ember Compass: Ultimate Embers
+replicated once (x2). Bounty Ember +50% ember quantity, Ember DS probe +40%, Flourishing Gods +25% per Divine Blessing stack (stack at
+trial level 10). CN loot/map: Ultimate Ember 9.31 (20.7 FE today, 24 yesterday), Matchless 53, Precious 80, FE 13.4, Onslaught/Flourishing
+Might compass 0.13 each (Willful - Might at level 10). Check: UE / (Matchless+Precious) = 7.0% = 3.5% x 2 — the mechanic as written.
+A second player (77 runs, Might compasses on 58% of maps, 4-way split tree) got ~6.5 UE per Might map. Cost 108 = compasses 68 + beacon
+23.5 + 2.85 DS resonance + probe 5. Net at UE = 15 FE: ~65/map.
+Vlad's FE/min by his map time: 86 s 77, 100 s 67, 120 s 55, 150 s 44, 180 s 37. Break-even vs Profound Safari (~50/min) at ~130 s.
+Confidence: medium-low on the number (one player), high on the mechanism. UE price is the other risk (it fell 14% in a day).
+
+Tree for the Ember farm (92 Star + 4 Prime; pictures `ss14/thea/trees/deepspace_ember/{Might,Commodities,Profound,Loadout}.png`):
+- Might 42: CN's 35 (Mad, Willful, Irritable on path, 13 "+1% ember" micros, 15% + 35% ember replicate, +1/+1/+3 max level,
+  +4%/floor, +5% trial drop, 17 "+2% extra trial monster" path micros) + Mania (30%: a Might Sentinel, kill it -> +50% trial drop; 4 pts)
+  + 3 pts on the +10%-extra-monster spoke. Not taken: +140% ember but UE -> Flame Sand (kills the farm), Dwarven Automaton spokes.
+- Commodities 25: ember spoke (5 x 2% + 8% replicate, bosses 10% +1 ember), 15 x "+1% Drop Quantity" with the 3 extra-monster mediums.
+- Profound (4 Prime + 25 Star): +2%, +25%/-4 attempts (skip it if he dies > 2x per map in Deep Space), +2%, +12% additional.
+Play: start the trial first, push levels (the Automaton is invincible until max level), kill the Automaton, finish the map.
+Cards in the deck from the tree: Irritable - Might (ember replicate 15/20/40%), Willful - Might (+100% trial drop, 1 attempt), Mad.
+
+Decision: run 5 Ember maps with the log on (cost ~540 FE) -> `gamelog.py` gives s/map and UE/map; above ~130 s it loses to Safari.
+Machines in Deep Space is the same FE/min as Machines in Profound (CN 51-60 there) and needs his bubble fix (3 min maps = 22-30/min).
+Doll is the safest number (25k runs) but 350 FE a map of compasses and a timing minigame; at CN speed 43-51/min.
+
+
 ## CORRECTION 2026-10-30 10:30 — the stack numbers below are wrong; read this first
 Reality check against Vlad's own maps (game log, `tools/farm/gamelog.py`) and the raw CN strategies:
 - Vlad, 25 stack maps (22 on etor 10-29 night + 3 in today's log): ~25 net/map **non-lottery** at 1:45-2:05 per map (today: 129 s/145 s/105 s,

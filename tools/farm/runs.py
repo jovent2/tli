@@ -25,7 +25,7 @@ MD5 = {n["md5"]: (k, n) for k, v in GRAPH.items() for n in v["nodes"] if n["md5"
 # Extravagant / Oppressive ... decode (2026-10-29: 25 of 27 leftover keys were these)
 import hashlib as _h
 def _variants(lines):
-    L = [l for l in lines if l]; core = [l for l in L if not l.startswith("时刻")]
+    L = [l for l in lines if l]; core = [l for l in L if "混乱卡牌" not in l]    # the card line, not every "时刻 8 及以上" line (Willful - Might)
     for sep in ("\n", "", " ", "\\n", "\r\n", "<br>", "\n\n", "；", ";"):
         yield sep.join(L); yield sep.join(core)
     yield "\n".join(L) + "\n"
@@ -39,6 +39,7 @@ for _k, _v in GRAPH.items():
             if _hh not in MD5: MD5[_hh] = (_k, _n)
 
 def price(i):
+    if i == FE_ID: return 1.0                      # FE is the unit; it has no row in the price snapshot (was 0 -> every net was short by the FE drops)
     r = PRICES.get(i)
     return float(r["price_fe"]) if r else None
 

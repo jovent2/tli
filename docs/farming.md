@@ -146,3 +146,17 @@ rotations); etor reads the same file. Per map: `ItemChange@ ProtoName=Spv3Open s
 by item id, probe, resonance 5028) -> a stack map is identified by its cost signature; `_JoinFightSuccess()` followed by `+maptype [Mystic]`
 = entered the map, followed by `+checkType [MainCity]` = back in town (map end); `FightResult@ Open FightFailureView` = a death (he revives
 and continues); `PickItems` blocks = loot, by stack guid deltas. Keep the raw log out of the repo (account ids).
+
+## Deep Space ranking (`tools/farm/deepspace.py`, 2026-10-30)
+Raw etor strategies (timeLabel 13) grouped by the compass/astrolabe/probe set they ran (qty >= 0.5/map; beacon and resonance excluded
+from the key) and by the constellations in the talent label; run-weighted loot and cost at today's prices; items with < 8 drops in the
+whole group are "rare" and shown separately. Crawl: `etor_fetch.py details --time 13 --exclude 囚笼,狩猎` (day stages only; week-board
+keys 404 on /detail). 2026-10-30 ~16:00: 908 strategies / 113k runs decoded.
+- **Bug fixed 2026-10-30**: `runs.py` priced Flame Elementium at 0 (no FE row in the price snapshot), so every raw-strategy net before
+  this (Profound corrected table, Deep Space first cut) was short by the FE drops: 13-100 FE/map. Order of the ranking unchanged.
+- etor's talent list skips some on-path nodes (card nodes like Irritable - Might, the "+7 groups" mediums in Commodities, Compass #12):
+  `draw_tree.realize()` adds the path; a CN "巨力×22" is 35 real points.
+- Deep Space results (FE/min, steady, CN seconds): Ember/Might farm 77 (1 player, 124 runs, 86 s); Machines (Cruising (A) + Colorful
+  Fluorescent (A) + Transgression Plunder + Strength in Numbers + Fluorescent probe) 54-66 over ~5,000 runs at 83-112 s, cost 139;
+  Doll compass farm 43-51 over 25k runs at 117-123 s, cost 270-350; Alert Outlaw stack (All-Evil Vigil + Generous Elite + Sinful (A))
+  48 over 2,477 runs at 99 s (100 FE/map in raw FE), median player 30. Profound with FE counted: Machines 51-60, Safari ~50 (+rare).

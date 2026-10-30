@@ -54,3 +54,4 @@
 - 2026-10-29 23:05 — Farming: bottom-up model built (tools/farm/bottomup.py, plan2.py, search.py, vlad_plans.py; docs/farming.md). Verdict:
   Outlaw (Alert) + Dark Surge (Bandit) + Vigil (Phantom) + Lunaria + Flourishing probe ≈ 156 FE/min at his speed vs Machines as run 45
   FE/min (164 net/map but 220 s). Machines echelon nodes unknown (CN never takes them). ss14/thea/farming_plan.md rewritten.
+- 2026-10-30 16:00: Deep Space ranking from 908 etor strategies (tools/farm/deepspace.py); Ember/Might farm trees drawn (ss14/thea/trees/deepspace_ember/). runs.py FE-price bug fixed (FE drops were valued 0 in every raw-strategy net).

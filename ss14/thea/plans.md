@@ -191,7 +191,7 @@ Ring L options (neck 2nd ult +2 Active; current ring row with neck Fervor):
   robe + Phantasmagoria  152.5 T        222.3 T x1.46   222.3 T x1.46                   216.0 T x1.42
 -> **robe + Phantasmagoria swap with this ring: x0.77** (x1.20 with the current ring). The Cage (x1.69), the +63% aura and Frozen Lotus are per-hit;
    Ripple is hits. Keeping Cage + Ripple keeps the ring's value; going robe + prism makes the Dawn Break organs worth x1.03 (then: Fervor base, no organ).
-Single choices (Cage world, Vlad's ring): CDR ult x1.055 over "+15% ele / +15% erosion res" (2nd Boon stack uptime 85% without it) · belt duration
+Single choices (Cage world, Vlad's ring): CDR ult x1.058 over "+15% ele / +15% erosion res" (2nd Boon stack uptime 85% without it) · belt duration
 x1.054 over its 18% Double · Trauma fix (ring R base SA -> Immune to Trauma, neck T0 INT -> "Gains Spell Aggression ... / +(40-60)% Spell Aggression
 Effect") x0.992 (robe world x1.008) — free at the cap · neck 2nd ult +2 Active = aura (x1.005), x1.10 over nothing · wand T0 Double x1.03 ·
 **4th tangle attached x1.33** (robe world x1.23): Vorax Limb: Head with Malign Embrace organs (Graft: Helmet/Necklace; Malign 2,187 FE + 1 Exquisite

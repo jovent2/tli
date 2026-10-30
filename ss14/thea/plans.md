@@ -186,7 +186,7 @@ Graft Boots/Ring/Belt, 5 Tenacious Sutures (34) + Dawn Break 73 = ~243 FE per gr
 Robe world (robe + Phantasmagoria/Extreme Coldness core, Sacrificer's neck +2 Active, Ice Bond, wand T0 Double): current ring L 153.5 T ->
 **Vlad's ring 454.7 T (x2.96)**; Fervor base + 1 DB L + 30% res basic x0.885 of it; Fervor base, no organ x0.59. robe + Phantasmagoria swap x1.33
 with the Vorax ring (x1.21 with the current ring). Cage + Ripple world: 342 T with Vlad's ring.
-On Vlad's ring: base +2 Spell Skill Level x1.072 over +1 Focus · DB roll 1 per 3 x0.887 of 1 per 2 · ARP T0 > ele/ero pen 24 (x0.957) > +1 Focus/+5%
+On Vlad's ring: base +2 Spell Skill Level x1.072 over +1 Focus (+1 Focus x1.130 = Israfel 2.40->2.54 x1.058 · Focus Blessing x1.033 · Bunch x1.023 · +6% crit dmg from Magister 5%/Focus + Israfel 1%/Focus on a 594% pool x1.010; +2 Spell x1.211 = Chromatic level x1.166 · Spell Amp/SOU/Aim/Ice Bond/Overload x1.04 together) · DB roll 1 per 3 x0.887 of 1 per 2 · ARP T0 > ele/ero pen 24 (x0.957) > +1 Focus/+5%
 (x0.935); ARP T1 x0.948 · CDR x1.074 over "+15% ele / +15% erosion res" (2nd Boon stack ~85% uptime without it) · belt duration x1.073 over its 18% Double ·
 neck 2nd ult +2 Active (aura x0.941; Fervor there is now dead, x0.804) · Trauma via ring R base + SA line on the neck in INT's place x0.948 · wand T0
 Double x1.036 · robe's 140% crit basic x1.10 (crit 90 -> 100%).

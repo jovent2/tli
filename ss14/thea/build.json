@@ -1,6 +1,6 @@
 {
  "_about": "Thea build as data. Every line is game text (parsed by tools/stats.py) unless it is an explicit effect. Lines marked '?' in 'unknown' are not confirmed by a screenshot. tools/sheet.py turns this into the stat sheet; tools/engine.py into DPS.",
- "updated": "2026-10-27 12:38 (skills, memories, traits, followers re-read)",
+ "updated": "2026-10-30 19:57 (gear/memory/slate/kismet re-sync from screenshots)",
  "context": {
   "_about": "State while measuring on the boss dummy (Vlad's standard test)",
   "tangles_active": 2,
@@ -104,14 +104,16 @@
   },
   {
    "slot": "belt",
-   "name": "Magic Girdle (rare)",
+   "name": "Elder Sage Girdle (rare, ilvl 100)",
    "lines": [
-    "+31 Intelligence",
-    "+220 Max Energy Shield",
-    "+47% damage",
-    "+19% Lightning Resistance",
-    "+17% Cold Resistance",
-    "+16% Erosion Resistance"
+    "+19% Attack and Spell Block Chance",
+    "+410 Max Energy Shield",
+    "-15% additional damage taken at Low Mana",
+    "+12% Elemental Resistance",
+    "+13% chance to avoid Elemental Ailments",
+    "+34% Cold Resistance",
+    "+18% chance to deal Double Damage",
+    "Has Hasten"
    ],
    "effects": [
     {
@@ -119,7 +121,16 @@
      "value": 60,
      "why": "base affix Gale: 60% of proj speed bonus as additional proj damage"
     }
-   ]
+   ],
+   "tiers": {
+    "+19% Attack and Spell Block Chance": "T0",
+    "+410 Max Energy Shield": "T0",
+    "-15% additional damage taken at Low Mana": "T1",
+    "+12% Elemental Resistance": "T0",
+    "+34% Cold Resistance": "T0",
+    "+18% chance to deal Double Damage": "T2"
+   },
+   "note": "2026-10-30 19:57 screenshot. Base affixes (not in the tooltip): Gale and Hasten [Vlad]."
   },
   {
    "slot": "boots",
@@ -128,41 +139,41 @@
     "+58% Critical Strike Damage Mitigation",
     "+60% gear Energy Shield",
     "+304 gear Energy Shield",
-    "Has Hasten",
-    "+7% Attack Speed, Cast Speed, and Movement Speed when having Hasten",
-    "+22% Fire Resistance",
+    "+56% Critical Strike Damage",
+    "+18% Erosion Resistance",
     "+40% Movement Speed"
    ],
    "tiers": {
     "+58% Critical Strike Damage Mitigation": "T1",
     "+60% gear Energy Shield": "T1",
     "+304 gear Energy Shield": "T1",
-    "Has Hasten": "T1",
-    "+7% Attack Speed, Cast Speed, and Movement Speed when having Hasten": "T1",
-    "+22% Fire Resistance": "T1",
+    "+56% Critical Strike Damage": "T1",
+    "+18% Erosion Resistance": "T2",
     "+40% Movement Speed": "T1"
-   }
+   },
+   "note": "2026-10-30: Hasten moved to the belt; +22% fire res -> +56% crit dmg; ero res T2 ('a tragedy')."
   },
   {
    "slot": "ring_l",
    "name": "Perishing Inferno Flame Ring (rare)",
    "lines": [
     "+12% Fire Resistance",
-    "+52 Intelligence",
+    "+15% Attack and Spell Block Chance",
     "+323 Max Energy Shield",
-    "+64% damage",
-    "+22% Lightning Resistance",
-    "+27% Erosion Resistance",
-    "+120% Critical Strike Rating"
+    "+68% damage",
+    "+20% Lightning Resistance",
+    "+25% Erosion Resistance",
+    "+114% Critical Strike Rating"
    ],
    "tiers": {
-    "+52 Intelligence": "T1",
-    "+64% damage": "T1",
-    "+22% Lightning Resistance": "T1",
-    "+27% Erosion Resistance": "T1",
-    "+120% Critical Strike Rating": "T1",
-    "+323 Max Energy Shield": "T1"
-   }
+    "+15% Attack and Spell Block Chance": "T1",
+    "+323 Max Energy Shield": "T1",
+    "+68% damage": "T1",
+    "+20% Lightning Resistance": "T1",
+    "+25% Erosion Resistance": "T1",
+    "+114% Critical Strike Rating": "T1"
+   },
+   "note": "2026-10-30: the +52 INT line became +15% Attack and Spell Block."
   },
   {
    "slot": "ring_r",
@@ -171,20 +182,21 @@
     "+12% Cold Resistance",
     "Gains Spell Aggression when casting a Spell Skill",
     "+404 Max Energy Shield",
-    "+81% damage",
-    "+10% Armor DMG Mitigation Penetration",
-    "+20 to Max Frostbite Rating",
-    "+27% Fire Resistance",
+    "+85% damage",
+    "+20% Elemental and Erosion Resistance Penetration",
+    "+31 to Max Frostbite Rating",
+    "+35% Fire Resistance",
     "100% chance to gain Barrier for every 5 m moved"
    ],
    "tiers": {
-    "+210 Max Energy Shield": "T2",
-    "+81% damage": "T0",
-    "+10% Armor DMG Mitigation Penetration": "T2",
-    "+20 to Max Frostbite Rating": "T2",
-    "+27% Fire Resistance": "T1",
+    "+404 Max Energy Shield": "T0",
+    "+85% damage": "T0",
+    "+20% Elemental and Erosion Resistance Penetration": "T1",
+    "+31 to Max Frostbite Rating": "T1",
+    "+35% Fire Resistance": "T0",
     "100% chance to gain Barrier for every 5 m moved": "T1"
-   }
+   },
+   "note": "2026-10-30: armor pen line -> +20% Elemental and Erosion Resistance Penetration; frostbite +20 -> +31; fire res 27 -> 35."
   },
   {
    "slot": "weapon_m",
@@ -197,15 +209,15 @@
     "Adds 87 - 106 Physical Damage to Spells",
     "+37% chance to deal Double Damage",
     "+47% Tangle Damage Enhancement",
-    "+106% Elemental Damage"
+    "+132% Elemental Damage"
    ],
    "tiers": {
     "+2 Cold Skill Level": "T1",
     "+2 Physical Skill Level": "T1",
     "Adds 87 - 106 Physical Damage to Spells": "T0",
     "+37% chance to deal Double Damage": "T1",
-    "+106% Elemental Damage": "T1",
-    "+47% Tangle Damage Enhancement": "T1"
+    "+47% Tangle Damage Enhancement": "T1",
+    "+132% Elemental Damage": "T0"
    }
   },
   {
@@ -213,11 +225,11 @@
    "name": "Headless Cleric Wand (Priceless)",
    "lines": [
     "+40% Spell Damage",
-    "+16% Cast Speed",
+    "+8% additional Spell Damage",
     "+2 Spell Skill Level",
     "+2 Physical Skill Level",
     "Adds 84 - 112 Cold Damage to Spells",
-    "+166% Critical Strike Rating",
+    "+226% Critical Strike Rating",
     "+47% Cast Speed",
     "+40% chance to deal Double Damage"
    ],
@@ -225,10 +237,11 @@
     "+2 Spell Skill Level": "T2",
     "+2 Physical Skill Level": "T1",
     "Adds 84 - 112 Cold Damage to Spells": "T0",
-    "+166% Critical Strike Rating": "T1",
+    "+226% Critical Strike Rating": "T0",
     "+47% Cast Speed": "T0",
     "+40% chance to deal Double Damage": "T1"
-   }
+   },
+   "note": "2026-10-30: both wands have +40% spell dmg and +8% additional spell dmg base [Vlad]; crit rating 166 -> 226 (T0)."
   }
  ],
  "memories": [
@@ -273,9 +286,10 @@
     "+15% Cast Speed",
     "+10% Minion Attack Speed",
     "+2 to Hero Trait Level",
-    "+18% Spell Critical Strike Damage",
-    "+18% Cold Skill Critical Strike Damage"
-   ]
+    "+9% Attack Block Chance",
+    "+5% Spell Block Chance"
+   ],
+   "note": "2026-10-30: the two crit dmg lines are now +9% attack block / +5% spell block (values after the -58% cut); the 5 is to be rolled to 9."
   }
  ],
  "slates": [
@@ -349,19 +363,6 @@
    "note": "copies the Nether King's +10% effect brand"
   },
   {
-   "name": "Fallen Starlight",
-   "effect_pct": 0,
-   "on_line": false,
-   "lines": [
-    "+2% Max Life",
-    "+1.25% Life Regain",
-    "+9% Fire Damage Over Time",
-    "+4% Skill Effect Duration",
-    "+8% Cooldown Recovery Speed",
-    "+1 Max Charges"
-   ]
-  },
-  {
    "name": "Pedigree of Gods",
    "lines": [
     "+10% Agility Blessing Duration",
@@ -376,6 +377,35 @@
      "why": "Dirty Tricks core"
     }
    ]
+  },
+  {
+   "name": "Fallen Starlight (lv86, off the line)",
+   "effect_pct": 0,
+   "on_line": false,
+   "lines": [
+    "+3% Max Life",
+    "+3% Max Energy Shield",
+    "+10% Attack Critical Strike Rating",
+    "+3% Critical Strike Damage",
+    "+8% Cooldown Recovery Speed",
+    "+1 Max Charges",
+    "+12% Spell Block Chance",
+    "+15% Energy Shield gained from Shield"
+   ],
+   "note": "2026-10-30 tooltip (no Effect bonus shown)."
+  },
+  {
+   "name": "Fallen Starlight (lv89, on line +40%, values shown post-boost)",
+   "effect_pct": 0,
+   "on_line": true,
+   "lines": [
+    "+5.6% Cold Resistance",
+    "+4.2% Max Life",
+    "+4.2% Max Energy Shield",
+    "+3 Horizontal Projectile Penetration(s)",
+    "+16.8% Intelligence"
+   ],
+   "note": "2026-10-30 tooltip, Effect +40% on every node."
   }
  ],
  "pacts": [
@@ -439,12 +469,13 @@
   }
  ],
  "kismets": {
-  "_about": "13 destiny slots (9 micro, 4 medium) on the pact board: 6 on Witch's Spell Dmg I x2 / Spell Dmg II / Cast I x2 / Cast II positions, 3 on Iron Lion's knockback positions, 4 on Dreamweaver's Ele Dmg I / Cast I x2 / Cast II positions. 2026-10-27: Vlad's totals 152 INT, 14% crit dmg, 20% lightning res, 60% crit strike damage mitigation. Per-slot split unknown (the gold medium on Iron Lion and the pink micro on Witch are the odd ones; likely the crit dmg / mitigation carriers).",
+  "_about": "13 destiny slots (9 micro, 4 medium). 2026-10-30 19:57 [Vlad]: 3 Medium Fate Block Ratio (6 each), 1 Kismet: Fluffy Ball (medium, 40-60% crit dmg mitigation), 3 Micro Lightning Res (5-7), 1 Micro Crit Damage (12-15), 5 Micro INT (12-15). Mid rolls assumed where not given.",
   "lines": [
-   "+152 Intelligence",
-   "+14% Critical Strike Damage",
-   "+20% Lightning Resistance",
-   "+60% Critical Strike Damage Mitigation"
+   "+18% Block Ratio",
+   "+60% Critical Strike Damage Mitigation",
+   "+18% Lightning Resistance",
+   "+13% Critical Strike Damage",
+   "+68 Intelligence"
   ]
  },
  "skills": {

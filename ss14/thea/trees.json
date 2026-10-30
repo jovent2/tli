@@ -1,5 +1,5 @@
 {
- "_about": "Thea talent allocation from 2026-10-27 11:20 screenshots. Node ids = tlidb layout centres, see data/talents.json. Check with: python3 tools/tree.py ss14/thea/trees.json",
+ "_about": "Thea talent allocation from the 2026-10-30 19:57 screenshots (GoK 26, Magister 26, Prophet 24, Lich 37 = 113). Node ids = tlidb layout centres, see data/talents.json. Check with: python3 tools/tree.py ss14/thea/trees.json",
  "panels": [
   {
    "panel": "Goddess_of_Knowledge",
@@ -11,7 +11,7 @@
     "736_176": 3,
     "864_176": 1,
     "96_272": 3,
-    "224_272": 1,
+    "224_272": 3,
     "736_368": 3,
     "864_368": 1,
     "352_464": 3,
@@ -22,8 +22,6 @@
    "panel": "Magister",
    "core": "Bunch",
    "nodes": {
-    "352_80": 3,
-    "480_80": 1,
     "480_176": 3,
     "608_176": 1,
     "736_176": 3,
@@ -33,7 +31,9 @@
     "736_368": 3,
     "864_368": 1,
     "96_464": 3,
-    "224_464": 3
+    "224_464": 3,
+    "352_464": 3,
+    "480_464": 1
    }
   },
   {
@@ -51,8 +51,7 @@
     "864_176": 1,
     "96_272": 3,
     "224_272": 3,
-    "352_272": 3,
-    "480_272": 1
+    "352_272": 1
    }
   },
   {
@@ -71,7 +70,9 @@
     "96_272": 3,
     "224_272": 3,
     "736_368": 3,
-    "864_368": 1
+    "864_368": 1,
+    "352_272": 3,
+    "480_272": 1
    }
   }
  ]

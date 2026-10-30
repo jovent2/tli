@@ -1,5 +1,25 @@
 # Thea — SS14 Tartarus — current build
 
+## Re-sync 2026-10-30 19:57 (screenshots; overrides the older sections below where they differ)
+- **Belt** Elder Sage Girdle (rare, ilvl 100), base Gale + Hasten: T0 +19% Attack and Spell Block · T0 +410 max ES · T1 -15% additional damage taken at
+  Low Mana · T0 +12% Elemental Res / +13% avoid Elemental Ailments · T0 +34% Cold Res · T2 +18% Double Damage. (The old Magic Girdle's +31 INT / +47% damage are gone.)
+- **Boots** Long Night Sorcerer's (ilvl 89): T1 +58% crit dmg mitigation · T1 +60% gear ES · T1 +304 gear ES · T1 +56% Crit Damage · T2 +18% Erosion Res · T1 +40% MS. No Hasten line any more.
+- **Ring L** Perishing Inferno Flame (ilvl 86), base +12% fire res: T1 +15% Attack and Spell Block (was +52 INT) · T1 +323 ES · T1 +68% damage · T1 +20% lightning · T1 +25% erosion · T1 +114% crit rating.
+- **Ring R** Eternal Sleep Ice (Priceless, ilvl 100), base +12% cold res + Spell Aggression: T0 +404 ES · T0 +85% damage · T1 +20% Elemental and Erosion Res Penetration (was armor pen) · T1 +31 max frostbite · T0 +35% fire res · T1 Barrier per 5 m.
+- **Wands** both Headless Cleric (Priceless, ilvl 100), base +40% spell dmg, +8% additional spell dmg. M: T1 +2 Cold / T1 +2 Physical skill level · T0 adds 87-106 phys · T1 +37% double · T1 +47% Tangle Dmg Enh · T0 +132% Elemental Dmg.
+  S: T2 +2 Spell / T1 +2 Physical skill level · T0 adds 84-112 cold · T0 +226% crit rating · T0 +47% cast · T1 +40% double.
+- **Trait-slot memory** (Epic Progress 40/40, +4 trait): +15% cast · +10% minion AS · +2 hero trait level · +9% Attack Block · +5% Spell Block (to be rolled to 9). The two crit dmg lines are gone.
+- **Slates**: Fallen Starlight lv89 on the line (+40%): +5.6% cold res · +4.2% life/ES · +3 Horizontal Projectile Penetrations · +16.8% INT. Fallen Starlight lv86 off the line: +3% life/ES ·
+  +10% attack crit / +3% crit dmg · +8% CDR +1 charge · +12% Spell Block / +15% ES from shield. Pedigree = Dirty Tricks. (Corner of Divinity: unconfirmed, see Open.)
+- **Kismets** (13): 3 Medium Block Ratio (6) · 1 Fluffy Ball (medium, 40-60% crit dmg mitigation) · 3 Micro Lightning Res · 1 Micro Crit Dmg · 5 Micro INT. Model: +18% ratio, +68 INT, +18% light res, +13% crit dmg.
+- **Trees** (113 pts): GoK 26 (+18% dmg medium now 3/3) · Magister 26 (crit micro/medium at 352_80/480_80 out, +4% spell block micro x3 + 12% spell block legendary in) ·
+  Prophet 24 (cold res legendary out, cold res micro 1/3; prism slot pending the Phantasmagoria) · Lich 37 (+352_272 x3, +480_272 ES/Blur legendary).
+- **Block from the model = in game**: attack 30 (dual wield) + 19 + 15 + 9 = 73 · spell 19 + 15 + 5 + 12 + 24 = 75 · ratio 30 + 18 = 48.
+- **Res (model, gear+slates+kismets)**: fire 59 · cold 68 · lightning 50 · erosion 43 (cap 75).
+- Engine after the sync: 33.3 T belt off / 82.5 T belt on, but the regression pulls were taken on the old gear (tests now 10-30% off): needs a fresh sheet + belt-off pull.
+- Open: Corner of Divinity still equipped? Prophet: Spell Ripple still installed, and is Frozen Lotus the core now? Memory slot 1 lines (build.json has 5, the 10-27 note says INT only).
+
+
 **Boss setup** (Vlad 2026-10-28). For clearing he swaps about half of it: Lightchaser, Swiftness, Blink, 2 different pets. Not modeled; boss upgrades carry over.
 
 Wisdom of The Gods. Chromatic Shot cast through Spell Tangle, 100% phys → cold, dual Priceless wands,

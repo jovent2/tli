@@ -56,3 +56,4 @@
   FE/min (164 net/map but 220 s). Machines echelon nodes unknown (CN never takes them). ss14/thea/farming_plan.md rewritten.
 - 2026-10-30 16:00: Deep Space ranking from 908 etor strategies (tools/farm/deepspace.py); Ember/Might farm trees drawn (ss14/thea/trees/deepspace_ember/). runs.py FE-price bug fixed (FE drops were valued 0 in every raw-strategy net).
 - 2026-10-30 15:30: his Profound Machines log (25 maps, 41 FE/min, at CN rate on Disappearing Shadow); Focus = Profound only (Immolating Flame isn't exclusive); Alert+All-Evil Deep Space stack trees drawn (ss14/thea/trees/deepspace_alert/).
+- 2026-10-30 17:40: Vorax chest + organ priced (plans.md); engine: Cage multiplier now follows the chest (was hardcoded).

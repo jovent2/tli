@@ -366,7 +366,9 @@ def dps(build, trees, verbose=False):
     m["Spell Aggression"] = 1.07 if ctx["spell_aggression"] else 1.0
     if t.get("special.judgment_slate_bonus"):
         m["Judgment Offspring (+3% per slate on the line)"] = 1 + t["special.judgment_slate_bonus"] * ctx.get("slates_on_line", 0) / 100
-    m["Cage (1.14^4)"] = 1.14 ** 4
+    cage = t.get("buff.cage", 0)                           # chest effect (Iced Drinker's Cage): 0 without the chest [fixed 2026-10-30: was hardcoded ^4]
+    if cage:
+        m[f"Cage (1.14^{cage:g})"] = 1.14 ** cage
     ls = ctx.get("follower_lightning_storm", True)
     ailments = 1 + (1 if frozen else 0) + 1 + (2 if ls else 0) + 1   # frostbite, freeze, ignite, numbed+wilt, trauma
     has_dt = t["special.dirty_tricks"] > 0 or any(pa.get("core") == "Dirty Tricks" for pa in trees["panels"])

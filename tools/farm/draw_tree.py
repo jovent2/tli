@@ -22,6 +22,40 @@ def click_order(ck, idxs):
     dfs(start)
     return nodes, adj, start, seq
 
+def realize(ck, counts):
+    """Turn a logged allocation {node text: count} into node indices: unique-text nodes directly, then every node on the path from
+    the Initial Node to them (etor skips some on-path nodes), then the remaining micro counts filled outward along BFS order."""
+    nodes, adj, start = chart.graph(ck)
+    parent = {start: None}; order = [start]; q = [start]
+    while q:
+        u = q.pop(0)
+        for v in sorted(adj[u]):
+            if v not in parent: parent[v] = u; order.append(v); q.append(v)
+    text = [" · ".join(n["lines"]) for n in nodes]
+    by_text = collections.defaultdict(list)
+    for i, t in enumerate(text): by_text[t].append(i)
+    picked = set()
+    for t, c in counts.items():
+        if len(by_text.get(t, [])) == 1: picked.add(by_text[t][0])
+    for v in list(picked):                                  # path closure
+        u = parent.get(v)
+        while u is not None and u != start: picked.add(u); u = parent[u]
+    have = collections.Counter(text[i] for i in picked)
+    for t, c in counts.items():
+        need = c - have[t]
+        if need <= 0 or len(by_text.get(t, [])) <= 1: continue
+        for i in order:                                     # closest to the picked set first
+            if need <= 0: break
+            if text[i] == t and i not in picked and (parent[i] == start or parent[i] in picked): picked.add(i); need -= 1
+        for i in order:                                     # then anything reachable through unpicked micros of the same text
+            if need <= 0: break
+            if text[i] == t and i not in picked:
+                path = []; u = i
+                while u is not None and u != start and u not in picked: path.append(u); u = parent[u]
+                if all(text[x] == t for x in path) and len(path) <= need: picked.update(path); need -= len(path)
+    picked.discard(start)
+    return sorted(picked)
+
 def draw(ck, idxs, out_png, title=None):
     nodes, adj, start, seq = click_order(ck, idxs)
     num = {v: i + 1 for i, v in enumerate(seq)}

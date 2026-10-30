@@ -127,6 +127,23 @@ Engine, both sides with the wand T0 double (A = today 72.1 T):
 Engine changes: ctx `biting_cold_level` (gear trigger at a fixed level), Timid in skills.others as a 2nd curse, "+N Active Skill Level" now raises
 every active skill (Chromatic, auras, empowers, curses, Blizzard, Speed Phantom), not supports.
 Open: whether the Lv. 20 trigger inherits Curse Effect / Deepened Curse (modeled: Curse Effect yes, Deepened Curse moves to Timid).
+Chest slot catch: "You can cast 1 additional Curses" is a chest ULT prefix (T1; T0 adds 8-10% Curse Effect) — 2 ultimates per item, so on the Vorax chest it
+is curse + aura and the cold/pen ult prefix (x1.18) walks, not the %INT adv suffix. Timid step net x1.21, the neck's INT then counts (x1.11): plan x1.42.
+
+### Fervor and the ring bases (2026-10-30 22:30, engine)
+- **Have Fervor** (Fervor Rating 1/hit on Elites, 100 max, +2% crit rating each = +200% increased): x1.19 today (crit 68 -> 85), x1.20 in the neck plan
+  (81 -> 100, capped). Sources: Necklace ULT PREFIX (the tangle line's slot: Fervor there = x0.73 vs the plan — never), Vorax Limb: Digits (ring) BASE
+  affix (rare rings only have "+15-20% Fervor effect"), Ronin slate "Endless Fervor" (Max Active Divinity 1), Dawn Break belt (loses Gale), Opening Heart
+  (DEX helmet; Malign stays). Vorax ring base alternatives: +2 Spell Skill Level x1.21, +1 Active x1.11, +1 Max Focus x1.13, Has Hasten x1.08, 8% aura x1.09.
+- **Rare ring base "Triggers Lv. 20 Timid Curse upon dealing damage to enemies. Cooldown: 0.2 s"**: both curses on gear -> the Biting Cold slot takes
+  **Domain Expansion** back (38.5% additional Area Damage at L30; Chromatic Shot has the Area tag; it was WA's victim) = x1.44 alone; Deepened Curse dies
+  (x0.95), Timid Lv20 vs L26 (x0.975). Over the Timid-slotted plan: ring L base (Trauma immunity gone) x1.34; ring R base (Spell Aggression base gone,
+  x0.873) x1.17; **ring R base + Spell Aggression moved to the neck adv prefix ("Gains Spell Aggression when casting a Spell Skill / +(40-60)% Spell
+  Aggression Effect" T0 = 10.5/10.5, x1.22 vs the base's x1.145) in the INT's place, ring L keeps Trauma: x1.42 with INT uncounted, x1.28 with the INT
+  loss counted.** Needs the 5th aura's reservation to fit (Restrain). Engine: ctx `timid_level` (ring trigger), Deepened Curse only with a slotted curse.
+- Ring L as a new item (2 U + 2 A + 2 B): ult prefix pen T1 15-20 -> tier-upgrade T0 21-26 = x1.21 (res -9%); "+(25-30)% additional damage against Frozen"
+  ult suffix would be x1.255 but exists only at T0/T0+ (weight 0, no T1) — not rollable unless Vlad has seen it on a rare.
+- scan.py rerun on the re-synced build (72.1 T): nothing new above the plan; it only swaps same-group lines, so new-item ults (ring L) never show there.
 
 ## Open questions for Vlad
 - Which boots res line Hasten replaced; current kismet layout.

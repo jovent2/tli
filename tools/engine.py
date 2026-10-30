@@ -391,9 +391,11 @@ def dps(build, trees, verbose=False):
     # "Triggers Lv. 20 Biting Cold Curse upon dealing damage", ctx biting_cold_level = 20). Curse Effect scales either.
     bc_lv = ctx.get("biting_cold_level") or sh["level_biting_cold"]
     e["Biting Cold"] = 1 + skill_value("Biting_Cold", bc_lv, r"\+?([\d.]+)% additional Cold Damage taken") * (1 + t["curse.effect"] / 100) / 100
-    if any(x.split(" [")[0].strip() == "Timid" for x in others):   # second curse (needs "You can cast 1 additional Curses"): +N% additional Hit Damage taken
-        e["Timid"] = 1 + skill_value("Timid", sh["level_timid"], r"\+?([\d.]+)% additional Hit Damage taken") * (1 + t["curse.effect"] / 100) / 100
-    e["Deepened Curse"] = 1 + skill_value("Deepened_Curse", sh["level_support_plain"], r"([\d.]+)% additional damage") / 100
+    timid_lv = ctx.get("timid_level") or (sh["level_timid"] if any(x.split(" [")[0].strip() == "Timid" for x in others) else 0)
+    if timid_lv:   # second curse (needs "You can cast 1 additional Curses"): slotted, or a ring base "Triggers Lv. 20 Timid Curse" (ctx timid_level = 20)
+        e["Timid"] = 1 + skill_value("Timid", timid_lv, r"\+?([\d.]+)% additional Hit Damage taken") * (1 + t["curse.effect"] / 100) / 100
+    if any("Deepened Curse" in x for x in others):   # supports a slotted Curse skill only; gear-triggered curses get nothing
+        e["Deepened Curse"] = 1 + skill_value("Deepened_Curse", sh["level_support_plain"], r"([\d.]+)% additional damage") / 100
     # Weakness Infiltration on Speed Phantom: +30% Infiltration Effect taken for 4 s when it deals damage
     sp_wi = any(x.startswith("Speed Phantom") and "Weakness Infiltration" in x for x in build.get("skills", {}).get("others", []))
     e["Cold Infiltration (Tartarus)"] = 1 + 0.13 * (1.3 if sp_wi and "Speed Phantom" not in ctx.get("disabled", []) else 1.0)

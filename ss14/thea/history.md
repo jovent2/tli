@@ -62,3 +62,4 @@
 - 2026-10-30 20:15: Corner of Divinity removed (gone in game); ring R block line + kismet layout for the block cap priced (plans.md).
 - 2026-10-30 22:00: Vorax neck vs I Am Truth priced; engine counts +N Support Skill Level lines. Tests after the re-sync: 4.6% / 2.7% on the 10-29 sets.
 - 2026-10-30 22:10: Neck plan corrected to Vlad's: Sacrificer's Necklace (Biting Cold Lv20 trigger base) + Timid in the freed slot + tangle/aura/crit lines, belt Hasten -> CDR, duration in. Engine x1.51 today / x1.46 post-prism vs I Am Truth (`tools/neck_plan.py`). Engine: Active Skill Level lines, fixed-level curse triggers, Timid.
+- 2026-10-30 22:30: Fervor priced (x1.20, neck ult prefix = tangle's slot -> no; Vorax ring base / Ronin slate only). Found the rare ring base "Triggers Lv. 20 Timid Curse" -> Domain Expansion back in the freed slot (x1.28-1.34 over the plan); chest +1 Curse is an ult prefix (cold/pen walks). scan.md regenerated.

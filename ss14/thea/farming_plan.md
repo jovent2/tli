@@ -23,7 +23,11 @@ Might compass 0.13 each (Willful - Might at level 10). Check: UE / (Matchless+Pr
 A second player (77 runs, Might compasses on 58% of maps, 4-way split tree) got ~6.5 UE per Might map. Cost 108 = compasses 68 + beacon
 23.5 + 2.85 DS resonance + probe 5. Net at UE = 15 FE: ~65/map.
 Vlad's FE/min by his map time: 86 s 77, 100 s 67, 120 s 55, 150 s 44, 180 s 37. Break-even vs Profound Safari (~50/min) at ~130 s.
-Confidence: medium-low on the number (one player), high on the mechanism. UE price is the other risk (it fell 14% in a day).
+Crawl complete (2,443 details): 4 clean Ember-farm players, 305 runs. Three at 74-86 s/map: 9.31 / 7.97 / 9.67 UE per map = 83 / 70 / 93 FE/min;
+one at 149 s/map got 4.17 UE = 32/min (slow trial = half the embers, not just half the maps). Run-weighted 58.6/min. The no-Mad variant
+(50 runs, Bounty + Flourishing Gods + Onslaught + Sinful, no Reserve) drops 268 Matchless + 382 Precious = 123 FE of regular embers at 130 s
+-> Mad's -75% costs ~100 FE and the 3.5% returns 145-170: Mad wins by 50-70/map. Confidence: medium (4 players), high on the mechanism.
+UE price is the other risk (it fell 14% in a day).
 
 Tree for the Ember farm (92 Star + 4 Prime; pictures `ss14/thea/trees/deepspace_ember/{Might,Commodities,Profound,Loadout}.png`):
 - Might 42: CN's 35 (Mad, Willful, Irritable on path, 13 "+1% ember" micros, 15% + 35% ember replicate, +1/+1/+3 max level,

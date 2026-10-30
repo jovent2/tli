@@ -56,6 +56,13 @@ Engine, vs the Cage chest (Cage x1.69; Extreme Coldness kept via the core), then
   Prophet core stays Frozen Lotus -> x1.25 over the Rainbow version and no res balancing; costs the 3,160 chest instead of a 260 Rainbow. Open: are the
   organ's 2 affix options picked or rolled?
 - Engine fixes 2026-10-30: Cage multiplier follows the chest's buff.cage effect (was hardcoded); the cold+pen Focus line now yields add.cold and pen.res.
+- Cost (tools/vorax_cost.py, Vlad's crafting rules 2026-10-30 18:00): chest with Block Ratio base 4,000; uncorroded Rainbow 400 / Cage 3,000 +
+  Exquisite Suture 424 per graft; organ offers 2 of the legendary's affixes (Rainbow 4: wanted line 1/2; Cage 5: either of 2 wanted 7/10, then the other
+  1/2); the line lands on a random one of the 6 slots and must hit a Basic (2/6, then 1/5 — can't hit the L), else the chest is scrap.
+  Expected: Rainbow 17.0k (+ mods ~1.7k: aura = Flawless Nerve: Entwined 575, cold/pen = Flawless Tongue: Apathetic 18, +2 Active = Nerve: Compelling 202,
+  comp = Nerve: Unsealed (Pre-fix) 370, proj speed 1-of-5 adv prefixes x Vital Organ Matchless 62.5 = 312, 10% ele res 1-of-10 x 62.5 = 625, basic x Vital
+  Fine 22). Cage stacks only 37.8k; Cage stacks + Extreme Coldness 168k (Vlad's nested count 160k). If the organ can be grafted onto an all-Basic item
+  (six Rotten Organ Fine, 0.5 each) the landing odds vanish: Rainbow 5.7k, Cage one line 12.6k, Cage both lines 15.7k (-> keeps Frozen Lotus, x2.04).
 
 ## Open questions for Vlad
 - Which boots res line Hasten replaced; current kismet layout.

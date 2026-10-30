@@ -8,7 +8,8 @@ would be a 3rd A / 3rd U). A Core Organ offers 2 of the legendary's affixes (1 i
 of the 6 slots (the 2nd organ can't hit the 1st L). Landing on a B = done. Landing on an A or U: the side is L B U or L B A; the item
 is not lost, the chest is reset to B A U B A U with junk organs and the next organ is tried (Vlad), OR, before resetting, a junk craft
 of the missing type on that side: 1/3 lands on the B (done), 1/3 overwrites the L (organ lost), 1/3 flips L B U <-> L B A (try again)
--> the organ is saved half the time ("walk"). Wrong landings never cost the chest.
+-> the organ is saved half the time ("walk"). The 2nd organ landing on the 1st L's side (L A L / L L U) can't be walked: whichever L
+the junk craft overwrites, one organ is lost and the other L sits in a valid side. Wrong landings never cost the chest.
 Usage: python3 tools/vorax_cost.py
 """
 CHEST = 4000.0            # Vorax chest with the +20% Block Ratio base [Vlad]
@@ -32,22 +33,25 @@ def p_offered(pool, wanted):
     return 1 - comb(pool - wanted, 2) / comb(pool, 2)
 
 
-def one_line(attempt, p_off, p_land, walk):
-    """Expected cost to place one legendary line; a miss costs the organ + a reset (JUNK), never the chest."""
-    p_ok = p_off * (p_land + (1 - p_land) * (0.5 if walk else 0.0))
+def one_line(attempt, p_off, p_land, p_walkable, walk):
+    """Expected cost to place one legendary line; a miss costs the organ + a reset (JUNK), never the chest.
+    p_land: lands on a free B; p_walkable: lands on an A/U of a side with no other L (junk-craft walk saves it 1/2 of the time);
+    the rest (2nd organ landing on the 1st L's side) always costs one organ and leaves one good L in a valid side."""
+    p_ok = p_off * (p_land + (p_walkable * 0.5 if walk else 0.0))
     return (attempt + p_off * (1 - p_land) * JUNK) / p_ok
 
 
 def rainbow(walk):
-    return CHEST + JUNK + one_line(RAINBOW + SUTURE, p_offered(4, 1), 2 / 6, walk)
+    return CHEST + JUNK + one_line(RAINBOW + SUTURE, p_offered(4, 1), 2 / 6, 4 / 6, walk)
 
 
 def cage(walk, lines=2):
     attempt = CAGE + SUTURE
     if lines == 1:
-        return CHEST + JUNK + one_line(attempt, p_offered(5, 1), 2 / 6, walk)
-    e1 = one_line(attempt, p_offered(5, 2), 2 / 6, walk)       # either wanted line (Cage stacks / Extreme Coldness)
-    e2 = one_line(attempt, p_offered(4, 1), 1 / 5, walk)       # the other one; can't hit the first L, the first L is never lost
+        return CHEST + JUNK + one_line(attempt, p_offered(5, 1), 2 / 6, 4 / 6, walk)
+    e1 = one_line(attempt, p_offered(5, 2), 2 / 6, 4 / 6, walk)   # either wanted line (Cage stacks / Extreme Coldness)
+    e2 = one_line(attempt, p_offered(4, 1), 1 / 5, 2 / 5, walk)   # the other line: 1/5 the free B, 2/5 the other side's A/U (walk),
+                                                               # 2/5 the first L's side -> one organ lost, one good L remains (sides matter: each side ends L A U)
     return CHEST + JUNK + e1 + e2
 
 

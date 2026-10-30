@@ -63,7 +63,7 @@ Engine, vs the Cage chest (Cage x1.69; Extreme Coldness kept via the core), then
   then only fits on the A, a U only on the U); an all-Basic start is no better (from L B B the L survives to L A U 1/3 of the time).
   Walk: after a wrong landing (side L B U or L B A), a junk craft of the missing type on that side lands 1/3 on the B (done), 1/3 on the L (organ
   lost), 1/3 flips the state -> saves the organ 1/2 of the time (simulated), vs 0 for a reset.
-  Expected: Rainbow 9.0k (walk 6.5k) + mods ~1.7k; Cage stacks only 29.8k (16.9k); Cage stacks + Extreme Coldness 53k (22.9k) -> keeps Frozen Lotus,
+  Expected: Rainbow 9.0k (walk 6.5k) + mods ~1.7k; Cage stacks only 29.8k (16.9k); Cage stacks + Extreme Coldness 53k (28.6k; a 2nd L on the 1st L's side costs an organ either way) -> keeps Frozen Lotus,
   x2.04 vs the Cage chest instead of x1.63. Mods: aura = Flawless Nerve: Entwined 575, cold/pen = Flawless Tongue: Apathetic 18, +2 Active = Nerve:
   Compelling 202, comp = Nerve: Unsealed (Pre-fix) 370; advanced from Vital Organ (Matchless) 62.5 (proj speed 1 of 5, 10% ele res 1 of 10);
   basics from Vital Organ (Fine) 22.

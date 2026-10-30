@@ -56,6 +56,15 @@ Engine, vs the Cage chest (Cage x1.69; Extreme Coldness kept via the core), then
   Prophet core stays Frozen Lotus -> x1.25 over the Rainbow version and no res balancing; costs the 3,160 chest instead of a 260 Rainbow. Open: are the
   organ's 2 affix options picked or rolled?
 - Engine fixes 2026-10-30: Cage multiplier follows the chest's buff.cage effect (was hardcoded); the cold+pen Focus line now yields add.cold and pen.res.
+- Vlad's revised Rainbow Vorax (18:57; no Block Ratio base on a chest; bad offers can't be declined): base +8% Sealed Mana Comp + 6% ARP, adv prefix
+  53% proj speed (T0), ult prefix 15-20% comp (base+ult = 26% > Lich's 21.5% -> 7 Lich points freed -> +105% crit rating +15% crit dmg), ult suffix 18%
+  aura effect, adv suffix T0 %INT (~75 INT) or 10% ele res, one basic (140% crit rating if the L takes the prefix B, ES if the suffix B).
+  Engine, belt on, vs the Cage chest (Extreme Coldness in the core): Cage gone x0.592 · Rainbow 3 pairs x1.685 · aura 18% x1.218 · proj 53% x1.133
+  (x1.00 belt off) · ARP 6% x1.072 · 7 points x1.128 · 75 INT x1.081 (10% res: x1.00) · crit basic x1.121 => **x2.02** (ES basic: x1.80); /1.25 if the
+  prism world's Frozen Lotus is counted: x1.62 / x1.44. Belt off x1.82. Base 8% aura instead of 8% comp: x1.084 vs the 7 points x1.128 -> comp.
+  Ult prefix today: cold/pen x1.18 > comp's 7 points x1.128; with Lone Walker's (+2% aura per 3% comp) comp = x1.128 x 1.131 -> comp. Tongue: Apathetic
+  is 18 FE, so start cold/pen, swap to Nerve: Unsealed (370) when LW lands. A plain rare chest instead of the Cage (no Rainbow): x0.592 x 1.12 x 1.13
+  x 1.08 ~ x0.81 -> no.
 - Cost (tools/vorax_cost.py, Vlad's rules 2026-10-30 18:10): chest with Block Ratio base 4,000 (reused — a wrong landing is reset to B A U B A U
   with ~30 FE of junk organs, never a new chest); uncorroded Rainbow 400 / Cage 3,000 + Exquisite Suture 424 per graft; organ offers 2 of the
   legendary's affixes (Rainbow: wanted 1/2; Cage: either of 2 wanted 7/10, then the other 1/2); the line lands on a random one of the 6 slots and

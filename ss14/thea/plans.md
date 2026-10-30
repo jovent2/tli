@@ -82,6 +82,14 @@ Engine, vs the Cage chest (Cage x1.69; Extreme Coldness kept via the core), then
   Compelling 202, comp = Nerve: Unsealed (Pre-fix) 370; advanced from Vital Organ (Matchless) 62.5 (proj speed 1 of 5, 10% ele res 1 of 10);
   basics from Vital Organ (Fine) 22.
 
+## Phantasmagoria (medium: +3.5% aura effect per medium rank) placements (2026-10-30 19:20; tools/tree_opt/scen.py enumeration)
+No 3x4/4x3 area holds more than 5 medium nodes (15 ranks). With >= 2 legendaries in the area: Prophet 608_176 3x4 = 15 ranks (+52.5% aura, x1.69
+belt on; mediums crit/+5 frost/+8% frost effect (have) + 5% INT + regain (6 new pts); L: Inflicts Frostbite 1 pt + cold res) · Warlock 352_272 4x3 = 15
+· Lich 480_176 3x4 or 352_272 4x3 = 12 ranks (+42%, x1.55; new: -4 cost/+12% affliction x3, +6% cast/-4 cost x3; L: ES/Blur + MS/Blur 1 pt each)
+· Lich 736_176 3x4 (Vlad's) = 9 ranks (+31.5%, x1.40; 4 L incl. +1 skills, CDR, both-sealed; sits on his 1.5% CDR micro). Spell Ripple is x1.5
+(tests.md 2026-10-25), going anyway for CC immunity; the freed core is Frozen Lotus x1.25 (Cage) or Extreme Coldness (Vorax).
+Net of Ripple with Frozen Lotus: 9 ranks x1.17 · 12 x1.29 · 15 x1.41; with Extreme Coldness in the core: x0.94 / x1.03 / x1.13.
+
 ## Open questions for Vlad
 - Which boots res line Hasten replaced; current kismet layout.
 - Exact lines on each GoK slate and where Fallen Starlight sits now.

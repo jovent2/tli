@@ -61,3 +61,4 @@
 - 2026-10-30 19:57: full gear/memory/slate/kismet/tree re-sync from screenshots (build.md top section, build.json, trees.json). Block 73/75/48 reproduced exactly by the model. Tests need a fresh pull.
 - 2026-10-30 20:15: Corner of Divinity removed (gone in game); ring R block line + kismet layout for the block cap priced (plans.md).
 - 2026-10-30 22:00: Vorax neck vs I Am Truth priced; engine counts +N Support Skill Level lines. Tests after the re-sync: 4.6% / 2.7% on the 10-29 sets.
+- 2026-10-30 22:10: Neck plan corrected to Vlad's: Sacrificer's Necklace (Biting Cold Lv20 trigger base) + Timid in the freed slot + tangle/aura/crit lines, belt Hasten -> CDR, duration in. Engine x1.51 today / x1.46 post-prism vs I Am Truth (`tools/neck_plan.py`). Engine: Active Skill Level lines, fixed-level curse triggers, Timid.

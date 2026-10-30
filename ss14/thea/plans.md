@@ -105,15 +105,28 @@ so the cap needs 2 attack-block + 1 spell-block micros instead of 7, and with Fl
 ratios (3 each) — without the ring block the cap needs 11 micros of 9 and doesn't fit at all. Layout: 4 ratio + 2 attack + 1 spell + 2 INT/res micros
 = 60/100/100; vs today: -85% damage x0.89, -40 INT x0.93, -18% light res; chest +75 INT x1.13 and +12% ele res -> ~x0.94 all-in for x1.6 hit EHP.
 
-## Vorax neck vs I Am Truth (2026-10-30 22:00, engine)
-I Am Truth = x1.89 (+4 all skill levels x1.615 — supports and auras too; stats x1.167) + the 40% duration that keeps the 2nd Boon stack (margin 1.00).
-Belt rework to free the neck (Hasten out x0.926, 18% double out x0.965, +30% duration +25% CDR in): x0.894, Boon margin 1.12 -> the neck must beat x2.11.
-Vorax neck lines: +1 attachable Tangle x1.22 dormant (DE 1.8 -> 2.2) / x1.53 attached (3 casters) · +9 Support Skill Level x1.15 · +20% aura x1.245 now,
-x1.12 after a +63% prism · +75 INT x1.13 · +60% crit dmg x1.12 · base +2 Spell Skill Level ~x1.17 · base "cast 1 additional Curse" (the +1 curse need not
-come from the chest). Package x2.08 (dormant) / x2.6 (attached) before the Biting Cold lv20 base affix (frees the curse slot; Vlad's x1.39 for a 5th aura
-unverified). Test: does the extra tangle attach on a single target? Chest basic T0 crit dmg mitigation (75) + boots 58 = 133: if 100 is the cap, both
-Fluffy Balls go and the ratio micros become mediums (+54 INT) — better than the 400 ES basic.
-Engine: "+N Support Skill Level" lines now count (OTBT's own +4 line no longer double-counts with the ctx switch).
+## Sacrificer's Necklace (Biting Cold trigger base) + Timid vs I Am Truth (2026-10-30 22:10, `tools/neck_plan.py`)
+Vlad's plan, corrected after my Vorax-neck confusion. Rare neck, base affix "Triggers Lv. 20 Biting Cold Curse upon dealing damage to enemies.
+Cooldown: 0.2 s" (Necklace base-affix pool); ult prefix "You can apply 1 additional Tangle(s) to enemies / +(5-8)% Tangle Damage Enhancement" (T1;
+T0 12-15%, T0+ 20-25%); ult suffix "+(15-20)% Aura Effect" (T0 21-26); adv suffix "+(61-78)% Critical Strike Damage" T0; adv prefix "+(61-78) Intelligence"
+T0, NOT counted: the chest's flat T0 INT prefix becomes "You can cast 1 additional Curses" (chest ult prefix, T1) and the neck's INT replaces it [Vlad].
+Freed skill slot: **Timid** (curse, "+39% additional Hit Damage taken" at Lv20, +0.5%/level; L26 here = 42.5%), same supports as Biting Cold today.
+Double damage: one wand goes T0 (+27-34%) -> quad cap on both sides, the belt's 18% does not count [Vlad: 211% total, only 7 of the 18 applied].
+Belt: Hasten -> "+(20-25)% Cooldown Recovery Speed" base, 18% double (ult suffix T2) -> "+(25-31)% Skill Effect Duration"; Gale stays. Boon margin 1.00 -> 1.12.
+Engine, both sides with the wand T0 double (A = today 72.1 T):
+  x0.530  I Am Truth out (Chromatic L40 -> L36 x0.735, auras/empowers/supports -4, +99 STR +5 INT gone x0.857)
+  x0.955  Biting Cold Lv20 trigger (39%) instead of the slotted L32 (45.5%) — Vlad's "lit same thing" misses this bit
+  x1.425  Timid L26 in the freed slot (needs the chest's +1 curse)
+  x1.534  +1 attachable Tangle: 3 on / 1 off = 3x1.4 vs 2x1.8 (x1.167) and Malign's 3rd stack (crit rating + 21% on crit)
+  x1.054  the line's +8% Tangle Damage Enhancement (T0 12-15% would be x1.10)
+  x1.211  +18% Aura Effect (x1.178 once the prism's +63% is in)
+  x1.150  +70% crit dmg (x1.136 post-prism)
+  x0.926  belt rework (Hasten)
+  = **x1.51 today, x1.46 after the prism** (Vlad's hand number 1.4). +2 Active Skill Level instead of the tangle: x1.14 / x1.03 — the tangle is the plan.
+  3rd tangle not attaching would make it x0.98 (mechanics.md: attachable count is global, it attaches). Without Timid (no +1 curse): x1.06.
+Engine changes: ctx `biting_cold_level` (gear trigger at a fixed level), Timid in skills.others as a 2nd curse, "+N Active Skill Level" now raises
+every active skill (Chromatic, auras, empowers, curses, Blizzard, Speed Phantom), not supports.
+Open: whether the Lv. 20 trigger inherits Curse Effect / Deepened Curse (modeled: Curse Effect yes, Deepened Curse moves to Timid).
 
 ## Open questions for Vlad
 - Which boots res line Hasten replaced; current kismet layout.

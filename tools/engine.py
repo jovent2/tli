@@ -148,20 +148,22 @@ def sheet(build, trees):
     sh = {}
     # levels
     lv_all = t["lvl.all"]
-    sh["level_chromatic"] = 20 + lv_all + t["lvl.spell"] + t["lvl.cold"] + t["lvl.physical"] + t["lvl.projectile"] + t["lvl.main"]
+    lv_act = t["lvl.active"]                                               # "+N Active Skill Level": every active skill (auras, empowers, curses too), not supports
+    sh["level_chromatic"] = 20 + lv_all + lv_act + t["lvl.spell"] + t["lvl.cold"] + t["lvl.physical"] + t["lvl.projectile"] + t["lvl.main"]
     otbt = 4 if ctx.get("off_the_beaten_track", True) else 0                 # Lich core: +4 support levels
     core_sup = sum(v for src, k, v, c, l in recs if k == "lvl.support" and src.startswith("core:"))   # OTBT's own "+4 Support Skill Level" line
     sup = otbt + t["lvl.support"] - core_sup                                 # OTBT via the ctx switch; other "+N Support Skill Level" lines (Vorax neck) add
     sh["level_support_spell"] = 20 + lv_all + sup + t["lvl.spell"]         # Spell Tangle, Manifold
     sh["level_support_proj"] = 20 + lv_all + sup + t["lvl.projectile"]     # Target Projection
     sh["level_support_plain"] = 20 + lv_all + sup                          # AA, Mass Effect, WFB, Deepened Curse, Restrain
-    sh["level_aura_spell"] = 20 + lv_all + t["lvl.spell"]                  # Spell Amplification
-    sh["level_aura_cold"] = 20 + lv_all + t["lvl.cold"]                    # Frigid Domain
-    sh["level_aura_proj"] = 20 + lv_all + t["lvl.projectile"]              # Precise Projectiles
-    sh["level_aura_plain"] = 20 + lv_all                                   # Domain Expansion
-    sh["level_empower"] = 20 + lv_all + t["lvl.spell"]                     # Aim, SOU (Spell)
-    sh["level_biting_cold"] = 20 + lv_all + t["lvl.spell"] + t["lvl.cold"]
-    sh["level_speed_phantom"] = 20 + lv_all + t["lvl.spell"] + t["lvl.physical"]
+    sh["level_aura_spell"] = 20 + lv_all + lv_act + t["lvl.spell"]         # Spell Amplification
+    sh["level_aura_cold"] = 20 + lv_all + lv_act + t["lvl.cold"]           # Frigid Domain
+    sh["level_aura_proj"] = 20 + lv_all + lv_act + t["lvl.projectile"]     # Precise Projectiles
+    sh["level_aura_plain"] = 20 + lv_all + lv_act                          # Domain Expansion
+    sh["level_empower"] = 20 + lv_all + lv_act + t["lvl.spell"]            # Aim, SOU (Spell)
+    sh["level_biting_cold"] = 20 + lv_all + lv_act + t["lvl.spell"] + t["lvl.cold"]
+    sh["level_timid"] = 20 + lv_all + lv_act + t["lvl.spell"]             # Timid: Spell / Curse, no element
+    sh["level_speed_phantom"] = 20 + lv_all + lv_act + t["lvl.spell"] + t["lvl.physical"]
     # attributes
     base = build["hero"]["base_attributes"]
     all_ = t["attr.all"]
@@ -335,7 +337,7 @@ def dps(build, trees, verbose=False):
                  ("Frigid Domain", "Frigid_Domain", sh["level_aura_cold"], r"\+?([\d.]+)% additional Cold Damage"),
                  ("Precise Projectiles", "Precise_Projectiles", sh["level_aura_proj"], r"\+?([\d.]+)% additional Projectile Damage"),
                  ("Domain Expansion", "Domain_Expansion", sh["level_aura_plain"], r"\+?([\d.]+)% additional Area Damage"),
-                 ("Weapon Amplification", "Weapon_Amplification", 20 + t["lvl.all"] + t["lvl.physical"], r"\+?([\d.]+)% additional Physical Damage")]
+                 ("Weapon Amplification", "Weapon_Amplification", 20 + t["lvl.all"] + t["lvl.active"] + t["lvl.physical"], r"\+?([\d.]+)% additional Physical Damage")]
     present = []
     for name, key, lv, rx in aura_defs:
         for x in others:
@@ -385,7 +387,12 @@ def dps(build, trees, verbose=False):
     # enemy side
     e = {}
     e["Frostbite"] = 1 + sh["frostbite_rating"] * (1 + sh["frostbite_effect"] / 100) / 100
-    e["Biting Cold"] = 1 + skill_value("Biting_Cold", sh["level_biting_cold"], r"\+?([\d.]+)% additional Cold Damage taken") * (1 + t["curse.effect"] / 100) / 100
+    # Biting Cold: slotted (level = 20 + skill levels) or a gear trigger at a fixed level (Sacrificer's Necklace base affix
+    # "Triggers Lv. 20 Biting Cold Curse upon dealing damage", ctx biting_cold_level = 20). Curse Effect scales either.
+    bc_lv = ctx.get("biting_cold_level") or sh["level_biting_cold"]
+    e["Biting Cold"] = 1 + skill_value("Biting_Cold", bc_lv, r"\+?([\d.]+)% additional Cold Damage taken") * (1 + t["curse.effect"] / 100) / 100
+    if any(x.split(" [")[0].strip() == "Timid" for x in others):   # second curse (needs "You can cast 1 additional Curses"): +N% additional Hit Damage taken
+        e["Timid"] = 1 + skill_value("Timid", sh["level_timid"], r"\+?([\d.]+)% additional Hit Damage taken") * (1 + t["curse.effect"] / 100) / 100
     e["Deepened Curse"] = 1 + skill_value("Deepened_Curse", sh["level_support_plain"], r"([\d.]+)% additional damage") / 100
     # Weakness Infiltration on Speed Phantom: +30% Infiltration Effect taken for 4 s when it deals damage
     sp_wi = any(x.startswith("Speed Phantom") and "Weakness Infiltration" in x for x in build.get("skills", {}).get("others", []))

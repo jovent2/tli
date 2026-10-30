@@ -98,6 +98,13 @@ Needs: ratio +12, attack +27, spell +25. Cheapest: 2 Medium Fate Block Ratio (6+
 "+12-15% Attack and Spell Block" costs the proj speed line (x0.88) — keep proj speed. The chest's +75 INT (x1.08) + 10% ele res (frees the light-res
 kismets) refunds about half of the x0.81. Ratio stays capped at 60: the 80 cap needs nodes from panels he doesn't run.
 
+## Ring R and the block cap with Fluffy Ball kept (2026-10-30 20:15)
+Ring R prefixes: +404 ES (basic), +85% damage (basic), +20% ele/ero pen (advanced); one advanced slot free. Replacing the 85% damage: T0 INT (~75)
+x1.008, T1 (60) x0.984 — a wash; **+16-20% Attack and Spell Block** is the one: 0 DPS on the ring, but attack 92 / spell 94 (98 with the memory 5 -> 9),
+so the cap needs 2 attack-block + 1 spell-block micros instead of 7, and with Fluffy Ball staying (4th medium slot) the ratio's +12 has to be 4 micro
+ratios (3 each) — without the ring block the cap needs 11 micros of 9 and doesn't fit at all. Layout: 4 ratio + 2 attack + 1 spell + 2 INT/res micros
+= 60/100/100; vs today: -85% damage x0.89, -40 INT x0.93, -18% light res; chest +75 INT x1.13 and +12% ele res -> ~x0.94 all-in for x1.6 hit EHP.
+
 ## Open questions for Vlad
 - Which boots res line Hasten replaced; current kismet layout.
 - Exact lines on each GoK slate and where Fallen Starlight sits now.

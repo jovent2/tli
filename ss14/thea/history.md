@@ -59,3 +59,4 @@
 - 2026-10-30 17:40: Vorax chest + organ priced (plans.md); engine: Cage multiplier now follows the chest (was hardcoded).
 - 2026-10-30 19:55: Vlad: big INT kismets gone, 3 block-ratio mediums (48/73/75 block), Prophet+Lich stay, Pedigree Dirty Tricks, Phantasmagoria on Prophet 352_176; dual wield = +30% attack block (mechanics.md). Block-cap recipe priced (plans.md).
 - 2026-10-30 19:57: full gear/memory/slate/kismet/tree re-sync from screenshots (build.md top section, build.json, trees.json). Block 73/75/48 reproduced exactly by the model. Tests need a fresh pull.
+- 2026-10-30 20:15: Corner of Divinity removed (gone in game); ring R block line + kismet layout for the block cap priced (plans.md).

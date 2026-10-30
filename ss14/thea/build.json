@@ -328,15 +328,6 @@
    ]
   },
   {
-   "name": "A Corner of Divinity (legendary, on line +40%, values shown post-boost)",
-   "effect_pct": 0,
-   "on_line": true,
-   "lines": [
-    "+7% Spell Critical Strike Damage per stack of Focus Blessing owned",
-    "+3 Horizontal Projectile Penetration(s)"
-   ]
-  },
-  {
    "name": "Nether King's Divinity: Judgment",
    "effect_pct": 0,
    "lines": [

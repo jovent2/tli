@@ -17,7 +17,8 @@
 - **Block from the model = in game**: attack 30 (dual wield) + 19 + 15 + 9 = 73 · spell 19 + 15 + 5 + 12 + 24 = 75 · ratio 30 + 18 = 48.
 - **Res (model, gear+slates+kismets)**: fire 59 · cold 68 · lightning 50 · erosion 43 (cap 75).
 - Engine after the sync: 33.3 T belt off / 82.5 T belt on, but the regression pulls were taken on the old gear (tests now 10-30% off): needs a fresh sheet + belt-off pull.
-- Open: Corner of Divinity still equipped? Prophet: Spell Ripple still installed, and is Frozen Lotus the core now? Memory slot 1 lines (build.json has 5, the 10-27 note says INT only).
+- 20:09 [Vlad]: memory slot 1 = the 5 lines in build.json (correct); A Corner of Divinity is GONE (removed from build.json: -7% crit dmg/Focus); Spell Ripple still in on
+  Prophet; Fluffy Ball stays (Malign Embrace makes every hit a crit). Engine: 72.1 T belt on / 29.1 T off. Marginals: +1 INT = +0.17%, +1% damage = +0.13%.
 
 
 **Boss setup** (Vlad 2026-10-28). For clearing he swaps about half of it: Lightchaser, Swiftness, Blink, 2 different pets. Not modeled; boss upgrades carry over.

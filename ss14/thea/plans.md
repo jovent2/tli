@@ -127,20 +127,33 @@ Engine, both sides with the wand T0 double (A = today 72.1 T):
 Engine changes: ctx `biting_cold_level` (gear trigger at a fixed level), Timid in skills.others as a 2nd curse, "+N Active Skill Level" now raises
 every active skill (Chromatic, auras, empowers, curses, Blizzard, Speed Phantom), not supports.
 Open: whether the Lv. 20 trigger inherits Curse Effect / Deepened Curse (modeled: Curse Effect yes, Deepened Curse moves to Timid).
-Chest slot catch: "You can cast 1 additional Curses" is a chest ULT prefix (T1; T0 adds 8-10% Curse Effect) — 2 ultimates per item, so on the Vorax chest it
-is curse + aura and the cold/pen ult prefix (x1.18) walks, not the %INT adv suffix. Timid step net x1.21, the neck's INT then counts (x1.11): plan x1.42.
+Chest (Vlad 22:32): the chest is the rare **Long Night Sorcerer's Robe** (Netherrealm INT chest, +170 gear ES), NOT a Vorax: prefix T0 ES (B) / T0 proj speed
+(A) / T0 INT (A); suffix T0 ES (B) / T0 crit rating (B) / T1 aura effect (U); base ARP + Sealed Mana Comp. "+1 Curse" (chest ult prefix) takes the T0 INT
+prefix: curse + aura = the 2 ultimates, legal. (My "cold/pen walks" line was the dead Vorax plan — wrong.)
+Skill slots [Vlad]: **5 active + 4 passive (auras)**; an aura cannot go into the freed active slot, so the Domain Expansion idea below is dead.
 
 ### Fervor and the ring bases (2026-10-30 22:30, engine)
 - **Have Fervor** (Fervor Rating 1/hit on Elites, 100 max, +2% crit rating each = +200% increased): x1.19 today (crit 68 -> 85), x1.20 in the neck plan
   (81 -> 100, capped). Sources: Necklace ULT PREFIX (the tangle line's slot: Fervor there = x0.73 vs the plan — never), Vorax Limb: Digits (ring) BASE
   affix (rare rings only have "+15-20% Fervor effect"), Ronin slate "Endless Fervor" (Max Active Divinity 1), Dawn Break belt (loses Gale), Opening Heart
   (DEX helmet; Malign stays). Vorax ring base alternatives: +2 Spell Skill Level x1.21, +1 Active x1.11, +1 Max Focus x1.13, Has Hasten x1.08, 8% aura x1.09.
-- **Rare ring base "Triggers Lv. 20 Timid Curse upon dealing damage to enemies. Cooldown: 0.2 s"**: both curses on gear -> the Biting Cold slot takes
-  **Domain Expansion** back (38.5% additional Area Damage at L30; Chromatic Shot has the Area tag; it was WA's victim) = x1.44 alone; Deepened Curse dies
-  (x0.95), Timid Lv20 vs L26 (x0.975). Over the Timid-slotted plan: ring L base (Trauma immunity gone) x1.34; ring R base (Spell Aggression base gone,
-  x0.873) x1.17; **ring R base + Spell Aggression moved to the neck adv prefix ("Gains Spell Aggression when casting a Spell Skill / +(40-60)% Spell
-  Aggression Effect" T0 = 10.5/10.5, x1.22 vs the base's x1.145) in the INT's place, ring L keeps Trauma: x1.42 with INT uncounted, x1.28 with the INT
-  loss counted.** Needs the 5th aura's reservation to fit (Restrain). Engine: ctx `timid_level` (ring trigger), Deepened Curse only with a slotted curse.
+- Rare ring base "Triggers Lv. 20 Timid Curse upon dealing damage to enemies. Cooldown: 0.2 s": a ring with it is ~23k FE on the market [Vlad]. The
+  Domain-Expansion-in-the-freed-slot idea is DEAD (aura = passive slot). What the freed ACTIVE slot can take instead of a slotted Timid: **Ice Bond**
+  (Empower + Sentry, Euphoria while the Sentry is near you: "+N% additional Cold Damage against Frostbitten enemies", 24% at L20 +0.25%/level; L32 here
+  = 27.25%) x Empower Effect from its own WFB (x3) + Mass Effect (ctx charges 3) = 2.04 -> **x1.54** (x1.36 if Mass Effect's charges don't apply to it —
+  does Ice Bond have charges? unverified). Ice Bond needs no 2nd curse, so the chest keeps its T0 INT and the neck's T0 INT is real (+70 flat = +90
+  with the %INT lines, x1.14): **Ice Bond slot = x1.17 over the Timid-slotted plan (x1.77 vs today; x1.04 if ME doesn't apply)**. Deepened Curse is
+  gone either way (the neck's Biting Cold has no supports).
+- Neck adv prefix, SA vs INT: T0 INT x1.14. "Gains Spell Aggression when casting a Spell Skill / +(40-60)% Spell Aggression Effect" T0: with ring R's SA
+  base kept only the +50% effect is new (7 -> 10.5% damage and cast) = x1.067 -> INT wins (x0.934). Ring R base -> Immune to Wilt with SA moved to the
+  neck line: x0.934 vs (INT + ring SA); Wilt base keeping INT and no SA: x0.873. Wilt immunity costs 6.6% the cheap way.
+- The 23k Timid ring on top of Ice Bond: ring R base (SA -> neck line, chest INT -> +1 curse) x1.11; ring L base (Trauma immunity gone, INT stays on
+  the neck) x1.22. Vlad: "good joke" — agreed at 23k.
+- **Fervor vs the 18% aura on the neck** (A U U | B B A, Fervor as the 2nd ult prefix): x0.99 today, x1.06 after the prism (the aura line is x1.21 today,
+  x1.13-1.16 post-prism; Fervor x1.20 either way). A wash; with Fervor every crit-rating line elsewhere (ring L's 114% basic, prism crit-rating ranks)
+  is dead/free. Vlad: not touching it.
+- 5 T hit cap: post-prism the Ice Bond world sits at ~220 T with a max hit of 6.8 T -> cap_factor 0.95 and falling; from there casts, tangles and
+  projectiles are worth more than per-hit multipliers (the aura line post-prism is x1.13 instead of x1.18 for that reason).
 - Ring L as a new item (2 U + 2 A + 2 B): ult prefix pen T1 15-20 -> tier-upgrade T0 21-26 = x1.21 (res -9%); "+(25-30)% additional damage against Frozen"
   ult suffix would be x1.255 but exists only at T0/T0+ (weight 0, no T1) — not rollable unless Vlad has seen it on a rare.
 - scan.py rerun on the re-synced build (72.1 T): nothing new above the plan; it only swaps same-group lines, so new-item ults (ring L) never show there.

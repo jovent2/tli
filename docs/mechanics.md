@@ -164,3 +164,8 @@ DPS = Base
   copy (x3): 4 = one of two copies tripled, 6 = both; 5 is impossible and 6 is the most ever seen. Expected copies = (1 + min(1, sum)) x 1.26.
 - Machines stack: Creation 30 + Colorful (Artifact) 50 + Kong 20 + Sky's Dome 10 = 110% -> capped; the Fluorescent probe's 20% and a
   plain Colorful add nothing there.
+- **Skill slots** [Vlad 2026-10-30]: 5 active + 4 passive; auras live in the passive slots, so a freed active slot (e.g. a curse moved to a gear trigger) can only take an active skill (empower, curse, sentry...).
+- **Gear curse triggers** [tlidb]: Necklace base affix "Triggers Lv. 20 Biting Cold Curse upon dealing damage to enemies. Cooldown: 0.2 s"; Ring base affix the same for Timid / Entangled Pain; chest ult prefix "You can cast 1 additional Curses" (T1; T0 adds 8-10% Curse Effect). A triggered curse is a fixed level and has no supports (no Deepened Curse). Engine: ctx `biting_cold_level` / `timid_level`.
+- **Ice Bond** [tlidb]: Empower + Sentry; Euphoria while the Sentry is within its area around you: "+N% additional Cold Damage against Frostbitten enemies" (24% at L20, +0.25%/level), scaled by Empower Effect (its own WFB / Mass Effect). Engine: in skills.others with its supports. Whether Mass Effect's charges apply to it is unverified.
+- **Fervor** [tlidb]: Fervor Rating +1 per hit on an Elite while Fervor is active (10 s base), max 100, +2% Attack and Spell Critical Strike Rating per point (= +200% increased on the rating pool). Sources: Necklace ult prefix "Have Fervor" (T0 +5% / T0+ +12% additional), Vorax Limb: Digits base affix, Ronin slate "Endless Fervor", Dawn Break (belt), Opening Heart (DEX helmet).
+

@@ -25,7 +25,7 @@ BELT = {"remove_lines": [["belt", "+18% chance to deal Double Damage"]],
 
 
 def plan(neck, tangles=(3, 1), timid=True, belt=True, aura_delta=0.0):
-    ch = {"remove": ["gear:neck"], "add_items": [["neck", neck]],
+    ch = {"remove": ["gear:neck"], "add_items": [["neck", list(neck)]],   # copy: callers append to it
           "add_lines": list(WAND_DD) + (BELT["add_lines"] if belt else []),
           "remove_lines": BELT["remove_lines"] if belt else [],
           "context": {"tangles_active": tangles[0], "tangles_dormant": tangles[1], "hasten": not belt, "biting_cold_level": 20}}

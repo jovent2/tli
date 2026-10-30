@@ -367,6 +367,16 @@ def dps(build, trees, verbose=False):
     sp_eff = 1 + (mass_effect(sh, ctx.get("mass_effect_charges", 3)) / 100 if sp_me else 0)
     sp_on = any(x.startswith("Speed Phantom") for x in build.get("skills", {}).get("others", []))
     m["Speed Phantom Euphoria"] = (1 + skill_value("Speed_Phantom", sh["level_speed_phantom"], r"([\d.]+)% additional Spell Damage, up to") * 8 * sp_eff / 100) if sp_on else 1.0
+    # Ice Bond [tlidb]: Empower + Sentry; Euphoria while the Sentry is near you: "+N% additional Cold Damage against Frostbitten enemies" (24% at L20,
+    # +0.25%/level), scaled by Empower Effect from its own supports (WFB x3 stacks, Mass Effect at the ctx charges) like Aim / SOU.
+    for x in others:
+        if x.split(" [")[0].strip() == "Ice Bond":
+            lv_ib = 20 + t["lvl.all"] + t["lvl.active"] + t["lvl.spell"] + t["lvl.cold"]
+            lvs = sh["level_support_plain"]
+            wfb = skill_value("Well-Fought_Battle", lvs, r"([\d.]+)% Effect every time") * 3 if "Well-Fought Battle" in x else 0
+            me_ = mass_effect(sh, ctx.get("mass_effect_charges", 3)) if "Mass Effect" in x else 0
+            v_ib = skill_value("Ice_Bond", lv_ib, r"([\d.]+)% additional Cold Damage against Frostbitten")
+            m["Ice Bond Euphoria (vs Frostbitten)"] = 1 + v_ib * (1 + (wfb + me_) / 100) / 100 if frozen or sh["frostbite_rating"] > 0 else 1.0
     m["Spell Aggression"] = 1.07 if ctx["spell_aggression"] else 1.0
     if t.get("special.judgment_slate_bonus"):
         m["Judgment Offspring (+3% per slate on the line)"] = 1 + t["special.judgment_slate_bonus"] * ctx.get("slates_on_line", 0) / 100

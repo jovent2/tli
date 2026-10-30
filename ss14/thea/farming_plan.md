@@ -34,6 +34,29 @@ Tree for the Ember farm (92 Star + 4 Prime; pictures `ss14/thea/trees/deepspace_
 Play: start the trial first, push levels (the Automaton is invincible until max level), kill the Automaton, finish the map.
 Cards in the deck from the tree: Irritable - Might (ember replicate 15/20/40%), Willful - Might (+100% trial drop, 1 attempt), Mad.
 
+### Vlad's Profound Machines, 2026-10-30 log (25 maps 10:23-12:40 EET)
+107 s/map, 0 deaths, net 73/map = 41 FE/min — all of it 11 Disappearing Shadows (227 FE, plane-exclusive memory) in 3 maps (x5, x3, x3:
+one drop event replicated by Colorful (A) 50% + probe 40% + Focus); without them -14/map. CN Profound Machines: 0.50 Shadow/map over
+432 runs; Vlad 0.44 — at par; a 13-map gap at ~0.135 events/map happens 17% of the time. Secrets 78/map vs CN 85-127; FE 15 vs 20-29.
+Transgression in Profound (10 maps): Secrets 89 vs 71, i.e. +5 FE for 44 — drop it there.
+**Focus Fluorescent**: +50% chance for *Exclusive* (plane / gameplay) memories. Disappearing Shadow is one -> Focus stays in Profound
+(CN: 0.51 with vs 0.48 without, 7 strategies). Immolating Flame (119, the Deep Space money) is a "Deep Space difficulty" drop, not
+exclusive: CN Deep Space Machines with Focus 0.59/map (761 runs) vs without 0.77 (16.7k runs) -> no Focus in Deep Space.
+Deep Space Machines for Vlad: same tree, swap Focus -> Transgression 44 + Strength in Numbers 1, Profound probe -> Fluorescent DS probe
+29 (+0.24 Immolating +59 Secrets = +39 net for 29), T8 beacon -> DS beacon 23.5: CN net 108/map at 105 s = 62/min (8,199 runs);
+at his 107 s ~60/min vs 41 in Profound.
+
+### Alert Outlaw + All-Evil Vigil stack (Deep Space) — the one he likes
+Alert Outlaw 32 + All-Evil Vigil 62 + Generous Elite 16 (not Bountiful: the Bountiful version is -7/min over 804 runs) + Sinful Plunder (A)
+45 + **Flourishing Deep Space Probe** 29 + beacon 23.5 + ~3 resonance = 227/map. 26 strategies / 2,842 runs: gross 309 (FE 100, Nether
+King's Divine Remnant 0.80 = 47, Warlock 0.75 = 45, Vanguard 0.39 = 16, Fossil 9, Tank 5), net 77 at 100 s = 46/min run-weighted; median
+player 31/min, top third 70-97/min (net 110-173 at 80-107 s) on the same tree — good players: FE 113, Warlock 0.95, Remnant 0.96 per map;
+the rest FE 91 / 0.61 / 0.71. The FE engine is All-Evil: each Manifestation killed = Fright stack (max 3) = +100% additional Vigil drop.
+Tree (pictures `ss14/thea/trees/deepspace_alert/`): Outlaw 28 (#48-75: 21 "+1% Security" micros, +6%, reinforcements Rare, Oppressive
++30% after Bounty Order, Imperious +2%/10 bodyguards, Super Sonic +23%, Expansion Mods more likely, Warlock more likely), Afterlight 39
+(29 "+1% Vigil" micros, Noble Coffins +25%, Vigil Goblin + its +100%, Nether King's Divinity replicate 10% / +1 from Wraith bosses /
+Banishment / Judgment, +8%, White Night + its +12%), Profound +12% additional (25 Star) = 92; Prime +2%/+2%/+2%/+12%, no -4 attempts.
+
 Decision: run 5 Ember maps with the log on (cost ~540 FE) -> `gamelog.py` gives s/map and UE/map; above ~130 s it loses to Safari.
 Machines in Deep Space is the same FE/min as Machines in Profound (CN 51-60 there) and needs his bubble fix (3 min maps = 22-30/min).
 Doll is the safest number (25k runs) but 350 FE a map of compasses and a timing minigame; at CN speed 43-51/min.

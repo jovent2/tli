@@ -150,9 +150,11 @@ def sheet(build, trees):
     lv_all = t["lvl.all"]
     sh["level_chromatic"] = 20 + lv_all + t["lvl.spell"] + t["lvl.cold"] + t["lvl.physical"] + t["lvl.projectile"] + t["lvl.main"]
     otbt = 4 if ctx.get("off_the_beaten_track", True) else 0                 # Lich core: +4 support levels
-    sh["level_support_spell"] = 20 + lv_all + otbt + t["lvl.spell"]        # Spell Tangle, Manifold
-    sh["level_support_proj"] = 20 + lv_all + otbt + t["lvl.projectile"]    # Target Projection
-    sh["level_support_plain"] = 20 + lv_all + otbt                         # AA, Mass Effect, WFB, Deepened Curse, Restrain
+    core_sup = sum(v for src, k, v, c, l in recs if k == "lvl.support" and src.startswith("core:"))   # OTBT's own "+4 Support Skill Level" line
+    sup = otbt + t["lvl.support"] - core_sup                                 # OTBT via the ctx switch; other "+N Support Skill Level" lines (Vorax neck) add
+    sh["level_support_spell"] = 20 + lv_all + sup + t["lvl.spell"]         # Spell Tangle, Manifold
+    sh["level_support_proj"] = 20 + lv_all + sup + t["lvl.projectile"]     # Target Projection
+    sh["level_support_plain"] = 20 + lv_all + sup                          # AA, Mass Effect, WFB, Deepened Curse, Restrain
     sh["level_aura_spell"] = 20 + lv_all + t["lvl.spell"]                  # Spell Amplification
     sh["level_aura_cold"] = 20 + lv_all + t["lvl.cold"]                    # Frigid Domain
     sh["level_aura_proj"] = 20 + lv_all + t["lvl.projectile"]              # Precise Projectiles

@@ -105,6 +105,16 @@ so the cap needs 2 attack-block + 1 spell-block micros instead of 7, and with Fl
 ratios (3 each) — without the ring block the cap needs 11 micros of 9 and doesn't fit at all. Layout: 4 ratio + 2 attack + 1 spell + 2 INT/res micros
 = 60/100/100; vs today: -85% damage x0.89, -40 INT x0.93, -18% light res; chest +75 INT x1.13 and +12% ele res -> ~x0.94 all-in for x1.6 hit EHP.
 
+## Vorax neck vs I Am Truth (2026-10-30 22:00, engine)
+I Am Truth = x1.89 (+4 all skill levels x1.615 — supports and auras too; stats x1.167) + the 40% duration that keeps the 2nd Boon stack (margin 1.00).
+Belt rework to free the neck (Hasten out x0.926, 18% double out x0.965, +30% duration +25% CDR in): x0.894, Boon margin 1.12 -> the neck must beat x2.11.
+Vorax neck lines: +1 attachable Tangle x1.22 dormant (DE 1.8 -> 2.2) / x1.53 attached (3 casters) · +9 Support Skill Level x1.15 · +20% aura x1.245 now,
+x1.12 after a +63% prism · +75 INT x1.13 · +60% crit dmg x1.12 · base +2 Spell Skill Level ~x1.17 · base "cast 1 additional Curse" (the +1 curse need not
+come from the chest). Package x2.08 (dormant) / x2.6 (attached) before the Biting Cold lv20 base affix (frees the curse slot; Vlad's x1.39 for a 5th aura
+unverified). Test: does the extra tangle attach on a single target? Chest basic T0 crit dmg mitigation (75) + boots 58 = 133: if 100 is the cap, both
+Fluffy Balls go and the ratio micros become mediums (+54 INT) — better than the 400 ES basic.
+Engine: "+N Support Skill Level" lines now count (OTBT's own +4 line no longer double-counts with the ctx switch).
+
 ## Open questions for Vlad
 - Which boots res line Hasten replaced; current kismet layout.
 - Exact lines on each GoK slate and where Fallen Starlight sits now.

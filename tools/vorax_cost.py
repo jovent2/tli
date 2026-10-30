@@ -45,13 +45,18 @@ def rainbow(walk):
     return CHEST + JUNK + one_line(RAINBOW + SUTURE, p_offered(4, 1), 2 / 6, 4 / 6, walk)
 
 
-def cage(walk, lines=2):
+def cage(walk, lines=2, forced=False):
+    """forced: a bad offer must be applied (one of the 2 shown lines goes on the item). Line 1: harmless, the junk L is scraped off with junk
+    crafts (every craft on its side has 1/3 to overwrite it) and the layout reset. Line 2: a junk L on the far side is scraped off safely;
+    on the first L's side (2/5) the scraping kills the first L half the time -> back to zero (redo line 1)."""
     attempt = CAGE + SUTURE
     if lines == 1:
         return CHEST + JUNK + one_line(attempt, p_offered(5, 1), 2 / 6, 4 / 6, walk)
     e1 = one_line(attempt, p_offered(5, 2), 2 / 6, 4 / 6, walk)   # either wanted line (Cage stacks / Extreme Coldness)
-    e2 = one_line(attempt, p_offered(4, 1), 1 / 5, 2 / 5, walk)   # the other line: 1/5 the free B, 2/5 the other side's A/U (walk),
-                                                               # 2/5 the first L's side -> one organ lost, one good L remains (sides matter: each side ends L A U)
+    p_off = p_offered(4, 1)
+    p_ok = p_off * (1 / 5 + (2 / 5 * 0.5 if walk else 0.0))     # 1/5 the free B, 2/5 the far side's A/U (walk), 2/5 the first L's side (organ lost)
+    p_zero = (1 - p_off) * 2 / 5 * 0.5 if forced else 0.0        # forced junk L on the first L's side, scraped off at the cost of the first L
+    e2 = (attempt + JUNK + p_zero * e1) / p_ok
     return CHEST + JUNK + e1 + e2
 
 
@@ -63,4 +68,4 @@ if __name__ == "__main__":
         print(f"\n== {'reset after a wrong landing (Vlad)' if not walk else 'junk craft on the L side first: saves the organ 1/2 of the time'}")
         print(f"  Rainbow (+19% line):                 {rainbow(walk):9,.0f} FE  (+ mods {mods:,.0f})")
         print(f"  Cage, Cage-stacks line only:          {cage(walk, 1):9,.0f} FE")
-        print(f"  Cage, stacks + Extreme Coldness:      {cage(walk, 2):9,.0f} FE")
+        print(f"  Cage, stacks + Extreme Coldness:      {cage(walk, 2):9,.0f} FE   (bad offers forced onto the item: {cage(walk, 2, forced=True):,.0f})")

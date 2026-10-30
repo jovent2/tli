@@ -56,7 +56,7 @@ Every new session starts by reading this file, then the files listed under "Read
   - `sources.py` — "where do I get X" (`data/sources/<stat>.md`); `stats.py` — game text → stat keys
   - `value.py` — quick single-line marginal value on `ss14/thea/stats.json` (older, simpler than engine.py)
   - `slate_plan.py` — plan a divinity slate craft (base, naked vs pact rolls, restores)
-  - `neck_plan.py` — the Sacrificer's Necklace + Timid plan vs I Am Truth, step by step (`vorax_cost.py` — Vorax chest + Core Organ expected cost)
+  - `neck_plan.py` — the Sacrificer's Necklace plan vs I Am Truth, step by step; `ring_plan.py` — the Vorax ring L on top of it and what the 5 T hit cap leaves (`vorax_cost.py` — Vorax + Core Organ expected cost)
   - `tower_rnd.py` — TOWER Sequence R&D odds (optimal chip picks, single target or value-weighted)
   - `tower_policy.py` — the full In-Depth pick table (expectimax on damage gain vs the held sequence)
   - `tree_opt/` — tree search: `opt3.py` (real pairing rule), `blockplan.py` (panel x prism cell search), `blockfit.py` (belt/ring/kismet/memory block+res fit, ES/EHP)

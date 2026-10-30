@@ -154,6 +154,25 @@ Skill slots [Vlad]: **5 active + 4 passive (auras)**; an aura cannot go into the
   is dead/free. Vlad: not touching it.
 - 5 T hit cap: post-prism the Ice Bond world sits at ~220 T with a max hit of 6.8 T -> cap_factor 0.95 and falling; from there casts, tangles and
   projectiles are worth more than per-hit multipliers (the aura line post-prism is x1.13 instead of x1.18 for that reason).
+
+### Vorax ring L (Vlad 2026-10-30 22:52; `tools/ring_plan.py`) — L A U | L A U, base "+1 to Max Focus Blessing Stacks"
+L Have Fervor + L "+1% additional damage per (2-3) Fervor Rating" from **Organ: Dawn Break** (belt legendary, 73 FE; "Graft: Boots、Ring、Belt" per the
+Core Organ - Belt page, so a ring is legal; costs Tenacious Suture x5 = 170 per graft). The organ's pool: +(500-1000) Armor/Evasion, +(50-100) random stat,
+Have Fervor, "Has (60-70) fixed Fervor Rating" (the one to avoid — pins the rating), the +1%/(2-3) line. Expected for both L lines (vorax_cost math, pool 5,
+forced offers): ~2.2k FE with the walk (~9 Dawn Breaks), ~5k with resets; the ring base itself not included. A block (adv prefix) + A crit dmg (adv suffix)
+from Vital Organ (Matchless) 62.5 per try; U ARP = Flawless Spine: Impalement 149; U CDR = Flawless Ears: Echoing 45 (the only ring specials: CDR,
+duration, double, ARP, channeled, spell burst, mana, main-hand). Cutting Instrument 294 re-rolls values (per-2 vs per-3 = x1.05).
+Belt: 18% double -> +30% duration, **Hasten stays** (ring CDR 30 + belt duration 30 -> Boon margin 1.16; I Am Truth not needed — Vlad is right).
+Lost: Trauma immunity (only the corroded Dawn Break has "Immune to Trauma while Fervor is active", organs are uncorroded), 20% light + 25% ero res, 68% damage, 114% crit rating.
+Engine (Sacrificer neck + Ice Bond + INT + this ring, belt Hasten kept): **x2.09 over the current ring L, the whole package x4.0 vs today (288 T)**.
+Marginals in that world (ring without the line): Dawn Break line x1.29 (per-2) · Fervor x1.23 (crit 70 -> 90 after the 114% basic is gone) · ARP 20% x1.14
+· crit dmg 70 x1.05 · +1 Focus x1.05 · block/CDR 0 (block cap / Boon only).
+**The 5 T hit cap now matters**: at 288 T the cap already eats 15% (max hit 8.3 T; uncapped would be x4.7). In that world: Phantasmagoria 18 aura ranks
+= x1.06 (x1.83 uncapped) and the planned swap of the aura prism into the Spell Ripple core's place = **x0.71 — keep Ripple**; 18 micro ranks of cast
+speed = x1.19; Multiple Projectiles instead of Target Projection x1.22 (instead of Overload x1.17, Condensed Cold x1.08); a 4th attached tangle x1.32 (no
+gear source besides a Vorax neck/head); the wand's T0 double is worth x1.03. Per-hit multipliers (crit dmg, "additional", aura) are half-dead; hits/s
+(cast speed, projectiles, tangles, Ripple) are not. All of this hinges on the 5 T per-hit cap being real [Vlad, mechanics.md]: today the model's biggest
+hit is 3.3 T — if 5 T hits already show on the dummy, the scale is off and the cap bites earlier.
 - Ring L as a new item (2 U + 2 A + 2 B): ult prefix pen T1 15-20 -> tier-upgrade T0 21-26 = x1.21 (res -9%); "+(25-30)% additional damage against Frozen"
   ult suffix would be x1.255 but exists only at T0/T0+ (weight 0, no T1) — not rollable unless Vlad has seen it on a rare.
 - scan.py rerun on the re-synced build (72.1 T): nothing new above the plan; it only swaps same-group lines, so new-item ults (ring L) never show there.

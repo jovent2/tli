@@ -109,6 +109,11 @@ Tree crit total 315% (Magister/Prophet/Lich 105 each).
 - Swift Shadow Raid III [Periodic Burst, Deep Wounds]: +40% proj speed 4 s, +20% atk/cast 4 s, Trauma.
 - Ailment types on the boss for Dirty Tricks: Frostbite, Freeze, Ignite, Numbed, Wilt, Trauma = 6 → ×1.97.
 
+## Kismets / block (2026-10-30 19:49, Vlad)
+- The big INT kismets are gone; 3 Medium Fate: Block Ratio (6 each) -> block ratio 48%; attack block 73% (incl. +30% from dual wielding), spell block 75%.
+  Prophet being reselected (24 pts in the screenshot: cold res legendary and 2 ranks of the +4% cold res micro dropped). Direction: Prophet + Lich stay,
+  Pedigree = Dirty Tricks, Phantasmagoria (micro, aura effect) on Prophet 352_176, block capped through kismets, Vorax chest to refund INT/res.
+
 ## Kismets (2026-10-27, Vlad's totals)
 - 13 destinies: +152 INT · +14% crit dmg · +20% lightning res · +60% crit strike damage mitigation. Slots: Witch 6 (Spell Dmg I x2, Spell Dmg II, Cast I x2, Cast II positions), Iron Lion 3 (knockback positions), Dreamweaver 4 (Ele Dmg I, Cast I x2, Cast II).
 

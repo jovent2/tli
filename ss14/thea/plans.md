@@ -90,6 +90,14 @@ belt on; mediums crit/+5 frost/+8% frost effect (have) + 5% INT + regain (6 new 
 (tests.md 2026-10-25), going anyway for CC immunity; the freed core is Frozen Lotus x1.25 (Cage) or Extreme Coldness (Vorax).
 Net of Ripple with Frozen Lotus: 9 ranks x1.17 · 12 x1.29 · 15 x1.41; with Extreme Coldness in the core: x0.94 / x1.03 / x1.13.
 
+## Block cap from 48/73/75 (2026-10-30 19:55) — engine marginals, belt on
+Needs: ratio +12, attack +27, spell +25. Cheapest: 2 Medium Fate Block Ratio (6+6, each replaces a 30-INT medium: x0.962 each) · ring L +52 INT line ->
+"Attack and Spell Block" T0 16-20 (both types, x0.933) · 1 Medium Fate Attack Block 12-15 (x0.962) · 1 Micro Fate Spell Block 6-8 (x0.98)
+= 60/100/100 for **x0.81**; hit EHP 1/(1 - block x ratio): 1.54 -> 2.5 = x1.6 vs attacks and spells (DoT unchanged). Alternatives: memory slot 2's
++41% spell crit dmg -> T0 spell block 25-31 is x0.924 (worse than ring + micro); Magister 24% spell block for 4 pts x0.957; Vorax adv prefix
+"+12-15% Attack and Spell Block" costs the proj speed line (x0.88) — keep proj speed. The chest's +75 INT (x1.08) + 10% ele res (frees the light-res
+kismets) refunds about half of the x0.81. Ratio stays capped at 60: the 80 cap needs nodes from panels he doesn't run.
+
 ## Open questions for Vlad
 - Which boots res line Hasten replaced; current kismet layout.
 - Exact lines on each GoK slate and where Fallen Starlight sits now.

@@ -127,6 +127,10 @@ DPS = Base
 
 ### Block / EHP [2026-10-27]
 - Block [tlidb]: attack and spell block chance separate, cap 100%; block ratio 30% base (+25% Defensiveness = 55%), max 60% (80 with raisers). Hits only, not DoT.
+  **Dual wielding gives +30% Attack Block Chance** [Vlad 2026-10-30, in game; tlidb implies it: Twinblade Onslaught removes it, Ronin's Tradeoff is -30%].
+  Block ratio upper limit 60 -> 80 only via "+10% Block Ratio and Block Ratio Upper Limit" / Invulnerability (other hero panels) and The Brave's +5% Max; none in his panels.
+  Kismets: Micro Fate Block Ratio 1-3, Medium 4-6; Attack/Spell Block micro 6-8, medium 12-15. Memory T0 random block line 25-31 (one type per line).
+  Ring/belt Advanced prefix "Attack and Spell Block" T1 12-15 / T0 16-20 (both types). Vorax chest Advanced prefix +(12-15)% Attack and Spell Block.
 - Low Mana = current mana under 35% of max [glossary]; at 97% sealed it is always on, so the belt's "-X% additional damage taken at Low Mana" is permanent (read, ~90%).
 - Defense = Armor + Evasion + ES [glossary]: a "+X% Defense" line is +X% ES for Vlad.
 - ES model: gear/memory flat (boots (146 + 304) x 1.6 local = 720; belt base 80 / Arcanist 110) x (1 + tree/slate ES%); pinned to the sheet (7.3k) with +129 flat (legendary bases).

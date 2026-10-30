@@ -28,6 +28,24 @@ Lottery EV per map (items < 25 drops / 46k runs, shrunk): global 7, Lunaria 8 (O
 Next: his backup logs (`UE_game-backup-*.log`) for the 22-run session and any Machines/Safari sessions -> his own s/map and net/map
 per plan; then the table gets his columns and the recommendation is whichever of Phantom/Lunaria/Bandit vs Machines wins on HIS minutes.
 
+## Safari compass farm (2026-10-30 12:00) — from the CN Revelation strategies, not the column model
+CN: 冰图 罗盘×54/狩猎×35 (30 runs, 68 s, gross 125, cost 59, net 65 = 58/min) and 罗盘×51/狩猎×35 (84 runs, 54 s, gross 97, net 38 = 43/min);
+the Sinful-added versions did worse (net 28; Artifact Sinful -19). Pooled 114 runs: gross ~104, net ~45, 58 s -> 46/min at CN speed.
+Loadout: Revelation Hunting Astrolabe 22 + Vast Ecliptic 16.2 + Ecliptic 1.4 + Lunaria 0.3 (filler for the +2.5%/compass node; CN used
+War 2.9) + Compass Profound Probe 13; beacon 3.3, resonance 3.4 => 59.6/map. Drops are compasses: Collection Doll (A) 0.13 (105 FE),
+Containment Overrealm 0.07 (160), Fated Arcana 0.40 (23), Consultation Vorax 0.17 (54), Alert 0.23, Sinful 0.40, Sinful (A) 0.13,
+Unrivaled Veteran 0.47, Mystery Treasure Gods 0.23 ... (per map, 30-run strategy).
+Tree (92 Star): Compass 56 = 35 micros, 5% replicate, +4%, +2.5%/compass inserted (#12, on the ring; etor never logs it but 35 micros
+are unreachable without it), 2%/3% more valuable, 1% most valuable, Tomorrow's Direction, Giantism, families Raid/Militant/Lunaria/
+Creation(mine, Record 29 FE)/Afterlight/Might/Mechanical/Dark Surge/Cube/Arcana/Outlaw/Overrealm/Vorax. Hunting 36 = 18 "+1% Safari/final"
+micros, 6 "+1%/boss" micros, 3 "1% compass replicate" micros, skip-buff, Insidious (on path; etor doesn't log it), Mistrustful (Safari
+mode, +135% final boss), 2x "2 Safari bosses" (one with 25%/3% extra), +7%/boss, +12%/boss, +7%, 5% compass replicate. Profound: 3 micros
++ 25% major (the generic Drop Quantity's effect on Hunting Rewards is unproven; CN ran 2 Profound micros only). Pictures:
+ss14/thea/trees/hunting/{Compass,Hunting,Loadout}.png.
+Play: Statue of Hunting is at the stage start -> start the trial first, kill all Safari bosses (4 astrolabe + 2 + 2, 25% for +2, 3% for
++6) BEFORE the final boss spawns (blessings only stack until it spawns), then the final boss; it carries up to 15 stacks x (6.5+7+12+6)%.
+Expected for Vlad: ~45 net/map at ~50 s => ~55 FE/min (medium confidence: 114 CN runs, his Safari time unknown). Game log will tell.
+
 ---
 ### Superseded (2026-10-29 23:00) — kept for the trees and card priorities, which still hold; the FE/min numbers do not
 

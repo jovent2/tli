@@ -14,7 +14,7 @@ Two worlds (everything else as planned: Sacrificer's neck INT / +1 attachable Ta
   robe  Long Night Sorcerer's Robe (T0 proj speed 53 / T0 INT 70 / T0 crit rating 140 / T1 aura 18 / base ARP 6) + Phantasmagoria (+63% aura) with
         Extreme Coldness in the freed Prophet core
 God's Boon: the 2nd stack's uptime is taken as clamp(2 x margin - 1) (recast on cooldown; assumption), DPS time-weighted between 2 and 1 stacks.
-Usage: python3 tools/ring_plan.py
+Usage: python3 tools/ring_plan.py [--dummy]   (--dummy: 5 T hit cap on; default uncapped = real maps)
 """
 import sys, os, copy
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -35,6 +35,8 @@ RINGS = {   # None = the current rare ring L (Perishing Inferno Flame Ring: bloc
     "Fervor base | no organ, B ES + B res": [FERVOR, "+400 Max Energy Shield", BLOCK, ARP, CRITD, CDR, "+30% Lightning Resistance"],
 }
 B, T = engine.load()
+DUMMY = "--dummy" in sys.argv   # apply the 5 T per-hit cap (training dummy). Default off: real maps carry damage-taken penalties (two x0.5 is
+                                # normal, Profound Machines ~x0.05 [Vlad 2026-10-30]) that keep real hits far below 5 T.
 
 
 def change(ring_lines=None, neck_u2="active", world="robe", belt_hasten=True, belt_dur=True, extra_lines=(), delta=None):
@@ -45,7 +47,8 @@ def change(ring_lines=None, neck_u2="active", world="robe", belt_hasten=True, be
           "add_lines": [["weapon_m", "+34% chance to deal Double Damage"]] + ([["belt", "+28% Skill Effect Duration"]] if belt_dur else []) + list(extra_lines),
           "remove_lines": [["belt", "+18% chance to deal Double Damage"]] if belt_dur else [],
           "replace_skill": [["Biting Cold", IB]],
-          "context": {"tangles_active": 3, "tangles_dormant": 1, "biting_cold_level": 20, "hasten": belt_hasten}}
+          "context": {"tangles_active": 3, "tangles_dormant": 1, "biting_cold_level": 20, "hasten": belt_hasten,
+                      "hit_cap": 5e12 if DUMMY else 1e30}}
     sd = dict(delta or {})
     if world == "robe":
         sd["aura.effect"] = sd.get("aura.effect", 0) + 63
@@ -78,7 +81,8 @@ def line(label, d, r, ref=None):
 
 
 if __name__ == "__main__":
-    print(f"today (model) {engine.fmt_T(engine.dps(B, T)['dps'])}, max hit {engine.dps(B, T)['max_hit'] / 1e12:.1f} T; hit cap 5 T")
+    print(f"today (model) {engine.fmt_T(engine.dps(B, T)['dps'])}, max hit {engine.dps(B, T)['max_hit'] / 1e12:.1f} T; "
+          f"{'5 T hit cap ON (dummy)' if DUMMY else 'uncapped (real maps)'}")
     for world in ("cage", "robe"):
         print(f"\n== ring L options, world '{world}'")
         ref = None
@@ -91,20 +95,29 @@ if __name__ == "__main__":
         nk = "fervor" if rl is None else "active"
         a = run_mix(change(rl, neck_u2=nk, world="cage"), "cage")[0]; e = run_mix(change(rl, neck_u2=nk, world="robe"), "robe")[0]
         print(f"  x{e / a:.3f}  {name}")
-    for world in ("cage", "robe"):
-        V = RINGS["Vlad: Focus base | 2 Dawn Break L"] if world == "cage" else RINGS["Fervor base | no organ, B ES + B res"]
-        d0, r0 = run_mix(change(V, world=world), world)
-        print(f"\n== single choices, world '{world}' on '{'Vlad ring' if world == 'cage' else 'no-organ ring'}' ({d0 / 1e12:.1f} T)")
-        res = [l for l in V if l != CDR]
-        d, r = run_mix(change(res, world=world, extra_lines=[["ring_l", "+15% Elemental Resistance"], ["ring_l", "+15% Erosion Resistance"]]), world)
-        line("ring ult suffix +15% ele / +15% erosion res instead of CDR", d, r, d0)
-        d, r = run_mix(change(V, world=world, belt_dur=False), world); line("belt keeps its 18% Double (no duration line)", d, r, d0)
-        neck = change(V, world=world); neck["add_items"][0][1] = [l for l in neck["add_items"][0][1] if "Intelligence" not in l]
-        neck["stat_delta"] = dict(neck.get("stat_delta", {}), **{"add.spell": 3.27, "cast.add": 3.27})
-        d, r = run_mix(neck, world); line("Trauma: ring R base SA -> Immune to Trauma, neck INT -> SA line (+50% SA effect)", d, r, d0)
-        for u in ("aura", "none"):
-            d, r = run_mix(change(V, neck_u2=u, world=world), world); line(f"neck 2nd ult: {u} instead of +2 Active", d, r, d0)
-        ch = change(V, world=world); ch["add_lines"] = [x for x in ch["add_lines"] if "Double" not in x[1]]
-        d, r = run_mix(ch, world); line("wand T0 Double Damage not crafted", d, r, d0)
-        ch = change(V, world=world); ch["context"].update({"tangles_active": 4, "tangles_dormant": 0})
-        d, r = run_mix(ch, world); line("4th tangle attached (4 on / 0 off)", d, r, d0)
+    world = "robe"
+    V = RINGS["Vlad: Focus base | 2 Dawn Break L"]
+    d0, r0 = run_mix(change(V, world=world), world)
+    print(f"\n== single choices on Vlad's ring, world '{world}' ({d0 / 1e12:.1f} T)")
+    sw = lambda old, new: [new if l == old else l for l in V]
+    for label, ch in (
+            ("base +2 Spell Skill Level instead of +1 Focus", change(sw("+1 to Max Focus Blessing Stacks", "+2 Spell Skill Level"), world=world)),
+            ("one Dawn Break L, base Have Fervor, freed B = 30% res", change(RINGS["Fervor base | 1 Dawn Break L, B res"], world=world)),
+            ("Dawn Break rolls 1 per 3 (+33%) instead of 1 per 2", change(sw("+50% additional damage", "+33% additional damage"), world=world)),
+            ("ARP T1 15 instead of T0 20", change(sw(ARP, "+15% Armor DMG Mitigation Penetration"), world=world)),
+            ("ult prefix ele/ero pen 24 instead of ARP", change(sw(ARP, "+24% Elemental and Erosion Resistance Penetration"), world=world)),
+            ("ult prefix +1 Focus / +5% additional instead of ARP", change(sw(ARP, "+1 to Max Focus Blessing Stacks") + ["+5% additional damage"], world=world)),
+            ("ult suffix +15% ele / +15% erosion res instead of CDR", change([l for l in V if l != CDR] + ["+15% Elemental Resistance", "+15% Erosion Resistance"], world=world)),
+            ("belt keeps its 18% Double (no duration line)", change(V, world=world, belt_dur=False)),
+            ("neck 2nd ult aura instead of +2 Active", change(V, neck_u2="aura", world=world)),
+            ("neck 2nd ult Fervor (= nothing, Fervor is on the ring)", change(V, neck_u2="fervor", world=world))):
+        d, r = run_mix(ch, world); line(label, d, r, d0)
+    neck = change(V, world=world); neck["add_items"][0][1] = [l for l in neck["add_items"][0][1] if "Intelligence" not in l]
+    neck["stat_delta"] = dict(neck.get("stat_delta", {}), **{"add.spell": 3.27, "cast.add": 3.27})
+    d, r = run_mix(neck, world); line("Trauma: ring R base SA -> Immune to Trauma, neck INT -> SA line (+50% SA effect)", d, r, d0)
+    ch = change(V, world=world); ch["add_lines"] = [x for x in ch["add_lines"] if "Double" not in x[1]]
+    d, r = run_mix(ch, world); line("wand T0 Double Damage not crafted", d, r, d0)
+    ch = change(V, world=world); ch["add_items"][1][1] = [l for l in ROBE if "Critical Strike Rating" not in l]
+    d, r = run_mix(ch, world); line("robe without its 140% crit rating basic", d, r, d0)
+    ch = change(V, world=world); ch["context"].update({"tangles_active": 4, "tangles_dormant": 0})
+    d, r = run_mix(ch, world); line("4th tangle attached (no source: 'You can only equip 1 Vorax Gear')", d, r, d0)

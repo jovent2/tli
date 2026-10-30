@@ -56,9 +56,14 @@ Engine, vs the Cage chest (Cage x1.69; Extreme Coldness kept via the core), then
   Prophet core stays Frozen Lotus -> x1.25 over the Rainbow version and no res balancing; costs the 3,160 chest instead of a 260 Rainbow. Open: are the
   organ's 2 affix options picked or rolled?
 - Engine fixes 2026-10-30: Cage multiplier follows the chest's buff.cage effect (was hardcoded); the cold+pen Focus line now yields add.cold and pen.res.
-- Vlad's revised Rainbow Vorax (18:57; no Block Ratio base on a chest; bad offers can't be declined): base +8% Sealed Mana Comp + 6% ARP, adv prefix
+- Vlad's revised chest (18:57) is a Vorax WITHOUT the Rainbow (no organ lottery; no Block Ratio base on a chest; bad organ offers can't be declined): base +8% Sealed Mana Comp + 6% ARP, adv prefix
   53% proj speed (T0), ult prefix 15-20% comp (base+ult = 26% > Lich's 21.5% -> 7 Lich points freed -> +105% crit rating +15% crit dmg), ult suffix 18%
   aura effect, adv suffix T0 %INT (~75 INT) or 10% ele res, one basic (140% crit rating if the L takes the prefix B, ES if the suffix B).
+  No Rainbow: 0.592 x 2.02 = x1.20 vs the Cage today... except the core must become Extreme Coldness, which costs the Spell Ripple prism (x1.5):
+  x0.80 until the prism swap; after it (Cage world = Frozen Lotus core) x0.96 [Vlad 19:02: 2.02 / 2.11 = 0.95]. Decision (Vlad): build it — ~equal
+  DPS, both basics survive (ES + crit), +res/ES, no res-equalizing, no 9k organ lottery. Craft order without an organ: basics first (a Basic craft
+  lands on any of the 3 slots of its side, 1/3), then Advanced, then Ultimate (deterministic once 2 of each exist); Cutting Instrument 294 re-rolls values.
+  With the Rainbow on top it would be the chain below:
   Engine, belt on, vs the Cage chest (Extreme Coldness in the core): Cage gone x0.592 · Rainbow 3 pairs x1.685 · aura 18% x1.218 · proj 53% x1.133
   (x1.00 belt off) · ARP 6% x1.072 · 7 points x1.128 · 75 INT x1.081 (10% res: x1.00) · crit basic x1.121 => **x2.02** (ES basic: x1.80); /1.25 if the
   prism world's Frozen Lotus is counted: x1.62 / x1.44. Belt off x1.82. Base 8% aura instead of 8% comp: x1.084 vs the 7 points x1.128 -> comp.

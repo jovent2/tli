@@ -56,6 +56,7 @@ def pickups(paths, maps):
 
 def chances(m):
     ps = [p for i, p in SOURCES.items() if i in m["effects"] or i in m["cost"]]
+    if "15003" in m.get("catalyst", []): ps.append(0.30)   # Catalyst Creation Engine, Fluorescent crystal: 30% replicated once [Vlad]
     return ps + PETS_ONCE
 
 

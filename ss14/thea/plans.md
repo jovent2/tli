@@ -207,7 +207,7 @@ In-game weights [Vlad 2026-10-31 17:43]: CC (-25% Defense) 4.08%; 5 lines at 2.0
 without replacement: CC among the 3 shown 12.31%, with the Level refresh 23.10% per prism (equal weights gave the same). A try = fresh prism ~1,600
 + ~1,000 calibration; a miss resells at ~1,600 - 12.5% tax: expected ~5.0k FE to land it (4.3 tries; 23 / 41 / 55 / 73% within 1 / 2 / 3 / 5).
 It gates the robe + Phantasmagoria swap (x1.21 now, x1.33 with the Vorax ring): ~150-240 FE per 1%, cheaper than the 317-461 FE/1% upgrades.
-Verdict: roll it.
+Verdict: roll it. [Vlad: unrolled ones sell at 1,600, a rolled miss at up to ~2k depending on the line -> 3.8-5.0k expected; he's rolling.]
 
 ## Open questions for Vlad
 - Which boots res line Hasten replaced; current kismet layout.

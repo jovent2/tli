@@ -168,6 +168,11 @@ DPS = Base
   every-hit-a-copy -521.5, stop-at-first-hit -525.1 (best placement; Vlad's exact read -538.8), biggest-only -526.3, add-up -686.6.
 - Machines stack (Sky's Dome 10 + Kong 20 + Colorful (A) 50 + crystal 30): 2.1 copies before the x3, 2.65 memories per drop, yet 25% of drops get
   no copy (0.9 x 0.8 x 0.5 x 0.7) and 22% end as a drop of 1. Every extra replicate source adds its full % (Melancholy 30 x1.15 there).
+- **Additional damage on Critical Strike** [Vlad 2026-10-31]: each source is its own multiplier (Mark is a separate x1.1 on crits); only
+  one line's own stacks add (Malign Embrace: +21% per activated Tangle -> 42% / 63% for 2 / 3). Engine: oncrit = product over sources.
+  +1 attachable Tangle with his sheet (76.46% crit at 844% rating, 488% crit dmg, Malign 155 / 21): 3 x 1.4 vs 2 x 1.8 = x1.167, flat crit
+  rating 810 -> 965 = 91.1% crit, on-crit 1.42 -> 1.63 (x Mark 1.1) = crit factor x1.33 -> **x1.55**.
+
 ### Drop quantity on drone-dropped plane-exclusive memories [proven 2026-10-31, tools/farm/quantity.py on the 10-29 / 10-30 / 10-31 logs]
 - Secret of the Glacial Abyss and Disappearing Shadow are plane-exclusive Fluorescent Memories dropped by the Machines drones. On them the flat
   "+X% Drop Quantity" pool (resonance, Path of Progression, pets' flat lines, tree +25%, Flourishing probe, Profound, the +20/30% cards) does

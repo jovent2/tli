@@ -433,7 +433,8 @@ def dps(build, trees, verbose=False):
                     d[k] = 1.0
     # crit, double, projectiles, casts
     p = sh["crit_chance"] / 100
-    oncrit = 1 + t["add.on_crit"] / 100
+    oncrit = math.prod(1 + v / 100 for src, key, v, cond, line in sh["_recs"] if key == "add.on_crit")   # each source its own multiplier
+                                                                                                         # (Malign's per-tangle stacks are one line) [Vlad]
     crit = (1 - p) + p * sh["crit_damage"] / 100 * oncrit
     dbl_c = sh["double_on_person"] + (20 if ctx["in_tidewell"] else 0) + ({0: 0, 1: 4, 2: 5, 3: 6, 4: 7, 5: 8}[tl["Farewell Prophecy"]] * 8 * stacks)
     dbl = 1 + dbl_c / 100 if dbl_c <= 100 else 2 * (1 + min(1.0, dbl_c / 100 - 1))

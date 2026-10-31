@@ -92,6 +92,9 @@ so to decode a strategy's allocation fully we need the Chinese node texts (tlidb
     Secrets x1.17 (95% x1.03-1.33, stratified by card; 70.9 vs 56.3/map at no card, 58 vs 13 maps) — predicted x1.00 biggest-only, x1.09
     any-hit, x1.19 each-hit. Joint: each-hit -553.9, any-hit -556.6 (14:1), biggest-only -557.7 (40:1), add-up -717.9. Confidence medium-high.
   - Sizes 1..7+ of the 88 Colorful-map drops: observed 24/32/13/6/6/4/3, each-hit 19/27/19/12/6/3/2 (fewer 3-4s than predicted, more 6-7s).
+  - Data size: 98 drops = 240 items (Maud's 134, Tomorrow's 39, Shadow 27, Lost Secrets 22, Hundredfold 17, Crow's 1) on 127 maps, every
+    PickItems block checked. Secrets (7,600) come as ~1,500 sweeps of piles (13-17 pickups/map, mean 4-5), so a pickup is not a drop; with the
+    crystal the pickups per map stay ~13.5 and get bigger (mean 4.2 -> 5.2 at no card): copies, not extra drops.
   - His Machines stack: Sky's Dome 10 + Colorful (A) 50 + crystal 30 (on 79% of maps) = 1.84 copies before Kong, 2.7 memories per drop; with
     everything on, 31.5% of drops get no once-copy and ~22% end as a drop of 1 — variance, not a dead buff. Memories are 83.5 FE/map there
     (Shadows 50, Secrets 29.4 at the exchange): each extra 10% of replicate = x1.054 = +4.5 FE/map; Melancholy 30 / 20 card +13.7 / +9.1.
@@ -175,6 +178,9 @@ and continues); `PickItems` blocks = loot, by stack guid deltas. Keep the raw lo
   phantom loot on 16 maps). Fixed: the join block is read until `+maptype` / `+checkType [MainCity]` in any order (3,000-line limit).
 - Town blocks seen: `Push2` = NPC exchanges / crafting results (Fluorescent Memory sets at the Spacetime Wanderer, prism levelling),
   `ExchangeItem`, `XchgForSale` (listing), `XchgBuy` / `XchgReceive` (AH). Only in-map blocks count as map loot.
+- The season board's final map (`+maptype [S16FinalMap]`, mapId 344; board UI lines `S16Board*`) is entered from town with no Spv3Open, so
+  gamelog.parse opens no map for it and its loot is outside every per-map number: 33-56 s a run, 64-283 FE (Flame Elementium 116-201 + Flame
+  Sand, embers, compasses, a few memories). 10-30: 6 runs = 1,217 FE; 10-31: 1 run = 240. Its memory drops are left out of the replication fit.
 - The join dump also lists the active drop pets (`+servantId [..]` with `+starLevel`); compare them across maps before blaming a setup change.
   Backup logs (`UE_game-backup-<date>.log`) hold whole launches (10-30: 1.1 GB, 18 h, parses in ~25 s).
 - **Fluorescent Memory exchanges** (Spacetime Wanderer): Secret of the Glacial Abyss 30 -> 10 draws of 10 Flame Sand (87.5%) or 10 FE (12.5%),

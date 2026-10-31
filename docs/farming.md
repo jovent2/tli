@@ -100,6 +100,10 @@ so to decode a strategy's allocation fully we need the Chinese node texts (tlidb
     无人机额外 +X% 掉落数量" (Cruising +100, tree +25 / +40, Obtuse - Machine cards +10/15/30). Proof that the trial lines miss drones: he runs
     Cruising's -100% and still gets ~70 Secrets/map from drones, and additional lines multiply (x0 if it applied). So +5% / +6% / +7% /
     Conservative only scale the trial's own reward (the statue loot), which Cruising (and the Drones node) already multiply by 0: dead for him.
+    Grammar (CN): scope = 期间 / 中 ("during" / "in"), owner = the noun before 额外 +X% 掉落数量 (no noun = everything: "异界关卡中，额外 +12%
+    掉落数量"). The +7% = trigger 每当新回合开始 + owner 机械之神试炼. God of Might's tree has the same per-floor mechanic as two separate nodes,
+    trial ("巨力之神试炼额外 +4%", EN "during Trial: God of Might") and automatons ("矮人机甲在试炼范围内额外 +4%"), and EN writes the same
+    construct as "for Trial: God of Might and Dwarven Automatons" on the +5% node: the English "during" carries nothing.
   - Big memories are too rare to measure quantity (0.68 drops/map: +30% card 0.50/map, +20% card 1.11/map); Shadows 0.12/map.
   - Naked rates (no quantity, no copies): Secrets 0.33/map from Drones (0.51 if the FMS lines don't work), big-memory drops 0.037/map.
   - Transgression in place of Strength in Numbers (+ no Flourishing on 7 of 8): Secrets per copy x1.34 (95% 0.99-1.81).

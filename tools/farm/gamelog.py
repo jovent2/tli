@@ -16,6 +16,11 @@ CHG = re.compile(r"ItemChange@ (Delete|Update|Add) Id=(\d+)_(\S+) (?:BagNum=)?(\
 RESET = re.compile(r"ItemChange@ Reset PageId=(-?\d+)")
 ENTRY = re.compile(r"\+\d+\+(\w+) \[(.*)\]\s*$")      # "+7+Id [210321]" / "+16+FId [1141]": first field of a list entry
 FIELD = re.compile(r"^[|\s]*\+(\w+) \[(.*)\]\s*$")    # "|   | +Description [..]"
+# Machines trial (God of Machines) in the log: title start = he opened the machine, one LevelInfo title per attack round, every drone spawn /
+# death plays a sound (requested-row warnings), the statue's attack sound, success. 10-31: 3 rounds (4 when the extra round procs), 56-106
+# drones per map, ~95% of the Secrets picked up between start and success.
+MACHINE_EVENTS = [("start", "FightMgr@ShowMachineTitleStart"), ("rounds", "FightMgr@ShowMachineTitleLevelInfo"), ("end", "God_Machinery_Succ'"),
+                  ("appear", "Small_Drones_Appear'"), ("die", "Mechanic_Drones_Die'"), ("monatk", "God_Machinery_MonAtk'")]
 SERVANT = re.compile(r"\+servantId \[(\d+)\]")
 STAR = re.compile(r"\+starLevel \[(\d+)\]")
 # Maps to keep out of the replication / quantity fits (their loot still counts in report()): the Dull - Machine card ("Attacking monsters have
@@ -91,6 +96,14 @@ def parse(paths):
                     join = None
                 if t is None: continue                    # dump lines never carry item changes
             if cur is not None and cur["end"] is None and "FightResult@ Open FightFailureView" in line: cur["deaths"] += 1
+            if cur is not None and cur["entered"] is not None and cur["end"] is None and ("achine" in line or "Drones_" in line):
+                mach = cur.setdefault("machine", dict(start=None, end=None, rounds=0, appear=0, die=0, monatk=0))
+                for key, pat in MACHINE_EVENTS:
+                    if pat in line:
+                        if key in ("start", "end"):
+                            if key == "end" or mach["start"] is None: mach[key] = t
+                        else: mach[key] += 1
+                        break
             if cur is not None and cur["end"] is None and "gameplay type 7602 received notifyId 102" in line:   # Catalyst Creation Engine result
                 cur.setdefault("catalyst", []).extend(line.split("NotifyData")[-1].strip().split("|")[4:6])  # 15001/15002/15003; 15003 = Fluorescent
             m = PROTO.search(line)

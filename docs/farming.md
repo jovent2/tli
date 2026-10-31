@@ -87,6 +87,9 @@ so to decode a strategy's allocation fully we need the Chinese node texts (tlidb
     x0.99 -> no pool vs pool 2.3:1, still open. "+30% additional Drop Quantity for Drones" card (new, 14 maps) x1.22 (0.94-1.58; read x1.30),
     +10/15% x1.05 (read x1.10); Transgression for Strength in Numbers x1.42 (1.15-1.75). No pet contrast in it, so the Shards line waits for
     the Pink log.
+  - **Per drone (log(drones) in the model, residual sd 0.37 -> 0.21)**: +30% DQ card x1.05 (0.93-1.18), +20% x0.99, resonance 15 x1.01
+    (0.92-1.10), resonance 7 x1.30 (2 maps) -> **no pool on Secrets beats pool 11:1**. "+X% additional Drop Quantity for Drones" cards: +30%
+    x1.23 (1.07-1.42), +10/15% x1.15 (1.02-1.29) -> additional works, ~9,500:1 over nothing. Transgression for SiN x1.62 (1.42-1.85).
   - Big memories are too rare to measure quantity (0.68 drops/map: +30% card 0.50/map, +20% card 1.11/map); Shadows 0.12/map.
   - Naked rates (no quantity, no copies): Secrets 0.33/map from Drones (0.51 if the FMS lines don't work), big-memory drops 0.037/map.
   - Transgression in place of Strength in Numbers (+ no Flourishing on 7 of 8): Secrets per copy x1.34 (95% 0.99-1.81).
@@ -227,6 +230,12 @@ and continues); `PickItems` blocks = loot, by stack guid deltas. Keep the raw lo
 - The season board's final map (`+maptype [S16FinalMap]`, mapId 344; board UI lines `S16Board*`) is entered from town with no Spv3Open, so
   gamelog.parse opens no map for it and its loot is outside every per-map number: 33-56 s a run, 64-283 FE (Flame Elementium 116-201 + Flame
   Sand, embers, compasses, a few memories). 10-30: 6 runs = 1,217 FE; 10-31: 1 run = 240. Its memory drops are left out of the replication fit.
+- **Machines trial in the log** (gamelog m["machine"]): `FightMgr@ShowMachineTitleStart` = he opened the machine, one
+  `ShowMachineTitleLevelInfo` per attack round (3; 4 when the extra round procs: 39 of 170 maps), every drone spawn / death plays a sound
+  (`..._Small_Drones_Appear'` / `..._Mechanic_Drones_Die'` requested-row warnings), `God_Machinery_MonAtk'` per statue hit, `God_Machinery_Succ'`
+  = done. 10-29..10-31: 78 drones per map (12-194; 72 on 3 rounds, 101 on 4), ~95% of Secrets picked between start and success (Vlad: 99%
+  from drones). Drone kills explain 53% of the map-to-map Secrets spread; standard maps 0.85 Secrets per drone (naked ~1.9% per drone before
+  copies x2.66, additional x10.95, Focus x1.5); Shadows ~2 drops per 1,000 drones.
 - Drop-pet block: the first pet sits on the header line (`+dropServantContractData+1+servantId [8130]`) and the order changes between
   joins; until the 10-31 fix the parser dropped that first pet, so 10-29 looked like Kong / Sky's Dome swapping every map. They were on all of them.
 - The join dump also lists the active drop pets (`+servantId [..]` with `+starLevel`); compare them across maps before blaming a setup change.

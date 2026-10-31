@@ -58,6 +58,7 @@ def load(paths):
                             flour="12000" in m["cost"], fluo="12030" in m["cost"], sin=any("Strength" in G.RN.name(i) for i in m["cost"]),
                             transg=any("Transgression" in G.RN.name(i) for i in m["cost"]),
                             secrets=m["loot"].get("6002", 0), rare_events=sum(1 for q, i, t in ev.get(k, []) if i != "6216"),
+                            drones=(m.get("machine") or {}).get("die", 0), rounds=(m.get("machine") or {}).get("rounds", 0),
                             shadow_events=sum(1 for q, i, t in ev.get(k, []) if i == "6216")))
     return out
 
@@ -116,7 +117,7 @@ def main(paths):
              ("Kong only (no Sky's Dome)", lambda r: "8120" not in r["pets"] and "8130" in r["pets"] and "19320" not in r["pets"], lambda r: dict(r, pets=r["pets"] - {"8120"})),
              ("Pink for Sky's Dome", lambda r: "19320" in r["pets"] and "8120" not in r["pets"], lambda r: dict(r, pets=(r["pets"] - {"8120"}) | {"19320"}))]
     feats += [(f"beacon {b}", (lambda b: lambda r: r["beacon"] == b)(b), None) for b in sorted({r["beacon"] for r in M}) if b != "Glacial_Abyss"]
-    use = [r for r in M if ({"8130", "8120"} & r["pets"]) and r["secrets"] > 0]
+    use = [r for r in M if ({"8130", "8120"} & r["pets"]) and r["secrets"] > 0 and r["drones"] > 0]   # drones: kills in the Machines trial
     cols = []                                   # [name, indicator vector, [appliers]]; near-identical columns (< 3 maps apart) are merged
     for nm, f, ap in feats:
         v = np.array([f(r) for r in use], float)
@@ -124,13 +125,15 @@ def main(paths):
         for c in cols:
             if np.abs(c[1] - v).sum() < 3: c[0] += " + " + nm; c[2].append(ap); break
         else: cols.append([nm, v, [ap]])
-    X = np.column_stack([np.ones(len(use))] + [c[1] for c in cols])
+    X = np.column_stack([np.ones(len(use)), [math.log(r["drones"]) for r in use]] + [c[1] for c in cols])   # per drone killed
     y = np.array([math.log(r["secrets"] / copies(r)) for r in use]); n, k = X.shape
     b, *_ = np.linalg.lstsq(X, y, rcond=None); res = y - X @ b; XtXi = np.linalg.pinv(X.T @ X)
     cov = XtXi @ ((X * res[:, None] ** 2).T @ X) @ XtXi * n / (n - k)
     r0 = dict(card=None, pets={"8130", "8120", "19330", "20120", "20130", "21120", "21130"}, res=31, crystal=True, flour=True, fluo=False, sin=True, transg=False)
-    print(f"\n== Secrets per copy, {n} maps (log scale, residual sd {math.sqrt(res @ res / (n - k)):.2f}) vs the sheet (change alone on a standard map)")
-    for j, (nm, v, aps) in enumerate(cols, 1):
+    print(f"\n== Secrets per copy per drone, {n} maps (log scale, residual sd {math.sqrt(res @ res / (n - k)):.2f}) vs the read (change alone on a standard map)")
+    print(f"  log(drones killed) slope {b[1]:.2f} (drones per map {np.mean([r['drones'] for r in use]):.0f}, "
+          f"{sum(r['rounds'] == 4 for r in use)} of {len(use)} maps got a 4th attack round)")
+    for j, (nm, v, aps) in enumerate(cols, 2):
         se = math.sqrt(cov[j, j]); r1 = dict(r0)
         if all(aps):
             for ap in aps: r1 = ap(r1)

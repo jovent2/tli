@@ -210,6 +210,30 @@ Rare neck, random base (the Biting Cold trigger base is ~20k): P: ES basic / INT
 x1.11, crit dmg 51 x1.10, proj speed 39 x1.10 (belt Gale), ES 0, base "+22% damage" / "+18 INT" ~x1.03. Prerequisite: I Am Truth's 40%
 duration holds the 2nd Boon stack (margin 1.09 with it, 0.83 without) -> ~+26-30% duration elsewhere first (belt 18% Double -> +30% duration).
 
+## 5th active slot: Biting Cold vs a 4th Empower, and the Biting Cold neck base (2026-10-31 21:30, `tools/slot_plan.py`, uncapped)
+Today: Biting Cold [Preparation, Terrain of Malice, Deepened Curse, Increased Area] = x1.55 over an empty slot (L36 47.5% x Deepened Curse 5.2%).
+- **It blinks at 55% duration**: the Terrain area lasts the curse duration (5 s x 1.55 = 7.75 s) and Preparation preps every 8 s -> off 0.25 s every 8 s;
+  Deepened Curse needs 2 s cursed (read: the blink restarts it) -> off 2.25 s -> x1.515, -2.4% (-1.1% if Deepened Curse doesn't restart). Fine at
+  the 10-26 sheet's 59%; breaks below 60%. Fixes: 60% duration (Kismet: Scorpion Stinger, medium, +3-5%), or Activation Medium: Boss/Elite in its
+  first slot (recast on the 8 s / 1.295 = 6.2 s CD, inside 7.75 s).
+- Swaps, vs today blinking: Ice Bond [Preparation, WFB, ME] **x1.04** (L36 28% x empower 2.04 = +57%; CD 1 s so Mass Effect's charges apply) ·
+  Blazing Spin x1.26 on his sheet (crit 76.5 -> 100%; the model's 68% crit says x0.90 of today) · Frost Release x0.75 (+15 cold pen, not
+  empower-scaled; its +81% is the next 5 casts) · Fixate / Arcane Circle ~+5% on one boss · Archery Bond fixes projectiles at 1 · Mana Boil can't
+  live on 97% sealed mana.
+- **Both: neck base "Triggers Lv. 20 Biting Cold" (~20k) + Ice Bond in the freed slot = x1.45 over today (x1.41 vs no blink; x1.43 without
+  I Am Truth's levels)**. The trigger re-curses every 0.2 s, so the curse stops caring about duration (only the Boon and Aim/SOU >= 33% do).
+- More empower effect: nothing global for wands — "+12% Empower Skill Effect" is a Soul Candle craft line; Mad Doctor's Silver-Plated Lung is a DEX
+  chest that needs Defensive Skill casts (3 s falloff). x2.04 = WFB + Mass Effect, grows only with support levels.
+- Duration/CDR into damage: no converter on Thea (only Clockwork Core / Selves of All Realms). Breakpoints in this kit: Aim/SOU via Preparation 33%,
+  Terrain curse 60%, Boon (1+d)(1+c) >= 2, Twin Cities 60%.
+- Dual Kismet: Twin Cities (2 medium slots on one pact page): L12 Delayed Pain 18.6% Injury Buffer / L12 Frost Shield -22.6% additional phys and
+  fire taken, alternating every 4 s for 5 s -> each up 62.5% naked, 97% at 55%, 100% at 60% (read: the 5 s is the skills' own duration, so Skill
+  Effect Duration applies). Paid with 2 Block Ratio kismets (48 -> 36): blockable hits x1.14 -> phys/fire x0.89, cold/lightning/erosion x1.14
+  (Injury Buffer aside).
+- Other dual kismets: Resentful Maiden (+1 max tangle) is dead at the cap of 4 · Great Library "+2% (stacks) per unique Kismet" = x1.12 at his 6
+  unique (read; more if the 5 micro INT / 3 micro lightning are de-duplicated) · Iron Wall (dual wield: -30 attack block, +30 ratio) for 2 Block
+  Ratio: spell hits x0.79, attack hits x1.10 · God's Fall +2 all levels ~x1.26 but 5% of current Life/ES per cast · Hot Ice dead at the 120 cap.
+
 ## Phantasmagoria 3rd affix (2026-10-31, Vlad rolled one and missed; corrected after Vlad)
 The 75 "Prism Gauge - Legendary" rows on tlidb are three pools of 25 (rows 318-342, 343-367, 368-392), not one pool of 42: two carry "Immune to crowd
 control effects / -25% Defense" with +1 blessing / +40% lines, one carries the plain CC line with +2 / +100% lines. The Phantasmagoria rolls the

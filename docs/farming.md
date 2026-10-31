@@ -72,12 +72,17 @@ so to decode a strategy's allocation fully we need the Chinese node texts (tlidb
     Quantity" and every replicate line = yes. From the Creation Engine the flat lines apply too. Reading: Shadows from Drones skip the pool and
     take only "additional" lines (x10.95 on his sheet vs x75.6 for Secrets) -> a +30% quantity card does nothing for Shadows. Untested for the
     non-pet lines (12 Shadow drops in 99 maps).
-  - **Working read per item (2026-10-31, XD pattern; all 7 memories are type 记忆荧光 = Fluorescent Memory, Shadow is the gameplay-exclusive one)**:
-    Secrets (normal, Drones): pool yes, every additional yes incl. "for Drones" and Strength in Numbers, Memory Shards yes per XD (his first evening
-    tally leans no), replicate yes (measured). Maud's / Tomorrow's / Lost Secrets / Crow's / Hundredfold (normal, rares and chests): pool yes,
-    generic additional yes, "for Drones" / Normal-monster lines no, Memory Shards yes per XD (untested), replicate yes (measured). Shadow
-    (exclusive, Drones): pool no, additional yes, Memory Shards no, replicate yes. Chains on his sheet: Secrets x75.6 (x49.2 without Shards),
-    big memories x18.0 (x11.7), Shadows x10.95. Path of the Brave exclusives lose the additional lines too (XD) — not his farm.
+  - **Working read per item (2026-10-31 evening, Vlad)**: Secret of the Glacial Abyss and Disappearing Shadow are **plane-exclusive** Fluorescent
+    Memories (in-game exclusive drop list; tlidb files Secrets under "Drops everywhere"). tlidb: exclusive = plane-exclusive + gameplay-exclusive,
+    and the gameplay-exclusive ones (Antonius's Help / Research, Clergy's Thinking, Concoction Recipe, Immortality Concoction Recipe) drop only in
+    Path of the Brave / Creation Engine — so XD's "Gameplay Exclusive" column under Machine Drones can only be the plane-exclusive ones (the
+    Drone tip and the Dull - Machine card: drones drop plane-exclusive memories). Hence, for Secrets and Shadows from Drones: **the flat
+    "+X% Drop Quantity" pool does nothing, the Memory Shards lines do nothing, every "additional" line works, replicates work**, and Focus
+    Fluorescent (+50% chance for exclusive memories) works. The big memories (normal, rares / chests) take pool + generic additional + Shards.
+    Chains on his sheet: Secrets / Shadows x10.95 (before Focus), big memories x18.0. Evidence: his first evening tally fits "Shards does
+    nothing" (x1.10 vs x0.84); the DQ cards / resonance (x1.07 / x1.02 / x1.03) fit "no pool" and "pool x4.49" equally (1.1-1.3:1); Transgression
+    (an additional for Normal monsters) moved Secrets x1.34. Confidence ~75%. Settling test: ~20 maps at 0 resonance (Secrets flat if no pool,
+    -19% if pool).
   - Big memories are too rare to measure quantity (0.68 drops/map: +30% card 0.50/map, +20% card 1.11/map); Shadows 0.12/map.
   - Naked rates (no quantity, no copies): Secrets 0.33/map from Drones (0.51 if the FMS lines don't work), big-memory drops 0.037/map.
   - Transgression in place of Strength in Numbers (+ no Flourishing on 7 of 8): Secrets per copy x1.34 (95% 0.99-1.81).

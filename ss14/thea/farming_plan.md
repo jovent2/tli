@@ -81,6 +81,11 @@ used tlidb's stale pet numbers.
 - Both (his 10-31 evening): -6.3 FE/map if the FMS line works, +0.2 if not. **Evening check**: Secrets/map x0.84 vs the same cards yesterday if
   Sky's FMS line works, x1.04 if it doesn't (map noise ~34%, so ~30 maps separate them at ~3 sigma). Rare-drop sizes per 100 drops: fitted rule
   21/34/20/13/8/3/2, "stop at the first hit" 21/57/3/17/0/1/0.
+- **Re-priced on the plane-exclusive read** (pool and Shards don't touch Secrets / Shadows = 79.5 of 108.7 FE/map; the flat pool only moves the
+  ~29 FE/map of FE, big memories and the rest): +30% DQ card +1.9 FE/map, +20% +1.3; drone card (+10% additional, Machines trial) x1.10 on
+  Secrets + Shadows = +8.0, level with Melancholy 20 (+8.2), behind Melancholy 30 (+12.3). Pink for Sky's Dome: +1.0 pool, -4.1 replicate, -0.8
+  Shards on big memories = -3.9 FE/map; Fluorescent probe for Flourishing: +8.2 - 1.3 - 3.4 = +3.5; both = -0.4. Best: Sky's Dome + Fluorescent
+  probe (+3.5). Resonance 31 vs 15 = +1.6 for 1.8 FE (break-even), 31 vs 0 = +5.5 for 3.4 (+2.1).
 - First tally [Vlad 10-31 evening]: 13 maps Flourishing 905 Secrets (69.6/map), 19 maps Fluorescent probe 1,457 (76.7/map) = x1.10
   (se of the log ratio ~0.12). If the 19 were all Pink: "Memory Shards line does nothing" (x1.04) 0.5 sigma off, "works" (x0.84) 2.2 sigma ->
   ~10:1 for "does nothing", cards and crystals unchecked; the log decides.

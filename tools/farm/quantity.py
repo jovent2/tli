@@ -68,12 +68,16 @@ def pool(r, card=True):
             + (20 if r["flour"] else 0) + (CARD_POOL.get(r["card"], 0) if card else 0)) / 100
 
 
-def chain(r, scope="drones", fms=True):
-    """total quantity multiplier on a memory drop: pool x additional lines (scope: drones / rares)"""
+def chain(r, scope="drones", fms=None, pool_on=None):
+    """total quantity multiplier on a memory drop (scope: drones = Secrets / Shadows, plane-exclusive; rares = the big memories).
+    Default = the 10-31 read [Vlad + XD's drone column]: plane-exclusive memories from Drones get no pool and no Memory Shards line, only
+    the "additional" lines; the big memories (normal) get pool + generic additional + Memory Shards. fms / pool_on override."""
+    pool_on = (scope != "drones") if pool_on is None else pool_on
+    fms = (scope != "drones") if fms is None else fms
     add = list(ADD_ALL) + (ADD_DRONES if scope == "drones" else []) + ([0.10] if r["card"] == "72020400" and scope == "drones" else [])
     if not r["sin"] and scope == "drones": add.remove(0.20)
     if fms: add += [PET_FMS[p] for p in r["pets"] if p in PET_FMS]
-    return pool(r) * math.prod(1 + a for a in add)
+    return (pool(r) if pool_on else 1.0) * math.prod(1 + a for a in add)
 
 
 def main(paths):
@@ -81,9 +85,10 @@ def main(paths):
     print(f"{len(M)} Colorful Machines maps with the engine and a pet dump")
     std = [r for r in M if {"8120", "8130"} <= r["pets"] and r["flour"] and r["sin"] and not r["transg"] and r["res"] in (15, 31)]
     r0 = std[0] if std else M[0]
-    print(f"his chain on a standard map (Kong + Sky's Dome, Flourishing, 31 resonance, no DQ card): pool x{pool(dict(r0, card=None, res=31)):.2f}, "
-          f"drone memories x{chain(dict(r0, card=None, res=31)):.1f} (x{chain(dict(r0, card=None, res=31), fms=False):.1f} without the FMS lines), "
-          f"rare/chest memories x{chain(dict(r0, card=None, res=31), 'rares'):.1f}; +30% DQ card = x{(pool(r0, False) + .3) / pool(r0, False):.3f}")
+    s0 = dict(r0, card=None, res=31)
+    print(f"his chain on a standard map (Kong + Sky's Dome, Flourishing, 31 resonance, no DQ card): pool x{pool(s0):.2f}; Secrets / Shadows (drones, "
+          f"plane-exclusive) x{chain(s0):.2f} (x{chain(s0, pool_on=True, fms=True):.1f} if pool and Memory Shards applied), big memories "
+          f"x{chain(s0, 'rares'):.1f}; Focus x1.5 on the exclusive ones not included")
     sec = np.mean([r["secrets"] / copies(r) / chain(r) for r in std]) if std else float("nan")
     print(f"naked rates (no quantity, no copies) on standard maps: Secrets {sec:.2f}/map (drones), rare/chest memory drops "
           f"{np.mean([r['rare_events'] / chain(r, 'rares') for r in std]):.3f}/map; observed {np.mean([r['secrets'] for r in std]):.1f} Secrets, "
@@ -119,8 +124,8 @@ def main(paths):
         se = math.sqrt(cov[j, j]); r1 = dict(r0)
         if all(aps):
             for ap in aps: r1 = ap(r1)
-            pr, prn = chain(r1) / chain(r0) * copies(r0) / copies(r1) * copies(r1) / copies(r0), chain(r1, fms=False) / chain(r0, fms=False)
-            sheet = f"sheet x{pr:.3f}" + (f" (x{prn:.3f} if the FMS lines don't work)" if abs(pr - prn) > 1e-3 else "")
+            pr, prp = chain(r1) / chain(r0), chain(r1, pool_on=True, fms=True) / chain(r0, pool_on=True, fms=True)
+            sheet = f"read x{pr:.3f}" + (f" (x{prp:.3f} if pool + Memory Shards applied)" if abs(pr - prp) > 1e-3 else "")
         else: sheet = "sheet: no fixed number"
         print(f"  {nm:46s} n={int(v.sum()):3d}  x{math.exp(b[j]):.3f} (95% x{math.exp(b[j] - 1.96 * se):.2f}-x{math.exp(b[j] + 1.96 * se):.2f})   {sheet}")
 

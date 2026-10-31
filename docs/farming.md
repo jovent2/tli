@@ -72,6 +72,12 @@ so to decode a strategy's allocation fully we need the Chinese node texts (tlidb
     Quantity" and every replicate line = yes. From the Creation Engine the flat lines apply too. Reading: Shadows from Drones skip the pool and
     take only "additional" lines (x10.95 on his sheet vs x75.6 for Secrets) -> a +30% quantity card does nothing for Shadows. Untested for the
     non-pet lines (12 Shadow drops in 99 maps).
+  - **Working read per item (2026-10-31, XD pattern; all 7 memories are type 记忆荧光 = Fluorescent Memory, Shadow is the gameplay-exclusive one)**:
+    Secrets (normal, Drones): pool yes, every additional yes incl. "for Drones" and Strength in Numbers, Memory Shards yes per XD (his first evening
+    tally leans no), replicate yes (measured). Maud's / Tomorrow's / Lost Secrets / Crow's / Hundredfold (normal, rares and chests): pool yes,
+    generic additional yes, "for Drones" / Normal-monster lines no, Memory Shards yes per XD (untested), replicate yes (measured). Shadow
+    (exclusive, Drones): pool no, additional yes, Memory Shards no, replicate yes. Chains on his sheet: Secrets x75.6 (x49.2 without Shards),
+    big memories x18.0 (x11.7), Shadows x10.95. Path of the Brave exclusives lose the additional lines too (XD) — not his farm.
   - Big memories are too rare to measure quantity (0.68 drops/map: +30% card 0.50/map, +20% card 1.11/map); Shadows 0.12/map.
   - Naked rates (no quantity, no copies): Secrets 0.33/map from Drones (0.51 if the FMS lines don't work), big-memory drops 0.037/map.
   - Transgression in place of Strength in Numbers (+ no Flourishing on 7 of 8): Secrets per copy x1.34 (95% 0.99-1.81).

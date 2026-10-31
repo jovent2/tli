@@ -159,14 +159,15 @@ DPS = Base
   Yesterday with Spell Tangle fits 0.767 (x1.11 unexplained); with the medium already in slot 1 it fits 0.895 and one constant 0.862 covers all 8 pulls (rms 3.9%).
 
 ### Drop replication stacking [fitted 2026-10-31 from his logs, tools/farm/replication_fit.py; replaces the 10-29 add-and-cap read]
-- Every "X% chance to be replicated once" source (compasses, cards, probes, the Catalyst Creation Engine crystal buff, pets' "replicated 1 time")
-  rolls on its own and each hit adds its own copy: copies = 1 + hits, mean 1 + sum(p), no cap, P(no copy) = prod(1 - p). Kong's "20% replicated
-  1 time" / "13% replicated 2 times" then roll on every copy, independently. Expected copies = (1 + sum p) x 1.46.
-- Proof: add-and-cap predicts 5.5 single-copy drops of 88 on Colorful maps, observed 24 (log-lik -322 vs -157); the randomly picked Fluorescent
-  crystal raises Secrets/map x1.17 (95% 1.03-1.33) -> "only the biggest chance counts" (x1.00) and "any hit = one copy" (x1.09) lose 40:1 / 14:1
-  jointly. Sizes 5 and 7+ do occur (6 and 3 of 88). Details: docs/farming.md, Replication.
-- Machines stack: Sky's Dome 10 + Colorful (A) 50 + crystal 30 = 1.9 copies before Kong, but 31.5% of drops get none; every extra replicate
-  source adds its full % (Melancholy 30 x1.16 there, a 20% line x1.105).
+- Every "X% chance to be replicated once" source (compasses, cards, probes, the Catalyst Creation Engine crystal buff, pets' "replicated 1 time",
+  Kong's 20% included) rolls on its own and every hit adds its own copy: copies = 1 + hits, no cap, P(no copy) = prod(1 - p). Then Kong's
+  "13% replicated 2 times" rolls on every copy (x3). Memories per drop = (1 + sum p) x 1.26. (Kong's 20% rolled on each copy instead fits ~3:1 worse.)
+- Proof (88 rare drops on Machines maps + Secrets on 107 maps): add-and-cap predicts 5.5 drops of 1 on Colorful maps, observed 24; "roll in order,
+  stop at the first hit" (Vlad 10-31) can't make a single drop of 5 or 7+ (9 of 88 were) and puts 3s below 4s (observed 13 vs 6); the randomly
+  picked Fluorescent crystal raises Secrets/map x1.18 (95% 1.02-1.35), which "only the biggest chance counts" (x1.00) can't. Joint log-lik:
+  every-hit-a-copy -521.5, stop-at-first-hit -525.1 (best placement; Vlad's exact read -538.8), biggest-only -526.3, add-up -686.6.
+- Machines stack (Sky's Dome 10 + Kong 20 + Colorful (A) 50 + crystal 30): 2.1 copies before the x3, 2.65 memories per drop, yet 25% of drops get
+  no copy (0.9 x 0.8 x 0.5 x 0.7) and 22% end as a drop of 1. Every extra replicate source adds its full % (Melancholy 30 x1.15 there).
 - **Skill slots** [Vlad 2026-10-30]: 5 active + 4 passive; auras live in the passive slots, so a freed active slot (e.g. a curse moved to a gear trigger) can only take an active skill (empower, curse, sentry...).
 - **Gear curse triggers** [tlidb]: Necklace base affix "Triggers Lv. 20 Biting Cold Curse upon dealing damage to enemies. Cooldown: 0.2 s"; Ring base affix the same for Timid / Entangled Pain; chest ult prefix "You can cast 1 additional Curses" (T1; T0 adds 8-10% Curse Effect). A triggered curse is a fixed level and has no supports (no Deepened Curse). Engine: ctx `biting_cold_level` / `timid_level`.
 - **Ice Bond** [tlidb]: Empower + Sentry; Euphoria while the Sentry is within its area around you: "+N% additional Cold Damage against Frostbitten enemies" (24% at L20, +0.25%/level), scaled by Empower Effect (its own WFB / Mass Effect). Engine: in skills.others with its supports. Whether Mass Effect's charges apply to it is unverified.

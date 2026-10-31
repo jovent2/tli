@@ -16,6 +16,9 @@ CHG = re.compile(r"ItemChange@ (Delete|Update|Add) Id=(\d+)_(\S+) (?:BagNum=)?(\
 RESET = re.compile(r"ItemChange@ Reset PageId=(-?\d+)")
 ENTRY = re.compile(r"\+\d+\+(\w+) \[(.*)\]\s*$")      # "+7+Id [210321]" / "+16+FId [1141]": first field of a list entry
 FIELD = re.compile(r"^[|\s]*\+(\w+) \[(.*)\]\s*$")    # "|   | +Description [..]"
+SERVANT = re.compile(r"\+servantId \[(\d+)\]")
+STAR = re.compile(r"\+starLevel \[(\d+)\]")
+PETS = {"8130": "Kong", "8120": "Cloudgatherer - Sky's Dome", "19320": "Miss Melancholy - Pink", "19330": "Twilight Sparks"}
 IGNORE_IDS = {"100200"}            # [etor] skipped too (not a drop)
 AUCTION = {"XchgReceive", "XchgBuy", "XchgSell", "XchgCancel"}
 
@@ -35,13 +38,24 @@ def parse(paths):
     join = None                      # time of the last _JoinFightSuccess whose area lines we are still reading
     join_map = None                  # +mapId seen inside that area block (2026-10-31 logs print it BEFORE +maptype; 10-30 logs after)
     join_left = 0                    # lines left to look for the marker
+    pet_blks = []; pet_blk = None; pet_cur = None; pet_ind = 0   # drop pets: "+dropServantContractData" block in the area dump (servantId + starLevel)
     for path in paths:
         for line in open(path, encoding="utf-8", errors="replace"):
             t = ts(line)
             if t is not None:
                 if ent and "Id" in ent and "Description" in ent: eff.append((last_t, ent["Id"], ent["Description"]))
-                last_t = t; ent = None
+                last_t = t; ent = None; pet_blk = None
             else:                                         # effect entries: "+N+Key [v]" opens one, "| +Key [v]" adds a field; field order varies per launch
+                if "+dropServantContractData" in line:
+                    pet_blk = {"t": last_t, "pets": {}}; pet_blks.append(pet_blk); pet_cur = None; pet_ind = line.index("+dropServantContractData")
+                elif pet_blk is not None:
+                    if line.find("+") <= pet_ind: pet_blk = None             # a sibling key: the block is over
+                    else:
+                        mm = SERVANT.search(line)
+                        if mm: pet_cur = mm.group(1); pet_blk["pets"][pet_cur] = None
+                        else:
+                            mm = STAR.search(line)
+                            if mm and pet_cur: pet_blk["pets"][pet_cur] = int(mm.group(1))
                 mm = ENTRY.search(line)
                 if mm:
                     if ent and "Id" in ent and "Description" in ent: eff.append((last_t, ent["Id"], ent["Description"]))
@@ -105,6 +119,8 @@ def parse(paths):
         lo = m["start"] - datetime.timedelta(seconds=2); hi = m["end"] or m["next_open"] or (m["start"] + datetime.timedelta(hours=1))
         m["effects"] = {i: d for tt, i, d in eff if tt is not None and lo <= tt <= hi}
         m["card"] = next((re.sub("<[^>]+>", "", d) for i, d in m["effects"].items() if len(i) == 8 and i[:2] in ("71", "72")), None)
+        pb = [b for b in pet_blks if b["t"] is not None and lo <= b["t"] <= hi and b["pets"]]
+        m["pets"] = pb[-1]["pets"] if pb else None          # {servantId: starLevel} of the drop pets in that map's area dump
     return maps
 
 BEACON_IDS = {"400007"}                      # Glacial Abyss Beacon (Tier 8)

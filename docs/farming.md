@@ -83,21 +83,26 @@ so to decode a strategy's allocation fully we need the Chinese node texts (tlidb
   on ~11% of maps; it is all-or-nothing per map, visible in the base-affix list before entering, and tlidb: "You may reset affixes on a
   map to avoid dangerous harmful affixes" (re-rolling costs the 31 resonance again = 3.4 FE; ~0.4 FE/map on average).
   Same pool, same counter: "-90% / -40% additional damage from attacks dealt from more than 6m away" (anti-ranged).
-- **Replication (fitted 2026-10-31, `tools/farm/replication_fit.py`: 98 rare-memory drops + 107 Colorful Machines maps, 10-30 + 10-31 logs)** —
-  replaces the 10-29 rule "once-chances add up, cap 100%". **Each "replicated once" source rolls on its own and each hit adds its own copy**:
-  copies before Kong = 1 + hits, mean 1 + sum(p), no cap; P(no once-copy) = prod(1 - p). **Kong then rolls on every copy**, its "20% replicated
-  1 time" and "13% replicated 2 times" [Vlad; the data can't tell 10 from 13] independently (x1.46 mean per copy).
-  - Rare-drop sizes kill add-up: it predicts 5.5 drops of 1 out of 88 on Colorful maps, observed 24 (log-lik -322 vs -157). They don't separate
-    the rest (biggest-only -156.6, each-hit -157.4, any-hit-one-copy -158.3). Secrets/map does: the engine's random Fluorescent crystal raises
-    Secrets x1.17 (95% x1.03-1.33, stratified by card; 70.9 vs 56.3/map at no card, 58 vs 13 maps) — predicted x1.00 biggest-only, x1.09
-    any-hit, x1.19 each-hit. Joint: each-hit -553.9, any-hit -556.6 (14:1), biggest-only -557.7 (40:1), add-up -717.9. Confidence medium-high.
-  - Sizes 1..7+ of the 88 Colorful-map drops: observed 24/32/13/6/6/4/3, each-hit 19/27/19/12/6/3/2 (fewer 3-4s than predicted, more 6-7s).
-  - Data size: 98 drops = 240 items (Maud's 134, Tomorrow's 39, Shadow 27, Lost Secrets 22, Hundredfold 17, Crow's 1) on 127 maps, every
-    PickItems block checked. Secrets (7,600) come as ~1,500 sweeps of piles (13-17 pickups/map, mean 4-5), so a pickup is not a drop; with the
-    crystal the pickups per map stay ~13.5 and get bigger (mean 4.2 -> 5.2 at no card): copies, not extra drops.
-  - His Machines stack: Sky's Dome 10 + Colorful (A) 50 + crystal 30 (on 79% of maps) = 1.84 copies before Kong, 2.7 memories per drop; with
-    everything on, 31.5% of drops get no once-copy and ~22% end as a drop of 1 — variance, not a dead buff. Memories are 83.5 FE/map there
-    (Shadows 50, Secrets 29.4 at the exchange): each extra 10% of replicate = x1.054 = +4.5 FE/map; Melancholy 30 / 20 card +13.7 / +9.1.
+- **Replication (fitted 2026-10-31, `tools/farm/replication_fit.py`: 88 rare-memory drops on Machines maps + Secrets on 107 Colorful Machines
+  maps, 10-30 + 10-31 logs; drop pets per map from the area dump, probe from the cost)** — replaces the 10-29 rule "once-chances add up, cap 100%".
+  **Every "replicated once" (Kong's 20% included) rolls on its own and every hit adds its own copy**, no cap, P(no once-copy) = prod(1 - p);
+  **then Kong's "13% replicated 2 times" rolls on every copy** (x3). Memories per drop = (1 + sum p) x 1.26.
+  - Rare-drop sizes kill add-up (5.5 drops of 1 predicted of 88 on Colorful maps, 24 observed) and "roll in order, stop at the first hit" with
+    Kong's 20% in the list (Vlad's 10-31 read: a drop is then 1 or 2 copies before the x3, so 1/2/3/4/6 only; observed 6 fives and 3 of 7+, and
+    13 threes vs 6 fours where it says 8 vs 19). They don't separate every-hit-a-copy from biggest-only; Secrets/map does: the engine's random
+    Fluorescent crystal raises Secrets x1.18 (95% x1.02-1.35, stratified by setup and card) — predicted x1.00 biggest-only, x1.06-1.09
+    stop-at-first-hit, x1.15-1.19 every-hit. Joint: every-hit (Kong 20% in the list) -521.5, Kong 20% per copy -522.6, stop-at-first-hit
+    -525.1 (Vlad's exact placement -538.8), biggest-only -526.3, add-up -686.6. Confidence medium-high.
+  - Sizes 1..7+ of the 88 Colorful-map drops: observed 24/32/13/6/6/4/3, every-hit 19/30/17/11/7/2/2.
+  - Data: 98 rare drops = 240 items (Maud's 134, Tomorrow's 39, Shadow 27, Lost Secrets 22, Hundredfold 17, Crow's 1) on 127 maps, every
+    PickItems block checked; the fit keeps the 88 on Machines maps (Vigil maps replicate through Lady Obituary's Elegy: Maud's x3 / Tomorrow's x3
+    on an Alert Outlaw + Phantom Vigil map with no Fluorescent source). Secrets (7,600) come as ~1,500 sweeps of piles (13-17 pickups/map, mean
+    4-5), so a pickup is not a drop; with the crystal the pickups per map stay ~13.5 and get bigger (mean 4.2 -> 5.2): copies, not extra drops.
+  - Drop pets change between farms (gamelog m["pets"]): Machines = Kong 8130 + Sky's Dome 8120 (+ Twilight Sparks, Miss Melancholy - Azure,
+    Lady Obituary, Heartbloom - Iris, Twin Inquisitors); a few Machines maps ran without Kong/Sky's (Benign Bug / Doro-Doro, Divinity pets).
+  - His Machines stack (Sky's Dome 10 + Kong 20 + Colorful (A) 50 + crystal 30 on 79% of maps): 2.04 copies before the x3, 2.57 memories per
+    drop; 22% of drops end as a 1 with everything on — variance, not a dead buff. Memories 83.5 FE/map (Shadows 50, Secrets 29.4 at the
+    exchange): +10% of replicate = x1.049 = +4.1 FE/map; Melancholy 30 / 20 card +12.3 / +8.2.
   - `bottomup.py` still caps replicate sums at 100% (the old rule); it only matters where a strategy's lines pass 100%.
 - **Catalyst Creation Engine** runs in the first 2-12 s of most Machines maps: `gameplay type 7602 received notifyId 104 / 101 / 103 / 102`; the 102
   NotifyData holds the two activated crystal codes (15001 / 15002 / 15003; some maps get a second round). gamelog.parse -> m["catalyst"]. **15003 is

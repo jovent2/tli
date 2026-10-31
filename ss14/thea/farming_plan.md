@@ -72,11 +72,15 @@ Profound Probe 2.1 + GA T8 beacon 3.1 + 28 resonance = 45.3/map. 93 s median in 
 price); without the Shadows +5/map: the stack is the Shadow lottery plus Secrets.
 **Secrets at the Spacetime Wanderer**: 30 Secrets -> "random Flame x10" = 10 draws, each 10 Flame Sand or 10 FE. 24 exchanges: 300 FE + 2,100
 Flame Sand -> 0.417 FE per Secret (+2.9 Flame Sand, the Enchant currency, untradeable) vs 0.26 selling at 0.3 after tax = +60%, ~+10 FE/map.
-Probe and card, re-priced 2026-10-31 on the fitted rule (each replicate source rolls on its own, each hit its own copy; docs/farming.md):
-memories here are 83.5 FE/map (Shadows 50, Secrets 29.4) on 1.84 once-copies. Fluorescent Profound Probe (5.5, "Fluorescent Memories dropped
-have a 20% chance to be replicated once") for Flourishing (2.1, +20% Drop Quantity, not on Disappearing Shadow per XD): x1.109 memories = +9.1
-FE/map - 3.4 cost - Flourishing's quantity on FE + Secrets (46 FE/map; ~+4.6 if it is x1.10 on his quantity stack) = ~+1/map: a wash, keep
-Flourishing. Confusion Card: Melancholy 30 = +13.7 FE/map, Melancholy 20 = +9.1 (60% of it from Shadows, so lumpy).
+Probe, pet and card, re-priced 2026-10-31 (fitted rule: every replicate incl. Kong's 20% rolls, every hit a copy, Kong's 13% x3 on each copy;
+memories here 83.5 FE/map on 2.04 once-copies; tlidb rank 6: Sky's Dome +14% DQ + 10% replicate, Miss Melancholy - Pink +18% DQ and nothing else,
+Flourishing Profound Probe +20% DQ (2.1), Fluorescent Profound Probe 20% replicate (5.5); additive Drop Quantity taken as ~+220%, a read):
+- Fluorescent probe for Flourishing: memories x1.098 = +8.2, quantity -20 points = -3.7 on the 58.6 FE/map of non-Shadow loot, cost -3.4 -> ~+1/map, a wash.
+- Miss Melancholy - Pink for Sky's Dome: memories x0.951 = -4.1, quantity +4 points = +0.7 -> -3.4/map, a loss.
+- Both (Vlad's 10-31 evening setup): memories x1.049 (+4.1), quantity -16 points (-2.9), cost -3.4 -> ~-2/map.
+- Confusion Card: Melancholy 30 = +12.3 FE/map, Melancholy 20 = +8.2 (60% of it Shadows, lumpy).
+- Evening check (per 100 rare drops on Colorful maps, Pink + Fluorescent probe): fitted rule 21/34/20/13/8/3/2 for sizes 1..7+; "stop at the first
+  hit" 21/57/3/17/0/1/0. The tell is the 3s and any 5 or 7+.
 Town that session (not map loot): bought + levelled a Phantasmagoria (1,888 + gauges 70 + Prism Level III 749) and listed it 2 min later.
 
 ### Alert Outlaw + All-Evil Vigil stack (Deep Space) — the one he likes

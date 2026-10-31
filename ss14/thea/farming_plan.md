@@ -89,6 +89,12 @@ used tlidb's stale pet numbers.
 - **Exclude from the fits [Vlad 10-31]: the 15:23 EET (13:23 UTC) map** — Dull - Machine card ("Attacking monsters have a 0.2% chance to drop 1
   additional plane-exclusive Fluorescent Memories during Trial: God of Machines", 1/1); 137 Secrets, 3 Shadows, catalyst not Fluorescent.
   gamelog.parse flags any map with that card text (m["exclude"]; the 13:21-13:26 UTC window is the fallback); the fits print what they drop.
+- **Profound major node instead of "+25% Drop Quantity / -4 attempts"** [Vlad 10-31: drop-pet "slots" 4-7 are mechanic-only pet pages
+  (Tartarus / Vigil), not swappable — the slot-swap idea below is void]: +25% is worth ~+1.6 FE/map if the pool skips drone drops (~+6 if it
+  doesn't — the 0-resonance test decides). Void Variables: no measurable value on his maps (0.38/map already; median non-drone loot +1.3,
+  FE drops and Secrets per drone flat). "Confusion Cards drawn will be rarer": his cards are worth 6.0 FE/map now; low tier -> top tier on
+  half the picks +1.2, on all +2.4. "10% chance to not consume Compasses" (+ monsters -20% damage taken): 10% of 37 FE = +3.7 — the best
+  if not already taken. Pick: compasses node > rarer cards > Void Variables.
 - **Plan after 10-31 (what to run)**: 73% of the map's money (Secrets 29.4 + Shadows 50.1 of 108.7 FE/map) only answers to drone count,
   "additional" lines, Focus and replicates; flat quantity is near-wasted there. Standing setup: Cruising (A) + Focus + Colorful (A) + Strength in
   Numbers (Transgression x1.41 per map = ~+33 FE for +43 FE: no), Fluorescent Profound Probe (+3.5 vs Flourishing), Kong + Sky's Dome + Twilight

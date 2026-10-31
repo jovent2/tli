@@ -83,6 +83,10 @@ so to decode a strategy's allocation fully we need the Chinese node texts (tlidb
     nothing" (x1.10 vs x0.84); the DQ cards / resonance (x1.07 / x1.02 / x1.03) fit "no pool" and "pool x4.49" equally (1.1-1.3:1); Transgression
     (an additional for Normal monsters) moved Secrets x1.34. Confidence ~75%. Settling test: ~20 maps at 0 resonance (Secrets flat if no pool,
     -19% if pool).
+  - With the 10-29 log (170 maps, Kong + Sky's on all): +30% DQ card x1.10 (0.89-1.35), +20% x1.07 (0.89-1.28), resonance 15 x1.045, no probe
+    x0.99 -> no pool vs pool 2.3:1, still open. "+30% additional Drop Quantity for Drones" card (new, 14 maps) x1.22 (0.94-1.58; read x1.30),
+    +10/15% x1.05 (read x1.10); Transgression for Strength in Numbers x1.42 (1.15-1.75). No pet contrast in it, so the Shards line waits for
+    the Pink log.
   - Big memories are too rare to measure quantity (0.68 drops/map: +30% card 0.50/map, +20% card 1.11/map); Shadows 0.12/map.
   - Naked rates (no quantity, no copies): Secrets 0.33/map from Drones (0.51 if the FMS lines don't work), big-memory drops 0.037/map.
   - Transgression in place of Strength in Numbers (+ no Flourishing on 7 of 8): Secrets per copy x1.34 (95% 0.99-1.81).
@@ -126,6 +130,9 @@ so to decode a strategy's allocation fully we need the Chinese node texts (tlidb
     stop-at-first-hit, x1.15-1.19 every-hit. Joint: every-hit (Kong 20% in the list) -521.5, Kong 20% per copy -522.6, stop-at-first-hit
     -525.1 (Vlad's exact placement -538.8), biggest-only -526.3, add-up -686.6. Confidence medium-high.
   - Sizes 1..7+ of the 88 Colorful-map drops: observed 24/32/13/6/6/4/3, every-hit 19/30/17/11/7/2/2.
+  - Refit with the 10-29 log too (Vlad's 1.3 GB backup; 52 Machines maps on the Fluorescent probe): 196 rare drops on Colorful maps, sizes
+    47/64/40/20/12/4/9 vs every-hit 39/62/38/27/17/7/7. Joint: every-hit -981.3 (Kong 20% in the list; per copy -981.8), stop-at-first-hit
+    -1013.8 at its best placement (-1107.6 Vlad's exact read), biggest-only -1015.9, add-up -1554.5. Crystal on Secrets x1.15 (95% 1.06-1.25).
   - Data: 98 rare drops = 240 items (Maud's 134, Tomorrow's 39, Shadow 27, Lost Secrets 22, Hundredfold 17, Crow's 1) on 127 maps, every
     PickItems block checked; the fit keeps the 88 on Machines maps (Vigil maps replicate through Lady Obituary's Elegy: Maud's x3 / Tomorrow's x3
     on an Alert Outlaw + Phantom Vigil map with no Fluorescent source). Secrets (7,600) come as ~1,500 sweeps of piles (13-17 pickups/map, mean
@@ -220,6 +227,8 @@ and continues); `PickItems` blocks = loot, by stack guid deltas. Keep the raw lo
 - The season board's final map (`+maptype [S16FinalMap]`, mapId 344; board UI lines `S16Board*`) is entered from town with no Spv3Open, so
   gamelog.parse opens no map for it and its loot is outside every per-map number: 33-56 s a run, 64-283 FE (Flame Elementium 116-201 + Flame
   Sand, embers, compasses, a few memories). 10-30: 6 runs = 1,217 FE; 10-31: 1 run = 240. Its memory drops are left out of the replication fit.
+- Drop-pet block: the first pet sits on the header line (`+dropServantContractData+1+servantId [8130]`) and the order changes between
+  joins; until the 10-31 fix the parser dropped that first pet, so 10-29 looked like Kong / Sky's Dome swapping every map. They were on all of them.
 - The join dump also lists the active drop pets (`+servantId [..]` with `+starLevel`); compare them across maps before blaming a setup change.
   Backup logs (`UE_game-backup-<date>.log`) hold whole launches (10-30: 1.1 GB, 18 h, parses in ~25 s).
 - **Fluorescent Memory exchanges** (Spacetime Wanderer): Secret of the Glacial Abyss 30 -> 10 draws of 10 Flame Sand (87.5%) or 10 FE (12.5%),

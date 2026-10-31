@@ -28,6 +28,7 @@ CARD_POOL = {"71100210": 30, "71100200": 20}
 ADD_ALL = [0.13, 0.03, 0.12, 1.00]                               # Twilight Sparks x2, tree, Confusion Card
 ADD_DRONES = [0.25, 0.40, 1.00, 0.20]                            # tree x2, Cruising (A), Strength in Numbers (Normal monsters)
 REPL = {"215803": 0.5, "71090100": 0.2, "71090110": 0.3, "12030": 0.2}
+DRONE_CARDS = {"72020400": 0.10, "72020410": 0.15, "72020420": 0.30}   # "+X% additional Drop Quantity for Drones during Trial: God of Machines"
 MACHINES = "10154"
 
 
@@ -53,6 +54,7 @@ def load(paths):
             card = next((i for i in e if len(i) == 8 and i[:2] in ("71", "72")), None)
             pets = set(m["pets"])
             out.append(dict(t=m["start"], card=card, pets=pets, res=m["cost"].get("5028", 0), crystal="15003" in m["catalyst"],
+                            beacon=next((G.RN.name(i).split("_Beacon")[0] for i in m["cost"] if "Beacon" in G.RN.name(i)), "?"),
                             flour="12000" in m["cost"], fluo="12030" in m["cost"], sin=any("Strength" in G.RN.name(i) for i in m["cost"]),
                             transg=any("Transgression" in G.RN.name(i) for i in m["cost"]),
                             secrets=m["loot"].get("6002", 0), rare_events=sum(1 for q, i, t in ev.get(k, []) if i != "6216"),
@@ -77,7 +79,7 @@ def chain(r, scope="drones", fms=None, pool_on=None):
     the "additional" lines; the big memories (normal) get pool + generic additional + Memory Shards. fms / pool_on override."""
     pool_on = (scope != "drones") if pool_on is None else pool_on
     fms = (scope != "drones") if fms is None else fms
-    add = list(ADD_ALL) + (ADD_DRONES if scope == "drones" else []) + ([0.10] if r["card"] == "72020400" and scope == "drones" else [])
+    add = list(ADD_ALL) + (ADD_DRONES if scope == "drones" else []) + ([DRONE_CARDS[r["card"]]] if r["card"] in DRONE_CARDS and scope == "drones" else [])
     if not r["sin"] and scope == "drones": add.remove(0.20)
     if fms: add += [PET_FMS[p] for p in r["pets"] if p in PET_FMS]
     return (pool(r) if pool_on else 1.0) * math.prod(1 + a for a in add)
@@ -97,19 +99,24 @@ def main(paths):
           f"{np.mean([r['rare_events'] / chain(r, 'rares') for r in std]):.3f}/map; observed {np.mean([r['secrets'] for r in std]):.1f} Secrets, "
           f"{np.mean([r['rare_events'] for r in std]):.2f} rare drops, {np.mean([r['shadow_events'] for r in std]):.2f} Shadow drops per map")
     # log Secrets per copy on the contrasts; the sheet's prediction = the change applied alone to a standard map
-    OTHER = ("71200100", "71100300", "72020100")                  # +20% compass DQ, +1 Blessed monster, +8% attack round: nothing for Secrets
+    OTHER = ("71200100", "71200110", "71100300", "72020100", "72020110", "71040110", "71101000", "71030200", "72040120", "71090200", "71030100")
     CHEST = ("71100000", "71090300")                               # 4-6 Mystery Chests, Bosses drop 8 additional Fluorescent Memories
     feats = [("card +30% DQ", lambda r: r["card"] == "71100210", lambda r: dict(r, card="71100210")),
              ("card +20% DQ", lambda r: r["card"] == "71100200", lambda r: dict(r, card="71100200")),
-             ("card +10% add. Drones", lambda r: r["card"] == "72020400", lambda r: dict(r, card="72020400")),
-             ("card no bonus (compass/blessed/round)", lambda r: r["card"] in OTHER, lambda r: dict(r, card="71100300")),
+             ("card +30% add. Drones", lambda r: r["card"] == "72020420", lambda r: dict(r, card="72020420")),
+             ("card +10/15% add. Drones", lambda r: r["card"] in ("72020400", "72020410"), lambda r: dict(r, card="72020400")),
+             ("card no bonus (compass/blessed/round/...)", lambda r: r["card"] in OTHER, lambda r: dict(r, card="71100300")),
              ("card chests / boss memories", lambda r: r["card"] in CHEST, None),
              ("resonance 15 (vs 31)", lambda r: r["res"] == 15, lambda r: dict(r, res=15)),
+             ("resonance 7 (vs 31)", lambda r: r["res"] == 7, lambda r: dict(r, res=7)),
              ("Transgression for SiN", lambda r: r["transg"], None),
-             ("no Flourishing", lambda r: not r["flour"] and not r["fluo"], lambda r: dict(r, flour=False)),
-             ("Pink for Sky's Dome", lambda r: "19320" in r["pets"] and "8120" not in r["pets"], lambda r: dict(r, pets=(r["pets"] - {"8120"}) | {"19320"})),
-             ("Fluorescent probe for Flourishing", lambda r: r["fluo"], lambda r: dict(r, flour=False, fluo=True))]
-    use = [r for r in M if "8130" in r["pets"] and r["secrets"] > 0 and r["res"] in (15, 31)]
+             ("no probe", lambda r: not r["flour"] and not r["fluo"], lambda r: dict(r, flour=False)),
+             ("Fluorescent probe for Flourishing", lambda r: r["fluo"], lambda r: dict(r, flour=False, fluo=True)),
+             ("Sky's Dome only (no Kong)", lambda r: "8130" not in r["pets"] and "8120" in r["pets"], lambda r: dict(r, pets=r["pets"] - {"8130"})),
+             ("Kong only (no Sky's Dome)", lambda r: "8120" not in r["pets"] and "8130" in r["pets"] and "19320" not in r["pets"], lambda r: dict(r, pets=r["pets"] - {"8120"})),
+             ("Pink for Sky's Dome", lambda r: "19320" in r["pets"] and "8120" not in r["pets"], lambda r: dict(r, pets=(r["pets"] - {"8120"}) | {"19320"}))]
+    feats += [(f"beacon {b}", (lambda b: lambda r: r["beacon"] == b)(b), None) for b in sorted({r["beacon"] for r in M}) if b != "Glacial_Abyss"]
+    use = [r for r in M if ({"8130", "8120"} & r["pets"]) and r["secrets"] > 0]
     cols = []                                   # [name, indicator vector, [appliers]]; near-identical columns (< 3 maps apart) are merged
     for nm, f, ap in feats:
         v = np.array([f(r) for r in use], float)

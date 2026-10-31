@@ -52,8 +52,10 @@ def parse(paths):
                 if ent and "Id" in ent and "Description" in ent: eff.append((last_t, ent["Id"], ent["Description"]))
                 last_t = t; ent = None; pet_blk = None
             else:                                         # effect entries: "+N+Key [v]" opens one, "| +Key [v]" adds a field; field order varies per launch
-                if "+dropServantContractData" in line:
+                if "+dropServantContractData" in line:           # the header line carries the first pet ("...+1+servantId [8130]")
                     pet_blk = {"t": last_t, "pets": {}}; pet_blks.append(pet_blk); pet_cur = None; pet_ind = line.index("+dropServantContractData")
+                    mm = SERVANT.search(line)
+                    if mm: pet_cur = mm.group(1); pet_blk["pets"][pet_cur] = None
                 elif pet_blk is not None:
                     if line.find("+") <= pet_ind: pet_blk = None             # a sibling key: the block is over
                     else:

@@ -37,8 +37,8 @@ def sources(m):
                 sky=(SKY in pets) if pets else True, kong=(KONG in pets) if pets else True)
 
 
-def setup_key(m):
-    return (tuple(sorted(m["pets"])) if m.get("pets") else None, tuple(sorted(i for i in m["cost"] if i.startswith("120"))))
+def setup_key(m):          # pets + everything consumed (beacon, compasses, probe) except resonance: one Secrets base per setup
+    return (tuple(sorted(m["pets"])) if m.get("pets") else None, tuple(sorted(i for i in m["cost"] if i != "5028")))
 
 
 def load(paths):

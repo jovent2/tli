@@ -45,7 +45,10 @@ def load(paths):
     """-> (rare drops [dict(size, sources...)], Colorful Machines maps with the engine [dict(secrets, setup, sources...)])"""
     rows, out = [], []
     for path in paths:
-        maps = [m for m in G.parse([path]) if G.is_stack(m)]
+        allm = [m for m in G.parse([path]) if G.is_stack(m)]
+        for m in allm:
+            if m.get("exclude"): print(f"  excluded {m['start'].strftime('%m-%d %H:%M')}Z: {m['exclude']}")
+        maps = [m for m in allm if not m.get("exclude")]
         for m in maps:
             m["src"] = sources(m)
             if MACHINES in m["cost"] and m["src"]["colorful"] and m.get("catalyst"):

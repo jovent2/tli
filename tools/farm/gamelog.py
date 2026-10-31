@@ -18,6 +18,12 @@ ENTRY = re.compile(r"\+\d+\+(\w+) \[(.*)\]\s*$")      # "+7+Id [210321]" / "+16+
 FIELD = re.compile(r"^[|\s]*\+(\w+) \[(.*)\]\s*$")    # "|   | +Description [..]"
 SERVANT = re.compile(r"\+servantId \[(\d+)\]")
 STAR = re.compile(r"\+starLevel \[(\d+)\]")
+# Maps to keep out of the replication / quantity fits (their loot still counts in report()): the Dull - Machine card ("Attacking monsters have
+# a 0.2% chance to drop 1 additional plane-exclusive Fluorescent Memories during Trial: God of Machines", Attempts 1/1) adds exclusive-memory
+# drops outside every rule we fit. Vlad 2026-10-31: one at 15:23 EET = 13:23 UTC (137 Secrets, 3 Shadows, catalyst not Fluorescent).
+EXCLUDE_CARD = re.compile(r"additional plane-exclusive Fluorescent Memor", re.I)
+EXCLUDE_TIMES = [(datetime.datetime(2026, 10, 31, 13, 21, tzinfo=datetime.timezone.utc), datetime.datetime(2026, 10, 31, 13, 26, tzinfo=datetime.timezone.utc),
+                  "Vlad: Dull - Machine map, 15:23 EET")]
 PETS = {"8130": "Kong", "8120": "Cloudgatherer - Sky's Dome", "19320": "Miss Melancholy - Pink", "19330": "Twilight Sparks"}
 IGNORE_IDS = {"100200"}            # [etor] skipped too (not a drop)
 AUCTION = {"XchgReceive", "XchgBuy", "XchgSell", "XchgCancel"}
@@ -119,8 +125,14 @@ def parse(paths):
         lo = m["start"] - datetime.timedelta(seconds=2); hi = m["end"] or m["next_open"] or (m["start"] + datetime.timedelta(hours=1))
         m["effects"] = {i: d for tt, i, d in eff if tt is not None and lo <= tt <= hi}
         m["card"] = next((re.sub("<[^>]+>", "", d) for i, d in m["effects"].items() if len(i) == 8 and i[:2] in ("71", "72")), None)
+        m["exclude"] = next((f"card: {re.sub('<[^>]+>', '', d)[:60]}" for d in m["effects"].values()
+                             if EXCLUDE_CARD.search(re.sub("<[^>]+>", "", d))), None)
         pb = [b for b in pet_blks if b["t"] is not None and lo <= b["t"] <= hi and b["pets"]]
         m["pets"] = pb[-1]["pets"] if pb else None          # {servantId: starLevel} of the drop pets in that map's area dump
+    if not any(m["exclude"] for m in maps):                    # fallback: Vlad's time notes, if the card text wasn't in the dump
+        for m in maps:
+            for a, b, why in EXCLUDE_TIMES:
+                if a <= m["start"] <= b: m["exclude"] = why
     return maps
 
 BEACON_IDS = {"400007"}                      # Glacial Abyss Beacon (Tier 8)

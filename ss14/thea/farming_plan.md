@@ -86,6 +86,9 @@ used tlidb's stale pet numbers.
   Secrets + Shadows = +8.0, level with Melancholy 20 (+8.2), behind Melancholy 30 (+12.3). Pink for Sky's Dome: +1.0 pool, -4.1 replicate, -0.8
   Shards on big memories = -3.9 FE/map; Fluorescent probe for Flourishing: +8.2 - 1.3 - 3.4 = +3.5; both = -0.4. Best: Sky's Dome + Fluorescent
   probe (+3.5). Resonance 31 vs 15 = +1.6 for 1.8 FE (break-even), 31 vs 0 = +5.5 for 3.4 (+2.1).
+- **Exclude from the fits [Vlad 10-31]: the 15:23 EET (13:23 UTC) map** — Dull - Machine card ("Attacking monsters have a 0.2% chance to drop 1
+  additional plane-exclusive Fluorescent Memories during Trial: God of Machines", 1/1); 137 Secrets, 3 Shadows, catalyst not Fluorescent.
+  gamelog.parse flags any map with that card text (m["exclude"]; the 13:21-13:26 UTC window is the fallback); the fits print what they drop.
 - First tally [Vlad 10-31 evening]: 13 maps Flourishing 905 Secrets (69.6/map), 19 maps Fluorescent probe 1,457 (76.7/map) = x1.10
   (se of the log ratio ~0.12). If the 19 were all Pink: "Memory Shards line does nothing" (x1.04) 0.5 sigma off, "works" (x0.84) 2.2 sigma ->
   ~10:1 for "does nothing", cards and crystals unchecked; the log decides.

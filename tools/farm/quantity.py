@@ -38,7 +38,10 @@ def res_pool(n):
 def load(paths):
     out = []
     for path in paths:
-        maps = [m for m in G.parse([path]) if G.is_stack(m)]
+        allm = [m for m in G.parse([path]) if G.is_stack(m)]
+        for m in allm:
+            if m.get("exclude"): print(f"  excluded {m['start'].strftime('%m-%d %H:%M')}Z: {m['exclude']}")
+        maps = [m for m in allm if not m.get("exclude")]
         ev = collections.defaultdict(list)
         for k, t, i, q in sorted(R.pickups([path], maps), key=lambda r: (r[0], r[1])):
             lst = ev[k]

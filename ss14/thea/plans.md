@@ -203,6 +203,13 @@ CDR); a 4th attached tangle (x1.075 uncapped: 4 x 1.0 vs 3 x 1.4 = x0.952, Malig
 Other Trauma sources: Chaotic Ending (ring; Trauma-while-Fervor is 1 of ~30 random blessing affixes), Dual Kismet: Butterfly in a Bottle x2 (3,199 each,
 2 medium slots, -8% ele res; also Wilt + Ignite), Shadowdancer slate legendary medium (Max Active 1), memory fixed affix "Immune to Trauma Damage".
 
+## Crafted tangle neck instead of I Am Truth (2026-10-31 21:01, Vlad; old-engine sheet + the Vorax ring, Boon held at 2 stacks)
+Rare neck, random base (the Biting Cold trigger base is ~20k): P: ES basic / INT adv T1 43-60 / ult "You can apply 1 additional Tangle(s) +
+(5-8)% Tangle Damage Enhancement" T1 | S: proj speed basic T1 33-45 / crit dmg adv T1 42-60 / aura effect ult T1 15-20. vs I Am Truth **x1.39**
+(I Am Truth = x1.87 over an empty neck, duration aside). Lines: tangle line x1.61 alone (attach x1.55 + its TDE x1.04), aura 18 x1.21, INT 52
+x1.11, crit dmg 51 x1.10, proj speed 39 x1.10 (belt Gale), ES 0, base "+22% damage" / "+18 INT" ~x1.03. Prerequisite: I Am Truth's 40%
+duration holds the 2nd Boon stack (margin 1.09 with it, 0.83 without) -> ~+26-30% duration elsewhere first (belt 18% Double -> +30% duration).
+
 ## Phantasmagoria 3rd affix (2026-10-31, Vlad rolled one and missed; corrected after Vlad)
 The 75 "Prism Gauge - Legendary" rows on tlidb are three pools of 25 (rows 318-342, 343-367, 368-392), not one pool of 42: two carry "Immune to crowd
 control effects / -25% Defense" with +1 blessing / +40% lines, one carries the plain CC line with +2 / +100% lines. The Phantasmagoria rolls the

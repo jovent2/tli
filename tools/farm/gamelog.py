@@ -156,7 +156,7 @@ def is_stack(mp, need=None):
     if need: return all(i in mp["cost"] for i in need)
     return any(i in BEACON_IDS for i in mp["cost"]) or any(RN.name(i).endswith("Compass") or "Probe" in RN.name(i) for i in mp["cost"])
 
-# Items worth more at the Spacetime Wanderer than on the AH (FE per item, untaxed). Secret of the Glacial Abyss: 30 -> "random Flame x10" =
+# Items worth more at the Spacetime Wanderer than on the AH (FE per item, untaxed).
 # Spacetime Wanderer: 30 Secrets -> 10 draws of 10 Flame Sand or 10 FE. 10-29..11-01 logs, Secrets-only sessions: 6,024 Secrets -> 1,910 FE
 # + 17,970 Flame Sand (99 units per 30; FE on 9.6% of 1,988 draws) = 0.317 FE + 2.98 Flame Sand per Secret (AH 0.3, 0.26 after tax).
 # The 10-31 first read (24 exchanges, 12.5% FE) said 0.417. Flame Sand is not valued here.

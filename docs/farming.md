@@ -83,22 +83,25 @@ so to decode a strategy's allocation fully we need the Chinese node texts (tlidb
   on ~11% of maps; it is all-or-nothing per map, visible in the base-affix list before entering, and tlidb: "You may reset affixes on a
   map to avoid dangerous harmful affixes" (re-rolling costs the 31 resonance again = 3.4 FE; ~0.4 FE/map on average).
   Same pool, same counter: "-90% / -40% additional damage from attacks dealt from more than 6m away" (anti-ranged).
-- **Replication (measured 2026-10-31, `tools/farm/replication.py`, 127 maps / 98 rare-memory drops from the 10-30 + 10-31 logs)** — replaces
-  the 10-29 rule "once-chances add up, cap 100%": that rule predicts 14% / 7% single-copy drops on Colorful (A) maps with the Melancholy 20% / 30%
-  card; observed 35% (7/20, P = 0.015) and 27% (3/11, P = 0.037). Best fit: **each "replicated once" source rolls on its own**, P(no copy) =
-  prod(1 - p): Colorful (A) 50 + Sky's Dome 10 -> 45% (x Kong's 70% no-proc = 32% singles; observed 25%, 57 drops), + Melancholy 20% -> 25%
-  (obs 35%), + 30% -> 22% (obs 27%), no Colorful -> 63% (obs 80%, 10 drops); total 31.7 expected vs 32 observed. "Only the highest chance
-  counts" (35% everywhere, 37.1 expected) is the runner-up. Confidence medium. Consequences: Vlad's once-chance is 55%, not 100%; Melancholy 30%
-  -> 68.5% (x1.09 memories), a 20% card or the Fluorescent probe -> 64% (x1.06); everything stacked (Colorful + Melancholy 30 + probe + Sky's
-  Dome) is 75%. Kong rank 5 = "20% replicated 1 time" + "10% replicated 2 times" (not 13%); its extra copies land in the same stack.
-- **Catalyst Creation Engine** (tlidb: "grants a Drop Quantity Bonus corresponding to the type of the activated Creation Crystal") runs in the first
-  2-12 s of 93 of 111 maps (10-30 log): `gameplay type 7602 received notifyId 104 / 101 / 103 / 102`; the 102 NotifyData holds the two activated
-  crystal codes (15001 / 15002 / 15003; 23 maps had a second engine round). gamelog.parse -> m["catalyst"]. **15003 behaves as the Fluorescent
-  crystal**: Secrets/map 61 / 72 / 80 (se ~5) with 0 / 1 / 2 of it on Colorful Machines maps; 15001 and 15002 don't move Secrets. Single-copy
-  drops stay at 31% with one 15003 (13/42, same as with none) -> it is drop quantity (more memory drops), not a replicate chance: counted as a
-  30% replicate it would predict 11.6 singles (add-and-cap) / 23.2 (independent) on the 10-30 log vs 30 observed; as quantity, 28.9. Drop
-  quantity does not touch Disappearing Shadow (XD), Shadows by 15003 count 0.27 / 0.21 / 0.38 per map (noise). Vlad: the in-game buff is
-  "Catalyst Creation Engines". Two Fluorescent crystals vs none = +19 Secrets/map (~+8 FE).
+- **Replication (fitted 2026-10-31, `tools/farm/replication_fit.py`: 98 rare-memory drops + 107 Colorful Machines maps, 10-30 + 10-31 logs)** —
+  replaces the 10-29 rule "once-chances add up, cap 100%". **Each "replicated once" source rolls on its own and each hit adds its own copy**:
+  copies before Kong = 1 + hits, mean 1 + sum(p), no cap; P(no once-copy) = prod(1 - p). **Kong then rolls on every copy**, its "20% replicated
+  1 time" and "13% replicated 2 times" [Vlad; the data can't tell 10 from 13] independently (x1.46 mean per copy).
+  - Rare-drop sizes kill add-up: it predicts 5.5 drops of 1 out of 88 on Colorful maps, observed 24 (log-lik -322 vs -157). They don't separate
+    the rest (biggest-only -156.6, each-hit -157.4, any-hit-one-copy -158.3). Secrets/map does: the engine's random Fluorescent crystal raises
+    Secrets x1.17 (95% x1.03-1.33, stratified by card; 70.9 vs 56.3/map at no card, 58 vs 13 maps) — predicted x1.00 biggest-only, x1.09
+    any-hit, x1.19 each-hit. Joint: each-hit -553.9, any-hit -556.6 (14:1), biggest-only -557.7 (40:1), add-up -717.9. Confidence medium-high.
+  - Sizes 1..7+ of the 88 Colorful-map drops: observed 24/32/13/6/6/4/3, each-hit 19/27/19/12/6/3/2 (fewer 3-4s than predicted, more 6-7s).
+  - His Machines stack: Sky's Dome 10 + Colorful (A) 50 + crystal 30 (on 79% of maps) = 1.84 copies before Kong, 2.7 memories per drop; with
+    everything on, 31.5% of drops get no once-copy and ~22% end as a drop of 1 — variance, not a dead buff. Memories are 83.5 FE/map there
+    (Shadows 50, Secrets 29.4 at the exchange): each extra 10% of replicate = x1.054 = +4.5 FE/map; Melancholy 30 / 20 card +13.7 / +9.1.
+  - `bottomup.py` still caps replicate sums at 100% (the old rule); it only matters where a strategy's lines pass 100%.
+- **Catalyst Creation Engine** runs in the first 2-12 s of most Machines maps: `gameplay type 7602 received notifyId 104 / 101 / 103 / 102`; the 102
+  NotifyData holds the two activated crystal codes (15001 / 15002 / 15003; some maps get a second round). gamelog.parse -> m["catalyst"]. **15003 is
+  the Fluorescent crystal**: buff "Fluorescent memories dropped have a 30% chance to be replicated once" [Vlad: binary, two picks = one buff, the
+  engine picks]; the buff line itself is not in the log, only the activation (tlidb's "Drop Quantity Bonus" wording is wrong for this one). Secrets/map
+  56 without / 71 with (no card); two picks 79 vs one 68 (+15% ± 12%, not separable). 15001 / 15002 don't move Secrets. (A 10-31 read here called
+  it drop quantity: that came from testing it under the add-up rule.)
 - How a drop looks in the log: one pickup = one ground stack: `ItemChange@ Add Id=6216_<guid> BagNum=3` is a Shadow drop of 3. The once-copy is
   sometimes its own ground item, picked 0.2-0.4 s later (10-30 13:02: Shadow x3 then x2, 245 ms). A pickup can sweep several ground items
   (1/3 of PickItems blocks hold more than one item type), so x5-x7 Maud's are likely two drops. Drop-spawn lines (`UDropInstanceMgr@
@@ -107,8 +110,8 @@ so to decode a strategy's allocation fully we need the Chinese node texts (tlidb
   compasses (Colorful (A) 215803, Focus 215802), Void Chart nodes, resonance affixes, and the **Confusion Card** picked (7xxxxxxx: Melancholy
   71090100 = 20% / 71090110 = 30% replicate, 71100200/71100210 = +20/+30% Drop Quantity, 72020400 = +10% Drones ...). `gamelog.parse` stores
   them as m["effects"] / m["card"]. Pets are in the join dump (`+servantId`, `+starLevel`): his Machines maps all ran Kong (8130) r5,
-  Cloudgatherer - Sky's Dome (8120) r5, Twilight Sparks (19330) r5. No Creation replication effect exists in any dump (Creation Engines 299401
-  are on every Machines map); the only 30% replicate is the Melancholy card. A hidden 30% on every map would have left ~24 singles, not 32.
+  Cloudgatherer - Sky's Dome (8120) r5, Twilight Sparks (19330) r5. The Fluorescent crystal's 30% buff is not in
+  the dump (granted after entry): read it from the 7602 lines.
 
 ## Tools (tools/farm/)
 - `runs.py` loads the leaderboard entries + details, values loot at the latest price file (12.5% tax, FE untaxed), decodes trees.
@@ -127,7 +130,7 @@ so to decode a strategy's allocation fully we need the Chinese node texts (tlidb
   (NQ: Vorax, Sandlord, Mistville, Frozen Canvas, Overrealm, Disappearing Shadow); the mechanic's "+X% additional" nodes and compass
   lines (`ADD_RULES`, incl. instance-count nodes: echelons, attack rounds, Safari bosses, Creation engines, Vorax groups, Might
   levels, Dark Surge corrosion); class multipliers: compass drops (Compass constellation 1.4%x37, +4%, +2.5%/compass inserted,
-  Ecliptics, Compass probe, replication), fluorescent replication (capped sum), Focus x1.5 on exclusive memories, ember lines
+  Ecliptics, Compass probe, replication), fluorescent replication (capped sum — old rule, see Replication), Focus x1.5 on exclusive memories, ember lines
   (Might's only on Might columns), Gear probe; Transgression x1.9 on Machines, x1.54 on generic. Then NNLS per item (rows weighted
   by sqrt(runs)) -> naked yield per instance with every multiplier at 1. Items with < 25 drops in 46k runs are lotteries: valued at
   the shrunk observed rate per column (>= 5 drops there) or globally.

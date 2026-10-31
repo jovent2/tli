@@ -70,9 +70,11 @@ Profound Probe 2.1 + GA T8 beacon 3.1 + 28 resonance = 45.3/map. 93 s median in 
 price); without the Shadows +5/map: the stack is the Shadow lottery plus Secrets.
 **Secrets at the Spacetime Wanderer**: 30 Secrets -> "random Flame x10" = 10 draws, each 10 Flame Sand or 10 FE. 24 exchanges: 300 FE + 2,100
 Flame Sand -> 0.417 FE per Secret (+2.9 Flame Sand, the Enchant currency, untradeable) vs 0.26 selling at 0.3 after tax = +60%, ~+10 FE/map.
-Probe: the x1 event proves the once-replication chance is under 100% without a probe line (Colorful (A) 50 + pets). Fluorescent Profound Probe
-(5.5, "Fluorescent Memories dropped have a 20% chance to be replicated once") instead of Flourishing (+20% Drop Quantity — not on Disappearing
-Shadow per XD). Corrected 2026-10-31 (replication is independent rolls, not add-and-cap): the probe moves the once-chance 55% -> 64% (x1.06 memories) = ~+4 gross for +3.4 cost and Flourishing's quantity on FE/Secrets -> not worth it.
+Probe and card, re-priced 2026-10-31 on the fitted rule (each replicate source rolls on its own, each hit its own copy; docs/farming.md):
+memories here are 83.5 FE/map (Shadows 50, Secrets 29.4) on 1.84 once-copies. Fluorescent Profound Probe (5.5, "Fluorescent Memories dropped
+have a 20% chance to be replicated once") for Flourishing (2.1, +20% Drop Quantity, not on Disappearing Shadow per XD): x1.109 memories = +9.1
+FE/map - 3.4 cost - Flourishing's quantity on FE + Secrets (46 FE/map; ~+4.6 if it is x1.10 on his quantity stack) = ~+1/map: a wash, keep
+Flourishing. Confusion Card: Melancholy 30 = +13.7 FE/map, Melancholy 20 = +9.1 (60% of it from Shadows, so lumpy).
 Town that session (not map loot): bought + levelled a Phantasmagoria (1,888 + gauges 70 + Prism Level III 749) and listed it 2 min later.
 
 ### Alert Outlaw + All-Evil Vigil stack (Deep Space) — the one he likes

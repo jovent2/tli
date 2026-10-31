@@ -158,12 +158,15 @@ DPS = Base
   Multiple Projectiles / Target Projection (repo had Spell Tangle / Manifold / Lightchaser / TP / CC). Modeled -> today's six pulls fit dummy_scale **0.851** (rms 3%).
   Yesterday with Spell Tangle fits 0.767 (x1.11 unexplained); with the medium already in slot 1 it fits 0.895 and one constant 0.862 covers all 8 pulls (rms 3.9%).
 
-### Drop replication stacking [Vlad 2026-10-29, in-game observation]
-- Every "X% chance to be replicated once" source (compasses, probes, pets' "replicated 1 time" lines, Creation's Fluorescent crystal
-  buff) adds into ONE x2 chance, capped at 100%: a drop is never doubled twice. Kong's "replicated 2 times" (13%) rolls AFTER that, per
-  copy (x3): 4 = one of two copies tripled, 6 = both; 5 is impossible and 6 is the most ever seen. Expected copies = (1 + min(1, sum)) x 1.26.
-- Machines stack: Creation 30 + Colorful (Artifact) 50 + Kong 20 + Sky's Dome 10 = 110% -> capped; the Fluorescent probe's 20% and a
-  plain Colorful add nothing there.
+### Drop replication stacking [fitted 2026-10-31 from his logs, tools/farm/replication_fit.py; replaces the 10-29 add-and-cap read]
+- Every "X% chance to be replicated once" source (compasses, cards, probes, the Catalyst Creation Engine crystal buff, pets' "replicated 1 time")
+  rolls on its own and each hit adds its own copy: copies = 1 + hits, mean 1 + sum(p), no cap, P(no copy) = prod(1 - p). Kong's "20% replicated
+  1 time" / "13% replicated 2 times" then roll on every copy, independently. Expected copies = (1 + sum p) x 1.46.
+- Proof: add-and-cap predicts 5.5 single-copy drops of 88 on Colorful maps, observed 24 (log-lik -322 vs -157); the randomly picked Fluorescent
+  crystal raises Secrets/map x1.17 (95% 1.03-1.33) -> "only the biggest chance counts" (x1.00) and "any hit = one copy" (x1.09) lose 40:1 / 14:1
+  jointly. Sizes 5 and 7+ do occur (6 and 3 of 88). Details: docs/farming.md, Replication.
+- Machines stack: Sky's Dome 10 + Colorful (A) 50 + crystal 30 = 1.9 copies before Kong, but 31.5% of drops get none; every extra replicate
+  source adds its full % (Melancholy 30 x1.16 there, a 20% line x1.105).
 - **Skill slots** [Vlad 2026-10-30]: 5 active + 4 passive; auras live in the passive slots, so a freed active slot (e.g. a curse moved to a gear trigger) can only take an active skill (empower, curse, sentry...).
 - **Gear curse triggers** [tlidb]: Necklace base affix "Triggers Lv. 20 Biting Cold Curse upon dealing damage to enemies. Cooldown: 0.2 s"; Ring base affix the same for Timid / Entangled Pain; chest ult prefix "You can cast 1 additional Curses" (T1; T0 adds 8-10% Curse Effect). A triggered curse is a fixed level and has no supports (no Deepened Curse). Engine: ctx `biting_cold_level` / `timid_level`.
 - **Ice Bond** [tlidb]: Empower + Sentry; Euphoria while the Sentry is within its area around you: "+N% additional Cold Damage against Frostbitten enemies" (24% at L20, +0.25%/level), scaled by Empower Effect (its own WFB / Mass Effect). Engine: in skills.others with its supports. Whether Mass Effect's charges apply to it is unverified.

@@ -160,6 +160,12 @@ so to decode a strategy's allocation fully we need the Chinese node texts (tlidb
   Treasure Sentries, 6100005 monsters on a larger scale, 6100007 Rift Portal chance, 6100013 +1 Calamity Warlord, 6100006/9 no text). His
   10-29..10-31 Machines maps: 0.38 per map (63 of 196 maps); with vs without: non-drone loot median 25.5 vs 24.2 FE, FE drops 15.8 vs 15.9,
   Secrets per drone 0.98 vs 1.00 -> no measurable value on a drone farm (they add rares and packs, not drones).
+  Spread (255 stack maps): 180 none, 62 one, 13 two, never three; 0.34 / 0.35 / 0.38 per map on 10-29 / 30 / 31. Per 100 maps: Rare Treasure
+  Sentries 6.7, +2 Disciple 5.5, larger scale 4.7, Magic Treasure Sentries 3.5, +1 blessed 3.5, Rift Portal 2.7, +3 blessed 2.7, +5 Disciple
+  2.0, 6100006 1.6, Calamity Warlord 0.8, 6100009 0.4, +8 blessed 0.4. Non-drone loot (winsorized at 91 FE; baseline 29.7) per type on Machines
+  maps: Rare TS +6 (16 maps; big memories 5.2 vs 2.0), +2 Disciple -7 (12), larger scale +8.5 (10), Magic TS +4 (8), +1 blessed +7.5 (7; big
+  memories 9.9), Rift +7 (4), +3 blessed +15 (6), +5 Disciple +2.5 (5), 6100006 +5 (4), Calamity Warlord +32 (2), 6100009 -16 (1).
+  Average ~+3 FE per variable (± 3.4) -> ~1 FE/map now; the VV node adds ~1 per doubling of the rate.
 - **Map-entry effect dump**: at map entry the log lists every active effect ("+Id [..]" + "+Description [..]", field order varies per launch):
   compasses (Colorful (A) 215803, Focus 215802), Void Chart nodes, resonance affixes, and the **Confusion Card** picked (7xxxxxxx: Melancholy
   71090100 = 20% / 71090110 = 30% replicate, 71100200/71100210 = +20/+30% Drop Quantity, 72020400 = +10% Drones ...). `gamelog.parse` stores

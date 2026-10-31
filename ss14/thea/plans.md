@@ -190,6 +190,11 @@ On Vlad's ring: base +2 Spell Skill Level x1.072 over +1 Focus (+1 Focus x1.130 
 (x0.935); ARP T1 x0.948 · CDR x1.074 over "+15% ele / +15% erosion res" (2nd Boon stack ~85% uptime without it) · belt duration x1.073 over its 18% Double ·
 neck 2nd ult +2 Active (aura x0.941; Fervor there is now dead, x0.804) · Trauma via ring R base + SA line on the neck in INT's place x0.948 · wand T0
 Double x1.036 · robe's 140% crit basic x1.10 (crit 90 -> 100%).
+**Crafted 2026-10-31 20:28 [Vlad, screenshot]**: Vorax Limb: Digits ilvl 89 — prefix: T2 Ult +30% Deterioration Damage, T2 Adv adds 2-56 lightning
+to attacks and spells, T1 Dawn Break Have Fervor | suffix: T2 Ult +13% Skill Effect Duration, T2 Adv +42% crit dmg, T1 Dawn Break +1% additional
+damage per **2** Fervor Rating (the +50% roll). Base line not in the shot. Robe-world model (pre tree change, relative): x1.98 over the old ring
+L (x2.24 with a +1 Focus base; full plan x2.96). Next: Ult prefix Deterioration -> ARP 20 (Flawless Spine: Impalement ~149) **x1.26**; crit dmg
+42 -> 70 x1.05; duration 13 -> CDR 30 x1.00 while the 2nd Boon stack stays up; the lightning slot -> block (defense, 0 DPS).
 Not available: "+(25-30)% additional damage against Frozen enemies" is in the Digits pool but no special organ grafts it on rings (would be x1.17 over
 CDR); a 4th attached tangle (x1.075 uncapped: 4 x 1.0 vs 3 x 1.4 = x0.952, Malign's 4th activated tangle +21% on crit = x1.129) has no source —
 "You can only equip 1 Vorax Gear" (Digits page), so no Vorax Head/Neck next to the ring.

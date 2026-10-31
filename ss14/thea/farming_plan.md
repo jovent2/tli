@@ -105,6 +105,11 @@ used tlidb's stale pet numbers.
   Tests in order: (1) the Pink block (Memory Shards; per drone x0.81 vs x1.00, 25+ maps), (2) ~25 maps at 0 resonance (pool on drone drops:
   x0.81 vs x1.00 per drone, ~4.5 sigma; costs ~2 FE/map if the read holds), (3) then re-price the Void Chart (flat +25% DQ node vs Machines
   drone nodes: attacking monsters +0.6% micros, +5/6/7% additional in the trial, extra echelons).
+- **10-31 evening results (today's log, 67 maps: 33.5 FE/min of map time, net 4,351)**: Sky + Flourishing 21 maps 34.4 FE/min (111 s, 5
+  Shadows); Sky + Fluorescent 4 maps (5 Shadows, incl. the excluded Dull map); Pink + Fluorescent 40 maps 23.5 FE/min (125 s, 8 Shadows) — the
+  gap is Shadow luck and pace, Secrets per drone 0.96 vs 0.91. Memory Shards and the flat pool proven dead on Secrets -> **Sky's Dome back**
+  (its 10% dupe = +4.1 FE/map vs Pink's +16 flat on ~29 FE = +1.0), **Fluorescent probe stays**. Rare-drop sizes today (27, Pink block)
+  7/9/5/1/1/2/2 vs every-hit 5.7/9.0/5.3/3.6/2.1/0.8/0.5 — replication rule holds (235 drops overall, ~10^15:1 over stop-at-first-hit).
 - **Card ranking with the per-drone fit** (Secrets + Shadows = 79.5 FE/map come from drones; "+X% additional Drop Quantity for Drones"
   measured x1.23 for the +30% card, x1.15 for +10/15%): **+30% additional Drones ~+18-24 FE/map (take it every time)**, Melancholy 30 +12.3,
   +15% Drones ~+12, Melancholy 20 +8.2, +10% Drones ~+8, +30% DQ ~+1.9 (x1.05 per drone, no effect shown), +20% DQ ~+1.3. Non-drone Secrets

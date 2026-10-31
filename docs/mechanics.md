@@ -168,6 +168,14 @@ DPS = Base
   every-hit-a-copy -521.5, stop-at-first-hit -525.1 (best placement; Vlad's exact read -538.8), biggest-only -526.3, add-up -686.6.
 - Machines stack (Sky's Dome 10 + Kong 20 + Colorful (A) 50 + crystal 30): 2.1 copies before the x3, 2.65 memories per drop, yet 25% of drops get
   no copy (0.9 x 0.8 x 0.5 x 0.7) and 22% end as a drop of 1. Every extra replicate source adds its full % (Melancholy 30 x1.15 there).
+### Drop quantity on drone-dropped plane-exclusive memories [proven 2026-10-31, tools/farm/quantity.py on the 10-29 / 10-30 / 10-31 logs]
+- Secret of the Glacial Abyss and Disappearing Shadow are plane-exclusive Fluorescent Memories dropped by the Machines drones. On them the flat
+  "+X% Drop Quantity" pool (resonance, Path of Progression, pets' flat lines, tree +25%, Flourishing probe, Profound, the +20/30% cards) does
+  nothing, and neither does "+24% additional Fluorescent Memory Shards Drop Quantity" (Kong, Sky's Dome). Every "additional Drop Quantity" line,
+  every replicate and Focus Fluorescent (+50% exclusive) do work. XD's "Gameplay Exclusive" column under Machine Drones = these two.
+- Proof (218 maps, Secrets per copy with drones killed as covariate, residual sd 0.21): Pink for Sky's Dome (40 maps) x0.976 (0.88-1.09) vs
+  x0.835 if Shards + pool applied -> Shards off beats on ~10^7:1; pool off beats on 49:1 (+30% card x1.03, +20% x1.00, resonance 15 x0.98,
+  Fluorescent for Flourishing x1.06). "+30% additional Drones" card x1.24 (1.08-1.42), +10/15% x1.17 (1.06-1.30).
 - **Skill slots** [Vlad 2026-10-30]: 5 active + 4 passive; auras live in the passive slots, so a freed active slot (e.g. a curse moved to a gear trigger) can only take an active skill (empower, curse, sentry...).
 - **Gear curse triggers** [tlidb]: Necklace base affix "Triggers Lv. 20 Biting Cold Curse upon dealing damage to enemies. Cooldown: 0.2 s"; Ring base affix the same for Timid / Entangled Pain; chest ult prefix "You can cast 1 additional Curses" (T1; T0 adds 8-10% Curse Effect). A triggered curse is a fixed level and has no supports (no Deepened Curse). Engine: ctx `biting_cold_level` / `timid_level`.
 - **Ice Bond** [tlidb]: Empower + Sentry; Euphoria while the Sentry is within its area around you: "+N% additional Cold Damage against Frostbitten enemies" (24% at L20, +0.25%/level), scaled by Empower Effect (its own WFB / Mass Effect). Engine: in skills.others with its supports. Whether Mass Effect's charges apply to it is unverified.

@@ -90,6 +90,8 @@ so to decode a strategy's allocation fully we need the Chinese node texts (tlidb
   - **Per drone (log(drones) in the model, residual sd 0.37 -> 0.21)**: +30% DQ card x1.05 (0.93-1.18), +20% x0.99, resonance 15 x1.01
     (0.92-1.10), resonance 7 x1.30 (2 maps) -> **no pool on Secrets beats pool 11:1**. "+X% additional Drop Quantity for Drones" cards: +30%
     x1.23 (1.07-1.42), +10/15% x1.15 (1.02-1.29) -> additional works, ~9,500:1 over nothing. Transgression for SiN x1.62 (1.42-1.85).
+  - **Settled 10-31 evening (Pink log, 218 maps)**: Pink for Sky's x0.976 (0.88-1.09) per drone vs x0.835 if pool + Shards applied -> Memory
+    Shards off ~10^7:1, pool off 49:1 on Secrets. Fluorescent probe for Flourishing x1.055 (0.96-1.16). See docs/mechanics.md.
   - Big memories are too rare to measure quantity (0.68 drops/map: +30% card 0.50/map, +20% card 1.11/map); Shadows 0.12/map.
   - Naked rates (no quantity, no copies): Secrets 0.33/map from Drones (0.51 if the FMS lines don't work), big-memory drops 0.037/map.
   - Transgression in place of Strength in Numbers (+ no Flourishing on 7 of 8): Secrets per copy x1.34 (95% 0.99-1.81).

@@ -195,6 +195,8 @@ to attacks and spells, T1 Dawn Break Have Fervor | suffix: T2 Ult +13% Skill Eff
 damage per **2** Fervor Rating (the +50% roll). Base line not in the shot. Robe-world model (pre tree change, relative): x1.98 over the old ring
 L (x2.24 with a +1 Focus base; full plan x2.96). Next: Ult prefix Deterioration -> ARP 20 (Flawless Spine: Impalement ~149) **x1.26**; crit dmg
 42 -> 70 x1.05; duration 13 -> CDR 30 x1.00 while the 2nd Boon stack stays up; the lightning slot -> block (defense, 0 DPS).
+20:30: Ult prefix -> T2 ARP 10 (x1.13), Adv prefix -> T1 block 14. Ring now x2.24 over the old one (same model). Left: ARP 10 -> 20 x1.12,
+crit dmg 42 -> 70 x1.05 (both x1.17); block 14 -> 18 defense only.
 Not available: "+(25-30)% additional damage against Frozen enemies" is in the Digits pool but no special organ grafts it on rings (would be x1.17 over
 CDR); a 4th attached tangle (x1.075 uncapped: 4 x 1.0 vs 3 x 1.4 = x0.952, Malign's 4th activated tangle +21% on crit = x1.129) has no source —
 "You can only equip 1 Vorax Gear" (Digits page), so no Vorax Head/Neck next to the ring.

@@ -89,6 +89,16 @@ used tlidb's stale pet numbers.
 - **Exclude from the fits [Vlad 10-31]: the 15:23 EET (13:23 UTC) map** — Dull - Machine card ("Attacking monsters have a 0.2% chance to drop 1
   additional plane-exclusive Fluorescent Memories during Trial: God of Machines", 1/1); 137 Secrets, 3 Shadows, catalyst not Fluorescent.
   gamelog.parse flags any map with that card text (m["exclude"]; the 13:21-13:26 UTC window is the fallback); the fits print what they drop.
+- **Plan after 10-31 (what to run)**: 73% of the map's money (Secrets 29.4 + Shadows 50.1 of 108.7 FE/map) only answers to drone count,
+  "additional" lines, Focus and replicates; flat quantity is near-wasted there. Standing setup: Cruising (A) + Focus + Colorful (A) + Strength in
+  Numbers (Transgression x1.41 per map = ~+33 FE for +43 FE: no), Fluorescent Profound Probe (+3.5 vs Flourishing), Kong + Sky's Dome + Twilight
+  Sparks, cards per the ranking below, 31 resonance until tested. Drop-pet slots: Miss Melancholy - Azure, Lady Obituary, Heartbloom - Iris and
+  Twin Inquisitors do ~nothing on Machines (flat DQ / Vigil / Warden lines, ~+3.8 FE/map together); XD's drone-exclusive column says these work:
+  Starfish Chanter +8% additional (high rank), Fluffhead Hare +5%, Corgi Fighter No.32 +5%, Plaintive Ball of Thread - Gold Leaf +4% (r6),
+  Idling Weasel - Sparkle 5% replicate (r6) -> the best four ~x1.24 on drone exclusives = +15 to +22 FE/map net, if owned (ask Vlad).
+  Tests in order: (1) the Pink block (Memory Shards; per drone x0.81 vs x1.00, 25+ maps), (2) ~25 maps at 0 resonance (pool on drone drops:
+  x0.81 vs x1.00 per drone, ~4.5 sigma; costs ~2 FE/map if the read holds), (3) then re-price the Void Chart (flat +25% DQ node vs Machines
+  drone nodes: attacking monsters +0.6% micros, +5/6/7% additional in the trial, extra echelons).
 - **Card ranking with the per-drone fit** (Secrets + Shadows = 79.5 FE/map come from drones; "+X% additional Drop Quantity for Drones"
   measured x1.23 for the +30% card, x1.15 for +10/15%): **+30% additional Drones ~+18-24 FE/map (take it every time)**, Melancholy 30 +12.3,
   +15% Drones ~+12, Melancholy 20 +8.2, +10% Drones ~+8, +30% DQ ~+1.9 (x1.05 per drone, no effect shown), +20% DQ ~+1.3. Non-drone Secrets

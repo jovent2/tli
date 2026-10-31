@@ -69,6 +69,8 @@ def parse(paths):
                     join = None
                 if t is None: continue                    # dump lines never carry item changes
             if cur is not None and cur["end"] is None and "FightResult@ Open FightFailureView" in line: cur["deaths"] += 1
+            if cur is not None and cur["end"] is None and "gameplay type 7602 received notifyId 102" in line:   # Catalyst Creation Engine result
+                cur.setdefault("catalyst", []).extend(line.split("NotifyData")[-1].strip().split("|")[4:6])  # 15001/15002/15003; 15003 = Fluorescent
             m = PROTO.search(line)
             if m:
                 if m.group(2) == "start": block = m.group(1); block_items = []

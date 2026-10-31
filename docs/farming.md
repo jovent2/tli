@@ -91,6 +91,14 @@ so to decode a strategy's allocation fully we need the Chinese node texts (tlidb
   counts" (35% everywhere, 37.1 expected) is the runner-up. Confidence medium. Consequences: Vlad's once-chance is 55%, not 100%; Melancholy 30%
   -> 68.5% (x1.09 memories), a 20% card or the Fluorescent probe -> 64% (x1.06); everything stacked (Colorful + Melancholy 30 + probe + Sky's
   Dome) is 75%. Kong rank 5 = "20% replicated 1 time" + "10% replicated 2 times" (not 13%); its extra copies land in the same stack.
+- **Catalyst Creation Engine** (tlidb: "grants a Drop Quantity Bonus corresponding to the type of the activated Creation Crystal") runs in the first
+  2-12 s of 93 of 111 maps (10-30 log): `gameplay type 7602 received notifyId 104 / 101 / 103 / 102`; the 102 NotifyData holds the two activated
+  crystal codes (15001 / 15002 / 15003; 23 maps had a second engine round). gamelog.parse -> m["catalyst"]. **15003 behaves as the Fluorescent
+  crystal**: Secrets/map 61 / 72 / 80 (se ~5) with 0 / 1 / 2 of it on Colorful Machines maps; 15001 and 15002 don't move Secrets. Single-copy
+  drops stay at 31% with one 15003 (13/42, same as with none) -> it is drop quantity (more memory drops), not a replicate chance: counted as a
+  30% replicate it would predict 11.6 singles (add-and-cap) / 23.2 (independent) on the 10-30 log vs 30 observed; as quantity, 28.9. Drop
+  quantity does not touch Disappearing Shadow (XD), Shadows by 15003 count 0.27 / 0.21 / 0.38 per map (noise). Vlad: the in-game buff is
+  "Catalyst Creation Engines". Two Fluorescent crystals vs none = +19 Secrets/map (~+8 FE).
 - How a drop looks in the log: one pickup = one ground stack: `ItemChange@ Add Id=6216_<guid> BagNum=3` is a Shadow drop of 3. The once-copy is
   sometimes its own ground item, picked 0.2-0.4 s later (10-30 13:02: Shadow x3 then x2, 245 ms). A pickup can sweep several ground items
   (1/3 of PickItems blocks hold more than one item type), so x5-x7 Maud's are likely two drops. Drop-spawn lines (`UDropInstanceMgr@

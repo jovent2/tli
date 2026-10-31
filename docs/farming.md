@@ -204,6 +204,7 @@ so to decode a strategy's allocation fully we need the Chinese node texts (tlidb
 - Quantity applies per gameplay as XD's pet matrix says (pet "+X% Drop Quantity" lines yes/no): see plan.py NQ_* sets.
 - `gamelog.py` per-map loot/cost from his game log (+ effects, card, catalyst crystals, drop pets); `replication.py` / `replication_fit.py`
   Fluorescent replication rule fit (rare-drop sizes + Secrets/map); `quantity.py` his quantity chain and the in-log quantity experiments.
+- `killspeed.py` drone lifetimes (spawn -> death, FIFO) vs Secrets / Shadows per drone, per map.
 - `compass_fit.py` what each compass / probe does to one loot item across the etor strategies (WLS on log item/run, robust CIs;
   default population: drone farmers = Cruising (A) on >= 50% of runs; `--item`, `--clean`, `--all`).
 
@@ -270,6 +271,13 @@ and continues); `PickItems` blocks = loot, by stack guid deltas. Keep the raw lo
   = done. 10-29..10-31: 78 drones per map (12-194; 72 on 3 rounds, 101 on 4), ~95% of Secrets picked between start and success (Vlad: 99%
   from drones). Drone kills explain 53% of the map-to-map Secrets spread; standard maps 0.85 Secrets per drone (naked ~1.9% per drone before
   copies x2.66, additional x10.95, Focus x1.5); Shadows ~2 drops per 1,000 drones.
+- **Drone kill speed vs loot** (2026-10-31, `tools/farm/killspeed.py`, 25,692 drone deaths in the 10-29..10-31 logs): drones are
+  NpcId 1052033 ("Drop Prop Debug:create monster NpcId=1052033,eId=...", rarity 1); deaths have no id, so lifetimes pair FIFO. No drone
+  dies before 1.97 s (fly-in floor); 36% die within 2.5 s, median 2.7 s. Per map (222): Secrets per copy per drone x0.98 (0.84-1.15) going
+  from 0 to 100% fast kills, x1.03 per extra second of median lifetime; Shadows per 1,000 drones 1.05 / 1.74 / 2.71 from the slowest to
+  the fastest third. Killing fast costs nothing. `UDropInstanceMgr@ AddInstance!` = ground drop instances (0-0.3 s after a death, 62 per
+  trial, corr 0.79 with Secrets) but they merge when many drones die at once (0.08-0.12 per death in 9+ bursts vs ~0.4 alone), so an
+  instance count per kill looks like 'fast kills drop less' when it's only AoE merging piles.
 - Drop-pet block: the first pet sits on the header line (`+dropServantContractData+1+servantId [8130]`) and the order changes between
   joins; until the 10-31 fix the parser dropped that first pet, so 10-29 looked like Kong / Sky's Dome swapping every map. They were on all of them.
 - The join dump also lists the active drop pets (`+servantId [..]` with `+starLevel`); compare them across maps before blaming a setup change.

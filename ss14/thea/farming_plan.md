@@ -38,7 +38,19 @@ Tree for the Ember farm (92 Star + 4 Prime; pictures `ss14/thea/trees/deepspace_
 Play: start the trial first, push levels (the Automaton is invincible until max level), kill the Automaton, finish the map.
 Cards in the deck from the tree: Irritable - Might (ember replicate 15/20/40%), Willful - Might (+100% trial drop, 1 attempt), Mad.
 
-### Vlad's Profound Machines, 2026-10-30 log (25 maps 10:23-12:40 EET)
+### Full day 2026-10-30 10:39 -> 10-31 04:38 EET (UE_game-backup log, 111 maps, `gamelog.py`, Secrets at the exchange value)
+| stack | maps | s/map | deaths | net/map | FE/min of map time | Shadows |
+|---|---|---|---|---|---|---|
+| Machines: Cruising (A) + Focus + Colorful (A) + Strength in Numbers + Flourishing probe | 82 | 127 | 3 | 63.9 | 30.2 | 21 in 9 drops |
+| Machines with Transgression, no probe (12:23-12:44) | 9 | 102 | 0 | -23.3 | -12 | 0 |
+| Alert Outlaw + Bandit Dark Surge + Phantom Vigil + Lunaria + Flourishing (10:40-11:32) | 12 | 102 | 7 | 46.1 | 24 | - |
+| Deep Space Machines (15:16-15:23) | 3 | 150 | 3 | 43.7 | 16 | 0 |
+| Ecliptic + Vast Ecliptic + Revelation Hunting astrolabes + Lunaria | 3 | 86 | 5 | -37.0 | - | - |
+All 92 Cruising maps: 29.5 FE/min, 24 Shadows in 10 drops (0.11 drops/map, 2.4 each), +9/map without them. Whole day: 6,037 net, 220 min in maps
+= 27.5 FE/min. The first 25 Machines maps (12:23-14:34) = 48/min (3 drops x5 x3 x3); the other 67 = 24/min (7 drops of 1-3). Drop pets identical on
+every Machines map (servantId list in the join dump) -> variance, not setup.
+
+### Vlad's Profound Machines, 2026-10-30 log (25 maps 12:23-14:34 EET; the earlier label "10:23-12:40" was UTC)
 107 s/map, 0 deaths, net 73/map = 41 FE/min **of map time** (25 x 107 s = 45 min of a 137-min window; on the clock 1,825 net / 137 min = 13 FE/min; that file is one game launch only, the rest of the day is in UE_game-backup-*.log) — all of it 11 Disappearing Shadows (227 FE, plane-exclusive memory) in 3 maps (x5, x3, x3:
 one drop event replicated by Colorful (A) 50% + probe 40% + Focus); without them -14/map. CN Profound Machines: 0.50 Shadow/map over
 432 runs; Vlad 0.44 — at par; a 13-map gap at ~0.135 events/map happens 17% of the time. Secrets 78/map vs CN 85-127; FE 15 vs 20-29.

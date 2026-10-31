@@ -196,11 +196,13 @@ CDR); a 4th attached tangle (x1.075 uncapped: 4 x 1.0 vs 3 x 1.4 = x0.952, Malig
 Other Trauma sources: Chaotic Ending (ring; Trauma-while-Fervor is 1 of ~30 random blessing affixes), Dual Kismet: Butterfly in a Bottle x2 (3,199 each,
 2 medium slots, -8% ele res; also Wilt + Ignite), Shadowdancer slate legendary medium (Max Active 1), memory fixed affix "Immune to Trauma Damage".
 
-## Phantasmagoria 3rd affix (2026-10-31, Vlad rolled one and missed)
-The CC line comes from Prism Gauge - Legendary: "When activating 2 Legendary Medium Talent within the area, Immune to crowd control effects" (with or
-without "/ -25% Defense") = 2 of the 42 distinct Legendary-gauge lines. tlidb shows no weights: if even, ~5% a calibration, ~9% with Prism Level III
-("an extra reroll on the random affix outcome") -> ~11 tries x ~2.7k (uncalibrated prism 1,888 + gauges 70 + Level III 749) ~ 29k expected. A read,
-not a proof; a finished CC-immune Phantasmagoria on the AH is the benchmark.
+## Phantasmagoria 3rd affix (2026-10-31, Vlad rolled one and missed; corrected after Vlad)
+The 75 "Prism Gauge - Legendary" rows on tlidb are three pools of 25 (rows 318-342, 343-367, 368-392), not one pool of 42: two carry "Immune to crowd
+control effects / -25% Defense" with +1 blessing / +40% lines, one carries the plain CC line with +2 / +100% lines. The Phantasmagoria rolls the
+-25% Defense version [Vlad] -> CC is 1 of 25. Calibration shows 3 options, pick 1; Prism Level refreshes the 3 once [tlidb Calibrate Prism help].
+Even weights (tlidb shows none): 3/25 = 12% per calibration, 1 - (22/25)^2 = 23% with Level III -> ~4.4 attempts. A prism with slots 1-2 done and
+slot 3 open costs ~1,888 + gauges 70 + Level III 749; if a miss resells near cost, an attempt is ~1.06k (gauges + Level III + 12.5% tax) -> ~4.7k
+expected. Restoration resets every random affix (slots 1-2 too). A read, not a proof.
 
 ## Open questions for Vlad
 - Which boots res line Hasten replaced; current kismet layout.

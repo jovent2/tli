@@ -151,6 +151,8 @@ and continues); `PickItems` blocks = loot, by stack guid deltas. Keep the raw lo
   phantom loot on 16 maps). Fixed: the join block is read until `+maptype` / `+checkType [MainCity]` in any order (3,000-line limit).
 - Town blocks seen: `Push2` = NPC exchanges / crafting results (Fluorescent Memory sets at the Spacetime Wanderer, prism levelling),
   `ExchangeItem`, `XchgForSale` (listing), `XchgBuy` / `XchgReceive` (AH). Only in-map blocks count as map loot.
+- The join dump also lists the active drop pets (`+servantId [..]` with `+starLevel`); compare them across maps before blaming a setup change.
+  Backup logs (`UE_game-backup-<date>.log`) hold whole launches (10-30: 1.1 GB, 18 h, parses in ~25 s).
 - **Fluorescent Memory exchanges** (Spacetime Wanderer): Secret of the Glacial Abyss 30 -> 10 draws of 10 Flame Sand (87.5%) or 10 FE (12.5%),
   observed 24 exchanges = 300 FE + 2,100 Flame Sand -> valued at 0.417 FE each in `gamelog.EXCHANGE` (AH 0.3).
 

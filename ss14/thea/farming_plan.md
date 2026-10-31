@@ -72,7 +72,7 @@ price); without the Shadows +5/map: the stack is the Shadow lottery plus Secrets
 Flame Sand -> 0.417 FE per Secret (+2.9 Flame Sand, the Enchant currency, untradeable) vs 0.26 selling at 0.3 after tax = +60%, ~+10 FE/map.
 Probe: the x1 event proves the once-replication chance is under 100% without a probe line (Colorful (A) 50 + pets). Fluorescent Profound Probe
 (5.5, "Fluorescent Memories dropped have a 20% chance to be replicated once") instead of Flourishing (+20% Drop Quantity — not on Disappearing
-Shadow per XD): ~+8 Shadow +3 Secrets per map at the 10-30 event rate, -3.4 cost, minus Flourishing's quantity on FE/resonance: ~+4/map. Small.
+Shadow per XD). Corrected 2026-10-31 (replication is independent rolls, not add-and-cap): the probe moves the once-chance 55% -> 64% (x1.06 memories) = ~+4 gross for +3.4 cost and Flourishing's quantity on FE/Secrets -> not worth it.
 Town that session (not map loot): bought + levelled a Phantasmagoria (1,888 + gauges 70 + Prism Level III 749) and listed it 2 min later.
 
 ### Alert Outlaw + All-Evil Vigil stack (Deep Space) — the one he likes

@@ -14,6 +14,8 @@ TS = re.compile(r"^\[(\d{4})\.(\d{2})\.(\d{2})-(\d{2})\.(\d{2})\.(\d{2}):(\d{3})
 PROTO = re.compile(r"ItemChange@ ProtoName=(\w+) (start|end)")
 CHG = re.compile(r"ItemChange@ (Delete|Update|Add) Id=(\d+)_(\S+) (?:BagNum=)?(\d*)\s?in PageId=(-?\d+) SlotId=(\d+)")
 RESET = re.compile(r"ItemChange@ Reset PageId=(-?\d+)")
+ENTRY = re.compile(r"\+\d+\+(\w+) \[(.*)\]\s*$")      # "+7+Id [210321]" / "+16+FId [1141]": first field of a list entry
+FIELD = re.compile(r"^[|\s]*\+(\w+) \[(.*)\]\s*$")    # "|   | +Description [..]"
 IGNORE_IDS = {"100200"}            # [etor] skipped too (not a drop)
 AUCTION = {"XchgReceive", "XchgBuy", "XchgSell", "XchgCancel"}
 
@@ -29,12 +31,28 @@ def parse(paths):
     MainCity (or the next Spv3Open), deaths = FightFailureView count (he revives and keeps going)."""
     stacks = {}                      # guid -> (base_id, total)
     maps = []; cur = None; block = None; block_items = []
+    last_t = None; ent = None; eff = []    # map-entry effect dump: "+Description [..]" then "+Id [..]" (compasses, Void Chart, card, resonance affixes)
     join = None                      # time of the last _JoinFightSuccess whose area lines we are still reading
     join_map = None                  # +mapId seen inside that area block (2026-10-31 logs print it BEFORE +maptype; 10-30 logs after)
     join_left = 0                    # lines left to look for the marker
     for path in paths:
         for line in open(path, encoding="utf-8", errors="replace"):
             t = ts(line)
+            if t is not None:
+                if ent and "Id" in ent and "Description" in ent: eff.append((last_t, ent["Id"], ent["Description"]))
+                last_t = t; ent = None
+            else:                                         # effect entries: "+N+Key [v]" opens one, "| +Key [v]" adds a field; field order varies per launch
+                mm = ENTRY.search(line)
+                if mm:
+                    if ent and "Id" in ent and "Description" in ent: eff.append((last_t, ent["Id"], ent["Description"]))
+                    ent = {mm.group(1): mm.group(2)}
+                else:                                     # a bare "+FId [..]" also opens one (single-entry dumps have no "+N+" prefix)
+                    mm = FIELD.search(line)
+                    if mm:
+                        if ent is None or mm.group(1) in ent:
+                            if ent and "Id" in ent and "Description" in ent: eff.append((last_t, ent["Id"], ent["Description"]))
+                            ent = {}
+                        ent[mm.group(1)] = mm.group(2)
             if "_JoinFightSuccess()" in line: join = t; join_map = None; join_left = 3000; continue
             if join is not None:                          # the area dump that follows (a timestamped header, then "+key [value]" lines)
                 join_left -= 1
@@ -80,6 +98,11 @@ def parse(paths):
             else: stacks[guid] = (base, num); delta = num - prev
             if block is not None: block_items.append((base, delta))
     if cur: maps.append(cur)
+    # one effect dump per map, at map entry (2026-10-30/31 logs): attach the ids active in that map; the Confusion Card is the 7xxxxxxx id
+    for m in maps:
+        lo = m["start"] - datetime.timedelta(seconds=2); hi = m["end"] or m["next_open"] or (m["start"] + datetime.timedelta(hours=1))
+        m["effects"] = {i: d for tt, i, d in eff if tt is not None and lo <= tt <= hi}
+        m["card"] = next((re.sub("<[^>]+>", "", d) for i, d in m["effects"].items() if len(i) == 8 and i[:2] in ("71", "72")), None)
     return maps
 
 BEACON_IDS = {"400007"}                      # Glacial Abyss Beacon (Tier 8)
@@ -109,7 +132,8 @@ def report(maps, only_stack=True):
         deaths += mp["deaths"]
         lv = value(mp["loot"]); cv = value(mp["cost"], sold=False)
         top = sorted(mp["loot"].items(), key=lambda kv: -value({kv[0]: kv[1]}))[:6]
-        print(f"map {k:2d} {t0.strftime('%H:%M:%S')}Z {dur:5.0f}s (open-to-open {gap:5.0f}s) deaths {mp['deaths']}  loot {lv:6.1f}  cost {cv:5.1f}  net {lv - cv:6.1f} | " + ", ".join(f"{RN.name(i)[:22]} x{q}" for i, q in top))
+        card = (mp.get("card") or "-")[:28]
+        print(f"map {k:2d} {t0.strftime('%H:%M:%S')}Z {dur:5.0f}s (open-to-open {gap:5.0f}s) deaths {mp['deaths']}  loot {lv:6.1f}  cost {cv:5.1f}  net {lv - cv:6.1f} | card {card:28s} | " + ", ".join(f"{RN.name(i)[:22]} x{q}" for i, q in top))
         tot_loot.update(mp["loot"]); tot_cost.update(mp["cost"])
     n = len(maps); done = sum(1 for m in maps if m["end"])
     L, C = value(tot_loot), value(tot_cost, sold=False)

@@ -112,6 +112,11 @@ so to decode a strategy's allocation fully we need the Chinese node texts (tlidb
     Probe (40%) x1.40, Colorful (20%) x1.03 (0.88-1.21). CN meta: 177 of 202 drone strategies run Transgression + Strength in Numbers +
     Cruising (A) + Colorful (A) (+ Fluorescent probe); 9 run Focus. Same-family compasses stack (Sinful (A) + Sinful in 212 strategies,
     one strategy runs Colorful (A) + Colorful every map). His two no-Focus test maps (Transgression + SiN, no Colorful / Kong / Sky's): 77 and 70.
+    His own logs agree (11-01): Transgression vs SiN with Focus on both sides x1.44 (-> Transgression x1.73 with SiN x1.2); Transgression
+    added with Focus removed x1.74 -> Focus ~x1.00 (at most x1.09 even if Transgression sat at its x1.9 cap).
+  - **Transgression stacks**: +3% additional per Rare killed, cap 30. Rares spawned before the trial (log, rarity-3 'Monster Created'):
+    median 28 on his Transgression maps, 30+ on 12 of 33 tonight; median 41 by trial end -> ~x1.8 entering the trial, x1.9 during it;
+    measured x1.74 (95% 1.57-1.93). Starting the trial after the 30th rare is worth ~+3% on drone loot.
   - Big memories are too rare to measure quantity (0.68 drops/map: +30% card 0.50/map, +20% card 1.11/map); Shadows 0.12/map.
   - Naked rates (no quantity, no copies): Secrets 0.33/map from Drones (0.51 if the FMS lines don't work), big-memory drops 0.037/map.
   - Transgression in place of Strength in Numbers (+ no Flourishing on 7 of 8): Secrets per copy x1.34 (95% 0.99-1.81).

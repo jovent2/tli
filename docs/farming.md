@@ -78,7 +78,7 @@ so to decode a strategy's allocation fully we need the Chinese node texts (tlidb
     Path of the Brave / Creation Engine — so XD's "Gameplay Exclusive" column under Machine Drones can only be the plane-exclusive ones (the
     Drone tip and the Dull - Machine card: drones drop plane-exclusive memories). Hence, for Secrets and Shadows from Drones: **the flat
     "+X% Drop Quantity" pool does nothing, the Memory Shards lines do nothing, every "additional" line works, replicates work**, and Focus
-    Fluorescent (+50% chance for exclusive memories) works. The big memories (normal, rares / chests) take pool + generic additional + Shards.
+    Fluorescent (+50% chance for exclusive memories) works (**wrong for Focus: CN etor data says x0.92, see "Focus does nothing" below**). The big memories (normal, rares / chests) take pool + generic additional + Shards.
     Chains on his sheet: Secrets / Shadows x10.95 (before Focus), big memories x18.0. Evidence: his first evening tally fits "Shards does
     nothing" (x1.10 vs x0.84); the DQ cards / resonance (x1.07 / x1.02 / x1.03) fit "no pool" and "pool x4.49" equally (1.1-1.3:1); Transgression
     (an additional for Normal monsters) moved Secrets x1.34. Confidence ~75%. Settling test: ~20 maps at 0 resonance (Secrets flat if no pool,
@@ -104,6 +104,12 @@ so to decode a strategy's allocation fully we need the Chinese node texts (tlidb
     掉落数量"). The +7% = trigger 每当新回合开始 + owner 机械之神试炼. God of Might's tree has the same per-floor mechanic as two separate nodes,
     trial ("巨力之神试炼额外 +4%", EN "during Trial: God of Might") and automatons ("矮人机甲在试炼范围内额外 +4%"), and EN writes the same
     construct as "for Trial: God of Might and Dwarven Automatons" on the +5% node: the English "during" carries nothing.
+  - **Focus does nothing measurable on plane-exclusive memories** (2026-10-31, `tools/farm/compass_fit.py` on the CN etor leaderboards:
+    202 drone strategies, 19,458 logged runs, mostly Deep Space). Secrets x0.92 (95% 0.80-1.06; clean subset the same), Immolating Flame x0.92
+    (0.69-1.23); the tooltip's x1.5 is ~9 se out. The same fit sees the replicates as advertised: Colorful (A) x1.33, Fluorescent Deep Space
+    Probe (40%) x1.40, Colorful (20%) x1.03 (0.88-1.21). CN meta: 177 of 202 drone strategies run Transgression + Strength in Numbers +
+    Cruising (A) + Colorful (A) (+ Fluorescent probe); 9 run Focus. Same-family compasses stack (Sinful (A) + Sinful in 212 strategies,
+    one strategy runs Colorful (A) + Colorful every map). His two no-Focus test maps (Transgression + SiN, no Colorful / Kong / Sky's): 77 and 70.
   - Big memories are too rare to measure quantity (0.68 drops/map: +30% card 0.50/map, +20% card 1.11/map); Shadows 0.12/map.
   - Naked rates (no quantity, no copies): Secrets 0.33/map from Drones (0.51 if the FMS lines don't work), big-memory drops 0.037/map.
   - Transgression in place of Strength in Numbers (+ no Flourishing on 7 of 8): Secrets per copy x1.34 (95% 0.99-1.81).
@@ -198,6 +204,8 @@ so to decode a strategy's allocation fully we need the Chinese node texts (tlidb
 - Quantity applies per gameplay as XD's pet matrix says (pet "+X% Drop Quantity" lines yes/no): see plan.py NQ_* sets.
 - `gamelog.py` per-map loot/cost from his game log (+ effects, card, catalyst crystals, drop pets); `replication.py` / `replication_fit.py`
   Fluorescent replication rule fit (rare-drop sizes + Secrets/map); `quantity.py` his quantity chain and the in-log quantity experiments.
+- `compass_fit.py` what each compass / probe does to one loot item across the etor strategies (WLS on log item/run, robust CIs;
+  default population: drone farmers = Cruising (A) on >= 50% of runs; `--item`, `--clean`, `--all`).
 
 ## Bottom-up model (2026-10-29 late; tools/farm/bottomup.py, plan2.py, search.py) — the one to use
 - `attrib.py` / `model.py`: first passes (lift per mechanic, family-level NNLS) — superseded, kept for reference.
@@ -208,7 +216,7 @@ so to decode a strategy's allocation fully we need the Chinese node texts (tlidb
   (NQ: Vorax, Sandlord, Mistville, Frozen Canvas, Overrealm, Disappearing Shadow); the mechanic's "+X% additional" nodes and compass
   lines (`ADD_RULES`, incl. instance-count nodes: echelons, attack rounds, Safari bosses, Creation engines, Vorax groups, Might
   levels, Dark Surge corrosion); class multipliers: compass drops (Compass constellation 1.4%x37, +4%, +2.5%/compass inserted,
-  Ecliptics, Compass probe, replication), fluorescent replication (capped sum — old rule, see Replication), Focus x1.5 on exclusive memories, ember lines
+  Ecliptics, Compass probe, replication), fluorescent replication (capped sum — old rule, see Replication), Focus x1.5 on exclusive memories (wrong: ~x1.0, see Focus below), ember lines
   (Might's only on Might columns), Gear probe; Transgression x1.9 on Machines, x1.54 on generic. Then NNLS per item (rows weighted
   by sqrt(runs)) -> naked yield per instance with every multiplier at 1. Items with < 25 drops in 46k runs are lotteries: valued at
   the shrunk observed rate per column (>= 5 drops there) or globally.

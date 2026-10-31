@@ -124,6 +124,12 @@ used tlidb's stale pet numbers.
   (30 without the engine crystal, 47 with a 30% replicate card): copies 2.69 -> 1.0-1.6, Transgression on top of SiN x1.69 per map, no Focus
   /1.5. His usual 3-round maps: 70 (sd 24; 62 of 164 >= 77). So ~2x the model: luck (~2 sigma) or Focus / Colorful doing less than their
   tooltips — both were on all 223 logged maps, so their effect was never measured. FE x2 his usual 16/map, low for the setup. Needs the log.
+- 2nd FE test map: 70 Secrets, 43 FE, loot 67.5 / cost 115.6 = -48.1 (his overlay). Both no-Focus maps ~73 Secrets.
+- **Focus -> Transgression (2026-10-31 22:40)**: CN etor says Focus x0.92 on Secrets (docs/farming.md). Focus's slot: Transgression (his logs:
+  x1.41 per map in SiN's place -> x1.69 alone on drone drops) = +55 on Secrets + Shadows (79.5 FE/map) + ~11 FE from drones / normal
+  monsters = ~+66 for 44 FE (CN price) -> ~+22/map net; Colorful (normal, 20%) = copies x1.09 on ~95 FE/map of memories = +8.5 for 0.9
+  -> ~+7.6/map. Transgression unless it costs > ~58 FE on his server. New standing setup = the CN meta: Cruising (A) + Colorful (A) + SiN +
+  Transgression + Fluorescent probe.
 Town that session (not map loot): bought + levelled a Phantasmagoria (1,888 + gauges 70 + Prism Level III 749) and listed it 2 min later.
 
 ### Alert Outlaw + All-Evil Vigil stack (Deep Space) — the one he likes

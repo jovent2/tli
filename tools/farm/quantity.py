@@ -89,11 +89,13 @@ def main(paths):
           f"{np.mean([r['rare_events'] / chain(r, 'rares') for r in std]):.3f}/map; observed {np.mean([r['secrets'] for r in std]):.1f} Secrets, "
           f"{np.mean([r['rare_events'] for r in std]):.2f} rare drops, {np.mean([r['shadow_events'] for r in std]):.2f} Shadow drops per map")
     # log Secrets per copy on the contrasts; the sheet's prediction = the change applied alone to a standard map
-    OTHER = ("71200100", "71100000", "71100300", "72020100", "71090300")
+    OTHER = ("71200100", "71100300", "72020100")                  # +20% compass DQ, +1 Blessed monster, +8% attack round: nothing for Secrets
+    CHEST = ("71100000", "71090300")                               # 4-6 Mystery Chests, Bosses drop 8 additional Fluorescent Memories
     feats = [("card +30% DQ", lambda r: r["card"] == "71100210", lambda r: dict(r, card="71100210")),
              ("card +20% DQ", lambda r: r["card"] == "71100200", lambda r: dict(r, card="71100200")),
              ("card +10% add. Drones", lambda r: r["card"] == "72020400", lambda r: dict(r, card="72020400")),
-             ("card no bonus (compass/blessed/round/chests)", lambda r: r["card"] in OTHER, lambda r: dict(r, card="71100300")),
+             ("card no bonus (compass/blessed/round)", lambda r: r["card"] in OTHER, lambda r: dict(r, card="71100300")),
+             ("card chests / boss memories", lambda r: r["card"] in CHEST, None),
              ("resonance 15 (vs 31)", lambda r: r["res"] == 15, lambda r: dict(r, res=15)),
              ("Transgression for SiN", lambda r: r["transg"], None),
              ("no Flourishing", lambda r: not r["flour"] and not r["fluo"], lambda r: dict(r, flour=False)),

@@ -64,9 +64,14 @@ so to decode a strategy's allocation fully we need the Chinese node texts (tlidb
   - Pool vs "every line its own multiplier": +30% DQ card x1.07 (95% 0.87-1.33; sheet x1.067, own-multiplier x1.30), +20% card x1.02 (sheet
     x1.045 / x1.20), resonance 15 vs 31 x1.03 (sheet x0.944 / x0.875). Joint: the pool wins 10:1 to 33:1. +30% DQ = x1.067 = ~+4 FE/map on his
     non-Shadow loot (58.6 FE/map), each +10 points ~+1.3. Drone card (+10% additional Drones) x1.03 (sheet x1.10): can't tell.
-  - Odd one: the "no bonus" cards (+20% compass DQ, +1 Blessed monster, +8% attack round) came out x0.80 (95% 0.65-0.99) — three 4-map blocks
-    (cards last 4 maps: Attempts 0/4) at ~50 Secrets vs ~72 around them. Against them a 20% replicate card would be worth x1.49, impossible ->
-    read as cold blocks, but watch it.
+  - Odd one: the "no bonus" cards (+20% compass DQ, +1 Blessed monster, +8% attack round, 12 maps) came out x0.76 (95% 0.61-0.95) — three
+    4-map blocks (cards last 4 maps: Attempts 0/4) at ~50 Secrets vs ~72 around them; the chest / boss-memory cards (3 maps) were normal (x1.03).
+    Against those 12 a 20% replicate card would be worth x1.49, impossible -> read as cold blocks, but watch it.
+  - Shadows: XD's matrix (pet lines only, CN test branch) for plane-exclusive memories from Drones: pets' flat "+X% Drop Quantity" (Twilight 30,
+    Kong 18, Sky's 26, Pink 42) and the "+24% additional Fluorescent Memory Shards" lines = no; Twilight Sparks' "+13% / +3% additional Drop
+    Quantity" and every replicate line = yes. From the Creation Engine the flat lines apply too. Reading: Shadows from Drones skip the pool and
+    take only "additional" lines (x10.95 on his sheet vs x75.6 for Secrets) -> a +30% quantity card does nothing for Shadows. Untested for the
+    non-pet lines (12 Shadow drops in 99 maps).
   - Big memories are too rare to measure quantity (0.68 drops/map: +30% card 0.50/map, +20% card 1.11/map); Shadows 0.12/map.
   - Naked rates (no quantity, no copies): Secrets 0.33/map from Drones (0.51 if the FMS lines don't work), big-memory drops 0.037/map.
   - Transgression in place of Strength in Numbers (+ no Flourishing on 7 of 8): Secrets per copy x1.34 (95% 0.99-1.81).

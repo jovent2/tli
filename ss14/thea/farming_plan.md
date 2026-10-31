@@ -81,6 +81,9 @@ used tlidb's stale pet numbers.
 - Both (his 10-31 evening): -6.3 FE/map if the FMS line works, +0.2 if not. **Evening check**: Secrets/map x0.84 vs the same cards yesterday if
   Sky's FMS line works, x1.04 if it doesn't (map noise ~34%, so ~30 maps separate them at ~3 sigma). Rare-drop sizes per 100 drops: fitted rule
   21/34/20/13/8/3/2, "stop at the first hit" 21/57/3/17/0/1/0.
+- First tally [Vlad 10-31 evening]: 13 maps Flourishing 905 Secrets (69.6/map), 19 maps Fluorescent probe 1,457 (76.7/map) = x1.10
+  (se of the log ratio ~0.12). If the 19 were all Pink: "Memory Shards line does nothing" (x1.04) 0.5 sigma off, "works" (x0.84) 2.2 sigma ->
+  ~10:1 for "does nothing", cards and crystals unchecked; the log decides.
 - Confusion Card: Melancholy 30 = +12.3 FE/map, Melancholy 20 = +8.2, +30% DQ = +3.9, +20% DQ = +2.6 (+ the Shadow share for the replicate
   cards, so lumpy).
 Town that session (not map loot): bought + levelled a Phantasmagoria (1,888 + gauges 70 + Prism Level III 749) and listed it 2 min later.

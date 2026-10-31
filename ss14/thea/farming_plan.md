@@ -130,6 +130,8 @@ used tlidb's stale pet numbers.
   monsters = ~+66 for 44 FE (CN price) -> ~+22/map net; Colorful (normal, 20%) = copies x1.09 on ~95 FE/map of memories = +8.5 for 0.9
   -> ~+7.6/map. Transgression unless it costs > ~58 FE on his server. New standing setup = the CN meta: Cruising (A) + Colorful (A) + SiN +
   Transgression + Fluorescent probe.
+- First maps on the CN meta (Transgression in Focus's slot) [Vlad 22:52]: 144 Secrets (3 rounds), 211 (4 rounds) vs his Focus-setup
+  averages 70 / 97 = x2.05 / x2.17; per-drone Transgression x1.92 predicted 134 / 186. No Shadow in the first maps (expected ~1 drop per 5).
 Town that session (not map loot): bought + levelled a Phantasmagoria (1,888 + gauges 70 + Prism Level III 749) and listed it 2 min later.
 
 ### Alert Outlaw + All-Evil Vigil stack (Deep Space) — the one he likes

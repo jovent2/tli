@@ -119,6 +119,11 @@ used tlidb's stale pet numbers.
   ~10:1 for "does nothing", cards and crystals unchecked; the log decides.
 - Confusion Card: Melancholy 30 = +12.3 FE/map, Melancholy 20 = +8.2, +30% DQ = +3.9, +20% DQ = +2.6 (+ the Shadow share for the replicate
   cards, so lumpy).
+- **FE test map [Vlad 10-31 ~22:20 EET]**: Twilight Sparks + FE pets, Sinful Plunder (A) + Transgression + Cruising (A) + Strength in Numbers,
+  no probe / Colorful / Focus / Kong / Sky's: 77 Secrets, 32 FE, loot 72.3 / cost 79.5 = -7.1 (his overlay), 3 rounds, 1:45. Model ~40 Secrets
+  (30 without the engine crystal, 47 with a 30% replicate card): copies 2.69 -> 1.0-1.6, Transgression on top of SiN x1.69 per map, no Focus
+  /1.5. His usual 3-round maps: 70 (sd 24; 62 of 164 >= 77). So ~2x the model: luck (~2 sigma) or Focus / Colorful doing less than their
+  tooltips — both were on all 223 logged maps, so their effect was never measured. FE x2 his usual 16/map, low for the setup. Needs the log.
 Town that session (not map loot): bought + levelled a Phantasmagoria (1,888 + gauges 70 + Prism Level III 749) and listed it 2 min later.
 
 ### Alert Outlaw + All-Evil Vigil stack (Deep Space) — the one he likes

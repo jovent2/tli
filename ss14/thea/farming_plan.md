@@ -39,7 +39,7 @@ Play: start the trial first, push levels (the Automaton is invincible until max 
 Cards in the deck from the tree: Irritable - Might (ember replicate 15/20/40%), Willful - Might (+100% trial drop, 1 attempt), Mad.
 
 ### Vlad's Profound Machines, 2026-10-30 log (25 maps 10:23-12:40 EET)
-107 s/map, 0 deaths, net 73/map = 41 FE/min — all of it 11 Disappearing Shadows (227 FE, plane-exclusive memory) in 3 maps (x5, x3, x3:
+107 s/map, 0 deaths, net 73/map = 41 FE/min **of map time** (25 x 107 s = 45 min of a 137-min window; on the clock 1,825 net / 137 min = 13 FE/min; that file is one game launch only, the rest of the day is in UE_game-backup-*.log) — all of it 11 Disappearing Shadows (227 FE, plane-exclusive memory) in 3 maps (x5, x3, x3:
 one drop event replicated by Colorful (A) 50% + probe 40% + Focus); without them -14/map. CN Profound Machines: 0.50 Shadow/map over
 432 runs; Vlad 0.44 — at par; a 13-map gap at ~0.135 events/map happens 17% of the time. Secrets 78/map vs CN 85-127; FE 15 vs 20-29.
 Transgression in Profound (10 maps): Secrets 89 vs 71, i.e. +5 FE for 44 — drop it there.
@@ -53,7 +53,7 @@ at his 107 s ~60/min vs 41 in Profound.
 ### Vlad's Profound Machines, 2026-10-31 log (16 maps 11:53-12:57 EET) — "biggest Secrets of Glacial Abyss farmer"
 Stack: Cruising Mechanical (A) 23.5 + Focus Fluorescent 5.5 + Colorful Fluorescent (A) 7 + Strength in Numbers 1 (no Transgression) + Flourishing
 Profound Probe 2.1 + GA T8 beacon 3.1 + 28 resonance = 45.3/map. 93 s median in map (mean 114; one 359 s map), 13 s town between maps -> 107 s/map,
-0 deaths. Loot: 1,069 Secrets (66.8/map; 10-30: 78, CN 85-127), FE 16.5/map, 3 Disappearing Shadows from 2 drop events (x1, x2; 10-30: 11 from
+0 deaths; on the clock 678 net / 68 min = 10 FE/min (38 min in town: AH restocks, the prism, the exchange). Loot: 1,069 Secrets (66.8/map; 10-30: 78, CN 85-127), FE 16.5/map, 3 Disappearing Shadows from 2 drop events (x1, x2; 10-30: 11 from
 3 events x5/x3/x3 — same event rate ~0.13/map, the replication rolled low). Net 42/map = 24 FE/min with Secrets at the exchange (32/map = 18 at AH
 price); without the Shadows +5/map: the stack is the Shadow lottery plus Secrets.
 **Secrets at the Spacetime Wanderer**: 30 Secrets -> "random Flame x10" = 10 draws, each 10 Flame Sand or 10 FE. 24 exchanges: 300 FE + 2,100

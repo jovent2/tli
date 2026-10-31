@@ -196,6 +196,12 @@ CDR); a 4th attached tangle (x1.075 uncapped: 4 x 1.0 vs 3 x 1.4 = x0.952, Malig
 Other Trauma sources: Chaotic Ending (ring; Trauma-while-Fervor is 1 of ~30 random blessing affixes), Dual Kismet: Butterfly in a Bottle x2 (3,199 each,
 2 medium slots, -8% ele res; also Wilt + Ignite), Shadowdancer slate legendary medium (Max Active 1), memory fixed affix "Immune to Trauma Damage".
 
+## Phantasmagoria 3rd affix (2026-10-31, Vlad rolled one and missed)
+The CC line comes from Prism Gauge - Legendary: "When activating 2 Legendary Medium Talent within the area, Immune to crowd control effects" (with or
+without "/ -25% Defense") = 2 of the 42 distinct Legendary-gauge lines. tlidb shows no weights: if even, ~5% a calibration, ~9% with Prism Level III
+("an extra reroll on the random affix outcome") -> ~11 tries x ~2.7k (uncalibrated prism 1,888 + gauges 70 + Level III 749) ~ 29k expected. A read,
+not a proof; a finished CC-immune Phantasmagoria on the AH is the benchmark.
+
 ## Open questions for Vlad
 - Which boots res line Hasten replaced; current kismet layout.
 - Exact lines on each GoK slate and where Fallen Starlight sits now.

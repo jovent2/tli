@@ -49,6 +49,8 @@ so to decode a strategy's allocation fully we need the Chinese node texts (tlidb
   Star Talents extra), -50% additional drop quantity but no prerequisites in non-gameplay constellations, 10% chance
   to not consume Compasses, rarer Confusion Cards, +1 card drawn (30%), etc.
 - Plane Watcher Chest: not affected by Drop Quantity bonuses.
+- **His prices are the global server's** [Vlad 11-01], not etor's CN snapshot (a proxy only): 11-01 Transgression 39, Focus 6, Secrets 0.26 on
+  the AH after tax (0.32 FE + 3 Flame Sand at the exchange). Ask for his price before a decision that hinges on one.
 - **Drop quantity** [tlidb Drop_quantity page, Vlad]: Final expected quantity = base x (1 + sum of "Drop Quantity" bonuses)
   x prod(1 + each "additional Drop Quantity"). Quantity multiplies the number of drop INSTANCES only; each instance's
   amount/tier rolls independently (FE stacks 1/5/10/50; legendary tiers) and quantity never improves the roll. Not every

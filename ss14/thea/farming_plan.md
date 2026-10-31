@@ -139,6 +139,12 @@ used tlidb's stale pet numbers.
   4 of 12 slow maps (10%+ drones past 6 s) had Shadows vs 2 of 19 fast; old Transgression (struggling) 0 of 8 slow vs 4 of 40; all 297 maps
   13% vs 13%. Solid gain of the switch: Secrets +59/map (~+15 FE) + FE +4.6 vs Transgression - Focus price (38.5 at CN) -> needs the
   Shadow boost to pay at CN prices; ask his Transgression price.
+- **Decision 11-01 00:30 [Vlad, global prices]: keep Transgression.** Transgression 39, Focus 6 -> +33 FE; Secrets (+59 x 0.32) + FE (+4.6)
+  = +24 -> -9 FE + 177 Flame Sand per map, against +74-90% Shadows if they scale like Secrets (old rate 0.33 Shadows/map -> +0.25-0.3).
+  Pays if a Shadow is worth > ~35 FE; at ~200 FE/Shadow it breaks even at +14% Shadows. Secrets per copy per drone: old SiN 0.337 ->
+  old Transgression-for-SiN 0.485 (x1.44); 10-31 day SiN 0.330 -> tonight Transgression + SiN 0.575 (x1.74; 1.74 / SiN 1.2 = 1.45, same
+  effect). Shadows per 1,000 drones: old 2.18 -> 1.25 (4 drops), day 1.32 -> tonight 2.60 (6 drops): open. Flat DQ rerun on 271 maps:
+  +30% card x1.03, +20% x1.00, resonance 15 vs 31 x0.99, Pink for Sky's x1.02 -> still nothing on Secrets.
 Town that session (not map loot): bought + levelled a Phantasmagoria (1,888 + gauges 70 + Prism Level III 749) and listed it 2 min later.
 
 ### Alert Outlaw + All-Evil Vigil stack (Deep Space) — the one he likes

@@ -80,3 +80,5 @@ Quad-damage RNG gives roughly ±10% on a single pull.
 | same, auras on (79% aura effect) | 36 T | x1.69 (18% proj speed) / x1.72 / x1.80 / x1.73 (product x9.05) |
 - Each aura's bonus scales with (1 + aura effect): bases Spell Amp 40.5%, Precise Weapon Amp 44.6%, Frigid Domain 41.1%, Precise Projectile 38.1% (+ its
   proj-speed part); predicted at 79%: x1.725 / x1.799 / x1.735 / x1.682 vs read x1.72 / x1.80 / x1.73 / x1.69. +1% aura effect = +0.95% damage at 79%.
+- 2026-10-31 20:45 [Vlad, sheet]: Vorax ring L in (Fervor, DB per 2, ARP 10, block 14, crit dmg 42, duration 13): 7.8 T auras off, x9.05 auras = 70 T
+  (36 T before the ring -> x1.94 in game; robe-world model said x2.24, so it runs ~15% hot after the tree changes). Stats: STR 152, DEX 45, INT 493.

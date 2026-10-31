@@ -6,6 +6,7 @@ Usage:
   python3 tools/tlidb.py PAGE --tables        # every table as rows (JSON lines)
   python3 tools/tlidb.py PAGE --grep REGEX    # text lines matching REGEX (with context)
   python3 tools/tlidb.py PAGE --refresh ...   # re-download instead of using the cache
+  python3 tools/tlidb.py PAGE --lang cn ...    # another language: cn (Simplified, the source text), tw, ko, ja, ru
 
 PAGE is the tlidb path, e.g. "Wand", "Gale", "Israfels_Laws", "en/Tartarus_Season",
 or a full https://tlidb.com/... URL.
@@ -29,28 +30,31 @@ CACHE = ROOT / "data" / "raw"
 BASE = "https://tlidb.com/"
 
 
+LANGS = ("en", "cn", "tw", "ko", "ja", "ru")
+
+
 def page_key(page: str) -> str:
-    """'Israfel's Laws' / 'en/Israfels_Laws' / full URL -> 'Israfels_Laws' (English page key)."""
+    """'Israfel's Laws' / 'en/Israfels_Laws' / full URL -> 'Israfels_Laws' (English page key, same in every language)."""
     if page.startswith("http"):
         page = urllib.parse.urlparse(page).path
     page = urllib.parse.unquote(page).strip().strip("/")
-    if page.startswith("en/"):
+    if page[:3] in tuple(l + "/" for l in LANGS):
         page = page[3:]
     return page.replace("'", "").replace("’", "").replace(" ", "_")
 
 
-def page_url(page: str) -> str:
-    return BASE + "en/" + urllib.parse.quote(page_key(page), safe="_-().'")
+def page_url(page: str, lang: str = "en") -> str:
+    return BASE + lang + "/" + urllib.parse.quote(page_key(page), safe="_-().'")
 
 
-def cache_path(url: str) -> Path:
+def cache_path(url: str, lang: str = "en") -> Path:
     # same naming as tools/crawl.py so both share the cache
-    return CACHE / f"en__{page_key(url)}.html"
+    return CACHE / f"{lang}__{page_key(url)}.html"
 
 
-def fetch(page: str, refresh: bool = False) -> str:
-    url = page_url(page)
-    path = cache_path(url)
+def fetch(page: str, refresh: bool = False, lang: str = "en") -> str:
+    url = page_url(page, lang)
+    path = cache_path(url, lang)
     if path.exists() and not refresh:
         return path.read_text(encoding="utf-8")
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (tli-notes)"})
@@ -73,10 +77,10 @@ BLOCK = ["div", "p", "li", "ul", "ol", "tr", "td", "th", "table", "h1", "h2", "h
          "section", "article", "header", "footer", "nav", "dl", "dt", "dd", "hr"]
 
 
-def page_text(page: str, refresh: bool = False) -> list[str]:
+def page_text(page: str, refresh: bool = False, lang: str = "en") -> list[str]:
     """Non-empty text lines of the page body, in order. Inline tags (spans, links) stay
     on one line; block tags and <br> break lines."""
-    soup = _soup(fetch(page, refresh))
+    soup = _soup(fetch(page, refresh, lang))
     body = soup.find("main") or soup.body or soup
     for br in body.find_all("br"):
         br.replace_with("\n")
@@ -91,9 +95,9 @@ def page_text(page: str, refresh: bool = False) -> list[str]:
     return out
 
 
-def page_tables(page: str, refresh: bool = False) -> list[dict]:
+def page_tables(page: str, refresh: bool = False, lang: str = "en") -> list[dict]:
     """Every <table>: nearest heading, header row, data rows (cell text), and tier attr."""
-    soup = _soup(fetch(page, refresh))
+    soup = _soup(fetch(page, refresh, lang))
     tables = []
     for i, t in enumerate(soup.find_all("table")):
         h = t.find_previous(["h1", "h2", "h3", "h4", "h5", "h6"])
@@ -122,12 +126,13 @@ def main(argv=None):
     ap.add_argument("--grep")
     ap.add_argument("-C", type=int, default=2, help="context lines for --grep")
     ap.add_argument("--refresh", action="store_true")
+    ap.add_argument("--lang", default="en", choices=LANGS)
     a = ap.parse_args(argv)
     if a.tables:
-        for t in page_tables(a.page, a.refresh):
+        for t in page_tables(a.page, a.refresh, a.lang):
             print(json.dumps(t, ensure_ascii=False))
         return
-    lines = page_text(a.page, a.refresh)
+    lines = page_text(a.page, a.refresh, a.lang)
     if a.grep:
         rx = re.compile(a.grep, re.I)
         hits = [i for i, l in enumerate(lines) if rx.search(l)]

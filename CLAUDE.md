@@ -36,6 +36,7 @@ Every new session starts by reading this file, then the files listed under "Read
 - Proactive scans: when pricing a slot, walk its whole pool in `data/affixes/` through `tools/value.py`, not just
   the lines Vlad mentioned.
 - Live page if something seems missing or outdated: `python3 tools/tlidb.py PAGE [--tables|--grep REGEX] --refresh`.
+  `--lang cn` reads the Simplified Chinese page (the game's source text) when the English wording is ambiguous.
   The shell reaches tlidb.com directly. Do NOT use WebFetch for tlidb (it paraphrases, truncates and sometimes
   invents text). WebSearch with `allowed_domains: ["tlidb.com"]` is fine for finding a page name.
 - Data is a snapshot; tlidb updates with patches. Re-crawl at the start of a new season (`data/README.md`).

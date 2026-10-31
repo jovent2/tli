@@ -92,6 +92,14 @@ so to decode a strategy's allocation fully we need the Chinese node texts (tlidb
     x1.23 (1.07-1.42), +10/15% x1.15 (1.02-1.29) -> additional works, ~9,500:1 over nothing. Transgression for SiN x1.62 (1.42-1.85).
   - **Settled 10-31 evening (Pink log, 218 maps)**: Pink for Sky's x0.976 (0.88-1.09) per drone vs x0.835 if pool + Shards applied -> Memory
     Shards off ~10^7:1, pool off 49:1 on Secrets. Fluorescent probe for Flourishing x1.055 (0.96-1.16). See docs/mechanics.md.
+  - **Trial Drop Quantity is not Drone Drop Quantity** (2026-10-31, CN text via `tools/tlidb.py PAGE --lang cn`). English writes both as
+    "...Drop Quantity during Trial: God of Machines"; the Chinese source doesn't. Trial lines name the trial as the owner: Void Chart +5% node
+    "机械之神试炼额外 +5% 掉落数量", +7% node "每当新回合开始，机械之神试炼额外 +7% 掉落数量" (per round), +6% node, the Drones node's
+    "机械之神试炼额外 -100% 掉落数量", Conservative - Machine card +10/15%, Brilliant / Cruising compass "机械之神试炼的掉落数量额外 ±100%"
+    (the trial's drop quantity; same possessive as Strength in Numbers' "普通怪物的掉落数量"). Drone lines name the drones: "机械之神试炼中，
+    无人机额外 +X% 掉落数量" (Cruising +100, tree +25 / +40, Obtuse - Machine cards +10/15/30). Proof that the trial lines miss drones: he runs
+    Cruising's -100% and still gets ~70 Secrets/map from drones, and additional lines multiply (x0 if it applied). So +5% / +6% / +7% /
+    Conservative only scale the trial's own reward (the statue loot), which Cruising (and the Drones node) already multiply by 0: dead for him.
   - Big memories are too rare to measure quantity (0.68 drops/map: +30% card 0.50/map, +20% card 1.11/map); Shadows 0.12/map.
   - Naked rates (no quantity, no copies): Secrets 0.33/map from Drones (0.51 if the FMS lines don't work), big-memory drops 0.037/map.
   - Transgression in place of Strength in Numbers (+ no Flourishing on 7 of 8): Secrets per copy x1.34 (95% 0.99-1.81).

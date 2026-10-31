@@ -9,7 +9,11 @@ python3 tools/tlidb.py Gale                       # page text
 python3 tools/tlidb.py Wand --tables              # affix tables as JSON lines
 python3 tools/tlidb.py Israfels_Laws --grep Focus # matching lines with context
 python3 tools/tlidb.py Wand --refresh             # bypass the cache (data/raw/)
+python3 tools/tlidb.py Compass --lang cn --grep 机械 # same page in Simplified Chinese (also tw, ko, ja, ru)
 ```
+Every page exists under `/cn/`, `/tw/`, `/ko/`, `/ja/`, `/ru/` with the same English key. Simplified Chinese is the game's source
+text: when an English line is ambiguous (e.g. "Drop Quantity during Trial: God of Machines" for both the trial's own reward and its
+drones), read the CN line — it names the owner of the stat (`docs/farming.md`, trial vs drone quantity).
 
 ## URL rules
 - `https://tlidb.com/<Name>` with spaces → `_` and apostrophes dropped: `Israfel's Laws` → `Israfels_Laws`, `Pantheon's Elegy` → `Pantheons_Elegy`, `Goddess of Hunting's Dirge` → `Goddess_of_Huntings_Dirge`.

@@ -70,3 +70,13 @@ Quad-damage RNG gives roughly ±10% on a single pull.
 | + Blizzard off | 3.0 | 3.08 | **Blizzard x1.733 = 1 stack** (model x1.707; 2 stacks would be x2.41 -> 2.2 T) |
 - Refit: today's six absolute pulls rms 3.2% with **no constant** (dummy_scale 1.0). Yesterday's 9.4 / 6.8 fit at 0.767 (kept as era context).
 | no belt / ring L / SA / PP, Precise WA -> Swiftness (Lightchaser -10 r5, CC +29 r5) | 7.4 | 6.86 at the old scale -> refit 0.917 | full kit 82 T |
+
+### 2026-10-31 18:13 — new robe (rare chest), aura effect 68% -> 79% [Vlad, sheet; tree changed a lot, engine not re-anchored]
+| config | in game | note |
+|---|---|---|
+| naked robe, auras off | 3 T | |
+| naked robe, auras on (68% aura effect) | 25 T | Precise Projectile x1.64 (17% proj speed), Spell Amp x1.68, Precise Weapon Amp x1.75, Frigid Domain x1.69 (product x8.15) |
+| robe T1 INT / T2 aura effect 11% / T1 crit rating, auras off | 4 T | |
+| same, auras on (79% aura effect) | 36 T | x1.69 (18% proj speed) / x1.72 / x1.80 / x1.73 (product x9.05) |
+- Each aura's bonus scales with (1 + aura effect): bases Spell Amp 40.5%, Precise Weapon Amp 44.6%, Frigid Domain 41.1%, Precise Projectile 38.1% (+ its
+  proj-speed part); predicted at 79%: x1.725 / x1.799 / x1.735 / x1.682 vs read x1.72 / x1.80 / x1.73 / x1.69. +1% aura effect = +0.95% damage at 79%.

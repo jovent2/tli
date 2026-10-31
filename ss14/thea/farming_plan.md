@@ -89,6 +89,10 @@ used tlidb's stale pet numbers.
 - **Exclude from the fits [Vlad 10-31]: the 15:23 EET (13:23 UTC) map** — Dull - Machine card ("Attacking monsters have a 0.2% chance to drop 1
   additional plane-exclusive Fluorescent Memories during Trial: God of Machines", 1/1); 137 Secrets, 3 Shadows, catalyst not Fluorescent.
   gamelog.parse flags any map with that card text (m["exclude"]; the 13:21-13:26 UTC window is the fallback); the fits print what they drop.
+- **Card ranking with the per-drone fit** (Secrets + Shadows = 79.5 FE/map come from drones; "+X% additional Drop Quantity for Drones"
+  measured x1.23 for the +30% card, x1.15 for +10/15%): **+30% additional Drones ~+18-24 FE/map (take it every time)**, Melancholy 30 +12.3,
+  +15% Drones ~+12, Melancholy 20 +8.2, +10% Drones ~+8, +30% DQ ~+1.9 (x1.05 per drone, no effect shown), +20% DQ ~+1.3. Non-drone Secrets
+  (picked before the trial starts): 2.4 per map, too few to see what a quantity card does there.
 - First tally [Vlad 10-31 evening]: 13 maps Flourishing 905 Secrets (69.6/map), 19 maps Fluorescent probe 1,457 (76.7/map) = x1.10
   (se of the log ratio ~0.12). If the 19 were all Pink: "Memory Shards line does nothing" (x1.04) 0.5 sigma off, "works" (x0.84) 2.2 sigma ->
   ~10:1 for "does nothing", cards and crystals unchecked; the log decides.

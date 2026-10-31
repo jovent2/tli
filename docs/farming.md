@@ -146,6 +146,13 @@ rotations); etor reads the same file. Per map: `ItemChange@ ProtoName=Spv3Open s
 by item id, probe, resonance 5028) -> a stack map is identified by its cost signature; `_JoinFightSuccess()` followed by `+maptype [Mystic]`
 = entered the map, followed by `+checkType [MainCity]` = back in town (map end); `FightResult@ Open FightFailureView` = a death (he revives
 and continues); `PickItems` blocks = loot, by stack guid deltas. Keep the raw log out of the repo (account ids).
+- 2026-10-31 log format: the area dump after `_JoinFightSuccess()` prints `+mapId` BEFORE `+maptype` (10-30: after). The parser stopped at
+  mapId, never saw the entry, and counted everything up to the next map open as loot (AH/prism crafting in town, the Secrets exchange: +681 FE of
+  phantom loot on 16 maps). Fixed: the join block is read until `+maptype` / `+checkType [MainCity]` in any order (3,000-line limit).
+- Town blocks seen: `Push2` = NPC exchanges / crafting results (Fluorescent Memory sets at the Spacetime Wanderer, prism levelling),
+  `ExchangeItem`, `XchgForSale` (listing), `XchgBuy` / `XchgReceive` (AH). Only in-map blocks count as map loot.
+- **Fluorescent Memory exchanges** (Spacetime Wanderer): Secret of the Glacial Abyss 30 -> 10 draws of 10 Flame Sand (87.5%) or 10 FE (12.5%),
+  observed 24 exchanges = 300 FE + 2,100 Flame Sand -> valued at 0.417 FE each in `gamelog.EXCHANGE` (AH 0.3).
 
 ## Deep Space ranking (`tools/farm/deepspace.py`, 2026-10-30)
 Raw etor strategies (timeLabel 13) grouped by the compass/astrolabe/probe set they ran (qty >= 0.5/map; beacon and resonance excluded

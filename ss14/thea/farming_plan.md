@@ -50,6 +50,19 @@ Deep Space Machines for Vlad: same tree, swap Focus -> Transgression 44 + Streng
 29 (+0.24 Immolating +59 Secrets = +39 net for 29), T8 beacon -> DS beacon 23.5: CN net 108/map at 105 s = 62/min (8,199 runs);
 at his 107 s ~60/min vs 41 in Profound.
 
+### Vlad's Profound Machines, 2026-10-31 log (16 maps 11:53-12:57 EET) — "biggest Secrets of Glacial Abyss farmer"
+Stack: Cruising Mechanical (A) 23.5 + Focus Fluorescent 5.5 + Colorful Fluorescent (A) 7 + Strength in Numbers 1 (no Transgression) + Flourishing
+Profound Probe 2.1 + GA T8 beacon 3.1 + 28 resonance = 45.3/map. 93 s median in map (mean 114; one 359 s map), 13 s town between maps -> 107 s/map,
+0 deaths. Loot: 1,069 Secrets (66.8/map; 10-30: 78, CN 85-127), FE 16.5/map, 3 Disappearing Shadows from 2 drop events (x1, x2; 10-30: 11 from
+3 events x5/x3/x3 — same event rate ~0.13/map, the replication rolled low). Net 42/map = 24 FE/min with Secrets at the exchange (32/map = 18 at AH
+price); without the Shadows +5/map: the stack is the Shadow lottery plus Secrets.
+**Secrets at the Spacetime Wanderer**: 30 Secrets -> "random Flame x10" = 10 draws, each 10 Flame Sand or 10 FE. 24 exchanges: 300 FE + 2,100
+Flame Sand -> 0.417 FE per Secret (+2.9 Flame Sand, the Enchant currency, untradeable) vs 0.26 selling at 0.3 after tax = +60%, ~+10 FE/map.
+Probe: the x1 event proves the once-replication chance is under 100% without a probe line (Colorful (A) 50 + pets). Fluorescent Profound Probe
+(5.5, "Fluorescent Memories dropped have a 20% chance to be replicated once") instead of Flourishing (+20% Drop Quantity — not on Disappearing
+Shadow per XD): ~+8 Shadow +3 Secrets per map at the 10-30 event rate, -3.4 cost, minus Flourishing's quantity on FE/resonance: ~+4/map. Small.
+Town that session (not map loot): bought + levelled a Phantasmagoria (1,888 + gauges 70 + Prism Level III 749) and listed it 2 min later.
+
 ### Alert Outlaw + All-Evil Vigil stack (Deep Space) — the one he likes
 Alert Outlaw 32 + All-Evil Vigil 62 + Generous Elite 16 (not Bountiful: the Bountiful version is -7/min over 804 runs) + Sinful Plunder (A)
 45 + **Flourishing Deep Space Probe** 29 + beacon 23.5 + ~3 resonance = 227/map. 26 strategies / 2,842 runs: gross 309 (FE 100, Nether

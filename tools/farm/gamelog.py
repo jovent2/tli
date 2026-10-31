@@ -30,19 +30,26 @@ def parse(paths):
     stacks = {}                      # guid -> (base_id, total)
     maps = []; cur = None; block = None; block_items = []
     join = None                      # time of the last _JoinFightSuccess whose area lines we are still reading
+    join_map = None                  # +mapId seen inside that area block (2026-10-31 logs print it BEFORE +maptype; 10-30 logs after)
+    join_left = 0                    # lines left to look for the marker
     for path in paths:
         for line in open(path, encoding="utf-8", errors="replace"):
             t = ts(line)
-            if join is not None:
+            if "_JoinFightSuccess()" in line: join = t; join_map = None; join_left = 3000; continue
+            if join is not None:                          # the area dump that follows (a timestamped header, then "+key [value]" lines)
+                join_left -= 1
+                if "+mapId [" in line:
+                    join_map = line.split("[")[1].split("]")[0]
+                    if cur is not None and cur["entered"] == join: cur["map_id"] = join_map
                 if "+maptype [" in line:
-                    if cur is not None and cur["entered"] is None: cur["entered"] = join
+                    if cur is not None and cur["entered"] is None: cur["entered"] = join; cur["map_id"] = join_map
+                    join = None
                 elif "+checkType [MainCity]" in line:
                     if cur is not None and cur["entered"] is not None and cur["end"] is None: cur["end"] = join
-                if "+mapId [" in line:
-                    if cur is not None and cur["entered"] == join: cur["map_id"] = line.split("[")[1].split("]")[0]
                     join = None
-                continue
-            if "_JoinFightSuccess()" in line: join = t; continue
+                elif join_left <= 0:
+                    join = None
+                if t is None: continue                    # dump lines never carry item changes
             if cur is not None and cur["end"] is None and "FightResult@ Open FightFailureView" in line: cur["deaths"] += 1
             m = PROTO.search(line)
             if m:
@@ -81,9 +88,13 @@ def is_stack(mp, need=None):
     if need: return all(i in mp["cost"] for i in need)
     return any(i in BEACON_IDS for i in mp["cost"]) or any(RN.name(i).endswith("Compass") or "Probe" in RN.name(i) for i in mp["cost"])
 
+# Items worth more at the Spacetime Wanderer than on the AH (FE per item, untaxed). Secret of the Glacial Abyss: 30 -> "random Flame x10" =
+# 10 draws of 10 Flame Sand or 10 FE; 2026-10-31 log: 24 exchanges (720) -> 300 FE + 2,100 Flame Sand = 0.417 FE each (AH 0.3, 0.26 after tax).
+EXCHANGE = {"6002": 300 / 720}
 def price(i): return 1.0 if i == RN.FE_ID else (RN.price(i) or 0.0)
 def value(items, sold=True):
-    return sum(q * price(i) * (0.875 if (sold and i != RN.FE_ID) else 1.0) for i, q in items.items())
+    return sum(q * (EXCHANGE[i] if (sold and i in EXCHANGE) else price(i) * (0.875 if (sold and i != RN.FE_ID) else 1.0))
+               for i, q in items.items())
 
 def report(maps, only_stack=True):
     if only_stack: maps = [m for m in maps if is_stack(m)]

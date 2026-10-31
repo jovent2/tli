@@ -31,3 +31,7 @@ python3 tools/tlidb.py Wand --refresh             # bypass the cache (data/raw/)
 - The first ~60 lines of every page are site navigation. The page title appears right after the language list.
 - Values like `+(13–14)%` are ranges; tier rows give each tier's range.
 - tlidb labels everything "beta data" in the footer; ignore that line.
+- **Pactspirit pages are stale** (checked 2026-10-31): tlidb has Cloudgatherer - Sky's Dome r6 = +14% DQ + 10% replicate, Miss Melancholy - Pink
+  r6 = +18% DQ, Kong r6 = +6% DQ; in game [Vlad] Sky's Dome = +26% DQ + "+24% additional Fluorescent Memory Shards Drop Quantity" + 10%, Pink =
+  +42%, Kong = +18% + the same +24% line — exactly XD's matrix (`data/ext/pactspirit_drop_effects.json`). Use the matrix for pets.
+

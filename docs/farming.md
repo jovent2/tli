@@ -54,6 +54,22 @@ so to decode a strategy's allocation fully we need the Chinese node texts (tlidb
   amount/tier rolls independently (FE stacks 1/5/10/50; legendary tiers) and quantity never improves the roll. Not every
   gameplay reward scales (Cubes of Rapacity, Dream Bubbles, Chests of Folklores, Splendor Eggs...).
 - Resonance -> Drop Quantity [Vlad]: 0:+15%, 1:+30, 3:+45, 7:+60, 15:+75, 31:+100 (run 31; 3.4 FE at 0.11 each).
+- **His quantity sheet [Vlad 2026-10-31] and what his logs say about it** (`tools/farm/quantity.py`, 99 Colorful Machines maps):
+  pool (adds): Path of Progression 30, Twilight Sparks 30, Kong 18, Sky's Dome 26 (Miss Melancholy - Pink 42), tree 25, Flourishing probe 20,
+  resonance 100, Profound 100 (+ card 20/30) = +349% -> x4.49. Additional (multiply): Twilight Sparks 13 / 3, tree 12, card 100 (any Confusion
+  Card), Drones 25 / 40, Cruising (A) 100 (Drones), Strength in Numbers 20 (Normal monsters, Drones included), Kong / Sky's Dome "+24% additional
+  Fluorescent Memory Shards" each (unproven). Drone memories x75.6 (x49.2 if the FMS lines don't work), rare/chest memories x18.0. Profound also
+  +65% monster quantity (not in the chain). Sources [Vlad]: Shadows only from Drones, ~99% of Secrets from Drones, ~95% of the big memories
+  (Maud's, Tomorrow's, Lost Secrets, Crow's, Hundredfold) from rares or chests.
+  - Pool vs "every line its own multiplier": +30% DQ card x1.07 (95% 0.87-1.33; sheet x1.067, own-multiplier x1.30), +20% card x1.02 (sheet
+    x1.045 / x1.20), resonance 15 vs 31 x1.03 (sheet x0.944 / x0.875). Joint: the pool wins 10:1 to 33:1. +30% DQ = x1.067 = ~+4 FE/map on his
+    non-Shadow loot (58.6 FE/map), each +10 points ~+1.3. Drone card (+10% additional Drones) x1.03 (sheet x1.10): can't tell.
+  - Odd one: the "no bonus" cards (+20% compass DQ, +1 Blessed monster, +8% attack round) came out x0.80 (95% 0.65-0.99) — three 4-map blocks
+    (cards last 4 maps: Attempts 0/4) at ~50 Secrets vs ~72 around them. Against them a 20% replicate card would be worth x1.49, impossible ->
+    read as cold blocks, but watch it.
+  - Big memories are too rare to measure quantity (0.68 drops/map: +30% card 0.50/map, +20% card 1.11/map); Shadows 0.12/map.
+  - Naked rates (no quantity, no copies): Secrets 0.33/map from Drones (0.51 if the FMS lines don't work), big-memory drops 0.037/map.
+  - Transgression in place of Strength in Numbers (+ no Flourishing on 7 of 8): Secrets per copy x1.34 (95% 0.99-1.81).
 - Card every map: pick 1 of 3 from the deck (Void Chart card nodes + timemark), +100% additional on top of the card's
   effect; ~1 reroll per 12 maps [Vlad]. "Stage attempts" = lives per map [Vlad].
 - Slots [Vlad]: 4 compass slots, 1 Profound probe slot. Listing tax 1 FE per 8 (12.5%), nothing under 1 FE listable.
@@ -128,6 +144,8 @@ so to decode a strategy's allocation fully we need the Chinese node texts (tlidb
 - `fit.py` ridge regression (too collinear to trust alone). `plan.py` Vlad-rescaled per-mechanic combos.
 - `chart.py` tree-knapsack over a constellation graph; `hunting_plan.py` node values for the Safari compass farm.
 - Quantity applies per gameplay as XD's pet matrix says (pet "+X% Drop Quantity" lines yes/no): see plan.py NQ_* sets.
+- `gamelog.py` per-map loot/cost from his game log (+ effects, card, catalyst crystals, drop pets); `replication.py` / `replication_fit.py`
+  Fluorescent replication rule fit (rare-drop sizes + Secrets/map); `quantity.py` his quantity chain and the in-log quantity experiments.
 
 ## Bottom-up model (2026-10-29 late; tools/farm/bottomup.py, plan2.py, search.py) — the one to use
 - `attrib.py` / `model.py`: first passes (lift per mechanic, family-level NNLS) — superseded, kept for reference.

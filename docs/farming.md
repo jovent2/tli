@@ -157,7 +157,9 @@ so to decode a strategy's allocation fully we need the Chinese node texts (tlidb
   (1/3 of PickItems blocks hold more than one item type), so x5-x7 Maud's are likely two drops. Drop-spawn lines (`UDropInstanceMgr@
   AddInstance`) carry no item id.
 - **Void Variables** = map-entry effects 61000xx (6100001/10/12 +1/3/8 blessed Rares, 6100002/11 +2/5 Disciple groups, 6100003/4 Magic / Rare
-  Treasure Sentries, 6100005 monsters on a larger scale, 6100007 Rift Portal chance, 6100013 +1 Calamity Warlord, 6100006/9 no text). His
+  Treasure Sentries, 6100005 monsters on a larger scale, 6100007 Rift Portal chance, 6100013 +1 Calamity Warlord, 6100006 landmines,
+  6100009 artillery barrage; the last two have no text, named from their sound cues: 26-40 `Minecave_Landmine_Blast` a map vs ~3, and 284
+  `Mountain_PaoJi_Explosion_Hvy` (炮击, bombardment) in its one map and none in any other = tlidb's "wall cannons" variable). His
   10-29..10-31 Machines maps: 0.38 per map (63 of 196 maps); with vs without: non-drone loot median 25.5 vs 24.2 FE, FE drops 15.8 vs 15.9,
   Secrets per drone 0.98 vs 1.00 -> no measurable value on a drone farm (they add rares and packs, not drones).
   Spread (255 stack maps): 180 none, 62 one, 13 two, never three; 0.34 / 0.35 / 0.38 per map on 10-29 / 30 / 31. Per 100 maps: Rare Treasure

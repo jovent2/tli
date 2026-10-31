@@ -132,6 +132,13 @@ used tlidb's stale pet numbers.
   Transgression + Fluorescent probe.
 - First maps on the CN meta (Transgression in Focus's slot) [Vlad 22:52]: 144 Secrets (3 rounds), 211 (4 rounds) vs his Focus-setup
   averages 70 / 97 = x2.05 / x2.17; per-drone Transgression x1.92 predicted 134 / 186. No Shadow in the first maps (expected ~1 drop per 5).
+- **11-01 00:10, log to 00:07 (supersedes gamelog6)**: tonight 31 maps Transgression + SiN + Colorful (A): Secrets 131/map (1.76 per drone vs
+  0.92 on the day's Focus setup), FE 20.5 vs 15.9, map 97 s vs 116 s (ring). Shadows by block, piles per 1,000 drones: 10-29/30 SiN 2.28
+  (24 piles), 10-29/30 Transgression 1.14 (4), 10-31 day SiN 1.35 (9), tonight 2.74 (6) -> all Transgression maps 1.76 vs 1.92 without:
+  no visible Transgression boost on Shadows (~6:1 against x1.6 on 10 piles; prior says it should work -> about even). Drone lifetime: tonight
+  4 of 12 slow maps (10%+ drones past 6 s) had Shadows vs 2 of 19 fast; old Transgression (struggling) 0 of 8 slow vs 4 of 40; all 297 maps
+  13% vs 13%. Solid gain of the switch: Secrets +59/map (~+15 FE) + FE +4.6 vs Transgression - Focus price (38.5 at CN) -> needs the
+  Shadow boost to pay at CN prices; ask his Transgression price.
 Town that session (not map loot): bought + levelled a Phantasmagoria (1,888 + gauges 70 + Prism Level III 749) and listed it 2 min later.
 
 ### Alert Outlaw + All-Evil Vigil stack (Deep Space) — the one he likes

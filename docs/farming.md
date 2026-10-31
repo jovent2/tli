@@ -278,6 +278,14 @@ and continues); `PickItems` blocks = loot, by stack guid deltas. Keep the raw lo
   the fastest third. Killing fast costs nothing. `UDropInstanceMgr@ AddInstance!` = ground drop instances (0-0.3 s after a death, 62 per
   trial, corr 0.79 with Secrets) but they merge when many drones die at once (0.08-0.12 per death in 9+ bursts vs ~0.4 alone), so an
   instance count per kill looks like 'fast kills drop less' when it's only AoE merging piles.
+- **Cruising airships** (2026-11-01): Airship Station [tlidb, CN] "触碰即可召唤飞空艇；击落不同品质的飞空艇，将生成对应数量的无人机梯队" — touch
+  to summon an airship; shooting down airships of different 品质 (rarity tier) spawns that many drone echelons; nothing about time.
+  Log: drone (1052033) spawn bursts are 4 (76%), 12 (17%), 8 (3%), 16 (1-2%) = 1-4 echelons of 4. Cruising-only units: 1052100-1052103
+  (rarity 4, ~3.4 per trial, two at a time ~8 s into a round, then 'Drones_Call' / 'Drones_Airdrop' sounds) = best read for the four
+  airship tiers (~60%); ids never change after spawn. 105220x (1052200 r1, 1052201/2 r2) come in bunches of 4-16. Deaths have no ids,
+  so airship -> drones can't be linked. Kill-speed thirds: same burst mix (4: 76/75/77%, 12: 17/18/17%) and drones per map (77/78/80),
+  so no sign that slower kills roll better airships at 36T speeds; a 6+ s airship lifetime is untested (test: drones per round on maps
+  where he lets airships live 6+ s).
 - Drop-pet block: the first pet sits on the header line (`+dropServantContractData+1+servantId [8130]`) and the order changes between
   joins; until the 10-31 fix the parser dropped that first pet, so 10-29 looked like Kong / Sky's Dome swapping every map. They were on all of them.
 - The join dump also lists the active drop pets (`+servantId [..]` with `+starLevel`); compare them across maps before blaming a setup change.

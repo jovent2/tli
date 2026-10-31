@@ -290,8 +290,12 @@ and continues); `PickItems` blocks = loot, by stack guid deltas. Keep the raw lo
   joins; until the 10-31 fix the parser dropped that first pet, so 10-29 looked like Kong / Sky's Dome swapping every map. They were on all of them.
 - The join dump also lists the active drop pets (`+servantId [..]` with `+starLevel`); compare them across maps before blaming a setup change.
   Backup logs (`UE_game-backup-<date>.log`) hold whole launches (10-30: 1.1 GB, 18 h, parses in ~25 s).
-- **Fluorescent Memory exchanges** (Spacetime Wanderer): Secret of the Glacial Abyss 30 -> 10 draws of 10 Flame Sand (87.5%) or 10 FE (12.5%),
-  observed 24 exchanges = 300 FE + 2,100 Flame Sand -> valued at 0.417 FE each in `gamelog.EXCHANGE` (AH 0.3).
+- **Fluorescent Memory exchanges** (Spacetime Wanderer): Secret of the Glacial Abyss 30 -> 10 draws of 10 Flame Sand or 10 FE. All his turn-ins
+  10-29..11-01: 23,865 memories (22,968 Secrets); Secrets-only sessions 6,024 Secrets -> 1,910 FE + 17,970 Flame Sand = 99 units per 30, FE on
+  9.6% of 1,988 draws (95% 8.3-10.9%) -> **0.32 FE + 3.0 Flame Sand per Secret** in `gamelog.EXCHANGE` (AH 0.3, 0.26 after tax). The first read
+  (24 exchanges, 12.5%) said 0.417. Other recipes seen: 5 Disappearing Shadow -> Blueprint: Lone Walker's Boots (35 Shadows turned in),
+  War Compass x30 and Ultimate Ember x11 from other memory sets. Flame Sand: 73,200 spent on 10-30 for 244 of item 101300 (300 each; not in
+  etor's table, unknown) — no FE value assigned yet.
 
 ## Deep Space ranking (`tools/farm/deepspace.py`, 2026-10-30)
 Raw etor strategies (timeLabel 13) grouped by the compass/astrolabe/probe set they ran (qty >= 0.5/map; beacon and resonance excluded

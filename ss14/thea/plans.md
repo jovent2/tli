@@ -203,6 +203,11 @@ control effects / -25% Defense" with +1 blessing / +40% lines, one carries the p
 Even weights (tlidb shows none): 3/25 = 12% per calibration, 1 - (22/25)^2 = 23% with Level III -> ~4.4 attempts. A prism with slots 1-2 done and
 slot 3 open costs ~1,888 + gauges 70 + Level III 749; if a miss resells near cost, an attempt is ~1.06k (gauges + Level III + 12.5% tax) -> ~4.7k
 expected. Restoration resets every random affix (slots 1-2 too). A read, not a proof.
+In-game weights [Vlad 2026-10-31 17:43]: CC (-25% Defense) 4.08%; 5 lines at 2.04%, 2 at 8.16%, 17 more at 4.08% (25 lines). Weighted draws
+without replacement: CC among the 3 shown 12.31%, with the Level refresh 23.10% per prism (equal weights gave the same). A try = fresh prism ~1,600
++ ~1,000 calibration; a miss resells at ~1,600 - 12.5% tax: expected ~5.0k FE to land it (4.3 tries; 23 / 41 / 55 / 73% within 1 / 2 / 3 / 5).
+It gates the robe + Phantasmagoria swap (x1.21 now, x1.33 with the Vorax ring): ~150-240 FE per 1%, cheaper than the 317-461 FE/1% upgrades.
+Verdict: roll it.
 
 ## Open questions for Vlad
 - Which boots res line Hasten replaced; current kismet layout.

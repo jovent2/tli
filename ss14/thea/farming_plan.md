@@ -157,12 +157,6 @@ used tlidb's stale pet numbers.
   (x1.77 without today); logs: same drop rate, 3.1 vs 2.0 Shadows per drop. Transgression = -13 FE (Secrets + FE vs 39) + Shadows +18.5
   to +32 (at ~195) = +5 to +19 FE/map + ~145 Flame Sand vs an empty slot; normal Colorful ~+9.5. **Keep Transgression.** 0 in 30 today:
   drops stay at ~0.145/map whatever the setup -> P = 1.3%.
-- **Correction 11-01 23:10 [Vlad's YiHuo session totals]**: the 'Transgression adds no Shadows / swap to Colorful' call above was wrong:
-  it counted drops from only 60 CN-meta maps and lumped in the 10-29/30 Transgression-instead-of-SiN block. His sessions, Shadow items:
-  Transgression + SiN 105 maps / 40, 26 / 10, 30 / 0 (31st dropped) = 50 in 161 (0.31/map); Focus + SiN 84 / 17, 110 / 25 = 42 in 194
-  (0.22/map) -> x1.43 (95% ~0.74-2.8 on ~19 vs 16 drops; x1.74 vs x1.0 likelihood 1.5:1). With Secrets at x1.74, best read Shadows
-  x1.4-1.7. Transgression vs an empty slot: -13 FE/map at x1.0, +5 at x1.44, +18 at x1.74; normal Colorful ~+6 -> **keep Transgression**.
-  30 maps without a drop at the Transgression rate: 2.8%. Global prices seen: Disappearing Shadow 191-200, Secrets 0.27.
 Town that session (not map loot): bought + levelled a Phantasmagoria (1,888 + gauges 70 + Prism Level III 749) and listed it 2 min later.
 
 ### Alert Outlaw + All-Evil Vigil stack (Deep Space) — the one he likes

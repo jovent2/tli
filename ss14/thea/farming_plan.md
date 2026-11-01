@@ -152,11 +152,12 @@ used tlidb's stale pet numbers.
   (+145 Flame Sand). Swap to a normal Colorful Fluorescent Compass (~1 FE, +20% replicate on every memory incl. Shadow piles and
   Tomorrow's: copies x1.09, ~+10 FE/map) -> ~+20 FE/map over Transgression, if it stacks with Colorful (A). Read: Shadows are a flat
   per-drone chance (not quantity-scaled) -> the Shadow lever is drones per minute.
-- **Correction 11-01 23:05 [Vlad's ETor tally]**: the 'Transgression doesn't add Shadows' read counted drops, not Shadows. Transgression
-  50 Shadows / 161 maps (11-01 round 1: 40 in 105, round 2: 10 in 26, today 0 in 30) vs Focus 42 / 194 (17 in 84, 25 in 110) = x1.44
-  (x1.77 without today); logs: same drop rate, 3.1 vs 2.0 Shadows per drop. Transgression = -13 FE (Secrets + FE vs 39) + Shadows +18.5
-  to +32 (at ~195) = +5 to +19 FE/map + ~145 Flame Sand vs an empty slot; normal Colorful ~+9.5. **Keep Transgression.** 0 in 30 today:
-  drops stay at ~0.145/map whatever the setup -> P = 1.3%.
+- **Correction 11-01 23:05-23:20 [Vlad's ETor tally + the tlidb rule]**: Transgression 50 Shadows / 161 maps (11-01 round 1: 40 in 105,
+  round 2: 10 in 26, today 0 in 30) vs Focus 42 / 194 (17 in 84, 25 in 110) = x1.44 (x1.77 without today). Per the official rule
+  quantity = more rolls -> Shadows drop more often (not bigger piles; the '3.1 vs 2.0 per drop' was 10 vs 33 drops of noise).
+  Transgression = -13 FE (Secrets + FE vs 39) + Shadows +18.5 to +32 (at ~195) = +5 to +19 FE/map + ~145 Flame Sand vs an empty
+  slot; normal Colorful ~+9.5. **Keep Transgression.** 0 in 30 today: ~0.7% at the boosted drop rate (0.16 drops/map from his tally,
+  ~2.3 Shadows per drop), ~6% unboosted.
 Town that session (not map loot): bought + levelled a Phantasmagoria (1,888 + gauges 70 + Prism Level III 749) and listed it 2 min later.
 
 ### Alert Outlaw + All-Evil Vigil stack (Deep Space) — the one he likes

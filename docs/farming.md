@@ -114,11 +114,11 @@ so to decode a strategy's allocation fully we need the Chinese node texts (tlidb
     one strategy runs Colorful (A) + Colorful every map). His two no-Focus test maps (Transgression + SiN, no Colorful / Kong / Sky's): 77 and 70.
     His own logs agree (11-01): Transgression vs SiN with Focus on both sides x1.44 (-> Transgression x1.73 with SiN x1.2); Transgression
     added with Focus removed x1.74 -> Focus ~x1.00 (at most x1.09 even if Transgression sat at its x1.9 cap).
-  - **Shadows: quantity scales the pile, not how often a pile drops** (11-01, corrected the same evening). Drops (pickup events) per
-    1,000 drones: 1.76 on Transgression maps vs 1.92 without; Shadows per drop 3.1 vs 2.0 (x1.55); Shadows per drone x1.44. Vlad's full
-    ETor tally agrees: Transgression 50 Shadows in 161 maps (0.31/map, incl. a 0-in-30 day) vs Focus 42 in 194 (0.22/map) = x1.44
-    (x1.77 without that day). Read: one Shadow roll per drone (~1.9 drops per 1,000 drones, fixed); additional quantity and replication
-    multiply what that roll gives. Droughts stay as long with Transgression; the piles get bigger. Drop frequency only moves with drones.
+  - **Shadows and Transgression** (11-01, corrected twice the same night). Official rule (tlidb Drop quantity, examples 1-5): quantity
+    = more independent rolls of the same drop (+100% on a 50% drop -> 25% none / 50% one / 25% two), so on a rare item it makes the
+    drop happen MORE OFTEN; pile size comes from replication. Vlad's ETor tally: Transgression + SiN 50 Shadows in 161 maps (0.31/map)
+    vs Focus + SiN 42 in 194 (0.22/map) = x1.44 (x1.77 without a 0-in-30 day) — fits the x1.74 Secrets take. My two reads that night
+    ('no Shadow boost, 700:1' and then 'bigger piles, same drop rate') came from 10 vs 33 drop events in the logs: noise, both wrong.
   - **Transgression stacks**: +3% additional per Rare killed, cap 30. Rares spawned before the trial (log, rarity-3 'Monster Created'):
     median 28 on his Transgression maps, 30+ on 12 of 33 tonight; median 41 by trial end -> ~x1.8 entering the trial, x1.9 during it;
     measured x1.74 (95% 1.57-1.93). Starting the trial after the 30th rare is worth ~+3% on drone loot.

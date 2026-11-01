@@ -117,8 +117,11 @@ so to decode a strategy's allocation fully we need the Chinese node texts (tlidb
   - **Shadows and Transgression** (11-01, corrected twice the same night). Official rule (tlidb Drop quantity, examples 1-5): quantity
     = more independent rolls of the same drop (+100% on a 50% drop -> 25% none / 50% one / 25% two), so on a rare item it makes the
     drop happen MORE OFTEN; pile size comes from replication. Vlad's ETor tally: Transgression + SiN 50 Shadows in 161 maps (0.31/map)
-    vs Focus + SiN 42 in 194 (0.22/map) = x1.44 (x1.77 without a 0-in-30 day) — fits the x1.74 Secrets take. My two reads that night
-    ('no Shadow boost, 700:1' and then 'bigger piles, same drop rate') came from 10 vs 33 drop events in the logs: noise, both wrong.
+    vs Focus + SiN 42 in 194 (0.22/map) = x1.44 (x1.77 without a 0-in-30 day) — fits the x1.74 Secrets take. His logs, drop events
+    (a drop + its copies = one): Focus + SiN 29 in 202 maps (0.144/map; 18 in 167 = 0.108 without a hot 10-29), Transgression + SiN
+    6 in 31 (0.194/map, 3.5 Shadows each) = x1.35; Transgression replacing SiN (Focus kept) 4 in 43. Expected on the current setup:
+    ~0.19 drops/map (one per ~5 maps; x1.74 on a ~0.11 base). My two reads that night ('no Shadow boost, 700:1' and then 'bigger
+    piles, same drop rate') came from 10 vs 33 drop events in the logs: noise, both wrong.
   - **Transgression stacks**: +3% additional per Rare killed, cap 30. Rares spawned before the trial (log, rarity-3 'Monster Created'):
     median 28 on his Transgression maps, 30+ on 12 of 33 tonight; median 41 by trial end -> ~x1.8 entering the trial, x1.9 during it;
     measured x1.74 (95% 1.57-1.93). Starting the trial after the 30th rare is worth ~+3% on drone loot.

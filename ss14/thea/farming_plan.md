@@ -145,6 +145,13 @@ used tlidb's stale pet numbers.
   old Transgression-for-SiN 0.485 (x1.44); 10-31 day SiN 0.330 -> tonight Transgression + SiN 0.575 (x1.74; 1.74 / SiN 1.2 = 1.45, same
   effect). Shadows per 1,000 drones: old 2.18 -> 1.25 (4 drops), day 1.32 -> tonight 2.60 (6 drops): open. Flat DQ rerun on 271 maps:
   +30% card x1.03, +20% x1.00, resonance 15 vs 31 x0.99, Pink for Sky's x1.02 -> still nothing on Secrets.
+- **11-01 day [Vlad, ETor card]: 29 maps on the CN meta, 0 Shadows**; Secrets 3,325 (115/map), FE 845 (29/map), Tomorrow's Direction 54,
+  net 13.7 FE/run at AH prices, 2:02 a run. All Transgression maps so far: 10 Shadow drops in 108 maps (one per 10.8) vs 33 in 218 SiN-only
+  maps (one per 6.6) -> Transgression does not add Shadows (~700:1 against x1.74; P(0 in 29) = 1.2% at the old rate, 0.05% at x1.74).
+  Last night's 'keep Transgression' flips: without Shadows it returns ~+25 FE/map (Secrets ~+49 x 0.32 + ~10 FE) for 39 -> -13 FE/map
+  (+145 Flame Sand). Swap to a normal Colorful Fluorescent Compass (~1 FE, +20% replicate on every memory incl. Shadow piles and
+  Tomorrow's: copies x1.09, ~+10 FE/map) -> ~+20 FE/map over Transgression, if it stacks with Colorful (A). Read: Shadows are a flat
+  per-drone chance (not quantity-scaled) -> the Shadow lever is drones per minute.
 Town that session (not map loot): bought + levelled a Phantasmagoria (1,888 + gauges 70 + Prism Level III 749) and listed it 2 min later.
 
 ### Alert Outlaw + All-Evil Vigil stack (Deep Space) — the one he likes

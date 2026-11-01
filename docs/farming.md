@@ -114,6 +114,9 @@ so to decode a strategy's allocation fully we need the Chinese node texts (tlidb
     one strategy runs Colorful (A) + Colorful every map). His two no-Focus test maps (Transgression + SiN, no Colorful / Kong / Sky's): 77 and 70.
     His own logs agree (11-01): Transgression vs SiN with Focus on both sides x1.44 (-> Transgression x1.73 with SiN x1.2); Transgression
     added with Focus removed x1.74 -> Focus ~x1.00 (at most x1.09 even if Transgression sat at its x1.9 cap).
+  - **Shadows don't take Transgression** (11-01, 10 drops in 108 Transgression maps vs 33 in 218 without; ~700:1 against x1.74, the
+    Secrets multiplier). Best read: Disappearing Shadow is a flat per-drone chance (~1.9 drops per 1,000 drones), copies per drop from
+    replication only. The Shadow lever is drone count.
   - **Transgression stacks**: +3% additional per Rare killed, cap 30. Rares spawned before the trial (log, rarity-3 'Monster Created'):
     median 28 on his Transgression maps, 30+ on 12 of 33 tonight; median 41 by trial end -> ~x1.8 entering the trial, x1.9 during it;
     measured x1.74 (95% 1.57-1.93). Starting the trial after the 30th rare is worth ~+3% on drone loot.

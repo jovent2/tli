@@ -612,6 +612,9 @@ def main(argv=None):
         run_tests(b, t)
         return
     ch = {"remove": a.remove + (["gear:belt"] if a.belt_off else []), "add_lines": a.add_line}
+    gone = {r.partition(":")[2] for r in ch["remove"] if r.startswith("gear:")}
+    if any("Has Hasten" in g.get("lines", []) for g in b["gear"] if g["slot"] in gone):
+        ch["context"] = {"hasten": False}   # Hasten is a gear base affix (on the belt since 2026-10-30): it leaves with the item
     b, t = apply(b, t, ch)
     res = dps(b, t)
     report(res, INGAME)

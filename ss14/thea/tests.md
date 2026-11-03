@@ -82,3 +82,10 @@ Quad-damage RNG gives roughly ±10% on a single pull.
   proj-speed part); predicted at 79%: x1.725 / x1.799 / x1.735 / x1.682 vs read x1.72 / x1.80 / x1.73 / x1.69. +1% aura effect = +0.95% damage at 79%.
 - 2026-10-31 20:45 [Vlad, sheet]: Vorax ring L in (Fervor, DB per 2, ARP 10, block 14, crit dmg 42, duration 13): 7.8 T auras off, x9.05 auras = 70 T
   (36 T before the ring -> x1.94 in game; robe-world model said x2.24, so it runs ~15% hot after the tree changes). Stats: STR 152, DEX 45, INT 493.
+
+### 2026-11-03 23:26 — stripped pull: 5.7 T [Vlad]
+- Config: no belt (Gale + Hasten), no gloves (Israfel's Laws), Chromatic Shot 4-link (Target Projection and Multiple Projectiles out), no Aim, no Blizzard.
+- Model on build.json (stale since 10-31: tree, robe, Vorax ring not in) gives 2.00 T for the same config -> the game runs x2.85 over the stale model.
+- Factors back on (model, uncapped, each alone = in the product): belt x2.68 (Gale at 232% proj speed, Hasten, +18% double), gloves x2.45,
+  TP x1.28, MP x1.49, Aim x1.70, Blizzard x1.71 = x36.2 -> ~206 T uncapped; ~188 T under the 5 T per-hit cap if the x2.85 is all hit size.
+- Not in tests.json until build.json is re-synced (an absolute test on the stale build would only measure the staleness).

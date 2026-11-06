@@ -88,6 +88,7 @@ def item_qty(fname, item, setup, mechanic_free_only):
     pool, add = M.setup_mult(fname, fam, nodes, cost, item, generic=generic)
     if not generic:
         add *= setup.get("extra_add", {}).get(fname, 1.0)
+    add *= setup.get("add_all", 1.0)                 # general "+X% additional Drop Quantity" (Profound major): everything but the Overrealm
     if setup["pets"] != M.FUEL_TRIO:
         lt = M.loot_type(item) or "fuel"
         if generic:
@@ -110,6 +111,7 @@ def fe_qty(fname, setup):
     if not fe:
         return item_qty(fname, M.FE, setup, False), 0.0
     c = fe["coef"]; pg, ag, pm, am = M.fe_mults(fname, fam, nodes, cost); am *= setup.get("extra_add", {}).get(fname, 1.0)
+    ag *= setup.get("add_all", 1.0); am *= setup.get("add_all", 1.0)
     if setup["pets"] != M.FUEL_TRIO:
         f0, a0 = M.pet_mult(None, None, "fuel", M.FUEL_TRIO); f1, a1 = M.pet_mult(None, None, "fuel", setup["pets"])
         pg += f1 - f0; ag *= a1 / a0

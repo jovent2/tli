@@ -151,7 +151,8 @@ def node_lines(r):
 def base_pool(nodes, cost):
     def cnt(s):
         return sum(c for (con, ln), c in nodes.items() if s in ln)
-    return 1 + 1.0 + 0.25 + sum(v * cost.get(k, 0) for k, v in FLAT_COMPASS.items()) + 0.02 * cnt("In Netherrealm stages, +2% Drop Quantity") + 0.01 * cnt("In Netherrealm stages, +1% Drop Quantity")
+    return (1 + 1.0 + 0.25 + sum(v * cost.get(k, 0) for k, v in FLAT_COMPASS.items()) + 0.02 * cnt("In Netherrealm stages, +2% Drop Quantity")
+            + 0.01 * cnt("In Netherrealm stages, +1% Drop Quantity") + 0.25 * cnt("In Netherrealm stages, +25% Drop Quantity"))
 
 
 def family_add(fam, nodes, cost):

@@ -325,3 +325,67 @@ keys 404 on /detail). 2026-10-30 ~16:00: 908 strategies / 113k runs decoded.
   Fluorescent (A) + Transgression Plunder + Strength in Numbers + Fluorescent probe) 54-66 over ~5,000 runs at 83-112 s, cost 139;
   Doll compass farm 43-51 over 25k runs at 117-123 s, cost 270-350; Alert Outlaw stack (All-Evil Vigil + Generous Elite + Sinful (A))
   48 over 2,477 runs at 99 s (100 FE/map in raw FE), median player 30. Profound with FE counted: Machines 51-60, Safari ~50 (+rare).
+
+## Deep Space scan 2 (2026-11-06) — tools, rules and what the logs taught (`tools/farm/ds_scan.py`, `etor_refresh.py`, `trends.py`)
+- **etor is the global market** [Vlad 11-06]: its prices are his prices and its leaderboards hold EU/NA/CN players alike (the site is
+  just in Chinese). The week boards (`stage=week1..3`) now return `/strategy/detail` (tested 11-06); `deathCount` on every board entry
+  = deaths over the entry's runs (Deep Space week2 median 3.7 deaths a run). `etor_refresh.py all --stages week3,week2 --charts ...`
+  = prices snapshot + trend board (`/strategy/windboard?stage=`, 4,769 recipes, `compat|time|clusters|items` keys, heat) + boards +
+  details keyed by board + `/chart/<season>/<item>?interval=1d` price history (no `success` field; FE has no history).
+- `ds_scan.py`: strategies from the freshest board first (week3, then week2), re-valued at the latest price file, grouped by compass /
+  astrolabe / probe set (+ DS resonance bucket) and talent family (sorted set); steady vs lottery (< 8 drops in the group), deaths/run,
+  median player and top third, `tank` = monster HP multiplier from the compass lines alone (life x / damage-taken), 7-day value-weighted
+  price trend of the group's steady loot, and net/min at Vlad's seconds (`VLAD_S`: Overrealm loop 209 s, Alert stack 124 s, Machines
+  200 s; else CN x1.2). `--all` keeps Cage / Doll / Might / Machines (incl. the 机械 tree) groups; `--show N` prints one group's players.
+- **XD matrix read as loot classes** (`servant_affixes` x `effects[play][branch][loot]`, rank 6, `/home/claude/work/log8/matrix_classes.txt`
+  for the full table). Per loot type the pet lines that work: flat "+X% Drop Quantity", "+X% additional Drop Quantity" (generic),
+  typed additional ("+X% additional <type> Drop Quantity"), replication. Pets are the only lines XD lists, so compass / tree lines are
+  mapped to the same classes by analogy (an assumption, ~80%). Results for his mechanics:
+  - Outlaw Security personnel (fuel, Sand, fossils, mods, memories, TOWER tokens, legendary gear): flat yes, additional yes,
+    replicate some. **Bounty Chests: nothing scales** (fixed count).
+  - Afterlight / Vigil (fuel, Nether King's Divinity, Divine Remnant, compasses): flat yes, additional yes, typed partly, replicate some.
+  - Overrealm: the normal Overrealm (fuel, prisms, prism material): flat + additional. **The "endgame" Overrealm loot (fossils,
+    legendary / precious gear, prisms, special prism, memories, Sand) ignores quantity entirely; only replication (Key of Overrealm).**
+    tlidb: "The drops in the Overrealm are not affected by any Pactspirits other than Overrealm Pactspirits"; the Overrealm inherits
+    timemark, resonance, some probes, compasses and talent bonuses from the stage.
+  - Goddess of Hunting: the goddess's compass / astrolabe loot ignores quantity (none 64/65); Safari-boss (invasion) compass loot
+    scales flat + additional; emblems / exclusive legendaries scale.
+  - Lunaria: everything scales (flat + additional). Sandlord spice / probes: nothing scales. Mystery Chests: fuel / Sand / memories /
+    legendary gear scale; exclusive legendaries don't. Gods Chest: additional only. Vorax, Frozen Canvas, Mistville: nothing scales.
+    Machines drones: exclusives additional-only (as measured). Dark Surge: fuel, corrosion, legendary gear, tickets scale.
+  - Type-specific lines ("+X% additional Fluorescent Memory Drop Quantity", "+X% Fuel Drop Quantity") are their own additive pool
+    applied to the item count of a drop that already happened: bigger piles, never more frequent drops [tlidb
+    Drop_Quantity_Bonuses_for_Certain_Item_Types, examples 1-3].
+- **Deep Space's own bonus**: the map-entry dump carries effect 106 "+200% additional Drop Quantity" on every DS map (x3 on everything
+  that takes additional), beside Profound's pool. DS resonance: 2 consumed = 1 affix = +15% additional [Vlad]; CN runs 2.7-3.2 a map.
+  Lives in DS: 6 (2 with the +25% / -4 attempts Prime node) [Vlad].
+- **His 11-05/06 logs (47 maps, `/home/claude/work/log8/`)**, today's prices:
+  - Evernight Vigil + Shadow Overrealm + Generous Elite + Sinful Plunder + Flourishing DS probe (25 maps): gross 226, cost 110,
+    net 116/map; map 209 s median, town gap 7-30 s normally (median open-to-open 301 s includes breaks); deaths 0.48/map.
+    By phase (`phases.py`): pre-Overrealm map 54 FE (FE 22, fossils 12.6, Remnant 7), **Vigil 56 FE in 19 s** (Remnant 0.36 = 22,
+    FE 12, legendary remnants), inside the Overrealm floors 10 FE, **after the Overrealm 102 FE** = mostly the exit reward dump 4-17 s
+    after it ends (FE 63, Sprout of Legends 0.16 = 19) plus the rest of the map. Floors reached 1 / 2 / 3 / 4 on 7 / 12 / 6 / 1 maps
+    (advance 72% -> 37% -> 14%); ~42 s a floor; gross by floors 142 / 234 / 288 / 155 (the 4-floor map had 3 deaths).
+    Markers: Vigil = `GAMEPLAY_ENTER ... GameplayType=8100` -> dialogue "We have delivered the soul"; Overrealm = "Switched to another
+    pact configuration plan (Overrealm)" (a separate pact config switches in at the door) -> `Stop_Mus_Gameplay_S12_Ov`;
+    floors = `LevelMgr:_FastEnterLevelSuccess()` count - 1 = `S12RewardRuneTitleTips` count (one rune per floor).
+  - Alert Outlaw + All-Evil Vigil + Generous Elite + Sinful (A) + Flourishing DS probe (20 maps): gross 152, cost 211, **net -60/map**
+    at 124 s, deaths 0.65/map. Outlaw + map 125 FE (FE 61, Vanguard 0.65, Warlock 0.10, Tank 0.40, Sniper 0.35), Vigil 26 FE
+    (Remnant 0.25, FE 5.85). CN same setup (+3 DS resonance, 7 players, 720 runs): gross 323 (FE 116, Remnant 0.93, Warlock 0.95,
+    Vanguard 0.46), net 101 at 103 s, 4.2 deaths a run; worst CN player 24/min.
+  - **Fright stacks = 0 for him** (85%): CN Alert + Evernight gets Remnant 0.46 vs All-Evil 0.93 (x2 = Fright x4 vs Evernight's built-in
+    x2); his All-Evil 0.25 vs Evernight 0.36. The three Manifestations are the three rarity-4 units (NpcId 2993000) created at Vigil
+    start on every map; no death marker for them; his Vigil lasts 19 s. Evernight's "+100% additional Drop Quantity for the Vigil" is
+    effect 211910 in the dump; All-Evil's Fright text is there too but no runtime Fright events are logged.
+  - **Warlock**: with both "more likely" nodes CN gets Warlock 0.78 / Vanguard 0.57 a map (124 players, 9k runs; Warlock 35-45% of mods
+    for nearly every player, no hero effect); without either 0.44 / 0.33. His 10-30 + 11-05: 3 Warlock in 38 mods (8%) — unexplained.
+    Mods scale with quantity: 0.17/map on Profound 10-30 -> 1.5/map in DS (x3 + Sinful (A)).
+  - Outlaw walkthrough [Vlad]: stand still, nexus spawns at 15 / 25 / 35 kills and dies at once, over at 50 kills; mods drop in the
+    first ~10 s of the Outlaw (gameplay types 7001 / 7011). Security personnel ids 2951xx-2953xx (rarity 1-3), ~500 spawns a map.
+  - Overrealm tree: the +3/6/10% (with monsters take -10/-20/-30%), attempts -1/-2/-2 and time -3/-4/-5 s mediums only scale loot
+    dropped inside the floors (~10 FE/map); the two "+50% chance of advancing to the next level" mediums (depth 5 each: 4 micros +
+    node; Restrained card node behind one) are what moves floors. No CN player takes them (70 of 75 Overrealm players run Containment,
+    whose keys force the doors). tlidb: entering level 3 or 4 guarantees an extra Bottled Shadow (a reward affix for one round).
+- Price trends 10-16 -> 11-06 (`trends.py`): Nether King's Remnant 70.8 (+4%/7d, +41%/14d); Warlock 66 (flat); Sprout 141 (flat);
+  Sacred Fossil 8.0 (-20%/7d, -37%/14d); UE 16 (-26%); Immolating Flame 81 (-34%); Blueprint Eternity 2,542 (-29%); Shadows 183
+  (-19% vs 10-30); Secrets 0.30 flat. Compass costs rising: Alert 37 (+19%), Evernight 21 (+14%), Generous 17.5 (+6%).

@@ -1,0 +1,144 @@
+god_of_war/god_of_war/beacon [{'none': 65}]: DQ(other) 0y/39n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 0y/78n, replicate 0y/31n
+god_of_war/god_of_war/divine_might_emblem [{'partial': 55, 'none': 7, 'full': 3}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 0y/31n, flat DQ 83y/0n, other 0y/78n, replicate 0y/31n
+god_of_war/god_of_war/limited_legendary_gear [{'partial': 55, 'none': 7, 'full': 3}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 0y/31n, flat DQ 83y/0n, other 0y/78n, replicate 0y/31n
+giant/giant/fuel [{'partial': 53, 'none': 7, 'full': 5}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 6y/25n, flat DQ 83y/0n, other 0y/78n, replicate 0y/31n
+giant/giant/flame_sand [{'partial': 53, 'none': 7, 'full': 5}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 6y/25n, flat DQ 83y/0n, other 0y/78n, replicate 0y/31n
+giant/giant/divine_might_emblem [{'partial': 55, 'none': 7, 'full': 3}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 0y/31n, flat DQ 83y/0n, other 0y/78n, replicate 0y/31n
+giant/giant/limited_legendary_gear [{'partial': 55, 'none': 7, 'full': 3}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 0y/31n, flat DQ 83y/0n, other 0y/78n, replicate 0y/31n
+giant/dwarf_mecha/fuel [{'partial': 52, 'full': 6, 'none': 7}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 6y/25n, flat DQ 83y/0n, other 1y/77n, replicate 0y/31n
+giant/dwarf_mecha/legendary_gear [{'partial': 55, 'none': 7, 'full': 3}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 3y/28n, flat DQ 83y/0n, other 4y/74n, replicate 0y/31n
+god_of_hunting/hunting_god/compass_astrolabe [{'none': 64, 'partial': 1}]: DQ(other) 0y/39n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 1y/77n, replicate 0y/31n
+god_of_hunting/hunting_god/divine_might_emblem [{'partial': 55, 'none': 7, 'full': 3}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 0y/31n, flat DQ 83y/0n, other 0y/78n, replicate 0y/31n
+god_of_hunting/hunting_god/limited_legendary_gear [{'partial': 55, 'none': 7, 'full': 3}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 0y/31n, flat DQ 83y/0n, other 0y/78n, replicate 0y/31n
+god_of_hunting/invasion_boss/compass_astrolabe [{'partial': 52, 'none': 7, 'full': 6}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 3y/28n, flat DQ 83y/0n, other 1y/77n, replicate 0y/31n
+god_of_hunting/invasion_boss/probe [{'none': 65}]: DQ(other) 0y/39n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 0y/78n, replicate 0y/31n
+god_of_hunting/invasion_boss/limited_legendary_gear [{'none': 65}]: DQ(other) 0y/39n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 0y/78n, replicate 0y/31n
+god_of_machine/god_of_machine/fuel [{'partial': 53, 'none': 7, 'full': 5}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 6y/25n, flat DQ 83y/0n, other 0y/78n, replicate 0y/31n
+god_of_machine/god_of_machine/precious_gear [{'partial': 55, 'none': 7, 'full': 3}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 3y/28n, flat DQ 83y/0n, other 4y/74n, replicate 0y/31n
+god_of_machine/god_of_machine/divine_might_emblem [{'partial': 55, 'none': 7, 'full': 3}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 0y/31n, flat DQ 83y/0n, other 0y/78n, replicate 0y/31n
+god_of_machine/god_of_machine/limited_legendary_gear [{'partial': 55, 'none': 7, 'full': 3}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 0y/31n, flat DQ 83y/0n, other 0y/78n, replicate 0y/31n
+god_of_machine/drone/fuel [{'partial': 53, 'none': 7, 'full': 5}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 6y/25n, flat DQ 83y/0n, other 0y/78n, replicate 0y/31n
+god_of_machine/drone/memory_fluorescence [{'partial': 52, 'full': 6, 'none': 7}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 3y/28n, flat DQ 83y/0n, other 0y/78n, replicate 4y/27n
+god_of_machine/drone/limited_memory_fluorescence [{'none': 56, 'partial': 9}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 0y/31n, flat DQ 0y/83n, other 0y/78n, replicate 4y/27n
+hero_path/hero_path/fuel [{'none': 65}]: DQ(other) 0y/39n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 0y/78n, replicate 0y/31n
+hero_path/hero_path/limited_memory_fluorescence [{'none': 62, 'partial': 3}]: DQ(other) 0y/39n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 0y/78n, replicate 4y/27n
+great_void/great_void/fuel [{'none': 65}]: DQ(other) 0y/39n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 0y/78n, replicate 0y/31n
+great_void/great_void/limited_legendary_gear [{'none': 65}]: DQ(other) 0y/39n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 0y/78n, replicate 0y/31n
+great_void/great_void/limited_memory_fluorescence [{'none': 62, 'partial': 3}]: DQ(other) 0y/39n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 0y/78n, replicate 4y/27n
+trial_of_divinity/trial_of_divinity/fuel [{'none': 65}]: DQ(other) 0y/39n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 0y/78n, replicate 0y/31n
+trial_of_divinity/trial_of_divinity/divine_might_gleamstone [{'none': 65}]: DQ(other) 0y/39n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 0y/78n, replicate 0y/31n
+trial_of_divinity/trial_of_divinity/limited_legendary_gear [{'none': 65}]: DQ(other) 0y/39n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 0y/78n, replicate 0y/31n
+trial_of_divinity/trial_of_divinity/limited_memory_fluorescence [{'none': 62, 'partial': 3}]: DQ(other) 0y/39n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 0y/78n, replicate 4y/27n
+mystery_chest/mystery_chest/fuel [{'partial': 53, 'none': 7, 'full': 5}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 6y/25n, flat DQ 83y/0n, other 0y/78n, replicate 0y/31n
+mystery_chest/mystery_chest/flame_sand [{'partial': 53, 'none': 7, 'full': 5}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 6y/25n, flat DQ 83y/0n, other 0y/78n, replicate 0y/31n
+mystery_chest/mystery_chest/memory_fluorescence [{'partial': 52, 'full': 6, 'none': 7}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 3y/28n, flat DQ 83y/0n, other 0y/78n, replicate 4y/27n
+mystery_chest/mystery_chest/legendary_gear [{'partial': 55, 'none': 7, 'full': 3}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 3y/28n, flat DQ 83y/0n, other 4y/74n, replicate 0y/31n
+mystery_chest/mystery_chest/limited_legendary_gear [{'none': 65}]: DQ(other) 0y/39n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 0y/78n, replicate 0y/31n
+gods_chest/gods_chest/compass_astrolabe [{'none': 58, 'partial': 7}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 0y/31n, flat DQ 0y/83n, other 1y/77n, replicate 0y/31n
+gods_chest/gods_chest/otherworld_echo [{'none': 59, 'partial': 6}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 0y/31n, flat DQ 0y/83n, other 0y/78n, replicate 0y/31n
+gods_chest/gods_chest/fuel [{'none': 59, 'partial': 6}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 0y/31n, flat DQ 0y/83n, other 0y/78n, replicate 0y/31n
+ancient_machine/ancient_machine/fuel [{'partial': 55, 'none': 7, 'full': 3}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 0y/31n, flat DQ 83y/0n, other 0y/78n, replicate 0y/31n
+ancient_machine/ancient_machine/memory_fluorescence [{'partial': 52, 'full': 6, 'none': 7}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 3y/28n, flat DQ 83y/0n, other 0y/78n, replicate 4y/27n
+ancient_machine/ancient_machine/limited_legendary_gear [{'none': 65}]: DQ(other) 0y/39n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 0y/78n, replicate 0y/31n
+ancient_machine/ancient_machine/limited_memory_fluorescence [{'partial': 55, 'none': 7, 'full': 3}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 0y/31n, flat DQ 83y/0n, other 0y/78n, replicate 4y/27n
+blessing_gate/blessing_gate/fuel [{'partial': 52, 'full': 6, 'none': 7}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 6y/25n, flat DQ 83y/0n, other 1y/77n, replicate 0y/31n
+blessing_gate/blessing_gate/flame_sand [{'full': 6, 'partial': 52, 'none': 7}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 6y/25n, flat DQ 83y/0n, other 1y/77n, replicate 0y/31n
+blessing_gate/blessing_gate/fossil [{'partial': 55, 'none': 7, 'full': 3}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 0y/31n, flat DQ 83y/0n, other 0y/78n, replicate 0y/31n
+blessing_gate/blessing_gate/memory_fluorescence [{'partial': 52, 'full': 6, 'none': 7}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 3y/28n, flat DQ 83y/0n, other 0y/78n, replicate 4y/27n
+blessing_gate/blessing_gate/legendary_gear [{'partial': 55, 'none': 7, 'full': 3}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 3y/28n, flat DQ 83y/0n, other 4y/74n, replicate 0y/31n
+blessing_gate/blessing_gate/compass_astrolabe [{'partial': 52, 'none': 7, 'full': 6}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 3y/28n, flat DQ 83y/0n, other 1y/77n, replicate 0y/31n
+blessing_gate/blessing_gate/limited_legendary_gear [{'none': 65}]: DQ(other) 0y/39n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 0y/78n, replicate 0y/31n
+dark_tide/dark_tide/fuel [{'partial': 53, 'none': 7, 'full': 5}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 6y/25n, flat DQ 83y/0n, other 4y/74n, replicate 0y/31n
+dark_tide/dark_tide/corrosion_material [{'partial': 55, 'none': 7, 'full': 3}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 0y/31n, flat DQ 83y/0n, other 4y/74n, replicate 0y/31n
+dark_tide/dark_tide/legendary_gear [{'partial': 52, 'full': 6, 'none': 7}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 3y/28n, flat DQ 83y/0n, other 8y/70n, replicate 0y/31n
+dark_tide/dark_tide/great_void_boss_ticket [{'partial': 55, 'none': 7, 'full': 3}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 0y/31n, flat DQ 83y/0n, other 4y/74n, replicate 0y/31n
+void_sea/void_sea/fuel [{'partial': 53, 'none': 7, 'full': 5}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 6y/25n, flat DQ 83y/0n, other 0y/78n, replicate 0y/31n
+void_sea/void_sea/hero_memory [{'partial': 55, 'none': 7, 'full': 3}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 3y/28n, flat DQ 83y/0n, other 4y/74n, replicate 0y/31n
+void_sea/void_sea/hero_memory_crafting_material [{'partial': 55, 'none': 7, 'full': 3}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 3y/28n, flat DQ 83y/0n, other 4y/74n, replicate 0y/31n
+void_sea/void_sea_endgame/fuel [{'partial': 53, 'none': 7, 'full': 5}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 6y/25n, flat DQ 83y/0n, other 0y/78n, replicate 0y/31n
+void_sea/void_sea_endgame/hero_memory [{'partial': 55, 'none': 7, 'full': 3}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 3y/28n, flat DQ 83y/0n, other 4y/74n, replicate 0y/31n
+void_sea/void_sea_endgame/hero_memory_crafting_material [{'partial': 55, 'none': 7, 'full': 3}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 3y/28n, flat DQ 83y/0n, other 4y/74n, replicate 0y/31n
+void_sea/void_sea_endgame/great_void_boss_ticket [{'none': 65}]: DQ(other) 0y/39n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 0y/78n, replicate 0y/31n
+malice_cube/malice_cube/divine_might_gleamstone [{'partial': 55, 'none': 7, 'full': 3}]: DQ(other) 3y/36n, additional(generic) 7y/0n, additional(typed) 0y/31n, flat DQ 83y/0n, other 0y/78n, replicate 0y/31n
+malice_cube/malice_cube/great_void_boss_ticket [{'none': 65}]: DQ(other) 0y/39n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 0y/78n, replicate 0y/31n
+malice_cube/malice_cube/desire_crystal [{'partial': 55, 'none': 7, 'full': 3}]: DQ(other) 3y/36n, additional(generic) 7y/0n, additional(typed) 0y/31n, flat DQ 83y/0n, other 0y/78n, replicate 0y/31n
+eternal_maze/eternal_maze/fuel [{'partial': 53, 'none': 7, 'full': 5}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 6y/25n, flat DQ 83y/0n, other 4y/74n, replicate 0y/31n
+eternal_maze/eternal_maze/flame_sand [{'full': 6, 'partial': 52, 'none': 7}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 6y/25n, flat DQ 83y/0n, other 5y/73n, replicate 0y/31n
+eternal_maze/eternal_maze/memory_fluorescence [{'partial': 52, 'full': 6, 'none': 7}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 3y/28n, flat DQ 83y/0n, other 4y/74n, replicate 4y/27n
+eternal_maze/eternal_maze/great_void_boss_ticket [{'none': 64, 'partial': 1}]: DQ(other) 0y/39n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 1y/77n, replicate 0y/31n
+eternal_maze/eternal_maze/eternal_fragment [{'partial': 52, 'full': 6, 'none': 7}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 0y/31n, flat DQ 83y/0n, other 4y/74n, replicate 3y/28n
+eternal_maze/eternal_maze/limited_legendary_gear [{'none': 62, 'partial': 3}]: DQ(other) 0y/39n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 4y/74n, replicate 0y/31n
+nightmare_escape/nightmare_escape/fuel [{'partial': 53, 'none': 7, 'full': 5}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 6y/25n, flat DQ 83y/0n, other 3y/75n, replicate 0y/31n
+nightmare_escape/nightmare_escape/great_void_boss_ticket [{'none': 65}]: DQ(other) 0y/39n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 0y/78n, replicate 0y/31n
+nightmare_escape/nightmare_escape_illusion/fuel [{'none': 62, 'partial': 3}]: DQ(other) 0y/39n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 3y/75n, replicate 0y/31n
+nightmare_escape/nightmare_escape_illusion/flame_sand [{'none': 62, 'partial': 3}]: DQ(other) 0y/39n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 3y/75n, replicate 0y/31n
+nightmare_escape/nightmare_escape_illusion/memory_fluorescence [{'none': 59, 'partial': 6}]: DQ(other) 0y/39n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 3y/75n, replicate 4y/27n
+foggy_city/foggy_city/catalyst_skill [{'none': 65}]: DQ(other) 0y/39n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 0y/78n, replicate 0y/31n
+foggy_city/foggy_city/gameplay_ticket [{'none': 65}]: DQ(other) 0y/39n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 0y/78n, replicate 0y/31n
+foggy_city/foggy_city/limited_legendary_gear [{'none': 65}]: DQ(other) 0y/39n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 0y/78n, replicate 0y/31n
+foggy_city/foggy_city_endgame/catalyst_skill [{'none': 62, 'partial': 3}]: DQ(other) 0y/39n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 5y/73n, replicate 0y/31n
+foggy_city/foggy_city_endgame/gameplay_ticket [{'none': 62, 'partial': 3}]: DQ(other) 0y/39n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 3y/75n, replicate 0y/31n
+club/club/compass_astrolabe [{'partial': 52, 'none': 7, 'full': 6}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 3y/28n, flat DQ 83y/0n, other 6y/72n, replicate 0y/31n
+club/club/limited_legendary_gear [{'none': 65}]: DQ(other) 0y/39n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 0y/78n, replicate 0y/31n
+club/club_guard/fuel [{'partial': 55, 'none': 7, 'full': 3}]: DQ(other) 3y/36n, additional(generic) 7y/0n, additional(typed) 0y/31n, flat DQ 83y/0n, other 0y/78n, replicate 0y/31n
+snowfield_canvas/snowfield_canvas/fuel [{'none': 62, 'partial': 3}]: DQ(other) 3y/36n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 5y/73n, replicate 0y/31n
+snowfield_canvas/snowfield_canvas/luxurious_sublime_support_skill [{'none': 62, 'partial': 3}]: DQ(other) 3y/36n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 5y/73n, replicate 0y/31n
+snowfield_canvas/snowfield_canvas/inspiration [{'none': 62, 'partial': 3}]: DQ(other) 3y/36n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 5y/73n, replicate 0y/31n
+fate_match/fate_match/fuel [{'partial': 54, 'none': 6, 'full': 5}]: DQ(other) 3y/36n, additional(generic) 7y/0n, additional(typed) 6y/25n, flat DQ 83y/0n, other 5y/73n, replicate 0y/31n
+fate_match/fate_match/fate [{'partial': 56, 'none': 6, 'full': 3}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 0y/31n, flat DQ 83y/0n, other 0y/78n, replicate 3y/28n
+fate_match/fate_match_endgame/fuel [{'none': 62, 'partial': 3}]: DQ(other) 3y/36n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 4y/74n, replicate 0y/31n
+fate_match/fate_match_endgame/fate [{'none': 62, 'partial': 3}]: DQ(other) 3y/36n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 4y/74n, replicate 3y/28n
+raid_trade_order/raid_trade_order/spice [{'none': 62, 'full': 1, 'partial': 2}]: DQ(other) 0y/39n, additional(generic) 0y/7n, additional(typed) 1y/30n, flat DQ 0y/83n, other 13y/65n, replicate 1y/30n
+raid_trade_order/raid_trade_order/probe [{'none': 62, 'full': 1, 'partial': 2}]: DQ(other) 0y/39n, additional(generic) 0y/7n, additional(typed) 1y/30n, flat DQ 0y/83n, other 13y/65n, replicate 1y/30n
+otherworld_special_action/security_guard/fuel [{'partial': 53, 'none': 7, 'full': 5}]: DQ(other) 3y/36n, additional(generic) 7y/0n, additional(typed) 0y/31n, flat DQ 83y/0n, other 1y/77n, replicate 4y/27n
+otherworld_special_action/security_guard/flame_sand [{'partial': 53, 'none': 7, 'full': 5}]: DQ(other) 3y/36n, additional(generic) 7y/0n, additional(typed) 0y/31n, flat DQ 83y/0n, other 1y/77n, replicate 4y/27n
+otherworld_special_action/security_guard/fossil [{'partial': 53, 'none': 7, 'full': 5}]: DQ(other) 3y/36n, additional(generic) 7y/0n, additional(typed) 0y/31n, flat DQ 83y/0n, other 0y/78n, replicate 4y/27n
+otherworld_special_action/security_guard/component [{'partial': 52, 'none': 7, 'full': 6}]: DQ(other) 3y/36n, additional(generic) 7y/0n, additional(typed) 0y/31n, flat DQ 83y/0n, other 1y/77n, replicate 4y/27n
+otherworld_special_action/security_guard/memory_fluorescence [{'partial': 53, 'none': 7, 'full': 5}]: DQ(other) 3y/36n, additional(generic) 7y/0n, additional(typed) 0y/31n, flat DQ 83y/0n, other 0y/78n, replicate 8y/23n
+otherworld_special_action/security_guard/tower_chip [{'partial': 52, 'none': 7, 'full': 6}]: DQ(other) 3y/36n, additional(generic) 7y/0n, additional(typed) 0y/31n, flat DQ 83y/0n, other 1y/77n, replicate 4y/27n
+otherworld_special_action/security_guard/legendary_gear [{'partial': 53, 'none': 7, 'full': 5}]: DQ(other) 3y/36n, additional(generic) 7y/0n, additional(typed) 0y/31n, flat DQ 83y/0n, other 4y/74n, replicate 4y/27n
+otherworld_special_action/security_guard/limited_legendary_gear [{'none': 62, 'partial': 3}]: DQ(other) 0y/39n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 0y/78n, replicate 4y/27n
+otherworld_special_action/bounty_chest/fuel [{'none': 62, 'partial': 3}]: DQ(other) 0y/39n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 1y/77n, replicate 4y/27n
+otherworld_special_action/bounty_chest/component [{'none': 62, 'partial': 3}]: DQ(other) 0y/39n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 1y/77n, replicate 4y/27n
+otherworld_special_action/bounty_chest/memory_fluorescence [{'none': 62, 'partial': 3}]: DQ(other) 0y/39n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 1y/77n, replicate 4y/27n
+otherworld_special_action/bounty_chest/tower_chip [{'none': 62, 'partial': 3}]: DQ(other) 0y/39n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 1y/77n, replicate 4y/27n
+otherworld_special_action/bounty_chest/legendary_gear [{'none': 62, 'partial': 3}]: DQ(other) 0y/39n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 1y/77n, replicate 4y/27n
+otherworld_special_action/bounty_chest/compass_astrolabe [{'none': 62, 'partial': 3}]: DQ(other) 0y/39n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 1y/77n, replicate 4y/27n
+overlapping_realm/overlapping_realm_endgame/fuel [{'none': 62, 'partial': 3}]: DQ(other) 3y/36n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 0y/78n, replicate 3y/28n
+overlapping_realm/overlapping_realm_endgame/flame_sand [{'none': 62, 'partial': 3}]: DQ(other) 3y/36n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 0y/78n, replicate 3y/28n
+overlapping_realm/overlapping_realm_endgame/fossil [{'none': 62, 'partial': 3}]: DQ(other) 3y/36n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 0y/78n, replicate 3y/28n
+overlapping_realm/overlapping_realm_endgame/memory_fluorescence [{'none': 62, 'partial': 3}]: DQ(other) 3y/36n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 0y/78n, replicate 3y/28n
+overlapping_realm/overlapping_realm_endgame/precious_gear [{'none': 62, 'partial': 3}]: DQ(other) 3y/36n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 0y/78n, replicate 3y/28n
+overlapping_realm/overlapping_realm_endgame/legendary_gear [{'none': 62, 'partial': 3}]: DQ(other) 3y/36n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 0y/78n, replicate 3y/28n
+overlapping_realm/overlapping_realm_endgame/prism [{'none': 62, 'partial': 3}]: DQ(other) 3y/36n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 0y/78n, replicate 3y/28n
+overlapping_realm/overlapping_realm_endgame/prism_crafting_material [{'none': 62, 'partial': 3}]: DQ(other) 3y/36n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 0y/78n, replicate 3y/28n
+overlapping_realm/overlapping_realm_endgame/limited_legendary_gear [{'none': 62, 'partial': 3}]: DQ(other) 0y/39n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 0y/78n, replicate 3y/28n
+overlapping_realm/overlapping_realm_endgame/special_prism [{'none': 62, 'partial': 3}]: DQ(other) 0y/39n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 0y/78n, replicate 3y/28n
+overlapping_realm/overlapping_realm/fuel [{'partial': 52, 'full': 6, 'none': 7}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 6y/25n, flat DQ 83y/0n, other 1y/77n, replicate 0y/31n
+overlapping_realm/overlapping_realm/prism [{'partial': 55, 'none': 7, 'full': 3}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 0y/31n, flat DQ 83y/0n, other 0y/78n, replicate 0y/31n
+overlapping_realm/overlapping_realm/prism_crafting_material [{'partial': 55, 'none': 7, 'full': 3}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 0y/31n, flat DQ 83y/0n, other 0y/78n, replicate 0y/31n
+antidote_jar/antidote_jar/craving_gear [{'none': 62, 'full': 1, 'partial': 2}]: DQ(other) 3y/36n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 4y/74n, replicate 1y/30n
+antidote_jar/antidote_jar/craving_gear_crafting_material [{'none': 62, 'full': 1, 'partial': 2}]: DQ(other) 3y/36n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 4y/74n, replicate 1y/30n
+music_performance/music_performance/fuel [{'partial': 52, 'none': 7, 'full': 6}]: DQ(other) 6y/33n, additional(generic) 7y/0n, additional(typed) 0y/31n, flat DQ 83y/0n, other 1y/77n, replicate 2y/29n
+music_performance/music_performance/flame_sand [{'partial': 52, 'none': 7, 'full': 6}]: DQ(other) 6y/33n, additional(generic) 7y/0n, additional(typed) 0y/31n, flat DQ 83y/0n, other 1y/77n, replicate 2y/29n
+music_performance/music_performance/fossil [{'partial': 52, 'none': 7, 'full': 6}]: DQ(other) 6y/33n, additional(generic) 7y/0n, additional(typed) 0y/31n, flat DQ 83y/0n, other 0y/78n, replicate 2y/29n
+music_performance/music_performance/memory_fluorescence [{'partial': 52, 'none': 7, 'full': 6}]: DQ(other) 6y/33n, additional(generic) 7y/0n, additional(typed) 0y/31n, flat DQ 83y/0n, other 0y/78n, replicate 6y/25n
+music_performance/music_performance/legendary_gear [{'partial': 52, 'none': 7, 'full': 6}]: DQ(other) 6y/33n, additional(generic) 7y/0n, additional(typed) 0y/31n, flat DQ 83y/0n, other 4y/74n, replicate 2y/29n
+music_performance/music_performance/hero_memory_revival_material [{'partial': 52, 'none': 7, 'full': 6}]: DQ(other) 6y/33n, additional(generic) 7y/0n, additional(typed) 0y/31n, flat DQ 83y/0n, other 0y/78n, replicate 2y/29n
+music_performance/music_performance/limited_legendary_gear [{'none': 64, 'partial': 1}]: DQ(other) 0y/39n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 0y/78n, replicate 2y/29n
+night_watch/night_watch/fuel [{'partial': 52, 'none': 7, 'full': 6}]: DQ(other) 3y/36n, additional(generic) 7y/0n, additional(typed) 3y/28n, flat DQ 83y/0n, other 1y/77n, replicate 2y/29n
+night_watch/night_watch/void_divinity [{'partial': 52, 'none': 7, 'full': 6}]: DQ(other) 3y/36n, additional(generic) 7y/0n, additional(typed) 3y/28n, flat DQ 83y/0n, other 0y/78n, replicate 2y/29n
+night_watch/night_watch/void_divinity_crafting_material [{'partial': 52, 'none': 7, 'full': 6}]: DQ(other) 3y/36n, additional(generic) 7y/0n, additional(typed) 3y/28n, flat DQ 83y/0n, other 0y/78n, replicate 2y/29n
+night_watch/night_watch/compass_astrolabe [{'partial': 52, 'none': 7, 'full': 6}]: DQ(other) 3y/36n, additional(generic) 7y/0n, additional(typed) 3y/28n, flat DQ 83y/0n, other 1y/77n, replicate 2y/29n
+night_watch/night_watch/limited_legendary_gear [{'none': 64, 'partial': 1}]: DQ(other) 0y/39n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 0y/78n, replicate 2y/29n
+warden/warden_otherworld/fuel [{'partial': 52, 'full': 6, 'none': 7}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 6y/25n, flat DQ 83y/0n, other 1y/77n, replicate 0y/31n
+warden/warden_otherworld/compass_astrolabe [{'partial': 52, 'none': 7, 'full': 6}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 3y/28n, flat DQ 83y/0n, other 1y/77n, replicate 0y/31n
+warden/warden_otherworld/follower [{'partial': 55, 'none': 7, 'full': 3}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 0y/31n, flat DQ 83y/0n, other 0y/78n, replicate 0y/31n
+warden/warden_otherworld/talos_skill [{'partial': 55, 'none': 7, 'full': 3}]: DQ(other) 0y/39n, additional(generic) 7y/0n, additional(typed) 0y/31n, flat DQ 83y/0n, other 0y/78n, replicate 0y/31n
+warden/warden/fuel [{'none': 62, 'partial': 3}]: DQ(other) 3y/36n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 3y/75n, replicate 1y/30n
+warden/warden/follower [{'none': 62, 'partial': 3}]: DQ(other) 3y/36n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 3y/75n, replicate 1y/30n
+warden/warden/talos_skill [{'none': 62, 'partial': 3}]: DQ(other) 3y/36n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 3y/75n, replicate 1y/30n
+warden/warden/compass_astrolabe [{'none': 62, 'partial': 3}]: DQ(other) 3y/36n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 3y/75n, replicate 1y/30n
+warden/warden/season_compass [{'none': 62, 'partial': 3}]: DQ(other) 3y/36n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 3y/75n, replicate 1y/30n
+warden/warden/limited_legendary_gear [{'none': 62, 'partial': 3}]: DQ(other) 3y/36n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 3y/75n, replicate 1y/30n
+warden/warden/training_medal [{'none': 62, 'partial': 3}]: DQ(other) 3y/36n, additional(generic) 0y/7n, additional(typed) 0y/31n, flat DQ 0y/83n, other 3y/75n, replicate 1y/30n

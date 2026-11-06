@@ -337,7 +337,7 @@ keys 404 on /detail). 2026-10-30 ~16:00: 908 strategies / 113k runs decoded.
   median player and top third, `tank` = monster HP multiplier from the compass lines alone (life x / damage-taken), 7-day value-weighted
   price trend of the group's steady loot, and net/min at Vlad's seconds (`VLAD_S`: Overrealm loop 209 s, Alert stack 124 s, Machines
   200 s; else CN x1.2). `--all` keeps Cage / Doll / Might / Machines (incl. the 机械 tree) groups; `--show N` prints one group's players.
-- **XD matrix read as loot classes** (`servant_affixes` x `effects[play][branch][loot]`, rank 6, `/home/claude/work/log8/matrix_classes.txt`
+- **XD matrix read as loot classes** (`servant_affixes` x `effects[play][branch][loot]`, rank 6, `data/ext/pactspirit_loot_classes.txt`
   for the full table). Per loot type the pet lines that work: flat "+X% Drop Quantity", "+X% additional Drop Quantity" (generic),
   typed additional ("+X% additional <type> Drop Quantity"), replication. Pets are the only lines XD lists, so compass / tree lines are
   mapped to the same classes by analogy (an assumption, ~80%). Results for his mechanics:

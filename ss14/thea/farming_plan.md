@@ -1,7 +1,7 @@
 # Deep Space scan 2 — 2026-11-06 (read this first; the 10-29/10-30 sections below are history)
 
 Method (`docs/farming.md` "Deep Space scan 2"): every logged Deep Space strategy on etor (global market, EU/NA/CN players; week3 →
-week2 → day boards, latest board per strategy; 2,296 strategies, 224k runs), re-valued at the 11-06 prices, grouped by the exact
+week2 → day boards, latest board per strategy; 2,774 strategies, 250k runs), re-valued at the 11-06 prices, grouped by the exact
 compass/probe set, lotteries (< 8 drops in the group) and jackpots (items >= 1,000 FE) split from steady income, deaths per run from
 etor, net/min at his seconds. No column model. His own 47 maps of 11-05/06 (`tools/farm/overrealm_loop.py`, `setups.py`) are the
 ground truth for what he actually gets. Out: Cage, Doll, Might, Machines (can't kill them in DS), Clockwork.
@@ -9,10 +9,10 @@ ground truth for what he actually gets. Out: Cage, Doll, Might, Machines (can't 
 ## The table (population level, run-weighted over every player on that compass set; Vlad = his seconds)
 | setup | players / runs | steady − cost = net/map | +jackpots | s/map | CN net/min (median player / top third) | deaths/run | Vlad s → net/min |
 |---|---|---|---|---|---|---|---|
-| **Alert Outlaw + All-Evil Vigil + Generous Elite + Sinful (A)** (+ probe or DS res) | 54 / 5,565 | 301 − 222 = 79 | +6 | 99 | 48 (48 / 93) | 3.9 | 124 → **38** |
-| Alert + All-Evil, any 4th compass | 117 / 11,263 | 309 − 262 = 47 | +10 | 106 | 26 (27 / 83) | 4.6 | 124 → 22 |
-| Containment Overrealm, no Bountiful (+ Sinful, Generous, probe...) | 36 / 2,735 | 283 − 245 = 38 | **+128** | 235 | 10 (11 / 29) | 7.5 | 260 → 9, **38 with jackpots** |
-| Containment Overrealm, any | 77 / 5,832 | 337 − 315 = 22 | +87 | 235 | 6 (7 / 30) | 6.3 | 260 → 5, 25 with jackpots |
+| **Alert Outlaw + All-Evil Vigil + Generous Elite + Sinful (A)** (+ probe or DS res) | 64 / 6,114 | net 90 | +6 | 99 | 55 (median 48 / top third 93) | 4.3 | 124 → **43** |
+| Alert + All-Evil, any 4th compass | 131 / 12,005 | net 55 | +9 | 106 | 31 (32 / 83) | 4.9 | 124 → 27 |
+| Containment Overrealm, no Bountiful (+ Sinful, Generous, probe...) | 37 / 2,797 | net 41 | **+132** | 235 | 10 (11 / 29) | 7.4 | 260 → 9, **40 with jackpots** |
+| Containment Overrealm, any | 81 / 6,042 | net 24 | +99 | 235 | 6 (7 / 30) | 6.3 | 260 → 5, 28 with jackpots |
 | Shadow Overrealm, any (CN players) | 7 / 393 | 185 − 144 = 41 | +5 | 151 | 16 (17 / 35) | 12.9 | 220 → 11 |
 | **His Evernight + Shadow Overrealm + Generous + Sinful + probe loop (his logs, 25 maps)** | him | 222 − 110 = **111** | — | 220 (+20 town) | — | 0.5 | **28 measured, ~18 expected** (9 Sprouts in 25 maps = 40 FE/map of luck; CN Shadow players see 1 Sprout per 25 maps) |
 | His Alert + All-Evil + Generous + Sinful (A) + probe (his logs, 20 maps) | him | 152 − 211 = **−60** | — | 124 | — | 0.65 | **−28** |
@@ -26,7 +26,7 @@ Gaze Upon the Reflection (12,600; 9 drops, 1 per 304), Eternity (15,390; 2), Mal
 Price trends: Remnants +41%/14d (holding), Warlock flat, Sprout flat, fossils −37%, UE −43%, memories/blueprints −30..−50%.
 
 ## Reading
-1. **The Alert + All-Evil stack is the money in Deep Space** — 54 players, 5.5k runs, the *median* player makes 48 FE/min, and it is
+1. **The Alert + All-Evil stack is the money in Deep Space** — 64 players, 6.1k runs, the *median* player makes 48 FE/min, and it is
    the exact compass set he ran 20 maps of on 11-05 at **−28/min**. The gap is three things, all fixable, none of them the compasses:
    - **Fright = 0** (85%): his All-Evil Vigil gives 0.25 Remnants/map, his Evernight gives 0.36; CN gets 0.93 vs 0.46. The three
      Manifestations (the rarity-4 wraiths, 3 per map) must die before the procession loots, or the ×4 never applies. Worth ~+80 FE/map.

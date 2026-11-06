@@ -414,3 +414,13 @@ Headline numbers (* = CI excludes 1):
 - Generous Elite flip-flop, resolved: the cruder cross-setup fits said x0.94 and then x1.44 on mods; the family fit with the nodes in
   says ~x1.0 on mods, x1.10-1.18 on FE/Remnants -> roughly pays for itself (17.5), nothing more. The 11-06 plan's "drop Generous"
   and the later "keep it, x1.44" were both overclaims.
+- **Text vs data** (`tools/farm/texttest.py`, 11-06): slope of observed log(loot/run) on the text's log(flat pool) and
+  log(additional product), hero + other compasses controlled. Flat pool (Sinful +40/+80, probe +40, +2%/+1% micros; resonance capped
+  +100% for everyone): Outlaw Warlock +0.43 (-0.04..0.91), Outlaw FE +0.64 (0.37..0.92), Vigil FE +0.63, Overrealm FE +1.5 (1.0..2.1),
+  Lunaria FE +0.77, **drone Secrets -0.46 (-0.85..-0.07): the flat pool does nothing for drone exclusives, as measured on his logs**.
+  Additional product: Warlock +0.95 (0.73..1.18), Vanguard +0.74, Outlaw FE +0.49, Vigil Remnants +0.67, Vigil FE +0.76, Overrealm FE
+  +0.73, Lunaria FE +0.85, drone Secrets +0.60. Read: the lines work in the direction written at ~50-95% of the written size on
+  average, the gap being conditional lines not always on (Bounty Order, 3 Fright stacks, White Night, Bodyguard stacks) and the
+  unlogged card. Super Sonic / Hyper-Hardened: both are "+23% additional Drop Quantity, only one takes effect"; 98% of Outlaw players
+  run one, so the per-feature fit can only measure their difference (~x1.0) — "x1.0" in `fits/outlaw.md` means "same as the other
+  one", not "does nothing".

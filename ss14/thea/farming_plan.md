@@ -1,3 +1,30 @@
+# Step 2 — 2026-11-07 00:00-02:00 (the forward model's answer; read this first)
+
+Model: `tools/farm/model.py` checkpoint 2 (`data/ext/model/checkpoint2.md`) → `tools/farm/strat2.py` (`data/ext/model/step2.md`).
+Text multipliers, CN-fitted exponents and bases, Fright 3.5, pets per phase (Fuel trio + Outlaw trio in the Carjack + special slots),
+Bounty at the CN half, card even. The Overrealm is his own 69 maps (84 FE in 100 s, 0.49 deaths; floors 1/2/3/4 = 16/40/165/206 FE in
+31/86/152/165 s), untouched by anything else in the setup (Overrealm loot ignores DQ). Net FE per in-map minute (+20 s town).
+
+## His loop in the model: 100 net/map, 24/min (he measures 123 and 34: the model is 20% under on him, as on every one of his maps)
+One change at a time (FE/map): **+ Alert +24** (the Carjack with his Outlaw tree and pets; +5 s), **− Flourishing probe +21**
+(+40% flat on a Vigil map is worth ~5 FE, costs 27), **− Generous +17** (the data sees no Generous effect on Vigil loot; it only
+pays on Carjack mods), **DS affixes ×2 +12** (6.8 FE for +15% additional each, applies to everything but the Overrealm),
+Evernight→All-Evil ±0 alone (+36 FE of Remnants and wraith FE, −37.5 cost), Sinful ±7, a Vigil micro +0.3, an Outlaw micro 0
+(Outlaw lines don't move FE, and mods are ~40 FE/map). Sinful (A) −23, Compass probe −78, Bountiful −129, Lunaria −9, Dark Surge −30.
+Dropping the Overrealm: −83/map, −17/min — his Overrealm block runs at ~50 FE/min inside it, above the rest of the map.
+Regular pet slots: the Fuel trio is the best trio of 59 candidates on every setup (Corgi/Chonky −3/min).
+
+## Greedy from the loop: + Alert → + 2 DS affixes → Evernight→All-Evil → − Flourishing = **176 net/map, 45/min** (+88% on the model's loop)
+Keeping Evernight (his All-Evil data says Fright does not stack for him): Evernight + Alert + Sinful + 2 DS affixes + Overrealm =
+169/map, **40/min** (+66%), FE 81, Warlock 0.48. That is the safe step; All-Evil is the +5/min on top that his 20 maps disputed.
+
+## Search (1,152 setups): best = Alert + All-Evil + Sinful + 2 DS affixes + Overrealm, 46/min (+lottery 59); without the Overrealm
+43/min (shorter maps, 96 net/map). All-Evil alone + DS ×2 + Overrealm 41; Alert + Evernight + DS ×2 + Overrealm 40; Evernight + DS ×2
++ Overrealm 37; Alert + Evernight (no Overrealm) 34; Lunaria / Dark Surge never top 37 (thin data, CN time ×1.2).
+Anything within ~3/min of another is noise. What the model cannot know: his Warlock share (×0.13 of the model), his All-Evil Remnants
+(×0.38), the 20% FE gap. The 40-run check: Evernight + Alert + Sinful + 2 DS affixes + Overrealm, Fuel trio, Outlaw trio in the
+Carjack, no probe, no Generous. Prediction per map: FE 81, Warlock 0.48, Vanguard 0.27, Remnants 0.35, Overrealm as now; 252 s.
+
 # Deep Space scan 2 — 2026-11-06 (read this first; the 10-29/10-30 sections below are history)
 
 Method (`docs/farming.md` "Deep Space scan 2"): every logged Deep Space strategy on etor (global market, EU/NA/CN players; week3 →

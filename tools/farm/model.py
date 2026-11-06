@@ -43,6 +43,7 @@ MATRIX = json.load(open(os.path.join(EXT, "pactspirit_drop_effects.json")))
 AFF = {s: {str(r["rank"]): r["lines"] for r in v} for s, v in MATRIX["servant_affixes"].items()}
 SNAME = {x["slug"]: x["name"] for x in MATRIX["servants"]}
 FRIGHT = 3.5
+SE_MAX = 0.4          # exponent bar wider than this = unidentified -> text (1), refitted
 FUEL_TRIO = ["SSR6330", "SR6320", "SSR19330"]            # Chalk, Surging Gold, Twilight Sparks
 OUTLAW_TRIO = ["SSR16130", "SR16120", "SSR19330"]        # Prof. SOURCE, Shro-Shroom, Twilight Sparks
 SPECIAL = {"vigil": ["SSR20130", "SR20120"], "lunaria": ["SSR19130", "SR19120"], "darksurge": ["SSR6230", "SR6220"]}
@@ -82,15 +83,18 @@ def loot_type(item):
     return "legendary_gear" if (RN.price(item) or 0) > 300 else None
 
 
-def line_effect(l, loot):
-    """-> ('flat', x) | ('add', mult) | None for one pet line on this loot type (rank 6 text)."""
+SCOPE = {" for TOWER Securities": "otherworld_special_action", " from Wraiths": "night_watch", " from all Wraiths in the Vigil": "night_watch", " in the Overrealm": "overrealm"}
+
+
+def line_effect(l, loot, play=None):
+    """-> ('flat', x) | ('add', mult) | None for one pet line on this loot type (rank 6 text); scoped lines only count in their gameplay."""
     l = l.strip()
     m = re.match(r"\+\s?(\d+)% Drop Quantity( for TOWER Securities| from Wraiths| in the Overrealm)?$", l)
     if m:
-        return "flat", int(m.group(1)) / 100
+        return ("flat", int(m.group(1)) / 100) if not m.group(2) or SCOPE.get(m.group(2)) == play else None
     m = re.match(r"\+(\d+(?:\.\d+)?)% additional Drop Quantity( from all Wraiths in the Vigil)?$", l)
     if m:
-        return "add", 1 + float(m.group(1)) / 100
+        return ("add", 1 + float(m.group(1)) / 100) if not m.group(2) or SCOPE.get(m.group(2)) == play else None
     m = re.match(r"\+(\d+)% additional Flame Fuel Drop Quantity$", l)
     if m and loot == "fuel":
         return "add", 1 + int(m.group(1)) / 100
@@ -101,9 +105,12 @@ def line_effect(l, loot):
     if m and loot == "hero_memory_revival_material":
         return "flat", int(m.group(1)) / 100
     m = re.search(r"(\d+(?:\.\d+)?)% chance .*replicat", l)
-    if m and "Bottled" not in l and float(m.group(1)) < 100:
+    if m and play and "Bottled" not in l and float(m.group(1)) < 100:
+        # replicate lines all name their gameplay (Carjack, Vigil waves, Overrealm, Antidote Vials...): only counted where the matrix says yes,
+        # never on generic map monsters (play None). N copies at p; a "100% ... again" line on the same pet doubles the copies (pet_mult).
         p = float(m.group(1)) / 100
-        return "add", 1 + 2 * p          # replicated once; the "100% ... again" line doubles the copy
+        k = re.search(r"replicated (\d+) (?:additional )?time", l)
+        return "rep", (p, int(k.group(1)) if k else 1)
     return None
 
 
@@ -116,14 +123,17 @@ def pet_mult(play, branch, loot, slugs):
         works = servs.get(s, {}).get("works", {}).get("6") if servs else None
         if play and servs and works is None:
             works = ["none"] * len(lines)          # listed play, pet not listed for this loot: nothing works
+        again = any("100%" in l and "replicat" in l for l in lines)
         for k, l in enumerate(lines):
             if works is not None and works[k] != "yes":
                 continue
-            e = line_effect(l, loot)
+            e = line_effect(l, loot, play)
             if e is None:
                 continue
             if e[0] == "flat":
                 flat += e[1]
+            elif e[0] == "rep":
+                p, n = e[1]; add *= 1 + p * n * (2 if again else 1)
             else:
                 add *= e[1]
     return flat, add
@@ -168,10 +178,18 @@ def generic_pets(loot):
     return pet_mult(None, None, loot, FUEL_TRIO)
 
 
-def setup_mult(fname, fam, nodes, cost, item):
-    """(pool, add) for one mechanic-loot item in one setup, phase pets included."""
+OWNER = {"component": "outlaw", "void_divinity_crafting_material": "vigil", "hero_memory_revival_material": "lunaria"}
+
+
+def setup_mult(fname, fam, nodes, cost, item, generic=False):
+    """(pool, add) for one item in one setup. Mechanic loot: family lines, compass text, phase pets. Generic loot (not this mechanic's):
+    pool + DS resonance + the Fuel trio on map monsters, no family lines."""
     lt = loot_type(item)
-    pool = base_pool(nodes, cost); add = 1.15 ** (cost.get("Deep_Space_Resonance", 0) / 2) * family_add(fname, nodes, cost)
+    pool = base_pool(nodes, cost); add = 1.15 ** (cost.get("Deep_Space_Resonance", 0) / 2)
+    if generic:
+        pf, pa = generic_pets(lt or "fuel")
+        return pool + pf, add * pa
+    add *= family_add(fname, nodes, cost)
     if lt:
         pf, pa = phase_pets(fname, fam, lt)
         pool += pf; add *= pa
@@ -279,29 +297,53 @@ def fit(fname, fam, R, md):
     gf, ga = generic_pets("fuel")
     md.append(f"\n# {fname}: {len(rows)} strategies, {sum(r['count'] for r in rows)} runs; pets in the mechanic ({', '.join(SNAME[s] for s in fam['regular'] + SPECIAL.get(fname, []))}): " +
               "; ".join(f"{lt} flat +{f * 100:.0f}% add x{a:.2f}" for lt, (f, a) in petsum.items() if f or a != 1) + f"; generic map FE (Fuel trio): flat +{gf * 100:.0f}% add x{ga:.2f}")
-    md.append("item | base/map (at pool 1 / add 1, assumed pets inside pool/add) | a (pool exp) | b (add exp) | free compass effects | spread (resid sd)")
+    md.append("item | base/map (at pool 1 / add 1, assumed pets inside pool/add) | a (pool exp) | b (add exp; generic items: DS resonance x Fuel pets only) | free compass effects | spread (resid sd)")
     out = {}
     for item in items:
         recs = []
+        generic = OWNER.get(loot_type(item)) != fname      # not this mechanic's loot: pool + DS resonance only, own compasses as plain dummies
         for r in rows:
             q = r["loot"].get(item, 0)
             if q * r["count"] < 3:
                 continue
             cost = {RN.name(i): v for i, v in r["cost"].items()}
-            pool, add = setup_mult(fname, fam, r["nodes"], cost, item)
-            x = [1.0, math.log(pool), math.log(add)] + [cost.get(c, 0.0) for c in free] + [cost.get(c, 0.0) for c in own if len(own) > 1] + [1.0 if r["hero"] == h else 0.0 for h in heroes[1:]]
+            pool, add = setup_mult(fname, fam, r["nodes"], cost, item, generic=generic)
+            x = [1.0, math.log(pool), math.log(add)] + [cost.get(c, 0.0) for c in free] + [cost.get(c, 0.0) for c in own if len(own) > 1 or generic] + [1.0 if r["hero"] == h else 0.0 for h in heroes[1:]]
             recs.append((x, math.log(q), min(r["count"], 150)))
         if len(recs) < 25:
             continue
         X = np.array([x for x, *_ in recs]); y = np.array([y for _, y, _ in recs]); w = np.array([w for *_, w in recs], float)
-        names = ["const", "a", "b"] + free + ([c for c in own] if len(own) > 1 else []) + [f"hero {h}" for h in heroes[1:]]
+        names = ["const", "a", "b"] + free + ([c for c in own] if len(own) > 1 or generic else []) + [f"hero {h}" for h in heroes[1:]]
         coef, sd, n = wls(X, y, w, names)
-        md.append(f"{RN.name(item)[:30]} | {math.exp(coef['const'][0]):.3f} | {coef['a'][0]:.2f}±{coef['a'][1]:.2f} | {coef['b'][0]:.2f}±{coef['b'][1]:.2f} | {fmt_free(coef)} | {sd:.2f} (n={n})")
-        out[item] = dict(coef=coef, pets=petsum.get(loot_type(item), (0.0, 1.0)), n=n)
+        # an exponent the data cannot pin (bar wider than SE_MAX, or negative) is set to the text's 1 and the rest refitted with it fixed
+        fixed = [k for k in ("a", "b") if coef[k][1] > SE_MAX or coef[k][0] < 0]
+        if fixed:
+            keep = [j for j, nm in enumerate(names) if nm not in fixed]
+            off = sum(X[:, names.index(k)] for k in fixed)
+            coef2, sd, n = wls(X[:, keep], y - off, w, [names[j] for j in keep])
+            for k in fixed:
+                coef2[k] = (1.0, 0.0)
+            coef = coef2
+        tag = (" (generic)" if generic else "") + (f" [{'/'.join(fixed)} -> text 1, refitted]" if fixed else "")
+        md.append(f"{RN.name(item)[:30]}{tag} | {math.exp(coef['const'][0]):.3f} | {coef['a'][0]:.2f}±{coef['a'][1]:.2f} | {coef['b'][0]:.2f}±{coef['b'][1]:.2f} | {fmt_free(coef)} | {sd:.2f} (n={n})")
+        out[item] = dict(coef=coef, pets=petsum.get(loot_type(item), (0.0, 1.0)), n=n, generic=generic, fixed=fixed)
         if item == FE:
             fe = fit_fe(fname, fam, rows, free, own, heroes, md)
             if fe:
                 out["FE_split"] = fe
+    # everything the fits don't cover: run-weighted value per map of the other items, steady (>= 1 drop per 8 maps) vs lottery
+    fitted = set(out) - {"FE_split"}
+    runs_n = sum(r["count"] for r in rows); qty = collections.Counter(); vals = collections.Counter()
+    for r in rows:
+        for i, q in r["loot"].items():
+            qty[i] += q * r["count"] / runs_n; vals[i] += RN.value(i, q) * r["count"] / runs_n
+    steady = sum(v for i, v in vals.items() if i not in fitted and qty[i] >= 0.125)
+    lottery = sum(v for i, v in vals.items() if i not in fitted and qty[i] < 0.125)
+    secs = sum(r["dur_s"] * r["count"] for r in rows) / runs_n; deaths = sum(r["deaths"] * r["count"] for r in rows) / runs_n
+    out["_other"] = dict(steady=steady, lottery=lottery, gross=sum(vals.values()), secs=secs, deaths=deaths,
+                         top=[(RN.name(i), round(v, 1)) for i, v in sorted(vals.items(), key=lambda kv: -kv[1]) if i not in fitted][:8])
+    md.append(f"other items (not fitted): steady {steady:.0f} + lottery {lottery:.0f} FE/map of {sum(vals.values()):.0f} gross; CN {secs:.0f} s/run, {deaths:.2f} deaths; top: " +
+              ", ".join(f"{n} {v}" for n, v in out["_other"]["top"]))
     return out
 
 

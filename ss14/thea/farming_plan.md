@@ -20,8 +20,9 @@ ground truth for what he actually gets. Out: Cage, Doll, Might, Machines (can't 
 | All-Evil + Lunar Stele | 19 / 1,574 | 260 − 237 = 23 | +26 | 105 | 13 (16 / 50) | 8.2 | 100 → 14 |
 Nothing else in Deep Space is positive at >= 30 runs once Cage / Doll / Might / Machines are out: the Dark Surge legendary hunts,
 Sandlord, War and Novel stacks are all −7 to −46/min (lotteries). Hunting-astrolabe loops live in Profound, not here.
-Jackpots = Inverse Image (8,088; Containment players: 1 per 146 maps), Gaze Upon the Reflection (12,600; 1 per 486), Eternity, Malign
-Embrace. Shadow Overrealm players: 0 Inverse Images in 393 maps — the deep floors Containment's keys force are where they drop.
+Jackpots = Inverse Image (8,088 FE; Containment players without Bountiful: 28 drops in 2,735 maps = 1 per 98; all Containment 1 per 146),
+Gaze Upon the Reflection (12,600; 9 drops, 1 per 304), Eternity (15,390; 2), Malign Embrace, blueprints. Shadow Overrealm players:
+0 Inverse Images in 393 maps — the deep floors Containment's keys force are where they drop.
 Price trends: Remnants +41%/14d (holding), Warlock flat, Sprout flat, fossils −37%, UE −43%, memories/blueprints −30..−50%.
 
 ## Reading
@@ -31,8 +32,9 @@ Price trends: Remnants +41%/14d (holding), Warlock flat, Sprout flat, fossils �
      Manifestations (the rarity-4 wraiths, 3 per map) must die before the procession loots, or the ×4 never applies. Worth ~+80 FE/map.
    - **0 Deep Space resonance**: CN runs 2.7–3.2 a map; the cross-player fit says ×1.20 gross per affix (2 resonance = 1 affix, 6.8 FE).
      On a 250 gross map that is +40 for 7.
-   - **Outlaw pets / Generous**: Prof. SOURCE + Shro-Shroom + Lumidrake are the TOWER-mod pets (XD matrix: +24% DQ, +6% for TOWER
-     Securities, 28% chance for reward units to double); he ran his Vigil pets. Generous Elite fits at ×0.94 on gross across 297
+   - **Outlaw pets / Generous**: Prof. SOURCE (SSR, r6) is the Carjack pet — +24% DQ, +6% DQ for TOWER Securities, and 28% of the
+     Carjack's reward units get "recoded": rewards replicated once, then replicated again (×3 on those units ≈ ×1.56 on Carjack loot,
+     i.e. ~+50 FE/map on his mods + Outlaw FE); Shro-Shroom (2%) and Lumidrake (1%) are the lesser versions. He ran his Vigil pets. Generous Elite fits at ×0.94 on gross across 297
      Alert/Vigil strategies (17.5 FE + 30% life for nothing measurable) — drop it or put Alert's 4th slot into Sinful normal.
    - Warlock: 3 in 38 mods (8%) vs 40% for every CN player with the same two nodes — unexplained; if it ever normalises, +46 FE/map.
    With the first three fixed his stack maps should land around +60 to +90 net/map at 124 s = 30–44/min; the test decides.
@@ -41,9 +43,9 @@ Price trends: Remnants +41%/14d (holding), Warlock flat, Sprout flat, fossils �
    The Flourishing probe is break-even (×1.11 for 27.4). Tree: the Overrealm +3/6/10% mediums act on the exit dump (~100 FE), so
    ~+30 FE/map for ×0.5 damage on the floors; the attempts −1/−2/−2 and time −3/−4/−5 s pairs still buy +2–6% each for real downsides.
 3. **Containment instead of Shadow** turns the loop into the gamble: +105 FE/map for keys that force the doors (floors 3–4 → bigger
-   dumps: CN Containment FE 150/map vs Shadow 74) and the jackpot table (EV +87 to +128/map, i.e. one Inverse Image per ~146 maps,
-   one Gaze per ~486). EV ≈ +15 FE/min over Shadow at his speed; in a 45-map session P(at least one jackpot) ≈ 33%, the other two
-   sessions eat 105 × 45 = 4,700 FE for nothing. CN Containment players die 6–7 times a run.
+   dumps: CN Containment FE 150/map vs Shadow 74) and the jackpot table (EV +87 to +128/map: one Inverse Image per ~100–146 maps,
+   one Gaze per ~300–490). EV ≈ +15–20 FE/min over Shadow at his speed; in a 45-map session P(at least one jackpot) ≈ 35–45%, the
+   other sessions eat 105 × 45 = 4,700 FE of compasses for nothing. CN Containment players die 6–7 times a run.
 
 ## Decision
 - **Run the stack test**: 20 maps of Alert + All-Evil + Sinful (A) + Sinful (normal, in Generous's slot) + Flourishing probe,

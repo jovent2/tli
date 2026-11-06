@@ -47,8 +47,21 @@ Price trends: Remnants +41%/14d (holding), Warlock flat, Sprout flat, fossils �
    one Gaze per ~300–490). EV ≈ +15–20 FE/min over Shadow at his speed; in a 45-map session P(at least one jackpot) ≈ 35–45%, the
    other sessions eat 105 × 45 = 4,700 FE of compasses for nothing. CN Containment players die 6–7 times a run.
 
+## Profound drones at today's prices (his 10-31/11-01 log, `gamelog.py`; Shadows 183, Secrets 0.26 after tax, Sand 0)
+| setup | maps | map s / open-to-open | gross | cost | net/map | FE/min | deaths |
+|---|---|---|---|---|---|---|---|
+| Transgression + SiN + Cruising (A) + Colorful (A) + Fluorescent probe (11-01, 0.68 Shadows/map — the hot streak) | 31 | 90 / 111 | 191 | 71 | 120 | **65** | 0.06 |
+| same at his 161-map Shadow rate (0.31/map): Shadows 57 instead of 108 | — | 90 / 111 | ~140 | 71 | ~69 | **~37** | 0.06 |
+| Focus + Colorful (A) + Cruising (A) + Fluorescent probe (10-31) | 66 | 94 / 124 | 85 | 46 | 39 | 19 | 0.09 |
+So the drone farm is **~35/min expected at today's prices** (65 when the Shadows run hot, ~25 on a dry day), 90 s maps, no deaths,
+standing still. Shadows −19% since 10-30 cost it ~10/min; the 0-in-30 day is what made it feel dead. It is the bar every Deep Space
+option has to beat: the stack's realistic 30–44/min only beats it if the Vigil/resonance/pet fixes land, Containment's 40 is the same
+EV as drones with ten times the variance, and the Shadow loop at 18–28 is a pay cut.
+
 ## Decision
-- **Run the stack test**: 20 maps of Alert + All-Evil + Sinful (A) + Sinful (normal, in Generous's slot) + Flourishing probe,
+- **Baseline = Profound drones (Transgression + SiN + Cruising (A) + Colorful (A) + Fluorescent probe), ~35/min expected.** Nothing in
+  Deep Space beats it on expectation without the stack fixes.
+- **Run the stack test** when he wants to try to beat it: 20 maps of Alert + All-Evil + Sinful (A) + Sinful (normal, in Generous's slot) + Flourishing probe,
   1 DS resonance affix, Outlaw pets Prof. SOURCE / Shro-Shroom / Lumidrake (Vigil pets Lady Obituary / Melancholy Azure / Twilight
   Sparks on the Vigil config), ghosts first in every Vigil, Oppressive card when offered, log on. Target ≥ 30 net/min open-to-open.
   Count Remnants (need ≥ 0.7/map) and Warlock share.

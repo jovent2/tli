@@ -309,7 +309,7 @@ def search(block, md):
              ("Evernight_Vigil_Compass", "Lunar_Stele_Lunaria_Compass"), ("All-Evil_Vigil_Compass", "Lunar_Stele_Lunaria_Compass")]
     elites = [(), ("Generous_Elite_Compass",), ("Bountiful_Elite_Compass",)]
     sinfuls = [(), ("Sinful_Plunder_Compass",), ("Sinful_Plunder_Compass_%28Artifact%29",)]
-    extras = [(), ("Strength_in_Numbers_Soldier_Compass",), ("Transgression_Plunder_Compass",), ("Strength_in_Numbers_Soldier_Compass", "Transgression_Plunder_Compass")]
+    extras = [(), ("Strength_in_Numbers_Soldier_Compass",), ("Transgression_Plunder_Compass",), ("Strength_in_Numbers_Soldier_Compass", "Transgression_Plunder_Compass")] if TEXT_GENERIC else [()]
     probes = [(), ("Flourishing_Deep_Space_Probe",), ("Compass_Deep_Space_Probe",), ("Fluorescent_Deep_Space_Probe",)]
     out = []
     for mech, el, si, ex, pr in itertools.product(mechs, elites, sinfuls, extras, probes):

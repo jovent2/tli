@@ -204,7 +204,10 @@ def main(argv=None):
     ap.add_argument("--budget", type=int, default=96)
     ap.add_argument("--sets", type=int, default=10)
     ap.add_argument("--md", default=None)
+    ap.add_argument("--no-extras", action="store_true", help="leave out the text-priced Strength in Numbers / Transgression")
     a = ap.parse_args(argv)
+    if a.no_extras:
+        S.TEXT_GENERIC.clear()
     block = json.load(open(S.BLOCK_FILE))
     md = [f"Void Chart search — budget {a.budget} points, prices {os.path.basename(RN.PRICE_FILE)}, model checkpoint 2, Fright {M.FRIGHT}; the compass sets are the best per mechanic set from strat2's search, each re-optimised with its tree"]
     # candidate compass sets: strat2's search, best per mechanic set, plus his loop

@@ -58,7 +58,26 @@ standing still. Shadows −19% since 10-30 cost it ~10/min; the 0-in-30 day is w
 option has to beat: the stack's realistic 30–44/min only beats it if the Vigil/resonance/pet fixes land, Containment's 40 is the same
 EV as drones with ten times the variance, and the Shadow loop at 18–28 is a pay cut.
 
-## Decision
+## 11-06 22:00 — the strat, modeled bottom-up (`tools/farm/strat_model.py`: his phase base x text multipliers ^ texttest slopes)
+| setup | gross (map / Vigil / Overrealm / Outlaw) | cost | net/map | s | FE/min |
+|---|---|---|---|---|---|
+| A0 his loop today (51 maps) | 235 (42 / 63 / 130 / 0) | 110 | 125 | 235 | 32 |
+| A1 + DS resonance affix | 259 | 117 | 142 | 235 | 36 |
+| A2 + the +30% DQ card when offered | 280 | 117 | 163 | 235 | 42 |
+| **A3 + Alert Outlaw in Generous's slot, Outlaw pets on the kill** | 364 (44 / 62 / 159 / 100) | 136 | **228** | 250 | **55** |
+| A4 + Sinful (A) for Sinful | 399 | 167 | 232 | 250 | 56 (not worth 31) |
+| B  A2 + Containment for Shadow | 364 (ovr 243) | 222 | 142 | 280 | 30 + 28 jackpot EV = 58 |
+| C  Alert + All-Evil stack, 3 Fright stacks | 278 (49 / 111 / 0 / 118) | 218 | 60 | 144 | 25 |
+| C0 the stack with 0 stacks | 202 | 218 | −16 | 144 | −7 (his 11-05 measured −60/map: model calibrated) |
+Checks: the Overrealm-family fit gives Alert x1.56* on map FE, which on his 93 FE of map + dump FE is +52, plus ~50 of mods = the
+model's Outlaw 100. C0 reproduces his measured stack maps. A3's risk is Alert's +70% monster life inside the Overrealm floors: his
+floors are the money (3 floors = 43 FE/min, 2 floors = 26, 1 floor = 8, and 1-floor maps carry 0.78 deaths — a death inside ends it),
+so if the +70% costs him a floor on average, A3 drops to ~A2. 20-map test with the log decides.
+Decision: **A3** (Alert instead of Generous, DS affix every map, Prof. SOURCE / Shro-Shroom / Twilight Sparks on the Outlaw config
+during the kill, +30% DQ card over the gear card), fallback A2. The stack is out on his execution even with Fright fixed (25/min).
+Containment is the same EV as A3 with the variance; try it after A3 is measured.
+
+## Decision (earlier today)
 - **Baseline = Profound drones (Transgression + SiN + Cruising (A) + Colorful (A) + Fluorescent probe), ~35/min expected.** Nothing in
   Deep Space beats it on expectation without the stack fixes.
 - **Run the stack test** when he wants to try to beat it: 20 maps of Alert + All-Evil + Sinful (A) + Sinful (normal, in Generous's slot) + Flourishing probe,

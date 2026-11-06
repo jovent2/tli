@@ -28,7 +28,7 @@ SDIR = os.path.join(EXT, "etor_strategies_s14")
 MIN_DROPS = 8
 SKIP_COST = {"Deep_Space_Beacon", "Netherrealm_resonance", "Deep_Space_Resonance", "Glacial_Abyss_Beacon_%28Timemark_8%29"}
 OUT = {"Cage": ("囚笼", "Golden_Cage", "Cage_Astrolabe"), "Doll": ("玩偶", "Collection_Doll", "Clockwork"), "Might": ("巨力", "Might_Compass", "Mecha_Might"),
-       "Machines": ("Cruising_Mechanical",)}
+       "Machines": ("Cruising_Mechanical", "机械")}
 # His seconds per map on the mechanics he has run in Deep Space (his logs 11-05/06; 10-30 for Machines), else CN x 1.2.
 VLAD_S = {("Evernight_Vigil", "Shadow_Overrealm"): 209, ("Alert_Outlaw", "All-Evil_Vigil"): 124, ("Cruising_Mechanical",): 200}
 VLAD_FACTOR = 1.2
@@ -73,7 +73,7 @@ def signature(r):
 
 
 def family(r):
-    return "+".join(t for t in r["talent_label"].replace(",", "、").split("、") if t and t != "幽邃")
+    return "+".join(sorted(t for t in r["talent_label"].replace(",", "、").split("、") if t and t != "幽邃"))
 
 
 def ds_res(r):
@@ -84,6 +84,38 @@ def ds_res(r):
 def excluded(sig, fam):
     s = " ".join(sig) + " " + fam
     return [k for k, pats in OUT.items() if any(p in s for p in pats)]
+
+
+def _penalties():
+    """compass key (etor spelling) -> (monster max life mult, monsters-take-damage mult) from tlidb's compass text."""
+    import re
+    cat = json.load(open(os.path.join(EXT, "..", "catalog", "Compass.json")))
+    out = {}
+    for c in cat["cards"]:
+        for e in c.get("entries", []):
+            life, taken = 1.0, 1.0
+            for l in e["lines"]:
+                m = re.search(r"Monsters in the stage \+(\d+)% additional Max Life", l)
+                if m:
+                    life *= 1 + int(m.group(1)) / 100
+                m = re.search(r"monsters take -(\d+)% additional damage", l)
+                if m:
+                    taken *= 1 - int(m.group(1)) / 100
+            key = e["key"].replace("_Artifact", "_%28Artifact%29").replace("Afterlight_Compass", "Vigil_Compass")
+            out[key] = (life, taken)
+    return out
+
+
+PEN = _penalties()
+
+
+def tankiness(sig):
+    """Effective monster HP multiplier from the compasses alone: life / damage-taken (1.0 = naked map)."""
+    life, taken = 1.0, 1.0
+    for k in sig:
+        l, t = PEN.get(k, (1.0, 1.0))
+        life *= l; taken *= t
+    return life / taken
 
 
 def vlad_seconds(sig, cn_s):
@@ -148,7 +180,7 @@ def group(R, min_runs=1, show_all=False):
                         net=steady - c, per_min=(steady - c) / (d / 60), med_per_min=med, top_per_min=top3, deaths=deaths / n,
                         vlad_s=vs, vlad_src=src, vlad_per_min=(steady - c) / (vs / 60), excluded=ex,
                         steady_items=steady_items, lottery_items=lottery_items, loot=loot, cost_items=cost, rs=rs,
-                        trend7=trend(steady_items)))
+                        trend7=trend(steady_items), tank=tankiness(sig)))
     return out
 
 
@@ -192,11 +224,11 @@ def main(argv=None):
         show(G[a.show - 1], a.show, full=True)
         return
     print(f"{len(G)} setups with >= {a.min_runs} runs" + ("" if a.all else " (Cage / Doll / Might / Machines / Clockwork out)"))
-    print("\n#  | Vlad/min | CN/min (med / top3) | net/map | steady | cost | s | deaths | lottery | trend | runs | setup")
+    print("\n#  | Vlad/min | CN/min (med / top3) | net/map | steady | cost | s | deaths | lottery | trend | HP | runs | setup")
     for k, g in enumerate(G[:a.top], 1):
         sig = " + ".join(short(s) for s in g["sig"]) + (f" + DSres{g['res']}" if g["res"] else "")
         tr = f"{g['trend7'] * 100:+.0f}%" if g["trend7"] is not None else "n/a"
-        print(f"{k:2d} | {g['vlad_per_min']:6.1f} | {g['per_min']:5.1f} ({g['med_per_min']:4.0f} / {g['top_per_min']:4.0f}) | {g['net']:5.0f} | {g['steady']:5.0f} | {g['cost']:4.0f} | {g['secs']:4.0f} | {g['deaths']:4.2f} | {g['lottery']:4.0f} | {tr:>5} | {g['runs']:5d} | {sig[:95]} [{g['fam'][:18]}]")
+        print(f"{k:2d} | {g['vlad_per_min']:6.1f} | {g['per_min']:5.1f} ({g['med_per_min']:4.0f} / {g['top_per_min']:4.0f}) | {g['net']:5.0f} | {g['steady']:5.0f} | {g['cost']:4.0f} | {g['secs']:4.0f} | {g['deaths']:4.2f} | {g['lottery']:4.0f} | {tr:>5} | {g['tank']:3.1f} | {g['runs']:5d} | {sig[:95]} [{g['fam'][:18]}]")
     if a.json:
         json.dump([{k: v for k, v in g.items() if k not in ("rs", "loot", "cost_items")} for g in G], open(a.json, "w"), ensure_ascii=False, indent=0, default=str)
 

@@ -18,12 +18,15 @@ Regular pet slots: the Fuel trio is the best trio of 59 candidates on every setu
 Keeping Evernight (his All-Evil data says Fright does not stack for him): Evernight + Alert + Sinful + 2 DS affixes + Overrealm =
 169/map, **40/min** (+66%), FE 81, Warlock 0.48. That is the safe step; All-Evil is the +5/min on top that his 20 maps disputed.
 
-## Search (1,152 setups): best = Alert + All-Evil + Sinful + 2 DS affixes + Overrealm, 46/min (+lottery 59); without the Overrealm
-43/min (shorter maps, 96 net/map). All-Evil alone + DS ×2 + Overrealm 41; Alert + Evernight + DS ×2 + Overrealm 40; Evernight + DS ×2
-+ Overrealm 37; Alert + Evernight (no Overrealm) 34; Lunaria / Dark Surge never top 37 (thin data, CN time ×1.2).
-Anything within ~3/min of another is noise. What the model cannot know: his Warlock share (×0.13 of the model), his All-Evil Remnants
-(×0.38), the 20% FE gap. The 40-run check: Evernight + Alert + Sinful + 2 DS affixes + Overrealm, Fuel trio, Outlaw trio in the
-Carjack, no probe, no Generous. Prediction per map: FE 81, Warlock 0.48, Vanguard 0.27, Remnants 0.35, Overrealm as now; 252 s.
+## Search (2,624 setups, 4 compass slots + probe + beacon): the 4th slot
+Strength in Numbers (0.9 FE: +20% additional for Normal monsters, +10 groups) and Transgression (28.6 FE: +3%/rare up to 30 stacks, −2%
+damage each) have no CN data inside his exclusions (every player of theirs is Machines/Doll), so they are priced from the text on the
+generic part of the map only: ×1.2 and ×1.3 (~10 stacks), +5 s for the groups, damage loss not priced.
+**Best overall: Alert + All-Evil + Strength in Numbers + Sinful (or Transgression) + 2 DS affixes, no probe: 116 net/map at 138 s =
+50/min (+lottery 73)**. With the Overrealm in the 4th slot instead of Sinful: 194 net/map at 238 s = 49/min — the same thing with
+longer maps. Alert + All-Evil + Sinful + Overrealm 46; Alert + Evernight + Strength + Overrealm 44; All-Evil + Strength + Overrealm 44.
+Lunaria / Dark Surge never top 37. Within ~3/min is noise. Overrealm-less maps carry more lottery per minute (52 FE/map of rare drops
+on shorter maps). What the model cannot know: his Warlock share (×0.13 of the model), his All-Evil Remnants (×0.38), the 20% FE gap.
 
 # Deep Space scan 2 — 2026-11-06 (read this first; the 10-29/10-30 sections below are history)
 

@@ -43,7 +43,12 @@ PRIMARY = ["vigil", "outlaw", "lunaria", "darksurge"]
 BEACON = "Deep_Space_Beacon"
 TOWN = 20.0
 BASE_S = 108.0
-PHASE_S = {"Evernight_Vigil_Compass": 19.0, "Alert_Outlaw_Compass": 5.0, "All-Evil_Vigil_Compass": 0.0, "Phantom_Vigil_Compass": 19.0}
+PHASE_S = {"Evernight_Vigil_Compass": 19.0, "Alert_Outlaw_Compass": 5.0, "All-Evil_Vigil_Compass": 0.0, "Phantom_Vigil_Compass": 19.0, "Strength_in_Numbers_Soldier_Compass": 5.0}
+# compasses with no usable CN data inside his exclusions (their players are all Machines / Doll): priced from the text on the generic
+# (normal-monster) part of the map only. Strength in Numbers: +20% additional for Normal monsters (+10 groups not priced). Transgression:
+# +3% per Rare killed up to 30, taken at ~10 stacks = x1.3, and -2% damage per stack not priced.
+TEXT_GENERIC = {"Strength_in_Numbers_Soldier_Compass": 1.2, "Transgression_Plunder_Compass": 1.3}
+SLOTS = 4
 NEVER_RUN = {"lunaria": 1.2, "darksurge": 1.2}      # CN seconds x factor for mechanics he has not run
 VIGIL_NODES = {"+1% additional Drop Quantity for the Vigil": 15, "+8% additional Drop Quantity for the Vigil": 1, "+15% additional Drop Quantity for the Vigil": 1, "During White Night Mode, +12%": 1}
 OUTLAW_NODES = {"+1% additional Drop Quantity for all Security": 18, "+6% additional Drop Quantity for all Security": 1, "Super Sonic": 1, "for every 10 Escort Bodyguard": 1,
@@ -143,8 +148,16 @@ def simulate(setup, block=None):
             items[item] = item_qty(fname, item, setup, mechanic_free_only=bool(owner))
             done.add(item)
     g, m = fe_qty(prim, setup)
+    tg = 1.0
+    for c, mult in TEXT_GENERIC.items():
+        tg *= mult ** setup["comp"].get(c, 0.0)
+    if tg != 1.0:
+        g *= tg
+        for i in list(items):
+            if not OWNER.get(M.loot_type(i)):
+                items[i] *= tg
     items[M.FE] = g + m
-    steady = sum(RN.value(i, q) for i, q in items.items()) + RES[prim]["_other"]["steady"]
+    steady = sum(RN.value(i, q) for i, q in items.items()) + RES[prim]["_other"]["steady"] * tg
     lottery = RES[prim]["_other"]["lottery"]
     secs = BASE_S + sum(PHASE_S.get(c, 0.0) * q for c, q in setup["comp"].items())
     flags = []
@@ -211,7 +224,8 @@ def moves(setup):
     """Every single change to a setup: (label, new setup)."""
     out = []
     comp = setup["comp"]
-    for c in ("Generous_Elite_Compass", "Bountiful_Elite_Compass", "Alert_Outlaw_Compass", "Lunar_Stele_Lunaria_Compass", "Divine_Warrior_Dark_Surge_Compass"):
+    for c in ("Generous_Elite_Compass", "Bountiful_Elite_Compass", "Alert_Outlaw_Compass", "Lunar_Stele_Lunaria_Compass", "Divine_Warrior_Dark_Surge_Compass",
+              "Strength_in_Numbers_Soldier_Compass", "Transgression_Plunder_Compass"):
         if c in comp:
             out.append((f"drop {cname(c)}", clone(setup, comp={k: v for k, v in comp.items() if k != c})))
         else:
@@ -293,18 +307,21 @@ def search(block, md):
              ("Evernight_Vigil_Compass", "Lunar_Stele_Lunaria_Compass"), ("All-Evil_Vigil_Compass", "Lunar_Stele_Lunaria_Compass")]
     elites = [(), ("Generous_Elite_Compass",), ("Bountiful_Elite_Compass",)]
     sinfuls = [(), ("Sinful_Plunder_Compass",), ("Sinful_Plunder_Compass_%28Artifact%29",)]
+    extras = [(), ("Strength_in_Numbers_Soldier_Compass",), ("Transgression_Plunder_Compass",), ("Strength_in_Numbers_Soldier_Compass", "Transgression_Plunder_Compass")]
     probes = [(), ("Flourishing_Deep_Space_Probe",), ("Compass_Deep_Space_Probe",), ("Fluorescent_Deep_Space_Probe",)]
     out = []
-    for mech, el, si, pr in itertools.product(mechs, elites, sinfuls, probes):
+    for mech, el, si, ex, pr in itertools.product(mechs, elites, sinfuls, extras, probes):
         for dsres in (0, 2):
             for ovr in ((False, True) if any("Vigil" in m for m in mech) else (False,)):
-                comp = {c: 1.0 for c in mech + el + si + pr}
+                if len(mech) + len(el) + len(si) + len(ex) + (1 if ovr else 0) > SLOTS:
+                    continue
+                comp = {c: 1.0 for c in mech + el + si + ex + pr}
                 s = dict(comp=comp, dsres=dsres, nodes={"vigil": dict(VIGIL_NODES), "outlaw": dict(OUTLAW_NODES)}, pets=list(M.FUEL_TRIO), overrealm=ovr)
                 sim = simulate(s, block)
                 if sim:
                     out.append((sim["per_min"], s, sim))
     out.sort(key=lambda t: -t[0])
-    md.append(f"\n# Search: {len(out)} setups (mechanic set x elite x Sinful x probe x DS affixes 0/2 x Overrealm with a Vigil), his tree lines, Fuel trio, ranked by net FE per in-map minute")
+    md.append(f"\n# Search: {len(out)} setups (mechanics x elite x Sinful x Strength in Numbers / Transgression x probe x DS affixes 0/2 x Overrealm; at most {SLOTS} compasses + probe), his tree lines, Fuel trio, ranked by net FE per in-map minute")
     md.append("rank | /min | +lottery | net/map | s | FE | cost | setup")
     seen = 0
     for k, (pm, s, sim) in enumerate(out[:40]):

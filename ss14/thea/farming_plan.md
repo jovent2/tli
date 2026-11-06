@@ -1,3 +1,59 @@
+# Deep Space scan 2 — 2026-11-06 (read this first; the 10-29/10-30 sections below are history)
+
+Method (`docs/farming.md` "Deep Space scan 2"): every logged Deep Space strategy on etor (global market, EU/NA/CN players; week3 →
+week2 → day boards, latest board per strategy; 2,296 strategies, 224k runs), re-valued at the 11-06 prices, grouped by the exact
+compass/probe set, lotteries (< 8 drops in the group) and jackpots (items >= 1,000 FE) split from steady income, deaths per run from
+etor, net/min at his seconds. No column model. His own 47 maps of 11-05/06 (`tools/farm/overrealm_loop.py`, `setups.py`) are the
+ground truth for what he actually gets. Out: Cage, Doll, Might, Machines (can't kill them in DS), Clockwork.
+
+## The table (population level, run-weighted over every player on that compass set; Vlad = his seconds)
+| setup | players / runs | steady − cost = net/map | +jackpots | s/map | CN net/min (median player / top third) | deaths/run | Vlad s → net/min |
+|---|---|---|---|---|---|---|---|
+| **Alert Outlaw + All-Evil Vigil + Generous Elite + Sinful (A)** (+ probe or DS res) | 54 / 5,565 | 301 − 222 = 79 | +6 | 99 | 48 (48 / 93) | 3.9 | 124 → **38** |
+| Alert + All-Evil, any 4th compass | 117 / 11,263 | 309 − 262 = 47 | +10 | 106 | 26 (27 / 83) | 4.6 | 124 → 22 |
+| Containment Overrealm, no Bountiful (+ Sinful, Generous, probe...) | 36 / 2,735 | 283 − 245 = 38 | **+128** | 235 | 10 (11 / 29) | 7.5 | 260 → 9, **38 with jackpots** |
+| Containment Overrealm, any | 77 / 5,832 | 337 − 315 = 22 | +87 | 235 | 6 (7 / 30) | 6.3 | 260 → 5, 25 with jackpots |
+| Shadow Overrealm, any (CN players) | 7 / 393 | 185 − 144 = 41 | +5 | 151 | 16 (17 / 35) | 12.9 | 220 → 11 |
+| **His Evernight + Shadow Overrealm + Generous + Sinful + probe loop (his logs, 25 maps)** | him | 222 − 110 = **111** | — | 220 (+20 town) | — | 0.5 | **28 measured, ~18 expected** (9 Sprouts in 25 maps = 40 FE/map of luck; CN Shadow players see 1 Sprout per 25 maps) |
+| His Alert + All-Evil + Generous + Sinful (A) + probe (his logs, 20 maps) | him | 152 − 211 = **−60** | — | 124 | — | 0.65 | **−28** |
+| Alert + Lunar Stele Lunaria (any) | 56 / 3,221 | 256 − 280 = −24 | +9 | 108 | −14 | 7.2 | — |
+| All-Evil + Lunar Stele | 19 / 1,574 | 260 − 237 = 23 | +26 | 105 | 13 (16 / 50) | 8.2 | 100 → 14 |
+Nothing else in Deep Space is positive at >= 30 runs once Cage / Doll / Might / Machines are out: the Dark Surge legendary hunts,
+Sandlord, War and Novel stacks are all −7 to −46/min (lotteries). Hunting-astrolabe loops live in Profound, not here.
+Jackpots = Inverse Image (8,088; Containment players: 1 per 146 maps), Gaze Upon the Reflection (12,600; 1 per 486), Eternity, Malign
+Embrace. Shadow Overrealm players: 0 Inverse Images in 393 maps — the deep floors Containment's keys force are where they drop.
+Price trends: Remnants +41%/14d (holding), Warlock flat, Sprout flat, fossils −37%, UE −43%, memories/blueprints −30..−50%.
+
+## Reading
+1. **The Alert + All-Evil stack is the money in Deep Space** — 54 players, 5.5k runs, the *median* player makes 48 FE/min, and it is
+   the exact compass set he ran 20 maps of on 11-05 at **−28/min**. The gap is three things, all fixable, none of them the compasses:
+   - **Fright = 0** (85%): his All-Evil Vigil gives 0.25 Remnants/map, his Evernight gives 0.36; CN gets 0.93 vs 0.46. The three
+     Manifestations (the rarity-4 wraiths, 3 per map) must die before the procession loots, or the ×4 never applies. Worth ~+80 FE/map.
+   - **0 Deep Space resonance**: CN runs 2.7–3.2 a map; the cross-player fit says ×1.20 gross per affix (2 resonance = 1 affix, 6.8 FE).
+     On a 250 gross map that is +40 for 7.
+   - **Outlaw pets / Generous**: Prof. SOURCE + Shro-Shroom + Lumidrake are the TOWER-mod pets (XD matrix: +24% DQ, +6% for TOWER
+     Securities, 28% chance for reward units to double); he ran his Vigil pets. Generous Elite fits at ×0.94 on gross across 297
+     Alert/Vigil strategies (17.5 FE + 30% life for nothing measurable) — drop it or put Alert's 4th slot into Sinful normal.
+   - Warlock: 3 in 38 mods (8%) vs 40% for every CN player with the same two nodes — unexplained; if it ever normalises, +46 FE/map.
+   With the first three fixed his stack maps should land around +60 to +90 net/map at 124 s = 30–44/min; the test decides.
+2. **His cozy loop is ~18/min expected**, 28 measured only because of the Sprouts. Cheap fixes: a DS resonance affix (+30–40 FE/map for
+   6.8), drop Generous (+17.5 cost back, ×0.94 → ~0 loss), keep Evernight (its built-in ×2 is what All-Evil gives him now anyway).
+   The Flourishing probe is break-even (×1.11 for 27.4). Tree: the Overrealm +3/6/10% mediums act on the exit dump (~100 FE), so
+   ~+30 FE/map for ×0.5 damage on the floors; the attempts −1/−2/−2 and time −3/−4/−5 s pairs still buy +2–6% each for real downsides.
+3. **Containment instead of Shadow** turns the loop into the gamble: +105 FE/map for keys that force the doors (floors 3–4 → bigger
+   dumps: CN Containment FE 150/map vs Shadow 74) and the jackpot table (EV +87 to +128/map, i.e. one Inverse Image per ~146 maps,
+   one Gaze per ~486). EV ≈ +15 FE/min over Shadow at his speed; in a 45-map session P(at least one jackpot) ≈ 33%, the other two
+   sessions eat 105 × 45 = 4,700 FE for nothing. CN Containment players die 6–7 times a run.
+
+## Decision
+- **Run the stack test**: 20 maps of Alert + All-Evil + Sinful (A) + Sinful (normal, in Generous's slot) + Flourishing probe,
+  1 DS resonance affix, Outlaw pets Prof. SOURCE / Shro-Shroom / Lumidrake (Vigil pets Lady Obituary / Melancholy Azure / Twilight
+  Sparks on the Vigil config), ghosts first in every Vigil, Oppressive card when offered, log on. Target ≥ 30 net/min open-to-open.
+  Count Remnants (need ≥ 0.7/map) and Warlock share.
+- **If it fails** (< 25/min after 20 maps), go back to the loop with the two cheap fixes (DS affix, no Generous) and decide the
+  Containment gamble on taste: EV +15/min, one jackpot every ~10 hours.
+- Either way: DS resonance affix on every Deep Space map from now on.
+
 # Profound farming plan (2026-10-29 23:00, bottom-up model; prices of 2026-10-29)
 
 ## Deep Space (2026-10-30 16:00) — raw etor strategies, today's prices, FE drops now counted

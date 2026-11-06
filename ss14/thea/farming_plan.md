@@ -18,6 +18,19 @@ Regular pet slots: the Fuel trio is the best trio of 59 candidates on every setu
 Keeping Evernight (his All-Evil data says Fright does not stack for him): Evernight + Alert + Sinful + 2 DS affixes + Overrealm =
 169/map, **40/min** (+66%), FE 81, Warlock 0.48. That is the safe step; All-Evil is the +5/min on top that his 20 maps disputed.
 
+## Step 2b — the tree search (`tools/farm/tree2.py`, `data/ext/model/tree2.md`, 2026-11-07 02:30)
+96 points over Outlaw / Afterlight / Lunaria / Profound / Commodities DQ lines (Steiner paths from each root, priced through the
+simulator, knapsack across constellations), on the best compass set per mechanic set (4 slots + probe; Strength in Numbers x1.2 and
+Transgression x1.3 priced from text on map monsters, no CN data inside his exclusions).
+**Best: Alert + All-Evil + Strength in Numbers + Transgression, 2 DS affixes, no Overrealm: 165 net/map, 72/min** with
+Outlaw 20 pts (15 micros, +6%, Super Sonic, Oppressive, Imperious), Afterlight 37 (the whole DQ chain: 30 micros, +8, +15, White Night,
+WN +12), Profound 37 (11 x +2% flat + the +12% additional at 25 extra), Commodities 2. Same with the Overrealm instead of
+Transgression: 60/min (the Overrealm's 50/min now dilutes a 74/min map). All-Evil + Sinful + SiN + Transgression (no Alert) 61.
+Evernight versions 10-15/min lower; Lunaria adds nothing from its tree (Lunar dust is worth ~0), Dark Surge never ranks.
+The tree change vs his: Profound back to the +2% micros and the +12% (drops Void Variables + extra card, unpriced: cards assumed even).
+Unpriced nodes (goblin, coffins, boss extra Remnant, "more likely Warlock", Bounty refresh) count 0 here. Profound +12% = 27 points
+assumed; 0 of 467 CN Deep Space players take it.
+
 ## Search (2,624 setups, 4 compass slots + probe + beacon): the 4th slot
 Strength in Numbers (0.9 FE: +20% additional for Normal monsters, +10 groups) and Transgression (28.6 FE: +3%/rare up to 30 stacks, −2%
 damage each) have no CN data inside his exclusions (every player of theirs is Machines/Doll), so they are priced from the text on the

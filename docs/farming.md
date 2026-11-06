@@ -390,6 +390,16 @@ keys 404 on /detail). 2026-10-30 ~16:00: 908 strategies / 113k runs decoded.
   Sacred Fossil 8.0 (-20%/7d, -37%/14d); UE 16 (-26%); Immolating Flame 81 (-34%); Blueprint Eternity 2,542 (-29%); Shadows 183
   (-19% vs 10-30); Secrets 0.30 flat. Compass costs rising: Alert 37 (+19%), Evernight 21 (+14%), Generous 17.5 (+6%).
 
+### Forward model checkpoint 2 (2026-11-06) — `tools/farm/model.py`, `data/ext/model/checkpoint2.md`
+- Pets per **phase**, not per loot type: 3 regular drop pets (Fuel trio Chalk / Surging Gold / Twilight Sparks all map, Outlaw trio
+  Prof. SOURCE / Shro-Shroom / Sparks swapped in for the Carjack) + the season's special slots always up (Lady Obituary, Melancholy Azure,
+  Heartbloom Iris, Twin Inquisitors in Vlad's area dump; `gamelog` m["pets"] lists all 7). Replicates parsed as x(1+2p): Prof. SOURCE recode
+  x1.56, Elegy x1.5, Avatar of Moon x1.5. Chalk / Surging "+X% additional Flame Fuel" lines: dead on Carjack, Vigil, Lunaria loot (XD matrix),
+  alive on generic monsters and Dark Surge. Chalk's 1.3% fuel set per kill ignored [Vlad: "garbage"].
+- Whole-map FE fitted as generic + mechanic (NLS). **Outlaw lines do not move map FE** (exponent 0.02±0.11); DS resonance at text (1.03±0.13);
+  checkpoint 1's "b=0.5 = Carjack share" was those two averaged. Vigil multipliers act at 0.33±0.05 on map FE (wraith FE ~1/3-1/2 of the map).
+  Pool exponent on FE 0.73 (Outlaw) / 0.35 (Vigil). Mechanic-loot exponents unchanged from checkpoint 1.
+
 ## Per-family fits (2026-11-06 evening, `tools/farm/fit.py`, tables in `data/ext/fits/<family>.md`)
 Method: for each mechanic family (every Deep Space strategy running that compass: outlaw 292 strategies / 24k runs, vigil 178 /
 15.6k, overrealm 88 / 6.4k, machines 196 / 19.4k, lunaria), one WLS log-linear model per loot item: log(drops per run) on every

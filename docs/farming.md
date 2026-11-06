@@ -389,3 +389,28 @@ keys 404 on /detail). 2026-10-30 ~16:00: 908 strategies / 113k runs decoded.
 - Price trends 10-16 -> 11-06 (`trends.py`): Nether King's Remnant 70.8 (+4%/7d, +41%/14d); Warlock 66 (flat); Sprout 141 (flat);
   Sacred Fossil 8.0 (-20%/7d, -37%/14d); UE 16 (-26%); Immolating Flame 81 (-34%); Blueprint Eternity 2,542 (-29%); Shadows 183
   (-19% vs 10-30); Secrets 0.30 flat. Compass costs rising: Alert 37 (+19%), Evernight 21 (+14%), Generous 17.5 (+6%).
+
+## Per-family fits (2026-11-06 evening, `tools/farm/fit.py`, tables in `data/ext/fits/<family>.md`)
+Method: for each mechanic family (every Deep Space strategy running that compass: outlaw 292 strategies / 24k runs, vigil 178 /
+15.6k, overrealm 88 / 6.4k, machines 196 / 19.4k, lunaria), one WLS log-linear model per loot item: log(drops per run) on every
+compass / probe fraction, DS resonance affixes, Netherrealm resonance, hero class, and every node of the family's own constellations
+(+ Profound, Commodities) as a count (micros add); light ridge, HC1 CIs, runs as weights. Nodes everyone in the family runs are
+unidentified ("fixed in family"), cards and pets are not logged. Per-unit multipliers (a compass on every run, one DS affix, one point).
+Headline numbers (* = CI excludes 1):
+- **Outlaw**: Alert compass Warlock x3.95* / Vanguard x3.5* / FE x1.27*; Warlock node x1.44* Warlock; Vanguard node x1.77* Vanguard
+  (x0.91* Warlock); Tank node x1.79* Tank; "+1% for all Security personnel" micro x1.01-1.02 per point on mods (= text); Oppressive,
+  Bodyguard stacks, Expansion node, Hyper-Hardened, Super Sonic: ~x1.0. Generous x0.98 mods / x1.10 FE (1.00-1.21) -> ~+9 FE for
+  17.5. Sinful (A) x1.14* FE; Sinful x1.05 FE; Flourishing probe Vanguard x1.33*, Tank x1.29*, FE x1.11*, fossil x1.5* (~+20 FE for
+  27.4); DS affix FE x1.12 (0.99-1.28), mods ~1.0; Bountiful x1.3-1.5* everything (167 FE); All-Evil FE x1.77* (its Vigil), mods
+  x0.76-0.84; Evernight FE x1.34*.
+- **Vigil**: All-Evil Remnants x2.77* (1.8-4.3), FE x1.31*; Evernight Remnants x1.32 (0.83-2.1); Bountiful x1.46* Remnants, x1.41* FE;
+  Generous x1.18 (0.94-1.47) Remnants, x1.12 FE; Sinful (A) x1.24 (0.97-1.6); DS affix Remnants x1.14 (0.86-1.5), FE x1.31*;
+  "+1% for the Vigil" micro x1.00 (0.98-1.02) per point on Remnants; Judgment node x1.12*; White Night / +8% medium FE x1.26*;
+  "bosses always drop an additional" x0.77* (confounded: taken by weaker players?); Goblin +100% x0.78 (0.54-1.15).
+- **Overrealm** (thin): Containment FE x1.84*, Sprout x6*, Secrets x2.2*, fossil x0.28*; Shadow Overrealm Sprout x4.9 (0.7-33);
+  Flourishing probe FE x1.38*; the -10/-20/-30% mediums and the +1.5% micros: CIs straddle 1 (unidentified at 88 strategies).
+- **Machines (DS)**: Colorful (A) Secrets x1.42*, Colorful x1.16*, Fluorescent DS probe Secrets x1.27*, Focus x1.00 (0.78-1.27),
+  SiN x1.23 (0.95-1.6), Transgression x1.31 (0.8-2.2); Shadows too sparse per strategy to fit.
+- Generous Elite flip-flop, resolved: the cruder cross-setup fits said x0.94 and then x1.44 on mods; the family fit with the nodes in
+  says ~x1.0 on mods, x1.10-1.18 on FE/Remnants -> roughly pays for itself (17.5), nothing more. The 11-06 plan's "drop Generous"
+  and the later "keep it, x1.44" were both overclaims.

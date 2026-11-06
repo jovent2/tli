@@ -14,7 +14,7 @@ ground truth for what he actually gets. Out: Cage, Doll, Might, Machines (can't 
 | Containment Overrealm, no Bountiful (+ Sinful, Generous, probe...) | 37 / 2,797 | net 41 | **+132** | 235 | 10 (11 / 29) | 7.4 | 260 → 9, **40 with jackpots** |
 | Containment Overrealm, any | 81 / 6,042 | net 24 | +99 | 235 | 6 (7 / 30) | 6.3 | 260 → 5, 28 with jackpots |
 | Shadow Overrealm, any (CN players) | 7 / 393 | 185 − 144 = 41 | +5 | 151 | 16 (17 / 35) | 12.9 | 220 → 11 |
-| **His Evernight + Shadow Overrealm + Generous + Sinful + probe loop (his logs, 25 maps)** | him | 222 − 110 = **111** | — | 220 (+20 town) | — | 0.5 | **28 measured, ~18 expected** (9 Sprouts in 25 maps = 40 FE/map of luck; CN Shadow players see 1 Sprout per 25 maps) |
+| **His Evernight + Shadow Overrealm + Generous + Sinful + probe loop (his logs)** | 25 maps 11-05; **44 maps 11-06** | 111; **233 − 110 = 123** | — | 220; 214 | — | 0.5 | **34/min in-map on 11-06 with normal Sprouts (0.11/map): FE 91, Remnant 0.59** — the 11-05 '~18 real' read was too low |
 | His Alert + All-Evil + Generous + Sinful (A) + probe (his logs, 20 maps) | him | 152 − 211 = **−60** | — | 124 | — | 0.65 | **−28** |
 | Alert + Lunar Stele Lunaria (any) | 56 / 3,221 | 256 − 280 = −24 | +9 | 108 | −14 | 7.2 | — |
 | All-Evil + Lunar Stele | 19 / 1,574 | 260 − 237 = 23 | +26 | 105 | 13 (16 / 50) | 8.2 | 100 → 14 |

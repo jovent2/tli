@@ -29,7 +29,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import runs as RN  # noqa: E402
-import model as M  # noqa: E402
+import model_cp2 as M  # noqa: E402
 
 RES = json.load(open(os.path.join(RN.EXT, "model", "checkpoint2.json")))
 BLOCK_FILE = os.path.join(RN.EXT, "model", "overrealm_block.json")

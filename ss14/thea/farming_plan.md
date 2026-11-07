@@ -1,4 +1,4 @@
-# Step 2 — 2026-11-07 00:00-02:00 (the forward model's answer; read this first)
+# Step 2 — 2026-11-07 (PARKED: built on the drifted checkpoint-2 branch; the live line is checkpoint 1b, docs/farming.md)
 
 Model: `tools/farm/model.py` checkpoint 2 (`data/ext/model/checkpoint2.md`) → `tools/farm/strat2.py` (`data/ext/model/step2.md`).
 Text multipliers, CN-fitted exponents and bases, Fright 3.5, pets per phase (Fuel trio + Outlaw trio in the Carjack + special slots),
@@ -18,7 +18,7 @@ Regular pet slots: the Fuel trio is the best trio of 59 candidates on every setu
 Keeping Evernight (his All-Evil data says Fright does not stack for him): Evernight + Alert + Sinful + 2 DS affixes + Overrealm =
 169/map, **40/min** (+66%), FE 81, Warlock 0.48. That is the safe step; All-Evil is the +5/min on top that his 20 maps disputed.
 
-## Step 2b — the tree search (`tools/farm/tree2.py`, `data/ext/model/tree2.md`, 2026-11-07 02:30)
+## (parked, drifted branch — see docs/farming.md "Checkpoint 1b") Step 2b — the tree search (`tools/farm/tree2.py`, `data/ext/model/tree2.md`, 2026-11-07 02:30)
 96 points over Outlaw / Afterlight / Lunaria / Profound / Commodities DQ lines (Steiner paths from each root, priced through the
 simulator, knapsack across constellations), on the best compass set per mechanic set (4 slots + probe; Strength in Numbers x1.2 and
 Transgression x1.3 priced from text on map monsters, no CN data inside his exclusions).

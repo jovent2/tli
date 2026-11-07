@@ -23,7 +23,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import runs as RN  # noqa: E402
-import model as M  # noqa: E402
+import model_cp2 as M  # noqa: E402
 import strat2 as S  # noqa: E402
 
 # priced lines per constellation: (substring of the node text, family key for the simulator, kind)

@@ -390,7 +390,17 @@ keys 404 on /detail). 2026-10-30 ~16:00: 908 strategies / 113k runs decoded.
   Sacred Fossil 8.0 (-20%/7d, -37%/14d); UE 16 (-26%); Immolating Flame 81 (-34%); Blueprint Eternity 2,542 (-29%); Shadows 183
   (-19% vs 10-30); Secrets 0.30 flat. Compass costs rising: Alert 37 (+19%), Evernight 21 (+14%), Generous 17.5 (+6%).
 
-### Forward model checkpoint 2 (2026-11-06) — `tools/farm/model.py`, `data/ext/model/checkpoint2.md`
+### Checkpoint 1b (2026-11-07 02:40) — `tools/farm/model.py` = checkpoint 1 + pets per phase, `data/ext/model/checkpoint1b.md`
+After checkpoint 1 the session was compacted; the pet fix was done as a rewrite (`model_cp2.py`) that also brought in an FE split
+(generic + mechanic), a refit rule for unidentified exponents and a generic-item treatment, then a simulator (`strat2.py`) and a tree
+search (`tree2.py`) with text-priced guesses (Strength in Numbers / Transgression, Profound +12% at 27 pts) on top. Vlad called it:
+the ranking's top was driven by the guesses. Parked. The line to continue from is checkpoint 1b: checkpoint 1's code with only the
+agreed pet change (3 regular pets + special slots; Fuel trio all map, Outlaw trio in the Carjack; replicates and fuel lines per the
+matrix). Exponents and free effects identical to checkpoint 1; only the bases moved. Findings from the parked branch worth re-testing
+one at a time, each as its own labelled step with a before/after: (1) Outlaw tree lines do not move whole-map FE (linear check: exponent
+0.02±0.11, DS resonance 1.03±0.13); (2) Generous shows no effect on Vigil loot; (3) the Profound +2% micros / +12% additional block.
+
+### Forward model checkpoint 2 (2026-11-06) — parked, `tools/farm/model_cp2.py`, `data/ext/model/checkpoint2.md`
 - Pets per **phase**, not per loot type: 3 regular drop pets (Fuel trio Chalk / Surging Gold / Twilight Sparks all map, Outlaw trio
   Prof. SOURCE / Shro-Shroom / Sparks swapped in for the Carjack) + the season's special slots always up (Lady Obituary, Melancholy Azure,
   Heartbloom Iris, Twin Inquisitors in Vlad's area dump; `gamelog` m["pets"] lists all 7). Replicates parsed as x(1+2p): Prof. SOURCE recode

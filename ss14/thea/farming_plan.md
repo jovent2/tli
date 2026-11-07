@@ -1,23 +1,22 @@
-# Strat search on checkpoint 1c — 2026-11-07 03:20 (`tools/farm/strat3.py`, `data/ext/model/strat3.md`; read this first)
+# Strat search on checkpoint 1c — 2026-11-07 03:35 (`tools/farm/strat3.py`, `data/ext/model/strat3.md`; read this first)
 
 The card: checkpoint 1c (`data/ext/model/checkpoint1c.md`) = checkpoint 1 + pets per phase + map FE split by text scope (general vs the
 mechanic's own additional) + Generous x1.15 / Bountiful x1.6 as text on rare loot; loot classes per mechanic from the XD matrix
-(`docs/loot_classes.md`). Evaluator: only lines in a fitted class; 4 compass slots + probe (Flourishing is the only probe on the card);
-his seconds; Fright 3.5; Overrealm out of the search. Per-strategy check of the card: CN players get ~85% of the card on Warlock
-(x1.5 per player), ~90% on Remnants (x1.36), ~115% on Vigil-map FE (x1.2); Lunaria / Dark Surge cards off by x2.
+(`docs/loot_classes.md`). Correction 03:30 (Vlad): etor never decodes Grief: Mourn (+15%), the White Night +12%, coffin and goblin-appear
+nodes, while every CN Vigil player shows 27-30 micros, which the graph says needs those nodes -> they are in everyone's tree and in the
+base, not multipliers (the earlier "CN skips White Night" was a decoding gap, not a choice). Evaluator: only lines in a fitted class;
+4 compass slots + probe (Flourishing is the only probe on the card); his seconds; Fright 3.5; Overrealm out of the search. Per-strategy
+check: CN players get ~85% of the card on Warlock (x1.5 per player), ~90% on Remnants (x1.36), ~115% on Vigil-map FE (x1.2).
 
-**With his current tree:** Alert + All-Evil + Generous + Sinful + 2 DS affixes = **55/min** (122 net/map, 133 s; FE 117, Remnants 0.96,
-Warlock 0.62). Without Generous 53.5, without Sinful 53, bare 52.7: the 4th slot is worth ~2/min either way. All-Evil alone + affixes
-48. Alert + Evernight 37, Evernight alone 34. Anything with Lunaria or Dark Surge is lower and its card is untrustworthy anyway.
-Reference: his loop as run with the measured Overrealm block = 26/min on the card (he measures 34).
+**Compasses, with the lines he listed (Outlaw 18 micros + mediums; Vigil 15 micros, +8, +15, WN +12):** Alert + All-Evil + Generous +
+Sinful + 2 DS affixes = **44/min** (97 net/map, 133 s; FE 106, Remnants 0.79, Warlock 0.62). The 4th slot is worth ~1/min either way
+(bare Alert + All-Evil + affixes 42.8). All-Evil alone + affixes 38. Alert + Evernight 31. Lunaria / Dark Surge lower, cards untrustworthy.
+Reference: his loop as run with the measured Overrealm block = 23/min on the card (he measures 34).
 
-**Tree (96 points) on that setup, vs his tree:** 15 more Vigil micros (he has 15 of 30) +16 FE/map; Profound's eleven +2% micros
-(11 pts) +10; the Profound +12% additional +32 for 26 more points (assumed cost; 0 of 467 CN farmers take it); Commodities 15 micros +6;
-Outlaw unchanged (17 micros + the four mediums, he has 18). Full tree: Outlaw 22 / Afterlight 37 / Profound 37 = 96 -> 181 net/map,
-**82/min** on the card. CN Vigil farmers run 27-30 micros + the +8% and nothing else (no Grief: Mourn, no White Night).
-
-Not priced: Bountiful's +70% monster life; spawn nodes (goblin, coffins, boss extra Remnant); Bounty-chest loot (takes no lines);
-his own Warlock share (x0.13 of the card) and All-Evil Fright (x0.35) — the 40-map check decides those.
+**Tree (96 points) on that setup:** Outlaw 24 (19 micros + the four mediums), Afterlight 35 (the whole chain: 30 micros + 8%, passing
+Mourn / White Night), Profound 37 (eleven +2% + the +12% at 25 extra, assumed) -> 152 net/map, **68/min**. Against the lines he has:
+15 more Vigil micros +14 FE/map, Profound micros +9, the +12% +29 (0 of 467 CN farmers take it), Commodities micros +6.
+Not priced: Bountiful's +70% life; spawn nodes; Bounty-chest loot; his Warlock share (x0.13) and All-Evil Fright (x0.35) — 40 maps decide.
 
 # Step 2 — 2026-11-07 (PARKED: built on the drifted checkpoint-2 branch; the live line is checkpoint 1b, docs/farming.md)
 

@@ -178,14 +178,3 @@ runs | setup (compasses, DS affixes, lines) | pool / gen / mech | pred (pred+) /
   Expansion_Mod_-_Vanguard: actual / card over 35 strategies = x1.72 (run-weighted), spread x/ 2.58
   Netherrealm_resonance: actual / card over 50 strategies = x0.26 (run-weighted), spread x/ 1.47
   Flame_Elementium: actual / card over 50 strategies = x1.20 (run-weighted), spread x/ 1.37
-
-# Calibration against Vlad's maps (card only; his lines; Oppressive at his 15%, Profound +12% on the 11-05 tree)
-setup | item | card | his
-Alert + All-Evil 20 maps (pool 4.48, gen 1.61, mech 2.31) | Warlock | 0.65 | 0.10
-Alert + All-Evil 20 maps (pool 4.48, gen 1.61, mech 2.31) | Vanguard | 0.41 | 0.65
-Alert + All-Evil 20 maps (pool 4.48, gen 1.61, mech 2.31) | Tank | 0.24 | 0.40
-Alert + All-Evil (Outlaw card; the wraith FE is on the Vigil card, not here) | FE | 39 | 67
-Alert + All-Evil (Vigil card; the Carjack FE is on the Outlaw card, not here) | FE | 76 | 67
-All-Evil (pool 4.77, gen 1.88, mech 8.36) | Remnants | 0.87 | 0.30 (the All-Evil multiplier that fits him: x1.07 vs text 4.5)
-Evernight 71 maps (pool 4.37, gen 1.88, mech 3.71) | Remnants | 0.45 | 0.535
-Evernight (Vigil card; the Overrealm's FE is not on any card) | FE | 53 | 93

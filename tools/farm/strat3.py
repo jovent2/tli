@@ -127,7 +127,6 @@ CONS = {
                                 "White Night": "White Night Mode can appear", "WN +12%": "During White Night Mode, +12%"}, requires={"WN +12%": "White Night"}),
     "Lunaria": dict(fam="lunaria", micro="+1% additional Drop Quantity for Lunaria gameplay",
                     mediums={"+4%": "+4% additional Drop Quantity for Lunaria gameplay", "+6%": "+6% additional Drop Quantity for Lunaria gameplay"}),
-    "Profound": dict(fam="profound", micro="In Netherrealm stages, +2% Drop Quantity", mediums={"+12% additional": "+12% additional Drop Quantity"}, extra_cost={"+12% additional": 25}),
     "Commodities": dict(fam="commodities", micro="In Netherrealm stages, +1% Drop Quantity", mediums={}),
 }
 
@@ -271,7 +270,7 @@ def allocate(setup, budget):
 
 def main(argv=None):
     ap = argparse.ArgumentParser()
-    ap.add_argument("--budget", type=int, default=96)
+    ap.add_argument("--budget", type=int, default=92, help="Star points for Outlaw / Afterlight / Lunaria / Commodities; Profound has its own 4 Prime points (2 spokes of micro + major)")
     ap.add_argument("--md", default=None)
     a = ap.parse_args(argv)
     load_other()
@@ -310,21 +309,28 @@ def main(argv=None):
     for key, (pm, s, sim) in sorted(best_per.items(), key=lambda kv: -kv[1][0]):
         md.append(f"{pm:5.1f}/min (+lot {sim['per_min_lot']:5.1f}) | {' + '.join(cname(c) for c in key):50s} | with " + (", ".join(cname(c) for c in s["comp"] if c not in key) or "nothing") + f", DS x{s['dsres']} | {top_items(sim, 4)}" + (" | " + "; ".join(sim["flags"]) if sim["flags"] else ""))
     # 2. tree search on the best setup of each mechanic set
-    md.append(f"\n# Tree search ({a.budget} points, DQ lines only; unpriced nodes at 0; Profound +12% = 27 points assumed) on the best compass setup of each mechanic set")
+    md.append(f"\n# Tree search ({a.budget} Star points + 4 Prime for Profound, DQ lines only; unpriced nodes at 0; the +12% spoke also costs 25 Star) on the best compass setup of each mechanic set")
     md.append("rank | /min with tree | /min his tree | net/map | points | setup | tree")
     res = []
     for key, (pm, s, sim) in sorted(best_per.items(), key=lambda kv: -kv[1][0])[:10]:
-        spent, picks, sim2, texts, s2 = allocate(clone(s, nodes={}), a.budget)
-        res.append((sim2["per_min"], s, spent, picks, sim2, pm, texts))
+        # Profound: 4 Prime points = 2 spokes (+2% micro + a major each). Variant A: two spokes of his choice, micros counted, majors unpriced.
+        # Variant B: one spoke is the +12% additional major, which also costs 25 Star Talents (text), so the Star budget drops to 67.
+        for label, star, add_all in (("Profound: 2 free spokes", a.budget, 1.0), ("Profound: +12% spoke (-25 Star)", a.budget - 25, 1.12)):
+            spent, picks, sim2, texts, s2 = allocate(clone(s, nodes={}), star)
+            s2["nodes"]["profound"] = {"In Netherrealm stages, +2% Drop Quantity": 2}; s2["add_all"] = add_all
+            sim2 = simulate(s2)
+            picks = {**picks, "Profound": (4, 0.0, {label: 1}, frozenset(), (label,))}
+            res.append((sim2["per_min"], s, spent + 4, picks, sim2, pm, texts))
     res.sort(key=lambda t: -t[0])
     for k, (pm2, s, spent, picks, sim2, pm, texts) in enumerate(res):
-        summary = "; ".join(f"{con} {p}pt (+{dv:.0f}): " + ", ".join(subset) + f" + {counts.get(CONS[con]['micro'], 0)} micros" for con, (p, dv, counts, tree, subset) in picks.items())
+        summary = "; ".join((f"{con} {p}pt (+{dv:.0f}): " + ", ".join(subset) + f" + {counts.get(CONS[con]['micro'], 0)} micros") if con in CONS else f"{con} 4 Prime: {subset[0]}" for con, (p, dv, counts, tree, subset) in picks.items())
         md.append(f"{k + 1:2d} | {pm2:5.1f} | {pm:5.1f} | {sim2['net']:5.0f} | {spent:3d} | " + ", ".join(cname(c) for c in s["comp"]) + f", DS x{s['dsres']} | {summary}" + (" | " + "; ".join(sim2["flags"]) if sim2["flags"] else ""))
     md.append("\n# The trees, node by node (index:text from the Initial Node outward), top 3")
     for pm2, s, spent, picks, sim2, pm, texts in res[:3]:
         md.append(f"\n## {pm2:.1f}/min — " + ", ".join(cname(c) for c in s["comp"]) + f", DS x{s['dsres']} — {spent} points; items: {top_items(sim2)}")
         for con, (p, dv, counts, tree, subset) in picks.items():
-            md.append(f"  {con} ({p} points, +{dv:.0f} FE/map): " + " -> ".join(path_text(tree, con, texts[con])))
+            if con in CONS:
+                md.append(f"  {con} ({p} points, +{dv:.0f} FE/map): " + " -> ".join(path_text(tree, con, texts[con])))
     text = "\n".join(md); print(text)
     if a.md:
         open(a.md, "w").write(text + "\n")

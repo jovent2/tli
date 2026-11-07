@@ -97,3 +97,10 @@ Card (checkpoint 1c, strat3) for the setup as run, DS x0: gross 222, cost 148, n
 0.30, Tank 0.16, Remnants 0.78. With DS x2 (the strat as proposed): net 122, 55/min; FE 117, Remnants 0.96.
 Item by item vs the card: FE x1.04, Warlock x1.00, Tank x1.2, Vanguard x0.27, Remnants x0.64. The 25 FE of missing gross is Remnants
 (Fright not realised, as on 11-05) + Vanguard; on a 155 FE cost that is 74 -> 42 net. The Warlock gap of 11-05 (0.10) did not repeat.
+
+## 2026-11-07 day — the stack again (Alert + All-Evil + Generous + Sinful), 46 maps; DS resonance from 18:00
+Before resonance (34 maps, 12:06-17:00): gross 240 (median 166), cost 155, net 85/map; 202 s mean / ~150 s median (4 maps of 300-600 s,
+AFK inside); deaths 0.53/map -> 23/min mean, ~30/min at the median map. FE 85, Remnants 0.91 (one 9, several 3s = Elegy), mods 0.85.
+Carjack now runs 20-34 s (let run; last night 12-25 s): mods unchanged (0.85 vs 0.88) -> Carjack duration is NOT the mod gap.
+With one DS resonance affix (12 maps, 18:00-19:50): deaths 1.67/map, FE 36, Remnants 0 in 12, mods 0.5, gross 89, net -66/map.
+The affix made the maps lethal; dying through the 30-s Vigil / Carjack wipes their loot. The +15% never showed.

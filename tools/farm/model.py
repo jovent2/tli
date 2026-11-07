@@ -64,11 +64,13 @@ LOOT_TYPE = [("Flame_Elementium", "fuel"), ("Flame_Sand", "flame_sand"), ("Expan
 LINES = {
     "outlaw": [("+1% additional Drop Quantity for all Security", "add", 0.01), ("+6% additional Drop Quantity for all Security", "add", 0.06),
                ("Super Sonic", "add", 0.23), ("Hyper-Hardened", "add", 0.23), ("for every 10 Escort Bodyguard", "add", 0.10),
-               ("+30% additional Drop Quantity for all Security personnel after", "add", 0.30 * 0.5)],   # Bounty Orders: assume activated half the time on CN
-    # Afterlight: etor's talent keys never decode Grief: Mourn (+15%), the White Night +12% node, the coffin and goblin-appear nodes (0 of 180
-    # players show them) while every player shows 27-30 micros, which the constellation graph says is impossible without passing those
-    # nodes. So they are in every CN player's tree and in the base, not lines to multiply by (2026-11-07 03:30, Vlad caught it).
-    "vigil": [("+1% additional Drop Quantity for the Vigil", "add", 0.01), ("+8% additional Drop Quantity for the Vigil", "add", 0.08)],
+               ("+30% additional Drop Quantity for all Security personnel after", "add", 0.30 * 0.15)],  # Bounty Orders: Oppressive's fitted presence effect on CN is x0.97-1.11 (fit.py), i.e. rarely activated; Vlad ~15%
+    # Afterlight (2026-11-07 03:45, checked on the tlidb graph): Grief: Mourn (+15%, node 50) and the White Night +12% (node 58) are LEAVES
+    # off micros 49 / 57, so 30 micros are reachable without them, and 0 of 180 CN Vigil players show either: CN skips them. The coffin
+    # (19) and goblin-appear (23) nodes are pass-through and also never decode: those two are in every CN tree and in the base. So +15% and
+    # WN +12% are real extra lines (text, exponent from the family's b, unidentified on CN); WN +12% only during White Night (fraction unknown).
+    "vigil": [("+1% additional Drop Quantity for the Vigil", "add", 0.01), ("+8% additional Drop Quantity for the Vigil", "add", 0.08),
+              ("+15% additional Drop Quantity for the Vigil", "add", 0.15), ("During White Night Mode, +12%", "add", 0.12)],
     "lunaria": [("+1% additional Drop Quantity for Lunaria", "add", 0.01), ("+4% additional Drop Quantity for Lunaria", "add", 0.04),
                 ("+6% additional Drop Quantity for Lunaria", "add", 0.06)],
     "darksurge": [],

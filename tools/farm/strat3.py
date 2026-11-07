@@ -38,6 +38,10 @@ SLOTS = 4
 VLAD_NODES = {"outlaw": {"+1% additional Drop Quantity for all Security": 18, "+6% additional Drop Quantity for all Security": 1, "Super Sonic": 1, "for every 10 Escort Bodyguard": 1, "+30% additional Drop Quantity for all Security personnel after": 1},
               "vigil": {"+1% additional Drop Quantity for the Vigil": 15, "+8% additional Drop Quantity for the Vigil": 1, "+15% additional Drop Quantity for the Vigil": 1, "During White Night Mode, +12%": 1}}
 PETS = {f: M.family_pets(M.FAMILIES[f]) for f in M.FAMILIES}
+# nodes that change the mod mix, not the quantity: priced from their fitted presence effect (data/ext/fits/outlaw.md, node dummies)
+NODE_MIX = {"more likely to be Expansion Mod - Warlock": {"360404": 1.44, "360405": 0.94}, "more likely to be Expansion Mod - Vanguard": {"360405": 1.77, "360404": 0.91}}
+# (the Tank node's x1.79 is left out: three nodes that each raise their own type without lowering the others is quantity, not mix, i.e. playstyle)
+WARLOCK_A = None     # None = the fitted pool exponent; a number overrides it (1.0 = text) for the sensitivity run
 OTHER = {}       # family -> (steady, lottery) FE/map of items not on the card, CN run-weighted
 
 
@@ -67,8 +71,12 @@ def predict(fname, item, setup, presence=False):
     cost = dict(setup["comp"]); cost["Deep_Space_Resonance"] = 2 * setup["dsres"]
     pool, gen, mech = M.setup_mult(fname, nodes, cost, item, PETS[fname], split=True)
     gen *= setup.get("add_all", 1.0)
-    lg = c["const"][0] + c["a"][0] * math.log(pool)
+    a = c["a"][0] if (WARLOCK_A is None or fname != "outlaw" or item == M.FE) else WARLOCK_A
+    lg = c["const"][0] + a * math.log(pool)
     lg += (c["b_gen"][0] * math.log(gen) + c["b_mech"][0] * math.log(mech)) if item == M.FE else c["b"][0] * math.log(gen * mech)
+    for sub, eff in NODE_MIX.items():
+        if item in eff and any(sub in k and v > 0 for (f, k), v in nodes.items()):
+            lg += math.log(eff[item])
     if presence:                              # other mechanics present: their measured effect on this card's map FE
         for comp, fam in PRESENCE.items():
             if fam != fname and comp in c and cost.get(comp, 0):
@@ -120,7 +128,8 @@ def top_items(sim, k=5):
 CONS = {
     "Outlaw": dict(fam="outlaw", micro="+1% additional Drop Quantity for all Security personnel",
                    mediums={"+6%": "+6% additional Drop Quantity for all Security", "Super Sonic": "Super Sonic", "Hyper-Hardened": "Hyper-Hardened",
-                            "Oppressive": "+30% additional Drop Quantity for all Security personnel after", "Imperious": "for every 10 Escort Bodyguard"},
+                            "Oppressive": "+30% additional Drop Quantity for all Security personnel after", "Imperious": "for every 10 Escort Bodyguard",
+                            "more Warlock": "more likely to be Expansion Mod - Warlock", "more Vanguard": "more likely to be Expansion Mod - Vanguard"},
                    exclusive=[("Super Sonic", "Hyper-Hardened")]),
     "Afterlight": dict(fam="vigil", micro="+1% additional Drop Quantity for the Vigil",
                        mediums={"+8%": "+8% additional Drop Quantity for the Vigil", "+15%": "+15% additional Drop Quantity for the Vigil",
@@ -272,7 +281,10 @@ def main(argv=None):
     ap = argparse.ArgumentParser()
     ap.add_argument("--budget", type=int, default=92, help="Star points for Outlaw / Afterlight / Lunaria / Commodities; Profound has its own 4 Prime points (2 spokes of micro + major)")
     ap.add_argument("--md", default=None)
+    ap.add_argument("--warlock-a", type=float, default=None, help="override the fitted pool exponent on Outlaw mods (1.0 = text)")
     a = ap.parse_args(argv)
+    global WARLOCK_A
+    WARLOCK_A = a.warlock_a
     load_other()
     md = [f"Strat search on checkpoint 1c — prices {os.path.basename(RN.PRICE_FILE)}, Fright {M.FRIGHT}, {SLOTS} compass slots + probe + beacon, budget {a.budget} points, net FE per in-map minute (+{TOWN:.0f} s town)"]
     # reference: his loop as run, with the measured Overrealm block
@@ -289,7 +301,9 @@ def main(argv=None):
                 continue
             mechs.append(combo)
     out = []
-    for mech, el, si, pr in itertools.product(mechs, [(), ("Generous_Elite_Compass",), ("Bountiful_Elite_Compass",)], [(), ("Sinful_Plunder_Compass",), ("Sinful_Plunder_Compass_%28Artifact%29",)], [(), ("Flourishing_Deep_Space_Probe",)]):
+    elites = [(), ("Generous_Elite_Compass",), ("Bountiful_Elite_Compass",), ("Generous_Elite_Compass", "Bountiful_Elite_Compass")]
+    sinfuls = [(), ("Sinful_Plunder_Compass",), ("Sinful_Plunder_Compass_%28Artifact%29",), ("Sinful_Plunder_Compass", "Sinful_Plunder_Compass_%28Artifact%29")]
+    for mech, el, si, pr in itertools.product(mechs, elites, sinfuls, [(), ("Flourishing_Deep_Space_Probe",)]):
         if len(mech) + len(el) + len(si) > SLOTS:
             continue
         for dsres in (0, 2):

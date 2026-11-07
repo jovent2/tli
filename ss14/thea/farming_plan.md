@@ -1,22 +1,27 @@
-# Strat search on checkpoint 1c — 2026-11-07 03:35 (`tools/farm/strat3.py`, `data/ext/model/strat3.md`; read this first)
+# Strat search on checkpoint 1c — 2026-11-07 03:50 (`tools/farm/strat3.py`, `data/ext/model/strat3.md`; read this first)
 
-The card: checkpoint 1c (`data/ext/model/checkpoint1c.md`) = checkpoint 1 + pets per phase + map FE split by text scope (general vs the
-mechanic's own additional) + Generous x1.15 / Bountiful x1.6 as text on rare loot; loot classes per mechanic from the XD matrix
-(`docs/loot_classes.md`). Correction 03:30 (Vlad): etor never decodes Grief: Mourn (+15%), the White Night +12%, coffin and goblin-appear
-nodes, while every CN Vigil player shows 27-30 micros, which the graph says needs those nodes -> they are in everyone's tree and in the
-base, not multipliers (the earlier "CN skips White Night" was a decoding gap, not a choice). Evaluator: only lines in a fitted class;
-4 compass slots + probe (Flourishing is the only probe on the card); his seconds; Fright 3.5; Overrealm out of the search. Per-strategy
-check: CN players get ~85% of the card on Warlock (x1.5 per player), ~90% on Remnants (x1.36), ~115% on Vigil-map FE (x1.2).
+Card: checkpoint 1c (`data/ext/model/checkpoint1c.md`) = checkpoint 1 + pets per phase + map FE split by text scope + Generous x1.15 /
+Bountiful x1.6 as text; loot classes from the XD matrix (`docs/loot_classes.md`). Afterlight, checked on the tlidb graph: Mourn (+15%)
+and WN +12% are leaves off micros 49 / 57 and 0 of 180 CN Vigil players show them -> CN skips them; they are real extra lines (text,
+family exponent). Coffins (19) / goblin-appear (23) are pass-through, undecoded, in every CN base. Oppressive at his 15% (CN presence
+effect x0.97-1.11: rarely activated there either). "more likely Warlock / Vanguard" nodes priced from their fitted presence effect
+(Warlock x1.44 / Vanguard x0.94; Vanguard x1.77 / Warlock x0.91). Evaluator: only lines in a fitted class; 4 compass slots (two elites
+or two Sinfuls allowed) + probe; his seconds; Fright 3.5; Overrealm out. Per-strategy check: CN gets ~85% of the card on Warlock,
+~90% on Remnants, ~115% on Vigil-map FE; Lunaria / Dark Surge cards off by x2.
 
-**Compasses, with the lines he listed (Outlaw 18 micros + mediums; Vigil 15 micros, +8, +15, WN +12):** Alert + All-Evil + Generous +
-Sinful + 2 DS affixes = **44/min** (97 net/map, 133 s; FE 106, Remnants 0.79, Warlock 0.62). The 4th slot is worth ~1/min either way
-(bare Alert + All-Evil + affixes 42.8). All-Evil alone + affixes 38. Alert + Evernight 31. Lunaria / Dark Surge lower, cards untrustworthy.
-Reference: his loop as run with the measured Overrealm block = 23/min on the card (he measures 34).
+**Compasses (with the lines he listed):** Alert + All-Evil + Generous + Sinful + 2 DS affixes = **55/min** (122 net/map, 133 s;
+FE 117, Remnants 0.96, Warlock 0.62); bare Alert + All-Evil + affixes 53; two elites / two Sinfuls never beat that. All-Evil alone 48.
+Reference: his loop with its measured Overrealm block 26/min on the card (he measures 34).
 
-**Tree (92 Star + 4 Prime):** Outlaw 30-34 (the chain to Super Sonic, Oppressive, Imperious, +6%), Afterlight 35 (the whole chain: 30
-micros + 8%, through Mourn / White Night), Commodities with what is left (+1% micros, ~4 FE/map); Profound = 2 spokes: with the +12%
-spoke (costs 25 Star on top of its 2 Prime) 147 net/map, **66/min**; without it (his Void Variables + extra card) 124 net/map, **56/min**.
-Not priced: Bountiful's +70% life; spawn nodes; Bounty-chest loot; his Warlock share (x0.13) and All-Evil Fright (x0.35) — 40 maps decide.
+**Tree (92 Star + 4 Prime), from empty, on that setup:**
+- Outlaw 29 Star: 3 micros -> +6% (#51) -> 6 micros -> #55 -> more Expansion (#74) -> 2 micros -> more Warlock (#75) -> more Vanguard
+  (#76) -> 4 micros -> Oppressive (#62) -> 3 micros -> Imperious (#66) -> 3 micros -> Super Sonic (#70). 21 micros.
+- Afterlight 37 Star: 9 micros -> coffins (#19) -> +8% (#46) -> replicate (#31) -> 12 micros -> goblin (#23) -> White Night (#54)
+  -> Mourn +15% (#50) -> 9 micros -> WN +12% (#58). 30 micros. (WN +12% priced at face; only live during White Night.)
+- Profound 4 Prime: +2% micro + the +12% additional (costs 25 Star) + one more spoke of his choice -> 198 net/map, **89/min** on the
+  card. Without the +12% (his Void Variables + extra card): Outlaw 37 (27 micros) + Afterlight 37 + Commodities 16 -> 175 net, 79/min.
+CN crowd realises 85-90% of the card. Not priced: Bountiful's +70% life; spawn nodes; Bounty-chest loot; his Warlock share (x0.13) and
+All-Evil Fright (x0.35) — the 40 maps decide.
 
 # Step 2 — 2026-11-07 (PARKED: built on the drifted checkpoint-2 branch; the live line is checkpoint 1b, docs/farming.md)
 

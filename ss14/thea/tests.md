@@ -89,3 +89,11 @@ Quad-damage RNG gives roughly ±10% on a single pull.
 - Factors back on (model, uncapped, each alone = in the product): belt x2.68 (Gale at 232% proj speed, Hasten, +18% double), gloves x2.45,
   TP x1.28, MP x1.49, Aim x1.70, Blizzard x1.71 = x36.2 -> ~206 T uncapped; ~188 T under the 5 T per-hit cap if the x2.85 is all hit size.
 - Not in tests.json until build.json is re-synced (an absolute test on the stale build would only measure the staleness).
+
+## 2026-11-07 00:53-02:49 — the stack, 26 maps (Alert + All-Evil + Generous + Sinful, no probe, NO DS affixes in the log)
+Measured: gross 197, cost 155, net 42/map, 117 s in map -> 18.4 FE/min; deaths 0.31. FE 85, Warlock 0.46, Vanguard 0.08, Tank 0.19,
+Remnants 0.50 (13 drops), Sprout 0. Plus 5 loop maps (Evernight + Shadow + Generous + Sinful + Flourishing): net -63/map, 0 Remnants in 5.
+Card (checkpoint 1c, strat3) for the setup as run, DS x0: gross 222, cost 148, net 74, 33/min at 133 s; FE 82, Warlock 0.46, Vanguard
+0.30, Tank 0.16, Remnants 0.78. With DS x2 (the strat as proposed): net 122, 55/min; FE 117, Remnants 0.96.
+Item by item vs the card: FE x1.04, Warlock x1.00, Tank x1.2, Vanguard x0.27, Remnants x0.64. The 25 FE of missing gross is Remnants
+(Fright not realised, as on 11-05) + Vanguard; on a 155 FE cost that is 74 -> 42 net. The Warlock gap of 11-05 (0.10) did not repeat.
